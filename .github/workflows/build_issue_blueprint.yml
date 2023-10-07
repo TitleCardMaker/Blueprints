@@ -54,7 +54,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: refs/heads/staging
+          branch: refs/heads/master
 
       # Add label that Blueprint has been built
       - name: Add Label
