@@ -310,6 +310,7 @@ def parse_and_create_blueprint():
     with blueprint_file.open('w') as file_handle:
         json_dump(submission['blueprint'], file_handle, indent=2)
     print(f'Wrote Blueprint at blueprints/{letter}/{folder_name}/{blueprint.blueprint_number}/blueprint.json')
+    print(f'{"-" * 25}\n{submission["blueprint"]}\n{"-" * 25}')
 
 
 def _import_existing_blueprints():
