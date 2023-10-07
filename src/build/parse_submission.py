@@ -20,7 +20,7 @@ from requests import get
 from src.database.db import create_new_blueprint
 
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).parent.parent.parent
 BLUEPRINT_FOLDER = ROOT / 'blueprints'
 TEMP_PREVIEW_FILE = ROOT / 'preview.jpg'
 TEMP_FILE = ROOT / 'tmp'
@@ -196,8 +196,7 @@ def download_preview(url: str, blueprint_subfolder: Path):
     print(f'Downloaded preview "{url}"')
 
     # Copy preview into blueprint folder
-    TEMP_PREVIEW_FILE.write_bytes(response.content)
-    copy_file(TEMP_PREVIEW_FILE, blueprint_subfolder / 'preview.jpg')
+    (blueprint_subfolder / 'preview.jpg').write_bytes(response.content)
     # print(f'Copied "{url}" into blueprints/{letter}/{folder_name}/{blueprint.id}/preview.jpg')
 
 
