@@ -121,7 +121,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         issue_regex = re_compile(
             r'^### Series Name\s+(?P<series_name>.+)\s+'
             r'### Series Year\s+(?P<series_year>\d+)\s+'
-            r'### Series Database IDs\s+(?P<database_ids>\d+)\s+'
+            r'### Series Database IDs\s+(?P<database_ids>.+)\s+'
             r'### Creator Username\s+(?P<creator>.+)\s+'
             r'### Blueprint Description\s+(?P<description>[\s\S]*)\s+'
             r'### Blueprint\s+```json\s+(?P<blueprint>[\s\S]*?)```\s+'
