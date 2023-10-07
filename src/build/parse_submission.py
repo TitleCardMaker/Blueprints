@@ -134,6 +134,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
             print(f'Unable to parse Blueprint from Issue')
             print(f'{content=!r}')
             sys_exit(1)
+        data = data.groupdict()
 
     # Get each variable from the issue
     data = {'font_zip': '_No response_'} | data
