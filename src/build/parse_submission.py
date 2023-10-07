@@ -184,7 +184,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         'series_year': data['series_year'],
         'database_ids': parse_database_ids(data['database_ids']),
         'creator': creator,
-        'preview_urls': parse_previews(data['preview_url']),
+        'preview_urls': parse_previews(data['preview_urls']),
         'font_zip_url': font_zip_url,
         'blueprint': blueprint | {
             'creator': creator,
