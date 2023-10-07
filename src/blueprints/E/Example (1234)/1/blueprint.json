@@ -1,0 +1,17 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Fake series to be matched by IMDb ID"
+  ],
+  "preview": [
+    "preview.jpg"
+  ],
+  "created": "2023-10-07T18:57:01"
+}
