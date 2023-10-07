@@ -45,7 +45,7 @@ jobs:
         uses: dariocurr/pytest-summary@main
         with:
           paths: src/tests
-          options: --quiet 
+          options: --quiet
           show: fail
 
       # Comment on Issue with results if all passed

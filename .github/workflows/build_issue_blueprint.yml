@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: refs/heads/staging
+          ref: refs/heads/master
           persist-credentials: false
           fetch-depth: 0
 
@@ -69,7 +69,7 @@ jobs:
               labels: ["created"]
             })
 
-  announce-blueprint-on-discord:
-    needs: create_blueprint_from_issue
-    uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/discord_notification.yml@master
-    secrets: inherit
+  # announce-blueprint-on-discord:
+  #   needs: create_blueprint_from_issue
+  #   uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/discord_notification.yml@master
+  #   secrets: inherit
