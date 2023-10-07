@@ -91,6 +91,27 @@ def parse_database_ids(ids: str) -> dict:
     return database_ids
 
 
+def parse_previews(raw: str) -> list[str]:
+    """
+    Parse the raw preview image markdown into a list of preview URLs.
+
+    >>> parse_previews('![preview](example.jpg) ![preview](example2.jpg)')
+    ['example.jpg', 'example2.jpg']
+
+    Args:
+        raw: Raw Markdown of embedded images to parse. Should be pulled
+            directly from the Issue template.
+
+    Returns:
+        List of preview URLs
+    """
+
+    url_pattern = re_compile(r'\!\[.*?\]\(([^\s]+)\)')
+
+    return url_pattern.findall(raw)
+
+
+
 def parse_submission(data: Optional[dict] = None) -> dict:
     """
     Parse the submission from the `ISSUE_BODY` and `ISSUE_CREATOR`
@@ -123,9 +144,9 @@ def parse_submission(data: Optional[dict] = None) -> dict:
             r'### Series Year\s+(?P<series_year>\d+)\s+'
             r'### Series Database IDs\s+(?P<database_ids>.+)\s+'
             r'### Creator Username\s+(?P<creator>.+)\s+'
-            r'### Blueprint Description\s+(?P<description>[\s\S]*)\s+'
+            r'### Blueprint Description\s+(?P<description>[\s\S]*?)\s+'
             r'### Blueprint\s+```json\s+(?P<blueprint>[\s\S]*?)```\s+'
-            r'### Preview Title Card\s+.*?\[.*\]\((?P<preview_url>.+)\)\s+'
+            r'### Preview Title Cards\s+.*?(?P<preview_urls>[\s\S]*?)\s+'
             r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s*$'
         )
 
@@ -138,19 +159,14 @@ def parse_submission(data: Optional[dict] = None) -> dict:
 
     # Get each variable from the issue
     data = {'font_zip': '_No response_'} | data
-    # print(f'{data=}')
-    series_name = data['series_name'].strip()
-    series_year = data['series_year']
-    database_ids = data['database_ids']
+
     creator = (creator if '_No response_' in data['creator'] else data['creator']).strip()
     description = data['description']
     blueprint = data['blueprint']
-    preview_url = data['preview_url']
     if data.get('font_zip') is None or '_No response_' in data['font_zip']:
         font_zip_url = None
     else:
         font_zip_url = data['font_zip']
-    # print(f'Raw parsed data: {series_name=}\n[{series_year=}\n{creator=}\n{description=}\n{preview_url=}\n{font_zip_url=}')
 
     # Parse blueprint as JSON
     try:
@@ -164,11 +180,11 @@ def parse_submission(data: Optional[dict] = None) -> dict:
     description = [line.strip() for line in description.splitlines() if line.strip()]
 
     return {
-        'series_name': series_name,
-        'series_year': series_year,
-        'database_ids': parse_database_ids(database_ids),
+        'series_name': data['series_name'].strip(),
+        'series_year': data['series_year'],
+        'database_ids': parse_database_ids(data['database_ids']),
         'creator': creator,
-        'preview_url': preview_url,
+        'preview_urls': parse_previews(data['preview_url']),
         'font_zip_url': font_zip_url,
         'blueprint': blueprint | {
             'creator': creator,
@@ -177,13 +193,14 @@ def parse_submission(data: Optional[dict] = None) -> dict:
     }
 
 
-def download_preview(url: str, blueprint_subfolder: Path):
+def download_preview(url: str, index: int, blueprint_subfolder: Path):
     """
     Download the preview image at the given URL and write it to the
-    Blueprint folder. This writes the image as `preview.jpg`.
+    Blueprint folder. This writes the image as `preview{index}.jpg`.
 
     Args:
         url: URL to the preview file to download.
+        index: Index number of this preview
         blueprint_subfolder: Subfolder of the Blueprint to download the
             preview file into.
     """
@@ -193,11 +210,11 @@ def download_preview(url: str, blueprint_subfolder: Path):
         print(f'Unable to download preview file from "{url}"')
         print(response.content)
         sys_exit(1)
-    print(f'Downloaded preview "{url}"')
 
     # Copy preview into blueprint folder
-    (blueprint_subfolder / 'preview.jpg').write_bytes(response.content)
-    # print(f'Copied "{url}" into blueprints/{letter}/{folder_name}/{blueprint.id}/preview.jpg')
+    file = blueprint_subfolder / f'preview{index}.jpg'
+    file.write_bytes(response.content)
+    print(f'Downloaded "{url}" into "{file.resolve()}"')
 
 
 def download_font_files(zip_url: str, blueprint_subfolder: Path) -> None:
@@ -273,10 +290,14 @@ def parse_and_create_blueprint():
     print(f'Created blueprints/{letter}/{folder_name}/{blueprint.blueprint_number}')
 
     # Download preview
-    download_preview(submission['preview_url'], blueprint_subfolder)
+    for index, preview in enumerate(submission['preview_urls']):
+        download_preview(preview, index, blueprint_subfolder)
 
     # Add preview image to blueprint
-    submission['blueprint']['preview'] = ['preview.jpg']
+    submission['blueprint']['previews'] = [
+        f'preview{index}.jpg'
+        for index, _ in enumerate(submission['preview_urls'])
+    ]
 
     # Download any font zip files if provided
     download_font_files(submission['font_zip_url'], blueprint_subfolder)

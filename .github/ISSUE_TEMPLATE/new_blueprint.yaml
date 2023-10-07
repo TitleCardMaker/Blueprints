@@ -63,8 +63,8 @@ body:
   - type: textarea
     id: preview_file
     attributes:
-      label: Preview Title Card
-      description: Upload your preview Title Card here.
+      label: Preview Title Cards
+      description: Upload your preview Title Cards here.
     validations:
       required: true
       
