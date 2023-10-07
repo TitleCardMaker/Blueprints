@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TitleCardMakerBot"
-          git add ./blueprints
+          git add *
           git diff-index --quiet HEAD || git commit -a -m "Create ${{ github.event.issue.user.login }}'s Blueprint #${{ github.event.issue.number }}"
           git pull
 
