@@ -76,7 +76,7 @@ def create_new_blueprint(
     if database_ids.get('tmdb'):
         id_conditions.append(Series.tmdb_id==database_ids['tmdb'])
     if database_ids.get('tvdb'):
-        id_conditions.append(Series.tvdb_id==database_ids['tvdb_id'])
+        id_conditions.append(Series.tvdb_id==database_ids['tvdb'])
 
     # Try and find by database ID
     series = db.query(Series).filter(or_(*id_conditions)).first()
