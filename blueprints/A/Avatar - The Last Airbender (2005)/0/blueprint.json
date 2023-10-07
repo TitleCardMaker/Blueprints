@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "standard",
+    "episode_text_format": "Chapter {episode_number}",
+    "template_ids": [],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Book One: Water",
+      "Book Two: Earth",
+      "Book Three: Fire"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "description": [
+    "Standard card type with the book names (Water/Earth/Fire) as the season titles, and chapter numbers for episode text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

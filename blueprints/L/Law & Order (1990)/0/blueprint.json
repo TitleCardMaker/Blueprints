@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Law and Order",
+      "delete_missing": true,
+      "file": "Friz_Quadrata_Std_Medium.otf"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard card type with custom font"
+  ],
+  "created": "2023-08-11T16:46:47",
+  "previews": [
+    "preview.jpg"
+  ]
+}

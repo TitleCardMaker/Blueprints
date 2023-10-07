@@ -1,0 +1,87 @@
+{
+  "series": {
+    "card_type": "Yozora/RetroTitleCard",
+    "template_ids": []
+  },
+  "episodes": {
+    "s1e4": {
+      "title": "Conduit [X-40253]"
+    },
+    "s1e12": {
+      "title": "Fire [11214893]"
+    },
+    "s1e13": {
+      "title": "Beyond the Sea [X-167512]"
+    },
+    "s1e19": {
+      "title": "Shapes [X-649176]"
+    },
+    "s1e21": {
+      "title": "Tooms [X-129202]"
+    },
+    "s1e22": {
+      "title": "Born Again [X-40271]"
+    },
+    "s2e7": {
+      "title": "3 [73317 & X256933VW]"
+    },
+    "s2e8": {
+      "title": "One Breath [73317]"
+    },
+    "s2e10": {
+      "title": "Red Museum [XWC060361]"
+    },
+    "s3e16": {
+      "title": "Apocrypha (2) [621517]"
+    },
+    "s5e14": {
+      "title": "The Red and the Black (2) [X-152830]"
+    },
+    "s5e15": {
+      "title": "Travelers [X-525652]"
+    },
+    "s5e20": {
+      "title": "The End [X-491679]"
+    },
+    "s6e1": {
+      "title": "The Beginning [111470]"
+    },
+    "s6e5": {
+      "title": "Dreamland II (2) [X-60794 & X-71009]"
+    },
+    "s6e11": {
+      "title": "Two Fathers (1) [X-75560]"
+    },
+    "s6e21": {
+      "title": "Field Trip [X-751483]"
+    },
+    "s7e4": {
+      "title": "Millennium [X-120898]"
+    },
+    "s8e15": {
+      "title": "Deadalive (2) [X-964394]"
+    },
+    "s9e9": {
+      "title": "Provenance (1) [X-97554]"
+    },
+    "s9e10": {
+      "title": "Providence (2) [X-280911]"
+    },
+    "s1e2": {
+      "title": "Deep Throat [DF101364]"
+    },
+    "s3e12": {
+      "title": "War of the Coprophages [X-667386]"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "creator": "azuravian",
+  "description": [
+    "Uses the Retro card with multiple episode titles edited to include the associated X-Files case number in square brackets after the episode title."
+  ],
+  "created": "2023-08-09T05:07:26",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Captain Caveman and the Teen Angels (1977)",
+      "color": "#F7DE66",
+      "delete_missing": true,
+      "file": "Informal011BT-Roman.otf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Olivier Card with the nice Captain Caveman font."
+  ],
+  "created": "2023-08-10T17:45:03",
+  "previews": [
+    "preview.jpg"
+  ]
+}

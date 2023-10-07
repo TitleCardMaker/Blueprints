@@ -1,0 +1,75 @@
+name: Merge Staging to Master
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */4 * * *"
+
+jobs:
+  auto_merge:
+    runs-on: ubuntu-latest
+    outputs:
+      pr_number: ${{ steps.create_pr.outputs.pr_number }}
+
+    steps:
+      # Check out the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Get list of open issues that are labeled as "created"
+      - name: Get Open Issues
+        id: get_issues
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Create a Pull Request to merge staging -> master
+      - name: Create Pull Request
+        id: create_pr
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { repo, owner } = context.repo;
+            const issuesList = JSON.parse(${{ toJSON(steps.get_issues.outputs.data) }}).map(issue => `- Closes #${issue.number}`).join("\n");
+            try {
+              const result = await github.rest.pulls.create({
+                title: `[Auto] Merge Staging to Master [${(new Date()).toLocaleDateString()}]`,
+                owner,
+                repo,
+                head: 'staging',
+                base: 'master',
+                body: `This is an automated pull request.\n\nList of issues to be closed:\n${issuesList}`,
+              });
+
+              // Store the pull request number in the 'pr_number' output variable
+              console.log(`::set-output name=pr_number::${result.data.number}`);
+            } catch (error) {
+              if (error.message.includes('No commits between')) {
+                console.log(`::set-output name=pr_number::NA`);
+              }
+            }
+
+  call-resize-images-workflow:
+    needs: auto_merge
+    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/resize_images.yml@master
+    secrets: inherit
+
+  call-update-database-workflow:
+    needs: [auto_merge, call-resize-images-workflow]
+    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/update_database.yml@master
+    secrets: inherit
+
+  merge-pull-request:
+    needs: [auto_merge, call-resize-images-workflow, call-update-database-workflow]
+    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge Pull Request
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /repos/${{ github.repository }}/pulls/${{ needs.auto_merge.outputs.pr_number }}/merge
+          token: ${{ secrets.GITHUB_TOKEN }}

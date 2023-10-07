@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(221, 161, 98)"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Charlemagne Regular",
+      "delete_missing": true,
+      "file": "charlemagne-regular.otf",
+      "size": 1.2
+    }
+  ],
+  "creator": "Departed",
+  "description": [
+    "Tinted Frame card type with logo on top and episode title on bottom. Uses a font to match the series logo."
+  ],
+  "created": "2023-08-13T16:14:02",
+  "previews": [
+    "preview.jpg"
+  ]
+}

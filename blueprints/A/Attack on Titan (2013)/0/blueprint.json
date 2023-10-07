@@ -1,0 +1,313 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_number}",
+    "template_ids": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s0e2-s0e6",
+      "s0e8-s0e11",
+      "s0e24-s0e30",
+      "s1e1-s1e2",
+      "s1e3-s1e4",
+      "s1e5-s1e13",
+      "s1e14-s1e16",
+      "s1e17-s1e22",
+      "s1e23-s1e25",
+      "s4e1-s4e16",
+      "s4e17-s4e28",
+      "s4e29-s4e30"
+    ],
+    "season_title_values": [
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "The Fall of Shiganshina",
+      "Humanity's Comeback",
+      "The Struggle for Trost",
+      "Eve of the Counterattack",
+      "The 57th Exterior Scouting Mission",
+      "Assault on Stohess",
+      "The Final Season, Part 1",
+      "The Final Season, Part 2",
+      "The Final Season, Part 3"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "To You, in 2000 Years",
+      "match_title": false
+    },
+    "s1e2": {
+      "title": "That Day",
+      "match_title": false
+    },
+    "s1e3": {
+      "title": "A Dim Light Amid Despair",
+      "match_title": false
+    },
+    "s1e4": {
+      "title": "The Night of the Closing Ceremony",
+      "match_title": false
+    },
+    "s1e5": {
+      "title": "First Battle",
+      "match_title": false
+    },
+    "s1e6": {
+      "title": "The World the Girl Saw",
+      "match_title": false
+    },
+    "s1e7": {
+      "title": "Small Blade",
+      "match_title": false
+    },
+    "s1e8": {
+      "title": "I Can Hear His Heartbeat",
+      "match_title": false
+    },
+    "s1e9": {
+      "title": "Whereabouts of His Left Arm",
+      "match_title": false
+    },
+    "s1e10": {
+      "title": "Response",
+      "match_title": false
+    },
+    "s1e11": {
+      "title": "Idol",
+      "match_title": false
+    },
+    "s1e12": {
+      "title": "Wound",
+      "match_title": false
+    },
+    "s1e13": {
+      "title": "Primal Desire",
+      "match_title": false
+    },
+    "s0e1": {
+      "episode_text": "Episode 13.1"
+    },
+    "s1e14": {
+      "title": "Can't Look into His Eyes Yet",
+      "match_title": false
+    },
+    "s0e2": {
+      "title": "Day 1 & 2",
+      "match_title": false,
+      "episode_text": "Episode 2"
+    },
+    "s1e15": {
+      "title": "Special Operations Squad",
+      "match_title": false
+    },
+    "s1e16": {
+      "title": "What Needs to be Done Now",
+      "match_title": false
+    },
+    "s1e17": {
+      "title": "Female Titan",
+      "match_title": false
+    },
+    "s1e18": {
+      "title": "Forest of Giant Trees",
+      "match_title": false
+    },
+    "s1e19": {
+      "title": "Bite",
+      "match_title": false
+    },
+    "s0e3": {
+      "title": "Day 3 & 4",
+      "match_title": false,
+      "episode_text": "Episode 3"
+    },
+    "s1e20": {
+      "title": "Erwin Smith",
+      "match_title": false
+    },
+    "s1e21": {
+      "title": "Crushing Blow",
+      "match_title": false
+    },
+    "s1e22": {
+      "title": "The Defeated",
+      "match_title": false
+    },
+    "s1e23": {
+      "title": "Smile",
+      "match_title": false
+    },
+    "s0e4": {
+      "title": "Day 5, 6 & 7",
+      "match_title": false,
+      "episode_text": "Episode 4"
+    },
+    "s1e24": {
+      "title": "Mercy",
+      "match_title": false
+    },
+    "s1e25": {
+      "title": "Wall",
+      "match_title": false
+    },
+    "s0e5": {
+      "title": "Day 8, 9 & 10",
+      "match_title": false,
+      "episode_text": "Episode 5"
+    },
+    "s0e6": {
+      "title": "Day 11, 12 & 13",
+      "match_title": false,
+      "episode_text": "Episode 6"
+    },
+    "s0e7": {
+      "season_text": "OVA",
+      "episode_text": "Episode 25.1"
+    },
+    "s0e8": {
+      "title": "Day 14, 15 & 16",
+      "match_title": false,
+      "episode_text": "Episode 8"
+    },
+    "s0e9": {
+      "title": "Day 17, 18 & 19",
+      "match_title": false,
+      "episode_text": "Episode 9"
+    },
+    "s0e10": {
+      "title": "Day 20, 21 & 22",
+      "match_title": false,
+      "episode_text": "Episode 10"
+    },
+    "s0e11": {
+      "title": "Day 23, 24 & 25",
+      "match_title": false,
+      "episode_text": "Episode 11"
+    },
+    "s0e12": {
+      "season_text": "OVA",
+      "episode_text": "Episode 25.2"
+    },
+    "s0e13": {
+      "season_text": "OVA",
+      "episode_text": "Episode 25.3"
+    },
+    "s0e14": {
+      "episode_text": "Episode 14"
+    },
+    "s0e15": {
+      "season_text": "OVA",
+      "episode_text": "Episode 49.1"
+    },
+    "s0e16": {
+      "episode_text": "Episode 16"
+    },
+    "s0e17": {
+      "season_text": "OVA",
+      "episode_text": "Episode 49.2"
+    },
+    "s0e18": {
+      "episode_text": "Episode 18"
+    },
+    "s0e19": {
+      "episode_text": "Episode 19"
+    },
+    "s0e20": {
+      "season_text": "OVA",
+      "episode_text": "Episode 37.1"
+    },
+    "s0e21": {
+      "episode_text": "Episode 21"
+    },
+    "s0e22": {
+      "season_text": "OVA",
+      "episode_text": "Episode 37.2"
+    },
+    "s0e23": {
+      "season_text": "OVA",
+      "episode_text": "Episode 40.1"
+    },
+    "s0e24": {
+      "title": "Levi Squad #38 / #39 / #40",
+      "match_title": false,
+      "episode_text": "Episode 24"
+    },
+    "s0e25": {
+      "title": "Levi Squad #41 / #42 / #43",
+      "match_title": false,
+      "episode_text": "Episode 25"
+    },
+    "s0e26": {
+      "title": "Levi Squad #44 / #45 / #46",
+      "match_title": false,
+      "episode_text": "Episode 26"
+    },
+    "s0e28": {
+      "title": "Levi Squad #50 / #51 / #52",
+      "match_title": false,
+      "episode_text": "Episode 28"
+    },
+    "s0e29": {
+      "title": "Levi Squad #53 / #54 / #55",
+      "match_title": false,
+      "episode_text": "Episode 29"
+    },
+    "s0e30": {
+      "title": "Levi Squad #56 / #57 / #58 / #59",
+      "match_title": false,
+      "episode_text": "Episode 30"
+    },
+    "s0e27": {
+      "title": "Levi Squad #47 / #48 / #49",
+      "match_title": false,
+      "episode_text": "Episode 27"
+    },
+    "s0e31": {
+      "episode_text": "Episode 31"
+    },
+    "s0e32": {
+      "episode_text": "Episode 32"
+    },
+    "s0e33": {
+      "episode_text": "Episode 33"
+    },
+    "s0e34": {
+      "episode_text": "Episode 34"
+    },
+    "s0e35": {
+      "episode_text": "Episode 35"
+    },
+    "s0e36": {
+      "episode_text": "Episode 36"
+    },
+    "s0e37": {
+      "episode_text": "Episode 37"
+    },
+    "s0e38": {
+      "episode_text": "Episode 38"
+    },
+    "s0e39": {
+      "episode_text": "Episode 39"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "description": [
+    "Anime card type with the arc season titles for season 1, the Final Season, and the OVAs.",
+    "The titles of season 1 are modified to remove the arc (e.g. The Fall of Shiganshina..) text.",
+    "Absolute episode numbering is used, with the OVAs being positioned by release, not chronologically.",
+    "The titles of the Chibi Episodes are also shortened."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

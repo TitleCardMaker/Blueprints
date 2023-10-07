@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Peacemaker",
+      "color": "#FBD609",
+      "delete_missing": true,
+      "file": "PeacemakerForce-rgeKB.otf"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Starwars card with PeacemakerForce-rgeKB font in yellow."
+  ],
+  "created": "2023-08-11T13:15:06",
+  "previews": [
+    "preview.jpg"
+  ]
+}

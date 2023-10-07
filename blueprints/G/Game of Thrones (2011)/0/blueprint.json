@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Game of Thrones",
+      "delete_missing": true,
+      "file": "Game of Thrones.ttf",
+      "size": 0.85
+    }
+  ],
+  "creator": "Departed",
+  "description": [
+    "Uses Logo Color Match with a Game of Thrones font"
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

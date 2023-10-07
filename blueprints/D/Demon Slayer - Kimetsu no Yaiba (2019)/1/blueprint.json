@@ -1,0 +1,51 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Finding My Life's Purpose",
+      "Mugen Train",
+      "Entertainment District",
+      "Swordsmith Village"
+    ],
+    "extra_keys": [
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "-40"
+    ],
+    "template_ids": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Demon Slayer",
+      "delete_missing": true,
+      "file": "Blood Crow Condensed.ttf",
+      "interline_spacing": -20,
+      "size": 1.2,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with arc season titles, Japanese Kanji, and the custom Series Font."
+  ],
+  "created": "2023-09-24T03:55:21",
+  "previews": [
+    "preview.jpg"
+  ]
+}

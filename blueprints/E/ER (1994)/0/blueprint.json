@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "ER",
+      "delete_missing": true,
+      "file": "Letter_Gothic_Bold.ttf",
+      "interline_spacing": 30,
+      "size": 1.25,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "GrazedNutsack",
+  "description": [
+    "Simple \"Standard\" card type with a white lowercase \"Letter Gothic Bold\" font (similar to end credits font) as the episode text."
+  ],
+  "created": "2023-09-22T00:03:02",
+  "previews": [
+    "preview.jpg"
+  ]
+}

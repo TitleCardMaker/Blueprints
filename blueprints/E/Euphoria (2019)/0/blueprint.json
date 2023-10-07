@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Euphoria (US) 2019",
+      "color": "white",
+      "delete_missing": true,
+      "file": "Work Sans Extra Light.ttf",
+      "title_case": "lower",
+      "vertical_shift": -160
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Tinted Card used with the font \"Work Sans Extra Light\" in lower case (free to use)."
+  ],
+  "created": "2023-08-11T01:34:33",
+  "previews": [
+    "preview.jpg"
+  ]
+}

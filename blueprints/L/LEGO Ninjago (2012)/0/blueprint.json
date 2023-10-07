@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Lego Ninja go",
+      "delete_missing": true,
+      "file": "Ninjago.otf",
+      "title_case": "title"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Anime Card with the nice font Ninjago Font."
+  ],
+  "created": "2023-08-11T13:14:35",
+  "previews": [
+    "preview.jpg"
+  ]
+}

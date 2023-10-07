@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Boys",
+      "color": "#EC1B17",
+      "delete_missing": true,
+      "file": "Charlie don't surf.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "StarWars cards with The Boys font."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

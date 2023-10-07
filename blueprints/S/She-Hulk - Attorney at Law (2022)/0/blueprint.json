@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "banner_fill_color",
+      "title_text_rotation_angle",
+      "index_text_rotation_angle"
+    ],
+    "extra_values": [
+      "rgba(127, 223, 119, 0.6)",
+      "random[-4, 4]",
+      "random[-4, -3]"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "azuravian",
+  "description": [
+    "Comic card with She-Hulk green for the panels and random rotation."
+  ],
+  "created": "2023-08-24T01:48:15",
+  "previews": [
+    "preview.jpg"
+  ]
+}

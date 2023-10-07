@@ -1,0 +1,43 @@
+name: Update the Database and README Files
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  pull_request:
+    types: [ 'opened', 'edited', 'reopened', 'synchronize' ]
+
+jobs:
+  build_master_blueprint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: refs/heads/staging
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: (Python) Lint Blueprints, Update Database, Build Readmes
+        run: |
+          python entrypoint.py --lint-blueprints --update-database --build-readme
+
+      - name: Commit Updated Blueprints
+        run: |
+          git config pull.rebase false
+          git config --local user.email "action@github.com"
+          git config --local user.name "TitleCardMakerBot"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "Update Blueprint and README Files"
+          git pull
+
+      - run: git pull
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: refs/heads/staging

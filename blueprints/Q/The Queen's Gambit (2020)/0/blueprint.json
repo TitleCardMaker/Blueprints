@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Queen's Gambit (2020)",
+      "color": "white",
+      "delete_missing": true,
+      "file": "PlantinMTProSmBd.TTF",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Anime Card & Platin Font in white color"
+  ],
+  "created": "2023-08-10T17:45:29",
+  "previews": [
+    "preview.jpg"
+  ]
+}

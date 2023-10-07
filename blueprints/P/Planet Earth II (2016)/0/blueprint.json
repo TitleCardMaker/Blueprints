@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "add_bounding_box",
+      "darken",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "True",
+      "box",
+      "-80 -10 -80 -10"
+    ],
+    "template_ids": [],
+    "font_title_case": "title",
+    "font_size": 1.5,
+    "font_kerning": 0.15
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Mountain Brilliant",
+      "delete_missing": true,
+      "file": "Mountain Brilliant.ttf"
+    }
+  ],
+  "creator": "azuravian",
+  "description": [
+    "Landscape card with a darkened bounding box using a script font."
+  ],
+  "created": "2023-08-24T04:38:17",
+  "previews": [
+    "preview.jpg"
+  ]
+}

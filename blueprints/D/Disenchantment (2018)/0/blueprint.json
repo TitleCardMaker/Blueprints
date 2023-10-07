@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "3"
+    ],
+    "season_title_values": [
+      "The Final Season"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Disenchantment",
+      "color": "#F5D54C",
+      "delete_missing": true,
+      "file": "Tuers Cardboard.ttf",
+      "replacements_in": [
+        "\u00f8",
+        ".",
+        "!"
+      ],
+      "replacements_out": [
+        "o",
+        ",",
+        ""
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using the Series font, and \"The Final Season\" used as the third season title."
+  ],
+  "created": "2023-09-04T02:14:01",
+  "previews": [
+    "preview.jpg"
+  ]
+}

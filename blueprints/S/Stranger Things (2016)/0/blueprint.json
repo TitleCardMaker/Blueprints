@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Stranger Things 2016",
+      "color": "#EC1E24",
+      "delete_missing": true,
+      "file": "Benguiat Bold.ttf",
+      "size": 0.8
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Olivier card & Benguiat Bold font in red."
+  ],
+  "created": "2023-08-14T16:59:04",
+  "previews": [
+    "preview.jpg"
+  ]
+}

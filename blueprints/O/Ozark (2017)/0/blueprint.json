@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Ozark",
+      "color": "#FFFFFF",
+      "delete_missing": true,
+      "file": "ozark.otf"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard card format with custom font"
+  ],
+  "created": "2023-08-11T20:50:58",
+  "previews": [
+    "preview.jpg"
+  ]
+}

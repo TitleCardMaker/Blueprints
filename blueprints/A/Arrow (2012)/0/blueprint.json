@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "title_text_rotation_angle",
+      "index_text_rotation_angle",
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "random[-4, 4]",
+      "random[-4, -3]",
+      "rgba(122,249,121,0.6)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Comic Book card with randomized banner angles for the title and index text.",
+    "The banners are colored to match the \"Arrow\" green used in the original comics."
+  ],
+  "created": "2023-08-07T20:41:56",
+  "previews": [
+    "preview.jpg"
+  ]
+}

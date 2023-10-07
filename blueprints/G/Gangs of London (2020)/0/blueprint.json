@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "hide_season_text": false,
+    "hide_episode_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Gangs of London (2020)",
+      "color": "#EEF4F2",
+      "delete_missing": true,
+      "file": "Johnston ITC Std Bold.otf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Fade card with ITC Johnston Bold font."
+  ],
+  "created": "2023-08-11T13:18:29",
+  "previews": [
+    "preview.jpg"
+  ]
+}

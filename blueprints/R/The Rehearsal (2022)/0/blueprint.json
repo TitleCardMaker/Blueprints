@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Rehersal",
+      "color": "rgb(64, 83, 67)",
+      "delete_missing": true,
+      "file": "ITC_Panache_W01_Black.ttf",
+      "kerning": 10.0,
+      "size": 1.15
+    }
+  ],
+  "creator": "rtgurley, CollinHeist",
+  "description": [
+    "Standard Card format with green custom font.  Based on CollinHeist config file."
+  ],
+  "created": "2023-08-11T23:57:52",
+  "previews": [
+    "preview.jpg"
+  ]
+}

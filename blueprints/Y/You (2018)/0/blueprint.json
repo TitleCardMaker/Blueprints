@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "YOU",
+      "delete_missing": true,
+      "file": "YOU.ttf"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard Card layout with a replica of the YOU font"
+  ],
+  "created": "2023-08-09T03:03:35",
+  "previews": [
+    "preview.jpg"
+  ]
+}

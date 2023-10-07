@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch",
+    "template_ids": [],
+    "font_color": "white"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Futura Book",
+      "delete_missing": true,
+      "file": "Futura Book.otf"
+    }
+  ],
+  "creator": "Departed",
+  "description": [
+    "Variation of TitleColorMatch with Futura Book font to match the Orphan Black logo."
+  ],
+  "created": "2023-08-13T20:00:20",
+  "previews": [
+    "preview.jpg"
+  ]
+}

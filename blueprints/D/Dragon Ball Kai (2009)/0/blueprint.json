@@ -1,0 +1,72 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1-3",
+      "4-31",
+      "32-54",
+      "55-58",
+      "59-67",
+      "68-75",
+      "76-82",
+      "83-98",
+      "99-105",
+      "106-114",
+      "115-122",
+      "123-140",
+      "141-155",
+      "156-165",
+      "166-167"
+    ],
+    "season_title_values": [
+      "Raditz Saga",
+      "Vegeta Saga",
+      "Captain Ginyu Saga",
+      "Trunks Saga",
+      "Androids Saga",
+      "Imperfect Cell Saga",
+      "Perfect Cell Saga",
+      "Cell Games Saga",
+      "Great Saiyaman Saga",
+      "World Tournament Saga",
+      "Babidi Saga",
+      "Majin Buu Saga",
+      "Fusion Saga",
+      "Kid Buu Saga",
+      "Peaceful World Saga"
+    ],
+    "episode_text_format": "Episode {absolute_number}",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(234,51,35)"
+    ],
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dragon Ball",
+      "color": "rgb(252,235,80)",
+      "delete_missing": true,
+      "file": "Saiyan Sans Modified.otf",
+      "kerning": 0.8,
+      "interword_spacing": 30,
+      "size": 1.2,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the arc season titles, absolute episode numbering, and the Saiyan Sans Font (I modified to include some special characters) colored yellow and red.",
+    "Kanji is not added because of the spacing on the custom font."
+  ],
+  "created": "2023-08-26T18:53:41",
+  "previews": [
+    "preview.jpg"
+  ]
+}

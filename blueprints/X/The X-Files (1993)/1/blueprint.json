@@ -1,0 +1,36 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "font_id": 0,
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "frame_width",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "8",
+      "1.2"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "XFiles",
+      "delete_missing": true,
+      "file": "The X-Files.ttf"
+    }
+  ],
+  "creator": "Ziggy73701",
+  "description": [
+    "Tinted Frame, using wider border.. logo moved to top and title at bottom using rounded typewriter font."
+  ],
+  "created": "2023-09-12T16:19:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

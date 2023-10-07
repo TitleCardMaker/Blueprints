@@ -1,0 +1,52 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_number}",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(234,51,35)"
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Prison Planet Arc",
+      "Universal Conflict Arc",
+      "Universe Creation Arc",
+      "New Space-Time War Arc",
+      "Supreme Kai of Time Arc"
+    ],
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dragon Ball",
+      "color": "rgb(252,235,80)",
+      "delete_missing": true,
+      "file": "Saiyan Sans Modified.otf",
+      "kerning": 0.8,
+      "interword_spacing": 30,
+      "size": 1.2,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the arc season titles, absolute episode numbering, and the Saiyan Sans Font (I modified to include some special characters) colored yellow and red.",
+    "Kanji is not added because of the spacing on the custom font."
+  ],
+  "created": "2023-08-26T18:54:58",
+  "previews": [
+    "preview.jpg"
+  ]
+}

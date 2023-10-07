@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Wild Kratts",
+      "color": "#F34506",
+      "delete_missing": true,
+      "file": "BADABB__.TTF"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Anime card type with custom font"
+  ],
+  "created": "2023-08-11T16:41:39",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Hawkeye 2021",
+      "color": "#FDE83F",
+      "delete_missing": true,
+      "file": "howbai-font.ttf",
+      "interline_spacing": 40,
+      "size": 1.6,
+      "title_case": "lower",
+      "vertical_shift": 50
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Olivier Card using howbai font in yellow as per TV show."
+  ],
+  "created": "2023-08-11T13:17:22",
+  "previews": [
+    "preview.jpg"
+  ]
+}

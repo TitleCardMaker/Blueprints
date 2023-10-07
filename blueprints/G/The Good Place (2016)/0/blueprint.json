@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "overline",
+    "extra_keys": [
+      "line_color"
+    ],
+    "extra_values": [
+      "rgb(250,227,76)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Overline card with the show's yellow as the line color."
+  ],
+  "created": "2023-09-15T22:44:02",
+  "previews": [
+    "preview.jpg"
+  ]
+}

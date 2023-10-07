@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "hide_episode_text": true,
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Cora",
+      "Julian",
+      "Jamie",
+      "Percy"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card type with the episode text hidden (as it's the same as the Episode titles), and \"Cora\", \"Julian\", \"Jamie\", and \"Percy\" used for the season titles."
+  ],
+  "created": "2023-08-08T00:27:51",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "add_bounding_box",
+      "darken",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "True",
+      "box",
+      "-29 0 0 0"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The White Lotus",
+      "color": "rgb(214,196,181)",
+      "delete_missing": true,
+      "file": "Trajan Bold.ttf",
+      "kerning": 0.4
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Landscape card with custom text matching the Series logo / opening (Trajan Bold)."
+  ],
+  "created": "2023-08-18T03:10:53",
+  "previews": [
+    "preview.jpg"
+  ]
+}

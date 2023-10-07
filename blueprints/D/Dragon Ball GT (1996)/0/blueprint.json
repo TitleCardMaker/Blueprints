@@ -1,0 +1,50 @@
+{
+  "series": {
+    "card_type": "anime",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(234,51,35)"
+    ],
+    "episode_text_format": "Episode {absolute_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "s3e1-s3e7",
+      "s3e8-s3e24"
+    ],
+    "season_title_values": [
+      "Black Star Dragon Ball Saga",
+      "Baby Saga",
+      "Super Android 17",
+      "The Shadow Dragons Saga"
+    ],
+    "template_ids": [],
+    "font_id": 0
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dragon Ball",
+      "color": "rgb(252,235,80)",
+      "delete_missing": true,
+      "file": "Saiyan Sans Modified.otf",
+      "kerning": 0.8,
+      "interword_spacing": 30,
+      "size": 1.2,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the arc season titles, absolute episode numbering, and the \"Dragon Ball\" Saiyan Font colored yellow and red.",
+    "Kanji is not added because of the spacing on the custom font."
+  ],
+  "created": "2023-08-26T18:52:43",
+  "previews": [
+    "preview.jpg"
+  ]
+}

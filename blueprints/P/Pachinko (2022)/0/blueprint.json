@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "0.65"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card type with a shrunken logo as the top element, and the title (Chapter ..) as the lower element."
+  ],
+  "created": "2023-08-13T20:41:26",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "[{title_text}]"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Scrubs",
+      "delete_missing": true,
+      "file": "tsslogo.ttf",
+      "replacements_in": [
+        "\u00e9",
+        "\u00e0"
+      ],
+      "replacements_out": [
+        "e",
+        "a"
+      ],
+      "size": 1.4,
+      "title_case": "lower",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with all the titles formatted like the logo - e.g. [title], using the Series font."
+  ],
+  "created": "2023-08-07T21:17:25",
+  "previews": [
+    "preview.jpg"
+  ]
+}

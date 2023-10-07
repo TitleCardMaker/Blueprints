@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_number}",
+    "template_ids": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "episode_text": "Episode 16.5"
+    },
+    "s0e2": {
+      "episode_text": "Episode 23.5"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with Japanese translations, and absolute episode numbering.",
+    "The \"Eris the Goblin Slayer\" and \"Guardian Fitz\" OVAs/Specials are numbered where they take place chronologically."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

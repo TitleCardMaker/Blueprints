@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Foundation",
+      "delete_missing": true,
+      "file": "FoundationTitlesHand-SemiBold-v0.85.ttf"
+    }
+  ],
+  "creator": "GrazedNutsack",
+  "description": [
+    "Simple \"Standard\" card type with a white \"Foundation\" font as the episode text."
+  ],
+  "created": "2023-09-21T14:49:33",
+  "previews": [
+    "preview.jpg"
+  ]
+}

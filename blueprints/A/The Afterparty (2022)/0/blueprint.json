@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "tinted glass",
+    "episode_text_format": "{season_text} | {episode_number_cardinal}",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "Xavier",
+      "Edgar"
+    ],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(247,203,77)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card with \"Xavier\" and \"Edgar\" (the season victim) used as the season titles, and the episode number written as one, two, etc."
+  ],
+  "created": "2023-09-04T02:31:08",
+  "previews": [
+    "preview.jpg"
+  ]
+}

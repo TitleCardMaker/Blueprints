@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "What We Do in the Shadows",
+      "color": "#6EEC47",
+      "delete_missing": true,
+      "file": "Halja Illuminated.ttf",
+      "size": 1.35,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the Series font in a thematic green color."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

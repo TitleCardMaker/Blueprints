@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "white border",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Master of None (2015)",
+      "delete_missing": true,
+      "file": "ITC Avant Garde Gothic Pro-Bold Oblique.otf"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "White border card and ITC Avant Garde Gothic Pro-Bold Oblique font."
+  ],
+  "created": "2023-08-11T13:31:31",
+  "previews": [
+    "preview.jpg"
+  ]
+}

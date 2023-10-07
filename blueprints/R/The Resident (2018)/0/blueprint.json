@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Resident 2018",
+      "delete_missing": true,
+      "file": "News Gothic Condensed Bold.otf"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Tinted Frame card with News Gothic Condensed Bold font in white."
+  ],
+  "created": "2023-08-11T13:19:08",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Lupin 2021",
+      "color": "#FE6B1E",
+      "delete_missing": true,
+      "file": "SansThirteenBlack.ttf",
+      "size": 1.2,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Oliver card with SansThirteenBlack font (Offical one is Titling Gothic FB Std Compressed Black font not free of charge) with the right orange color."
+  ],
+  "created": "2023-08-14T16:57:57",
+  "previews": [
+    "preview.jpg"
+  ]
+}

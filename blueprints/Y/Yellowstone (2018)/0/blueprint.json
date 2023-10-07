@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "template_ids": [],
+    "font_size": 1.25
+  },
+  "episodes": {
+    "s3e2": {
+      "title": "Freight Trains & Monsters"
+    },
+    "s4e8": {
+      "font_size": 1.1
+    },
+    "s5e1": {
+      "font_size": 1.1
+    },
+    "s5e6": {
+      "font_size": 1.1
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Yellowstone",
+      "color": "#ea9a27",
+      "delete_missing": true,
+      "file": "ZillaSlab-Medium.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "azuravian",
+  "description": [
+    "Frame title card using the Zilla Slab font (similar to the proprietary Yellowstone font) in the color of the series logo."
+  ],
+  "created": "2023-08-08T19:50:47",
+  "previews": [
+    "preview.jpg"
+  ]
+}

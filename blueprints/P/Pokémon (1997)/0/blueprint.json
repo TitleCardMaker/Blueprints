@@ -1,0 +1,132 @@
+{
+  "description": [
+    "Anime title cards with absolute episode numbering, arc season titles, and the show font.",
+    "Any Episodes without an absolute episode number use the normal episode number",
+    "Custom season text is used on any banned or unaired Episodes."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": [
+      0
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e82",
+      "s2e1-s2e36",
+      "s3e1-s3e41",
+      "s4e1-s4e52",
+      "s5e1-s5e65",
+      "s6e1-s6e40",
+      "s7e1-s7e52",
+      "s8e1-s8e52",
+      "s9e1-s9e47",
+      "s10e1-s10e51",
+      "s11e1-s11e52",
+      "s12e1-s12e52",
+      "s13e1-s13e34",
+      "s14e1-s14e48",
+      "s14e49-s14e84",
+      "s15e1-s15e13",
+      "s15e14-s15e58",
+      "s16e1-s16e48",
+      "s16e49-s16e93",
+      "s17e1-s17e47",
+      "s18e1-s18e43",
+      "s18e44-s18e92",
+      "s18e93-s18e146",
+      "s19e1-s19e48",
+      "s19e49-s19e90",
+      "s19e91-s19e136",
+      "s20e1-s20e50"
+    ],
+    "season_title_values": [
+      "Indigo League",
+      "Orange Islands",
+      "The Johto Journeys",
+      "Johto League Champions",
+      "Master Quest",
+      "Advanced",
+      "Advanced Challenge",
+      "Advanced Battle",
+      "Battle Frontier",
+      "Diamond and Pearl",
+      "Diamond and Pearl: Battle Dimension",
+      "Diamond and Pearl: Galactic Battles",
+      "Diamond and Pearl: Sinnoh League Victors",
+      "Black & White",
+      "Black & White: Rival Destinies",
+      "Black & White: Rival Destinies",
+      "Black & White: Adventures in Unova",
+      "XY",
+      "XY: Kalos Quest",
+      "XYZ",
+      "Sun & Moon",
+      "Sun & Moon: Ultra Adventures",
+      "Sun & Moon: Ultra Legends",
+      "Journeys",
+      "Master Journeys",
+      "Ultimate Journeys",
+      "Horizons"
+    ],
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "rgb(64,107,175)"
+    ],
+    "font_title_case": "source"
+  },
+  "episodes": {
+    "s5e41": {
+      "season_text": "Banned"
+    },
+    "s0e75": {
+      "season_text": "Unaired"
+    },
+    "s0e73": {
+      "season_text": "Unaired"
+    },
+    "s0e62": {
+      "season_text": "XYZ"
+    },
+    "s0e77": {
+      "season_text": "Unaired"
+    },
+    "s16e17": {
+      "episode_text": "Episode 820.5"
+    },
+    "s19e119": {
+      "season_text": "Unaired"
+    }
+  },
+  "templates": [
+    {
+      "episode_text_format": "Episode {absolute_number}",
+      "name": "Absolute Episode Numbering",
+      "filters": [
+        {
+          "argument": "Absolute Number",
+          "operation": "is not null",
+          "reference": ""
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Pok\u00e9mon",
+      "color": "rgb(247,205,70)",
+      "file": "Pokemon Solid.ttf",
+      "title_case": "source",
+      "size": 1.1,
+      "kerning": 0.5,
+      "stroke_width": 5,
+      "delete_missing": true
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

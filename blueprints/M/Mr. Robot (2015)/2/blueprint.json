@@ -1,0 +1,35 @@
+{
+  "description": [
+    "Tinted Glass card with custom show font, using the show colors for title and episode text."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "episode_text_format": "MR. ROBOT | S{season_number}.0_E{episode_number}.0",
+    "template_ids": [],
+    "extra_keys": [
+      "episode_text_color",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "rgb(202,34,34)",
+      "40 -10 0 0"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Mr. Robot (Tinted Glass)",
+      "color": "rgb(202,34,34)",
+      "file": "mr_robot.ttf",
+      "size": 0.9,
+      "delete_missing": true
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

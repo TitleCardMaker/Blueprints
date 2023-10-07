@@ -1,0 +1,26 @@
+{
+  "description": [
+    "Tinted Frame card using the Series font and no season titles."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Foundation",
+      "file": "FoundationTitlesHand-SemiBold.ttf",
+      "vertical_shift": -10,
+      "delete_missing": true
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

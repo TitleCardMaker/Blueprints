@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Gemstones",
+      "delete_missing": true,
+      "file": "FestivalBudayaXXXI.otf"
+    }
+  ],
+  "description": [
+    "Standard format using the Festival BudayaXXXI font"
+  ],
+  "creator": "rtgurley",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "description": [
+    "Olivier card type with the series font and coloring for the title text."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Only Murders in the Building",
+      "file": "Cygnet Regular.ttf",
+      "color": "rgb(76, 149, 119)",
+      "interword_spacing": 30,
+      "title_case": "source",
+      "kerning": 12.0,
+      "delete_missing": true,
+      "vertical_shift": 10
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

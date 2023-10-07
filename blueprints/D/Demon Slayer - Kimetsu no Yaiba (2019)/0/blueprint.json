@@ -1,0 +1,35 @@
+{
+  "description": [
+    "Anime card type with arc season titles and Japanese Kanji."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "card_type": "anime",
+    "template_ids": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Finding My Life's Purpose",
+      "Mugen Train",
+      "Entertainment District",
+      "Swordsmith Village"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

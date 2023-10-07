@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Ted Lasso (2020)",
+      "color": "white",
+      "delete_missing": true,
+      "file": "Futura Bold Italic font.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Divider card with Futura Bold Italic font as the official one (Graphicus DT ExtraBold  designed by DTP Types) is not free to use."
+  ],
+  "created": "2023-08-11T13:18:49",
+  "previews": [
+    "preview.jpg"
+  ]
+}

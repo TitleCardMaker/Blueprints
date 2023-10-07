@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Schmigadoon",
+      "delete_missing": true,
+      "file": "Rumble Brave.otf"
+    }
+  ],
+  "description": [
+    "Standard card format with Rumble Brave font"
+  ],
+  "creator": "rtgurley",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

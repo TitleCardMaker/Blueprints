@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "roman numeral",
+    "extra_keys": [
+      "roman_numeral_color",
+      "season_text_color"
+    ],
+    "extra_values": [
+      "rgb(112,19,11)",
+      "rgb(244,234,205)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Afro Samurai",
+      "color": "rgb(244,234,205)",
+      "delete_missing": true,
+      "file": "Space_Bd_BT_Bold.ttf"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Roman Numeral card with the Series font, and the Series logo colors used for the colors of the roman numerals and the title text."
+  ],
+  "created": "2023-08-11T05:03:56",
+  "previews": [
+    "preview.jpg"
+  ]
+}

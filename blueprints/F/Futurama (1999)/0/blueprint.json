@@ -1,0 +1,59 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "rgb(246,239,134)",
+      "8",
+      "logo",
+      "title"
+    ],
+    "template_ids": []
+  },
+  "episodes": {
+    "s0e2": {
+      "title": "Bender's Big Score",
+      "match_title": false
+    },
+    "s0e4": {
+      "title": "The Lost Adventure",
+      "match_title": false
+    },
+    "s0e3": {
+      "title": "The Beast with a Billion Backs",
+      "match_title": false
+    },
+    "s0e5": {
+      "title": "Bender's Game",
+      "match_title": false
+    },
+    "s0e6": {
+      "title": "Into the Wild Green Yonder",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Futurama",
+      "color": "rgb(213,66,46)",
+      "delete_missing": true,
+      "file": "fr-bold.ttf"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card type with the logo on top and the title text (in the Series font) on the bottom. The frame is recolored to match the logo.",
+    "\"Futurama\" is removed from all the titles of all the movies."
+  ],
+  "created": "2023-08-26T18:56:02",
+  "previews": [
+    "preview.jpg"
+  ]
+}

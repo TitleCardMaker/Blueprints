@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Bluey",
+      "color": "rgb(148,197,245)",
+      "delete_missing": true,
+      "file": "Hello Headline Regular.ttf",
+      "size": 1.15,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card with the Series font."
+  ],
+  "created": "2023-09-18T15:27:57",
+  "previews": [
+    "preview.jpg"
+  ]
+}

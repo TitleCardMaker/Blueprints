@@ -1,0 +1,217 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Love is War?",
+      "Ultra Romantic"
+    ],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(219,55,47)"
+    ],
+    "template_ids": [],
+    "font_size": 0.65
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "I Will Make You Invite Me to a Movie\\nKaguya Wants to Be Stopped\\nKaguya Wants It",
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "title": "Kaguya Wants to Trade\\nChika Wants to Go Somewhere\\nMiyuki Wants to Hide His Ignorance",
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "title": "Miyuki Shirogane Still Hasn't Done It\\nKaguya Wants to Be Figured Out\\nKaguya Wants to Walk",
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "title": "Kaguya Wants Affection\\nThe Student Council Wants It to Be Said\\nKaguya Wants Him to Send It\\nMiyuki Shirogane Wants to Talk",
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "title": "Kaguya Wants to Handle It\\nMiyuki Shirogane Wants to Show Off\\nKaguya Wants to Be Covered",
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "title": "Yu Ishigami Wants to Live\\nChika Fujiwara Wants to Test You\\nKaguya Wants to Be Noticed",
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "title": "Miyuki Shirogane Wants to Work\\nKaguya Wants Him to Join In\\nKaguya Wants to Control It",
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "title": "Kaguya Wants Her to Say It\\nMiyuki Shirogane Can't Lose\\nYu Ishigami Closes His Eyes",
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "title": "Kaguya Wants to Give a Gift\\nChika Fujiwara Wants to Pay a Visit\\nAbout Kaguya Shinomiya, Part 1",
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "title": "Kaguya Won't Forgive\\nKaguya Wants to Forgive\\nMiyuki Shirogane Wants to Go Somewhere",
+      "auto_split_title": false
+    },
+    "s1e11": {
+      "title": "Ai Hayasaka Wants to Get Soaked\\nChika Fujiwara Really Wants to Eat It\\nMiyuki Shirogane Wants to See You\\nI Can't Hear the Fireworks, Part 1",
+      "auto_split_title": false
+    },
+    "s1e12": {
+      "title": "I Can't Hear the Fireworks, Part 2\\nKaguya Doesn't Want to Avoid Him",
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "title": "Ai Hayasaka Wants to Stave Them Off\\nThe Student Council Has Not Achieved Nirvana\\nKaguya Wants to Get Married\\nKaguya Wants to Celebrate",
+      "auto_split_title": false
+    },
+    "s2e2": {
+      "title": "Kaguya Wants to Know\\nKaguya Wants to Give a Gift\\nChika Fujiwara Wants to Confirm It",
+      "auto_split_title": false
+    },
+    "s2e3": {
+      "title": "Miyuki Shirogane Wants to Gaze at the Moon\\nThe 67th Student Council\\nKaguya Doesn't Want to Say It",
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "title": "Ai Hayasaka Wants Him to Fall for Her\\nKaguya Wants to Be Confessed To\\nMiko Iino Wants to Set Things Right",
+      "auto_split_title": false
+    },
+    "s2e5": {
+      "title": "Miyuki Shirogane Wants Girls to Fall for Him\\nNagisa Kashiwagi Wants to Console\\nMiyuki Shirogane Wants to Sing\\nKaguya Wants to Kick Them Down",
+      "auto_split_title": false
+    },
+    "s2e6": {
+      "title": "I Don't Want to Make Miko Iino Smile\\nI Want to Make Miko Iino Smile\\nKaguya Isn't Getting Called",
+      "auto_split_title": false
+    },
+    "s2e7": {
+      "title": "Kaguya Wants to Undress Him\\nKaguya Wants to Make Him Let Go\\nMiyuki Shirogane Wants to Make Her Read\\nKaguya Loves the Aquarium",
+      "auto_split_title": false
+    },
+    "s2e8": {
+      "title": "Miko Iino Wants to Control Herself\\nKaguya Doesn't Scare Easily\\nKaguya Wants to Be Examined",
+      "auto_split_title": false
+    },
+    "s2e9": {
+      "title": "Yu Ishigami Closes His Eyes, Part 2\\nKaguya Wants to Touch\\nKaguya Doesn't Say No",
+      "auto_split_title": false
+    },
+    "s2e10": {
+      "title": "Kei Shirogane Can't Speak\\nMiyuki Shirogane Wants to Dance\\nKobachi Osaragi Wants to Crack Down\\nMiyuki Shirogane's Dad Wants to Find Out",
+      "auto_split_title": false
+    },
+    "s2e11": {
+      "title": "Yu Ishigami Closes His Eyes, Part 3\\nMiyuki Shirogane and Yu Ishigami\\nKyoko Otomo Doesn't Realize",
+      "auto_split_title": false
+    },
+    "s2e12": {
+      "title": "The Student Council Would Like a Group Photo\\nThe Student Council Is Going to Get That Group Photo\\nChika Fujiwara Wants to Inflate",
+      "auto_split_title": false
+    },
+    "s0e1": {
+      "title": "Kaguya Darkness Volume 1\nKaguya Darkness Volume 2\nKaguya Wants Him to Eat",
+      "auto_split_title": false
+    },
+    "s3e1": {
+      "title": "Miko Iino Wants to Be Soothed\\nKaguya Doesn\u2019t Realize\\nChika Fujiwara Wants to Battle",
+      "auto_split_title": false
+    },
+    "s3e2": {
+      "title": "Miyuki Shirogane Wants to Mediate\\nKaguya Wants to Distract Him\\nKaguya Preemptively Strikes",
+      "auto_split_title": false
+    },
+    "s3e3": {
+      "title": "Nagisa Kashiwagi Wants to Kill\\nMaki Shijo Wants to Take Action\\nMiyuki Shirogane Wants to Be Believed",
+      "auto_split_title": false
+    },
+    "s3e4": {
+      "title": "Kaguya Shinomiya's Impossible Demand:\\n\"A Cowrie a Swallow Gave Birth To\" Part 1\\nYu Ishigami Wants to Prove Himself Worthy\\nChika Fujiwara Wants to Stay Over",
+      "auto_split_title": false
+    },
+    "s3e5": {
+      "title": "Chika Fujiwara Wants to Beat a Rhythm\\nAi Hayasaka Wants to Talk\\nMaki Shijo Wants Some Help",
+      "auto_split_title": false
+    },
+    "s3e6": {
+      "title": "The Student Council Wants to Move Forward\\nMiyuki Shirogane Wants to Make Her Confess, Part 2\\nMiyuki Shirogane Wants to Make Her Confess, Part 3",
+      "auto_split_title": false
+    },
+    "s3e7": {
+      "title": "Miko Iino Can't Love, Part 1\\nStudents Wish to Discuss the Culture Festival\\nMiyuki Shirogane Wants to Blow It Up",
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "title": "Kei Shirogane Wants to Show Off\\nAbout Kaguya Shinomiya, Part 2\\nKaguya Wants to Confess",
+      "auto_split_title": false
+    },
+    "s3e9": {
+      "title": "Spring of First Year\\nKaguya's Culture Festival\\nYu Ishigami's Culture Festival",
+      "auto_split_title": false
+    },
+    "s3e10": {
+      "title": "Kozue Makihara Wants to Have Fun\\nChika Fujiwara Wants to Unmask\\nMiyuki Shirogane's Culture Festival",
+      "auto_split_title": false
+    },
+    "s3e11": {
+      "title": "Miyuki Shirogane Wants to Make Her Confess, Part 4\\nTsubame Koyasu Wants to Say No\\nMiyuki Shirogane Wants to Make Her Confess, Part 5",
+      "auto_split_title": false
+    },
+    "s3e12": {
+      "title": "Kaguya Wants to Confess, Part 2\\nKaguya Wants to Confess, Part 3\\nDual Confessions, Part 1",
+      "auto_split_title": false
+    },
+    "s3e13": {
+      "title": "Dual Confessions, Part 2\\nThe Shuchiin Afterparty",
+      "auto_split_title": false
+    },
+    "s0e5": {
+      "hide_season_text": false,
+      "hide_episode_text": false,
+      "title": "Miyuki Shirogane Wants to Talk Things Over\\nMiko Iino Wants to Talk\\nAbout Kaguya Shinomiya, Part 3",
+      "auto_split_title": false,
+      "season_text": "The First Kiss That Never Ends",
+      "episode_text": "Part 1"
+    },
+    "s0e6": {
+      "hide_season_text": false,
+      "hide_episode_text": false,
+      "title": "About Kaguya Shinomiya, Part 4\\nKaguya Wants to Be Noticed (Ice)\\nKaguya Wants to Forgive (Ice)",
+      "auto_split_title": false,
+      "season_text": "The First Kiss That Never Ends",
+      "episode_text": "Part 2"
+    },
+    "s0e7": {
+      "hide_season_text": false,
+      "hide_episode_text": false,
+      "title": "Kaguya Wants to Eat It (Ice) / Our Persona\\nKaguya Wants to Confess (Ice)",
+      "auto_split_title": false,
+      "season_text": "The First Kiss That Never Ends",
+      "episode_text": "Part 3"
+    },
+    "s0e8": {
+      "hide_season_text": false,
+      "hide_episode_text": false,
+      "auto_split_title": true,
+      "season_text": "The First Kiss That Never Ends",
+      "episode_text": "Part 4"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with custom season titles for season 2 and 3. A smaller font size to accommodate the very long Episode titles, and each title is manually split at each part.",
+    "The episode text is colored red, and the Episodes for the movie are labeled as part 1-4."
+  ],
+  "created": "2023-08-07T20:25:34",
+  "previews": [
+    "preview.jpg"
+  ]
+}

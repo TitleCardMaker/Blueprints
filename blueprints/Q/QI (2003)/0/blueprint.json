@@ -1,0 +1,81 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "season_title_values": [
+      "Series A",
+      "Series B",
+      "Series C",
+      "Series D",
+      "Series E",
+      "Series F",
+      "Series G",
+      "Series H",
+      "Series I",
+      "Series J",
+      "Series K",
+      "Series L",
+      "Series M",
+      "Series N",
+      "Series O",
+      "Series P",
+      "Series Q",
+      "Series R",
+      "Series S",
+      "Series T",
+      "Series U",
+      "Series V",
+      "Series W",
+      "Series X",
+      "Series Y",
+      "Series Z"
+    ],
+    "template_ids": [],
+    "font_title_case": "title"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Courier 10 Pitch",
+      "delete_missing": true,
+      "file": "Courier 10 Pitch Regular.otf"
+    }
+  ],
+  "creator": "azuravian",
+  "description": [
+    "Blueprint for BBC show QI, using the Frame template with Season names for each series (including future seasons).  Uses Courier 10 Pitch font, which is the font used for the \"i\" in the QI logo."
+  ],
+  "created": "2023-08-25T18:30:48",
+  "previews": [
+    "preview.jpg"
+  ]
+}

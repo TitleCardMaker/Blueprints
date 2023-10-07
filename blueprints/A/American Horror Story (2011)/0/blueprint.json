@@ -1,0 +1,56 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "season_title_values": [
+      "Murder House",
+      "Asylum",
+      "Coven",
+      "Freak Show",
+      "Hotel",
+      "Roanoke",
+      "Cult",
+      "Apocalypse",
+      "1984",
+      "Double Feature",
+      "NYC",
+      "Delicate"
+    ],
+    "template_ids": [],
+    "font_interline_spacing": 50
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "American Horror Story",
+      "delete_missing": true,
+      "file": "AmericanHorrorStory.otf",
+      "title_case": "title"
+    }
+  ],
+  "creator": "azuravian",
+  "description": [
+    "Blueprint for American Horror Story based on the Overline card type:",
+    "Uses AHS font.",
+    "Season titles replaced."
+  ],
+  "created": "2023-09-09T22:05:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

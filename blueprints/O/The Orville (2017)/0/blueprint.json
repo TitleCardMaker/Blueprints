@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Orville 2017",
+      "color": "#EFFFFF",
+      "delete_missing": true,
+      "file": "space age.ttf"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Starwars card associated with Space Age Font in nearly white to blue color."
+  ],
+  "created": "2023-08-11T13:19:29",
+  "previews": [
+    "preview.jpg"
+  ]
+}

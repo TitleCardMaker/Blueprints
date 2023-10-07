@@ -1,0 +1,24 @@
+{
+  "description": [
+    "Tinted Glass card with the series blue used as the episode text color"
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "card_type": "tinted glass",
+    "template_ids": [],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#53B6E2"
+    ],
+    "font_color": "white"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Chapter {episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Book One: Water",
+      "Book Two: Earth",
+      "Book Three: Fire"
+    ],
+    "extra_keys": [
+      "episode_text_font",
+      "episode_text_vertical_shift",
+      "episode_text_font_size",
+      "frame_width"
+    ],
+    "extra_values": [
+      "./fonts/Herculanum-Regular.ttf",
+      "-8",
+      "1.2",
+      "5"
+    ],
+    "template_ids": []
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e4": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e5": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e6": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e7": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e10": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e11": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e12": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e13": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e14": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e15": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e16": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e17": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e18": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e19": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e20": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s2e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e4": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e5": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e6": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e7": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e8": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e9": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e10": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e11": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e12": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e13": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e14": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e15": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e16": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e17": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e18": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e19": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s2e20": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(60,118,74)"
+      ]
+    },
+    "s3e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e4": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e5": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e6": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e7": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e8": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e9": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e10": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ],
+      "auto_split_title": false
+    },
+    "s3e11": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ],
+      "auto_split_title": false
+    },
+    "s3e12": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e13": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e14": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e15": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e16": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e17": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e18": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e19": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e20": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    },
+    "s3e21": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(178,77,43)"
+      ]
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Avatar: The Last Airbender (Primary)",
+      "delete_missing": true,
+      "file": "Avatar Airbender.ttf",
+      "size": 1.2,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the book names (Water/Earth/Fire) as the season titles, and the chapter numbers for episode text.",
+    "The main Series Font is used for the title text, and the secondary Font is used for the season and episode text (which will need to be manually downloaded and specified in the Episode Text Font extra).",
+    "The frame color is adjusted to Blue, Green, or Red to match each season.",
+    "The episode text Font can be downloaded here https://fontsgeek.com/herculanum-font."
+  ],
+  "created": "2023-08-24T04:39:18",
+  "previews": [
+    "preview.jpg"
+  ]
+}

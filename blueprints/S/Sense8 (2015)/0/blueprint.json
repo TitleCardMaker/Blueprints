@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "hide_season_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Sense8",
+      "color": "#E3F601",
+      "delete_missing": true,
+      "file": "rough_typewriter.otf",
+      "title_case": "title"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Divider Card and \"Rough Typewriter\" font in yellow."
+  ],
+  "created": "2023-08-10T17:47:08",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Fargo",
+      "color": "#993B3C",
+      "delete_missing": true,
+      "file": "Fargo_It_PERSONAL_USE_ONLY.otf",
+      "size": 1.6,
+      "title_case": "title"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Font based card"
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

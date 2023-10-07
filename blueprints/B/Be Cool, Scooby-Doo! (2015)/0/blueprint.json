@@ -1,0 +1,34 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ]
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "name": "Scooby-Doo",
+      "font_id": 0,
+      "card_type": "standard",
+      "episode_text_format": "Mystery {episode_number}"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Scooby-Doo",
+      "color": "rgb(240,181,94)",
+      "delete_missing": true,
+      "file": "Scooby-Doo.ttf",
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with an orange Scooby-Doo font and \"Mystery\" as the episode text."
+  ],
+  "created": "2023-09-16T19:07:43",
+  "previews": [
+    "preview.jpg"
+  ]
+}

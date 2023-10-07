@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "white"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Parks and Recreation",
+      "color": "rgb(40,96,23)",
+      "delete_missing": true,
+      "file": "Champion HTF-Heavyweight Regular.otf",
+      "interline_spacing": -30,
+      "stroke_width": 0.4,
+      "title_case": "source",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with the Series' font used for the title text."
+  ],
+  "created": "2023-08-07T03:07:34",
+  "previews": [
+    "preview.jpg"
+  ]
+}

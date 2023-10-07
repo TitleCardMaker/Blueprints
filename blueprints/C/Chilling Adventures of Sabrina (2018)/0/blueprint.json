@@ -1,0 +1,149 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "episode_text_format": "Chapter {absolute_number}",
+    "season_title_ranges": [
+      "s1e1-s1e11",
+      "s1e12-s1e20",
+      "s2e1-s2e8",
+      "s2e9-s2e16"
+    ],
+    "season_title_values": [
+      "Part 1",
+      "Part 2",
+      "Part 3",
+      "Part 4"
+    ],
+    "template_ids": []
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "October Country"
+    },
+    "s1e2": {
+      "title": "The Dark Baptism"
+    },
+    "s1e3": {
+      "title": "The Trial of Sabrina Spellman"
+    },
+    "s1e4": {
+      "title": "Witch Academy"
+    },
+    "s1e5": {
+      "title": "Dreams in a Witch House"
+    },
+    "s1e6": {
+      "title": "An Exorcism in Greendale"
+    },
+    "s1e7": {
+      "title": "Feast of Feasts"
+    },
+    "s1e8": {
+      "title": "The Burial"
+    },
+    "s1e9": {
+      "title": "The Returned Man"
+    },
+    "s1e10": {
+      "title": "The Witching Hour"
+    },
+    "s1e11": {
+      "title": "A Midwinter's Tale"
+    },
+    "s1e12": {
+      "title": "The Epiphany"
+    },
+    "s1e13": {
+      "title": "The Passion of Sabrina Spellman"
+    },
+    "s1e14": {
+      "title": "Lupercalia"
+    },
+    "s1e15": {
+      "title": "Doctor Cerberus' House of Horror"
+    },
+    "s1e16": {
+      "title": "Blackwood"
+    },
+    "s1e17": {
+      "title": "The Missionaries"
+    },
+    "s1e18": {
+      "title": "The Miracles of Sabrina Spellman"
+    },
+    "s1e19": {
+      "title": "The Mandrake"
+    },
+    "s1e20": {
+      "title": "The Mephisto Waltz"
+    },
+    "s2e1": {
+      "title": "The Hellbound Heart"
+    },
+    "s2e2": {
+      "title": "Drag Me to Hell"
+    },
+    "s2e3": {
+      "title": "Heavy Is the Crown"
+    },
+    "s2e4": {
+      "title": "The Hare Moon"
+    },
+    "s2e5": {
+      "title": "The Devil Within"
+    },
+    "s2e6": {
+      "title": "All of Them Witches"
+    },
+    "s2e7": {
+      "title": "The Judas Kiss"
+    },
+    "s2e8": {
+      "title": "Sabrina Is Legend"
+    },
+    "s2e9": {
+      "title": "The Eldritch Dark"
+    },
+    "s2e10": {
+      "title": "The Uninvited"
+    },
+    "s2e11": {
+      "title": "The Weird"
+    },
+    "s2e12": {
+      "title": "The Imp of the Perverse"
+    },
+    "s2e13": {
+      "title": "Deus Ex Machina"
+    },
+    "s2e14": {
+      "title": "The Returned"
+    },
+    "s2e15": {
+      "title": "The Endless"
+    },
+    "s2e16": {
+      "title": "At the Mountains of Madness"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Chilling Adventures of Sabrina",
+      "color": "#E42225",
+      "delete_missing": true,
+      "file": "Chilling_Sabrina.ttf",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with a custom Font used for the title text.",
+    "\"Chapter\" is used for the episode text (and removed from each Episode title), and Part 1/2/3/4 are used for the season text (based on the original release dates)."
+  ],
+  "created": "2023-08-07T15:16:29",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {
+    "s0e9": {
+      "title": "Spring",
+      "match_title": false,
+      "season_text": "Frog Seasons",
+      "episode_text": "Part 1"
+    },
+    "s0e10": {
+      "title": "Summer",
+      "match_title": false,
+      "season_text": "Frog Seasons",
+      "episode_text": "Part 2"
+    },
+    "s0e11": {
+      "title": "Autumn",
+      "match_title": false,
+      "season_text": "Frog Seasons",
+      "episode_text": "Part 3"
+    },
+    "s0e12": {
+      "title": "Winter",
+      "match_title": false,
+      "season_text": "Frog Seasons",
+      "episode_text": "Part 4"
+    },
+    "s0e13": {
+      "title": "Spring (Again)",
+      "match_title": false,
+      "season_text": "Frog Seasons",
+      "episode_text": "Part 5"
+    },
+    "s7e6": {
+      "title": "Marceline the Vampire Queen ",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 1"
+    },
+    "s7e7": {
+      "title": "Everything Stays",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 2"
+    },
+    "s7e8": {
+      "title": "Vamps About",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 3"
+    },
+    "s7e9": {
+      "title": "The Empress Eyes",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 4"
+    },
+    "s7e10": {
+      "title": "May I Come In?",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 5"
+    },
+    "s7e11": {
+      "title": "Take Her Back",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 6"
+    },
+    "s7e12": {
+      "title": "Checkmate",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 7"
+    },
+    "s7e13": {
+      "title": "The Dark Cloud",
+      "match_title": false,
+      "season_text": "Stakes",
+      "episode_text": "Part 8"
+    },
+    "s8e20": {
+      "title": "The Invitation",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 1"
+    },
+    "s8e21": {
+      "title": "Whipple the Happy Dragon",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 2"
+    },
+    "s8e22": {
+      "title": "Mysterious Island",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 3"
+    },
+    "s8e23": {
+      "title": "Imaginary Resources",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 4"
+    },
+    "s8e24": {
+      "title": "Hide and Seek",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 5"
+    },
+    "s8e25": {
+      "title": "Min & Marty",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 6"
+    },
+    "s8e26": {
+      "title": "Helpers",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 7"
+    },
+    "s8e27": {
+      "title": "The Light Cloud",
+      "match_title": false,
+      "season_text": "Islands",
+      "episode_text": "Part 8"
+    },
+    "s9e2": {
+      "title": "Skyhooks",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 1"
+    },
+    "s9e3": {
+      "title": "Bespoken For",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 2"
+    },
+    "s9e4": {
+      "title": "Winter Light",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 3"
+    },
+    "s9e5": {
+      "title": "Cloudy",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 4"
+    },
+    "s9e6": {
+      "title": "Slime Central",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 5"
+    },
+    "s9e7": {
+      "title": "Happy Warrior",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 6"
+    },
+    "s9e8": {
+      "title": "Hero Heart",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 7"
+    },
+    "s9e9": {
+      "title": "Skyhooks II",
+      "match_title": false,
+      "season_text": "Elements",
+      "episode_text": "Part 8"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Adventure Time",
+      "color": "rgb(234,76,48)",
+      "delete_missing": true,
+      "file": "Adventure Time.ttf",
+      "replacements_in": [
+        "&",
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)",
+        "(8)",
+        ":",
+        "?",
+        "'",
+        ",",
+        "!"
+      ],
+      "replacements_out": [
+        "and",
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part Five",
+        "Part Six",
+        "Part Seven",
+        "Part Eight",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.1,
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type in the Series font. Custom season and episode text is used for the multi-part Episodes (e.g. Stakes, Islands, Elements, etc.)."
+  ],
+  "created": "2023-08-31T04:35:59",
+  "previews": [
+    "preview.jpg"
+  ]
+}

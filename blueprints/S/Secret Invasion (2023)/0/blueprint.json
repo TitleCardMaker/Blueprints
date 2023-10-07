@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "olivier",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(109,189,107)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Olivier card with green episode text."
+  ],
+  "created": "2023-09-04T02:45:02",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "title_text_rotation_angle",
+      "index_text_rotation_angle",
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "random[-4, 4]",
+      "random[-4, -3]",
+      "rgba(251,223,0,0.6)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "azuravian, CollinHeist",
+  "description": [
+    "Utilizes CollinHeist's \"Arrow\" blueprint, replacing \"Arrow\" green with \"Watchmen\" yellow."
+  ],
+  "created": "2023-08-09T05:09:21",
+  "previews": [
+    "preview.jpg"
+  ]
+}

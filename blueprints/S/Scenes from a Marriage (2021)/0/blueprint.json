@@ -1,0 +1,18 @@
+{
+  "series": {
+    "card_type": "olivier",
+    "episode_text_format": "Scene {episode_number_cardinal}",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Olivier card type using \"Scene ...\" as the Episode text."
+  ],
+  "created": "2023-08-13T23:32:21",
+  "previews": [
+    "preview.jpg"
+  ]
+}

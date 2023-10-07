@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Simpsons",
+      "color": "#FCFB58",
+      "delete_missing": true,
+      "file": "Simpsons.otf",
+      "interline_spacing": -25,
+      "replacements_in": [
+        "-",
+        ",",
+        "\u042f",
+        "&",
+        "$"
+      ],
+      "replacements_out": [
+        " ",
+        ".",
+        "R",
+        "and",
+        "S"
+      ],
+      "size": 1.05,
+      "title_case": "title"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type using the Series font."
+  ],
+  "created": "2023-08-07T23:57:22",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": [
+    "Comic Book card with randomized banner angles for the title and index text.",
+    "The banners are colored to match the comic panel interstitials used in the show.",
+    "Using a grayscale style modifier is recommended."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "card_type": "comic book",
+    "template_ids": [],
+    "extra_keys": [
+      "title_text_rotation_angle",
+      "index_text_rotation_angle"
+    ],
+    "extra_values": [
+      "random[-4, 4]",
+      "random[-4, -3]"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

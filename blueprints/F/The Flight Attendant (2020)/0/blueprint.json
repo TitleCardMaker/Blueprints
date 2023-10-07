@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Flight Attendant",
+      "delete_missing": true,
+      "file": "flight-attendant.otf"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard format with custom font"
+  ],
+  "created": "2023-08-11T20:51:47",
+  "previews": [
+    "preview.jpg"
+  ]
+}

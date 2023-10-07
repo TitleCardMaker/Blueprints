@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Our Flag Means Death",
+      "color": "#FF0C95",
+      "delete_missing": true,
+      "file": "Seagram tfb.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard Card type using (almost) series font"
+  ],
+  "created": "2023-08-09T00:18:05",
+  "previews": [
+    "preview.jpg"
+  ]
+}

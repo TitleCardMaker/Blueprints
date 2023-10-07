@@ -1,0 +1,81 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(115, 207, 62)"
+    ],
+    "skip_localized_images": true,
+    "template_ids": []
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Groot's\\n  First Steps",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "title": "Groot's\\n  Pursuit",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "title": "Groot Takes\\n  a Bath",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "title": "Are You\\n  My Groot?",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e2": {
+      "title": "Groot Noses\\n  Around",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e3": {
+      "title": "Groot's\\n  Snow Day",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "title": "Groot's\\n  Sweet Treat",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e5": {
+      "title": "Groot and\\n  the Great\\n    Prophecy",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "I Am Groot",
+      "color": "rgb(115, 207, 62)",
+      "delete_missing": true,
+      "file": "P22 Koch W00 Nueland.ttf"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Olivier card with the official Font in green, and custom Title splits to match the official Title Cards."
+  ],
+  "created": "2023-09-24T03:24:41",
+  "previews": [
+    "preview.jpg"
+  ]
+}

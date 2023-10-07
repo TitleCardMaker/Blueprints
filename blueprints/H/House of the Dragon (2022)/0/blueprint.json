@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(241, 178, 103)",
+    "font_title_case": "title"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Trajan Pro",
+      "delete_missing": true,
+      "file": "Trajan Pro.ttf"
+    }
+  ],
+  "creator": "azuravian",
+  "description": [
+    "Tinted frame card using font used for the show and a color matching the logo.  Logo at top of frame, title text at bottom."
+  ],
+  "created": "2023-09-03T16:10:18",
+  "previews": [
+    "preview.jpg"
+  ]
+}

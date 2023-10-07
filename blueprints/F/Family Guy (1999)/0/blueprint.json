@@ -1,0 +1,23 @@
+{
+  "description": [
+    "Standard card type using the series font."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Family Guy",
+      "file": "family-guy.TTF"
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

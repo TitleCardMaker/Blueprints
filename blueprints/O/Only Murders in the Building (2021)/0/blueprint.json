@@ -1,0 +1,36 @@
+{
+  "description": [
+    "Frame card type with the series font and coloring for the title and episode text.",
+    "Updated with a new version of Cygnet Regular which has some (previously) missing punctuation characters."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "template_ids": [],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(156,40,36)"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Only Murders in the Building",
+      "file": "Cygnet Regular.ttf",
+      "color": "rgb(76, 149, 119)",
+      "title_case": "source",
+      "kerning": -0.7,
+      "interline_spacing": 10,
+      "interword_spacing": 30,
+      "delete_missing": true
+    }
+  ],
+  "created": "2023-09-09T10:42:30",
+  "previews": [
+    "preview.jpg"
+  ]
+}

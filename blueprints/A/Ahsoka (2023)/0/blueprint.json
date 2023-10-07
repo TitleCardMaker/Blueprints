@@ -1,0 +1,51 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "episode_text_format": "Part {episode_number_cardinal}",
+    "template_ids": []
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Master and Apprentice",
+      "match_title": false
+    },
+    "s1e2": {
+      "title": "Toil and Trouble",
+      "match_title": false
+    },
+    "s1e3": {
+      "title": "Time To Fly",
+      "match_title": false
+    },
+    "s1e4": {
+      "title": "Fallen Jedi",
+      "match_title": false
+    },
+    "s1e5": {
+      "title": "Shadow Warrior",
+      "match_title": false
+    },
+    "s1e6": {
+      "title": "Far, Far Away",
+      "match_title": false
+    },
+    "s1e7": {
+      "title": "Dreams and Madness",
+      "match_title": false
+    },
+    "s1e8": {
+      "title": "The Jedi, the Witch, and the Warlord",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Star Wars card type with \"Part\" removed from the titles and placed into the episode text."
+  ],
+  "created": "2023-10-04T22:48:09",
+  "previews": [
+    "preview.jpg"
+  ]
+}

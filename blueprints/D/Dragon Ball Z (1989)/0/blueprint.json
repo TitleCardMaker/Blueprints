@@ -1,0 +1,80 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_number}",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(234,51,35)"
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e6",
+      "s1e7-s1e35",
+      "s2e1-s2e28",
+      "s2e29-s2e35",
+      "3",
+      "s4e1-s4e10",
+      "s4e11-s4e18",
+      "s4e19-s4e32",
+      "s5e1-s5e13",
+      "s5e14-s5e26",
+      "6",
+      "s7e1-s7e5",
+      "s7e6-s7e15",
+      "s7e16-s7e25",
+      "s8e1-s8e12",
+      "s8e13-s8e34",
+      "s9e1-s9e22",
+      "s9e23-s9e34",
+      "s9e34-s9e38"
+    ],
+    "season_title_values": [
+      "Raditz",
+      "Vegeta",
+      "Namek",
+      "Namek",
+      "Frieza",
+      "Garlic Jr.",
+      "Trunks",
+      "Androids",
+      "Imperfect Cell",
+      "Perfect Cell",
+      "Cell Games",
+      "Other World",
+      "Great Saiyaman",
+      "World Tournament",
+      "Babidi",
+      "Majin Buu",
+      "Fusion",
+      "Kid Buu",
+      "Peaceful World"
+    ],
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dragon Ball",
+      "color": "rgb(252,235,80)",
+      "delete_missing": true,
+      "file": "Saiyan Sans Modified.otf",
+      "kerning": 0.8,
+      "interword_spacing": 30,
+      "size": 1.2,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the arc season titles, absolute episode numbering, and the Saiyan Sans Font (I modified to include some special characters) colored yellow and red.",
+    "Kanji is not added because of the spacing on the custom font."
+  ],
+  "created": "2023-08-26T18:51:39",
+  "previews": [
+    "preview.jpg"
+  ]
+}

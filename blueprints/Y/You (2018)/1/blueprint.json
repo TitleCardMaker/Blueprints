@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Beck",
+      "Love",
+      "Marienne",
+      "Rhys"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "You",
+      "delete_missing": true,
+      "file": "YOU.ttf"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Modification of rtgurley's You Blueprint but featuring \"Beck\", \"Love\", \"Marienne\", and \"Rhys\" as custom season titles."
+  ],
+  "created": "2023-08-11T02:30:03",
+  "previews": [
+    "preview.jpg"
+  ]
+}

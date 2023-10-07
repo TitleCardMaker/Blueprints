@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "South Park",
+      "delete_missing": true,
+      "file": "south-park.ttf",
+      "interline_spacing": 92,
+      "replacements_in": [
+        "\u00c8",
+        "\u00ce"
+      ],
+      "replacements_out": [
+        "E",
+        "I"
+      ],
+      "vertical_shift": 50
+    }
+  ],
+  "description": [
+    "Standard card type with the Series font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

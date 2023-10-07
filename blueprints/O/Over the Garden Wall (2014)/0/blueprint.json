@@ -1,0 +1,30 @@
+{
+  "description": [
+    "Tinted Frame card with the Series logo font and color, using 'Chapter' formatted episode text."
+  ],
+  "creator": "CollinHeist",
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "episode_text_format": "Chapter {episode_number}",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Over the Garden Wall",
+      "file": "TomeOfTheUnknown.ttf",
+      "color": "rgb(216,190,142)",
+      "title_case": "source",
+      "size": 1.15,
+      "vertical_shift": -20,
+      "delete_missing": true
+    }
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

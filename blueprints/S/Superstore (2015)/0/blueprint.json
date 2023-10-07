@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "translations": [],
+    "season_title_ranges": [],
+    "season_title_values": [],
+    "extra_keys": [],
+    "extra_values": [],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Superstore",
+      "color": "#51B3EF",
+      "delete_missing": true,
+      "file": "ITC Avant Garde Gothic Std Bold.otf",
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with the Series font."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

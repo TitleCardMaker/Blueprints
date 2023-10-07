@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": [],
+    "translations": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Friends",
+      "color": "#FFFFFF",
+      "delete_missing": true,
+      "file": "GABRWFFR.TTF",
+      "title_case": "title"
+    }
+  ],
+  "description": [
+    "Olivier card type with the series Font."
+  ],
+  "creator": "flowcool",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

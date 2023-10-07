@@ -1,0 +1,64 @@
+{
+  "series": {
+    "card_type": "anime",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(234,51,35)"
+    ],
+    "episode_text_format": "Episode {absolute_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "s3e1-s3e17",
+      "s3e18-s3e29",
+      "s3e30-s3e39",
+      "s3e40-s3e40",
+      "s4e1-s4e15",
+      "s4e16-s4e33",
+      "s5e1-s5e21",
+      "s5e22-s5e31",
+      "6"
+    ],
+    "season_title_values": [
+      "Emperor Pilaf Saga",
+      "Tournament Saga",
+      "Red Ribbon Army Saga",
+      "General Blue Saga",
+      "Commander Red Saga",
+      "Fortuneteller Baba Saga",
+      "Fortuneteller Baba Saga",
+      "Tien Shinhan",
+      "King Piccolo",
+      "Piccolo Jr.",
+      "Piccolo Jr."
+    ],
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dragon Ball",
+      "color": "rgb(252,235,80)",
+      "delete_missing": true,
+      "file": "Saiyan Sans Modified.otf",
+      "kerning": 0.8,
+      "interword_spacing": 30,
+      "size": 1.2,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the arc season titles, absolute episode numbering, and the Saiyan Sans Font (I modified to include some special characters) colored yellow and red.",
+    "Kanji is not added because of the spacing on the custom font."
+  ],
+  "created": "2023-08-26T18:51:20",
+  "previews": [
+    "preview.jpg"
+  ]
+}

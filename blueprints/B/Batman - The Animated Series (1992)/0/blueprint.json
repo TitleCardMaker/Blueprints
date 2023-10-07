@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Batman",
+      "color": "yellow",
+      "delete_missing": true,
+      "file": "Batman.ttf",
+      "size": 1.5,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Dante2202",
+  "description": [
+    "Batman: The Animated Series title cards, matches Batman font used."
+  ],
+  "created": "2023-08-30T00:37:52",
+  "previews": [
+    "preview.jpg"
+  ]
+}

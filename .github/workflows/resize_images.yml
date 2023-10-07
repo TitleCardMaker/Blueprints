@@ -1,0 +1,48 @@
+name: Resize Preview Images
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  pull_request:
+    types: [ 'opened', 'edited', 'reopened', 'synchronize' ]
+
+jobs:
+  resize_preview_images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: refs/heads/staging
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install imagesize Pillow
+
+      - name: (Python) Resize Images
+        run: |
+          python ./src/build/resize_images.py
+
+      - name: Commit Resized Images
+        run: |
+          git config pull.rebase false
+          git config --local user.email "action@github.com"
+          git config --local user.name "TitleCardMakerBot"
+          git add .
+          git diff-index --quiet HEAD || git commit -a -m "Resize Preview Images"
+          git pull
+
+      - run: git pull
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: refs/heads/staging

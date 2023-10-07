@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Lincoln Lawyer (2022)",
+      "delete_missing": true,
+      "file": "Impact MT Regular.ttf",
+      "stroke_width": 0.59
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Olivier card with Impact MT Regular font."
+  ],
+  "created": "2023-08-14T16:57:26",
+  "previews": [
+    "preview.jpg"
+  ]
+}

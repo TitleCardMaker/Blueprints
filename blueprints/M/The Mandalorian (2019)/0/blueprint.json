@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Mandalorian",
+      "color": "white",
+      "delete_missing": true,
+      "file": "mandalore.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Starwars Card and its white Iconian Font."
+  ],
+  "created": "2023-08-10T17:46:07",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "The Dicks",
+      "The Brownout"
+    ],
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(219,55,47)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card type with the investigation titles for each season, and the \"crime scene red\" used as the frame color."
+  ],
+  "created": "2023-08-06T23:37:15",
+  "previews": [
+    "preview.jpg"
+  ]
+}

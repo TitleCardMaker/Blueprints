@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Homeland 2011",
+      "color": "#EB7308",
+      "delete_missing": true,
+      "file": "Coalition_v2.ttf",
+      "size": 1.3,
+      "stroke_width": 0.5,
+      "title_case": "upper",
+      "vertical_shift": 30
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Olivier card associated with Coalition Font in orange."
+  ],
+  "created": "2023-08-11T16:42:39",
+  "previews": [
+    "preview.jpg"
+  ]
+}

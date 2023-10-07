@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "rgb(64,93,168)"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "New Girl",
+      "color": "rgb(253,243,108)",
+      "delete_missing": true,
+      "file": "ChaletComprime CologneEighty.otf",
+      "size": 1.5,
+      "title_case": "source",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type using the Series font color and stroke."
+  ],
+  "created": "2023-08-13T20:33:03",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "template_ids": [],
+    "translations": [],
+    "season_title_ranges": [],
+    "season_title_values": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Better Call Saul",
+      "color": "rgb(255, 255, 97)",
+      "delete_missing": true,
+      "file": "script-casual-normal.ttf",
+      "title_case": "title"
+    }
+  ],
+  "description": [
+    "Olivier card type using the Series font from the 'Better Call' part of the series logo."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

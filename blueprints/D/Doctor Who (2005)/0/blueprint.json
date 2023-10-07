@@ -1,0 +1,220 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "template_ids": [
+      0,
+      1,
+      4,
+      2,
+      3
+    ]
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "font_id": 1,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "bottom_element",
+        "logo_file",
+        "logo_size",
+        "frame_width",
+        "frame_color"
+      ],
+      "extra_values": [
+        "logo",
+        "title",
+        "logo_season{season_number}.png",
+        "2.2",
+        "8",
+        "rgb(230, 107, 43)"
+      ],
+      "name": "DrWho1-4",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "is less than or equal",
+          "reference": "4"
+        },
+        {
+          "argument": "Season Number",
+          "operation": "is greater than or equal",
+          "reference": "1"
+        }
+      ]
+    },
+    {
+      "font_id": 4,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "bottom_element",
+        "logo_size",
+        "frame_width",
+        "frame_color",
+        "logo_file"
+      ],
+      "extra_values": [
+        "logo",
+        "title",
+        "1.5",
+        "8",
+        "rgb(92, 146, 193)",
+        "logo_season{season_number}.png"
+      ],
+      "name": "DrWho5-7",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "is greater than or equal",
+          "reference": "5"
+        },
+        {
+          "argument": "Season Number",
+          "operation": "is less than or equal",
+          "reference": "7"
+        }
+      ]
+    },
+    {
+      "font_id": 2,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "bottom_element",
+        "logo_file",
+        "logo_size",
+        "frame_width",
+        "frame_color"
+      ],
+      "extra_values": [
+        "logo",
+        "title",
+        "logo_season{season_number}.png",
+        "2",
+        "8",
+        "rgb(236, 181, 0)"
+      ],
+      "name": "DrWho11-13",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "is greater than or equal",
+          "reference": "11"
+        },
+        {
+          "argument": "Season Number",
+          "operation": "is less than or equal",
+          "reference": "13"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "bottom_element",
+        "logo_file",
+        "logo_size",
+        "frame_width"
+      ],
+      "extra_values": [
+        "logo",
+        "title",
+        "logo_season{season_number}.png",
+        "2.5",
+        "8"
+      ],
+      "name": "DrWhoSpecials",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "is less than or equal",
+          "reference": "0"
+        }
+      ]
+    },
+    {
+      "font_id": 3,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "bottom_element",
+        "logo_file",
+        "logo_size",
+        "frame_width",
+        "frame_color"
+      ],
+      "extra_values": [
+        "logo",
+        "title",
+        "logo_season{season_number}.png",
+        "1.5",
+        "8",
+        "rgb(88, 116, 129)"
+      ],
+      "name": "DrWho8-10",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "is greater than or equal",
+          "reference": "8"
+        },
+        {
+          "argument": "Season Number",
+          "operation": "is less than or equal",
+          "reference": "10"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "DrWhoSpecials",
+      "delete_missing": true,
+      "file": "Futura Book.otf"
+    },
+    {
+      "name": "DrWho1-4",
+      "color": "rgb(230, 107, 43)",
+      "delete_missing": true,
+      "file": "Futura Book.otf"
+    },
+    {
+      "name": "DrWho11-13",
+      "color": "rgb(236, 181, 0)",
+      "delete_missing": true,
+      "file": "Futura Book.otf",
+      "title_case": "upper"
+    },
+    {
+      "name": "DrWho8-10",
+      "color": "rgb(88, 116, 129)",
+      "delete_missing": true,
+      "file": "Contax Pro 75 Bold Regular.ttf",
+      "size": 1.1,
+      "vertical_shift": -20
+    },
+    {
+      "name": "DrWho5-7",
+      "color": "rgb(92, 146, 193)",
+      "delete_missing": true,
+      "file": "SF Movie Poster Condensed.ttf",
+      "size": 1.2,
+      "vertical_shift": -4
+    }
+  ],
+  "creator": "Ziggy73701",
+  "description": [
+    "Tinted frame. Each \"Doctor\" having there own logo and frame colour to match, font as closely matched to episode name title card as possible. Specials have a generic DW logo and white frame.",
+    "In order to fully use this blueprint, please download the logo file from here https://drive.google.com/file/d/1P2mrgfBMcRoIJIknUDVekW3pnmkAkzsL/view?usp=drive_link",
+    "You will need to unpack the contents in to your source folder for this series. It wont overwrite any files unless you have previously set season logos.",
+    "Will update for next season once its shown (logo is included but no font yet)."
+  ],
+  "created": "2023-09-12T16:10:22",
+  "previews": [
+    "preview.jpg"
+  ]
+}

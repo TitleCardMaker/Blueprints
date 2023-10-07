@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "American Dad",
+      "color": "rgb(215,77,64)",
+      "delete_missing": true,
+      "file": "American Dad.ttf",
+      "interline_spacing": -60,
+      "size": 1.55,
+      "title_case": "source",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type using the Series font in the title-red color. The red can be hard to read on smaller screens, but white works well."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

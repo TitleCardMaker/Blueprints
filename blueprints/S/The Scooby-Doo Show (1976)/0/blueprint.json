@@ -1,0 +1,44 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "The Scooby-Doo/Dynomutt Hour",
+      "Scooby's All Star Laff-a-Lympics",
+      "Scooby's All-Stars"
+    ]
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "name": "Scooby-Doo",
+      "font_id": 0,
+      "card_type": "standard",
+      "episode_text_format": "Mystery {episode_number}"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Scooby-Doo",
+      "color": "rgb(240,181,94)",
+      "delete_missing": true,
+      "file": "Scooby-Doo.ttf",
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with an orange Scooby-Doo font and \"Mystery\" as the episode text. Custom season titles are used to represent the originally aired Episode segments."
+  ],
+  "created": "2023-09-16T19:19:55",
+  "previews": [
+    "preview.jpg"
+  ]
+}

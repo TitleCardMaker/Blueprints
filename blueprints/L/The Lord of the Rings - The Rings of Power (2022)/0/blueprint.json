@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Lord of the Rings",
+      "color": "#D1C6AA",
+      "delete_missing": true,
+      "file": "ringbearer.ttf",
+      "stroke_width": 0.8,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with the font originally used in the logo for Peter Jackson's trilogy, and the golden/yellow color from this series logo."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

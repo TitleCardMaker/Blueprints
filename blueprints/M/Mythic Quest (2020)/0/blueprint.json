@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "Raven's Banquet",
+      "Titans' Rift"
+    ],
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Mythic Quest",
+      "delete_missing": true,
+      "file": "Karlie Serif Semi Condensed.otf",
+      "stroke_width": 0.9
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type using the Karlie Serif font (close match to the Series logo). \"Raven's Banquet\" and \"Titans' Rift\" are used as the titles for seasons 1 and 2."
+  ],
+  "created": "2023-08-13T20:16:53",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "1923",
+      "delete_missing": true,
+      "file": "Boul Mich Regular.ttf",
+      "stroke_width": 0.25
+    }
+  ],
+  "creator": "rtgurley",
+  "description": [
+    "Standard format card using the Boul Mich Regular font"
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}

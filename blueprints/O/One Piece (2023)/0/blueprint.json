@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "One Piece",
+      "color": "rgb(98,155,211)",
+      "delete_missing": true,
+      "file": "one piece font.ttf",
+      "size": 1.15,
+      "stroke_width": 0.7
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type with the Series font in blue. Season text is hidden."
+  ],
+  "created": "2023-09-01T03:31:41",
+  "previews": [
+    "preview.jpg"
+  ]
+}

@@ -1,0 +1,120 @@
+name: Test Blueprint Submission
+
+on:
+  issues:
+    types: [ opened, reopened, edited ]
+  issue_comment:
+    types: [ created ]
+
+jobs:
+  test_issue_blueprint:
+    # Run on issue creation and if /test-blueprint is commented
+    if: ${{ github.event_name == 'issues' || (startsWith(github.event.issue.title, '[Blueprint]') && contains(github.event.comment.body, '/test-blueprint')) }}
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: refs/heads/staging
+          persist-credentials: false
+          fetch-depth: 0
+
+      # Run script to parse issue
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests "pydantic==1.*" pytest regex sqlalchemy
+
+      - name: Parse Issue into Blueprint
+        env:
+          ISSUE_BODY: ${{ toJson(github.event.issue.body) }}
+          ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
+          # ISSUE_JSON: '${{ steps.parse_issue.outputs.parsed-issue }}'
+        run: |
+          python ./src/parse_submission.py
+      
+      - name: Run Pytest, write summary to workflow
+        if: always()
+        uses: dariocurr/pytest-summary@main
+        with:
+          paths: src/tests
+          options: --quiet 
+          show: fail
+
+      # Comment on Issue with results if all passed
+      - name: Comment Successful Pytest Results
+        if: success()
+        uses: peter-evans/create-or-update-comment@5f728c3dae25f329afbe34ee4d08eef25569d79f
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            # Blueprint Validation Results
+            All tests passed succesfully. Blueprint can be created with the `/create-blueprint` command.
+
+      - name: Comment Failing Pytest Results
+        if: failure()
+        uses: peter-evans/create-or-update-comment@5f728c3dae25f329afbe34ee4d08eef25569d79f
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            # Blueprint Validation Results
+            Validation has __failed__. See the [workflow summary](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
+
+            After correcting the Blueprint, new test will be run automatically.
+
+      # Add labels for pass/failure
+      - name: Add Passing Label
+        if: success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["passed-tests"]
+            })
+
+      - name: Add Failure Label
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["failed-tests"]
+            })
+
+      # Remove old pass/failure labels
+      - name: Remove Success Label
+        if: ${{ failure() && contains(github.event.issue.labels.*.name, 'passed-tests') }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: ["passed-tests"]
+            })
+
+      - name: Remove Failure Label
+        if: ${{ success() && contains(github.event.issue.labels.*.name, 'failed-tests') }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.removeLabel({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: ["failed-tests"]
+            })

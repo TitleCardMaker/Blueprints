@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Shameless US",
+      "color": "#02BEEC",
+      "delete_missing": true,
+      "file": "Helvetica Neue LT Pro 73 Bold Extended.otf",
+      "title_case": "title"
+    }
+  ],
+  "creator": "flowcool",
+  "description": [
+    "Font based card with proper color."
+  ],
+  "created": "2023-08-06T00:00:00",
+  "previews": [
+    "preview.jpg"
+  ]
+}
