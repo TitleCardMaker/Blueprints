@@ -47,7 +47,7 @@ class SeriesBase(BlueprintBase):
         return values
 
 class BlueprintSeries(SeriesBase):
-    template_ids: Optional[list[int]] = None
+    template_ids: list[int] = []
     match_titles: Optional[bool] = None
     font_color: Optional[str] = None
     font_title_case: Optional[TitleCase] = None
