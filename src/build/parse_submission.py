@@ -161,6 +161,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         data = data.groupdict()
 
     # Get each variable from the issue
+    print(f'Raw Data: {data=}')
     data = {'font_zip': '_No response_', 'source_files': '_No response_'} | data
 
     creator = (creator if '_No response_' in data['creator'] else data['creator']).strip()
