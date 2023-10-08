@@ -138,6 +138,6 @@ class TestBlueprintFiles:
             }
             previews = set(blueprint['previews'])
             # Get all source files
-            source_files = set(blueprint.get('source_files', []))
+            source_files = set(blueprint.get('series', {}).get('source_files', []))
             assert len(given_files - font_files - previews - source_files) == 0, 'Only files listed in the blueprint can be included in the blueprint folder'
             assert len((font_files | previews | source_files) - given_files) == 0, 'All files listed in the blueprint must be included in the blueprint folder'
