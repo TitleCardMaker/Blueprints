@@ -161,7 +161,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         data = data.groupdict()
 
     # Get each variable from the issue
-    data = {'font_zip': '_No response_'} | data
+    data = {'font_zip': '_No response_', 'source_files': '_No response_'} | data
 
     creator = (creator if '_No response_' in data['creator'] else data['creator']).strip()
     if data.get('font_zip') is None or '_No response_' in data['font_zip']:
@@ -313,6 +313,7 @@ def parse_and_create_blueprint():
 
     # Parse submission, get associated Series and Blueprint SQL objects
     submission = parse_submission()
+    print(f'{"-"*25}\n{submission=}\n{"-"*25}')
     fallback_path_name = get_blueprint_folders(
         f'{submission["series_name"]} ({submission["series_year"]})'
     )[1]
@@ -353,9 +354,10 @@ def parse_and_create_blueprint():
     )
 
     # Add source files to Blueprint
-    submission['blueprint']['series']['source_file'] = [
-        file.name for file in source_files
-    ]
+    if source_files:
+        submission['blueprint']['series']['source_files'] = [
+            file.name for file in source_files
+        ]
 
     # Add creation time to Blueprint
     submission['blueprint']['created'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
