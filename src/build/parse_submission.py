@@ -227,7 +227,7 @@ def download_preview(url: str, index: int, blueprint_subfolder: Path):
     print(f'Downloaded "{url}" into "{file.resolve()}"')
 
 
-def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
+def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
     """
     Download any files in the ZIP located at the given URL and write
     them in the given Blueprint folder.
@@ -236,6 +236,9 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
         zip_url: URL to the zip file to download.
         blueprint_subfolder: Subfolder of the Blueprint to download
             and unpack the zip files into.
+
+    Returns:
+        List of the downloaded files.
     """
 
     if not zip_url:
@@ -249,6 +252,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
     print(f'Downloaded "{zip_url}"')
 
     # Write zip to temporary file
+    files = []
     extension = zip_url.rsplit('.', maxsplit=1)[-1]
     with NamedTemporaryFile(suffix=f'.{extension}') as file_handle:
         file_handle.write(response.content)
@@ -267,11 +271,18 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
                     print(f'Skipping [zip]/{file} - is a directory')
                     continue
 
-                file_copy(file, blueprint_subfolder / str(file.name))
+                destination = blueprint_subfolder / str(file.name)
+                file_copy(file, destination)
+                files.append(destination)
                 print(f'Copied [zip]/{file.name} into "{blueprint_subfolder}"')
 
+    return files
 
-def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
+
+def download_source_files(
+        urls: list[str],
+        blueprint_subfolder: Path,
+    ) -> list[Path]:
     """
     Download all source files from the given list of URLs into the
     given Blueprint folder. This handles zips and raw images.
@@ -280,11 +291,17 @@ def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
         urls: List of URLs to download.
         blueprint_subfolder: Subfolder of the Blueprint to download
             these files into.
+
+    Returns:
+        List of the downloaded files.
     """
 
     # Process each of the provided URLs
+    files = []
     for url in urls:
-        download_zip(url, blueprint_subfolder)
+        files += download_zip(url, blueprint_subfolder)
+
+    return files
 
 
 def parse_and_create_blueprint():
@@ -331,7 +348,14 @@ def parse_and_create_blueprint():
     download_zip(submission['font_zip_url'], blueprint_subfolder)
 
     # Download source files
-    download_source_files(submission['source_file_urls'], blueprint_subfolder)
+    source_files = download_source_files(
+        submission['source_file_urls'], blueprint_subfolder
+    )
+
+    # Add source files to Blueprint
+    submission['blueprint']['series']['source_file'] = [
+        file.name for file in source_files
+    ]
 
     # Add creation time to Blueprint
     submission['blueprint']['created'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
