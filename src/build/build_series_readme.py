@@ -8,6 +8,9 @@ README's within each Series subfolder.
 from json import load as json_load, JSONDecodeError
 from pathlib import Path
 
+
+BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
+
 README_TEMPLATE = """# {series_full_name}
 
 There are `{count}` Blueprint(s) available for this Series.
@@ -18,17 +21,17 @@ There are `{count}` Blueprint(s) available for this Series.
 
 README_TABLE_ROW = '| `{blueprint_id}` | <img src="./{blueprint_id}/{preview_file}" height="150"> | {template_count} | {font_count} | {episode_count} |'
 
+
 def format_count(count: int) -> str:
     return f'`{count}`' if count else '-'
 
+
 def build_series_readme():
     # Parse all Blueprints for all Series
-    BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
-    series_blueprints = {}
     for series_subfolder in BLUEPRINT_FOLDER.glob('*/*'):
         # Read all Blueprints for this Series
         blueprints: list[tuple[int, dict]] = []
-        for blueprint_file in series_blueprints.glob('*/blueprint.json'):
+        for blueprint_file in series_subfolder.glob('*/blueprint.json'):
             blueprint_number = int(blueprint_file.parent.name)
             with blueprint_file.open('r') as file_handle:
                 # Parse JSON, skip if unable to parse
