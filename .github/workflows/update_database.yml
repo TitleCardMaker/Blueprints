@@ -7,7 +7,7 @@ on:
     types: [ 'opened', 'edited', 'reopened', 'synchronize' ]
 
 jobs:
-  build_master_blueprint:
+  update_blueprint_database:
     runs-on: ubuntu-latest
 
     steps:
