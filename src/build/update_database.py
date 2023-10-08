@@ -10,16 +10,19 @@ from json import dumps, load as json_load, JSONDecodeError
 from pathlib import Path
 
 from src.database.db import db, Blueprint, Series
+from src.build.helper import get_blueprint_folders
 
 
 BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
 
 
 def update_database() -> None:
+    # Process each Blueprint file
     for blueprint_file in BLUEPRINT_FOLDER.glob('*/*/*/blueprint.json'):
         blueprint_number = int(blueprint_file.parent.name)
         series_path_name = blueprint_file.parent.parent.name
 
+        # Find matching Series, skip if cannot be found
         series = db.query(Series).filter_by(path_name=series_path_name).first()
         if series is None:
             print(f'Cannot find Series "{series_path_name}" in Database')
@@ -54,6 +57,19 @@ def update_database() -> None:
                 print(f'{"-" * 50}\nUpdating JSON of Blueprint[{series.name} ({series.year})][{blueprint_number}]\n')
                 print(f'{blueprint.json}\n\n{blueprint_string}')
                 blueprint.json = dumps(blueprint_json)
+
+    # Remove unmatched Blueprints from the database
+    for blueprint in db.query(Blueprint).all():
+        full_name = f'{blueprint.series.name} ({blueprint.series.year})'
+        letter, _ = get_blueprint_folders(full_name)
+        blueprint_file = BLUEPRINT_FOLDER \
+            / str(letter) \
+            / blueprint.series.path_name \
+            / str(blueprint.blueprint_number)
+        
+        if not blueprint_file.exists():
+            db.delete(blueprint)
+            print(f'Deleting "{full_name})" Blueprint[{blueprint.blueprint_number}] - not found on file system')
 
     db.commit()
 
