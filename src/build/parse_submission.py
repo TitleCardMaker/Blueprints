@@ -10,7 +10,7 @@ from datetime import datetime
 from json import dump as json_dump, loads, JSONDecodeError
 from os import environ
 from pathlib import Path
-from re import compile as re_compile, sub as re_sub, IGNORECASE
+from re import compile as re_compile
 from shutil import copy as file_copy, unpack_archive, ReadError
 from sys import exit as sys_exit
 from tempfile import NamedTemporaryFile, TemporaryDirectory
@@ -19,6 +19,7 @@ from typing import Optional
 from requests import get
 
 from src.database.db import create_new_blueprint
+from src.build.helper import get_blueprint_folders
 
 
 ROOT = Path(__file__).parent.parent.parent
@@ -26,42 +27,7 @@ BLUEPRINT_FOLDER = ROOT / 'blueprints'
 TEMP_PREVIEW_FILE = ROOT / 'preview.jpg'
 TEMP_FILE = ROOT / 'tmp'
 TEMP_DIRECTORY = ROOT / 'unzipped'
-PATH_SAFE_TRANSLATION = str.maketrans({
-    '?': '!',
-    '<': '',
-    '>': '',
-    ':':' -',
-    '"': '',
-    '|': '',
-    '*': '-',
-    '/': '+',
-    '\\': '+',
-})
-
 URL_REGEX = re_compile(r'\!?\[.*?\]\(([^\s]+)\)')
-
-
-def get_blueprint_folders(series_name: str) -> tuple[str, str]:
-    """
-    Get the path-safe name for the given Series name.
-
-    >>> get_blueprint_folders('The Expanse (2015)')
-    ('E', 'The Expanse (2015)')
-    >>> get_blueprint_folders('Demon Slayer: Kimetsu no Yaiba (2018)')
-    ('D', 'Demon Slayer - Kimetsu no Yaiba (2018)')
-
-    Args:
-        series_name: Name of the Series.
-
-    Returns:
-        Tuple of the parent letter subfolder and the Path-safe name with
-        prefix a/an/the and any illegal characters removed.
-    """
-
-    clean_name = str(series_name).translate(PATH_SAFE_TRANSLATION)
-    sort_name = re_sub(r'^(a|an|the)(\s)', '', clean_name, flags=IGNORECASE)
-
-    return sort_name[0].upper(), clean_name
 
 
 def parse_database_ids(ids: str) -> dict:
