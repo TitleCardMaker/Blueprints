@@ -338,7 +338,7 @@ def parse_and_create_blueprint():
     download_zip(submission['font_zip_url'], blueprint_subfolder)
 
     # Download source files
-    download_source_files(submission['source_file_urls', blueprint_subfolder])
+    download_source_files(submission['source_file_urls'], blueprint_subfolder)
 
     # Add creation time to Blueprint
     submission['blueprint']['created'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
