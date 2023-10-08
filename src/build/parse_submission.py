@@ -257,7 +257,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
         # Unpack into temporary directory
         with TemporaryDirectory() as directory:
             try:
-                unpack_archive(file_handle, directory)
+                unpack_archive(file_handle.name, directory)
             except (ValueError, ReadError):
                 print(f'Unable to unzip files from "{zip_url}"')
                 sys_exit(1)
@@ -303,7 +303,7 @@ def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
     # Process each of the provided URLs
     for url in urls:
         # If file was a zip, unpack
-        if url.endswith('.zip'):
+        if url.endswith(('.zip', '.tar', '.gztar', '.bztar')):
             download_zip(url, blueprint_subfolder)
         # File is non-zip, download directly
         else:
