@@ -1,7 +1,9 @@
 """
 Python script to be called by a GitHub action.
 
-This script resizes all preview images to a size of 1920x1080.
+This script resizes all preview images to a size of 1920x1080. Only
+images listed in each Blueprint's `previews` field are resized, so that
+source images not not touched.
 """
 
 
