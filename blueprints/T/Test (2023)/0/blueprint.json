@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "source_files": [
+      "s2e2-mask.png",
+      "s2e3-mask.png"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Test"
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2023-10-08T06:30:25"
+}
