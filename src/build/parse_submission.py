@@ -196,7 +196,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         'creator': creator,
         'preview_urls': parse_urls(data['preview_urls']),
         'font_zip_url': font_zip_url,
-        'source_file_urls': parse_urls(source_files),
+        'source_file_urls': source_files,
         'blueprint': blueprint | {
             'creator': creator,
             'description': description,
