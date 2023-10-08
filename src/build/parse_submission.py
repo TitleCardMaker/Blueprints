@@ -257,7 +257,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
         # Unpack into temporary directory
         with TemporaryDirectory() as directory:
             try:
-                unpack_archive(file_handle.name, directory)
+                unpack_archive(str(file_handle.name), directory)
             except (ValueError, ReadError):
                 print(f'Unable to unzip files from "{zip_url}"')
                 sys_exit(1)
