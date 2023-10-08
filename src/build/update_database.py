@@ -60,9 +60,8 @@ def update_database() -> None:
 
     # Remove unmatched Blueprints from the database
     for blueprint in db.query(Blueprint).all():
-        letter, _ = get_blueprint_folders(
-            f'{blueprint.series.name} ({blueprint.series.year})'
-        )
+        full_name = f'{blueprint.series.name} ({blueprint.series.year})'
+        letter, _ = get_blueprint_folders(full_name)
         blueprint_file = BLUEPRINT_FOLDER \
             / str(letter) \
             / blueprint.series.path_name \
@@ -70,7 +69,7 @@ def update_database() -> None:
         
         if not blueprint_file.exists():
             db.delete(blueprint)
-            print(f'Deleting Blueprint[{blueprint.blueprint_number}] - not found on file system')
+            print(f'Deleting "{full_name})" Blueprint[{blueprint.blueprint_number}] - not found on file system')
 
     db.commit()
 
