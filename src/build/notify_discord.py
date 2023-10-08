@@ -9,8 +9,10 @@ on the Discord Webhook describing the created Blueprint.
 
 from datetime import datetime, timedelta
 from os import environ
+from tempfile import TemporaryFile
 
 from discord_webhook import DiscordWebhook, DiscordEmbed
+from requests import get
 
 from src.build.parse_submission import parse_submission
 
@@ -52,25 +54,45 @@ def notify_discord() -> None:
 
     # Create Embed object for webhook
     embed = DiscordEmbed(
-        title=f'New Blueprint Submission for {data["series_name"].strip()} ({data["series_year"]})',
-        description=data['description'],
+        title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
+        description=data['blueprint']['description'],
     )
+
+    # Add creator as author
     embed.set_author(
         name=data['creator'],
         icon_url=environ.get('ISSUE_CREATOR_ICON_URL', DEFAULT_AVATAR_URL),
     )
-    embed.set_image(url=data['preview_url'])
+
+    # Add preview
+    embed.set_image(url=data['preview_urls'][0])
+
+    # Add thumbnail if >1 preview
+    if len(data['preview_urls']) > 1:
+        embed.set_thumbnail(url=data['preview_urls'][1])
+    
+    # Add fields
+    if (templates := len(data['blueprint'].get('templates', []))):
+        embed.add_embed_field(name='Templates', value=templates)
+    if (fonts := len(data['blueprint'].get('fonts', []))):
+        embed.add_embed_field(name='Fonts', value=fonts)
+    if (files := len(data['blueprint'].get('series', {}).get('source_files', []))):
+        embed.add_embed_field(name='Source Files', value=files)
+
+    # Add note about availability, add timestamp
     now = datetime.now()
     next_ = get_next_merge_time(now)
     embed.set_footer(f'This Blueprint will be available in {format_timedelta(next_-now)}')
     embed.set_timestamp()
 
-    # Add embed object to webhook, execute webhook
+    # Create Webhook for adding embeds
     webhook = DiscordWebhook(
         url=environ.get('DISCORD_WEBHOOK'),
         username=environ.get('DISCORD_USERNAME', 'MakerBot'),
         avatar_url=environ.get('DISCORD_AVATAR', DEFAULT_AVATAR_URL)
     )
+
+    # Add embed to Webhook, execute webhook
     webhook.add_embed(embed)
     webhook.execute()
 
