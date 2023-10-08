@@ -1,4 +1,4 @@
-# Scenes from a Marriage (US) (2021)
+# Scenes from a Marriage (2021)
 
 There are `1` Blueprint(s) available for this Series.
 

@@ -1,4 +1,4 @@
-# Shameless (US) (2011)
+# Shameless (2011)
 
 There are `1` Blueprint(s) available for this Series.
 

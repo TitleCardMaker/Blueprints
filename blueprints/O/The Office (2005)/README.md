@@ -1,4 +1,4 @@
-# The Office (US) (2005)
+# The Office (2005)
 
 There are `1` Blueprint(s) available for this Series.
 

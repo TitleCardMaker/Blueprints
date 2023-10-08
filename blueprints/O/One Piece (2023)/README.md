@@ -1,4 +1,4 @@
-# ONE PIECE (2023)
+# One Piece (2023)
 
 There are `1` Blueprint(s) available for this Series.
 

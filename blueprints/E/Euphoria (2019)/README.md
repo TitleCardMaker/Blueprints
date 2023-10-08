@@ -1,4 +1,4 @@
-# Euphoria (US) (2019)
+# Euphoria (2019)
 
 There are `1` Blueprint(s) available for this Series.
 
