@@ -150,7 +150,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
             r'### Blueprint\s+```json\s+(?P<blueprint>[\s\S]*?)```\s+'
             r'### Preview Title Cards\s+.*?(?P<preview_urls>[\s\S]*?)\s+'
             r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s+'
-            r'### Source Files\s+(?P<source_files>[\s\S]*?)\s*$'
+            r'### Zip of Source Files\s+(_No response_|\[.+?\]\((?P<source_files>http[^\s\)]+)\))\s*$'
         )
 
         # If data cannot be extracted, exit
@@ -284,23 +284,7 @@ def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
 
     # Process each of the provided URLs
     for url in urls:
-        # If file was a zip, unpack
-        if url.endswith(('.zip', '.tar', '.gztar', '.bztar')):
-            download_zip(url, blueprint_subfolder)
-        # File is non-zip, download directly
-        else:
-            if not (response := get(url, timeout=30)).ok:
-                print(f'Unable to download source file from "{url}"')
-                print(response.content)
-                sys_exit(1)
-            filename = url.rsplit('/', maxsplit=1)[-1]
-
-            # Copy preview into blueprint folder
-            file = blueprint_subfolder / filename
-            file.write_bytes(response.content)
-            print(f'Downloaded "{url}" into "{file.resolve()}"')
-
-    return None
+        download_zip(url, blueprint_subfolder)
 
 
 def parse_and_create_blueprint():
