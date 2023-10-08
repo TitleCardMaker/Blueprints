@@ -54,13 +54,13 @@ jobs:
   call-resize-images-workflow:
     needs: auto_merge
     if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
-    uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/resize_images.yml@master
+    uses: CollinHeist/TCM-Blueprints-v2/.github/workflows/resize_images.yml@master
     secrets: inherit
 
   call-update-database-workflow:
     needs: [auto_merge, call-resize-images-workflow]
     if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
-    uses: CollinHeist/TitleCardMaker-Blueprints/.github/workflows/update_database.yml@master
+    uses: CollinHeist/TCM-Blueprints-v2/.github/workflows/update_database.yml@master
     secrets: inherit
 
   merge-pull-request:
