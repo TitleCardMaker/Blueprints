@@ -1,0 +1,105 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Chapter {episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Book One: Water",
+      "Book Two: Earth",
+      "Book Three: Fire"
+    ],
+    "extra_keys": [
+      "episode_text_font",
+      "episode_text_vertical_shift",
+      "episode_text_font_size",
+      "frame_width"
+    ],
+    "extra_values": [
+      "./fonts/Herculanum-Regular.ttf",
+      "-8",
+      "1.2",
+      "5"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": [
+      "s2e10.jpg",
+      "s1e6.jpg",
+      "s1e16.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    },
+    "s1e4": {
+      "font_id": 1,
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ]
+    }
+  },
+  "templates": [
+    {
+      "name": "Test",
+      "card_type": "calligraphy"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Avatar: The Last Airbender (Primary)",
+      "delete_missing": true,
+      "file": "Avatar Airbender.ttf",
+      "size": 1.2,
+      "title_case": "upper"
+    },
+    {
+      "name": "Avatar: The Last Airbender (2)",
+      "delete_missing": true,
+      "file": "Avatar Airbender2.ttf",
+      "size": 1.2,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "An example Blueprint featuring multiple preview files, source images, Fonts and Templates.",
+    "The series name is input incorrectly as well."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2023-10-08T18:24:33"
+}
