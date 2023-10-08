@@ -50,69 +50,12 @@ def format_timedelta(delta: timedelta) -> str:
 
 def notify_discord() -> None:
     # Parse issue from environment variables
-    # data = parse_submission()
-    data={
-        'series_name': 'Avatar the Last Airbender',
-        'series_year': '2005',
-        'database_ids': {'imdb': 'tt0417299'},
-        'creator': 'CollinHeist',
-        'preview_urls': [
-            'https://github.com/CollinHeist/TCM-Blueprints-v2/assets/17693271/dc16e8a2-1a64-459a-aee8-695412eb7e47',
-            'https://github.com/CollinHeist/TCM-Blueprints-v2/assets/17693271/46ff0741-9bb3-4e96-b92b-f2ae6dbc407d',
-            'https://github.com/CollinHeist/TCM-Blueprints-v2/assets/17693271/8df64399-bb58-4047-877b-6240a785bf74'
-        ],
-        'font_zip_url': 'https://github.com/CollinHeist/TCM-Blueprints-v2/files/12841315/Archive.zip',
-        'source_file_zip_url': 'https://github.com/CollinHeist/TCM-Blueprints-v2/files/12841316/Archive.2.zip',
-        'blueprint': {
-            'series': {
-                'font_id': 0,
-                'card_type': 'tinted frame',
-                'episode_text_format': 'Chapter {episode_number}',
-                'season_title_ranges': ['1', '2', '3'],
-                'season_title_values': ['Book One: Water', 'Book Two: Earth', 'Book Three: Fire'],
-                'extra_keys': [
-                    'episode_text_font', 'episode_text_vertical_shift', 'episode_text_font_size', 'frame_width'
-                ], 'extra_values': [
-                    './fonts/Herculanum-Regular.ttf', '-8', '1.2', '5'
-                ],
-                'template_ids': [0]
-            },
-            'episodes': {
-                's1e1': {'extra_keys': ['frame_color'], 'extra_values': ['rgb(67,150,205)']},
-                's1e2': {'extra_keys': ['frame_color'], 'extra_values': ['rgb(67,150,205)']},
-                's1e3': {'extra_keys': ['frame_color'], 'extra_values': ['rgb(67,150,205)']},
-                's1e4': {'font_id': 1, 'extra_keys': ['frame_color'], 'extra_values': ['rgb(67,150,205)']}
-            },
-            'templates': [{'name': 'Test', 'card_type': 'calligraphy'}],
-            'fonts': [
-                {
-                    'name': 'Avatar: The Last Airbender (Primary)',
-                    'delete_missing': True,
-                    'file': 'Avatar Airbender.ttf',
-                    'size': 1.2,
-                    'title_case':
-                    'upper'
-                },
-                {
-                    'name': 'Avatar: The Last Airbender (2)',
-                    'delete_missing': True,
-                    'file': 'Avatar Airbender2.ttf',
-                    'size': 1.2,
-                    'title_case': 'upper'
-                }
-            ],
-            'creator': 'CollinHeist',
-            'description': [
-                'An example Blueprint featuring multiple preview files, source images, Fonts and Templates.',
-                'The series name is input incorrectly as well.'
-            ]
-        }
-    }
+    data = parse_submission()
 
     # Create Embed object for webhook
     embed = DiscordEmbed(
         title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
-        description=data['blueprint']['description'],
+        description='\n'.join(data['blueprint']['description']),
     )
 
     # Add creator as author
@@ -133,8 +76,8 @@ def notify_discord() -> None:
         embed.add_embed_field(name='Templates', value=templates)
     if (fonts := len(data['blueprint'].get('fonts', []))):
         embed.add_embed_field(name='Fonts', value=fonts)
-    if (files := len(data['blueprint'].get('series', {}).get('source_files', []))):
-        embed.add_embed_field(name='Source Files', value=files)
+    if (episodes := len(data['blueprint'].get('episodes', []))):
+        embed.add_embed_field(name='Episodes', value=episodes)
 
     # Add note about availability, add timestamp
     now = datetime.now()
