@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: refs/heads/master
+          ref: refs/heads/staging
           persist-credentials: false
           fetch-depth: 0
 
@@ -54,7 +54,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: refs/heads/master
+          branch: refs/heads/staging
 
       # Add label that Blueprint has been built
       - name: Add Label
