@@ -13,6 +13,7 @@ from pathlib import Path
 from re import compile as re_compile, sub as re_sub, IGNORECASE
 from shutil import copy as copy_file, unpack_archive, ReadError
 from sys import exit as sys_exit
+from tempfile import TemporaryDirectory, TemporaryFile
 from typing import Optional
 
 from requests import get
@@ -36,6 +37,8 @@ PATH_SAFE_TRANSLATION = str.maketrans({
     '/': '+',
     '\\': '+',
 })
+
+URL_REGEX = re_compile(r'\!?\[.*?\]\(([^\s]+)\)')
 
 
 def get_blueprint_folders(series_name: str) -> tuple[str, str]:
@@ -91,25 +94,24 @@ def parse_database_ids(ids: str) -> dict:
     return database_ids
 
 
-def parse_previews(raw: str) -> list[str]:
+def parse_urls(raw: Optional[str]) -> list[str]:
     """
-    Parse the raw preview image markdown into a list of preview URLs.
+    Parse the raw markdown into a list of URLs.
 
-    >>> parse_previews('![preview](example.jpg) ![preview](example2.jpg)')
+    >>> parse_urls('![preview](example.jpg) ![preview](example2.jpg)')
     ['example.jpg', 'example2.jpg']
+    >>> parse_urls('[zip](https://fonts.zip)')
+    ['https://fonts.zip']
 
     Args:
-        raw: Raw Markdown of embedded images to parse. Should be pulled
-            directly from the Issue template.
+        raw: Raw Markdown of embedded file links to parse. Should be
+            pulled directly from the Issue template.
 
     Returns:
-        List of preview URLs
+        List of URLs.
     """
 
-    url_pattern = re_compile(r'\!\[.*?\]\(([^\s]+)\)')
-
-    return url_pattern.findall(raw)
-
+    return [] if raw is None else URL_REGEX.findall(raw)
 
 
 def parse_submission(data: Optional[dict] = None) -> dict:
@@ -147,7 +149,8 @@ def parse_submission(data: Optional[dict] = None) -> dict:
             r'### Blueprint Description\s+(?P<description>[\s\S]*?)\s+'
             r'### Blueprint\s+```json\s+(?P<blueprint>[\s\S]*?)```\s+'
             r'### Preview Title Cards\s+.*?(?P<preview_urls>[\s\S]*?)\s+'
-            r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s*$'
+            r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s+'
+            r'### Source Files\s+(?P<source_files>[\s\S]*?)\s*$'
         )
 
         # If data cannot be extracted, exit
@@ -161,31 +164,38 @@ def parse_submission(data: Optional[dict] = None) -> dict:
     data = {'font_zip': '_No response_'} | data
 
     creator = (creator if '_No response_' in data['creator'] else data['creator']).strip()
-    description = data['description']
-    blueprint = data['blueprint']
     if data.get('font_zip') is None or '_No response_' in data['font_zip']:
         font_zip_url = None
     else:
         font_zip_url = data['font_zip']
+    if data.get('source_files') is None or '_No response_' in data['source_files']:
+        source_files = None
+    else:
+        source_files = data['source_files']
 
     # Parse blueprint as JSON
     try:
-        blueprint = loads(blueprint)
+        blueprint = loads(data['blueprint'])
     except JSONDecodeError:
         print(f'Unable to parse blueprint as JSON')
         print(f'{blueprint=!r}')
         sys_exit(1)
 
     # Clean up description
-    description = [line.strip() for line in description.splitlines() if line.strip()]
+    description = [
+        line.strip()
+        for line in data['description'].splitlines()
+        if line.strip()
+    ]
 
     return {
         'series_name': data['series_name'].strip(),
         'series_year': data['series_year'],
         'database_ids': parse_database_ids(data['database_ids']),
         'creator': creator,
-        'preview_urls': parse_previews(data['preview_urls']),
+        'preview_urls': parse_urls(data['preview_urls']),
         'font_zip_url': font_zip_url,
+        'source_file_urls': parse_urls(source_files),
         'blueprint': blueprint | {
             'creator': creator,
             'description': description,
@@ -217,46 +227,98 @@ def download_preview(url: str, index: int, blueprint_subfolder: Path):
     print(f'Downloaded "{url}" into "{file.resolve()}"')
 
 
-def download_font_files(zip_url: str, blueprint_subfolder: Path) -> None:
+def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
     """
-    Download any font files in the ZIP located at the given URL and
-    write them in the given Blueprint folder.
+    Download any files in the ZIP located at the given URL and write
+    them in the given Blueprint folder.
 
     Args:
-        zip_url: URL to the Font zip file to download.
+        zip_url: URL to the zip file to download.
         blueprint_subfolder: Subfolder of the Blueprint to download
-            these Font files into.
+            these files into.
     """
 
-    # Download any font zip files if provided
-    if zip_url is not None:
-        if not (response := get(zip_url, timeout=30)).ok:
-            print(f'Unable to download zip from "{zip_url}"')
-            print(response.content)
-            sys_exit(1)
-        print(f'Downloaded "{zip_url}"')
-        zip_content = response.content
-        
+    if not zip_url:
+        return None
+
+    # Download from URL
+    if not (response := get(zip_url, timeout=30)).ok:
+        print(f'Unable to download zip from "{zip_url}"')
+        print(response.content)
+        sys_exit(1)
+    print(f'Downloaded "{zip_url}"')
+    zip_content = response.content
+    
+    # Write zip to file
+    with TemporaryFile() as file_handle:
         # Write zip to file
-        uploaded_filename = zip_url.rsplit('/', maxsplit=1)[-1]
-        downloaded_file = ROOT / uploaded_filename
-        downloaded_file.write_bytes(zip_content)
+        file_handle.write(zip_content)
 
-        try:
-            unpack_archive(downloaded_file, TEMP_DIRECTORY)
-        except (ValueError, ReadError):
-            print(f'Unable to unzip provided files from "{zip_url}"')
-            sys_exit(1)
+        # Unpack into temporary directory
+        with TemporaryDirectory() as directory:
+            try:
+                unpack_archive(file_handle, directory)
+            except (ValueError, ReadError):
+                print(f'Unable to unzip files from "{zip_url}"')
+                sys_exit(1)
 
-        print(f'Unzipped {[file.name for file in TEMP_DIRECTORY.glob("*")]}')
+            print(f'Unzipped {[file.name for file in Path(directory).glob("*")]}')
+            for file in Path(directory).glob('*'):
+                if file.is_dir():
+                    print(f'Skipping directory [zip]/{file.name}')
+                    continue
 
-        for file in TEMP_DIRECTORY.glob('*'):
-            if file.is_dir():
-                print(f'Skipping directory [zip]/{file.name}')
-                continue
+                destination = blueprint_subfolder / file.name
+                copy_file(file, destination)
+                print(f'Downloaded [zip]/{file.name} into "{destination.resolve()}"')
 
-            copy_file(file, blueprint_subfolder / file.name)
-            # print(f'Copied [zip]/{file.name} into blueprints/{letter}/{folder_name}/{id_}/{file.name}')
+    # with TemporaryDirectory() as directory:
+    #     uploaded_filename = zip_url.rsplit('/', maxsplit=1)[-1]
+    #     downloaded_file = ROOT / uploaded_filename
+    #     downloaded_file.write_bytes(zip_content)
+
+    # try:
+    #     unpack_archive(downloaded_file, TEMP_DIRECTORY)
+    # except (ValueError, ReadError):
+    #     print(f'Unable to unzip files from "{zip_url}"')
+    #     sys_exit(1)
+
+    # print(f'Unzipped {[file.name for file in TEMP_DIRECTORY.glob("*")]}')
+
+    # for file in TEMP_DIRECTORY.glob('*'):
+    #     if file.is_dir():
+    #         print(f'Skipping directory [zip]/{file.name}')
+    #         continue
+
+    #     destination = blueprint_subfolder / file.name
+    #     copy_file(file, destination)
+    #     print(f'Downloaded [zip]/{file.name} into "{destination.resolve()}"')
+
+
+def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
+    """
+    
+    """
+
+    # Process each of the provided URLs
+    for url in urls:
+        # If file was a zip, unpack
+        if url.endswith('.zip'):
+            download_zip(url, blueprint_subfolder)
+        # File is non-zip, download directly
+        else:
+            if not (response := get(url, timeout=30)).ok:
+                print(f'Unable to download source file from "{url}"')
+                print(response.content)
+                sys_exit(1)
+            filename = url.rsplit('/', maxsplit=1)[-1]
+
+            # Copy preview into blueprint folder
+            file = blueprint_subfolder / filename
+            file.write_bytes(response.content)
+            print(f'Downloaded "{url}" into "{file.resolve()}"')
+
+    return None
 
 
 def parse_and_create_blueprint():
@@ -300,7 +362,10 @@ def parse_and_create_blueprint():
     ]
 
     # Download any font zip files if provided
-    download_font_files(submission['font_zip_url'], blueprint_subfolder)
+    download_zip(submission['font_zip_url'], blueprint_subfolder)
+
+    # Download source files
+    download_source_files(submission['source_file_urls', blueprint_subfolder])
 
     # Add creation time to Blueprint
     submission['blueprint']['created'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')

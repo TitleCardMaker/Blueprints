@@ -83,4 +83,4 @@ body:
       description: >
         Upload any __required__ Source Files for this Blueprint. These will be
         downloaded into the Series' source folder when the Blueprint is
-        imported.
+        imported. This can be a `.zip` file, or direct image uploads.
