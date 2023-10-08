@@ -61,7 +61,7 @@ body:
       required: true
 
   - type: textarea
-    id: preview_file
+    id: preview_files
     attributes:
       label: Preview Title Cards
       description: Upload your preview Title Cards here.
@@ -75,3 +75,12 @@ body:
       description: >
         Upload a `.zip` file of any Font Files used by this Blueprint. Please
         verify any Font Licenses allow them to be shared before uploading.
+
+  - type: textarea
+    id: source_files
+    attributes:
+      label: Source Files
+      description: >
+        Upload any __required__ Source Files for this Blueprint. These will be
+        downloaded into the Series' source folder when the Blueprint is
+        imported.
