@@ -30,13 +30,13 @@ def build_series_readme():
     # Parse all Blueprints for all Series
     for series_subfolder in BLUEPRINT_FOLDER.glob('*/*'):
         # Read all Blueprints for this Series
-        blueprints: list[tuple[int, dict]] = []
+        blueprints: dict[int, dict] = {}
         for blueprint_file in series_subfolder.glob('*/blueprint.json'):
             blueprint_number = int(blueprint_file.parent.name)
             with blueprint_file.open('r') as file_handle:
                 # Parse JSON, skip if unable to parse
                 try:
-                    blueprints.append((blueprint_number, json_load(file_handle)))
+                    blueprints[blueprint_number] = json_load(file_handle)
                 except JSONDecodeError:
                     continue
 
@@ -45,7 +45,8 @@ def build_series_readme():
             series_full_name=series_subfolder.name,
             count=len(blueprints),
         )
-        for blueprint_id, blueprint in blueprints:
+        for blueprint_id in sorted(blueprints):
+            blueprint = blueprints[blueprint_id]
             if blueprint is None:
                 continue
 
