@@ -1,7 +1,7 @@
 """
 Python script to be called by a GitHub action.
 
-This script reads all Series blueprints.json files and writes summary
+This script reads all Series' Blueprint JSON files and writes summary
 README's within each Series subfolder.
 """
 
