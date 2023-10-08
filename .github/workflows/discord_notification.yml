@@ -35,4 +35,4 @@ jobs:
           ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
           ISSUE_CREATOR_ICON_URL: '${{ github.event.issue.user.avatar_url }}'
         run: |
-          python entrypoint --notify-discord
+          python entrypoint.py --notify-discord
