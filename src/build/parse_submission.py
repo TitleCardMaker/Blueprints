@@ -84,6 +84,7 @@ def parse_database_ids(ids: str) -> dict:
     for id_substr in ids.split(','):
         try:
             id_type, id_ = id_substr.split(':')
+            id_ = str(id_).strip()
         except ValueError as exc:
             print(f'Invalid database IDs {exc}')
             continue

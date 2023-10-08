@@ -67,7 +67,7 @@ jobs:
             # Blueprint Validation Results
             Validation has __failed__. See the [workflow summary](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
 
-            After correcting the Blueprint, new test will be run automatically.
+            After correcting the Blueprint, new tests will be run automatically.
 
       # Add labels for pass/failure
       - name: Add Passing Label
