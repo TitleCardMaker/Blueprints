@@ -87,7 +87,7 @@ def notify_discord() -> None:
 
     # Create Webhook for adding embeds
     webhook = DiscordWebhook(
-        url=environ.get('DISCORD_WEBHOOK', 'https://discord.com/api/webhooks/1140417811072684103/IkoLb9iLGZqJ3-B5kARVaZjt43wA6Cs8PnFYHR0uPrnowP_mEdBi9ltgNEsfbxYUoHas'),
+        url=environ.get('DISCORD_WEBHOOK'),
         username=environ.get('DISCORD_USERNAME', 'MakerBot'),
         avatar_url=environ.get('DISCORD_AVATAR', DEFAULT_AVATAR_URL)
     )
