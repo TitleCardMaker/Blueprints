@@ -158,7 +158,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
 
     return {
         'series_name': data['series_name'].strip(),
-        'series_year': data['series_year'],
+        'series_year': int(data['series_year']),
         'database_ids': parse_database_ids(data['database_ids']),
         'creator': creator,
         'preview_urls': parse_urls(data['preview_urls']),
