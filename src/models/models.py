@@ -56,6 +56,7 @@ class BlueprintSeries(SeriesBase):
     font_stroke_width: Optional[float] = None
     font_interline_spacing: Optional[int] = None
     font_vertical_shift: Optional[int] = None
+    source_files: list[str] = []
     
 class BlueprintEpisode(BlueprintSeries):
     title: Optional[str] = None

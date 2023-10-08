@@ -1,6 +1,11 @@
+"""
+Python script to be called by a GitHub action.
 
+This serves as the entrypoint to all Blueprint actions.
+"""
 
 from argparse import ArgumentParser
+
 
 ap = ArgumentParser()
 ap.add_argument('--build-readme', action='store_true')

@@ -11,9 +11,9 @@ from json import dump as json_dump, loads, JSONDecodeError
 from os import environ
 from pathlib import Path
 from re import compile as re_compile, sub as re_sub, IGNORECASE
-from shutil import copy as copy_file, unpack_archive, ReadError
+from shutil import copy as unpack_archive, ReadError
 from sys import exit as sys_exit
-from tempfile import TemporaryDirectory, TemporaryFile
+from tempfile import NamedTemporaryFile
 from typing import Optional
 
 from requests import get
@@ -235,7 +235,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
     Args:
         zip_url: URL to the zip file to download.
         blueprint_subfolder: Subfolder of the Blueprint to download
-            these files into.
+            and unpack the zip files into.
     """
 
     if not zip_url:
@@ -247,57 +247,30 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
         print(response.content)
         sys_exit(1)
     print(f'Downloaded "{zip_url}"')
-    zip_content = response.content
-    
-    # Write zip to file
-    with TemporaryFile() as file_handle:
-        # Write zip to file
-        file_handle.write(zip_content)
 
-        # Unpack into temporary directory
-        with TemporaryDirectory() as directory:
-            try:
-                unpack_archive(str(file_handle.name), directory)
-            except (ValueError, ReadError):
-                print(f'Unable to unzip files from "{zip_url}"')
-                sys_exit(1)
+    # Write zip to temporary file
+    extension = zip_url.rsplit('.', maxsplit=1)[-1]
+    with NamedTemporaryFile(suffix=f'.{extension}') as file_handle:
+        file_handle.write(response.content)
 
-            print(f'Unzipped {[file.name for file in Path(directory).glob("*")]}')
-            for file in Path(directory).glob('*'):
-                if file.is_dir():
-                    print(f'Skipping directory [zip]/{file.name}')
-                    continue
-
-                destination = blueprint_subfolder / file.name
-                copy_file(file, destination)
-                print(f'Downloaded [zip]/{file.name} into "{destination.resolve()}"')
-
-    # with TemporaryDirectory() as directory:
-    #     uploaded_filename = zip_url.rsplit('/', maxsplit=1)[-1]
-    #     downloaded_file = ROOT / uploaded_filename
-    #     downloaded_file.write_bytes(zip_content)
-
-    # try:
-    #     unpack_archive(downloaded_file, TEMP_DIRECTORY)
-    # except (ValueError, ReadError):
-    #     print(f'Unable to unzip files from "{zip_url}"')
-    #     sys_exit(1)
-
-    # print(f'Unzipped {[file.name for file in TEMP_DIRECTORY.glob("*")]}')
-
-    # for file in TEMP_DIRECTORY.glob('*'):
-    #     if file.is_dir():
-    #         print(f'Skipping directory [zip]/{file.name}')
-    #         continue
-
-    #     destination = blueprint_subfolder / file.name
-    #     copy_file(file, destination)
-    #     print(f'Downloaded [zip]/{file.name} into "{destination.resolve()}"')
+        # Unpack zip into Blueprint subfolder
+        try:
+            unpack_archive(file_handle.name, blueprint_subfolder)
+            print(f'Unpacked zip into "{blueprint_subfolder}"')
+        except (ValueError, ReadError):
+            print(f'Unable to unzip files from "{zip_url}"')
+            sys_exit(1)
 
 
 def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
     """
-    
+    Download all source files from the given list of URLs into the
+    given Blueprint folder. This handles zips and raw images.
+
+    Args:
+        urls: List of URLs to download.
+        blueprint_subfolder: Subfolder of the Blueprint to download
+            these files into.
     """
 
     # Process each of the provided URLs

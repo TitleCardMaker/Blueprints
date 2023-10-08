@@ -123,5 +123,7 @@ class TestBlueprintFiles:
                 if font.get('file', None) is not None
             }
             previews = set(blueprint['previews'])
-            assert len(given_files - font_files - previews) == 0, 'Only files listed in the blueprint can be included in the blueprint folder'
-            assert len((font_files | previews) - given_files) == 0, 'All files listed in the blueprint must be included in the blueprint folder'
+            # Get all source files
+            source_files = set(blueprint.get('source_files', []))
+            assert len(given_files - font_files - previews - source_files) == 0, 'Only files listed in the blueprint can be included in the blueprint folder'
+            assert len((font_files | previews | source_files) - given_files) == 0, 'All files listed in the blueprint must be included in the blueprint folder'
