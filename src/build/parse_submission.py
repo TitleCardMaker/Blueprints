@@ -11,9 +11,9 @@ from json import dump as json_dump, loads, JSONDecodeError
 from os import environ
 from pathlib import Path
 from re import compile as re_compile, sub as re_sub, IGNORECASE
-from shutil import copy as unpack_archive, ReadError
+from shutil import copy as file_copy, unpack_archive, ReadError
 from sys import exit as sys_exit
-from tempfile import NamedTemporaryFile
+from tempfile import NamedTemporaryFile, TemporaryDirectory
 from typing import Optional
 
 from requests import get
@@ -253,13 +253,22 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> None:
     with NamedTemporaryFile(suffix=f'.{extension}') as file_handle:
         file_handle.write(response.content)
 
-        # Unpack zip into Blueprint subfolder
-        try:
-            unpack_archive(file_handle.name, blueprint_subfolder)
-            print(f'Unpacked zip into "{blueprint_subfolder}"')
-        except (ValueError, ReadError):
-            print(f'Unable to unzip files from "{zip_url}"')
-            sys_exit(1)
+        # Unpack zip into temporary folder
+        with TemporaryDirectory() as directory:
+            try:
+                unpack_archive(file_handle.name, directory)
+                print(f'Unpacked zip into "{directory}"')
+            except (ValueError, ReadError):
+                print(f'Unable to unzip files from "{zip_url}"')
+                sys_exit(1)
+
+            for file in Path(directory).glob('*'):
+                if file.is_dir():
+                    print(f'Skipping [zip]/{file} - is a directory')
+                    continue
+
+                file_copy(file, blueprint_subfolder / str(file.name))
+                print(f'Copied [zip]/{file.name} into "{blueprint_subfolder}"')
 
 
 def download_source_files(urls: list[str], blueprint_subfolder: Path) -> None:
