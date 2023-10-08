@@ -4,11 +4,12 @@ Python script to be called by a GitHub action.
 This script updates the Blueprint database with all Blueprint data.
 """
 
+
 from datetime import datetime
 from json import dumps, load as json_load, JSONDecodeError
 from pathlib import Path
 
-from database.db import db, Blueprint, Series
+from src.database.db import db, Blueprint, Series
 
 
 BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
