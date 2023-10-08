@@ -196,7 +196,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         'creator': creator,
         'preview_urls': parse_urls(data['preview_urls']),
         'font_zip_url': font_zip_url,
-        'source_file_urls': source_files,
+        'source_file_zip_url': source_files,
         'blueprint': blueprint | {
             'creator': creator,
             'description': description,
@@ -280,31 +280,6 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
     return files
 
 
-def download_source_files(
-        urls: list[str],
-        blueprint_subfolder: Path,
-    ) -> list[Path]:
-    """
-    Download all source files from the given list of URLs into the
-    given Blueprint folder. This handles zips and raw images.
-
-    Args:
-        urls: List of URLs to download.
-        blueprint_subfolder: Subfolder of the Blueprint to download
-            these files into.
-
-    Returns:
-        List of the downloaded files.
-    """
-
-    # Process each of the provided URLs
-    files = []
-    for url in urls:
-        files += download_zip(url, blueprint_subfolder)
-
-    return files
-
-
 def parse_and_create_blueprint():
     """
     Parse the Blueprint submission from the environment variables, add
@@ -350,8 +325,8 @@ def parse_and_create_blueprint():
     download_zip(submission['font_zip_url'], blueprint_subfolder)
 
     # Download source files
-    source_files = download_source_files(
-        submission['source_file_urls'], blueprint_subfolder
+    source_files = download_zip(
+        submission['source_file_zip_url'], blueprint_subfolder
     )
 
     # Add source files to Blueprint
