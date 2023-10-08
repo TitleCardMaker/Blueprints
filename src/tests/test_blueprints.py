@@ -12,9 +12,23 @@ BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
 # Non-tests
 
 def read_blueprints() -> Iterator[tuple[Path, str, dict]]:
+    """
+    Iterate through and read all defined blueprints.
+
+    >>> next(read_blueprints())
+    (Path('./blueprints/A/Attack on Titan (2013)'), 0, {"series": ...})
+
+    Yields:
+        Tuple of the Path to the series subfolder, the blueprint ID, and
+        the blueprint JSON (as a dictionary).
+    """
+
+    # Read all subfolder blueprint files
     for blueprint_file in BLUEPRINT_FOLDER.glob('*/*/*/blueprint.json'):
         blueprint_id = blueprint_file.parent
         series_subfolder = blueprint_file.parent.parent
+
+        # Open this Blueprint file, yield objects
         with blueprint_file.open('r') as file_handle:
             blueprint = json_load(file_handle)
             yield series_subfolder, blueprint_id, blueprint
