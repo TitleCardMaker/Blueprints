@@ -1,0 +1,54 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "episode_{episode_number}.0",
+    "season_title_ranges": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "specials_0.0",
+      "season_1.0",
+      "season_2.0",
+      "season_3.0",
+      "season_4.0"
+    ],
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "omit",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Mr. Robot",
+      "color": "rgb(202,34,34)",
+      "delete_missing": true,
+      "file": "MR ROBOT.ttf",
+      "interline_spacing": 20,
+      "title_case": "upper"
+    }
+  ],
+  "description": [
+    "Fully customized Tinted Frame cards with the Series font. Uses mask files to position parts of the image above the Frame.",
+    "Mask files and source files are included for most Episodes."
+  ],
+  "creator": "CollinHeist",
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2023-10-09T01:16:38"
+}
