@@ -11,7 +11,7 @@ TitleCase = Literal['blank', 'lower', 'source', 'title', 'upper']
 class Condition(BaseModel):
     argument: str
     operation: str
-    reference: str
+    reference: Optional[str] = None
 
 class Translation(BaseModel):
     language_code: str
