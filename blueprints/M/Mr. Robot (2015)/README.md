@@ -7,4 +7,4 @@ There are `4` Blueprint(s) available for this Series.
 | `0` | <img src="./0/preview.jpg" height="150"> | - | `1` | - |
 | `1` | <img src="./1/preview.jpg" height="150"> | - | - | - |
 | `2` | <img src="./2/preview.jpg" height="150"> | - | `1` | - |
-| `3` | <img src="./3/preview0.jpg" height="150"> | - | `1` | - |
+| `4` | <img src="./4/preview0.jpg" height="150"> | - | `1` | - |
