@@ -1,10 +1,10 @@
+from datetime import datetime
 from json import dumps
 
 from sqlalchemy import (
     Column, DateTime, Integer, String, ForeignKey, create_engine, func, or_
 )
-from sqlalchemy.orm import relationship, sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 
 
 DATABASE_URL = 'sqlite:///./blueprints.db'
@@ -96,14 +96,23 @@ def create_new_blueprint(
         db.add(series)
         db.commit()
         print(f'Added {series_name} ({series_year}) to Database as Series[{series.id}]')
+
+    # Get Bluprint number
+    blueprint_numbers = db.query(Blueprint.blueprint_number)\
+        .filter_by(series_id=series.id)\
+        .all()
+    if blueprint_numbers:
+        blueprint_number = max(blueprint_numbers) + 1
+    else:
+        blueprint_number = 0
     
-    # Series exists; create Blueprint
+    # Series exists
     if (created := blueprint_json.get('created')):
-        from datetime import datetime
         created = datetime.strptime(created, '%Y-%m-%dT%H:%M:%S')
 
+    # Create Blueprint, add to Database
     blueprint = Blueprint(
-        series_id=series.id, blueprint_number=len(series.blueprints),
+        series_id=series.id, blueprint_number=blueprint_number,
         creator=creator, created=created, json=dumps(blueprint_json),
     )
     db.add(blueprint)
