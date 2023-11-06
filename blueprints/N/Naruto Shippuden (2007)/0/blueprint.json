@@ -1,0 +1,308 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1-32",
+      "33-53",
+      "54-71",
+      "72-88",
+      "89-112",
+      "113-118",
+      "121-126",
+      "119-120",
+      "127-133",
+      "134-143",
+      "144-151",
+      "152-169",
+      "172-175",
+      "170-171",
+      "176-196",
+      "197-214",
+      "215-222",
+      "223-242",
+      "243-256",
+      "257-260",
+      "261-270",
+      "271-271",
+      "272-289",
+      "290-295",
+      "296-310",
+      "311-311",
+      "312-321",
+      "322-348",
+      "349-361",
+      "362-375",
+      "376-377",
+      "378-388",
+      "389-390",
+      "391-393",
+      "394-413",
+      "414-421",
+      "422-423",
+      "424-427",
+      "428-431",
+      "432-450",
+      "451-451",
+      "452-454",
+      "455-455",
+      "456-457",
+      "458-468",
+      "469-469",
+      "470-479",
+      "480-483",
+      "484-488",
+      "489-493",
+      "494-500"
+    ],
+    "season_title_values": [
+      "Kazekage Rescue Mission arc",
+      "Sasuke and Sai arc",
+      "Twelve Guardian Ninja Arc",
+      "Akatsuki Suppression Mission",
+      "Three-Tails Appearance",
+      "Itachi Pursuit arc",
+      "Itachi Pursuit arc",
+      "Kakashi Gaiden",
+      "Tale Of Jiraiya The Gallant",
+      "Fated Battle Between Brothers",
+      "Six-Tails Unleashed",
+      "Pain's Assault",
+      "Invasion of Pain arc",
+      "Big Adventure! ",
+      "Past Arc: The Locus Of Konoha",
+      "Five Kage Summit",
+      "Fourth Shinobi World War: Countdown",
+      "Paradise Life on a Boat",
+      "Fourth Shinobi World War: Countdown",
+      "Sasuke/Naruto Flashbacks",
+      "Fourth Shinobi World War: Confrontation",
+      "Road to Sakura",
+      "Fourth Shinobi World War: Confrontation",
+      "Power",
+      "Fourth Shinobi World War: Confrontation",
+      "Prologue of Road to Ninja",
+      "Fourth Shinobi World War: Confrontation",
+      "Fourth Shinobi World War: Climax",
+      "Kakashi\u2019s Anbu Arc",
+      "Fourth Shinobi World War: Climax",
+      "Mecha Arc",
+      "Birth of 10 Tails",
+      "Hanabi",
+      "Birth of 10 Tails",
+      "The Friends\u2019 Paths Arc",
+      "Birth of 10 Tails",
+      "Naruto\u2019s return to leaf after training",
+      "Birth of 10 Tails",
+      "Kaguya Otsutsuki Strikes",
+      "Jiraiya Shinobi Handbook",
+      "Kaguya Otsutsuki Strikes",
+      "Itachi Shinden Book",
+      "Kaguya Otsutsuki Strikes",
+      "Itachi Shinden Book",
+      "Kaguya Otsutsuki Strikes",
+      "A Special Mission",
+      "Kaguya Otsutsuki Strikes",
+      "Childhood",
+      "Sasuke Shinden",
+      "Shikamaru Hiden",
+      "Konoha Hiden"
+    ],
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "rgb(22,55,138)"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_season_text": true,
+      "episode_text": "Movie 4"
+    },
+    "s0e2": {
+      "hide_season_text": true,
+      "episode_text": "Movie 5"
+    },
+    "s0e3": {
+      "hide_season_text": true,
+      "episode_text": "Movie 6"
+    },
+    "s0e4": {
+      "hide_season_text": true,
+      "episode_text": "Movie 7"
+    },
+    "s0e7": {
+      "hide_season_text": true,
+      "episode_text": "Movie 8"
+    },
+    "s0e10": {
+      "hide_season_text": true,
+      "episode_text": "Movie 9"
+    },
+    "s0e12": {
+      "hide_season_text": true,
+      "episode_text": "Movie 10"
+    },
+    "s0e13": {
+      "hide_season_text": true,
+      "episode_text": "Movie 11"
+    },
+    "s20e1": {
+      "title": "The Tale of Naruto the Hero - The Loser Ninja"
+    },
+    "s20e2": {
+      "title": "The Tale of Naruto the Hero - The Search Mission"
+    },
+    "s20e3": {
+      "title": "The Tale of Naruto the Hero - Team Jiraiya"
+    },
+    "s20e4": {
+      "title": "The Tale of Naruto the Hero - Order of Priority"
+    },
+    "s20e5": {
+      "title": "The Tale of Naruto the Hero - The Masked Man"
+    },
+    "s20e6": {
+      "title": "The Tale of Naruto the Hero - The Sealed Power"
+    },
+    "s20e7": {
+      "title": "The Tale of Naruto the Hero - The Rules or a Comrade"
+    },
+    "s20e8": {
+      "title": "The Tale of Naruto the Hero - The Child of Prophecy"
+    },
+    "s20e9": {
+      "title": "The Tale of Naruto the Hero - The Caged Bird"
+    },
+    "s20e10": {
+      "title": "The Tale of Naruto the Hero - Returning Home"
+    },
+    "s20e11": {
+      "title": "The Tale of Naruto the Hero - The Mutual Path"
+    },
+    "s20e12": {
+      "title": "The Tale of Naruto the Hero - The Difference in Power"
+    },
+    "s20e13": {
+      "title": "The Tale of Naruto the Hero - Leaving the Village"
+    },
+    "s20e14": {
+      "title": "The Tale of Naruto the Hero - Pursuers"
+    },
+    "s20e15": {
+      "title": "The Tale of Naruto the Hero - Collision"
+    },
+    "s20e16": {
+      "title": "The Tale of Naruto the Hero - Another Moon"
+    },
+    "s20e17": {
+      "title": "The Tale of Naruto the Hero - Comrade"
+    },
+    "s20e18": {
+      "title": "The Tale of Naruto the Hero - The Shinobi Unite"
+    },
+    "s20e19": {
+      "title": "The Tale of Naruto the Hero - Rivals"
+    },
+    "s21e1": {
+      "title": "Light and Darkness: Birth and Death"
+    },
+    "s21e2": {
+      "title": "Light and Darkness: The Genius"
+    },
+    "s21e3": {
+      "title": "Light and Darkness: The Pain of Living"
+    },
+    "s21e4": {
+      "title": "Light and Darkness: Shisui's Request"
+    },
+    "s21e5": {
+      "title": "Light and Darkness: Moonlit Night"
+    },
+    "s21e6": {
+      "title": "Light and Darkness: The Darkness of the Akatsuki"
+    },
+    "s21e7": {
+      "title": "Light and Darkness: Partner"
+    },
+    "s21e8": {
+      "title": "Light and Darkness: Truth"
+    },
+    "s22e31": {
+      "title": "Part 1: The State of Affairs"
+    },
+    "s22e32": {
+      "title": "Part 2: Dark Clouds"
+    },
+    "s22e33": {
+      "title": "Part 3: Recklessness"
+    },
+    "s22e34": {
+      "title": "Part 4: Cloud of Suspicion"
+    },
+    "s22e35": {
+      "title": "Part 5: Dawn"
+    },
+    "s22e36": {
+      "title": "Part 1: Naruto\u2019s Wedding"
+    },
+    "s22e37": {
+      "title": "Part 2: A Full-Powered Wedding Gift"
+    },
+    "s22e38": {
+      "title": "Part 3: Steam and Food Pills"
+    },
+    "s22e39": {
+      "title": "Part 4: The Kazekage\u2019s Wedding Gift"
+    },
+    "s22e40": {
+      "title": "Part 5: The Last Mission"
+    },
+    "s22e41": {
+      "title": "Part 6: The Outcome of the Secret Mission"
+    },
+    "s22e42": {
+      "title": "Part 7: The Message"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Naruto (Anime)",
+      "color": "rgb(235,142,52)",
+      "delete_missing": true,
+      "file": "naruto.ttf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        "\u016b",
+        "\u016a",
+        "\u2026",
+        "\u014d",
+        "\u014c"
+      ],
+      "replacements_out": [
+        "u",
+        "U",
+        "...",
+        "o",
+        "O"
+      ],
+      "stroke_width": 5.0
+    }
+  ],
+  "creator": "AnonFawkes",
+  "description": [
+    "Copy of Collin's Naruto Blueprint for Naruto Shipp\u016bden with custom Font and arc season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-11-06T23:16:52"
+}
