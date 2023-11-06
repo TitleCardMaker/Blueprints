@@ -71,5 +71,5 @@ jobs:
 
   announce-blueprint-on-discord:
     needs: create_blueprint_from_issue
-    uses: CollinHeist/TCM-Blueprints-v2/.github/workflows/discord_notification.yml@master
+    uses: TitleCardMaker/Blueprints/.github/workflows/discord_notification.yml@master
     secrets: inherit

@@ -30,7 +30,7 @@ jobs:
       - name: Send Discord Message
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          DISCORD_AVATAR: https://raw.githubusercontent.com/CollinHeist/TitleCardMaker/master/.github/logo.png
+          DISCORD_AVATAR: https://raw.githubusercontent.com/TitleCardMaker/TitleCardMaker/master/.github/logo.png
           ISSUE_BODY: ${{ toJson(github.event.issue.body) }}
           ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
           ISSUE_CREATOR_ICON_URL: '${{ github.event.issue.user.avatar_url }}'
