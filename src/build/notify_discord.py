@@ -9,18 +9,13 @@ on the Discord Webhook describing the created Blueprint.
 
 from datetime import datetime, timedelta
 from os import environ
-from tempfile import TemporaryFile
 
 from discord_webhook import DiscordWebhook, DiscordEmbed
-from requests import get
 
 from src.build.parse_submission import parse_submission
 
 
-DEFAULT_AVATAR_URL = (
-    'https://raw.githubusercontent.com/CollinHeist/TitleCardMaker/master/'
-    '.github/logo.png'
-)
+DEFAULT_AVATAR_URL = 'https://raw.githubusercontent.com/CollinHeist/static/main/tcm_no_lettering.svg'
 
 
 def get_next_merge_time(time: datetime) -> datetime:
