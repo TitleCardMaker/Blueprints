@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "template_ids": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Game of Thrones",
+      "color": "#FFF190",
+      "delete_missing": true,
+      "file": "Trajan Pro Bold.ttf",
+      "kerning": 10.0,
+      "size": 0.9
+    }
+  ],
+  "preview": "preview.png",
+  "creator": "GrazedNutsack",
+  "description": [
+    "Simple \"Standard\" card type with a 'Yellow' (Flavescent) \"Trajan Pro Bold\" Font as the title text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-11-06T23:37:02"
+}
