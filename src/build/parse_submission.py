@@ -146,7 +146,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
         blueprint = loads(data['blueprint'])
     except JSONDecodeError:
         print(f'Unable to parse blueprint as JSON')
-        print(f'{blueprint=!r}')
+        print(f'{data["blueprint"]=!r}')
         sys_exit(1)
 
     # Clean up description
