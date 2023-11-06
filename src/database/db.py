@@ -98,13 +98,13 @@ def create_new_blueprint(
         print(f'Added {series_name} ({series_year}) to Database as Series[{series.id}]')
 
     # Get Bluprint number
-    blueprint_numbers = db.query(Blueprint.blueprint_number)\
+    blueprint_number = db.query(func.max(Blueprint.blueprint_number))\
         .filter_by(series_id=series.id)\
-        .all()
-    if blueprint_numbers:
-        blueprint_number = max(blueprint_numbers) + 1
-    else:
+        .scalar()
+    if blueprint_number is None:
         blueprint_number = 0
+    else:
+        blueprint_number +=1 
     
     # Series exists
     if (created := blueprint_json.get('created')):
