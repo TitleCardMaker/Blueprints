@@ -9,13 +9,14 @@ on the Discord Webhook describing the created Blueprint.
 
 from datetime import datetime, timedelta
 from os import environ
+from sys import exit as sys_exit
 
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 from src.build.parse_submission import parse_submission
 
 
-DEFAULT_AVATAR_URL = 'https://raw.githubusercontent.com/CollinHeist/static/main/tcm_no_lettering.svg'
+DEFAULT_AVATAR_URL = 'https://raw.githubusercontent.com/CollinHeist/static/main/logo.png'
 
 
 def get_next_merge_time(time: datetime) -> datetime:
@@ -44,6 +45,11 @@ def format_timedelta(delta: timedelta) -> str:
 
 
 def notify_discord() -> None:
+    # Verify webhook URL is available
+    if 'DISCORD_WEBHOOK' not in environ:
+        print(f'DISCORD_WEBHOOK environment variable not provided')
+        sys_exit(1)
+
     # Parse issue from environment variables
     data = parse_submission()
 
