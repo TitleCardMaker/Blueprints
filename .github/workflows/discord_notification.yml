@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install -r requirements
+          python -m pip install -r requirements.txt
 
       - name: Send Discord Message
         env:
