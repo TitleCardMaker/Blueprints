@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install -r requirements
+          python -m pip install -r requirements.txt
 
       - name: (Python) Lint Blueprints, Update Database, Build Readmes
         run: |
