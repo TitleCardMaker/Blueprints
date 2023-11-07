@@ -30,12 +30,10 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| {username0} | {username_bp_count0} |
-| {username1} | {username_bp_count1} |
-| {username2} | {username_bp_count2} |
-| {username3} | {username_bp_count3} |
-| {username4} | {username_bp_count4} |
 """
+
+USERNAME_ROW_TEMPLATE = '| {username} | {username_blueprint_count} |\n'
+
 
 def build_master_readme() -> None:
     # Get top Series
@@ -59,12 +57,6 @@ def build_master_readme() -> None:
                 user_data[creator] = 1
     top_users = sorted(user_data.items(), key=lambda item: item[1], reverse=True)
 
-    def get_nth_user(n: int) -> tuple[str, str]:
-        try:
-            return top_users[n]
-        except IndexError:
-            return '-', '-'
-
     # Generate counts
     data = {
         'blueprint_count': len(db.query(Blueprint).all()),
@@ -75,15 +67,19 @@ def build_master_readme() -> None:
         'series_name2': top_series[2][0], 'series_bp_count2': top_series[2][1],
         'series_name3': top_series[3][0], 'series_bp_count3': top_series[3][1],
         'series_name4': top_series[4][0], 'series_bp_count4': top_series[4][1],
-        'username0': get_nth_user(0)[0], 'username_bp_count0': get_nth_user(0)[1],
-        'username1': get_nth_user(1)[0], 'username_bp_count1': get_nth_user(1)[1],
-        'username2': get_nth_user(2)[0], 'username_bp_count2': get_nth_user(2)[1],
-        'username3': get_nth_user(3)[0], 'username_bp_count3': get_nth_user(3)[1],
-        'username4': get_nth_user(4)[0], 'username_bp_count4': get_nth_user(4)[1],
     }
 
-    # Write README file
+    # Format template with this data
     readme = README_TEMPLATE.format(**data)
+
+    # Add each user to table
+    for user in top_users:
+        readme += USERNAME_ROW_TEMPLATE.format(
+            username=user[0],
+            username_blueprint_count=user[1],
+        )
+
+    # Write README file
     readme_file = Path(__file__).parent.parent.parent / 'README.md'
     readme_file.write_text(readme)
 
