@@ -4,16 +4,16 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ---
 
-There are currently `150` Blueprints available for `134` Series, submitted by `8` Creators.
+There are currently `152` Blueprints available for `135` Series, submitted by `9` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
 | :--- | :--- |
 | Mr. Robot (2015) | 4 |
+| Game of Thrones (2011) | 2 |
 | Scrubs (2001) | 2 |
 | Arrow (2012) | 2 |
 | Avatar: The Last Airbender (2005) | 2 |
-| Foundation (2021) | 2 |
 
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
@@ -23,3 +23,7 @@ Creators with the most Blueprint Submissions:
 | rtgurley | 13 |
 | azuravian | 8 |
 | Departed | 6 |
+| GrazedNutsack | 4 |
+| Ziggy73701 | 2 |
+| Dante2202 | 1 |
+| AnonFawkes | 1 |
