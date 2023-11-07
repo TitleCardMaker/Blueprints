@@ -6,7 +6,7 @@ on:
     - cron: "0 */4 * * *"
 
 jobs:
-  auto_merge:
+  create-pull-request:
     runs-on: ubuntu-latest
     outputs:
       pr_number: ${{ steps.create_pr.outputs.pr_number }}
