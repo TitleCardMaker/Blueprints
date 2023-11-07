@@ -52,29 +52,29 @@ jobs:
             }
 
   call-resize-images-workflow:
-    needs: auto_merge
-    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    needs: create-pull-request
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/resize_images.yml@master
     secrets: inherit
 
   call-update-database-workflow:
-    needs: [auto_merge, call-resize-images-workflow]
-    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    needs: [create-pull-request, call-resize-images-workflow]
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/update_database.yml@master
     secrets: inherit
 
   call-pytest-workflow:
-    needs: [auto_merge, call-resize-images-workflow, call-update-database-workflow]
-    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow]
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/pytest.yml@master
 
   merge-pull-request:
-    needs: [auto_merge, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow]
-    if: ${{ needs.auto_merge.outputs.pr_number != 'NA' }}
+    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow]
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     runs-on: ubuntu-latest
     steps:
       - name: Merge Pull Request
         uses: octokit/request-action@v2.x
         with:
-          route: PUT /repos/${{ github.repository }}/pulls/${{ needs.auto_merge.outputs.pr_number }}/merge
+          route: PUT /repos/${{ github.repository }}/pulls/${{ needs.create-pull-request.outputs.pr_number }}/merge
           token: ${{ secrets.GITHUB_TOKEN }}
