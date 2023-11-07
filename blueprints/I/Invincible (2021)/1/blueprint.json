@@ -1,0 +1,64 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_width",
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "6",
+      "black",
+      "logo",
+      "title",
+      "1.15"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Invincible",
+      "color": "#FFF520",
+      "delete_missing": true,
+      "file": "Wood Block CG.otf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        ">",
+        "^",
+        "}",
+        "~",
+        "{",
+        "@",
+        "<",
+        "|"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.6
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with the Series font and a black frame to match the logo. The logo is included."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-07T04:28:07"
+}
