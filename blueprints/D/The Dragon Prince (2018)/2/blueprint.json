@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Moon",
+      "Sky",
+      "Sun",
+      "Earth",
+      "Ocean"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "The Dragon Prince in the Anime card style with custom season titles."
+  ],
+  "creator": "anonfawkes",
+  "created": "2023-11-11T00:51:43"
+}
