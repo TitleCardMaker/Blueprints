@@ -1,0 +1,42 @@
+{
+  "series": {
+    "card_type": "divider",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Moon",
+      "Sky",
+      "Sun",
+      "Earth",
+      "Ocean"
+    ],
+    "extra_keys": [
+      "text_position",
+      "title_text_position",
+      "text_gravity"
+    ],
+    "extra_values": [
+      "lower left",
+      "right",
+      "west"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "The Dragon Prince in the Divider card type with custom season titles."
+  ],
+  "creator": "anonfawkes",
+  "created": "2023-11-11T17:11:14"
+}
