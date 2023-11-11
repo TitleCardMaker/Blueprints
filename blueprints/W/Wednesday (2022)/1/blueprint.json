@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Wednesday",
+      "color": "rgb(94,67,161)",
+      "delete_missing": true,
+      "file": "Wednesday.ttf",
+      "kerning": -0.2,
+      "interword_spacing": 30,
+      "replacements_in": [
+        "}",
+        "@",
+        "{",
+        "`"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "'"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Frame card type in the series Font in purple coloring."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-11T17:25:13"
+}
