@@ -1,0 +1,33 @@
+{
+  "series": {
+    "card_type": "standard",
+    "episode_text_format": "Chapter {episode_number_cardinal}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Book One: Moon",
+      "Book Two: Sky",
+      "Book Three: Sun",
+      "Book Four: Earth",
+      "Book Five: Ocean"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type with the custom book season titles (Moon/Sky/Sun/Earth/Ocean) and \"Chapter\" used as the episode text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-11T00:43:59"
+}
