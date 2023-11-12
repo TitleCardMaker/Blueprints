@@ -1,0 +1,87 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Blacklist",
+      "color": "#CD2F2B",
+      "delete_missing": true,
+      "file": "Blacklisted.ttf",
+      "interline_spacing": 40,
+      "replacements_in": [
+        "\u00c8",
+        "(1)",
+        "(2)",
+        "`",
+        "(",
+        "\\",
+        ">",
+        "~",
+        "*",
+        "/",
+        "%",
+        "[",
+        "#",
+        "=",
+        "_",
+        "}",
+        "|",
+        ")",
+        "]",
+        "\u00e8",
+        ";",
+        "$",
+        "^",
+        "+",
+        "@",
+        "<",
+        "{"
+      ],
+      "replacements_out": [
+        "E",
+        "Part 1",
+        "Part 2",
+        "'",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "e",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.9,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type with the Series font in red."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-12T19:50:29"
+}
