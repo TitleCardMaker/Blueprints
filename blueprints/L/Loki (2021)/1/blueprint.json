@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "marvel",
+    "template_ids": [],
+    "font_color": "rgb(101,189,108)",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Marvel card type with the title colored in Loki's green."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-13T04:31:39"
+}
