@@ -1,0 +1,218 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "s0e1-s0e19",
+      "s0e20-s0e22",
+      "s0e24-s0e29"
+    ],
+    "season_title_values": [
+      "Early Cuts",
+      "The Dark Defender",
+      "Early Cuts"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "template_ids": [],
+      "title": "Chapter 1",
+      "match_title": false,
+      "episode_text": "Alex Timmons"
+    },
+    "s0e2": {
+      "template_ids": [],
+      "title": "Chapter 2",
+      "match_title": false,
+      "episode_text": "Alex Timmons"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "title": "Chapter 3",
+      "match_title": false,
+      "episode_text": "Alex Timmons"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "Chapter 4",
+      "match_title": false,
+      "episode_text": "Alex Timmons"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "Chapter 1",
+      "match_title": false,
+      "episode_text": "Gene Marshall"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "Chapter 2",
+      "match_title": false,
+      "episode_text": "Gene Marshall"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "title": "Chapter 3",
+      "match_title": false,
+      "episode_text": "Gene Marshall"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "title": "Chapter 4",
+      "match_title": false,
+      "episode_text": "Gene Marshall"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "title": "Chapter 1",
+      "match_title": false,
+      "episode_text": "Cindy Landon"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "title": "Chapter 2",
+      "match_title": false,
+      "episode_text": "Cindy Landon"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "title": "Chapter 3",
+      "match_title": false,
+      "episode_text": "Cindy Landon"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "title": "Chapter 4",
+      "match_title": false,
+      "episode_text": "Cindy Landon"
+    },
+    "s0e14": {
+      "template_ids": [],
+      "title": "Chapter 1",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e15": {
+      "template_ids": [],
+      "title": "Chapter 2",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e16": {
+      "template_ids": [],
+      "title": "Chapter 3",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e17": {
+      "template_ids": [],
+      "title": "Chapter 4",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e18": {
+      "template_ids": [],
+      "title": "Chapter 5",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e19": {
+      "template_ids": [],
+      "title": "Chapter 6",
+      "match_title": false,
+      "episode_text": "Dark Echo"
+    },
+    "s0e20": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Little Chino",
+      "match_title": false
+    },
+    "s0e21": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Roger Hicks",
+      "match_title": false
+    },
+    "s0e22": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Ken Olson",
+      "match_title": false
+    },
+    "s0e24": {
+      "template_ids": [],
+      "title": "Chapter 1",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    },
+    "s0e25": {
+      "template_ids": [],
+      "title": "Chapter 2",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    },
+    "s0e26": {
+      "template_ids": [],
+      "title": "Chapter 3",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    },
+    "s0e27": {
+      "template_ids": [],
+      "title": "Chapter 4",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    },
+    "s0e28": {
+      "template_ids": [],
+      "title": "Chapter 5",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    },
+    "s0e29": {
+      "template_ids": [],
+      "title": "Chapter 6",
+      "match_title": false,
+      "episode_text": "All in the Family"
+    }
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "overline",
+      "extra_keys": [
+        "line_color",
+        "line_width"
+      ],
+      "extra_values": [
+        "rgb(210,45,31)",
+        "10"
+      ],
+      "name": "Dexter",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Dexter",
+      "delete_missing": true,
+      "file": "dexter.ttf",
+      "interline_spacing": -30,
+      "interword_spacing": -15
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Overline card type using the Series Font and a \"blood\" red coloring for the line.",
+    "The season and episode text of the Specials are adjusted to \"Early Cuts\", \"The Dark Defender\", etc."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-13T19:06:23"
+}
