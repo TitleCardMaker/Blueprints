@@ -1,0 +1,41 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "rgba(101,189,108, 0.6)"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "card_type": "comic book",
+      "extra_keys": [
+        "title_text_rotation_angle",
+        "index_text_rotation_angle"
+      ],
+      "extra_values": [
+        "random[-4, 4]",
+        "random[-4, -3]"
+      ],
+      "name": "Comic Book",
+      "filters": []
+    }
+  ],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic Book card with randomized banner angles for the title and index text.",
+    "The banners are colored to match Loki's green coloring, as well as the other DC / Marvel Series in this style."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-13T04:30:34"
+}
