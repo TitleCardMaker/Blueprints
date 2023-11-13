@@ -1,0 +1,44 @@
+{
+  "series": {
+    "hide_season_text": true,
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "overline",
+      "extra_keys": [
+        "line_color",
+        "line_width"
+      ],
+      "extra_values": [
+        "rgb(210,45,31)",
+        "10"
+      ],
+      "name": "Dexter",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Dexter",
+      "delete_missing": true,
+      "file": "dexter.ttf",
+      "interline_spacing": -30,
+      "interword_spacing": -15
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Overline card type using the Series Font and a \"blood\" red coloring for the line - re-uses the Template and Font from the original Dexter Blueprint.",
+    "The season text is omitted."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-13T19:07:54"
+}
