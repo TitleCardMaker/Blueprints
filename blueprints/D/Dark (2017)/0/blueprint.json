@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Cycle I",
+      "Cycle II",
+      "Cycle III"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dark",
+      "delete_missing": true,
+      "file": "GillSans-Light.ttf",
+      "interline_spacing": 90,
+      "size": 1.1,
+      "stroke_width": 0.8,
+      "vertical_shift": 80
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type with the Series font and \"Cycle\" I/II/III used as the season text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-13T18:34:00"
+}
