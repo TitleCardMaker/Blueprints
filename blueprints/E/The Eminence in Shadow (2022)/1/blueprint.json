@@ -1,0 +1,139 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "episode_text_format": "{title_text} - Episode {episode_number}",
+    "season_title_ranges": [
+      "s0e1-s0e17"
+    ],
+    "season_title_values": [
+      "Kage-Jitsu!"
+    ],
+    "extra_keys": [
+      "top_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "2"
+    ],
+    "template_ids": [],
+    "match_titles": false,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want their operation to succeed!",
+      "episode_text": "Operation 1"
+    },
+    "s0e2": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to perfect an amazing war chronicle!",
+      "episode_text": "Operation 2"
+    },
+    "s0e3": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to make delicious chocolate!",
+      "episode_text": "Operation 3"
+    },
+    "s0e4": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to procure the legendary coffee!",
+      "episode_text": "Operation 4"
+    },
+    "s0e5": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to create an artifact!",
+      "episode_text": "Operation 5"
+    },
+    "s0e6": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to recommend cute underwear!",
+      "episode_text": "Operation 6"
+    },
+    "s0e7": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to select cute underwear!",
+      "episode_text": "Operation 7"
+    },
+    "s0e8": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to bathe in the finest hot spa!",
+      "episode_text": "Operation 8"
+    },
+    "s0e9": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to get along together!",
+      "episode_text": "Operation 9"
+    },
+    "s0e10": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to gain awesome muscles!",
+      "episode_text": "Operation 10"
+    },
+    "s0e11": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to understand what \"Bubble\" means!",
+      "episode_text": "Operation 11"
+    },
+    "s0e12": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to create a new flavor!",
+      "episode_text": "Operation 12"
+    },
+    "s0e13": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to see friendliness being displayed!",
+      "episode_text": "Operation 13"
+    },
+    "s0e14": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to receive words of praise!",
+      "episode_text": "Operation 14"
+    },
+    "s0e15": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to enjoy pleasant music!",
+      "episode_text": "Operation 15"
+    },
+    "s0e16": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to put on amazing underwear!",
+      "episode_text": "Operation 16"
+    },
+    "s0e17": {
+      "hide_episode_text": false,
+      "template_ids": [],
+      "title": "The Seven Shadows want to continue this operation!",
+      "episode_text": "Operation 17"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "A tinted frame style of The Eminence in Shadow with custom texts for the Kage Jitsu specials"
+  ],
+  "creator": "anonfawkes",
+  "created": "2023-11-16T20:55:23"
+}
