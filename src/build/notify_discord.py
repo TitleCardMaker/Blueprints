@@ -79,7 +79,7 @@ def notify_discord() -> None:
         embed.add_embed_field('Fonts', fonts)
     if (episodes := len(data['blueprint'].get('episodes', []))):
         embed.add_embed_field('Episodes', episodes)
-    if (source_files := len(data['blueprint'].get('source_files', []))):
+    if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
         embed.add_embed_field('Source Files', source_files)
 
     # Add note about availability, add timestamp
