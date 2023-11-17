@@ -7,6 +7,13 @@
       4,
       2,
       3
+    ],
+    "source_files": [
+      "logo_season0.png",
+      "logo_season1-4.png",
+      "logo_season5-7.png",
+      "logo_season8-10.png",
+      "logo_season11-13.png"
     ]
   },
   "episodes": {},
