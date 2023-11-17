@@ -18,7 +18,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 98 |
+| CollinHeist | 99 |
 | flowcool | 32 |
 | rtgurley | 13 |
 | azuravian | 8 |

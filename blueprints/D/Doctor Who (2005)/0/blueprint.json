@@ -7,6 +7,13 @@
       4,
       2,
       3
+    ],
+    "source_files": [
+      "logo_season0.png",
+      "logo_season1-4.png",
+      "logo_season5-7.png",
+      "logo_season8-10.png",
+      "logo_season11-13.png"
     ]
   },
   "episodes": {},
@@ -25,7 +32,7 @@
       "extra_values": [
         "logo",
         "title",
-        "logo_season{season_number}.png",
+        "logo_season1-4.png",
         "2.2",
         "8",
         "rgb(230, 107, 43)"
@@ -61,7 +68,7 @@
         "1.5",
         "8",
         "rgb(92, 146, 193)",
-        "logo_season{season_number}.png"
+        "logo_season5-7.png"
       ],
       "name": "DrWho5-7",
       "filters": [
@@ -91,7 +98,7 @@
       "extra_values": [
         "logo",
         "title",
-        "logo_season{season_number}.png",
+        "logo_season11-13.png",
         "2",
         "8",
         "rgb(236, 181, 0)"
@@ -123,7 +130,7 @@
       "extra_values": [
         "logo",
         "title",
-        "logo_season{season_number}.png",
+        "logo_season0.png",
         "2.5",
         "8"
       ],
@@ -150,7 +157,7 @@
       "extra_values": [
         "logo",
         "title",
-        "logo_season{season_number}.png",
+        "logo_season8-10.png",
         "1.5",
         "8",
         "rgb(88, 116, 129)"
@@ -206,15 +213,16 @@
       "vertical_shift": -4
     }
   ],
-  "creator": "Ziggy73701",
+  "creator": "Ziggy73701, CollinHeist",
   "description": [
-    "Tinted frame. Each \"Doctor\" having there own logo and frame colour to match, font as closely matched to episode name title card as possible. Specials have a generic DW logo and white frame.",
-    "In order to fully use this blueprint, please download the logo file from here https://drive.google.com/file/d/1P2mrgfBMcRoIJIknUDVekW3pnmkAkzsL/view?usp=drive_link",
-    "You will need to unpack the contents in to your source folder for this series. It wont overwrite any files unless you have previously set season logos.",
-    "Will update for next season once its shown (logo is included but no font yet)."
+    "Tinted frame. Each \"Doctor\" having there own logo and frame colour to match, font as closely matched to episode name title card as possible. Specials have a generic Doctor Who logo and white frame.",
+    "Logos for each Doctor are included."
   ],
-  "created": "2023-09-12T16:10:22",
+  "created": "2023-11-16T20:00:00",
   "previews": [
-    "preview.jpg"
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
   ]
 }
