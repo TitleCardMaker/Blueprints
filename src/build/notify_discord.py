@@ -16,12 +16,23 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 from src.build.parse_submission import parse_submission
 
 
-DEFAULT_AVATAR_URL = 'https://raw.githubusercontent.com/CollinHeist/static/main/logo.png'
+DEFAULT_AVATAR_URL = (
+    'https://raw.githubusercontent.com/CollinHeist/static/main/logo.png'
+)
 
 
-def get_next_merge_time(time: datetime) -> datetime:
-    nearest_4hr = time.replace(
-        hour=time.hour // 4 * 4,
+def get_next_merge_time() -> datetime:
+    """
+    Get the next time in which the the automated Blueprint merging
+    workflow will run.
+
+    Returns:
+        The next time in which merging will occur.
+    """
+
+    now = datetime.now()
+    nearest_4hr = now.replace(
+        hour=now.hour // 4 * 4,
         minute=0, second=0, microsecond=0,
     )
 
@@ -29,6 +40,21 @@ def get_next_merge_time(time: datetime) -> datetime:
 
 
 def format_timedelta(delta: timedelta) -> str:
+    """
+    Format the given timedelta into human readable text.
+
+    >>> format_timedelta(timedelta(hours=4, minutes=12))
+    '4 hours, and 12 minutes'
+    >>> format_timedelta(timedelta(hours=1, minutes=1))
+    '1 minute'
+
+    Args:
+        delta: The timedelta to format.
+
+    Returns:
+        The formatted time string of the given delta.
+    """
+
     hours, seconds = divmod(delta.total_seconds(), 3600)
     minutes = int(seconds // 60)
 
@@ -45,6 +71,11 @@ def format_timedelta(delta: timedelta) -> str:
 
 
 def notify_discord() -> None:
+    """
+    Create and submit the Discord notification. This parses the
+    Blueprint submission from the environment variables.
+    """
+
     # Verify webhook URL is available
     if 'DISCORD_WEBHOOK' not in environ:
         print(f'DISCORD_WEBHOOK environment variable not provided')
@@ -79,13 +110,12 @@ def notify_discord() -> None:
         embed.add_embed_field('Fonts', fonts)
     if (episodes := len(data['blueprint'].get('episodes', []))):
         embed.add_embed_field('Episodes', episodes)
-    if (source_files := len(data['blueprint'].get('source_files', []))):
+    if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
         embed.add_embed_field('Source Files', source_files)
 
     # Add note about availability, add timestamp
-    now = datetime.now()
-    next_ = get_next_merge_time(now)
-    embed.set_footer(f'This Blueprint will be available in {format_timedelta(next_-now)}')
+    next_str = format_timedelta(get_next_merge_time() - datetime.now())
+    embed.set_footer(f'This Blueprint will be available in {next_str}')
     embed.set_timestamp()
 
     # Create Webhook for adding embeds
