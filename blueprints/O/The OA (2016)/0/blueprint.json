@@ -19,7 +19,7 @@
   "templates": [],
   "fonts": [
     {
-      "case": "upper",
+      "title_case": "upper",
       "name": "The OA",
       "delete_missing": true,
       "file": "Sackers Gothic Std Light.otf"
