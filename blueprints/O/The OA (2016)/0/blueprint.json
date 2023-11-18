@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "case": "upper",
+      "name": "The OA",
+      "delete_missing": true,
+      "file": "Sackers Gothic Std Light.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted frame with logo on top and Sackers Gothic Light Std Font used for the title text."
+  ],
+  "creator": "foux",
+  "created": "2023-11-18T16:57:26"
+}
