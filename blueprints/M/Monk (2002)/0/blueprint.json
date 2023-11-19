@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Monk",
+      "color": "#A82B24",
+      "delete_missing": true,
+      "file": "GarrisonKayo.ttf",
+      "size": 0.9
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series font in red (to match the logo)."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-19T17:19:11"
+}
