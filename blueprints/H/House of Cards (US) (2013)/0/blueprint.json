@@ -1,0 +1,20 @@
+{
+  "series": {
+    "card_type": "olivier",
+    "hide_season_text": true,
+    "episode_text_format": "Season {season_number_cardinal}",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Olivier card type with the season numbers used in place of the episode text (as the titles are just the episode numbers)."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-19T17:07:41"
+}
