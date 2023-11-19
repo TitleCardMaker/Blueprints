@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Russian Doll",
+      "color": "#A02018",
+      "delete_missing": true,
+      "file": "OPTIMacBethOldStyle.otf",
+      "size": 1.2,
+      "vertical_shift": -10
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with the Series Font in red."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-19T17:33:25"
+}
