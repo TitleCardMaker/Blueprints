@@ -178,7 +178,7 @@
           "data_key": "kanji"
         }
       ],
-      "name": "[1] Watched Anime",
+      "name": "Watched Anime",
       "filters": [
         {
           "argument": "Episode is Watched",
