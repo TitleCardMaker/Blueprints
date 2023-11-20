@@ -1,0 +1,39 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Spirit Detective Saga",
+      "Dark Tournament Saga",
+      "Chapter Black Saga",
+      "Three Kings Saga"
+    ],
+    "template_ids": [],
+    "source_files": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji text and the respective arc / saga names used for each season title."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-20T03:07:38"
+}
