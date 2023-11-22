@@ -1,0 +1,96 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "episode_text_format": "Episode {episode_number_cardinal}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Year One",
+      "Year Two",
+      "Year Three",
+      "Year Four",
+      "Year Five"
+    ],
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "{title_text}["
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Fargo",
+      "delete_missing": true,
+      "file": "Fargo.otf",
+      "interline_spacing": -30,
+      "replacements_in": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        " ",
+        ">> ",
+        "A>",
+        "of>",
+        "Six>",
+        "Do>",
+        "No,>",
+        "Law>",
+        "to>",
+        "You>"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "> ",
+        "> ",
+        "A",
+        "of",
+        "Six",
+        "Do",
+        "No,",
+        "Law",
+        "to",
+        "You"
+      ],
+      "size": 1.1,
+      "stroke_width": 0.8,
+      "title_case": "source",
+      "vertical_shift": -20
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Standard card with a heavily modified Font which adds the stylistic \"swashes\" beneath the title text. Year One/Two/etc. are used as the season titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-22T23:33:22"
+}
