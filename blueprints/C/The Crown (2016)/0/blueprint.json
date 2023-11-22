@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Crown",
+      "delete_missing": true,
+      "file": "OPTISaroneRomanNormal.otf",
+      "kerning": -9.0,
+      "stroke_width": 0.8
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type with a free variation of the official Font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-22T23:54:08"
+}
