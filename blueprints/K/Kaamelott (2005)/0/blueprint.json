@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "template_ids": [],
+    "font_size": 0.9,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Ozzy II",
+      "delete_missing": true,
+      "file": "Ozzy II.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Faded card with Kaamelott style font in white"
+  ],
+  "creator": "foux",
+  "created": "2023-11-24T16:36:08"
+}
