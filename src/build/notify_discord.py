@@ -105,13 +105,17 @@ def notify_discord() -> None:
     
     # Add fields
     if (templates := len(data['blueprint'].get('templates', []))):
-        embed.add_embed_field('Templates', templates)
+        label = 'Templates' if templates > 1 else 'Template'
+        embed.add_embed_field(label, templates)
     if (fonts := len(data['blueprint'].get('fonts', []))):
-        embed.add_embed_field('Fonts', fonts)
+        label = 'Fonts' if templates > 1 else 'Font'
+        embed.add_embed_field(label, fonts)
     if (episodes := len(data['blueprint'].get('episodes', []))):
-        embed.add_embed_field('Episodes', episodes)
+        label = 'Episodes' if templates > 1 else 'Episode'
+        embed.add_embed_field(label, episodes)
     if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
-        embed.add_embed_field('Source Files', source_files)
+        label = 'Source Files' if templates > 1 else 'Source File'
+        embed.add_embed_field(label, source_files)
 
     # Add note about availability, add timestamp
     next_str = format_timedelta(get_next_merge_time() - datetime.now())
