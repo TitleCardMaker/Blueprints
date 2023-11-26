@@ -1,0 +1,94 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Mission {absolute_episode_number}",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(244,188,95)"
+    ],
+    "template_ids": [],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "font_size": 0.8,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e24": {
+      "template_ids": [],
+      "title": "THE ROLE OF A MOTHER AND WIFE\\nSHOPPING WITH FRIENDS",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e16": {
+      "template_ids": [],
+      "title": "YOR'S KITCHEN\\nTHE INFORMANT'S GREAT ROMANCE PLAN",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e17": {
+      "template_ids": [],
+      "title": "CARRY OUT THE GRIFFIN PLAN\\nFULLMETAL LADY\\nOMELET RICE\u2665",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e18": {
+      "template_ids": [],
+      "title": "UNCLE THE PRIVATE TUTOR\\nDAYBREAK",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e19": {
+      "template_ids": [],
+      "title": "A REVENGE PLOT AGAINST DESMOND\\nMAMA BECOMES THE WIND",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e20": {
+      "template_ids": [],
+      "title": "INVESTIGATE THE GENERAL HOSPITAL\\nDECIPHER THE PERPLEXING CODE",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e21": {
+      "template_ids": [],
+      "title": "NIGHTFALL\\nFIRST FIT OF JEALOUSY",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "BOND'S STRATEGY TO STAY ALIVE\\nDAMIAN'S FIELD RESEARCH TRIP",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "MISSION AND FAMILY\\nTHE ELEGANT BONDMAN\\nTHE HEART OF A CHILD\\nWAKING UP",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "font_size": 0.75,
+      "title": "THE PASTRY OF KNOWLEDGE\\nTHE INFORMANT'S GREAT ROMANCE PLAN II",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with absolute episode numbering, a reduced font size (for the longer titles), and the gold color from the logo used for the episode text - which is written as \"Mission (x)\". The titles for multi-part episodes are manually split."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-25T23:47:04"
+}
