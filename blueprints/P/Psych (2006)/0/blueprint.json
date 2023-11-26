@@ -1,0 +1,58 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s6e10": {
+      "template_ids": [],
+      "font_size": 0.85,
+      "title": "Indiana Shawn and the Temple of\\nthe Kinda Crappy, Rusty Old Dagger",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e1": {
+      "template_ids": [],
+      "font_size": 0.85,
+      "title": "Lock, Stock, Some Smoking Barrels\\nand Burton Guster's Goblet of Fire",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Psych",
+      "color": "rgb(107,185,60)",
+      "delete_missing": true,
+      "file": "AmericanTypewriter-Bold.ttf",
+      "interline_spacing": -20,
+      "replacements_in": [
+        "[",
+        "]",
+        "(",
+        ")"
+      ],
+      "replacements_out": [
+        "[",
+        "]",
+        "(",
+        ")"
+      ],
+      "size": 1.1,
+      "title_case": "lower",
+      "vertical_shift": -10
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Standard card type with the Series font in green (the logo color used after S01E09). A reduced Font size is utilized on two Episodes with extremely long titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-26T01:49:35"
+}
