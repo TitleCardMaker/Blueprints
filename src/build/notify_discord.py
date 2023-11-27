@@ -108,13 +108,13 @@ def notify_discord() -> None:
         label = 'Templates' if templates > 1 else 'Template'
         embed.add_embed_field(label, templates)
     if (fonts := len(data['blueprint'].get('fonts', []))):
-        label = 'Fonts' if templates > 1 else 'Font'
+        label = 'Fonts' if fonts > 1 else 'Font'
         embed.add_embed_field(label, fonts)
     if (episodes := len(data['blueprint'].get('episodes', []))):
-        label = 'Episodes' if templates > 1 else 'Episode'
+        label = 'Episodes' if episodes > 1 else 'Episode'
         embed.add_embed_field(label, episodes)
     if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
-        label = 'Source Files' if templates > 1 else 'Source File'
+        label = 'Source Files' if source_files > 1 else 'Source File'
         embed.add_embed_field(label, source_files)
 
     # Add note about availability, add timestamp
