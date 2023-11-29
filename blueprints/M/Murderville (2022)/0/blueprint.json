@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Murderville",
+      "delete_missing": true,
+      "file": "slackcasual-bold.ttf",
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "size": 1.5
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series Font with no season text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-29T20:43:04"
+}
