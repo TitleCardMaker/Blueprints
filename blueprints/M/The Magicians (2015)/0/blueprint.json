@@ -1,0 +1,141 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "rgb(208,190,124)",
+      "5"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e3": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s2e13": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s4e5": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s4e10": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s4e13": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s5e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s5e3": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s5e8": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Magicians",
+      "delete_missing": true,
+      "file": "MagicalTheory.ttf",
+      "replacements_in": [
+        ":",
+        "%",
+        "{",
+        "*",
+        "^",
+        "}",
+        ")",
+        "/",
+        "+",
+        "=",
+        "|",
+        "'",
+        "$",
+        ";",
+        "~",
+        "(",
+        "<",
+        "#",
+        "]",
+        "\"",
+        "@",
+        "&",
+        "\\",
+        "`",
+        ">",
+        "_",
+        "["
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.2
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card type with the Series font and the frame colored gold to match the Series logo."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-29T23:13:51"
+}
