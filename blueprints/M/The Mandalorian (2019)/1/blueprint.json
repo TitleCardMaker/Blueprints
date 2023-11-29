@@ -1,0 +1,118 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "episode_text_format": "Chapter {absolute_episode_number_cardinal}",
+    "template_ids": [],
+    "match_titles": false,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Mandalorian"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The Child"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Sin"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Sanctuary"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "The Gunslinger"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "The Prisoner"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "The Reckoning"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Redemption"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": "The Marshal"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "The Passenger"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "The Heiress"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "The Siege"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "The Jedi"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "The Tragedy"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "The Believer"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "The Rescue"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "The Apostate"
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "The Mines of Mandalore"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "The Convert"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "The Foundling"
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "The Pirate"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "Guns for Hire"
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "The Spies"
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "The Return"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Star Wars card type with \"Chapter\" removed from the title text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-29T20:12:26"
+}
