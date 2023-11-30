@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Murderville (alt)",
+      "delete_missing": true,
+      "file": "Aguila Black.otf",
+      "interline_spacing": -40,
+      "stroke_width": 0.5,
+      "vertical_shift": -40
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using an alternate version of the Series Font with no season text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-11-29T20:49:31"
+}
