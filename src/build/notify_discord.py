@@ -30,7 +30,7 @@ def get_next_merge_time() -> datetime:
         The next time in which merging will occur.
     """
 
-    now = datetime.now()
+    now = datetime.utcnow()
     nearest_4hr = now.replace(
         hour=now.hour // 4 * 4,
         minute=0, second=0, microsecond=0,
