@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [],
+    "extra_values": [],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Curb Your Enthusiam",
+      "color": "#F7CC51",
+      "delete_missing": true,
+      "file": "Franklin Gothic Heavy Regular.ttf",
+      "size": 1.1,
+      "title_case": "source",
+      "vertical_shift": -10
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-01T07:44:08"
+}
