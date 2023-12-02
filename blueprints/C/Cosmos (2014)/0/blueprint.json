@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "tinted glass",
+    "episode_text_format": "{season_text}",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "A Spacetime Odyssey",
+      "Possible Worlds"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Tinted Glass card type with \"A Spacetime Odyssey\" and \"Possible Worlds\" used as the season text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-02T07:49:54"
+}

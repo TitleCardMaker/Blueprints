@@ -1,0 +1,78 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "episode_text_format": "Chapter {absolute_episode_number}",
+    "translations": [],
+    "season_title_ranges": [],
+    "season_title_values": [],
+    "extra_keys": [],
+    "extra_values": [],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Make Your Mark",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Use It",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Make the Unsafe Choice",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Commit \u2026 to YOU",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Do Your Job",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Listen With Your Ears, React With Your Face",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Loud, Fast, and Keep Going",
+      "match_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Know Your Truth",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Barry",
+      "color": "rgb(218,61,55)",
+      "delete_missing": true,
+      "file": "Futura Condensed Extra Bold.ttf",
+      "kerning": 7.0,
+      "interline_spacing": -25,
+      "title_case": "upper",
+      "vertical_shift": -20
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series font (Futura) in red. \"Chapter\" is used for the episode text, and is removed from the episode titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-02T07:36:34"
+}
