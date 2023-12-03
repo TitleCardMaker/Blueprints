@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(208,72,123)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Squid Game",
+      "delete_missing": true,
+      "file": "GameOfSquids.ttf",
+      "interline_spacing": -40,
+      "size": 1.1,
+      "vertical_shift": -10
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series font with the episode text colored pink."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-03T07:27:50"
+}
