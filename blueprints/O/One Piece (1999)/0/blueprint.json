@@ -82,7 +82,8 @@
       "907-907",
       "908-1028",
       "1029-1030",
-      "1031-1100"
+      "1031-1085",
+      "1086-1200"
     ],
     "season_title_values": [
       "Romance Dawn",
@@ -153,7 +154,8 @@
       "20th Anniversary Special",
       "Wano Country",
       "Uta's Past",
-      "Wano Country"
+      "Wano Country",
+      "Egghead"
     ],
     "extra_keys": [],
     "extra_values": [],
@@ -162,7 +164,7 @@
   "episodes": {},
   "templates": [],
   "fonts": [],
-  "created": "2023-08-06T00:00:00",
+  "created": "2023-11-02T20:48:00",
   "previews": [
     "preview.jpg"
   ]
