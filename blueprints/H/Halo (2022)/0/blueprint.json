@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Halo",
+      "delete_missing": true,
+      "file": "Halo.ttf",
+      "kerning": 7.0,
+      "stroke_width": 0.8
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using the Series font with no season text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-03T21:24:04"
+}
