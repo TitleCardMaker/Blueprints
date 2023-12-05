@@ -1,0 +1,85 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s0e1-s0e14",
+      "s0e4-s0e4",
+      "s0e7-s0e7",
+      "s0e11-s0e11",
+      "s1e1-s1e4",
+      "s1e5-s1e6",
+      "s1e7-s1e8",
+      "s1e9-s1e13",
+      "s2e1-s2e12",
+      "s2e13-s2e20",
+      "s2e21-s2e25",
+      "s3e1-s3e7",
+      "s3e8-s3e12",
+      "s3e13-s3e24",
+      "s3e25-s3e25",
+      "s4e1-s4e15",
+      "s4e16-s4e17",
+      "s4e18-s4e23",
+      "s4e24-s4e25",
+      "s5e1-s5e2",
+      "s5e3-s5e11",
+      "s5e12-s5e12",
+      "s5e13-s5e18",
+      "s5e19-s5e19",
+      "s5e20-s5e24",
+      "s5e25-s5e25",
+      "s6e1-s6e13"
+    ],
+    "season_title_values": [
+      "Specials",
+      "Movie",
+      "Movie",
+      "Movie",
+      "Enterance Exam",
+      "Quirk Apprehension Test",
+      "Battle Trial",
+      "U.S.J.",
+      "U.A. Sports Festival",
+      "Vs. Hero Killer",
+      "Final Exams",
+      "Forest Training Camp",
+      "Hideout Raid",
+      "Provisional Hero License Exam",
+      "Shie Hissaikai",
+      "Shie Hissaikai",
+      "Remedial Course",
+      "U.A. School Festival",
+      "Pro Hero",
+      "Pro Hero",
+      "Joint Training",
+      "Meta Liberation Army",
+      "Endeavor Agency",
+      "Paranormal Liberation Army",
+      "Meta Liberation Army",
+      "Paranormal Liberation War",
+      "Paranormal Liberation War"
+    ],
+    "extra_keys": [],
+    "extra_values": [],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type using absolute episode numbering, kanji text, and per-arc season titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-05T05:53:18"
+}
