@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "2"
+    ],
+    "season_title_values": [
+      "The Golden City of the Scorching Sun"
+    ],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji and \"The Golden City of the Scorching Sun\" used as the title for season 2."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-05T05:58:16"
+}
