@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "marvel",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Marvel's Inhumans",
+      "delete_missing": true,
+      "file": "InhumanityExtraExpand.ttf",
+      "size": 0.95
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Marvel card type using the Series Font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-10T04:43:33"
+}
