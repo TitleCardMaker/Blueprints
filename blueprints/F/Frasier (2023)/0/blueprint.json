@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "standard",
+    "template_ids": [],
+    "font_id": 0,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Frasier",
+      "color": "#87CEFA",
+      "delete_missing": true,
+      "file": "Florentine Bold.ttf",
+      "size": 1.3,
+      "title_case": "title"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Simple \"Standard\" card type with a 'Blue' (#87CEFA) \"Florentine Bold\" Font as the title text."
+  ],
+  "creator": "GrazedNutsack",
+  "created": "2023-12-10T23:09:55"
+}
