@@ -1,0 +1,275 @@
+{
+  "series": {
+    "card_type": "standard",
+    "season_title_ranges": [
+      "s2e1-s2e4",
+      "s2e5-s2e7",
+      "s2e8-s2e10",
+      "s2e11-s2e14",
+      "s2e15-s2e16",
+      "s3e1-s3e5",
+      "s3e6-s3e9",
+      "s3e10-s3e13",
+      "s3e14-s3e16",
+      "s4e1-s4e4",
+      "s4e5-s4e6",
+      "s4e8-s4e9",
+      "s4e10-s4e13",
+      "1"
+    ],
+    "season_title_values": [
+      "The Book of Consequences",
+      "The Book of Blood",
+      "The Book of Rebellion",
+      "The Book of Secrets",
+      "The Book of the Apocalypse",
+      "The Book of Occupation",
+      "The Book of Resistance",
+      "The Book of Markovia",
+      "The Book of War",
+      "The Book of Reconstruction",
+      "The Book of Ruin",
+      "The Book of Ruin",
+      "The Book of Reunification",
+      "Season One"
+    ],
+    "template_ids": [],
+    "match_titles": false,
+    "font_color": "#F7CE46",
+    "source_files": []
+  },
+  "episodes": {
+    "s2e1": {
+      "template_ids": [],
+      "title": "Rise of the Green Light Babies",
+      "episode_text": "Chapter One"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Black Jesus Blues",
+      "episode_text": "Chapter Two"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "Master Lowry",
+      "episode_text": "Chapter Three"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Translucent Freak",
+      "episode_text": "Chapter Four"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Requiem",
+      "episode_text": "Chapter One"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "The Perdi",
+      "episode_text": "Chapter Two"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "The Sange",
+      "episode_text": "Chapter Three"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Exodus",
+      "episode_text": "Chapter One"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "Gift of Magi",
+      "episode_text": "Chapter Two"
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "Angelitos Negros",
+      "episode_text": "Chapter Three"
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "Prodigal Son",
+      "episode_text": "Chapter One"
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "Just and Unjust",
+      "episode_text": "Chapter Two"
+    },
+    "s2e13": {
+      "template_ids": [],
+      "title": "Pillar of Fire",
+      "episode_text": "Chapter Three"
+    },
+    "s2e14": {
+      "template_ids": [],
+      "title": "Original Sin",
+      "episode_text": "Chapter Four"
+    },
+    "s2e15": {
+      "template_ids": [],
+      "title": "The Alpha",
+      "episode_text": "Chapter One"
+    },
+    "s2e16": {
+      "template_ids": [],
+      "title": "The Omega",
+      "episode_text": "Chapter Two"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "Birth of Blackbird",
+      "episode_text": "Chapter One"
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "Maryam's Tasbih",
+      "episode_text": "Chapter Two"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "Agent Odell's Pipe-Dream",
+      "episode_text": "Chapter Three"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "Lynn's Ouroboros",
+      "episode_text": "Chapter Four"
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "Requiem for Tavon",
+      "episode_text": "Chapter Five"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "Knocking on Heaven's Door",
+      "episode_text": "Chapter One"
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "Henderson's Opus",
+      "episode_text": "Chapter Two"
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "The Battle of Franklin Terrace",
+      "episode_text": "Chapter Three"
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "Earth Crisis",
+      "episode_text": "Chapter Four"
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "Blessings and Curses Reborn",
+      "episode_text": "Chapter One"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "Lynn's Addiction",
+      "episode_text": "Chapter Two"
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "Motherless ID",
+      "episode_text": "Chapter Three"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "Grab the Strap",
+      "episode_text": "Chapter Four"
+    },
+    "s3e14": {
+      "template_ids": [],
+      "title": "Homecoming",
+      "episode_text": "Chapter One"
+    },
+    "s3e15": {
+      "template_ids": [],
+      "title": "Freedom Ain't Free",
+      "episode_text": "Chapter Two"
+    },
+    "s3e16": {
+      "template_ids": [],
+      "title": "Liberation",
+      "episode_text": "Chapter Three"
+    },
+    "s4e1": {
+      "template_ids": [],
+      "title": "Collateral Damage",
+      "episode_text": "Chapter One"
+    },
+    "s4e2": {
+      "template_ids": [],
+      "title": "Unacceptable Losses",
+      "episode_text": "Chapter Two"
+    },
+    "s4e3": {
+      "template_ids": [],
+      "title": "Despite All My Rage...",
+      "episode_text": "Chapter Three"
+    },
+    "s4e4": {
+      "template_ids": [],
+      "title": "A Light in the Darkness",
+      "episode_text": "Chapter Four"
+    },
+    "s4e5": {
+      "template_ids": [],
+      "title": "Picking Up the Pieces",
+      "episode_text": "Chapter One"
+    },
+    "s4e6": {
+      "template_ids": [],
+      "title": "Theseus's Ship",
+      "episode_text": "Chapter Two"
+    },
+    "s4e8": {
+      "template_ids": [],
+      "title": "Things Fall Apart",
+      "episode_text": "Chapter Three"
+    },
+    "s4e9": {
+      "template_ids": [],
+      "title": "Lyding",
+      "episode_text": "Chapter Four"
+    },
+    "s4e10": {
+      "template_ids": [],
+      "title": "Revelations",
+      "episode_text": "Chapter One"
+    },
+    "s4e11": {
+      "template_ids": [],
+      "title": "Trial and Errors",
+      "episode_text": "Chapter Two"
+    },
+    "s4e12": {
+      "template_ids": [],
+      "title": "Crossroads",
+      "episode_text": "Chapter One"
+    },
+    "s4e13": {
+      "template_ids": [],
+      "title": "Closure",
+      "episode_text": "Chapter Two"
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "Standard card with the various book titles used for season titles (and removed from the Episode titles), and the Font colored yellow."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-10T05:35:43"
+}

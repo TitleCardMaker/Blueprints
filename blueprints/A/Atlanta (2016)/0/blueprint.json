@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "2"
+    ],
+    "season_title_values": [
+      "Robbin' Season"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Atlanta",
+      "color": "rgb(252,239,210)",
+      "file": "Cabernet JF Pro.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card type using a variation of the Series Font, with \"Robbin' Season\" as the title for season 2."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-10T05:45:28"
+}
