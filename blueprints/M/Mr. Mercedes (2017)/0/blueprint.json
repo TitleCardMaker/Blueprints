@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Mr. Mercedes",
+      "Finders Keepers",
+      "End of Watch"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "The novel names (Mr. Mercedes, Finders Keepers, End of Watch) for season titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-10T04:53:04"
+}
