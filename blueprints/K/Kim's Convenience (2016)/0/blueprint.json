@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "glass_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(219,228,231)",
+      "rgb(76,152,124)"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(201,76,61)",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Glass card with the glass and text colored to match the Series' logo / sign."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-11T18:31:43"
+}

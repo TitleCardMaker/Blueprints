@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Buffy the Vampire Slayer",
+      "delete_missing": true,
+      "file": "Buffied.TTF",
+      "interword_spacing": 22,
+      "replacements_in": [
+        "{",
+        "#",
+        "|",
+        "_",
+        "}"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.4,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with the Series Font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-11T18:57:28"
+}

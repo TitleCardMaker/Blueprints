@@ -1,0 +1,51 @@
+{
+  "series": {
+    "card_type": "olivier",
+    "episode_text_format": "Chapter {episode_number_cardinal}",
+    "template_ids": [],
+    "font_color": "rgb(199,178,105)",
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Good To Ho",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The Secessus Clause",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Into the Wobbly Woods",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Shoes Off the Bed Clause",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Across the Yule-verse",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "A Christmas to Remember",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Olivier card type with the title text colored gold, and \"Chapter\" used for the episode text."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-11T18:35:53"
+}
