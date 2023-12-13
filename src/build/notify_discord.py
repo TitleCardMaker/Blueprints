@@ -87,7 +87,7 @@ def notify_discord() -> None:
     # Create Embed object for webhook
     embed = DiscordEmbed(
         title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
-        description='\n'.join(data['blueprint']['description']), color='#6391d2'
+        description='\n'.join(data['blueprint']['description']), color='6391d2'
     )
 
     # Add creator as author
