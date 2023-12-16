@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "season_title_ranges": [
+      "s1e1-s1e14",
+      "s1e15-s1e25",
+      "s2e1-s2e11",
+      "s2e12-s2e25",
+      "s3e1-s3e10",
+      "s4e1-s4e13",
+      "s4e14-s4e25"
+    ],
+    "season_title_values": [
+      "Karasuno High Team Formation Arc",
+      "Interhigh Arc",
+      "Tokyo Expedition Arc",
+      "Spring High Preliminary Arc",
+      "vs Shiratorizawa arc",
+      "Pre Nationals Training Arc",
+      "Tokyo Nationals Arc"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Haikyu (alt)",
+      "color": "rgb(232,136,59)",
+      "delete_missing": true,
+      "file": "Dimitri.TTF"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Anime card type using using the arc names as the season titles, absolute episode numbering, a (different) custom Font and no kanji."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-16T20:21:35"
+}
