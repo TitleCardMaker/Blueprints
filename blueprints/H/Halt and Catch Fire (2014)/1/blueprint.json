@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "index",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Halt and Catch Fire",
+      "delete_missing": true,
+      "file": "Hacked-KerX.ttf",
+      "kerning": 2.5,
+      "replacements_in": [
+        "^",
+        "[",
+        "]",
+        "\\"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.4
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card using a \"glitched\" Font to emulate the Series logo. The position of the index and title text are swapped."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-16T19:58:36"
+}

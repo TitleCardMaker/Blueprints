@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Halt and Catch Fire",
+      "delete_missing": true,
+      "file": "Hacked-KerX.ttf",
+      "kerning": 2.5,
+      "replacements_in": [
+        "^",
+        "[",
+        "]",
+        "\\"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.4
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card type using a \"glitched\" Font to emulate the Series logo."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-16T19:51:41"
+}
