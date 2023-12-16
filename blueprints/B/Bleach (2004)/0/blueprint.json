@@ -1,0 +1,64 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "s13e1-s13e26",
+      "s13e27-s13e36",
+      "14",
+      "15",
+      "16",
+      "s17e1-s17e13",
+      "s17e14-s17e26",
+      "18"
+    ],
+    "season_title_values": [
+      "Agent of the Shinigami",
+      "Soul Society: The Sneak Entry",
+      "Soul Society: The Rescue",
+      "The Bount",
+      "The Bount: Assault on Soul Society",
+      "Arrancar: The Arrival",
+      "Arrancar: The Hueco Mundo Sneak Entry",
+      "Arrancar: The Fierce Fight",
+      "The New Captain Sh\u016bsuke Amagai",
+      "Arrancar vs. Shinigami",
+      "The Past",
+      "Arrancar: Decisive Battle of Karakura",
+      "Zanpakut\u014d Unknown Tales",
+      "Beast Swords",
+      "Arrancar: Downfall",
+      "Gotei 13 Invading Army",
+      "The Lost Substitute Shinigami",
+      "The Thousand-Year Blood War",
+      "The Thousand-Year Blood War: The Separation",
+      "The Thousand-Year Blood War: The Conflict"
+    ],
+    "skip_localized_images": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with absolute Episode numbering and custom arc season titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-15T21:10:53"
+}

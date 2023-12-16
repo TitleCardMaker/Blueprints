@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "add_bounding_box",
+      "darken",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "True",
+      "box",
+      "-80 -30 -45 -30"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Lessons in Chemistry",
+      "delete_missing": true,
+      "file": "Garamond Classico Bold.ttf",
+      "kerning": 0.3,
+      "interword_spacing": -20,
+      "replacements_in": [
+        "\u2083"
+      ],
+      "replacements_out": [
+        "3"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Landscape card with the Series Font (Garamond) to match the official poster."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-15T21:10:07"
+}
