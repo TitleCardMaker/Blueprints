@@ -24,7 +24,53 @@
     "template_ids": [],
     "source_files": []
   },
-  "episodes": {},
+  "episodes": {
+    "s0e1": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "OVA 1"
+    },
+    "s0e2": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "Movie 1"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "OVA 2"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "Movie 2"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "OVA 3"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "Movie 3"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "Movie 4"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "OVA 4"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "match_title": false,
+      "episode_text": "OVA 5"
+    }
+  },
   "templates": [],
   "fonts": [
     {
@@ -39,7 +85,8 @@
     "preview1.jpg"
   ],
   "description": [
-    "Anime card type using using the arc names as the season titles, absolute episode numbering, a custom Font, and no kanji."
+    "Anime card type using using the arc names as the season titles, absolute episode numbering, a custom Font, and no kanji.",
+    "The Season 0 OVAs and movies also have their titles and episode text modified."
   ],
   "creator": "CollinHeist",
   "created": "2023-12-16T20:18:29"
