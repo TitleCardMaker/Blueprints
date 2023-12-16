@@ -1,0 +1,33 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "War Arc",
+      "Slave Arc"
+    ],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Anime card type with the custom arc names (\"War Arc\" and \"Slave Arc\") used for the season titles."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-16T05:33:14"
+}
