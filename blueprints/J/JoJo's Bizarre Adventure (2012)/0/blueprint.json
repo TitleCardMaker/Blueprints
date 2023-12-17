@@ -1,0 +1,38 @@
+{
+  "series": {
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e9",
+      "s1e10-s1e26",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Phantom Blood",
+      "Battle Tendency",
+      "Stardust Crusaders",
+      "Diamond is Unbreakable",
+      "Golden Wind",
+      "Stone Ocean"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, and the arc names for season titles."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2023-12-17T06:21:31"
+}

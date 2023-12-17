@@ -1,0 +1,51 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e26",
+      "s1e27-s1e37"
+    ],
+    "season_title_values": [
+      "Part I",
+      "Part II"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "season_text": "Movie"
+    },
+    "s0e2": {
+      "hide_episode_text": true,
+      "season_text": "Movie"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Death Note",
+      "delete_missing": true,
+      "file": "Death Note.ttf",
+      "interline_spacing": 15,
+      "size": 0.95,
+      "vertical_shift": 5
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, \"Part I\" and \"Part II\" used for the season titles, and a custom Font.",
+    "Custom text is used for the two movies (S00E01 and S00E02), as well."
+  ],
+  "creator": "CollinHeist, BenevolentNPC",
+  "created": "2023-12-17T06:55:06"
+}
