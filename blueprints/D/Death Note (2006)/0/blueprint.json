@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Death Note",
+      "delete_missing": true,
+      "file": "Death Note.ttf",
+      "interline_spacing": 15,
+      "size": 0.95,
+      "vertical_shift": 5
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with kanji, no season titles, absolute episode numbering, and a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-12-17T06:39:31"
+}
