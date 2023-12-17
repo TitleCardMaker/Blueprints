@@ -74,10 +74,10 @@
   "templates": [],
   "fonts": [
     {
-      "name": "Haikyu",
-      "color": "rgb(229,137,59)",
+      "name": "Haikyu (alt)",
+      "color": "rgb(232,136,59)",
       "delete_missing": true,
-      "file": "Dimitri Shadowed.TTF"
+      "file": "Dimitri.TTF"
     }
   ],
   "previews": [
@@ -85,9 +85,9 @@
     "preview1.jpg"
   ],
   "description": [
-    "Anime card type using using the arc names as the season titles, absolute episode numbering, a custom Font, and no kanji.",
+    "Anime card type using using the arc names as the season titles, absolute episode numbering, a (different) custom Font and no kanji.",
     "The Season 0 OVAs and movies also have their titles and episode text modified."
   ],
   "creator": "CollinHeist",
-  "created": "2023-12-16T20:18:29"
+  "created": "2023-12-16T20:21:35"
 }
