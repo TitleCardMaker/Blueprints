@@ -1,0 +1,75 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s0e2-s0e2",
+      "s1e1-s1e8",
+      "s1e9-s1e13",
+      "s1e14-s1e21",
+      "s1e22-s1e24",
+      "s2e1-s2e5",
+      "s2e6-s2e23"
+    ],
+    "season_title_values": [
+      "Cursed Child",
+      "Fearsome Womb",
+      "Vs. Mahito",
+      "Kyoto Goodwill Event",
+      "Death Painting",
+      "Gojo's Past",
+      "Shibuya Incident"
+    ],
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "#dec175"
+    ]
+  },
+  "episodes": {
+    "s0e2": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Film"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Jujutsu Kaisen",
+      "color": "black",
+      "delete_missing": true,
+      "file": "Jujutsu Kaisen.ttf",
+      "size": 1.3,
+      "stroke_width": 2.0,
+      "replacements_in": [
+        "`",
+        "}",
+        "{",
+        "~"
+      ],
+      "replacements_out": [
+        "'",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, custom story arcs for the season titles, and a custom Font."
+  ],
+  "creator": "BenevolentNPC",
+  "created": "2023-12-18T04:31:59"
+}
