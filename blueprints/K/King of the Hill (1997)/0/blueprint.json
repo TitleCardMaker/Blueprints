@@ -1,0 +1,85 @@
+{
+  "series": {
+    "font_id": 0,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "King of the Hill",
+      "color": "#EA3A2D",
+      "delete_missing": true,
+      "file": "King Of The Hill.ttf",
+      "interline_spacing": -10,
+      "replacements_in": [
+        "/",
+        "@",
+        ":",
+        "|",
+        "_",
+        "`",
+        "(",
+        "&",
+        "^",
+        "{",
+        ">",
+        "]",
+        ")",
+        "\\",
+        "%",
+        "$",
+        "}",
+        "*",
+        "<",
+        "#",
+        "[",
+        "~",
+        "-",
+        ";",
+        "+",
+        "="
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "'",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.1,
+      "title_case": "source",
+      "vertical_shift": -10
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom Series Font styled after the logo - works with most card types."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-18T20:24:34"
+}
