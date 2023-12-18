@@ -1,0 +1,59 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e2",
+      "s1e3-s1e3",
+      "s1e4-s1e4",
+      "s1e5-s1e5",
+      "s1e6-s1e7",
+      "s1e8-s1e8",
+      "s1e9-s1e12",
+      "s2e1-s2e1",
+      "s2e2-s2e3",
+      "s2e4-s2e5",
+      "s2e6-s2e7",
+      "s2e8-s2e13",
+      "s3e1-s3e6",
+      "s3e7-s3e8",
+      "s3e9-s3e12"
+    ],
+    "season_title_values": [
+      "Spring of Youth",
+      "(LOL) Cult",
+      "(LOL) Cult / Black Vinegar",
+      "Black Vinegar",
+      "Awakening Lab",
+      "Awakening Lab / 7th Division Infiltration",
+      "7th Division Infiltration",
+      "Important Things",
+      "Urban Legend",
+      "Keiji Mogami",
+      "Splitting Up",
+      "Claw",
+      "Divine Broccoli",
+      "Telepathy Club",
+      "???%"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, custom story arcs for season titles."
+  ],
+  "creator": "BenevolentNPC",
+  "created": "2023-12-18T04:26:42"
+}
