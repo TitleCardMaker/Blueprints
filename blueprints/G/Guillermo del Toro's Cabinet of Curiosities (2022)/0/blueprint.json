@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "box_adjustments",
+      "add_bounding_box",
+      "darken"
+    ],
+    "extra_values": [
+      "-40 -20 -40 -20",
+      "True",
+      "box"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "color": "rgb(242,233,205)",
+      "delete_missing": true,
+      "file": "BernhardModernStd-Bold.ttf",
+      "size": 0.9
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Landscape card using a variation of the Series font in a light gold color."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-18T20:33:29"
+}
