@@ -86,22 +86,21 @@ def notify_discord() -> None:
     # Get issues
     try:
         issues = loads(environ.get('ISSUES'))
-        print(f'Parsed issue JSONs as:\n{issues}')
     except JSONDecodeError as exc:
         print(f'Unable to parse Context as JSON')
         print(exc)
+        print(environ.get('ISSUES'))
         sys_exit(1)
 
     # Get environment data
     for issue in issues:
-        print(f'{issue=!r}')
         # Parse issue from this issue
         environment = {
             'ISSUE_BODY': issue['body'],
             'ISSUE_CREATOR': issue['user']['login'],
             'ISSUE_CREATOR_ICON_URL': issue['user']['avatar_url'],
         }
-        data = parse_submission(environ=environment)
+        data = parse_submission(environment=environment)
 
         # Create Embed object for webhook
         embed = DiscordEmbed(
