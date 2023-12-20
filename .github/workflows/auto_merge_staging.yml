@@ -111,7 +111,6 @@ jobs:
         run: |
           python entrypoint.py --notify-discord
 
-
   merge-pull-request:
     needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
@@ -121,3 +120,4 @@ jobs:
         uses: octokit/request-action@v2.x
         with:
           route: PUT /repos/${{ github.repository }}/pulls/${{ needs.create-pull-request.outputs.pr_number }}/merge
+          token: ${{ secrets.GITHUB_TOKEN }}
