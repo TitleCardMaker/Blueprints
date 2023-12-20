@@ -83,6 +83,8 @@ def notify_discord() -> None:
         sys_exit(1)
 
     # Parse issue from environment variables
+    print(f'{environ.get("ISSUE_BODY")=}')
+    exit(1)
     data = parse_submission()
 
     # Create Embed object for webhook
