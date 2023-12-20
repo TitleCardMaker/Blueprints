@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Silicon Valley",
+      "color": "#D55843",
+      "delete_missing": true,
+      "file": "silicon-valley.otf",
+      "size": 1.1,
+      "vertical_shift": -5
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card using the Series Font."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-20T02:03:00"
+}
