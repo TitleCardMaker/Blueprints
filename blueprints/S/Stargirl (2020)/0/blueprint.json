@@ -1,0 +1,168 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "episode_text_format": "Chapter {episode_number_cardinal}",
+    "season_title_ranges": [
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Summer School",
+      "Frenemies"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {
+    "s2e1": {
+      "template_ids": [],
+      "title": "Chapter One",
+      "match_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Chapter Two",
+      "match_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "Chapter Three",
+      "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Chapter Four",
+      "match_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Chapter Five",
+      "match_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "Chapter Six",
+      "match_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Chapter Seven",
+      "match_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Chapter Eight",
+      "match_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "Chapter Nine",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "Chapter Ten",
+      "match_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "Chapter Eleven",
+      "match_title": false
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "Chapter Twelve",
+      "match_title": false
+    },
+    "s2e13": {
+      "template_ids": [],
+      "title": "Chapter Thirteen",
+      "match_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "The Murder",
+      "match_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "The Suspects",
+      "match_title": false
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "The Blackmail",
+      "match_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "The Evidence",
+      "match_title": false
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "The Thief",
+      "match_title": false
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "The Betrayal",
+      "match_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "Infinity Inc. (1)",
+      "match_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "Infinity Inc. (2)",
+      "match_title": false
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "The Monsters",
+      "match_title": false
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "The Killer",
+      "match_title": false
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "The Haunting",
+      "match_title": false
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "The Last Will and Testament of Sylvester Pemberton",
+      "match_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "The Reckoning",
+      "match_title": false
+    }
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "Marvel and DC",
+      "filters": []
+    }
+  ],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Marvel card type with custom season titles (\"Summer School\" and \"Frenemies\") and \"Chapter\" used for the episode text.",
+    "Uses / creates a \"Marvel and DC\" Template."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-20T01:37:24"
+}
