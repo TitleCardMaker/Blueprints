@@ -85,7 +85,7 @@ def notify_discord() -> None:
 
     # Get issues
     try:
-        issues = loads(loads)
+        issues = loads(environ.get('ISSUES'))
     except JSONDecodeError as exc:
         print(f'Unable to parse Context as JSON')
         print(exc)
