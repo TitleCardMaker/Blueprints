@@ -69,8 +69,8 @@ jobs:
               labels: ["created"]
             })
 
-  announce-blueprint-on-discord:
-    if: ${{ !contains(github.event.comment.body, '--silent') }}
-    needs: create_blueprint_from_issue
-    uses: TitleCardMaker/Blueprints/.github/workflows/discord_notification.yml@master
-    secrets: inherit
+  # announce-blueprint-on-discord:
+  #   if: ${{ !contains(github.event.comment.body, '--silent') }}
+  #   needs: create_blueprint_from_issue
+  #   uses: TitleCardMaker/Blueprints/.github/workflows/discord_notification.yml@master
+  #   secrets: inherit
