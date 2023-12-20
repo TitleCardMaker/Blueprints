@@ -78,3 +78,45 @@ jobs:
         with:
           route: PUT /repos/${{ github.repository }}/pulls/${{ needs.create-pull-request.outputs.pr_number }}/merge
           token: ${{ secrets.GITHUB_TOKEN }}
+
+  notify-discord:
+    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow, merge-pull-request]
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      # Get list of open issues that are labeled as "created"
+      - name: Get Open Issues
+        id: get_issues
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Check out repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: refs/heads/staging
+          persist-credentials: false
+          fetch-depth: 0
+
+      # Run script to parse issue
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+
+      - name: Send Discord Message
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_AVATAR: https://raw.githubusercontent.com/CollinHeist/static/main/logo.png
+          ISSUES: ${{ steps.get_issues.outputs.data }}
+        run: |
+          python entrypoint.py --notify-discord
