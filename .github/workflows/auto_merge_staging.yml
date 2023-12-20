@@ -118,8 +118,6 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_AVATAR: https://raw.githubusercontent.com/CollinHeist/static/main/logo.png
-          ISSUE_BODY: ${{ toJson(steps.get_issues.outputs.data) }}
-          ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
-          ISSUE_CREATOR_ICON_URL: '${{ github.event.issue.user.avatar_url }}'
+          ISSUES: ${{ toJson(steps.get_issues.outputs.data) }}
         run: |
           python entrypoint.py --notify-discord
