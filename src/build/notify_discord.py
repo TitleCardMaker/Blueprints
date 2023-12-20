@@ -6,10 +6,8 @@ environment variable. It parses this content and then posts a message
 on the Discord Webhook describing the created Blueprint.
 """
 
-
-from datetime import datetime, timedelta
 from os import environ
-from json import loads, JSONDecodeError
+from json import dumps, loads, JSONDecodeError
 from pathlib import Path
 from sys import exit as sys_exit
 
@@ -21,55 +19,6 @@ from src.build.parse_submission import download_zip, parse_submission
 DEFAULT_AVATAR_URL = (
     'https://raw.githubusercontent.com/CollinHeist/static/main/logo.png'
 )
-
-
-def get_next_merge_time() -> datetime:
-    """
-    Get the next time in which the the automated Blueprint merging
-    workflow will run.
-
-    Returns:
-        The next time in which merging will occur.
-    """
-
-    now = datetime.utcnow()
-    nearest_4hr = now.replace(
-        hour=now.hour // 4 * 4,
-        minute=0, second=0, microsecond=0,
-    )
-
-    return nearest_4hr + timedelta(hours=4)
-
-
-def format_timedelta(delta: timedelta) -> str:
-    """
-    Format the given timedelta into human readable text.
-
-    >>> format_timedelta(timedelta(hours=4, minutes=12))
-    '4 hours, and 12 minutes'
-    >>> format_timedelta(timedelta(hours=1, minutes=1))
-    '1 minute'
-
-    Args:
-        delta: The timedelta to format.
-
-    Returns:
-        The formatted time string of the given delta.
-    """
-
-    hours, seconds = divmod(delta.total_seconds(), 3600)
-    minutes = int(seconds // 60)
-
-    output = ''
-    if (hours := int(hours)) > 0:
-        output += f'{hours} hour{"s" if hours > 1 else ""}'
-
-    if minutes > 0:
-        if output:
-            output += ', and '
-        output += f'{minutes} minute{"s" if minutes > 1 else ""}'
-
-    return output
 
 
 def notify_discord() -> None:
@@ -87,7 +36,7 @@ def notify_discord() -> None:
     try:
         issues = loads(environ.get('ISSUES'))
     except JSONDecodeError as exc:
-        print(f'Unable to parse Context as JSON')
+        print(f'Unable to parse Issues as JSON')
         print(exc)
         print(environ.get('ISSUES'))
         sys_exit(1)
@@ -96,7 +45,7 @@ def notify_discord() -> None:
     for issue in issues:
         # Parse issue from this issue
         environment = {
-            'ISSUE_BODY': issue['body'],
+            'ISSUE_BODY': dumps(issue['body']),
             'ISSUE_CREATOR': issue['user']['login'],
             'ISSUE_CREATOR_ICON_URL': issue['user']['avatar_url'],
         }
@@ -137,9 +86,7 @@ def notify_discord() -> None:
                 label = 'Source Files' if source_files > 1 else 'Source File'
                 embed.add_embed_field(label, source_files)
 
-        # Add note about availability, add timestamp
-        next_str = format_timedelta(get_next_merge_time() - datetime.now())
-        embed.set_footer(f'This Blueprint will be available in {next_str}')
+        # Add timestamp
         embed.set_timestamp()
 
         # Create Webhook for adding embeds
