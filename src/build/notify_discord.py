@@ -9,6 +9,7 @@ on the Discord Webhook describing the created Blueprint.
 
 from datetime import datetime, timedelta
 from os import environ
+from json import loads, JSONDecodeError
 from pathlib import Path
 from sys import exit as sys_exit
 
@@ -82,62 +83,74 @@ def notify_discord() -> None:
         print(f'DISCORD_WEBHOOK environment variable not provided')
         sys_exit(1)
 
-    # Parse issue from environment variables
-    print(f'{environ.get("ISSUE_BODY")=}')
-    exit(1)
-    data = parse_submission()
+    # Get issues
+    try:
+        issues = loads(loads)
+    except JSONDecodeError as exc:
+        print(f'Unable to parse Context as JSON')
+        print(exc)
+        sys_exit(1)
 
-    # Create Embed object for webhook
-    embed = DiscordEmbed(
-        title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
-        description='\n'.join(data['blueprint']['description']), color='6391d2'
-    )
+    # Get environment data
+    for issue in issues:
+        # Parse issue from this issue
+        environment = {
+            'ISSUE_BODY': issue['body'],
+            'ISSUE_CREATOR': issue['user']['login'],
+            'ISSUE_CREATOR_ICON_URL': issue['user']['avatar_url'],
+        }
+        data = parse_submission(environ=environment)
 
-    # Add creator as author
-    embed.set_author(
-        name=data['creator'],
-        icon_url=environ.get('ISSUE_CREATOR_ICON_URL', DEFAULT_AVATAR_URL),
-    )
+        # Create Embed object for webhook
+        embed = DiscordEmbed(
+            title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
+            description='\n'.join(data['blueprint']['description']), color='6391d2'
+        )
 
-    # Add preview
-    embed.set_image(url=data['preview_urls'][0])
+        # Add creator as author
+        embed.set_author(
+            name=data['creator'],
+            icon_url=environment.get('ISSUE_CREATOR_ICON_URL', DEFAULT_AVATAR_URL),
+        )
 
-    # Add thumbnail if >1 preview
-    if len(data['preview_urls']) > 1:
-        embed.set_thumbnail(url=data['preview_urls'][1])
-    
-    # Add fields
-    if (templates := len(data['blueprint'].get('templates', []))):
-        label = 'Templates' if templates > 1 else 'Template'
-        embed.add_embed_field(label, templates)
-    if (fonts := len(data['blueprint'].get('fonts', []))):
-        label = 'Fonts' if fonts > 1 else 'Font'
-        embed.add_embed_field(label, fonts)
-    if (episodes := len(data['blueprint'].get('episodes', []))):
-        label = 'Episodes' if episodes > 1 else 'Episode'
-        embed.add_embed_field(label, episodes)
-    # if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
-    if (zip_url := data['source_file_zip_url']):
-        source_files = len(download_zip(zip_url, Path(__file__).parent / '.tmp'))
-        if source_files:
-            label = 'Source Files' if source_files > 1 else 'Source File'
-            embed.add_embed_field(label, source_files)
+        # Add preview
+        embed.set_image(url=data['preview_urls'][0])
 
-    # Add note about availability, add timestamp
-    next_str = format_timedelta(get_next_merge_time() - datetime.now())
-    embed.set_footer(f'This Blueprint will be available in {next_str}')
-    embed.set_timestamp()
+        # Add thumbnail if >1 preview
+        if len(data['preview_urls']) > 1:
+            embed.set_thumbnail(url=data['preview_urls'][1])
+        
+        # Add fields
+        if (templates := len(data['blueprint'].get('templates', []))):
+            label = 'Templates' if templates > 1 else 'Template'
+            embed.add_embed_field(label, templates)
+        if (fonts := len(data['blueprint'].get('fonts', []))):
+            label = 'Fonts' if fonts > 1 else 'Font'
+            embed.add_embed_field(label, fonts)
+        if (episodes := len(data['blueprint'].get('episodes', []))):
+            label = 'Episodes' if episodes > 1 else 'Episode'
+            embed.add_embed_field(label, episodes)
+        if (zip_url := data['source_file_zip_url']):
+            source_files = len(download_zip(zip_url, Path(__file__).parent / '.tmp'))
+            if source_files:
+                label = 'Source Files' if source_files > 1 else 'Source File'
+                embed.add_embed_field(label, source_files)
 
-    # Create Webhook for adding embeds
-    webhook = DiscordWebhook(
-        url=environ.get('DISCORD_WEBHOOK'),
-        username=environ.get('DISCORD_USERNAME', 'MakerBot'),
-        avatar_url=environ.get('DISCORD_AVATAR', DEFAULT_AVATAR_URL)
-    )
+        # Add note about availability, add timestamp
+        next_str = format_timedelta(get_next_merge_time() - datetime.now())
+        embed.set_footer(f'This Blueprint will be available in {next_str}')
+        embed.set_timestamp()
 
-    # Add embed to Webhook, execute webhook
-    webhook.add_embed(embed)
-    webhook.execute()
+        # Create Webhook for adding embeds
+        webhook = DiscordWebhook(
+            url=environ.get('DISCORD_WEBHOOK'),
+            username=environ.get('DISCORD_USERNAME', 'MakerBot'),
+            avatar_url=environ.get('DISCORD_AVATAR', DEFAULT_AVATAR_URL)
+        )
+
+        # Add embed to Webhook, execute webhook
+        webhook.add_embed(embed)
+        webhook.execute()
 
 
 if __name__ == '__main__':

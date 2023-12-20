@@ -81,7 +81,11 @@ def parse_urls(raw: Optional[str]) -> list[str]:
     return [] if raw is None else URL_REGEX.findall(raw)
 
 
-def parse_submission(data: Optional[dict] = None) -> dict:
+def parse_submission(
+        data: Optional[dict] = None,
+        *,
+        environment: dict = environ,
+    ) -> dict:
     """
     Parse the submission from the `ISSUE_BODY` and `ISSUE_CREATOR`
     environment variables into a dictionary of submission data.
@@ -97,7 +101,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
     # Parse issue from environment variable
     if data is None:
         try:
-            content = loads(environ.get('ISSUE_BODY'))
+            content = loads(environment.get('ISSUE_BODY'))
             print(f'Parsed issue JSON as:\n{content}')
         except JSONDecodeError as exc:
             print(f'Unable to parse Context as JSON')
@@ -105,7 +109,7 @@ def parse_submission(data: Optional[dict] = None) -> dict:
             sys_exit(1)
 
         # Get the issue's author and the body (the issue text itself)
-        creator = environ.get('ISSUE_CREATOR', 'CollinHeist')
+        creator = environment.get('ISSUE_CREATOR', 'CollinHeist')
 
         # Extract the data from the issue text
         issue_regex = re_compile(
