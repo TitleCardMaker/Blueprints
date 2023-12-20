@@ -94,6 +94,7 @@ def notify_discord() -> None:
 
     # Get environment data
     for issue in issues:
+        print(f'{issue=!r}')
         # Parse issue from this issue
         environment = {
             'ISSUE_BODY': issue['body'],
