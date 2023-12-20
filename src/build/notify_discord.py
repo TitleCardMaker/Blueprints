@@ -9,11 +9,12 @@ on the Discord Webhook describing the created Blueprint.
 
 from datetime import datetime, timedelta
 from os import environ
+from pathlib import Path
 from sys import exit as sys_exit
 
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-from src.build.parse_submission import parse_submission
+from src.build.parse_submission import download_zip, parse_submission
 
 
 DEFAULT_AVATAR_URL = (
@@ -113,9 +114,12 @@ def notify_discord() -> None:
     if (episodes := len(data['blueprint'].get('episodes', []))):
         label = 'Episodes' if episodes > 1 else 'Episode'
         embed.add_embed_field(label, episodes)
-    if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
-        label = 'Source Files' if source_files > 1 else 'Source File'
-        embed.add_embed_field(label, source_files)
+    # if (source_files := len(data['blueprint'].get('series', {}).get('source_files', []))):
+    if (zip_url := data['source_file_zip_url']):
+        source_files = len(download_zip(zip_url, Path(__file__).parent / '.tmp'))
+        if source_files:
+            label = 'Source Files' if source_files > 1 else 'Source File'
+            embed.add_embed_field(label, source_files)
 
     # Add note about availability, add timestamp
     next_str = format_timedelta(get_next_merge_time() - datetime.now())
