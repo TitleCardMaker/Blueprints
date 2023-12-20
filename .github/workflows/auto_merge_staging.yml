@@ -86,6 +86,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Get list of open issues that are labeled as "created"
+      - name: Get Open Issues
+        id: get_issues
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # Check out repository
       - name: Checkout Repository
         uses: actions/checkout@v3
