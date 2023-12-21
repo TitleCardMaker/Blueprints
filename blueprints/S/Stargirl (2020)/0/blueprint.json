@@ -1,6 +1,5 @@
 {
   "series": {
-    "card_type": "tinted frame",
     "episode_text_format": "Chapter {episode_number_cardinal}",
     "season_title_ranges": [
       "2",
