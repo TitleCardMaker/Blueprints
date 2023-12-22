@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Letterkenny",
+      "delete_missing": true,
+      "file": "futura-pt-extrabold.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Overline card type with the Letterkenny title font."
+  ],
+  "creator": "Departed69",
+  "created": "2023-12-22T22:32:15"
+}
