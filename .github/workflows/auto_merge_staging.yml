@@ -68,7 +68,6 @@ jobs:
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/pytest.yml@master
 
-
   notify-discord:
     needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
@@ -112,7 +111,7 @@ jobs:
           python entrypoint.py --notify-discord
 
   merge-pull-request:
-    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow]
+    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow, notify-discord]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     runs-on: ubuntu-latest
     steps:
