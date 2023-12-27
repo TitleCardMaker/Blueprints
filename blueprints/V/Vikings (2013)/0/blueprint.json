@@ -1,0 +1,91 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "Vikings",
+      "color": "rgb(204,175,100)",
+      "delete_missing": true,
+      "file": "VikingsFont.ttf",
+      "replacements_in": [
+        "/",
+        "@",
+        ":",
+        "|",
+        "_",
+        "`",
+        "(",
+        "&",
+        "^",
+        "{",
+        "'",
+        ">",
+        ",",
+        "]",
+        ")",
+        "\\",
+        "%",
+        "$",
+        "!",
+        "}",
+        "*",
+        "<",
+        "\"",
+        "[",
+        "#",
+        "~",
+        ".",
+        "-",
+        "?",
+        ";",
+        "+",
+        "="
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a variation of the Series font in a bronze / gold color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-12-27T04:45:00"
+}
