@@ -1,0 +1,41 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e24",
+      "s1e25-s1e26",
+      "s2e1-s2e8",
+      "s2e9-s2e12"
+    ],
+    "season_title_values": [
+      "Most Evil Death Row Convicts",
+      "Great Chinese Challenge",
+      "Great Chinese Challenge",
+      "Godlike Clash of the Kids"
+    ]
+  },
+  "episodes": {
+    "s2e13": {
+      "hide_season_text": true
+    },
+    "s0e1": {
+      "hide_season_text": true,
+      "hide_episode_text": true
+    }
+  },
+  "creator": "BenevolentNPC",
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, and custom story arcs for season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-12-28T14:38:07"
+}
