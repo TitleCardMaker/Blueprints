@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e2",
+      "s1e3-s1e11",
+      "s1e12-s1e24"
+    ],
+    "season_title_values": [
+      "Introduction",
+      "First Selection",
+      "Second Selection"
+    ]
+  },
+  "creator": "BenevolentNPC",
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, custom story arcs for season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-12-28T14:38:27"
+}
