@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Swarm",
+      "color": "rgb(227,55,40)",
+      "delete_missing": true,
+      "file": "cry-wolf.ttf",
+      "interline_spacing": -40,
+      "replacements_in": [
+        "~"
+      ],
+      "replacements_out": [
+        ""
+      ],
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with no season title(s), and a custom Font to match the Series logo."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-29T21:01:42"
+}
