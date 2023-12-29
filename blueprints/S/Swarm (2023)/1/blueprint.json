@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "calligraphy",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Swarm",
+      "color": "rgb(227,55,40)",
+      "delete_missing": true,
+      "file": "cry-wolf.ttf",
+      "interline_spacing": -40,
+      "replacements_in": [
+        "~"
+      ],
+      "replacements_out": [
+        ""
+      ],
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Calligraphy card with no season title(s), a custom Font and a matching logo. The preview Card uses a blurred styling."
+  ],
+  "creator": "CollinHeist",
+  "created": "2023-12-29T21:06:43"
+}
