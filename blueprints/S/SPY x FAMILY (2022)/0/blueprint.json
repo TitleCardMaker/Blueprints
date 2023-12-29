@@ -15,6 +15,38 @@
         "data_key": "kanji"
       }
     ],
+    "season_title_ranges": [
+      "s1e1-s1e2",
+      "s1e3-s1e5",
+      "s1e6-s1e7",
+      "s1e8-s1e9",
+      "s1e10-s1e12",
+      "s1e13-s1e15",
+      "s1e16-s1e19",
+      "s1e20-s1e23",
+      "s1e24-s1e24",
+      "s1e25-s1e25",
+      "s2e4-s2e4",
+      "s2e5-s2e10",
+      "s2e1-s2e10",
+      "s2e11-s2e12"
+    ],
+    "season_title_values": [
+      "Introduction",
+      "Admissions Interview",
+      "Eden Beginnings",
+      "Secret Police",
+      "Stella Star",
+      "Doggy Crisis",
+      "Midterm Exams",
+      "Campbelldon Tennis",
+      "Campbelldon Tennis / Imperial Scholars Mixer",
+      "Imperial Scholars Mixer",
+      "Imperial Scholars Mixer / Cruise Adventure",
+      "Cruise Adventure",
+      "Imperial Scholars Mixer",
+      "WISE"
+    ],
     "font_size": 0.8,
     "source_files": []
   },
@@ -79,6 +111,18 @@
       "title": "THE PASTRY OF KNOWLEDGE\\nTHE INFORMANT'S GREAT ROMANCE PLAN II",
       "match_title": false,
       "auto_split_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "ENJOY THE RESORT TO THE FULLEST\\nBRAGGING ABOUT VACATION",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "BERLINT IN LOVE\\nNIGHTFALL'S DAILY LIFE",
+      "match_title": false,
+      "auto_split_title": false
     }
   },
   "templates": [],
@@ -87,7 +131,8 @@
     "preview0.jpg"
   ],
   "description": [
-    "Anime card type with absolute episode numbering, a reduced font size (for the longer titles), and the gold color from the logo used for the episode text - which is written as \"Mission (x)\". The titles for multi-part episodes are manually split."
+    "Anime card type with arc season titles, absolute episode numbering, a reduced font size (for the longer titles), and the gold color from the logo used for the episode text.",
+    "The episode text is written as \"Mission (x)\". The titles for multi-part episodes are manually split."
   ],
   "creator": "CollinHeist",
   "created": "2023-11-25T23:47:04"
