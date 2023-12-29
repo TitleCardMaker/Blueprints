@@ -58,13 +58,13 @@ jobs:
     secrets: inherit
 
   call-update-database-workflow:
-    needs: [create-pull-request, call-resize-images-workflow]
+    needs: [create-pull-request]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/update_database.yml@master
     secrets: inherit
 
   call-pytest-workflow:
-    needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow]
+    needs: [create-pull-request, call-update-database-workflow]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     uses: TitleCardMaker/Blueprints/.github/workflows/pytest.yml@master
 
