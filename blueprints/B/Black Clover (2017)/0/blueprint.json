@@ -1,0 +1,45 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e13",
+      "s1e14-s1e19",
+      "s1e20-s1e27",
+      "s1e28-s1e39",
+      "s1e40-s1e50",
+      "s1e51-s1e65",
+      "s1e66-s1e93",
+      "s1e94-s1e157",
+      "s1e158-s1e167",
+      "s1e168-s1e170"
+    ],
+    "season_title_values": [
+      "Magic Knights Entrance",
+      "Dungeon Exploration",
+      "Royal Capital Assault",
+      "Eye of the Midnight Sun Encounter",
+      "Seabed Temple",
+      "Witches' Forest",
+      "Royal Knights",
+      "Elf Reincarnation",
+      "Heart Kingdom Joint Struggle",
+      "Spade Kingdom Raid"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with kanji and custom arc season titles."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2023-12-30T18:54:55"
+}
