@@ -149,7 +149,7 @@
   "templates": [
     {
       "card_type": "marvel",
-      "name": "Marvel and DC",
+      "name": "DC and Marvel",
       "filters": []
     }
   ],
@@ -160,7 +160,7 @@
   ],
   "description": [
     "Marvel card type with custom season titles (\"Summer School\" and \"Frenemies\") and \"Chapter\" used for the episode text.",
-    "Uses / creates a \"Marvel and DC\" Template."
+    "Uses / creates a \"DC and Marvel\" Template."
   ],
   "creator": "CollinHeist",
   "created": "2023-12-20T01:37:24"
