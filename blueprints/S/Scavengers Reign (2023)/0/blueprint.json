@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "-70 -15 -50 -15"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Scavengers Reign",
+      "delete_missing": true,
+      "file": "Wafterby Roundcap.otf",
+      "kerning": 0.7,
+      "interword_spacing": -10,
+      "replacements_in": [
+        "`"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Landscape card with a variation of the Series Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2023-12-30T19:17:11"
+}
