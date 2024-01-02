@@ -1,6 +1,7 @@
 # TitleCardMaker Blueprints
+[![Blueprint Validation](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml)
 
-Blueprints for importing premade Series configurations into TitleCardMaker.
+Blueprints for importing premade Series configurations into TitleCardMaker. 
 
 ---
 
