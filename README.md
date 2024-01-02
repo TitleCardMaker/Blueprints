@@ -1,11 +1,11 @@
 # TitleCardMaker Blueprints
 [![Blueprint Validation](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml)
 
-Blueprints for importing premade Series configurations into TitleCardMaker. 
+Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ---
 
-There are currently `247` Blueprints available for `208` Series, submitted by `12` Creators.
+There are currently `249` Blueprints available for `209` Series, submitted by `12` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -19,10 +19,10 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 167 |
+| CollinHeist | 168 |
 | flowcool | 32 |
 | rtgurley | 13 |
-| BenevolentNPC | 9 |
+| BenevolentNPC | 10 |
 | azuravian | 8 |
 | Departed | 6 |
 | anonfawkes | 6 |
