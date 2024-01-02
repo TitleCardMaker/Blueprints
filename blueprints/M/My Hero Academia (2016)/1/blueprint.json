@@ -80,6 +80,7 @@
       "color": "red",
       "delete_missing": true,
       "file": "ARB 66 Neon Block JUN-37.ttf",
+      "interline_spacing": 30,
       "size": 0.9,
       "stroke_width": 1.5
     }
