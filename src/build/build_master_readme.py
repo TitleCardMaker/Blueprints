@@ -11,6 +11,7 @@ from src.database.db import db, Blueprint, Series
 
 
 README_TEMPLATE = """# TitleCardMaker Blueprints
+[![Blueprint Validation](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/TitleCardMaker/Blueprints/actions/workflows/pytest.yml)
 
 Blueprints for importing premade Series configurations into TitleCardMaker.
 
