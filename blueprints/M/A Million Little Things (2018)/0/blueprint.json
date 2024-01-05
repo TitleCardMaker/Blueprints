@@ -1,0 +1,80 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "A Million Little Things",
+      "color": "rgb(237,215,187)",
+      "delete_missing": true,
+      "file": "Lingua.ttf",
+      "replacements_in": [
+        "'",
+        "]",
+        "\"",
+        "$",
+        "#",
+        "\\",
+        "@",
+        "^",
+        "<",
+        "_",
+        "(",
+        "%",
+        "/",
+        "[",
+        "~",
+        "&",
+        ";",
+        "}",
+        "{",
+        ")",
+        "=",
+        "+",
+        "*",
+        "|",
+        ":",
+        ">"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.25,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a free variation of the Series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-05T03:12:23"
+}
