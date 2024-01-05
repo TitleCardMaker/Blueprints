@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Northern Lights",
+      "The Subtle Knife",
+      "The Amber Spyglass"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "His Dark Materials",
+      "delete_missing": true,
+      "file": "Neutraface Text Bold.otf",
+      "interline_spacing": -10,
+      "size": 1.1
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a custom Font and \"Northern Lights\", \"The Subtle Knife\", and \"The Amber Spyglass\" as the season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-05T03:22:34"
+}
