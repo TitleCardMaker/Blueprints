@@ -1,0 +1,146 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "s2e1-s2e11",
+      "s2e12-s2e22",
+      "s3e1-s3e14",
+      "s3e15-s3e22",
+      "4",
+      "5",
+      "s0e3-s0e7",
+      "s0e8-s0e12"
+    ],
+    "season_title_values": [
+      "Rise of\\nthe Villains",
+      "Wrath of\\nthe Villains",
+      "Mad City",
+      "Heroes Rise",
+      "A Dark Knight",
+      "Legend of\\nthe Dark Knight",
+      "Aftermath",
+      "Gotham\\nStories"
+    ],
+    "template_ids": [
+      0
+    ],
+    "match_titles": false,
+    "source_files": []
+  },
+  "episodes": {
+    "s2e1": {
+      "template_ids": [],
+      "title": "Damned If You Do..."
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Knock, Knock"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "The Last Laugh"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Strike Force"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Scarification"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "By Fire"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Mommy's Little Monster"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Tonight's the Night"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "A Bitter Pill to Swallow"
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "The Son of Gotham"
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "Worse Than A Crime"
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "Mr. Freeze"
+    },
+    "s2e13": {
+      "template_ids": [],
+      "title": "A Dead Man Feels No Cold"
+    },
+    "s2e14": {
+      "template_ids": [],
+      "title": "This Ball of Mud and Meanness"
+    },
+    "s2e15": {
+      "template_ids": [],
+      "title": "Mad Grey Dawn"
+    },
+    "s2e16": {
+      "template_ids": [],
+      "title": "Prisoners"
+    },
+    "s2e17": {
+      "template_ids": [],
+      "title": "Into the Woods"
+    },
+    "s2e18": {
+      "template_ids": [],
+      "title": "Pinewood"
+    },
+    "s2e19": {
+      "template_ids": [],
+      "title": "Azrael"
+    },
+    "s2e20": {
+      "template_ids": [],
+      "title": "Unleashed"
+    },
+    "s2e21": {
+      "template_ids": [],
+      "title": "A Legion of Horribles"
+    },
+    "s2e22": {
+      "template_ids": [],
+      "title": "Transference"
+    }
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "DC and Marvel",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Gotham",
+      "delete_missing": true,
+      "file": "ArnoPro-Regular.otf",
+      "size": 1.1
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "Marvel card type with custom season titles, a custom Font, and the season titles removed from the Episode titles. Uses/creates a \"DC and Marvel\" Template for use with related Series and Blueprints."
+  ],
+  "creator": "CollinHeist",
+  "created": "2024-01-05T03:26:55"
+}
