@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Case {episode_number_cardinal}",
+    "extra_keys": [
+      "season_text_format"
+    ],
+    "extra_values": [
+      "Season {season_number_cardinal}"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Suits",
+      "color": "rgb(186,49,33)",
+      "delete_missing": true,
+      "file": "DIN Next Devanagari W05 Bold.ttf",
+      "interline_spacing": -120,
+      "size": 1.1,
+      "title_case": "upper",
+      "vertical_shift": 10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "This is identical to my other Suits Blueprint, but using the Series' red color instead of blue."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-06T20:00:35"
+}
