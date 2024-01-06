@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s5e13"
+    ],
+    "season_title_values": [
+      "The {season_number_ordinal} Plate"
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "#ed040a",
+      "0"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Food Wars",
+      "color": "#f8a413",
+      "delete_missing": true,
+      "file": "SedonaScriptFLF.ttf",
+      "size": 1.3
+    }
+  ],
+  "creator": "BenevolentNPC",
+  "description": [
+    "Anime card type with kanji, absolute episode numbering, \"The (season number) plate\" for the season titles, and a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-06T19:09:13"
+}
