@@ -1,0 +1,77 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Chucky",
+      "color": "rgb(197,56,43)",
+      "delete_missing": true,
+      "file": "ChildsFont-Yjev.ttf",
+      "kerning": 2.0,
+      "interline_spacing": -20,
+      "replacements_in": [
+        "&",
+        ">",
+        "`",
+        "]",
+        "+",
+        ")",
+        "$",
+        "\"",
+        "[",
+        "}",
+        "#",
+        "<",
+        "%",
+        "{",
+        "(",
+        "|",
+        "_",
+        "*",
+        "\\",
+        "=",
+        "@",
+        "^",
+        "~"
+      ],
+      "replacements_out": [
+        "and",
+        "",
+        "'",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.14,
+      "title_case": "source",
+      "vertical_shift": -5
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using a free version of the Series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-06T19:43:27"
+}

@@ -1,0 +1,70 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "hide_season_text": true,
+    "extra_keys": [
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "-40"
+    ],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "episodes": {
+    "s1e8": {
+      "title": "The Great Fire of Sixteen Fifty-Seven",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Blue Eye Samurai",
+      "color": "rgb(136,213,250)",
+      "delete_missing": true,
+      "file": "EfcoOverhold.otf",
+      "interline_spacing": -10,
+      "replacements_in": [
+        "<",
+        "|",
+        "^",
+        ">",
+        "@",
+        "~",
+        "+",
+        "&",
+        "`",
+        "%",
+        "="
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "'",
+        "",
+        ""
+      ],
+      "size": 1.1
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with kanji, absolute numbering, no season title, and a custom Font to match the Series logo."
+  ],
+  "creator": "CollinHeist",
+  "created": "2024-01-06T19:10:32"
+}
