@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "divider",
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "Alone_Custom",
+      "color": "White",
+      "delete_missing": true,
+      "file": "Alone_Custom.ttf",
+      "size": 1.5,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Azuravian",
+  "description": [
+    "Simple Blueprint using the Divider card, with a custom-made Font in the style of the show's logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-10T17:41:49"
+}
