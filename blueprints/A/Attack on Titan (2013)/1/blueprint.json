@@ -1,0 +1,203 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Episode {episode_number_cardinal}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s0e2-s0e6",
+      "s0e8-s0e11",
+      "s0e24-s0e30",
+      "s1e1-s1e2",
+      "s1e3-s1e4",
+      "s1e5-s1e13",
+      "s1e14-s1e16",
+      "s1e17-s1e22",
+      "s1e23-s1e25",
+      "2",
+      "s3e1-s3e12",
+      "s3e13-s3e22",
+      "s4e1-s4e9",
+      "s4e10-s4e35"
+    ],
+    "season_title_values": [
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "The Fall of Shiganshina",
+      "Humanity's Comeback",
+      "The Struggle for Trost",
+      "Eve of the Counterattack",
+      "The 57th Exterior Scouting Mission",
+      "Assault on Stohess",
+      "Clash of the Titans",
+      "Royal Government",
+      "Return to Shiganshina",
+      "Marley",
+      "War for Paradis"
+    ],
+    "extra_keys": [
+      "frame_color",
+      "middle_element",
+      "logo_vertical_shift"
+    ],
+    "extra_values": [
+      "rgba(247,23,0,1)",
+      "logo",
+      "500"
+    ],
+    "template_ids": [],
+    "font_size": 1.5,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "To You, in 2000 Years",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "That Day",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "A Dim Light Amid Despair",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Night of the Closing Ceremony",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "First Battle",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "The World the Girl Saw",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Small Blade",
+      "match_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "I Can Hear His Heartbeat",
+      "match_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Whereabouts of His Left Arm",
+      "match_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Response",
+      "match_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "Idol",
+      "match_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "Wound",
+      "match_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "title": "Primal Desire",
+      "match_title": false
+    },
+    "s1e14": {
+      "template_ids": [],
+      "title": "Can't Look into His Eyes Yet",
+      "match_title": false
+    },
+    "s1e15": {
+      "template_ids": [],
+      "title": "Special Operations Squad",
+      "match_title": false
+    },
+    "s1e16": {
+      "template_ids": [],
+      "title": "What Needs to be Done Now",
+      "match_title": false
+    },
+    "s1e17": {
+      "template_ids": [],
+      "title": "Female Titan",
+      "match_title": false
+    },
+    "s1e18": {
+      "template_ids": [],
+      "title": "Forest of Giant Trees",
+      "match_title": false
+    },
+    "s1e19": {
+      "template_ids": [],
+      "title": "Bite",
+      "match_title": false
+    },
+    "s1e20": {
+      "template_ids": [],
+      "title": "Erwin Smith",
+      "match_title": false
+    },
+    "s1e21": {
+      "template_ids": [],
+      "title": "Crushing Blow",
+      "match_title": false
+    },
+    "s1e22": {
+      "template_ids": [],
+      "title": "The Defeated",
+      "match_title": false
+    },
+    "s1e23": {
+      "template_ids": [],
+      "title": "Smile",
+      "match_title": false
+    },
+    "s1e24": {
+      "template_ids": [],
+      "title": "Mercy",
+      "match_title": false
+    },
+    "s1e25": {
+      "template_ids": [],
+      "title": "Wall",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Proxima Nova",
+      "delete_missing": true,
+      "file": "proximanova_light.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "A simple title card set with blurred edges featuring the official logo of the show. It uses Seasonal episode ordering with every Arc listed out using Cardinal Numbering."
+  ],
+  "creator": "DeepDaddyTTV",
+  "created": "2024-01-12T17:24:36"
+}
