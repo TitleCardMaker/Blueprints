@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "shape",
+    "extra_keys": [
+      "shape_color"
+    ],
+    "extra_values": [
+      "rgb(101,189,108)"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Shape card type with the shape re-colored green."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-12T16:43:40"
+}
