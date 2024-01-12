@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "calligraphy",
+    "extra_keys": [
+      "logo_size"
+    ],
+    "extra_values": [
+      ".9"
+    ],
+    "font_color": "White",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Arcane",
+      "color": "rgb(166,114,50)",
+      "delete_missing": true,
+      "file": "Arcane Nine.otf"
+    }
+  ],
+  "creator": "DeepDaddyTTV",
+  "description": [
+    "A simple set of cards featuring the logo and using the Series Font in white."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-12T06:52:57"
+}
