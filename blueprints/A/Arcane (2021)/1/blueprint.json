@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "Arcane",
+      "color": "rgb(198,187,160)",
+      "delete_missing": true,
+      "file": "Arcane Nine.otf",
+      "size": 1.2,
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using the Series Font in a light color to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-12T06:58:04"
+}
