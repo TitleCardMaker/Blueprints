@@ -2,7 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "azuravian/TitleColorMatch",
-    "template_ids": []
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
   },
   "episodes": {},
   "templates": [],
