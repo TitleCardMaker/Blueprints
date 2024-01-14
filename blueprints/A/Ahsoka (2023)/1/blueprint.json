@@ -1,0 +1,53 @@
+{
+  "series": {
+    "card_type": "shape",
+    "hide_episode_text": true,
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Part {episode_number_cardinal_title}"
+    ],
+    "extra_keys": [
+      "shape_color"
+    ],
+    "extra_values": [
+      "rgb(228,213,70)"
+    ],
+    "match_titles": false
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Master and Apprentice"
+    },
+    "s1e2": {
+      "title": "Toil and Trouble"
+    },
+    "s1e3": {
+      "title": "Time To Fly"
+    },
+    "s1e4": {
+      "title": "Fallen Jedi"
+    },
+    "s1e5": {
+      "title": "Shadow Warrior"
+    },
+    "s1e6": {
+      "title": "Far, Far Away"
+    },
+    "s1e7": {
+      "title": "Dreams and Madness"
+    },
+    "s1e8": {
+      "title": "The Jedi, the Witch, and the Warlord"
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Shape card with the shape colored \"star wars yellow\" (#FFE81F) and the part names of each episode positioned below the title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T05:55:36"
+}
