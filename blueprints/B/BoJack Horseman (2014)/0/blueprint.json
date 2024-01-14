@@ -1,0 +1,22 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame"
+  },
+  "fonts": [
+    {
+      "name": "BoJack Horseman",
+      "delete_missing": true,
+      "file": "Ness.ttf",
+      "size": 1.05
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Frame card with a free recreation of the Series Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T01:26:04"
+}
