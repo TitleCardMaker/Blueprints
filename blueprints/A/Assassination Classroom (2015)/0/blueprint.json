@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "First Semester",
+      "Second Semester"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with kanji, absolute numbering, and First / Second semester as the season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T06:16:21"
+}
