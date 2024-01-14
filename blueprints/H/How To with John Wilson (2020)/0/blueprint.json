@@ -1,0 +1,21 @@
+{
+  "series": {
+    "card_type": "overline",
+    "extra_keys": [
+      "line_width",
+      "season_text_format"
+    ],
+    "extra_values": [
+      "9",
+      "Take {season_number_cardinal}"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Overline card with Take One/Two/etc. used as the season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T05:46:24"
+}
