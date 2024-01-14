@@ -17,6 +17,12 @@
       "kerning": -0.8,
       "interline_spacing": 10,
       "interword_spacing": -5,
+      "replacements_in": [
+        "\u2026"
+      ],
+      "replacements_out": [
+        "..."
+      ],
       "title_case": "upper"
     }
   ],
