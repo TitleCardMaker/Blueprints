@@ -1,0 +1,26 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "0.8"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the logo at the top (included), and the title text (which is just the episode number) at the bottom."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T06:27:38"
+}
