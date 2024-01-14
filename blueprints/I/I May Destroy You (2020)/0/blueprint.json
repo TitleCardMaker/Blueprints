@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(232,47,222)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "I May Destroy You",
+      "delete_missing": true,
+      "file": "Code Pro Black.otf",
+      "kerning": -0.8,
+      "interline_spacing": 10,
+      "interword_spacing": -5,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card using the Series font with the episode text recolored purple."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T01:36:20"
+}
