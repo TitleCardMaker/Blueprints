@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Resident Alien",
+      "color": "rgb(252,237,214)",
+      "delete_missing": true,
+      "file": "Wevli Bold.ttf",
+      "size": 1.1,
+      "title_case": "lower",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using the Series font in a light tan color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-14T06:41:54"
+}
