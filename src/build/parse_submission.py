@@ -238,7 +238,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
                 print(f'Unable to unzip files from "{zip_url}"')
                 sys_exit(1)
 
-            for file in Path(directory).glob('*'):
+            for file in Path(directory).glob('**/*'):
                 if file.is_dir():
                     print(f'Skipping [zip]/{file} - is a directory')
                     continue
