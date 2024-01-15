@@ -13,7 +13,23 @@
     ],
     "template_ids": [],
     "match_titles": false,
-    "source_files": []
+    "source_files": [
+      "logo.png",
+      "s1e1.jpg",
+      "s1e2.jpg",
+      "s1e3.jpg",
+      "s1e4.jpg",
+      "s1e5.jpg",
+      "s1e6.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e9.jpg",
+      "s1e10.jpg",
+      "s1e11.jpg",
+      "s1e12.jpg",
+      "s1e13.jpg",
+      "s1e14.jpg"
+    ]
   },
   "episodes": {},
   "templates": [],
@@ -23,7 +39,8 @@
     "preview1.jpg"
   ],
   "description": [
-    "Tinted Frame card with logo on the top and episode title on the bottom"
+    "Tinted Frame card with logo on the top and episode title on the bottom.",
+    "Includes a logo and Source Images for all Episodes."
   ],
   "creator": "lyonza",
   "created": "2024-01-14T23:19:09"
