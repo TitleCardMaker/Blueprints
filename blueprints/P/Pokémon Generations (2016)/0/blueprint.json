@@ -1,0 +1,77 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Episode {episode_number}",
+    "extra_keys": [
+      "middle_element",
+      "episode_text_color",
+      "frame_color",
+      "logo_size",
+      "logo_vertical_shift",
+      "frame_width",
+      "episode_text_font",
+      "episode_text_font_size",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "logo",
+      "rgba(255,203,5,1)",
+      "rgba(255,203,5,1)",
+      "2",
+      "350",
+      "15",
+      "/config/fonts/Pokemon.ttf",
+      "2",
+      "rgba(60,90,166,1)"
+    ],
+    "template_ids": [],
+    "font_color": "rgba(255,203,5,1)",
+    "font_size": 1.75,
+    "font_stroke_width": 3.5,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Pok\u00e9mon",
+      "color": "rgba(255,203,5,1)",
+      "delete_missing": true,
+      "file": "Pokemon.ttf",
+      "replacements_in": [
+        "`",
+        "\u00e9",
+        "{",
+        "\u2026",
+        "@",
+        "}",
+        "^",
+        "\u00c9"
+      ],
+      "replacements_out": [
+        "'",
+        "e",
+        "",
+        "...",
+        "",
+        "",
+        "",
+        "E"
+      ],
+      "stroke_width": 3.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "This is a continuation of my Pok\u00e9mon Complete Series Collection. It will match the sets I've released for the main series. It uses episode ordering by TVDB as the spinoff series are correctly ordered there.",
+    "It uses standard episode ordering as the spinoff's don't have pre-defined arcs. It uses the Pok\u00e9mon font and includes a colored drop shadow to match the series color scheme.",
+    "The Series' episode text Font should be changed to match your specific folder structure (defaults to /config/fonts/Pokemon.ttf)."
+  ],
+  "creator": "DeepDaddyTTV",
+  "created": "2024-01-16T20:14:10"
+}
