@@ -52,10 +52,19 @@ def notify_discord() -> None:
             }
             data = parse_submission(environment=environment)
 
+            # Shorten the description if longer than 200 characters
+            description = '\n'.join(data['blueprint']['description'])
+            if len(description) > 200:
+                description = description[:200]
+                if (index := description.rfind(' ')) > 0:
+                    description = description[:index]
+                description = f'{description} [...]'
+
             # Create Embed object for webhook
             embed = DiscordEmbed(
                 title=f'New Blueprint for {data["series_name"].strip()} ({data["series_year"]})',
-                description='\n'.join(data['blueprint']['description']), color='6391d2'
+                description=description,
+                color='6391d2'
             )
 
             # Add creator as author
