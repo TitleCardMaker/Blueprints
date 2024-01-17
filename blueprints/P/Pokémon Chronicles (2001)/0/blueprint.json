@@ -1,37 +1,57 @@
 {
   "series": {
-    "font_id": 0,
-    "card_type": "tinted frame",
-    "episode_text_format": "Episode {episode_number}",
+    "template_ids": [
+      1
+    ],
     "extra_keys": [
-      "middle_element",
-      "frame_color",
-      "episode_text_color",
       "logo_size",
-      "logo_vertical_shift",
-      "frame_width",
-      "episode_text_font",
-      "episode_text_font_size",
-      "shadow_color"
+      "logo_vertical_shift"
     ],
     "extra_values": [
-      "logo",
-      "rgba(255,203,5,1)",
-      "rgba(255,203,5,1)",
       "1.5",
-      "400",
-      "15",
-      "/config/fonts/Pokemon.ttf",
-      "2",
-      "rgba(60,90,166,1)"
+      "400"
     ],
-    "font_color": "rgba(255,203,5,1)",
-    "font_size": 1.75,
-    "font_stroke_width": 3.5,
     "source_files": [
       "logo.png"
     ]
   },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "tinted frame",
+      "episode_text_format": "Episode {episode_number}",
+      "extra_keys": [
+        "middle_element",
+        "episode_text_color",
+        "frame_color",
+        "shadow_color",
+        "episode_text_font",
+        "logo_vertical_shift",
+        "frame_width",
+        "logo_size",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "logo",
+        "rgba(255,203,5,1)",
+        "rgba(255,203,5,1)",
+        "rgba(60,90,166,1)",
+        "/config/fonts/Pokemon.ttf",
+        "350",
+        "15",
+        "1.5",
+        "2"
+      ],
+      "name": "Pok\u00e9mon",
+      "filters": [
+        {
+          "argument": "Series Name",
+          "operation": "contains",
+          "reference": "Pok\u00e9mon"
+        }
+      ]
+    }
+  ],
   "fonts": [
     {
       "name": "Pok\u00e9mon",
@@ -58,7 +78,9 @@
         "",
         "E"
       ],
-      "stroke_width": 3.0
+      "size": 1.75,
+      "stroke_width": 3.5,
+      "title_case": "source"
     }
   ],
   "creator": "DeepDaddyTTV",
