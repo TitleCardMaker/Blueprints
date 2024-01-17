@@ -1,8 +1,5 @@
 {
   "series": {
-    "font_id": 0,
-    "card_type": "tinted frame",
-    "episode_text_format": "Episode {episode_number}",
     "season_title_ranges": [
       "s1e1-s1e82",
       "s2e1-s2e36",
@@ -60,34 +57,16 @@
       "Horizons"
     ],
     "extra_keys": [
-      "middle_element",
-      "frame_color",
-      "blur_edges",
-      "episode_text_color",
       "logo_size",
-      "logo_vertical_shift",
-      "frame_width",
-      "episode_text_font_size",
-      "episode_text_font",
-      "shadow_color"
+      "logo_vertical_shift"
     ],
     "extra_values": [
-      "logo",
-      "rgba(255,203,5,1)",
-      "true",
-      "rgba(255,203,5,1)",
       "4",
-      "700",
-      "15",
-      "2",
-      "/config/fonts/Pokemon.ttf",
-      "rgba(60,90,166,1)"
+      "700"
     ],
-    "template_ids": [],
-    "font_color": "rgba(255,203,5,1)",
-    "font_title_case": "source",
-    "font_size": 1.75,
-    "font_stroke_width": 3.5,
+    "template_ids": [
+      0
+    ],
     "source_files": [
       "s1e9.jpg",
       "s1e3.jpg",
@@ -102,6 +81,43 @@
       "s1e8.jpg"
     ]
   },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "tinted frame",
+      "episode_text_format": "Episode {episode_number}",
+      "extra_keys": [
+        "middle_element",
+        "episode_text_color",
+        "frame_color",
+        "shadow_color",
+        "episode_text_font",
+        "logo_vertical_shift",
+        "frame_width",
+        "logo_size",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "logo",
+        "rgba(255,203,5,1)",
+        "rgba(255,203,5,1)",
+        "rgba(60,90,166,1)",
+        "/config/fonts/Pokemon.ttf",
+        "350",
+        "15",
+        "1.5",
+        "2"
+      ],
+      "name": "Pok\u00e9mon",
+      "filters": [
+        {
+          "argument": "Series Name",
+          "operation": "contains",
+          "reference": "Pok\u00e9mon"
+        }
+      ]
+    }
+  ],
   "fonts": [
     {
       "name": "Pok\u00e9mon",
@@ -128,7 +144,9 @@
         "",
         "E"
       ],
-      "stroke_width": 3.0
+      "size": 1.75,
+      "stroke_width": 3.5,
+      "title_case": "source"
     }
   ],
   "creator": "DeepDaddyTTV",
