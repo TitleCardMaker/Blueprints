@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "ted",
+      "color": "rgb(75,144,71)",
+      "delete_missing": true,
+      "file": "Gotham Bold.otf",
+      "size": 1.2,
+      "title_case": "lower",
+      "vertical_shift": -15
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card type using the Series' Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-18T03:30:21"
+}
