@@ -2,6 +2,7 @@
   "series": {
     "card_type": "shape",
     "episode_text_format": "{episode_number}.",
+    "hide_season_text": true,
     "extra_keys": [
       "shape_color"
     ],
