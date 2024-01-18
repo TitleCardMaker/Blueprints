@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "1.2"
+    ],
+    "font_color": "SlateGray3",
+    "source_files": [
+      "logo.png",
+      "._logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Witcher",
+      "delete_missing": true,
+      "file": "the-witcher.ttf",
+      "interline_spacing": -10,
+      "size": 1.15
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a logo on top (included), and the titles on the bottom. The Font and frame are recolored a grayish-blue to match the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-18T06:27:26"
+}
