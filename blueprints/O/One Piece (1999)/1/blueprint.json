@@ -183,7 +183,7 @@
       "name": "Watched Anime",
       "filters": [
         {
-          "argument": "Episode is Watched",
+          "argument": "Episode Watched Status",
           "operation": "is true",
           "reference": null
         }
