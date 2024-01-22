@@ -1,0 +1,1854 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "145"
+      ],
+      "template_ids": []
+    },
+    "s1e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "145"
+      ],
+      "template_ids": []
+    },
+    "s1e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "84"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "161"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "85"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "152"
+      ],
+      "template_ids": []
+    },
+    "s1e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "47"
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "109"
+      ],
+      "template_ids": []
+    },
+    "s1e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "16"
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "16"
+      ],
+      "template_ids": []
+    },
+    "s1e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "106"
+      ],
+      "template_ids": []
+    },
+    "s1e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "101"
+      ],
+      "template_ids": []
+    },
+    "s1e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "64"
+      ],
+      "template_ids": []
+    },
+    "s1e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "73"
+      ],
+      "template_ids": []
+    },
+    "s1e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "57"
+      ],
+      "template_ids": []
+    },
+    "s1e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "83"
+      ],
+      "template_ids": []
+    },
+    "s1e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "88"
+      ],
+      "template_ids": []
+    },
+    "s1e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "135"
+      ],
+      "template_ids": []
+    },
+    "s1e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "119-122"
+      ],
+      "template_ids": []
+    },
+    "s1e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "42"
+      ],
+      "template_ids": []
+    },
+    "s1e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "8"
+      ],
+      "template_ids": []
+    },
+    "s1e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "8"
+      ],
+      "template_ids": []
+    },
+    "s2e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "104"
+      ],
+      "template_ids": []
+    },
+    "s2e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "112"
+      ],
+      "template_ids": []
+    },
+    "s2e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "89"
+      ],
+      "template_ids": []
+    },
+    "s2e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "82"
+      ],
+      "template_ids": []
+    },
+    "s2e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "74"
+      ],
+      "template_ids": []
+    },
+    "s2e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "114"
+      ],
+      "template_ids": []
+    },
+    "s2e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "22"
+      ],
+      "template_ids": []
+    },
+    "s2e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "12"
+      ],
+      "template_ids": []
+    },
+    "s2e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "21"
+      ],
+      "template_ids": []
+    },
+    "s2e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "21"
+      ],
+      "template_ids": []
+    },
+    "s2e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "67"
+      ],
+      "template_ids": []
+    },
+    "s2e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "71"
+      ],
+      "template_ids": []
+    },
+    "s2e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "93"
+      ],
+      "template_ids": []
+    },
+    "s2e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "94"
+      ],
+      "template_ids": []
+    },
+    "s2e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "75"
+      ],
+      "template_ids": []
+    },
+    "s2e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "7"
+      ],
+      "template_ids": []
+    },
+    "s2e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "97"
+      ],
+      "template_ids": []
+    },
+    "s2e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "117"
+      ],
+      "template_ids": []
+    },
+    "s2e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "62"
+      ],
+      "template_ids": []
+    },
+    "s2e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "87"
+      ],
+      "template_ids": []
+    },
+    "s2e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "55"
+      ],
+      "template_ids": []
+    },
+    "s2e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "11"
+      ],
+      "template_ids": []
+    },
+    "s3e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "38"
+      ],
+      "template_ids": []
+    },
+    "s3e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "80"
+      ],
+      "template_ids": []
+    },
+    "s3e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "72"
+      ],
+      "template_ids": []
+    },
+    "s3e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "43"
+      ],
+      "template_ids": []
+    },
+    "s3e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "50"
+      ],
+      "template_ids": []
+    },
+    "s3e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "86"
+      ],
+      "template_ids": []
+    },
+    "s3e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "31"
+      ],
+      "template_ids": []
+    },
+    "s3e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "108"
+      ],
+      "template_ids": []
+    },
+    "s3e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "24"
+      ],
+      "template_ids": []
+    },
+    "s3e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "24"
+      ],
+      "template_ids": []
+    },
+    "s3e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "95"
+      ],
+      "template_ids": []
+    },
+    "s3e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "132"
+      ],
+      "template_ids": []
+    },
+    "s3e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "103"
+      ],
+      "template_ids": []
+    },
+    "s3e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "77"
+      ],
+      "template_ids": []
+    },
+    "s3e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "113"
+      ],
+      "template_ids": []
+    },
+    "s3e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "78"
+      ],
+      "template_ids": []
+    },
+    "s3e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "32"
+      ],
+      "template_ids": []
+    },
+    "s3e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "32"
+      ],
+      "template_ids": []
+    },
+    "s3e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "41"
+      ],
+      "template_ids": []
+    },
+    "s3e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "18"
+      ],
+      "template_ids": []
+    },
+    "s3e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "14"
+      ],
+      "template_ids": []
+    },
+    "s3e23": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "14"
+      ],
+      "template_ids": []
+    },
+    "s4e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "79"
+      ],
+      "template_ids": []
+    },
+    "s4e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "66"
+      ],
+      "template_ids": []
+    },
+    "s4e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "65"
+      ],
+      "template_ids": []
+    },
+    "s4e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "81"
+      ],
+      "template_ids": []
+    },
+    "s4e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "105"
+      ],
+      "template_ids": []
+    },
+    "s4e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "53"
+      ],
+      "template_ids": []
+    },
+    "s4e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "98"
+      ],
+      "template_ids": []
+    },
+    "s4e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "98"
+      ],
+      "template_ids": []
+    },
+    "s4e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "111"
+      ],
+      "template_ids": []
+    },
+    "s4e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "163"
+      ],
+      "template_ids": []
+    },
+    "s4e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "102"
+      ],
+      "template_ids": []
+    },
+    "s4e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "184"
+      ],
+      "template_ids": []
+    },
+    "s4e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "34"
+      ],
+      "template_ids": []
+    },
+    "s4e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "107"
+      ],
+      "template_ids": []
+    },
+    "s4e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "59"
+      ],
+      "template_ids": []
+    },
+    "s4e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "10"
+      ],
+      "template_ids": []
+    },
+    "s4e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "61"
+      ],
+      "template_ids": []
+    },
+    "s4e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "29"
+      ],
+      "template_ids": []
+    },
+    "s4e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "46"
+      ],
+      "template_ids": []
+    },
+    "s4e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "46"
+      ],
+      "template_ids": []
+    },
+    "s4e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "4"
+      ],
+      "template_ids": []
+    },
+    "s4e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "4"
+      ],
+      "template_ids": []
+    },
+    "s5e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "30"
+      ],
+      "template_ids": []
+    },
+    "s5e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "37"
+      ],
+      "template_ids": []
+    },
+    "s5e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "76"
+      ],
+      "template_ids": []
+    },
+    "s5e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "44"
+      ],
+      "template_ids": []
+    },
+    "s5e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "54"
+      ],
+      "template_ids": []
+    },
+    "s5e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "90"
+      ],
+      "template_ids": []
+    },
+    "s5e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "48"
+      ],
+      "template_ids": []
+    },
+    "s5e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "13"
+      ],
+      "template_ids": []
+    },
+    "s5e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "118"
+      ],
+      "template_ids": []
+    },
+    "s5e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "100"
+      ],
+      "template_ids": []
+    },
+    "s5e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "56"
+      ],
+      "template_ids": []
+    },
+    "s5e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "63"
+      ],
+      "template_ids": []
+    },
+    "s5e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "51"
+      ],
+      "template_ids": []
+    },
+    "s5e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "68"
+      ],
+      "template_ids": []
+    },
+    "s5e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "19"
+      ],
+      "template_ids": []
+    },
+    "s5e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "25"
+      ],
+      "template_ids": []
+    },
+    "s5e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "23"
+      ],
+      "template_ids": []
+    },
+    "s5e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "13"
+      ],
+      "template_ids": []
+    },
+    "s5e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "110"
+      ],
+      "template_ids": []
+    },
+    "s5e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "26"
+      ],
+      "template_ids": []
+    },
+    "s5e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "17"
+      ],
+      "template_ids": []
+    },
+    "s6e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "33"
+      ],
+      "template_ids": []
+    },
+    "s6e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "20"
+      ],
+      "template_ids": []
+    },
+    "s6e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "124"
+      ],
+      "template_ids": []
+    },
+    "s6e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "146-147"
+      ],
+      "template_ids": []
+    },
+    "s6e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "131"
+      ],
+      "template_ids": []
+    },
+    "s6e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "91"
+      ],
+      "template_ids": []
+    },
+    "s6e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "116"
+      ],
+      "template_ids": []
+    },
+    "s6e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "58"
+      ],
+      "template_ids": []
+    },
+    "s6e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "99"
+      ],
+      "template_ids": []
+    },
+    "s6e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "160"
+      ],
+      "template_ids": []
+    },
+    "s6e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "20"
+      ],
+      "template_ids": []
+    },
+    "s6e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "20"
+      ],
+      "template_ids": []
+    },
+    "s6e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "9"
+      ],
+      "template_ids": []
+    },
+    "s6e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "6"
+      ],
+      "template_ids": []
+    },
+    "s6e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "115"
+      ],
+      "template_ids": []
+    },
+    "s6e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "69"
+      ],
+      "template_ids": []
+    },
+    "s6e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "136"
+      ],
+      "template_ids": []
+    },
+    "s6e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "92"
+      ],
+      "template_ids": []
+    },
+    "s6e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "128"
+      ],
+      "template_ids": []
+    },
+    "s6e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "60"
+      ],
+      "template_ids": []
+    },
+    "s6e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "15"
+      ],
+      "template_ids": []
+    },
+    "s7e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "27"
+      ],
+      "template_ids": []
+    },
+    "s7e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "27"
+      ],
+      "template_ids": []
+    },
+    "s7e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "151"
+      ],
+      "template_ids": []
+    },
+    "s7e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "138"
+      ],
+      "template_ids": []
+    },
+    "s7e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "130"
+      ],
+      "template_ids": []
+    },
+    "s7e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "125"
+      ],
+      "template_ids": []
+    },
+    "s7e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "162"
+      ],
+      "template_ids": []
+    },
+    "s7e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "159"
+      ],
+      "template_ids": []
+    },
+    "s7e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "3"
+      ],
+      "template_ids": []
+    },
+    "s7e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "137"
+      ],
+      "template_ids": []
+    },
+    "s7e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "155"
+      ],
+      "template_ids": []
+    },
+    "s7e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "144"
+      ],
+      "template_ids": []
+    },
+    "s7e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "126"
+      ],
+      "template_ids": []
+    },
+    "s7e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "158"
+      ],
+      "template_ids": []
+    },
+    "s7e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "149"
+      ],
+      "template_ids": []
+    },
+    "s7e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "150"
+      ],
+      "template_ids": []
+    },
+    "s7e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "156-157"
+      ],
+      "template_ids": []
+    },
+    "s8e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "139"
+      ],
+      "template_ids": []
+    },
+    "s8e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "3"
+      ],
+      "template_ids": []
+    },
+    "s8e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "1"
+      ],
+      "template_ids": []
+    },
+    "s8e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "140"
+      ],
+      "template_ids": []
+    },
+    "s8e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "127"
+      ],
+      "template_ids": []
+    },
+    "s8e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "143"
+      ],
+      "template_ids": []
+    },
+    "s8e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "40"
+      ],
+      "template_ids": []
+    },
+    "s8e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "35"
+      ],
+      "template_ids": []
+    },
+    "s8e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "70"
+      ],
+      "template_ids": []
+    },
+    "s8e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "96"
+      ],
+      "template_ids": []
+    },
+    "s8e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "28"
+      ],
+      "template_ids": []
+    },
+    "s8e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "133"
+      ],
+      "template_ids": []
+    },
+    "s8e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "5"
+      ],
+      "template_ids": []
+    },
+    "s8e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "36"
+      ],
+      "template_ids": []
+    },
+    "s8e19": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "129"
+      ],
+      "template_ids": []
+    },
+    "s8e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "141"
+      ],
+      "template_ids": []
+    },
+    "s9e1": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "45"
+      ],
+      "template_ids": []
+    },
+    "s9e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "45"
+      ],
+      "template_ids": []
+    },
+    "s9e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "178"
+      ],
+      "template_ids": []
+    },
+    "s9e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "49"
+      ],
+      "template_ids": []
+    },
+    "s9e5": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "183"
+      ],
+      "template_ids": []
+    },
+    "s9e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "153"
+      ],
+      "template_ids": []
+    },
+    "s9e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "168"
+      ],
+      "template_ids": []
+    },
+    "s9e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "164"
+      ],
+      "template_ids": []
+    },
+    "s9e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "154"
+      ],
+      "template_ids": []
+    },
+    "s9e11": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "142"
+      ],
+      "template_ids": []
+    },
+    "s9e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "171"
+      ],
+      "template_ids": []
+    },
+    "s9e13": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "176"
+      ],
+      "template_ids": []
+    },
+    "s9e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "181"
+      ],
+      "template_ids": []
+    },
+    "s9e15": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "185"
+      ],
+      "template_ids": []
+    },
+    "s9e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "172"
+      ],
+      "template_ids": []
+    },
+    "s9e17": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "177"
+      ],
+      "template_ids": []
+    },
+    "s9e18": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "180"
+      ],
+      "template_ids": []
+    },
+    "s9e20": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "169"
+      ],
+      "template_ids": []
+    },
+    "s9e21": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "80"
+      ],
+      "template_ids": []
+    },
+    "s9e22": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "80"
+      ],
+      "template_ids": []
+    },
+    "s10e2": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "165"
+      ],
+      "template_ids": []
+    },
+    "s10e3": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "199"
+      ],
+      "template_ids": []
+    },
+    "s10e4": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "200"
+      ],
+      "template_ids": []
+    },
+    "s10e6": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "70"
+      ],
+      "template_ids": []
+    },
+    "s10e7": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "145"
+      ],
+      "template_ids": []
+    },
+    "s10e8": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "38"
+      ],
+      "template_ids": []
+    },
+    "s10e9": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "38"
+      ],
+      "template_ids": []
+    },
+    "s10e10": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "173"
+      ],
+      "template_ids": []
+    },
+    "s10e12": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "198"
+      ],
+      "template_ids": []
+    },
+    "s10e14": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "192"
+      ],
+      "template_ids": []
+    },
+    "s10e16": {
+      "extra_keys": [
+        "list_number"
+      ],
+      "extra_values": [
+        "39"
+      ],
+      "template_ids": []
+    }
+  },
+  "templates": [
+    {
+      "episode_text_format": "No. {list_number}",
+      "name": "The Blacklist",
+      "filters": [
+        {
+          "argument": "Episode Extras",
+          "operation": "is not null",
+          "reference": "N/A"
+        },
+        {
+          "argument": "Episode Extras",
+          "operation": "contains",
+          "reference": "list_number"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "The Blacklist",
+      "color": "#CD2F2B",
+      "delete_missing": true,
+      "file": "Blacklisted.ttf",
+      "interline_spacing": 40,
+      "replacements_in": [
+        "\u00c8",
+        "(1)",
+        "(2)",
+        "`",
+        "(",
+        "\\",
+        ">",
+        "~",
+        "*",
+        "/",
+        "%",
+        "[",
+        "#",
+        "=",
+        "_",
+        "}",
+        "|",
+        ")",
+        "]",
+        "\u00e8",
+        ";",
+        "$",
+        "^",
+        "+",
+        "@",
+        "<",
+        "{"
+      ],
+      "replacements_out": [
+        "E",
+        "Part 1",
+        "Part 2",
+        "'",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "e",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.9,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Standard card type with the Series font in red, and the episode text is replaced with the in-Series list number as \"No. x\" (where possible)."
+  ],
+  "creator": "CollinHeist",
+  "created": "2024-01-22T21:35:57"
+}
