@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "inset",
+    "extra_keys": [
+      "omit_gradient",
+      "transparency",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "true",
+      "0.0",
+      "1.2"
+    ],
+    "template_ids": [],
+    "font_vertical_shift": 35,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Chucky 2021",
+      "delete_missing": true,
+      "file": "ChildsPlayBold.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Chucky (2021) using the Inset title card with a custom Font."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:32:58"
+}
