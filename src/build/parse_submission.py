@@ -242,6 +242,9 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
                 if file.is_dir():
                     print(f'Skipping [zip]/{file} - is a directory')
                     continue
+                if file.name.startswith('._'):
+                    print(f'Skipping [zip]/{file} - starts with "._"')
+                    continue
 
                 destination = blueprint_subfolder / str(file.name)
                 file_copy(file, destination)
