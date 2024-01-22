@@ -29,6 +29,10 @@
     "source_files": []
   },
   "episodes": {
+    "s1e22": {
+      "template_ids": [],
+      "title": "All Happy Families are Alike"
+    },
     "s2e1": {
       "template_ids": [],
       "title": "Damned If You Do..."
@@ -116,6 +120,270 @@
     "s2e22": {
       "template_ids": [],
       "title": "Transference"
+    },
+    "s5e1": {
+      "template_ids": [],
+      "title": "Year Zero"
+    },
+    "s5e2": {
+      "template_ids": [],
+      "title": "Trespassers"
+    },
+    "s5e3": {
+      "template_ids": [],
+      "title": "Penguin, Our Hero"
+    },
+    "s5e4": {
+      "template_ids": [],
+      "title": "Ruin"
+    },
+    "s5e5": {
+      "template_ids": [],
+      "title": "Pena Dura"
+    },
+    "s5e6": {
+      "template_ids": [],
+      "title": "13 Stitches"
+    },
+    "s5e7": {
+      "template_ids": [],
+      "title": "Ace Chemicals"
+    },
+    "s5e8": {
+      "template_ids": [],
+      "title": "Nothing's Shocking"
+    },
+    "s5e9": {
+      "template_ids": [],
+      "title": "The Trial of Jim Gordon"
+    },
+    "s5e10": {
+      "template_ids": [],
+      "title": "I Am Bane"
+    },
+    "s5e11": {
+      "template_ids": [],
+      "title": "They Did What?"
+    },
+    "s5e12": {
+      "template_ids": [],
+      "title": "The Beginning..."
+    },
+    "s0e3": {
+      "template_ids": [],
+      "title": "Oswald"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "Gordon"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "Nygma"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "Barbara"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "title": "The Cave"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "title": "Chapter 1"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "title": "Chapter 2"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "title": "Chapter 3"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "title": "Chapter 4"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "title": "Chapter 5"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "Better to Reign in Hell..."
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "Burn the Witch"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "Look Into My Eyes"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "New Day Rising"
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "Anything for You"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "Follow the White Rabbit"
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "Red Queen"
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "Blood Rush"
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "The Executioner"
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "Time Bomb"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "Beware the Green-Eyed Monster"
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "Ghosts"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "Smile Like You Mean It"
+    },
+    "s3e14": {
+      "template_ids": [],
+      "title": "The Gentle Art of Making Enemies"
+    },
+    "s3e15": {
+      "template_ids": [],
+      "title": "How the Riddler Got His Name"
+    },
+    "s3e16": {
+      "template_ids": [],
+      "title": "These Delicate and Dark Obsessions"
+    },
+    "s3e17": {
+      "template_ids": [],
+      "title": "The Primal Riddle"
+    },
+    "s3e18": {
+      "template_ids": [],
+      "title": "Light the Wick"
+    },
+    "s3e19": {
+      "template_ids": [],
+      "title": "All Will Be Judged"
+    },
+    "s3e20": {
+      "template_ids": [],
+      "title": "Pretty Hate Machine"
+    },
+    "s3e21": {
+      "template_ids": [],
+      "title": "Destiny Calling"
+    },
+    "s3e22": {
+      "template_ids": [],
+      "title": "Heavydirtysoul"
+    },
+    "s4e1": {
+      "template_ids": [],
+      "title": "Pax Penguina"
+    },
+    "s4e2": {
+      "template_ids": [],
+      "title": "The Fear Reaper"
+    },
+    "s4e3": {
+      "template_ids": [],
+      "title": "They Who Hide Behind Masks"
+    },
+    "s4e4": {
+      "template_ids": [],
+      "title": "The Demon's Head"
+    },
+    "s4e5": {
+      "template_ids": [],
+      "title": "The Blade's Path"
+    },
+    "s4e6": {
+      "template_ids": [],
+      "title": "Hog Day Afternoon"
+    },
+    "s4e7": {
+      "template_ids": [],
+      "title": "A Day in the Narrows"
+    },
+    "s4e8": {
+      "template_ids": [],
+      "title": "Stop Hitting Yourself"
+    },
+    "s4e9": {
+      "template_ids": [],
+      "title": "Let Them Eat Pie"
+    },
+    "s4e10": {
+      "template_ids": [],
+      "title": "Things That Go Boom"
+    },
+    "s4e11": {
+      "template_ids": [],
+      "title": "Queen Takes Knight"
+    },
+    "s4e12": {
+      "template_ids": [],
+      "title": "Pieces of a Broken Mirror"
+    },
+    "s4e13": {
+      "template_ids": [],
+      "title": "A Beautiful Darkness"
+    },
+    "s4e14": {
+      "template_ids": [],
+      "title": "Reunion"
+    },
+    "s4e15": {
+      "template_ids": [],
+      "title": "The Sinking Ship, The Grand Applause"
+    },
+    "s4e16": {
+      "template_ids": [],
+      "title": "One of My Three Soups"
+    },
+    "s4e17": {
+      "template_ids": [],
+      "title": "Mandatory Brunch Meeting"
+    },
+    "s4e18": {
+      "template_ids": [],
+      "title": "That's Entertainment"
+    },
+    "s4e19": {
+      "template_ids": [],
+      "title": "To Our Deaths and Beyond"
+    },
+    "s4e20": {
+      "template_ids": [],
+      "title": "That Old Corpse"
+    },
+    "s4e21": {
+      "template_ids": [],
+      "title": "One Bad Day"
+    },
+    "s4e22": {
+      "template_ids": [],
+      "title": "No Man's Land"
     }
   },
   "templates": [
