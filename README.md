@@ -5,7 +5,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ---
 
-There are currently `291` Blueprints available for `242` Series, submitted by `14` Creators.
+There are currently `304` Blueprints available for `250` Series, submitted by `15` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -14,19 +14,20 @@ Series with the most Blueprints:
 | The Dragon Prince (2018) | 4 |
 | Avatar: The Last Airbender (2005) | 3 |
 | Fargo (2014) | 3 |
-| Barry (2018) | 3 |
+| Demon Slayer: Kimetsu no Yaiba (2019) | 3 |
 
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 194 |
+| CollinHeist | 196 |
 | flowcool | 32 |
+| anonfawkes | 17 |
 | rtgurley | 13 |
 | DeepDaddyTTV | 12 |
 | BenevolentNPC | 11 |
+| Reicha7 | 11 |
 | azuravian | 9 |
 | Departed | 7 |
-| anonfawkes | 6 |
 | GrazedNutsack | 5 |
 | foux | 4 |
 | Ziggy73701 | 2 |
