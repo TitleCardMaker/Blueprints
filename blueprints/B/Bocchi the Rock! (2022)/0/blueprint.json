@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "extra_keys": [
+      "stroke_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "black",
+      "#fff006"
+    ],
+    "template_ids": [],
+    "font_color": "#fff006",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "BOCCHI THE ROCK",
+      "delete_missing": true,
+      "file": "thugolatz.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom Anime style cards for Bocchi the Rock with custom Font."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:35:06"
+}

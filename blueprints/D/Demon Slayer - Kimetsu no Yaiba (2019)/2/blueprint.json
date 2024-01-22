@@ -1,0 +1,121 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Tanjiro Kamado, Unwavering Resolve Arc",
+      "Mugen Train Arc",
+      "Entertainment District Arc",
+      "Swordsmith Village Arc"
+    ],
+    "extra_keys": [
+      "kanji_vertical_shift",
+      "stroke_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "-40",
+      "white",
+      "Crimson"
+    ],
+    "template_ids": [],
+    "font_color": "black",
+    "font_stroke_width": 2.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "template_ids": [],
+      "season_text": "Movie"
+    },
+    "s0e2": {
+      "template_ids": [],
+      "season_text": "Movie"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "title": "Valentine Chapter 1",
+      "match_title": false,
+      "episode_text": "Demon Slayer Academy"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "Valentine Chapter 2",
+      "match_title": false,
+      "episode_text": "Demon Slayer Academy"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "Valentine Chapter 3",
+      "match_title": false,
+      "episode_text": "Demon Slayer Academy"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "Valentine Chapter 4",
+      "match_title": false,
+      "episode_text": "Demon Slayer Academy"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "title": "Mt. Natagumo",
+      "match_title": false,
+      "episode_text": "Fourth Night"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "title": "The Hashira Meeting/Butterfly Mansion",
+      "match_title": false,
+      "episode_text": "Fifth Night"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "title": "Special Edition Episode 1",
+      "match_title": false,
+      "episode_text": "Kimetsu no Utage"
+    },
+    "s0e13": {
+      "template_ids": [],
+      "title": "Special Edition Episode 2",
+      "match_title": false,
+      "episode_text": "Kimetsu no Utage"
+    },
+    "s0e14": {
+      "template_ids": [],
+      "title": "Special Edition Episode 3",
+      "match_title": false,
+      "episode_text": "Kimetsu no Utage"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Demon Slayer",
+      "delete_missing": true,
+      "file": "Blood Crow Condensed.ttf",
+      "interline_spacing": -20,
+      "size": 1.2,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom anime style for Demon Slayer using a custom font, custom arc titles and modified episode/season titles"
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:37:10"
+}

@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#cf9e7e",
+      "white",
+      "#cf9e7e",
+      "white"
+    ],
+    "template_ids": [],
+    "font_color": "#f1707e",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Puella Magi Madoka Magica",
+      "delete_missing": true,
+      "file": "HandoSoftTrial-Bold.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom Anime cards for Puella Magi Madoka Magica with a custom Font."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:33:50"
+}

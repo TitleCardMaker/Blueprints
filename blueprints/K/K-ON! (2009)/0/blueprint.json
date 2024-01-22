@@ -1,0 +1,129 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "episode_text_format": "#{episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "K-ON!",
+      "K-ON!!"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "separator"
+    ],
+    "extra_values": [
+      "rgb(255,255,255)",
+      "Black",
+      "\"\""
+    ],
+    "template_ids": [],
+    "font_color": "rgb(255,255,255)",
+    "font_size": 1.5,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e2": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "episode_text": "URA-ON!"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e13": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e14": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e15": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e16": {
+      "template_ids": [],
+      "episode_text": "URA-ON!!"
+    },
+    "s0e17": {
+      "template_ids": [],
+      "episode_text": "OVA"
+    },
+    "s0e18": {
+      "template_ids": [],
+      "episode_text": "Movie"
+    },
+    "s0e19": {
+      "template_ids": [],
+      "episode_text": "OVA"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Kon",
+      "delete_missing": true,
+      "file": "alphabetized_cassette_tapes.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom anime style titlecards for K-ON! using a custom font and custom season arcs with modifed episode titles for the specials"
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:30:13"
+}

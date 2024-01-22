@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "One Punch Man",
+      "delete_missing": true,
+      "file": "eastwest.otf",
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom Anime style cards for One Punch Man using a custom Font."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T21:31:56"
+}

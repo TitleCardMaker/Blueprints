@@ -1,0 +1,57 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Dark Kingdom",
+      "Black Moon",
+      "Death Busters"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#fee775",
+      "#e87087",
+      "#fee775",
+      "#e87087"
+    ],
+    "template_ids": [],
+    "font_color": "#fee775",
+    "font_size": 1.5,
+    "font_stroke_width": 2.0,
+    "font_interword_spacing": 30,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Sailor moon",
+      "delete_missing": true,
+      "file": "Shardee.ttf",
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom Anime style with a custom Font and kanji coloring."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T22:01:29"
+}
