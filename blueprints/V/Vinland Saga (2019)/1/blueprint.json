@@ -1,0 +1,106 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "0"
+    ],
+    "season_title_values": [
+      "War Arc",
+      "Slave Arc",
+      "OVAs"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "#a0222e",
+      "#a0222e"
+    ],
+    "template_ids": [],
+    "match_titles": false,
+    "font_color": "#a0222e",
+    "font_interline_spacing": 35,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e2": {
+      "template_ids": [],
+      "title": "Same old story",
+      "episode_text": "Episode 18.5"
+    },
+    "s0e1": {
+      "template_ids": [],
+      "episode_text": "Episode 16.5"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "vinland saga",
+      "delete_missing": true,
+      "file": "Google-spies.ttf",
+      "replacements_in": [
+        "%",
+        "/",
+        "\\",
+        "*",
+        "<",
+        "_",
+        "[",
+        "^",
+        "{",
+        "}",
+        "~",
+        "+",
+        "\"",
+        "`",
+        "#",
+        "|",
+        "@",
+        ">",
+        "]",
+        "="
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "'",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Custom anime card for Vinland Saga using a custom font and season arc names"
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T22:09:43"
+}
