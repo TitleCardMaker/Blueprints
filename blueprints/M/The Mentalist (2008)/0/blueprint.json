@@ -1,0 +1,54 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_width"
+    ],
+    "extra_values": [
+      "6"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": [
+      "red_john.png"
+    ]
+  },
+  "templates": [
+    {
+      "extra_keys": [
+        "frame_color",
+        "logo_file",
+        "logo_size",
+        "top_element",
+        "bottom_element",
+        "grayscale"
+      ],
+      "extra_values": [
+        "rgb(174,39,29)",
+        "red_john.png",
+        "2.0",
+        "title",
+        "logo",
+        "True"
+      ],
+      "name": "The Mentalist (Red John)",
+      "filters": [
+        {
+          "argument": "Episode Identifier",
+          "operation": "matches",
+          "reference": "(S01E01|S01E02|S01E11|S01E23|S02E08|S02E23|S04E11|S04E13|S04E24|S06E01|S06E02|S06E03|S06E05|S06E06|S06E08)"
+        }
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card which utilizes a Template filter to recolor the frame and add the Red John face (included) to all Episodes in which Red John appears (this could be a potential spoiler)."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-01-22T04:03:55"
+}
