@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "episode_text_format": "EPISODE {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "wonder egg",
+      "delete_missing": true,
+      "file": "LibreFranklin-ExtraBold.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime cards using a custom Font and absolute episode numbering."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T22:11:26"
+}
