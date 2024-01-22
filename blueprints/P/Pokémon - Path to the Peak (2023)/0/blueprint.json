@@ -1,0 +1,99 @@
+{
+  "series": {
+    "extra_keys": [
+      "logo_vertical_shift",
+      "logo_size"
+    ],
+    "extra_values": [
+      "500",
+      "1.5"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": [
+      "s1e1.jpg",
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "tinted frame",
+      "episode_text_format": "Episode {episode_number}",
+      "extra_keys": [
+        "middle_element",
+        "episode_text_color",
+        "frame_color",
+        "shadow_color",
+        "episode_text_font",
+        "logo_vertical_shift",
+        "frame_width",
+        "logo_size",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "logo",
+        "rgba(255,203,5,1)",
+        "rgba(255,203,5,1)",
+        "rgba(60,90,166,1)",
+        "/config/fonts/Pokemon.ttf",
+        "350",
+        "15",
+        "1.5",
+        "2"
+      ],
+      "name": "Pok\u00e9mon",
+      "filters": [
+        {
+          "argument": "Series Name",
+          "operation": "contains",
+          "reference": "Pok\u00e9mon"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Pok\u00e9mon",
+      "color": "rgba(255,203,5,1)",
+      "delete_missing": true,
+      "file": "Pokemon.ttf",
+      "replacements_in": [
+        "`",
+        "\u00e9",
+        "{",
+        "\u2026",
+        "@",
+        "}",
+        "^",
+        "\u00c9"
+      ],
+      "replacements_out": [
+        "'",
+        "e",
+        "",
+        "...",
+        "",
+        "",
+        "",
+        "E"
+      ],
+      "size": 1.75,
+      "stroke_width": 3.5,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "This is a continuation of my Pok\u00e9mon Complete Series Collection. It will match the sets I've released for the main series. It uses episode ordering by TVDB as the spinoff series are correctly ordered there.",
+    "For the season specific variants, there will also be alternative forms without season text.",
+    "It uses standard episode ordering as the spinoff's don't have pre-defined arcs. It uses the Pok\u00e9mon font and includes a colored drop shadow to match the series color scheme.",
+    "The Series' episode text Font should be changed to match your specific folder structure (defaults to /config/fonts/Pokemon.ttf)."
+  ],
+  "creator": "DeepDaddyTTV",
+  "created": "2024-01-22T18:25:52"
+}
