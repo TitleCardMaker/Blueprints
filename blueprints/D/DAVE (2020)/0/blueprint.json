@@ -1,0 +1,36 @@
+{
+  "series": {
+    "card_type": "standard",
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "font_id": 0,
+      "name": "Dave",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Dave",
+      "color": "#ffbea3",
+      "delete_missing": true,
+      "file": "Clearface-Serial-Heavy Regular.ttf",
+      "size": 1.25,
+      "stroke_width": 1.2,
+      "vertical_shift": -20
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Dave (AKA Lil Dicky) TV card"
+  ],
+  "creator": "PJ",
+  "created": "2024-01-22T18:02:50"
+}
