@@ -1,0 +1,114 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color",
+      "episode_stroke_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "#f96626",
+      "#ffca08",
+      "#f96626",
+      "#ffca08"
+    ],
+    "template_ids": [],
+    "font_color": "white",
+    "font_size": 1.5,
+    "font_stroke_width": 2.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u306f\u3058\u307e\u308a"
+      ],
+      "template_ids": []
+    },
+    "s1e3": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3042\u306e\u3068\u304d"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3048\u3093\u305d\u304f"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3067\u3042\u3044"
+      ],
+      "template_ids": []
+    },
+    "s1e7": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u304a\u3066\u304c\u307f"
+      ],
+      "template_ids": []
+    },
+    "s1e9": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u304d\u3085\u3046\u3058\u3064"
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3042\u3081\u306e\u3072"
+      ],
+      "template_ids": []
+    },
+    "s1e11": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u304d\u305a\u3042\u3068"
+      ],
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "School live",
+      "delete_missing": true,
+      "file": "New_Comic_BD.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime cards for School-Live! using a custom Font and custom kanji coloring."
+  ],
+  "creator": "Reicha7, anonfawkes",
+  "created": "2024-01-22T22:02:16"
+}
