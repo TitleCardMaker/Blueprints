@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "line_color",
+      "line_position",
+      "line_width"
+    ],
+    "extra_values": [
+      "rgb(145,41,32)",
+      "bottom",
+      "17"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Grey's Anatomy",
+      "delete_missing": true,
+      "file": "Helvetica Ultra Compressed.otf",
+      "interline_spacing": 25,
+      "interword_spacing": -10,
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "size": 1.25,
+      "title_case": "upper",
+      "vertical_shift": -40
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Overline card using the Series Font with the line recolored maroon to match the Series' posters and logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-23T04:07:42"
+}
