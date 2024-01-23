@@ -1,0 +1,22 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ]
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "DC and Marvel",
+      "filters": []
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Marvel card type to match the RedHeadJedi's Marvel Cinematic Universe poster set(s). Uses/creates a \"DC and Marvel\" Template for use with related Series and Blueprints."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-23T04:23:58"
+}
