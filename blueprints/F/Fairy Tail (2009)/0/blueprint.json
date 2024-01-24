@@ -1,0 +1,232 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "266-275",
+      "1-2",
+      "3-4",
+      "5-10",
+      "11-20",
+      "21-29",
+      "30-32",
+      "33-40",
+      "41-51",
+      "52-68",
+      "69-75",
+      "76-95",
+      "96-122",
+      "123-124",
+      "125-150",
+      "151-203",
+      "204-226",
+      "227-233",
+      "234-265",
+      "276-284",
+      "285-328"
+    ],
+    "season_title_values": [
+      "Zer\u00f8 arc",
+      "Macao arc",
+      "Daybreak arc",
+      "Eisenwald arc",
+      "Sub-Zero Emperor Lyon arc",
+      "Phantom Lord arc",
+      "Loke arc",
+      "Tower of Heaven arc",
+      "The Battle of Fairy Tail arc",
+      "Oraci\u00f3n Seis arc",
+      "Daphne arc",
+      "Edolas arc",
+      "Tenrou Island arc",
+      "X791 arc",
+      "Key of the Starry Sky arc",
+      "Grand Magic Games arc",
+      "Eclipse Celestial Spirits arc",
+      "Sun Village arc",
+      "Tartaros arc",
+      "Avatar arc",
+      "Alvarez arc"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s6e8": {
+      "template_ids": [],
+      "title": "Prologue - The Nine Demon Gates",
+      "match_title": false
+    },
+    "s6e9": {
+      "template_ids": [],
+      "title": "Prologue - Fairies vs. Netherworld",
+      "match_title": false
+    },
+    "s6e10": {
+      "template_ids": [],
+      "title": "Prologue - The White Legacy",
+      "match_title": false
+    },
+    "s6e11": {
+      "template_ids": [],
+      "title": "Prologue - Natsu vs. Jackal",
+      "match_title": false
+    },
+    "s6e12": {
+      "template_ids": [],
+      "title": "Immorality and Sinners",
+      "match_title": false
+    },
+    "s6e13": {
+      "template_ids": [],
+      "title": "Jellal vs. Oraci\u00f3n Seis",
+      "match_title": false
+    },
+    "s6e14": {
+      "template_ids": [],
+      "title": "A Place Reached by Prayer",
+      "match_title": false
+    },
+    "s6e15": {
+      "template_ids": [],
+      "title": "The Demon's Rebirth",
+      "match_title": false
+    },
+    "s6e16": {
+      "template_ids": [],
+      "title": "To Let Live or Die",
+      "match_title": false
+    },
+    "s6e17": {
+      "template_ids": [],
+      "title": "Wendy vs. Ezel",
+      "match_title": false
+    },
+    "s6e18": {
+      "template_ids": [],
+      "title": "Friends Forever",
+      "match_title": false
+    },
+    "s6e19": {
+      "template_ids": [],
+      "title": "Hell's Core",
+      "match_title": false
+    },
+    "s6e20": {
+      "template_ids": [],
+      "title": "Underworld King",
+      "match_title": false
+    },
+    "s6e21": {
+      "template_ids": [],
+      "title": "Alegria",
+      "match_title": false
+    },
+    "s6e22": {
+      "template_ids": [],
+      "title": "A Strike from the Stars",
+      "match_title": false
+    },
+    "s6e23": {
+      "template_ids": [],
+      "title": "Celestial Spirit King vs. Underworld King",
+      "match_title": false
+    },
+    "s6e24": {
+      "template_ids": [],
+      "title": "Erza vs. Minerva",
+      "match_title": false
+    },
+    "s6e25": {
+      "template_ids": [],
+      "title": "The Boy's Tale",
+      "match_title": false
+    },
+    "s6e26": {
+      "template_ids": [],
+      "title": "Gray vs. Silver",
+      "match_title": false
+    },
+    "s6e27": {
+      "template_ids": [],
+      "title": "A Silver Wish",
+      "match_title": false
+    },
+    "s6e28": {
+      "template_ids": [],
+      "title": "Air",
+      "match_title": false
+    },
+    "s6e29": {
+      "template_ids": [],
+      "title": "Steel",
+      "match_title": false
+    },
+    "s6e30": {
+      "template_ids": [],
+      "title": "Final Duels",
+      "match_title": false
+    },
+    "s6e31": {
+      "template_ids": [],
+      "title": "Wings of Despair",
+      "match_title": false
+    },
+    "s6e32": {
+      "template_ids": [],
+      "title": "Fire Dragon Iron Fist",
+      "match_title": false
+    },
+    "s6e33": {
+      "template_ids": [],
+      "title": "00:00",
+      "match_title": false
+    },
+    "s6e34": {
+      "template_ids": [],
+      "title": "The Girl in the Crystal",
+      "match_title": false
+    },
+    "s6e35": {
+      "template_ids": [],
+      "title": "Absolute Demon",
+      "match_title": false
+    },
+    "s6e36": {
+      "template_ids": [],
+      "title": "Memento Mori",
+      "match_title": false
+    },
+    "s6e37": {
+      "template_ids": [],
+      "title": "Soaring Above Ishgar",
+      "match_title": false
+    },
+    "s6e38": {
+      "template_ids": [],
+      "title": "Drops of Fire",
+      "match_title": false
+    },
+    "s6e39": {
+      "template_ids": [],
+      "title": "Finale - Where the Power of Life Lies",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime title cards with absolute episode numbering, arc season titles, and remove 'Tartaros Chapter' prefix from episode names."
+  ],
+  "creator": "chriszinkula",
+  "created": "2024-01-24T20:27:04"
+}
