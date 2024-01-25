@@ -72,7 +72,7 @@ class BlueprintFont(BlueprintBase):
     file_download_url: Optional[HttpUrl] = None
     kerning: float = None
     interline_spacing: int = None
-    replacements_in: list[str] = None
+    replacements_in: list[constr(min_length=1)] = None
     replacements_out: list[str] = None
     size: PositiveFloat = None
     stroke_width: float = None
