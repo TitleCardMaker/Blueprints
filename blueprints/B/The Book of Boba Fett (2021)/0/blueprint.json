@@ -1,0 +1,55 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "episode_text_format": "Chapter {episode_number}",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Stranger in a Strange Land",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The Tribes of Tatooine",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Streets of Mos Espa",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Gathering Storm",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Return of the Mandalorian",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "From the Desert Comes a Stranger",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "In the Name of Honor",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Star Wars card type with \"chapter\" removed from the title text. Based on CollinHeist's design for The Mandalorian."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-25T02:26:09"
+}
