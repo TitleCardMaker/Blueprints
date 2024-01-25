@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Percy Jackson Disney",
+      "color": "#8E7D7C",
+      "delete_missing": true,
+      "file": "Albertus Medium.ttf",
+      "size": 1.1
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "A simple blueprint imitating the shows font and color. It emphasizes the episode title, which can be quite long."
+  ],
+  "creator": "legacy3",
+  "created": "2024-01-25T17:07:33"
+}
