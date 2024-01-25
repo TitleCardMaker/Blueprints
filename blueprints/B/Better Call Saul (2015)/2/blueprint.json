@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "translations": [],
+    "season_title_ranges": [],
+    "season_title_values": [],
+    "extra_keys": [
+      "frame_width",
+      "frame_color"
+    ],
+    "extra_values": [
+      "6",
+      "#e22921"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Better Call Saul",
+      "color": "rgb(255, 255, 97)",
+      "delete_missing": true,
+      "file": "script-casual-normal.ttf",
+      "title_case": "title"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with the frame colored red designed to match CollinHeist's Breaking Bad Blueprint. Uses the Better Call Saul font with settings also by CollinHeist."
+  ],
+  "creator": "Reicha7, CollinHeist",
+  "created": "2024-01-25T02:25:21"
+}
