@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Sex and the City",
+      "delete_missing": true,
+      "file": "times.ttf",
+      "size": 1.1,
+      "stroke_width": 0.25,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style with logo placed at top of frame."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-25T05:32:53"
+}
