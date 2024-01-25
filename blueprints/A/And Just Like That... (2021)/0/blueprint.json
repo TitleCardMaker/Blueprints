@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s2e10": {
+      "template_ids": [],
+      "title": "The Last Supper: Appetizer",
+      "match_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "The Last Supper: Entr\u00e9e",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Sex and the City",
+      "delete_missing": true,
+      "file": "times.ttf",
+      "size": 1.1,
+      "stroke_width": 0.25,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with logo placed at top of frame, and a custom Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-25T05:31:58"
+}
