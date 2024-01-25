@@ -10,7 +10,7 @@ jobs:
     steps:
       # Check out repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: refs/heads/staging
           persist-credentials: false
