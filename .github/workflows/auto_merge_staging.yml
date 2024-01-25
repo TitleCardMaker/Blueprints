@@ -14,12 +14,12 @@ jobs:
     steps:
       # Check out the repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Get list of open issues that are labeled as "created"
       - name: Get Open Issues
         id: get_issues
-        uses: octokit/request-action@v2.x
+        uses: octokit/request-action@v2.1.9
         with:
           route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
         env:
@@ -28,7 +28,7 @@ jobs:
       # Create a Pull Request to merge staging -> master
       - name: Create Pull Request
         id: create_pr
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const { repo, owner } = context.repo;
