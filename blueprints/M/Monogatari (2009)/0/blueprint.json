@@ -1,0 +1,297 @@
+{
+  "series": {
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "s0e3-s0e6",
+      "s3e14-s3e17",
+      "s0e10-s0e14",
+      "s0e15-s0e18",
+      "4",
+      "s0e21-s0e32",
+      "s0e33-s0e38",
+      "s0e19-s0e20",
+      "s0e2-s0e2",
+      "5",
+      "s3e1-s3e5",
+      "s3e6-s3e9",
+      "s3e10-s3e13",
+      "s3e18-s3e23"
+    ],
+    "season_title_values": [
+      "Bakemonogatari",
+      "Nisemonogatari",
+      "Nekomonogatari (Black)",
+      "Onimonogatari",
+      "Hanamonogatari",
+      "Tsukimonogatari",
+      "Owarimonogatari I",
+      "Koyomimonogatari",
+      "Zoku Owarimonogatari",
+      "Kizumonogatari",
+      "Kizumonogatari",
+      "Owarimonogatari II",
+      "Nekomonogatari (Black)",
+      "Kabukimonogatari",
+      "Otorimonogatari",
+      "Koimonogatari"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s3e1": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e2": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e3": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e4": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e5": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e6": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e7": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e8": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e9": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e10": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e11": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e12": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e13": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e14": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e15": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e16": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e17": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e18": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e19": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e20": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e21": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e22": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s3e23": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e2": {
+      "template_ids": [],
+      "title": "Tekketsu",
+      "match_title": false,
+      "episode_text": "Part 1"
+    },
+    "s0e3": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e4": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e10": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e11": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e12": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e13": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e14": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e15": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e16": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e17": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e18": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e19": {
+      "template_ids": [],
+      "title": "Nekketsu",
+      "match_title": false,
+      "episode_text": "Part 2"
+    },
+    "s0e20": {
+      "template_ids": [],
+      "title": "Reiketsu",
+      "match_title": false,
+      "episode_text": "Part 3"
+    },
+    "s0e21": {
+      "template_ids": [],
+      "episode_text": "Episode 1"
+    },
+    "s0e22": {
+      "template_ids": [],
+      "episode_text": "Episode 2"
+    },
+    "s0e23": {
+      "template_ids": [],
+      "episode_text": "Episode 3"
+    },
+    "s0e24": {
+      "template_ids": [],
+      "episode_text": "Episode 4"
+    },
+    "s0e25": {
+      "template_ids": [],
+      "episode_text": "Episode 5"
+    },
+    "s0e26": {
+      "template_ids": [],
+      "episode_text": "Episode 6"
+    },
+    "s0e27": {
+      "template_ids": [],
+      "episode_text": "Episode 7"
+    },
+    "s0e28": {
+      "template_ids": [],
+      "episode_text": "Episode 8"
+    },
+    "s0e29": {
+      "template_ids": [],
+      "episode_text": "Episode 9"
+    },
+    "s0e30": {
+      "template_ids": [],
+      "episode_text": "Episode 10"
+    },
+    "s0e31": {
+      "template_ids": [],
+      "episode_text": "Episode 11"
+    },
+    "s0e32": {
+      "template_ids": [],
+      "episode_text": "Episode 12"
+    },
+    "s0e33": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e34": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e35": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e36": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e37": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e38": {
+      "hide_episode_text": true,
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "Anime title cards with custom season titles. When a season had the same number of Episodes as parts (which are in the title) the episode number is hidden. Otherwise the episodes in the series are numbered 1-x."
+  ],
+  "creator": "chriszinkula",
+  "created": "2024-01-25T05:33:52"
+}
