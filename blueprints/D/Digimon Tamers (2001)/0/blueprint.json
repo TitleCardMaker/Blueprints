@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Guilmon Comes Alive",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Digimon, Digimon Everywhere",
+      "match_title": false
+    },
+    "s1e50": {
+      "template_ids": [],
+      "title": "Jeri Fights Back",
+      "match_title": false
+    },
+    "s1e51": {
+      "template_ids": [],
+      "title": "Such Sweet Sorrow",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Digimon",
+      "delete_missing": true,
+      "file": "PixelDigivolve-mOm9.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime title card with a custom Font, no season titles, and some custom Episode naming."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-26T21:01:07"
+}
