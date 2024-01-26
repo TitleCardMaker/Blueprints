@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Percy Jackson",
+      "color": "#a9b0b4",
+      "delete_missing": true,
+      "file": "Windlass.ttf",
+      "interline_spacing": 75,
+      "size": 0.75,
+      "vertical_shift": 35
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard card with a custom Font to try and match the series font. The season title is also hidden."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-26T02:38:08"
+}
