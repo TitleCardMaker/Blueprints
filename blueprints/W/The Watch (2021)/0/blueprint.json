@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "banner_fill_color",
+      "text_box_fill_color",
+      "text_box_edge_color"
+    ],
+    "extra_values": [
+      "rgb(29, 170, 249)",
+      "rgba(220, 67, 151, 0.75)",
+      "black",
+      "rgb(239, 219, 0)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Watch",
+      "color": "#dc4397",
+      "delete_missing": true,
+      "file": "911porschav3.ttf",
+      "size": 1.2
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic book title card with custom fonts and colours themed off of the show's poster."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-26T02:39:41"
+}
