@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Digimon",
+      "delete_missing": true,
+      "file": "PixelDigivolve-mOm9.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime card type with a custom Font, and no season titles."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-26T21:00:43"
+}

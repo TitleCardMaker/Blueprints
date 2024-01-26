@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "card_type": "anime",
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Digimon",
+      "delete_missing": true,
+      "file": "PixelDigivolve-mOm9.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime card type with kanji translation, a custom Font, and no season titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-26T20:57:43"
+}
