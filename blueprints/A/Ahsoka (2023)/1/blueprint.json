@@ -6,7 +6,7 @@
       "1"
     ],
     "season_title_values": [
-      "Part {episode_number_cardinal_title}"
+      "Part {titlecase(to_cardinal(episode_number))}"
     ],
     "extra_keys": [
       "shape_color"

@@ -2,7 +2,7 @@
   "series": {
     "card_type": "olivier",
     "hide_season_text": true,
-    "episode_text_format": "Season {season_number_cardinal}",
+    "episode_text_format": "Season {to_cardinal(season_number)}",
     "template_ids": [],
     "source_files": []
   },

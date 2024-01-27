@@ -5,7 +5,7 @@
   "creator": "CollinHeist",
   "series": {
     "card_type": "olivier",
-    "episode_text_format": "EP_{episode_number_cardinal}",
+    "episode_text_format": "EP_{to_cardinal(episode_number)}",
     "template_ids": [],
     "extra_keys": [
       "episode_text_color"

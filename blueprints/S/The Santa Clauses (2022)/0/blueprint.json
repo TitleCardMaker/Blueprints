@@ -1,7 +1,7 @@
 {
   "series": {
     "card_type": "olivier",
-    "episode_text_format": "Chapter {episode_number_cardinal}",
+    "episode_text_format": "Chapter {to_cardinal(episode_number)}",
     "template_ids": [],
     "font_color": "rgb(199,178,105)",
     "source_files": []

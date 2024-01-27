@@ -1,7 +1,7 @@
 {
   "series": {
     "card_type": "star wars",
-    "episode_text_format": "Chapter {absolute_episode_number_cardinal}",
+    "episode_text_format": "Chapter {to_cardinal(absolute_episode_number)}",
     "template_ids": [],
     "match_titles": false,
     "source_files": []
