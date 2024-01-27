@@ -36,7 +36,6 @@ jobs:
         env:
           ISSUE_BODY: ${{ toJson(github.event.issue.body) }}
           ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
-          # ISSUE_JSON: '${{ steps.parse_issue.outputs.parsed-issue }}'
         run: |
           python entrypoint.py --parse-submission
       
@@ -55,7 +54,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            # Blueprint Validation Results
+            # Validation Results
             All tests passed succesfully. @CollinHeist will be along shortly to create the Blueprint with the `/create-blueprint` command.
 
       - name: Comment Failing Pytest Results
@@ -64,7 +63,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            # Blueprint Validation Results
+            # Validation Results
             Validation has __failed__. See the [workflow summary](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
 
             After correcting the Blueprint, new tests will be run automatically.

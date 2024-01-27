@@ -320,41 +320,6 @@ def parse_and_create_blueprint():
     print(f'{"-" * 25}\n{submission["blueprint"]}\n{"-" * 25}')
 
 
-def _import_existing_blueprints():
-    """
-    Import any existing Blueprints and add them to the Database. This is
-    purely a transition function, not intended for workflow execution.    
-    """
-
-    from json import load, dumps
-    for series_folder in (Path(__file__).parent.parent / 'blueprints').glob('*/*'):
-        for blueprint_folder in series_folder.glob('*'):
-            if not blueprint_folder.is_dir():
-                continue
-
-            with (blueprint_folder / 'blueprint.json').open('r') as fh:
-                blueprint = load(fh)
-
-            series_name = series_folder.name.rsplit(' (', maxsplit=1)[0]
-            series_year = int(series_folder.name[-5:-1])
-
-            submission = parse_submission({
-                'series_name': series_name,
-                'series_year': series_year,
-                'database_ids': '_No response_',
-                'creator': blueprint['creator'],
-                'description': '\n'.join(blueprint['description']),
-                'blueprint': dumps(blueprint),
-                'preview_url': '',
-                'font_zip': '_No response_',
-            })
-            series, blueprint = create_new_blueprint(
-                submission['series_name'], submission['series_year'],
-                submission['database_ids'], submission['creator'],
-                submission['description'], submission['blueprint'],
-            )
-
-
 # File is entrypoint
 if __name__ == '__main__':
     parse_and_create_blueprint()
