@@ -2,7 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "episode_text_format": "Episode {episode_number_cardinal}",
+    "episode_text_format": "Episode {to_cardinal(episode_number)}",
     "translations": [
       {
         "language_code": "ja",
@@ -196,7 +196,7 @@
     "preview0.jpg"
   ],
   "description": [
-    "A simple title card set with blurred edges featuring the official logo of the show. It uses Seasonal episode ordering with every Arc listed out using Cardinal Numbering."
+    "A simple title card set with blurred edges featuring the official logo of the show. It uses seasonal episode ordering with every arc listed out using cardinal numbering."
   ],
   "creator": "DeepDaddyTTV",
   "created": "2024-01-12T17:24:36"

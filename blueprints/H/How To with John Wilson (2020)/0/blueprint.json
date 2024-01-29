@@ -7,7 +7,7 @@
     ],
     "extra_values": [
       "9",
-      "Take {season_number_cardinal}"
+      "Take {to_cardinal(season_number)}"
     ]
   },
   "creator": "CollinHeist",

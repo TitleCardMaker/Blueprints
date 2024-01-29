@@ -2,7 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "episode_text_format": "Episode {episode_number_cardinal}",
+    "episode_text_format": "Episode {to_cardinal(episode_number)}",
     "season_title_ranges": [
       "1",
       "2",

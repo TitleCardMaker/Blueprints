@@ -1,7 +1,7 @@
 {
   "series": {
     "card_type": "standard",
-    "episode_text_format": "Chapter {episode_number_cardinal}",
+    "episode_text_format": "Chapter {to_cardinal(episode_number)}",
     "season_title_ranges": [
       "1",
       "2",

@@ -1,0 +1,15 @@
+{
+  "series": {
+    "card_type": "anime",
+    "hide_season_text": true,
+    "episode_text_format": "Level {to_cardinal(episode_number)}"
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with no kanji, no season titles, and \"Level\" used in the episode text format."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-29T21:12:31"
+}

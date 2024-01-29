@@ -1,0 +1,288 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "title_text_format",
+      "top_element",
+      "bottom_element",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "{NEWLINE.join([' '.join(['.'.join(words).replace(\".'.\", \"'\").replace('(.', '(').replace('.)', ')').replace('...', '.') for words in line.split(' ')]) for line in title_text.splitlines()])}",
+      "index",
+      "title",
+      "random[rgb(201,47,38), rgb(239,164,58), rgb(32,74,149)]",
+      "5"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The One Where\\nMonica Gets a Roommate",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The One with\\nthe Sonogram at the End",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The One with\\nGeorge Stephanopoulos",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "The One with\\nFive Steaks and an Eggplant",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e15": {
+      "template_ids": [],
+      "title": "The One Where\\nRoss and Rachel...You Know",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e24": {
+      "template_ids": [],
+      "title": "The One with\\nBarry and Mindy's Wedding",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "The One with\\nthe Princess Leia Fantasy",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "The One with\\nthe Metaphorical Tunnel",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "The One with\\nthe Giant Poking Device",
+      "match_title": false
+    },
+    "s3e21": {
+      "template_ids": [],
+      "title": "The One with\\nthe Chick and the Duck",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e4": {
+      "template_ids": [],
+      "title": "The One with the\\nBallroom Dancing",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e7": {
+      "template_ids": [],
+      "title": "The One Where\\nChandler Crosses the Line",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e9": {
+      "template_ids": [],
+      "title": "The One Where\\nThey're Going to Party!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e10": {
+      "template_ids": [],
+      "title": "The One with\\nthe Girl from Poughkeepsie",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e20": {
+      "template_ids": [],
+      "title": "The One with\\nAll the Wedding Dresses",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e22": {
+      "template_ids": [],
+      "title": "The One with\\nthe Worst Best Man Ever",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e10": {
+      "template_ids": [],
+      "title": "The One with\\nthe Inappropriate Sister",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e12": {
+      "template_ids": [],
+      "title": "The One with\\nChandler's Work Laugh",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e17": {
+      "template_ids": [],
+      "title": "The One with\\nRachel's Inadvertent Kiss",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e4": {
+      "template_ids": [],
+      "title": "The One Where\\nJoey Loses His Insurance",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e14": {
+      "template_ids": [],
+      "title": "The One Where\\nChandler Can't Cry (2)",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e21": {
+      "template_ids": [],
+      "title": "The One Where\\nRoss Meets Elizabeth's Dad",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e5": {
+      "template_ids": [],
+      "title": "The One with\\nthe Engagement Picture",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e8": {
+      "template_ids": [],
+      "title": "The One Where\\nChandler Doesn't Like Dogs",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e10": {
+      "template_ids": [],
+      "title": "The One with\\nthe Holiday Armadillo",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e16": {
+      "template_ids": [],
+      "title": "The One with \\nthe Truth About London",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e17": {
+      "template_ids": [],
+      "title": "The One with\\nthe Cheap Wedding Dress",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e19": {
+      "template_ids": [],
+      "title": "The One with\\nRoss and Monica's Cousin",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e13": {
+      "template_ids": [],
+      "title": "The One Where\\nChandler Takes a Bath",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e23": {
+      "template_ids": [],
+      "title": "The One Where\\nRachel Has a Baby (1)",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e24": {
+      "template_ids": [],
+      "title": "The One Where\\nRachel Has A Baby (2)",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s9e5": {
+      "template_ids": [],
+      "title": "The One with\\nPhoebe's Birthday Dinner",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s9e7": {
+      "template_ids": [],
+      "title": "The One with\\nRoss' Inappropriate Song",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s9e9": {
+      "template_ids": [],
+      "title": "The One with\\nRachel's Phone Number",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s9e11": {
+      "template_ids": [],
+      "title": "The One Where\\nRachel Goes Back to Work",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s10e5": {
+      "template_ids": [],
+      "title": "The One Where\\nRachel's Sister Babysits",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s10e8": {
+      "template_ids": [],
+      "title": "The One with\\nthe Late Thanksgiving",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s10e10": {
+      "template_ids": [],
+      "title": "The One Where\\nChandler Gets Caught",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s10e16": {
+      "template_ids": [],
+      "title": "The One with\\nRachel's Going Away Party",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Friends",
+      "color": "white",
+      "delete_missing": true,
+      "file": "Gabriel Weiss Friends.ttf",
+      "kerning": 5.0,
+      "replacements_in": [
+        "]",
+        "{",
+        "[",
+        "}"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a custom Font, and a title format to add periods between all letters of the titles. The frame colors are also randomized between the yellow, red, and blue of the Series artwork.",
+    "Episodes with very long titles are split into two lines."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-01-29T21:19:37"
+}

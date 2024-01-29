@@ -1,7 +1,7 @@
 {
   "series": {
     "card_type": "olivier",
-    "episode_text_format": "Scene {episode_number_cardinal}",
+    "episode_text_format": "Scene {to_cardinal(episode_number)}",
     "template_ids": []
   },
   "episodes": {},

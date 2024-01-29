@@ -13,7 +13,7 @@
       "s1e1-s5e13"
     ],
     "season_title_values": [
-      "The {season_number_ordinal} Plate"
+      "The {to_ordinal(season_number)} Plate"
     ],
     "extra_keys": [
       "stroke_color",

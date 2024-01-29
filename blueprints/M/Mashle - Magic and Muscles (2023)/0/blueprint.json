@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "2"
+    ],
+    "season_title_values": [
+      "The Divine Visionary Candidate Exam Arc"
+    ],
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Mashle",
+      "color": "rgb(218,56,49)",
+      "delete_missing": true,
+      "file": "Dime Box NF W01 Regular.ttf",
+      "size": 0.9,
+      "stroke_width": 5.0,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with kanji, absolute numbering, the arc name used for the season 2 title, and a custom Font styled after the Series logo.",
+    "The Font is created by Nick Curtis at OnlineWebFonts."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-01-29T21:17:33"
+}
