@@ -1,0 +1,153 @@
+{
+  "series": {
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "season_title_values": [
+      "Classified",
+      "Port of Call: Hawaii",
+      "Gregg Turkington's Decker vs. Dracula",
+      "Unclassified",
+      "Unsealed",
+      "Mindwipe"
+    ]
+  },
+  "episodes": {
+    "s2e1": {
+      "template_ids": [],
+      "title": "Episode 1",
+      "match_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Episode 2",
+      "match_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "Episode 3",
+      "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Episode 4",
+      "match_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Episode 5",
+      "match_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "Episode 6",
+      "match_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Episode 7",
+      "match_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Episode 8",
+      "match_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "Episode 9",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "Episode 10",
+      "match_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "Episode 11",
+      "match_title": false
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "Episode 12",
+      "match_title": false
+    },
+    "s2e13": {
+      "template_ids": [],
+      "title": "Episode 13",
+      "match_title": false
+    },
+    "s2e14": {
+      "template_ids": [],
+      "title": "Episode 14",
+      "match_title": false
+    },
+    "s2e15": {
+      "template_ids": [],
+      "title": "Episode 15",
+      "match_title": false
+    },
+    "s2e16": {
+      "template_ids": [],
+      "title": "Episode 16",
+      "match_title": false
+    },
+    "s2e17": {
+      "template_ids": [],
+      "title": "Episode 17",
+      "match_title": false
+    },
+    "s2e18": {
+      "template_ids": [],
+      "title": "Episode 18",
+      "match_title": false
+    },
+    "s2e19": {
+      "template_ids": [],
+      "title": "Episode 19",
+      "match_title": false
+    },
+    "s2e20": {
+      "template_ids": [],
+      "title": "Episode 20",
+      "match_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "Episode 1",
+      "match_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "Episode 2",
+      "match_title": false
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "Episode 3",
+      "match_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "Episode 4",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Custom season titles for all seasons (1-6), with the season names removed from the titles of seasons 2 and 3. This Blueprint uses your default card type.",
+    "I've also uploaded 1080p Source Images for all Episodes to TMDb."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-01-29T05:03:40"
+}
