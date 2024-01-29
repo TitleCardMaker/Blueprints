@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_fill_color",
+      "banner_fill_color",
+      "text_box_edge_color"
+    ],
+    "extra_values": [
+      "black",
+      "rgb(250, 249, 195)",
+      "rgba(251, 216, 220, 0.75)",
+      "black"
+    ],
+    "template_ids": [],
+    "font_color": "black",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Are You Being Served",
+      "delete_missing": true,
+      "file": "Niconne-Regular.ttf",
+      "interword_spacing": 50,
+      "title_case": "title"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic-style card attempting to mimic the style of the show's posters"
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-29T23:21:46"
+}
