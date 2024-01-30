@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "kanji_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#c30000",
+      "#c30000"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Berserk",
+      "color": "#c30000",
+      "delete_missing": true,
+      "file": "GHOST BRUSH.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font themed to look like the series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-29T23:19:23"
+}

@@ -1,0 +1,71 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "season_title_ranges": [
+      "0"
+    ],
+    "season_title_values": [
+      "OVAs"
+    ],
+    "extra_keys": [
+      "kanji_color",
+      "stroke_color",
+      "episode_text_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#e55a9b",
+      "#e55a9b",
+      "#66b28d",
+      "#66b28d"
+    ]
+  },
+  "episodes": {
+    "s0e46": {
+      "hide_season_text": false,
+      "hide_episode_text": true,
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30bf\u30a4\u30e4\u30ad\u30fb\u30a6\u30a9\u30fc\uff01"
+      ]
+    },
+    "s0e52": {
+      "hide_season_text": false,
+      "hide_episode_text": true,
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30c0\u30a4\u30b3\u30f3\u30fb\u30a6\u30a9\u30fc\uff01"
+      ]
+    }
+  },
+  "fonts": [
+    {
+      "name": "Girls und Panzer",
+      "color": "#e55a9b",
+      "delete_missing": true,
+      "file": "basic_square_7_solid.ttf",
+      "interline_spacing": 10,
+      "size": 0.8
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card for Girls und Panzer featuring custom text, and logo-matching colours."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-29T23:17:02"
+}

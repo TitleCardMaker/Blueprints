@@ -1,0 +1,20 @@
+{
+  "series": {
+    "card_type": "frame",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Basic Frame blueprint with the season and episode text removed."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-29T23:23:29"
+}

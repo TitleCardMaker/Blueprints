@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Bloom Into You",
+      "delete_missing": true,
+      "file": "Cailyn Bloom.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font and removal of season text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-29T23:20:40"
+}
