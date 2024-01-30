@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "kanji_color",
+      "stroke_color",
+      "episode_text_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "black",
+      "white",
+      "#bb1319",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "FMA Brotherhood",
+      "color": "#b5b3ba",
+      "delete_missing": true,
+      "file": "gunmetl.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font and title/episode colours to match logo"
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-30T02:19:13"
+}
