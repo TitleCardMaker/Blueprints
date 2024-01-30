@@ -1,4 +1,4 @@
-# Agatha Christie&#39;s Poirot (1989)
+# Stephen King's IT (1990)
 
 There are `1` Blueprint(s) available for this Series.
 

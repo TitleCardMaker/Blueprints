@@ -1,0 +1,166 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "episode_text_format": "EPISODE {to_cardinal(episode_number).upper()}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "SEASON {to_cardinal(season_number).upper()}"
+    ],
+    "extra_keys": [
+      "text_position",
+      "text_gravity",
+      "title_text_position"
+    ],
+    "extra_values": [
+      "lower left",
+      "west",
+      "right"
+    ],
+    "template_ids": [],
+    "font_color": "yellow",
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Zom 100",
+      "delete_missing": true,
+      "file": "CatalogRegular-ALnm7.ttf",
+      "replacements_in": [
+        "}",
+        "$",
+        ">",
+        ":",
+        "/",
+        "{",
+        "~",
+        "<",
+        "=",
+        "@",
+        "(",
+        "#",
+        ")",
+        "[",
+        ";",
+        "%",
+        "+",
+        ",",
+        "'",
+        "\\",
+        "|",
+        "-",
+        "\"",
+        "]",
+        "*",
+        ".",
+        "&",
+        "_",
+        "^",
+        "!",
+        "?",
+        "`"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Zom 100: Bucket List of the Dead in the Divider card style with yellow font coloring and a custom font to match the series logo"
+  ],
+  "creator": "anonfawkes",
+  "created": "2024-01-30T05:13:12"
+}
