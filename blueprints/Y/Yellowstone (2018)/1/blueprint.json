@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Hatch Bold",
+      "color": "#E49838",
+      "delete_missing": true,
+      "title_case": "upper",
+      "file": "Hatch_Bold.ttf"
+    }
+  ],
+  "creator": "Dragonsys",
+  "description": [
+    "Hatch Bold font, color matched to match show font as close as possible"
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-30T02:22:40"
+}

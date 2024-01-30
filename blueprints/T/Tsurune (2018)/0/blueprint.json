@@ -1,0 +1,51 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "0"
+    ],
+    "season_title_values": [
+      "Tsurune",
+      "The Linking Shot",
+      "Tsurune"
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "kanji_color",
+      "episode_text_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "white",
+      "#86c22b",
+      "#86c22b",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Tsurune",
+      "color": "#86c22b",
+      "delete_missing": true,
+      "file": "chancur.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font, custom season titles, and absolute numbering."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-30T02:22:01"
+}
