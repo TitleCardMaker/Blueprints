@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Retro_Grunge_West",
+      "color": "#FFFFFF",
+      "delete_missing": true,
+      "file": "Retro_Grunge_West.otf",
+      "interline_spacing": 5,
+      "size": 1.5,
+      "stroke_width": 0.1,
+      "title_case": "upper",
+      "vertical_shift": 10
+    }
+  ],
+  "creator": "Dragonsys",
+  "description": [
+    "Custom Font with Episode Name and number, but no season number"
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-30T02:15:23"
+}

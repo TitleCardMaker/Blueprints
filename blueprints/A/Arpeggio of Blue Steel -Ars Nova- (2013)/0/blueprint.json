@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "kanji_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#61b6b9",
+      "#61b6b9"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Arpeggio of Blue Steel",
+      "color": "#61b6b9",
+      "delete_missing": true,
+      "file": "Stencilia-A.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font to match series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-30T02:17:53"
+}
