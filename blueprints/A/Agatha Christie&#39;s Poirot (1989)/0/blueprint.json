@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "white"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Poirot",
+      "delete_missing": true,
+      "file": "PoiretOne-Regular.ttf",
+      "stroke_width": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card with custom font and removal of season and episode text."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-30T02:12:31"
+}
