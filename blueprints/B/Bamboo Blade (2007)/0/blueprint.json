@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "kanji_color",
+      "episode_text_color",
+      "stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#edf030",
+      "#edf030",
+      "#e84822",
+      "#e84822"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Bamboo Blade",
+      "color": "#edf030",
+      "delete_missing": true,
+      "file": "Heathergreen.otf",
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime-style card with custom font designed to match the show's logo."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-01-30T02:13:35"
+}
