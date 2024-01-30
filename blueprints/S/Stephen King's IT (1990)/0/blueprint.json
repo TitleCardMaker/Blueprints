@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "inset",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "IT",
+      "color": "#FF0000",
+      "delete_missing": true,
+      "file": "Top Secret.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Inset card type with a custom font to try and match the show, font colored to red."
+  ],
+  "creator": "TyroFlakkripper",
+  "created": "2024-01-30T05:23:28"
+}
