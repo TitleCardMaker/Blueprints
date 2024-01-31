@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true
+  },
+  "episodes": {
+    "s0e5": {
+      "hide_season_text": false,
+      "hide_episode_text": true,
+      "season_text": "OVA"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Toradora",
+      "delete_missing": true,
+      "file": "VAG Rounded Regular.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-31T03:17:35"
+}

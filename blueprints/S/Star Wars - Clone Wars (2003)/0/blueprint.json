@@ -1,0 +1,14 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "hide_episode_text": true
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Star Wars card type with the episode text hidden."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-31T03:25:14"
+}
