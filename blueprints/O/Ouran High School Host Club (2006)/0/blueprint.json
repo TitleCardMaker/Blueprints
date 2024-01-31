@@ -46,6 +46,7 @@
     {
       "name": "Ouran",
       "color": "#ef5a9e",
+      "file": "Ouran.ttf",
       "interline_spacing": 25,
       "interword_spacing": 50,
       "replacements_in": [
