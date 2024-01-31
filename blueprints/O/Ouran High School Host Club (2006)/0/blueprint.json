@@ -1,0 +1,131 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_stroke_color",
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "#ef5a9e",
+      "black",
+      "black",
+      "#ef5a9e",
+      "30"
+    ]
+  },
+  "episodes": {
+    "s1e16": {
+      "title": "Operation Haruhi and Hikaru's First Date",
+      "match_title": false
+    },
+    "s1e17": {
+      "title": "Kyoya's Reluctant Day Out",
+      "match_title": false
+    },
+    "s1e18": {
+      "title": "Chika's 'Down with Honey' Declaration",
+      "match_title": false
+    },
+    "s1e23": {
+      "title": "Tamaki's Unwitting Depression",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Ouran",
+      "color": "#ef5a9e",
+      "interline_spacing": 25,
+      "interword_spacing": 50,
+      "replacements_in": [
+        "'",
+        ";",
+        "?",
+        "\\",
+        "&",
+        "!",
+        "^",
+        "{",
+        "-",
+        "=",
+        ".",
+        "<",
+        "[",
+        "_",
+        "+",
+        "#",
+        "/",
+        ",",
+        "~",
+        "@",
+        ">",
+        ":",
+        "}",
+        "]",
+        "`",
+        "%",
+        "(",
+        ")",
+        "\"",
+        "*",
+        "|",
+        "$"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        " ",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.9,
+      "stroke_width": 1.2
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom font and some character replacement for certain episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-31T03:44:10"
+}
