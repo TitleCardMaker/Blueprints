@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "shape",
+    "extra_keys": [
+      "shape",
+      "shape_color",
+      "shape_width"
+    ],
+    "extra_values": [
+      "circle",
+      "rgb(167,43,35)",
+      "18"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Shape card using a circle colored red to match the circled X in the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-31T05:40:38"
+}
