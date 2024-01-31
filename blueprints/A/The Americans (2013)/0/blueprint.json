@@ -1,0 +1,75 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "The Americans",
+      "color": "rgb(220,76,52)",
+      "delete_missing": true,
+      "file": "wadim_giant.ttf",
+      "interline_spacing": -20,
+      "replacements_in": [
+        ")",
+        "\"",
+        "*",
+        "}",
+        "&",
+        "%",
+        "$",
+        "[",
+        "<",
+        ">",
+        "^",
+        "/",
+        "|",
+        "#",
+        "{",
+        "]",
+        "=",
+        "~",
+        "@",
+        "(",
+        "`",
+        "'",
+        "\\"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.4,
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the soviet-style Font in light red."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-01-31T05:04:10"
+}

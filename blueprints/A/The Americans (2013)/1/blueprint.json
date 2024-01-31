@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Americans (alternate)",
+      "color": "rgb(250,224,75)",
+      "delete_missing": true,
+      "file": "Agency Gothic Medium.otf",
+      "replacements_in": [
+        "R"
+      ],
+      "replacements_out": [
+        "\u042f"
+      ],
+      "size": 1.2,
+      "title_case": "upper",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using the official Series Font in yellow. All R's are replaced with \u042f."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-01-31T05:05:05"
+}
