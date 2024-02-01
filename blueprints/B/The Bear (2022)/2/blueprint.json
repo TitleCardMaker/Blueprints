@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "marvel",
+    "extra_keys": [
+      "border_color",
+      "text_box_height",
+      "episode_text_location",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "black",
+      "260",
+      "compact",
+      "white"
+    ],
+    "template_ids": [],
+    "font_color": "#FFF7C8",
+    "font_size": 2.0,
+    "font_vertical_shift": -50,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Marvel-style card with border adjustments and a custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-01T21:48:36"
+}
