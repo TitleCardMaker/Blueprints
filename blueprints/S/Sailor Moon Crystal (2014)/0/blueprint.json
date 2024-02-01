@@ -2,6 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
+    "episode_text_format": "Act {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
     "season_title_ranges": [
       "1",
       "2",
@@ -19,19 +26,273 @@
       "episode_stroke_color"
     ],
     "extra_values": [
-      "#fee775",
-      "#e87087",
-      "#fee775",
-      "#e87087"
+      "#fcffff",
+      "#e83079",
+      "#ebe6f6",
+      "#89e7ff"
     ],
     "template_ids": [],
-    "font_color": "#fee775",
-    "font_size": 1.5,
+    "font_color": "#ebe6f6",
+    "font_size": 1.0,
     "font_stroke_width": 2.0,
+    "font_interline_spacing": -10,
     "font_interword_spacing": 30,
     "source_files": []
   },
-  "episodes": {},
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Usagi ~Sailor Moon~",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Ami ~Sailor Mercury~",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Rei ~Sailor Mars~",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Masquerade ~Dance Party~",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Makoto ~Sailor Jupiter~",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Tuxedo Mask",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": " Mamoru Chiba ~Tuxedo Mask~",
+      "match_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Minako ~Sailor V~",
+      "match_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Serenity ~Princess~",
+      "match_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Moon",
+      "match_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "Reunion ~Endymion~",
+      "match_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": " Enemy ~Queen Metalia~",
+      "match_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "title": " Final Battle ~Reincarnation~",
+      "match_title": false
+    },
+    "s1e14": {
+      "template_ids": [],
+      "title": "Conclusion and Commencement ~Petite \u00c9trang\u00e8re~",
+      "match_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": " Infiltration ~Sailor Mars~",
+      "match_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Abduction ~Sailor Mercury~",
+      "match_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "Secrecy ~Sailor Jupiter~",
+      "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Invasion ~Sailor Venus~",
+      "match_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Time Warp ~Sailor Pluto~",
+      "match_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "Crystal Tokyo ~King Endymion~",
+      "match_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Complication ~Nemesis~",
+      "match_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Hidden Agenda ~Nemesis~",
+      "match_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "Covert Maneuvers ~Wiseman~",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "Attack ~Black Lady~",
+      "match_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "Showdown ~Death Phantom~",
+      "match_title": false
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": " Replay ~Never Ending~",
+      "match_title": false
+    },
+    "s3e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\tAct.27 \u7121\u96501\u3000\u4e88\u611f\uff65\u524d\u7de8"
+      ],
+      "template_ids": [],
+      "title": "Infinity 1: Premonition - First Part",
+      "match_title": false,
+      "episode_text": "Act 27"
+    },
+    "s3e2": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "Act.27 \u7121\u96501\u3000\u4e88\u611f\uff65\u5f8c\u7de8"
+      ],
+      "template_ids": [],
+      "title": "Infinity 1: Premonition - Second Part",
+      "match_title": false,
+      "episode_text": "Act 27"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "Infinity 2: Ripples",
+      "match_title": false,
+      "episode_text": "Act 28"
+    },
+    "s3e4": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "Act.29 \u7121\u96503\u30002\u4eba -NEW SOLDIERS-"
+      ],
+      "template_ids": [],
+      "title": "Infinity 3: Two ~New Guardians~",
+      "match_title": false,
+      "episode_text": "Act 29"
+    },
+    "s3e5": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Infinity 4: Haruka Tenoh, Michiru Kaioh - Sailor Uranus, Sailor Neptune",
+      "match_title": false,
+      "episode_text": "Act 30"
+    },
+    "s3e6": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "Act.31 \u7121\u96505\u3000\u51a5\u738b\u305b\u3064\u306a-SAILORPLUTO-"
+      ],
+      "template_ids": [],
+      "title": "Infinity 5: Setsuna Meioh - Sailor Pluto",
+      "match_title": false,
+      "episode_text": "Act 31"
+    },
+    "s3e7": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "Act.32 \u7121\u96506\u3000\uff13\u6226\u58eb"
+      ],
+      "template_ids": [],
+      "title": "Infinity 6: Three Guardians",
+      "match_title": false,
+      "episode_text": "Act 32"
+    },
+    "s3e8": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\tAct.33 \u7121\u96507\u3000\u5909\u8eab-SUPER SAILORMOON-"
+      ],
+      "template_ids": [],
+      "title": "Infinity 7: Transformation - Super Sailor Moon",
+      "match_title": false,
+      "episode_text": "Act 33"
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "Infinity 8: Infinite Labyrinth 1",
+      "match_title": false,
+      "episode_text": "Act 34"
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "Infinity 9: Infinite Labyrinth 2",
+      "match_title": false,
+      "episode_text": "Act 35"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "Infinity 10: Infinite ~Upper Atmosphere~",
+      "match_title": false,
+      "episode_text": "Act 36"
+    },
+    "s3e12": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "Act.37 \u7121\u965011\u3000\u7121\u9650\u5927\u2015\u2015\u5be9\u5224"
+      ],
+      "template_ids": [],
+      "title": " Infinity 11: Infinite ~Judgement~",
+      "match_title": false,
+      "episode_text": "Act 37"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "Infinity 12: Infinite ~Journey~",
+      "match_title": false,
+      "episode_text": "Act 38"
+    }
+  },
   "templates": [],
   "fonts": [
     {
@@ -39,10 +300,12 @@
       "delete_missing": true,
       "file": "Shardee.ttf",
       "replacements_in": [
-        "\u2019"
+        "\u2019",
+        "~"
       ],
       "replacements_out": [
-        "'"
+        "'",
+        "-"
       ]
     }
   ],
@@ -50,7 +313,7 @@
     "preview0.jpg"
   ],
   "description": [
-    "Custom Anime style with a custom Font and kanji coloring."
+    "Custom Anime style with a custom Font, kanji coloring, and title and episode overrides for the act number."
   ],
   "creator": "Reicha7, anonfawkes",
   "created": "2024-01-22T22:01:29"
