@@ -1,0 +1,52 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "frame_color",
+      "frame_width",
+      "separator"
+    ],
+    "extra_values": [
+      "index",
+      "title",
+      "#f9d041",
+      "8",
+      "\u00b7"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s6e5": {
+      "template_ids": [],
+      "title": "Andrew's Gonna\\nTouch A Boob Tonight",
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Big Mouth",
+      "delete_missing": true,
+      "file": "Giants.ttf",
+      "replacements_in": [
+        "*"
+      ],
+      "replacements_out": [
+        "-"
+      ],
+      "size": 1.5
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with custom font and an episode adjustment to fit 2 lines."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-01T23:29:08"
+}
