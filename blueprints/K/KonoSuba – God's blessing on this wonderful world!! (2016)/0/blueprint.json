@@ -1,0 +1,172 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "kanji_color",
+      "episode_text_color",
+      "stroke_color",
+      "episode_stroke_color",
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "#e3853b",
+      "#e3853b",
+      "white",
+      "white",
+      "130"
+    ],
+    "template_ids": [],
+    "font_stroke_width": 5.0,
+    "font_interline_spacing": 40,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e3": {
+      "template_ids": [],
+      "title": "God's Blessings on\\nThis Wonderful\\nChoker!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "God's Blessing on\\nThese Wonderful\\nWorks of Art!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "An Explosion\\nfor This\\nDelusional Girl!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "A Panty\\nTreasure in This\\nRight Hand!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Explosion Magic\\nfor This Formidable\\nEnemy!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "A Price for\\nThis Magic\\nSword!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "A Conclusion to\\nThis Worthless\\nFight!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "A Second Death\\nin This Freezing\\nSeason!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "God's Blessing on\\nThis Wonderful\\nShop!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "A Final Flame for\\nThis Over-the-Top\\nFortress!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": "Give Me Deliverance\\nfrom This Judicial\\nInjustice!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "A Friend for\\nThis Crimson\\nDemon Girl!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "Peace for the\\nMaster of This\\nLabyrinth!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "A Betrothed\\nfor This Noble\\nDaughter!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "Servitude for\\nThis Masked\\nKnight!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "Goodbye to\\nThis Irritating\\nLiving World!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "An Invitation\\nfor This\\nKnucklehead!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Sightseeing in\\nThis Pitiful\\nCity!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "A Goddess for\\nThis Corrupt Hot\\nSprings Town!",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "God's Blessing on\\nThis Wonderful\\nParty!",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Konosuba",
+      "color": "#eb056b",
+      "delete_missing": true,
+      "file": "GROBOLD.ttf",
+      "interline_spacing": 30
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime-style card with custom font, colors, and layout to force 3-line episode names."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-01T21:49:39"
+}
