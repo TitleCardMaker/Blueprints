@@ -2,7 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "episode_text_format": "Act {absolute_number}",
+    "episode_text_format": "Act {absolute_episode_number}",
     "translations": [
       {
         "language_code": "ja",
