@@ -10,7 +10,26 @@
     ],
     "template_ids": []
   },
-  "episodes": {},
+  "episodes": {
+    "s2e15": {
+      "template_ids": [],
+      "title": "The Pitter-Patter\\nof Little Feet",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e16": {
+      "template_ids": [],
+      "title": "What to Expect When\\nYou're Expecting Parasites",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e17": {
+      "template_ids": [],
+      "title": "The Unbearable\\n Lightning of Bean",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
   "templates": [],
   "fonts": [
     {
