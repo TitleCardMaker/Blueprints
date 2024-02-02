@@ -1,0 +1,16 @@
+{
+  "series": {
+    "card_type": "anime",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "font_color": "rgb(182,144,83)"
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with no season text, absolute numbering, and the font color changed to gold to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-02T07:03:09"
+}
