@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Burn Notice",
+      "color": "rgb(228,105,62)",
+      "delete_missing": true,
+      "file": "Chalet LondonNineteenSixty Regular.otf",
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card using the Series' Font in orange."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-02T20:27:14"
+}
