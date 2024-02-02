@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "match_titles": false,
+    "font_size": 1.25,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s14e10": {
+      "template_ids": [],
+      "title": "Did I Meet These Potatoes Before?"
+    },
+    "s15e10": {
+      "template_ids": [],
+      "title": "A Yardstick for Failure"
+    },
+    "s16e10": {
+      "template_ids": [],
+      "title": "Always Forks and Marbles"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Taskmaster",
+      "delete_missing": true,
+      "file": "VeteranTypewriter.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card using a free variation of the Series font. Season and episode removed to match the in-show title card, and font size boosted slightly. The Final is removed from some series finales."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-02T20:26:08"
+}
