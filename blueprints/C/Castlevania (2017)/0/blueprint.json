@@ -1,0 +1,57 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Castlevania",
+      "color": "#D62F20",
+      "delete_missing": true,
+      "file": "Trajan Bold.ttf",
+      "replacements_in": [
+        "~",
+        "<",
+        "@",
+        "'",
+        ">",
+        "\\",
+        "=",
+        "\"",
+        "#",
+        "^",
+        "|",
+        "+"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with a custom Font (Trajan Bold) in red to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-02T06:46:50"
+}
