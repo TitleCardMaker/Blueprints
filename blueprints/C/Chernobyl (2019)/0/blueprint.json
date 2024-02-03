@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "frame_width"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "10"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Chernobyl",
+      "delete_missing": true,
+      "file": "Hillstown Sans Clean Demo.otf",
+      "size": 1.25
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame with custom font, removal of stroke, and logo at top of frame."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-03T02:57:58"
+}
