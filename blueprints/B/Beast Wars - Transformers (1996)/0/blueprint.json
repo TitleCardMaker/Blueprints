@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "template_ids": [],
+    "font_size": 1.5,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Transformers",
+      "color": "#e9f6f8",
+      "delete_missing": true,
+      "file": "Transformers Movie.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Logo-style card with a custom font. The actual episode previews are too low res for good thumbnails. Logo is included."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-03T16:58:20"
+}
