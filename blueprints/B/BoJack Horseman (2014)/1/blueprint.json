@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "frame_width"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "2",
+      "6"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "BoJack Horseman",
+      "delete_missing": true,
+      "file": "Ness.ttf",
+      "replacements_in": [
+        "\u00cb",
+        "\u00eb"
+      ],
+      "replacements_out": [
+        "E",
+        "e"
+      ],
+      "size": 1.05
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with custom font and logo instead of episode number."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-03T02:57:09"
+}
