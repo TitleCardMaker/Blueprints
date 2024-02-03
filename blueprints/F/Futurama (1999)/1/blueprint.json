@@ -1,0 +1,126 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#f1f1a1",
+      "#b3f1f8"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e2": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Bender's Big Score",
+      "match_title": false
+    },
+    "s0e3": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "The Beast with\\na Billion Backs",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Bender's Game",
+      "match_title": false
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Into the Wild Green Yonder",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "Put Your Head\\n on My Shoulder",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e14": {
+      "template_ids": [],
+      "title": "How Hermes Requisitioned\\nHis Groove Back",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "The Day the Earth\\nStood Stupid",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e12": {
+      "template_ids": [],
+      "title": "Where No Fan\\nHas Gone Before",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e7": {
+      "template_ids": [],
+      "title": "Teenage Mutant\\nLeela's Hurdles",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e15": {
+      "template_ids": [],
+      "title": "Bender Should\\nNot Be Allowed on TV",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e11": {
+      "template_ids": [],
+      "title": "Lrrreconcilable\\nNdndifferences",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e13": {
+      "template_ids": [],
+      "title": "The Futurama\\nHoliday Spectacular",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s7e24": {
+      "template_ids": [],
+      "title": "Murder on\\nthe Planet Express",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e5": {
+      "template_ids": [],
+      "title": "Related to\\nItems You've Viewed",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s8e6": {
+      "template_ids": [],
+      "title": "I Know What You Did\\nNext Xmas",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Futurama",
+      "color": "rgb(213,66,46)",
+      "delete_missing": true,
+      "file": "fr-bold.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard title card with series Font and matching colors. Took inspiration from CollinHeist to remove \"Futurama\" from movie titles. Some episodes have had manual splits added to fit better."
+  ],
+  "creator": "Reicha7, CollinHeist",
+  "created": "2024-02-03T16:58:50"
+}
