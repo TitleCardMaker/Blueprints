@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s3e2": {
+      "template_ids": [],
+      "title": "St. Peter's Fair",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Cadfael",
+      "delete_missing": true,
+      "file": "OldEnglishFive.ttf",
+      "title_case": "title"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card with a custom Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-03T02:58:40"
+}
