@@ -1,0 +1,93 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "font_stroke_width": 0.05,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "font_color": "#5896c5"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "font_color": "#b9b689"
+    }
+  },
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Simple card with custom colors for each season based on that season's poster."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-04T18:32:26"
+}

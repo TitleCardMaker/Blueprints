@@ -1,0 +1,35 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e7": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e8": {
+      "hide_episode_text": true,
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Star Wars card with episode text removed from the specials."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-04T18:30:28"
+}

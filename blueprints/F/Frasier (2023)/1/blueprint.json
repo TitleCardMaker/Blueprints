@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_season_text": true,
+    "extra_keys": [
+      "line_position"
+    ],
+    "extra_values": [
+      "bottom"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Frasier",
+      "delete_missing": true,
+      "file": "TommyOpti.otf",
+      "stroke_width": 0.2
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Overline style card with custom Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-04T18:37:50"
+}
