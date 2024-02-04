@@ -1,0 +1,50 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "{f':{NEWLINE}'.join(title_text.split(\": \"))}"
+    ],
+    "skip_localized_images": true,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s0e2": {
+      "template_ids": [],
+      "title": "The Grim Adventures\\nof the Kids Next Door",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Kenny and the Chimp:\\nDiseasy Does It!\\nOr Chimp N'Pox",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Kids Next Door",
+      "interline_spacing": 25,
+      "delete_missing": true,
+      "file": "whitrabt.ttf",
+      "title_case": "lower"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Logo style card with a custom Font and custom episode name formatting to force a newline after \"operation:\" in the Episode title. Also included is a modified logo which is much more visually centered."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-04T03:59:49"
+}

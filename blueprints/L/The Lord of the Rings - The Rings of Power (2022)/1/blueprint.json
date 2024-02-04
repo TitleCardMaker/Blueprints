@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "-3 0 -30 0"
+    ],
+    "template_ids": [],
+    "font_color": "#d9e2e4",
+    "font_size": 1.25,
+    "font_vertical_shift": 500,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Lord of the Rings",
+      "color": "#D1C6AA",
+      "delete_missing": true,
+      "file": "ringbearer.ttf",
+      "stroke_width": 0.8,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Landscape style card with custom font and an offset to frame the thumbnail."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-04T04:02:16"
+}
