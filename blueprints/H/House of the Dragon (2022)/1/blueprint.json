@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Game of Thrones",
+      "color": "#d2af83",
+      "delete_missing": true,
+      "file": "Game of Thrones.ttf",
+      "size": 0.85
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Uses azuravian's TitleColorMatch card type with the Game of Thrones font coloured to match the logo."
+  ],
+  "creator": "azuravian, Reicha7",
+  "created": "2024-02-04T04:01:36"
+}
