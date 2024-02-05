@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Last Of Us",
+      "delete_missing": true,
+      "file": "The Last Of Us Rough.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Simple card with custom Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-05T05:17:18"
+}

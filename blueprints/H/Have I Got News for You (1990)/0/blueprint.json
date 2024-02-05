@@ -1,0 +1,76 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "extra_keys": [
+      "title_text_format",
+      "text_position",
+      "title_text_position"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}'.join(title_text.split(\",\" ))}",
+      "lower left",
+      "right"
+    ],
+    "font_color": "white"
+  },
+  "episodes": {
+    "s66e1": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e3": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e4": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e5": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e6": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e7": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e8": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e9": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s66e10": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Inter Medium",
+      "color": "black",
+      "delete_missing": true,
+      "file": "Inter-Medium.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple Divider style card with some custom text formatting to put each guest on their own line.",
+    "NOTE: Guests with longer names will need to have \"Auto-Split Title\" disabled for the Episode, otherwise it may add an extra line."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-05T05:15:43"
+}

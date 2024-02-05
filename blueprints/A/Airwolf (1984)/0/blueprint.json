@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Airwolf",
+      "color": "red",
+      "delete_missing": true,
+      "file": "BORG9.TTF",
+      "replacements_in": [
+        "^",
+        "@"
+      ],
+      "replacements_out": [
+        "",
+        ""
+      ],
+      "size": 1.1,
+      "stroke_width": 3.0,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Dragonsys",
+  "description": [
+    "Standard card with custom Font to match title font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-05T05:16:26"
+}
