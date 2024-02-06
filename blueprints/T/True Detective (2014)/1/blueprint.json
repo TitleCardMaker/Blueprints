@@ -1,0 +1,28 @@
+{
+  "series": {
+    "card_type": "cutout",
+    "season_title_ranges": [
+      "4"
+    ],
+    "season_title_values": [
+      "Night Country"
+    ],
+    "extra_keys": [
+      "overlay_color",
+      "overlay_transparency"
+    ],
+    "extra_values": [
+      "rgb(221,213,202)",
+      "0.05"
+    ],
+    "font_color": "white"
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Cutout card type styled to match the official artwork / posters for season 1. Also includes the \"Night Country\" season 4 title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T01:09:45"
+}
