@@ -1,0 +1,82 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "episode_text_format": "Episode {to_cardinal(episode_number)}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Season One",
+      "Season Two",
+      "Season Three",
+      "Season Four"
+    ],
+    "extra_keys": [
+      "use_background_image"
+    ],
+    "extra_values": [
+      "true"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "backdrop.jpg",
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s2e13": {
+      "template_ids": [],
+      "title": "What 'Sexual Harris'\\nMeant",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e18": {
+      "template_ids": [],
+      "title": "The Last Temptation\\nof Ethyl",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e21": {
+      "template_ids": [],
+      "title": "Charlene and Her\\nAmazing Humans",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e7": {
+      "template_ids": [],
+      "title": "The Greatest Story\\nEver Sold",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e8": {
+      "template_ids": [],
+      "title": "Variations on a\\nTheme Park",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Dinosaurs",
+      "color": "#e7743c",
+      "delete_missing": true,
+      "file": "before-collapse.regular.ttf",
+      "size": 1.25,
+      "stroke_width": 0.25,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Logo style card with custom logo, backdrop, font, and some episode name fixes to drop them to new lines."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-06T00:07:15"
+}

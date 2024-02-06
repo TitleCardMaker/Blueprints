@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "extra_keys": [
+      "bottom_element",
+      "top_element",
+      "logo_size",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "title",
+      "logo",
+      "1.5",
+      "red",
+      "6"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "One Piece",
+      "color": "rgb(98,155,211)",
+      "delete_missing": true,
+      "file": "one piece font.ttf",
+      "size": 1.5,
+      "stroke_width": 0.7
+    }
+  ],
+  "creator": "Reicha7, CollinHeist",
+  "description": [
+    "Tinted Frame card with series Font (thanks CollinHeist) and custom frame color to match Luffy's waistcoat."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T00:03:01"
+}

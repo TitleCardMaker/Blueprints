@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "extra_keys": [
+      "box_color",
+      "box_adjustments",
+      "box_width"
+    ],
+    "extra_values": [
+      "rgb(172,38,28)",
+      "-120 -75 -80 -75",
+      "18"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Resident",
+      "delete_missing": true,
+      "file": "News Gothic Condensed Bold.otf",
+      "kerning": 0.3,
+      "interline_spacing": -80,
+      "interword_spacing": -5,
+      "size": 1.1,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Landscape card with the box and Font styled to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T00:03:35"
+}
