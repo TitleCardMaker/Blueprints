@@ -1,0 +1,112 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "episode_text_color",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "rgb(239,156,56",
+      "30 0 30 0"
+    ]
+  },
+  "episodes": {
+    "s3e4": {
+      "extra_keys": [
+        "box_adjustments"
+      ],
+      "extra_values": [
+        "60 0 30 0"
+      ]
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Snowfall",
+      "color": "rgb(220,219,78)",
+      "delete_missing": true,
+      "file": "Black Range.ttf",
+      "interline_spacing": 40,
+      "replacements_in": [
+        "@",
+        ",",
+        "&",
+        "'",
+        "[",
+        ".",
+        "|",
+        ":",
+        "%",
+        ">",
+        "-",
+        "?",
+        "(",
+        "~",
+        "_",
+        "#",
+        "]",
+        "^",
+        "!",
+        "*",
+        "+",
+        "/",
+        "\\",
+        "\"",
+        "<",
+        "{",
+        ")",
+        "$",
+        "=",
+        ";",
+        "`",
+        "}"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.95,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card with a Font which closely matches the official Series Font. The Font, and episode text, are recolored yellow and orange."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T01:06:58"
+}
