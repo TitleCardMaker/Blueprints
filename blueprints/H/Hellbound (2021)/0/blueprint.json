@@ -1,0 +1,82 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "{\"   \".join(title_text)}"
+    ],
+    "template_ids": [
+      0
+    ],
+    "font_size": 1.5,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Episode1",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Episode2",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Episode3",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Episode4",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Episode5",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Episode6",
+      "match_title": false
+    }
+  },
+  "templates": [
+    {
+      "font_id": 1,
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "name": "TV_Name_Only",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Hellbound",
+      "delete_missing": true,
+      "file": "WindsorOpti-LightCondensed.otf",
+      "stroke_width": 0.25,
+      "title_case": "upper"
+    },
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard title card formatted to add additional spacing between each title character to match the style of the poster."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-06T03:02:31"
+}
