@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "My Name",
+      "delete_missing": true,
+      "file": "roughriders.script-typeface.ttf",
+      "size": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple blueprint with custom Font and no season or episode text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T00:00:39"
+}
