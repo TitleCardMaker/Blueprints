@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Nancy Drew",
+      "delete_missing": true,
+      "file": "Weidemann-Medium.otf",
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "size": 1.05,
+      "title_case": "upper",
+      "vertical_shift": -5
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Frame card using a free variation of the Series Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-06T06:47:45"
+}
