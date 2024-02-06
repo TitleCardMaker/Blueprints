@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "16"
+    ],
+    "season_title_values": [
+      "Evolution"
+    ],
+    "extra_keys": [
+      "frame_width",
+      "frame_color"
+    ],
+    "extra_values": [
+      "5",
+      "rgb(176,51,45)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Criminal Minds",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "interline_spacing": -20,
+      "size": 1.2
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a version of the Series Font (Impact), with the frame recolored red, and \"Evolution\" used as the season 16 title."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-02-06T01:15:03"
+}
