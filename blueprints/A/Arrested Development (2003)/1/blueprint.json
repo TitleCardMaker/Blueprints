@@ -1,0 +1,165 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "s0e8-s0e29"
+    ],
+    "season_title_values": [
+      "Season 4 Remix"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e8": {
+      "template_ids": [],
+      "title": "Re Cap'n Bluth",
+      "match_title": false,
+      "episode_text": "Episode 1"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "title": "Three Half Men",
+      "match_title": false,
+      "episode_text": "Episode 2"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "title": "A Couple-A New Starts",
+      "match_title": false,
+      "episode_text": "Episode 3"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "title": "Just Deserters",
+      "match_title": false,
+      "episode_text": "Episode 4"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "title": "A Trial Run",
+      "match_title": false,
+      "episode_text": "Episode 5"
+    },
+    "s0e13": {
+      "template_ids": [],
+      "title": "The Parent Traps",
+      "match_title": false,
+      "episode_text": "Episode 6"
+    },
+    "s0e14": {
+      "template_ids": [],
+      "title": "One Degree of Separation",
+      "match_title": false,
+      "episode_text": "Episode 7"
+    },
+    "s0e15": {
+      "template_ids": [],
+      "title": "The Weak Become the Strong",
+      "match_title": false,
+      "episode_text": "Episode 8"
+    },
+    "s0e16": {
+      "template_ids": [],
+      "title": "Modern Marvels",
+      "match_title": false,
+      "episode_text": "Episode 9"
+    },
+    "s0e17": {
+      "template_ids": [],
+      "title": "Recurring Dreams",
+      "match_title": false,
+      "episode_text": "Episode 10"
+    },
+    "s0e18": {
+      "template_ids": [],
+      "title": "Fun Night",
+      "match_title": false,
+      "episode_text": "Episode 11"
+    },
+    "s0e19": {
+      "template_ids": [],
+      "title": "Moving Pictures",
+      "match_title": false,
+      "episode_text": "Episode 12"
+    },
+    "s0e20": {
+      "template_ids": [],
+      "title": "Get on Up",
+      "match_title": false,
+      "episode_text": "Episode 13"
+    },
+    "s0e21": {
+      "template_ids": [],
+      "title": "What Goes Around",
+      "match_title": false,
+      "episode_text": "Episode 14"
+    },
+    "s0e22": {
+      "template_ids": [],
+      "title": "Locked and Loaded",
+      "match_title": false,
+      "episode_text": "Episode 15"
+    },
+    "s0e23": {
+      "template_ids": [],
+      "title": "Mixed Messages",
+      "match_title": false,
+      "episode_text": "Episode 16"
+    },
+    "s0e24": {
+      "template_ids": [],
+      "title": "Dire Straights",
+      "match_title": false,
+      "episode_text": "Episode 17"
+    },
+    "s0e25": {
+      "template_ids": [],
+      "title": "Turning on Each Other",
+      "match_title": false,
+      "episode_text": "Episode 18"
+    },
+    "s0e26": {
+      "template_ids": [],
+      "title": "Fast Company",
+      "match_title": false,
+      "episode_text": "Episode 19"
+    },
+    "s0e27": {
+      "template_ids": [],
+      "title": "Cinco de Cuatro I",
+      "match_title": false,
+      "episode_text": "Episode 20"
+    },
+    "s0e28": {
+      "template_ids": [],
+      "title": "Cinco de Cuatro II",
+      "match_title": false,
+      "episode_text": "Episode 21"
+    },
+    "s0e29": {
+      "template_ids": [],
+      "title": "Cinco de Cuatro III",
+      "match_title": false,
+      "episode_text": "Episode 22"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Arrested Development",
+      "color": "#FA5601",
+      "delete_missing": true,
+      "file": "BlurWeb-Medium W03 Regular.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "An update to rtgurley's card. Standard card format using FF Blur font. Specials S00E08-S00E29 have been renamed to show \"Season 4 Remix\" as the season and this is removed from the title. Episodes numbers match the remix order"
+  ],
+  "creator": "rtgurley, inapptom",
+  "created": "2024-02-08T06:09:27"
+}
