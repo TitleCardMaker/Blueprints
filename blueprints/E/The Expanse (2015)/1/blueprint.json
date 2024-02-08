@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "season_title_values": [
+      "Leviathan Wakes",
+      "Caliban's War",
+      "Abaddon's Gate",
+      "Cibola Burn",
+      "Nemesis Games",
+      "Babylon's Ashes"
+    ],
+    "extra_keys": [
+      "shape_color"
+    ],
+    "extra_values": [
+      "rgb(226,112,48)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Expanse",
+      "delete_missing": true,
+      "file": "Protomolecule.ttf",
+      "stroke_width": 0.6,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Shape card with the in-universe Font, the shape recolored orange, and season titles based on the most relevant book adaptation."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-08T06:30:49"
+}
