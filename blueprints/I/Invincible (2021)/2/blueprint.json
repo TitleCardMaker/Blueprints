@@ -1,0 +1,78 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "extra_keys": [
+      "banner_fill_color",
+      "text_box_edge_color",
+      "text_box_fill_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgba(83, 166, 210, 0.9)",
+      "black",
+      "black",
+      "#FFF520"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "extra_keys": [
+        "banner_fill_color",
+        "episode_text_color"
+      ],
+      "extra_values": [
+        "rgba(232, 2, 142, 0.75)",
+        "#f6ced7"
+      ],
+      "template_ids": [],
+      "font_color": "#f6ced7",
+      "title": "ATOM EVE SPECIAL EPISODE",
+      "match_title": false,
+      "season_text": "Presenting"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Invincible",
+      "color": "#FFF520",
+      "delete_missing": true,
+      "file": "Wood Block CG.otf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        ">",
+        "^",
+        "}",
+        "~",
+        "{",
+        "@",
+        "<",
+        "|"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.6
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Comic style card with colouring themed around the show and special adjustments for the Atom Eve special. Credit to CollinHeist for the font."
+  ],
+  "creator": "Reicha7, CollinHeist",
+  "created": "2024-02-08T06:10:26"
+}
