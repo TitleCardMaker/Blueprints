@@ -1,0 +1,51 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "2",
+      "white",
+      "12"
+    ],
+    "template_ids": [],
+    "font_color": "#dcf216",
+    "source_files": []
+  },
+  "episodes": {
+    "s1e5": {
+      "template_ids": [],
+      "title": "Welcome to the\\nMonster Club",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Boys",
+      "color": "#EC1B17",
+      "delete_missing": true,
+      "file": "Charlie don't surf.ttf",
+      "size": 1.5,
+      "stroke_width": 0.2,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with colour matching for the show and some custom title splits for certain episodes."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-08T06:12:38"
+}
