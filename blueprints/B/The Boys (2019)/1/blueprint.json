@@ -1,0 +1,74 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "title",
+      "logo",
+      "2",
+      "white",
+      "12"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e7": {
+      "template_ids": [],
+      "title": "The Self-Preservation\\nSociety",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "Proper Preparation\\nand Planning",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Butcher, Baker,\\nCandlestick Maker",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "Here Comes a Candle to\\nLight You to Bed",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "The Instant White-Hot\\nWild",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Boys",
+      "color": "#EC1B17",
+      "delete_missing": true,
+      "file": "Charlie don't surf.ttf",
+      "size": 1.5,
+      "stroke_width": 0.2,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with colour matching for the show and some custom title splits for certain episodes."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-08T06:11:04"
+}
