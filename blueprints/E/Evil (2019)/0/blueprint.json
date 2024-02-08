@@ -1,0 +1,21 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "rgb(224,209,140)",
+      "5"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the frame recolored light gold to match the Series artwork."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-08T06:24:32"
+}
