@@ -155,7 +155,7 @@ def parse_submission(
 
     # Clean up description
     description = [
-        line.strip()
+        line.strip() + ('' if line.strip().endswith('.') else '.')
         for line in data['description'].splitlines()
         if line.strip()
     ]
