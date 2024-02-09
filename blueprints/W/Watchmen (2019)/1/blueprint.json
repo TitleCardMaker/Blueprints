@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "extra_keys": [
+      "text_box_fill_color",
+      "episode_text_color",
+      "banner_fill_color",
+      "index_text_position",
+      "index_text_rotation_angle",
+      "title_text_rotation_angle",
+      "index_banner_shift"
+    ],
+    "extra_values": [
+      "black",
+      "#fae200",
+      "rgba(5, 18, 68, 0.9)",
+      "right",
+      "4",
+      "-3",
+      "20"
+    ],
+    "template_ids": [],
+    "font_color": "#fae200",
+    "font_size": 1.5,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic style card with custom font and colour matching with the show's poster."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-09T17:02:49"
+}
