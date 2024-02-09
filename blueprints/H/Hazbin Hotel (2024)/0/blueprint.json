@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "glass_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgba(238, 2, 66, 0.7)",
+      "#ffffe5"
+    ],
+    "template_ids": [],
+    "font_size": 1.2,
+    "font_stroke_width": 0.0,
+    "font_vertical_shift": -51,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "card_type": "textless",
+      "template_ids": [],
+      "episode_text": "Pilot"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Vegas Sign",
+      "color": "#ffffe5",
+      "delete_missing": true,
+      "file": "budmo jiggler.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Glass style card that tries to mimic the look of the light-up signs at motels. Some custom episode editing including a textless card for the pilot."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-09T17:06:25"
+}

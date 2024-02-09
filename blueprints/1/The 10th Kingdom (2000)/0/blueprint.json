@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(250,226,208)",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "10th Kingdom",
+      "delete_missing": true,
+      "file": "Mason Regular.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame with logo on top, episode name on bottom. Color and Font are matched to the logo."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-09T17:01:52"
+}
