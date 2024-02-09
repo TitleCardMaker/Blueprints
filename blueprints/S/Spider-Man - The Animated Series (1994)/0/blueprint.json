@@ -1,0 +1,327 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "banner_fill_color",
+      "text_box_edge_color",
+      "title_text_rotation_angle"
+    ],
+    "extra_values": [
+      "rgba(217, 53, 55, 1)",
+      "#000168",
+      "4"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s1e12": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e1": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e3": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e5": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e7": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e9": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e11": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s2e13": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e1": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e3": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e5": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e7": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e9": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e11": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s3e13": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e1": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e3": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e5": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e7": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e9": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s4e11": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e1": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e2": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e4": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e6": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e8": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e10": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    },
+    "s5e13": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Comic style card with some custom colouring and alternating rotating title text."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-09T17:04:36"
+}
