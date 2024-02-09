@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "Hey Arnold",
+      "color": "#f7d400",
+      "delete_missing": true,
+      "file": "ARNORG__.TTF",
+      "interline_spacing": -20,
+      "stroke_width": 1.2
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Standard card title with Hey-Arnold font and color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-09T17:09:23"
+}
