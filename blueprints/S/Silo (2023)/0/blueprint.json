@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "font_size": 1.2,
+    "font_kerning": -50.0
+  },
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard Card with custom font and some kerning to make it match the spacing of the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-10T00:18:09"
+}
