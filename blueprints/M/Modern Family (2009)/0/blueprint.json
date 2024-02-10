@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_font",
+      "frame_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "OPTITimes-Roman.otf",
+      "#ef481b",
+      "1.5"
+    ],
+    "source_files": [
+      "OPTITimes-Roman.otf"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Modern Family",
+      "delete_missing": true,
+      "file": "Helvetica.ttf",
+      "size": 1.5,
+      "stroke_width": 0.5,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with custom fonts and colouring to match the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-10T00:15:09"
+}
