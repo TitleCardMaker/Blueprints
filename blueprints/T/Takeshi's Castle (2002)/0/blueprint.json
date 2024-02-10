@@ -1,0 +1,204 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "white"
+    ],
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e8": {
+      "template_ids": [],
+      "title": "Episode 008\\nRank Holder Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Episode 010\\nFighting Spirit Award\\nWinners Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "Episode 011\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e15": {
+      "template_ids": [],
+      "title": "Episode 015\\nInternational Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e18": {
+      "template_ids": [],
+      "title": "Episode 018\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e27": {
+      "template_ids": [],
+      "title": "Episode 027\\nWomens' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e32": {
+      "template_ids": [],
+      "title": "Episode 032\\nInternational Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e33": {
+      "template_ids": [],
+      "title": "Episode 033\\nCouples' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e34": {
+      "template_ids": [],
+      "title": "Episode 034\\nWomens' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e35": {
+      "template_ids": [],
+      "title": "Episode 035\\nInternational Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e36": {
+      "template_ids": [],
+      "title": "Episode 036\\nRegional Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e37": {
+      "template_ids": [],
+      "title": "Episode 037\\nWomens' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e38": {
+      "template_ids": [],
+      "title": "Episode 038\\nCouples' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e39": {
+      "template_ids": [],
+      "title": "Episode 039\\nRegional Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e40": {
+      "template_ids": [],
+      "title": "Episode 040\\nTeenagers' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": "Episode 041\\nMen Only",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "Episode 046\\nKids Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e18": {
+      "template_ids": [],
+      "title": "Episode 058\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e25": {
+      "template_ids": [],
+      "title": "Episode 065\\nRegional Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e26": {
+      "template_ids": [],
+      "title": "Episode 066\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e28": {
+      "template_ids": [],
+      "title": "Episode 068\\nTeenagers' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "Episode 082\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e19": {
+      "template_ids": [],
+      "title": "Episode 089\\nRegional Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e17": {
+      "template_ids": [],
+      "title": "Episode 117\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e18": {
+      "template_ids": [],
+      "title": "Episode 118\\nTeenagers' Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e20": {
+      "template_ids": [],
+      "title": "Episode 120\\nBeachside Special",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e22": {
+      "template_ids": [],
+      "title": "Episode 122\\nFamily Special",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "color": "#be2d2a",
+      "name": "Takeshi",
+      "delete_missing": true,
+      "file": "orbitron.black.ttf",
+      "replacements_in": [
+        "0"
+      ],
+      "replacements_out": [
+        "O"
+      ],
+      "size": 1.2
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card using an art backdrop instead of low-res episode screenshots. Custom Font to match coloring and manual title splitting. Use included backdrop source and set the watched and unwatched styles to \"Art\"."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-10T00:21:37"
+}

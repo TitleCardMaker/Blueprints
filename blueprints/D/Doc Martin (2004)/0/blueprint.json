@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "hide_season_text": true,
+    "extra_keys": [
+      "season_text_color",
+      "shape_color"
+    ],
+    "extra_values": [
+      "white",
+      "red"
+    ]
+  },
+  "episodes": {
+    "s0e10": {
+      "hide_season_text": false,
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Last Christmas in Portwenn",
+      "match_title": false,
+      "season_text": "2022 Christmas Special"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Doc Martin",
+      "delete_missing": true,
+      "file": "Original Handwriting.ttf",
+      "stroke_width": 0.25,
+      "title_case": "title"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Shape-style card with a Font designed to look like doctor's handwriting and medical coloring. Includes an override of the name of the 2022 Christmas Special."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-10T00:21:03"
+}
