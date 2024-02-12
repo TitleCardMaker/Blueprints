@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "bottom_element",
+      "top_element",
+      "frame_color",
+      "frame_width",
+      "logo_size"
+    ],
+    "extra_values": [
+      "title",
+      "logo",
+      "#e32a26",
+      "20",
+      "2"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Xiaolin",
+      "color": "#fff200",
+      "delete_missing": true,
+      "file": "CHINESETAKEAWAY.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with custom Font and series color matching."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-12T02:42:17"
+}

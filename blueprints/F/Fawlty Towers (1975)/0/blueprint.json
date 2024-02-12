@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "hide_title_banner",
+      "hide_index_banner",
+      "title_text_rotation_angle"
+    ],
+    "extra_values": [
+      "true",
+      "true",
+      "4"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Fawlty Towers",
+      "color": "black",
+      "delete_missing": true,
+      "file": "OPTIBelwe-Medium.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic Style card with the banners removed to create a mimic of the original Fawlty Towers sign."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-12T02:39:45"
+}
