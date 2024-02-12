@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true
+  },
+  "episodes": {
+    "s1e3": {
+      "template_ids": [],
+      "title": "None of That Matters\\nAs Long As We Win",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Let's Have Faith\\nin Our Strength",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Let the Result\\nSpeak for Itself",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Siren",
+      "delete_missing": true,
+      "file": "ArgentineOpti-One.otf",
+      "stroke_width": 0.1
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card with custom font and removal of season text."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-12T23:28:01"
+}
