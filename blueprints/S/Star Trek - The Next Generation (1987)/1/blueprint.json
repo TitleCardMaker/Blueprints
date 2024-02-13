@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Star Trek Next Generation",
+      "delete_missing": true,
+      "file": "TNG_Credits.ttf",
+      "size": 0.9
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Fade style card with custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-13T06:28:30"
+}
