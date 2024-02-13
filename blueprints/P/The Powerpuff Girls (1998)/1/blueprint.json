@@ -1,0 +1,621 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "template_ids": [],
+    "font_stroke_width": 2.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e14": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e15": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e16": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e17": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e18": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s1e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s1e23": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s1e24": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e14": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e15": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e16": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e17": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e18": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8",
+      "title": "The Powerpuff Girls\\nBest Rainy Day\\nAdventure Ever",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e23": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s2e24": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s2e25": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s2e26": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e14": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e15": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e16": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e17": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e18": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s3e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s3e23": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s3e24": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s4e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s4e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s4e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s4e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s4e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s4e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s4e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s4e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s4e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s4e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s4e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s4e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s4e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e14": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e15": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e16": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e17": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s5e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s5e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s5e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e1": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e2": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e3": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e4": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e5": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e6": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e7": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e8": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e9": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e10": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e14": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e15": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e16": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e17": {
+      "template_ids": [],
+      "font_color": "#01e8f3",
+      "title": "I See a Funny Cartoon\\nin Your Future",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e18": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e23": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e24": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e25": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e26": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e27": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s0e4": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#f16ba8",
+      "title": "The Powerpuff Girls\\nMovie",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#01e8f3",
+      "title": "'Twas the Fight\\nBefore Christmas",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#05d60a",
+      "title": "The Powerpuff Girls\\nRule!!!",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e7": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#f16ba8",
+      "episode_text": "Specials"
+    },
+    "s0e11": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#01e8f3",
+      "title": "Who, What, Where,\\nHow, Why... Who cares?",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Powerpuff Girls",
+      "color": "#fff200",
+      "delete_missing": true,
+      "file": "Powerpuff.otf",
+      "interword_spacing": 10,
+      "size": 1.14,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "Logo Style card where all non-specials have had their titles colored in an alternating manner to match the main girls. This is for Sonarr (TVDb) Episode ordering."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-13T06:31:11"
+}
