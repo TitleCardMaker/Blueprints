@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e2": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e3": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e4": {
+      "hide_episode_text": true,
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Star Trek",
+      "delete_missing": true,
+      "file": "TOS_Title.ttf",
+      "size": 1.6
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Fade style card with custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-13T06:27:24"
+}

@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Deep Space Nine",
+      "delete_missing": true,
+      "file": "DS9_Title.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Fade style card with custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-13T06:30:04"
+}

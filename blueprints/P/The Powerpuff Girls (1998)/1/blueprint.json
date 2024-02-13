@@ -346,6 +346,18 @@
       "template_ids": [],
       "font_color": "#f16ba8"
     },
+    "s4e11": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s4e12": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s4e13": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
     "s5e1": {
       "template_ids": [],
       "font_color": "#f16ba8"
@@ -414,10 +426,6 @@
       "template_ids": [],
       "font_color": "#01e8f3"
     },
-    "s5e18": {
-      "template_ids": [],
-      "font_color": "#05d60a"
-    },
     "s5e19": {
       "template_ids": [],
       "font_color": "#f16ba8"
@@ -431,54 +439,6 @@
       "font_color": "#05d60a"
     },
     "s5e22": {
-      "template_ids": [],
-      "font_color": "#f16ba8"
-    },
-    "s5e23": {
-      "template_ids": [],
-      "font_color": "#01e8f3"
-    },
-    "s5e24": {
-      "template_ids": [],
-      "font_color": "#05d60a"
-    },
-    "s5e25": {
-      "template_ids": [],
-      "font_color": "#f16ba8"
-    },
-    "s5e26": {
-      "template_ids": [],
-      "font_color": "#01e8f3"
-    },
-    "s5e27": {
-      "template_ids": [],
-      "font_color": "#05d60a"
-    },
-    "s5e28": {
-      "template_ids": [],
-      "font_color": "#f16ba8"
-    },
-    "s5e29": {
-      "template_ids": [],
-      "font_color": "#01e8f3"
-    },
-    "s5e30": {
-      "template_ids": [],
-      "font_color": "#05d60a"
-    },
-    "s5e31": {
-      "template_ids": [],
-      "font_color": "#f16ba8"
-    },
-    "s5e32": {
-      "template_ids": [],
-      "font_color": "#01e8f3"
-    },
-    "s5e33": {
-      "template_ids": [],
-      "font_color": "#05d60a"
-    },
-    "s5e34": {
       "template_ids": [],
       "font_color": "#f16ba8"
     },
@@ -556,6 +516,84 @@
     "s6e18": {
       "template_ids": [],
       "font_color": "#05d60a"
+    },
+    "s6e19": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e20": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e21": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e22": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e23": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e24": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s6e25": {
+      "template_ids": [],
+      "font_color": "#f16ba8"
+    },
+    "s6e26": {
+      "template_ids": [],
+      "font_color": "#01e8f3"
+    },
+    "s6e27": {
+      "template_ids": [],
+      "font_color": "#05d60a"
+    },
+    "s0e4": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#f16ba8",
+      "title": "The Powerpuff Girls\\nMovie",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#01e8f3",
+      "title": "'Twas the Fight\\nBefore Christmas",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#05d60a",
+      "title": "The Powerpuff Girls\\nRule!!!",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
+    },
+    "s0e7": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#f16ba8",
+      "episode_text": "Specials"
+    },
+    "s0e11": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "font_color": "#01e8f3",
+      "title": "Who, What, Where,\\nHow, Why... Who cares?",
+      "match_title": false,
+      "auto_split_title": false,
+      "episode_text": "Specials"
     }
   },
   "templates": [],
@@ -576,9 +614,8 @@
     "preview2.jpg"
   ],
   "description": [
-    "Logo Style card where all non-specials have had their titles coloured in an alternating manner to match the main girls.",
-    "This is for TMDb Episode ordering."
+    "Logo Style card where all non-specials have had their titles colored in an alternating manner to match the main girls. This is for Sonarr (TVDb) Episode ordering."
   ],
   "creator": "Reicha7",
-  "created": "2024-02-11T18:30:36"
+  "created": "2024-02-13T06:31:11"
 }
