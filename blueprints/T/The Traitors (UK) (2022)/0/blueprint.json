@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "1.5"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Traitors",
+      "delete_missing": true,
+      "file": "dilemma-serif-bold.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted frame with logo/title. Logo size in increased for readability. Custom font similar to the show is used."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-14T18:32:17"
+}
