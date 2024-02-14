@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "black",
+      "20",
+      "logo",
+      "title",
+      "#5bb623"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Godzilla 1998",
+      "color": "black",
+      "delete_missing": true,
+      "file": "PLAIO___.TTF",
+      "size": 0.75
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with series Font colored to match the logo."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-14T02:26:36"
+}
