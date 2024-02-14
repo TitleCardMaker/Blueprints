@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {episode_number}",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Silent Sea",
+      "color": "white",
+      "delete_missing": true,
+      "file": "Rajdhani-Regular.ttf",
+      "stroke_width": 0.15,
+      "interline_spacing": -50
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Star Wars style card with a custom Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-14T02:24:16"
+}

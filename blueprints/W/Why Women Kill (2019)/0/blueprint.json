@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Why Women Kill",
+      "delete_missing": true,
+      "file": "Core Sans N 45 Regular.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card with custom font."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-14T02:19:49"
+}
