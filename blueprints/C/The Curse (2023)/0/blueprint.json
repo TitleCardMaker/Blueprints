@@ -1,0 +1,93 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "hide_season_text": true,
+    "template_ids": [],
+    "font_color": "#c61623",
+    "font_size": 1.5,
+    "font_kerning": -15.0,
+    "font_stroke_width": 0.0,
+    "font_interline_spacing": -55,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Land of\\nEnchantment",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Pressure\u2019s\\nLooking Good So Far",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Questa\\nLane",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Under\\nThe Big Tree",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "It\u2019s A\\nGood Day",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "The Fire\\nBurns On",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Self-\\nExclusion",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Down\\nand Dirty",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Young\\nHearts",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Green\\nQueen",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Olivier style card with custom font that aims to somewhat match the show's logo. Custom line breaks to match the logo's style."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-14T02:22:52"
+}
