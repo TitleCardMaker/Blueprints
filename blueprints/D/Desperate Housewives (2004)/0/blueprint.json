@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "font_size": 1.0,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard style card with custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-15T17:04:16"
+}
