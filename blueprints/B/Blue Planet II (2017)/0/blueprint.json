@@ -1,0 +1,36 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Blue Planet II"
+    ],
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "index",
+      "title",
+      "rgb(181,234,252)",
+      "5"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with using \"Blue Planet II\" the season title, and a light blue frame color. Inspired by CollinHeist's Dynasties blueprint."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-15T17:05:23"
+}
