@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "#11c212",
+      "8",
+      "logo",
+      "title",
+      "2.5"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Inter Medium",
+      "color": "#d8c855",
+      "delete_missing": true,
+      "file": "Inter-Medium.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame Title Card with custom Font and series-matching colors. Based on the UK version of the show: \"Evolution: The Animated Series\"."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-15T17:08:22"
+}
