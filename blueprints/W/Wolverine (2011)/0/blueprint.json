@@ -1,0 +1,149 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "#c1c2c7",
+      "#c1c2c7"
+    ],
+    "font_color": "#ebebed"
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u771f\u7406\u5b50"
+      ],
+      "template_ids": []
+    },
+    "s1e2": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u96ea\u7dd2"
+      ],
+      "template_ids": []
+    },
+    "s1e3": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6854\u6897 "
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6975\u8d64"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6d45\u91ce"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5c11\u5973 "
+      ],
+      "template_ids": []
+    },
+    "s1e7": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u50cf "
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u9ec4 "
+      ],
+      "template_ids": []
+    },
+    "s1e9": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u7344\u9053 "
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u4fe1\u7384 "
+      ],
+      "template_ids": []
+    },
+    "s1e11": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u9ed2\u8429 "
+      ],
+      "template_ids": []
+    },
+    "s1e12": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u72fc\u773c "
+      ],
+      "template_ids": []
+    }
+  },
+  "fonts": [
+    {
+      "name": "X-Men",
+      "color": "#e9e9e9",
+      "delete_missing": true,
+      "file": "sui generis rg.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with custom X-Men Font and kanji overrides to remove the English titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-16T19:02:27"
+}
