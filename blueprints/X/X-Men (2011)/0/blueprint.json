@@ -1,0 +1,118 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color",
+      "kanji_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#3a5a7b",
+      "#c5def4",
+      "#c5def4",
+      "#3a5a7b"
+    ],
+    "font_color": "#c5def4",
+    "font_stroke_width": 5.0
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Return -\\nJoining Forces",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "U-Men -\\nMutant Hunting",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Armor -\\nAwakening",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Transformation -\\nSecondary Mutation",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Power -\\nUnity",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Conflict -\\nContested",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Betrayal -\\nShock",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Lost -\\nOmen",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Revelations -\\nMastermind",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Countdown -\\nTruth",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "Revenge -\\nThe End",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "Destiny -\\nBond",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "X-Men",
+      "color": "#e9e9e9",
+      "delete_missing": true,
+      "file": "sui generis rg.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom X-Men Font and line breaks."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-16T19:00:51"
+}
