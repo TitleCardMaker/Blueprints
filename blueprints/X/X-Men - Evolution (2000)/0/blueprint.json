@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "frame_color",
+      "frame_width",
+      "middle_element",
+      "logo_vertical_shift",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "#f0f7f8",
+      "1.25",
+      "#cdd1d1",
+      "12",
+      "logo",
+      "450",
+      "#b60203"
+    ],
+    "font_color": "#f0f7f8",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "X-Men",
+      "color": "#e9e9e9",
+      "delete_missing": true,
+      "file": "sui generis rg.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with custom Font, and logo and text color matching."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-16T19:04:06"
+}
