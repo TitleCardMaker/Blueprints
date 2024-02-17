@@ -1,0 +1,102 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "#c9de5d",
+      "1.5"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Rick and Morty",
+      "color": "#09b1ca",
+      "size": 1.05,
+      "stroke_width": 2.0,
+      "interline_spacing": 100,
+      "vertical_shift": 50,
+      "delete_missing": true,
+      "file": "get_schwifty.ttf",
+      "replacements_in": [
+        ">",
+        "[",
+        "%",
+        "_",
+        ",",
+        "`",
+        "-",
+        "@",
+        "&",
+        "\"",
+        "$",
+        "!",
+        ")",
+        "'",
+        "\\",
+        "+",
+        "{",
+        "#",
+        "*",
+        "^",
+        "=",
+        "?",
+        ":",
+        "~",
+        "}",
+        "(",
+        "|",
+        "/",
+        "<",
+        ";",
+        "]",
+        "."
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Rick and Morty in the anime style card with custom font that matches the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-17T23:43:40"
+}
