@@ -1,0 +1,112 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Wandering Samurai",
+      "Legend of Kyoto",
+      "Tales of the Meiji"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#e61c23",
+      "white",
+      "20",
+      "#e61c23",
+      "white"
+    ]
+  },
+  "episodes": {
+    "s0e2": {
+      "template_ids": [],
+      "title": "The Man of the Slashing Sword",
+      "match_title": false,
+      "season_text": "Trust & Betrayal",
+      "episode_text": "Act 1"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "title": "The Lost Cat",
+      "match_title": false,
+      "season_text": "Trust & Betrayal",
+      "episode_text": "Act 2"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "The Previous Night at the Mountain Home",
+      "match_title": false,
+      "season_text": "Trust & Betrayal",
+      "episode_text": "Act 3"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "The Cross-Shaped Wound",
+      "match_title": false,
+      "season_text": "Trust & Betrayal",
+      "episode_text": "Act 4"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "After So Many Years Have Lapsed",
+      "match_title": false,
+      "season_text": "Reflection",
+      "episode_text": "Part 1"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "title": "After So Many Years Have Lapsed",
+      "match_title": false,
+      "season_text": "Reflection",
+      "episode_text": "Part 2"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "title": "Cage of Flames",
+      "match_title": false,
+      "season_text": "New Kyoto Arc",
+      "episode_text": "Act 1"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "title": "The Chirps of Light",
+      "match_title": false,
+      "season_text": "New Kyoto Arc",
+      "episode_text": "Act 2"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Rurouni Kenshin",
+      "color": "#e61c23",
+      "size": 1.3,
+      "stroke_width": 3.0,
+      "delete_missing": true,
+      "file": "Ragingredlotusbb-RJ3W.otf"
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Ruriuni Kenshin in the anime style with custom Font/color to match the logo and season title arcs."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-17T23:46:26"
+}

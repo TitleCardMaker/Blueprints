@@ -1,0 +1,31 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "middle_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "omit",
+      "index"
+    ],
+    "template_ids": [],
+    "font_color": "#dec07b",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Simple tinted frame card with one line logo (for visibility) at the top, and index at the bottom, in the color of the logo."
+  ],
+  "creator": "foux",
+  "created": "2024-02-17T23:45:30"
+}
