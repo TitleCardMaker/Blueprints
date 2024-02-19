@@ -1,0 +1,97 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_font_size",
+      "frame_width",
+      "middle_element",
+      "logo_size",
+      "logo_vertical_shift",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "1.25",
+      "12",
+      "logo",
+      "1.25",
+      "450",
+      "#d32327"
+    ],
+    "font_color": "#fef200",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Pryde of the X-Men",
+      "match_title": false,
+      "season_text": "Pilot"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "The Phoenix Saga: Sacrifice",
+      "match_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "The Phoenix Saga: The Dark Shroud",
+      "match_title": false
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "The Phoenix Saga: The Cry of the Banshee",
+      "match_title": false
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "The Phoenix Saga: The Starjammers",
+      "match_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "The Phoenix Saga: Child of Light",
+      "match_title": false
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "The Dark Phoenix: Dazzled",
+      "match_title": false
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "The Dark Phoenix: The Inner Circle",
+      "match_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "The Dark Phoenix: The Dark Phoenix",
+      "match_title": false
+    },
+    "s3e14": {
+      "template_ids": [],
+      "title": "The Dark Phoenix: The Fate of the Phoenix",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "X-Men",
+      "color": "#e9e9e9",
+      "delete_missing": true,
+      "file": "sui generis rg.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with custom X-Men Font and logo color matching. Some Episodes have been tweaked to read better."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-19T04:20:44"
+}
