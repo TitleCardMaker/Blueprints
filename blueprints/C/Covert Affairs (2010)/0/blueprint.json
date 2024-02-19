@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(213,56,50)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Covert Affairs",
+      "color": "white",
+      "delete_missing": true,
+      "file": "Blair ITC Bold.otf",
+      "interline_spacing": -20,
+      "size": 0.9,
+      "vertical_shift": -12
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using the Series Font with the frame recolored red."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-19T05:11:55"
+}
