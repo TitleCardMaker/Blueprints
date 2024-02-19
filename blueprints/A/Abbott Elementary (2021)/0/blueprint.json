@@ -1,0 +1,20 @@
+{
+  "series": {
+    "card_type": "overline",
+    "extra_keys": [
+      "line_color"
+    ],
+    "extra_values": [
+      "rgb(245,249,115)"
+    ],
+    "font_color": "rgb(245,249,115)"
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Super simple Overline card with the line and text colored yellow to match the handwriting style of the Series artwork."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-19T04:41:27"
+}

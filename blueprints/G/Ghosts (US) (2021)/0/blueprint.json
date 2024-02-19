@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame"
+  },
+  "fonts": [
+    {
+      "name": "Ghosts",
+      "delete_missing": true,
+      "file": "prettyboy-semibold.otf",
+      "interline_spacing": -35,
+      "replacements_in": [
+        "`"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "stroke_width": 0.4,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Frame card with a free variation of the Series Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-19T04:31:20"
+}
