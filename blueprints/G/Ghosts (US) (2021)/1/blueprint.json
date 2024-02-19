@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Ghosts",
+      "color": "rgb(245,217,79)",
+      "delete_missing": true,
+      "file": "prettyboy-semibold.otf",
+      "interline_spacing": -60,
+      "replacements_in": [
+        "`"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "stroke_width": 0.4,
+      "title_case": "source",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using the Series Font in yellow."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-19T04:36:19"
+}
