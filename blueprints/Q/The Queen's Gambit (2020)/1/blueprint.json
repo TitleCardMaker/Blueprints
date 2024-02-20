@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "-125 -50 -150 -50"
+    ],
+    "template_ids": [],
+    "font_size": 1.5,
+    "font_stroke_width": 0.25,
+    "font_vertical_shift": 700,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "The Queen's Gambit (2020)",
+      "color": "white",
+      "delete_missing": true,
+      "file": "PlantinMTProSmBd.TTF",
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Landscape style card with custom font (supplied by flowcool)."
+  ],
+  "creator": "Reicha7, flowcool",
+  "created": "2024-02-20T00:00:37"
+}
