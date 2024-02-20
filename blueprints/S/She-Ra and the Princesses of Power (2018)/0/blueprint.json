@@ -1,0 +1,70 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#d015ab",
+      "#e9d422"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "The Sword I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "title": "The Sword II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e8": {
+      "title": "Boys Night Out",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e12": {
+      "title": "Destiny I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e13": {
+      "title": "Destiny II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e12": {
+      "title": "Heart I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e13": {
+      "title": "Heart II",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "She-Ra",
+      "color": "#a3fdfa",
+      "stroke_width": 2.0,
+      "delete_missing": true,
+      "file": "Shera-MqWe.ttf",
+      "title_case": "upper",
+      "vertical_shift": -50
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime style card with custom Font, poster-matching colors, and Episode overrides to account for missing glyphs."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-20T00:09:56"
+}

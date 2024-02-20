@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "separator",
+      "line_color",
+      "line_width"
+    ],
+    "extra_values": [
+      "\u00b7",
+      "#ae0001",
+      "14"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Tudors",
+      "delete_missing": true,
+      "file": "ArgentineOpti-One.otf",
+      "stroke_width": 0.25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Overline style card with custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-20T00:05:39"
+}
