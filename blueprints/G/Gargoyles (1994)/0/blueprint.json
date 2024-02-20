@@ -1,0 +1,143 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "extra_keys": [
+      "logo_vertical_shift",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "-250",
+      "true"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Awakening Part I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Awakening Part II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Awakening Part III",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Awakening Part IV",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Awakening Part V",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "City of Stone Part I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "title": "City of Stone Part II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e11": {
+      "template_ids": [],
+      "title": "City of Stone Part III",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "City of Stone Part IV",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e21": {
+      "template_ids": [],
+      "title": "Avalon Part I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e22": {
+      "template_ids": [],
+      "title": "Avalon Part II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e23": {
+      "template_ids": [],
+      "title": "Avalon Part III",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e44": {
+      "template_ids": [],
+      "title": "The Gathering Part I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e45": {
+      "template_ids": [],
+      "title": "The Gathering Part II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e50": {
+      "template_ids": [],
+      "title": "Hunter's Moon Part I",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e51": {
+      "template_ids": [],
+      "title": "Hunter's Moon Part II",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e52": {
+      "template_ids": [],
+      "title": "Hunter's Moon Part III",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Gargoyles",
+      "color": "#fdaa00",
+      "delete_missing": true,
+      "file": "Gargoyles.ttf",
+      "kerning": 9.0,
+      "size": 1.5,
+      "stroke_width": 4.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Logo style card with show's font, custom backdrop, and episode fixups for multi-episode arcs."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-20T06:45:24"
+}
