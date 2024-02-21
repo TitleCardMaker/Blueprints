@@ -1,0 +1,114 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "{f'\"{title_text}\"'}"
+    ],
+    "template_ids": [],
+    "font_size": 1.25,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Great Jungle Gym\\nStand Off",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "Speedy, We Hardly\\nKnew Ye",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "title": "I Will Kick No More\\nForever",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e26": {
+      "template_ids": [],
+      "title": "Swing on Thru\\nto the Other Side",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e12": {
+      "template_ids": [],
+      "title": "Gretchen and\\nthe Secret of Yo",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e19": {
+      "template_ids": [],
+      "title": "Yes, Mikey,\\nSanta Does Shave",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e4": {
+      "template_ids": [],
+      "title": "The Spy Who Came\\nin from the Playground",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e13": {
+      "template_ids": [],
+      "title": "The Biggest Trouble\\nEver",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e16": {
+      "template_ids": [],
+      "title": "A Science Fair\\nto Remember",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e34": {
+      "template_ids": [],
+      "title": "The Secret Life\\nof Grotke",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e1": {
+      "template_ids": [],
+      "title": "The Coolest\\nHeatwave Ever",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s5e3": {
+      "template_ids": [],
+      "title": "Beyond a\\nReasonable Scout",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s6e1": {
+      "template_ids": [],
+      "title": "Terrifying Tales\\nof Recess",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Recess",
+      "delete_missing": true,
+      "file": "BlackOpsOne-Regular.ttf",
+      "stroke_width": 0.05
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard card with custom font and episode name overrides for title auto-splits."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-21T18:20:36"
+}
