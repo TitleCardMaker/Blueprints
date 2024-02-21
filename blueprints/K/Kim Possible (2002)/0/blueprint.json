@@ -1,0 +1,67 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "2"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e2": {
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e3": {
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e4": {
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Kim Possible",
+      "color": "#8cb823",
+      "delete_missing": true,
+      "file": "vipnagorgialla.ttf",
+      "stroke_width": 3.0,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with custom Font and a special style overrides for the specials."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-02-21T18:21:43"
+}
