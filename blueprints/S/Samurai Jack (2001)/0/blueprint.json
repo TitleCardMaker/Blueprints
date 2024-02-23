@@ -1,0 +1,180 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "text_box_fill_color",
+      "title_text_rotation_angle",
+      "hide_title_banner",
+      "hide_index_banner"
+    ],
+    "extra_values": [
+      "black",
+      "0",
+      "true",
+      "true"
+    ],
+    "template_ids": [],
+    "font_color": "white",
+    "font_size": 2.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "title": "II: The Samurai\\nCalled Jack",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "VI: Jack and the\\nWarrior Woman",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "VII: Jack and the\\nThree Blind Archers",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "X: Jack and the\\nLava Monster",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "XI: Jack and\\nthe Scotsman",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "XII: Jack and\\nthe Gangsters",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": "XIV: Jack Learns\\nto Jump Good",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "XVI: Jack and\\nthe Smackback",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "XVII: Jack and\\nthe Scotsman (II)",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "XVIII: Jack and\\nthe Ultra-Robots",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "XIX: Jack Remembers\\nthe Past",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "XXI: Jack and the\\nFarting Dragon",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "XXII: Jack and\\nthe Hunters",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "XXX: Jack and\\nthe Zombies",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "XXXII: Jack and the\\nTravelling Creatures",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "XXXIII: Jack and\\nthe Creature",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "XXXIV: Jack and the\\nSwamp Monster",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "XXXV: Jack and the\\nHaunted House",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "XXXVI: Jack, the Monks, and\\nthe Ancient Master's Son",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "XXXIX: Jack and\\nthe Labyrinth",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e2": {
+      "template_ids": [],
+      "title": "XLI: Robo-Samurai\\nvs. Mondo Bot",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e6": {
+      "template_ids": [],
+      "title": "XLV: The Scotsman\\nSaves Jack (1)",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s4e7": {
+      "template_ids": [],
+      "title": "XLVI: The Scotsman\\nSaves Jack (2)",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Samurai Jack",
+      "delete_missing": true,
+      "file": "MADEC___.TTF"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic Book style card with banners removed, auto-split adjustments, and a custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-23T01:36:13"
+}
