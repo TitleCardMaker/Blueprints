@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "extra_keys": [
+      "episode_text_font_size",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "2",
+      "#e8dd97"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Thunderbirds",
+      "color": "#9c1f1a",
+      "delete_missing": true,
+      "file": "Anderson Thunderbirds Are GO.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame style card with logo-matching colors and absolute episode numbers."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-23T01:33:15"
+}
