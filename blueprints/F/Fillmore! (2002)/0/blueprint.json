@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "white",
+      "logo",
+      "title",
+      "1.5"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Fillmore",
+      "color": "#ef3025",
+      "delete_missing": true,
+      "file": "Copilme-Bold.ttf",
+      "kerning": 2.5,
+      "size": 1.5,
+      "stroke_width": 4.0,
+      "title_case": "title",
+      "vertical_shift": -25
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted Frame card with custom Font. The preview card uses a style to of \"Grayscale Unique\"."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-23T01:37:10"
+}
