@@ -1,0 +1,129 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "episode_text_format": "Chapter {episode_number}",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Book One: Water"
+    ],
+    "extra_keys": [
+      "episode_text_font_size",
+      "episode_text_font",
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "1.2",
+      "Herculanum-Regular.ttf",
+      "-8"
+    ],
+    "source_files": [
+      "Herculanum-Regular.ttf"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e7": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(67,150,205)"
+      ],
+      "template_ids": []
+    }
+  },
+  "fonts": [
+    {
+      "name": "Avatar: The Last Airbender",
+      "delete_missing": true,
+      "file": "Avatar Airbender.ttf",
+      "replacements_in": [
+        "}",
+        "@",
+        "`",
+        "{"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "'",
+        ""
+      ],
+      "size": 1.2,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a custom Font, season titles, and frame coloring to match my other Blueprint for the animated Series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-23T06:50:33"
+}
