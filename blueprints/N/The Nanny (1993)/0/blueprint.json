@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "frame_width"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "1.5",
+      "5"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted frame with logo at the top. Frame width and logo size is slightly boosted."
+  ],
+  "creator": "inapptom",
+  "created": "2024-02-24T03:53:03"
+}
