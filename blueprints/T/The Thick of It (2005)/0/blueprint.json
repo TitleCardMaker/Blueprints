@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [
+      0
+    ],
+    "font_size": 1.5,
+    "font_stroke_width": 0.0,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "font_id": 1,
+      "card_type": "standard",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "name": "TV_Name_Only",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Thick of It",
+      "delete_missing": true,
+      "file": "times.ttf"
+    },
+    {
+      "name": "TV_Large",
+      "delete_missing": true,
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard title card with season and episode text removed. Times New Roman font included to match the series font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-27T14:25:21"
+}

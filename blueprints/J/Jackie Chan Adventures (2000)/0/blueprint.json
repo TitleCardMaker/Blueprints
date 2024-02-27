@@ -1,0 +1,434 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "extra_keys": [
+      "logo_vertical_shift",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "-300",
+      "true"
+    ],
+    "template_ids": [],
+    "font_size": 1.5,
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e10": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e11": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e12": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e13": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e14": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e15": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e16": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e17": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e18": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e19": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e20": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e21": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e22": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e23": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e24": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e25": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e26": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e27": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e28": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e29": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e30": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e31": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e32": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e33": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e34": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e35": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e36": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e37": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e38": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e39": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e40": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e41": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e42": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e43": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e44": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e45": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e46": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e47": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e48": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e49": {
+      "template_ids": [],
+      "font_color": "#9b3034",
+      "title": "The Good, the Bad,\\nthe Blind, the Deaf,\\nand the Mute",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e50": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e51": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e52": {
+      "template_ids": [],
+      "font_color": "#9e3b9f",
+      "title": "The Amazing T-Girl",
+      "match_title": false
+    },
+    "s1e53": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e54": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e55": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e56": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e57": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e58": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e59": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e60": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e61": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e62": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e63": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e64": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e65": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e66": {
+      "template_ids": [],
+      "font_color": "#b93035",
+      "title": "Tohru Who",
+      "match_title": false
+    },
+    "s1e67": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e68": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e69": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e70": {
+      "template_ids": [],
+      "font_color": "#dddc16",
+      "title": "The Masks of\\nthe Shadowkhan",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e71": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e72": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e73": {
+      "template_ids": [],
+      "font_color": "#9b3034"
+    },
+    "s1e74": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e75": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e76": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e77": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e78": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e79": {
+      "template_ids": [],
+      "font_color": "#696969",
+      "title": "Deja Vu",
+      "match_title": false
+    },
+    "s1e80": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e81": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e82": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e83": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    },
+    "s1e84": {
+      "template_ids": [],
+      "font_color": "#fefefe"
+    },
+    "s1e85": {
+      "template_ids": [],
+      "font_color": "#9b3034",
+      "title": "Black and White and\\nChi All Over",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e86": {
+      "template_ids": [],
+      "font_color": "#4177c2"
+    },
+    "s1e87": {
+      "template_ids": [],
+      "font_color": "#06962f"
+    },
+    "s1e88": {
+      "template_ids": [],
+      "font_color": "#9e3b9f"
+    },
+    "s1e89": {
+      "template_ids": [],
+      "font_color": "#b2ffdf"
+    },
+    "s1e90": {
+      "template_ids": [],
+      "font_color": "#b93035"
+    },
+    "s1e91": {
+      "template_ids": [],
+      "font_color": "#696969"
+    },
+    "s1e92": {
+      "template_ids": [],
+      "font_color": "#9e9eff"
+    },
+    "s1e93": {
+      "template_ids": [],
+      "font_color": "#57380a"
+    },
+    "s1e94": {
+      "template_ids": [],
+      "font_color": "#dddc16"
+    },
+    "s1e95": {
+      "template_ids": [],
+      "font_color": "#fd9b9a"
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Samurai Jack",
+      "delete_missing": true,
+      "file": "MADEC___.TTF"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Logo style card with custom font and alternating title colours to match the Zodiac Talismans of the show. Custom backdrop and logo included. Designed to match Absolute Ordering on Plex."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-02-27T14:29:33"
+}
