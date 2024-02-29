@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/SlimTitleCard"
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Episode 1"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Episode 2"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Shogun",
+      "color": "#FF0000",
+      "delete_missing": true,
+      "file": "The Darkest Night Personal Use.ttf"
+    }
+  ],
+  "creator": "thedinz",
+  "description": [
+    "Using a red Gothic Font that has a similar feel to the Font used for the show. Pairing this with Yozora/SlimTitleCard to get close to the look we want."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-02-29T00:09:09"
+}
