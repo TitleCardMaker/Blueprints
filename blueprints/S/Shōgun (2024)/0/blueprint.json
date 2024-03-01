@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "#c6161b",
+      "#c6161b"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Sh\u014dgunJack",
+      "color": "#d4ad4e",
+      "title_case": "title",
+      "delete_missing": true,
+      "file": "MADEC___.TTF"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with custom Font and coloring to match the Series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-01T06:53:20"
+}
