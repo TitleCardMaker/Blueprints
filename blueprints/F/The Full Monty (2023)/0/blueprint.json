@@ -1,0 +1,73 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "#fbb601",
+      "15",
+      "logo",
+      "title",
+      "2"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "auto_split_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Full Monty",
+      "color": "white",
+      "title_case": "upper",
+      "size": 1.5,
+      "stroke_width": 0.0,
+      "file": "OPTIAlternateOne.otf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with custom Font a frame color to match series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-01T07:02:48"
+}
