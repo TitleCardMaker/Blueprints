@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "Terry Pratchett",
+      "delete_missing": true,
+      "file": "caslon-antique.regular.ttf",
+      "size": 2.09
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple Olivier style card with the Terry Pratchett font, and no episode text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-01T06:58:47"
+}
