@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_fill_color",
+      "text_box_edge_color",
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "#fad688",
+      "#02132d",
+      "#fa654f",
+      "rgba(2, 19, 45, 1)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Scott Pilgrim",
+      "color": "#02d7b4",
+      "delete_missing": true,
+      "file": "pixel font-7.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Comicbook style card with colours designed to match the show's poster and a custom 8-bit font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-01T06:57:39"
+}
