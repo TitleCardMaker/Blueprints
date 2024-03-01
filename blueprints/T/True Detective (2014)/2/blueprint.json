@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "season_title_ranges": [
+      "4"
+    ],
+    "season_title_values": [
+      "Night Country"
+    ],
+    "font_color": "#ffffff",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Yellowstone",
+      "color": "#FFA500",
+      "delete_missing": true,
+      "file": "Lumberjack Rough.otf",
+      "size": 1.2,
+      "title_case": "source"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "A very close font style, using Overline card and black and white which provides a very fitting look to the title cards. The preview Card uses a grayscale style. Includes the \"Night Country\" title for season 4."
+  ],
+  "creator": "thedinz",
+  "created": "2024-03-01T06:55:46"
+}
