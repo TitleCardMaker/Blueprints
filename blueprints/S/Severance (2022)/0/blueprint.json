@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "episodes": {
+    "s1e5": {
+      "title": "The Grim Barbarity\\nof Optics and Design",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Helvetica Bold",
+      "delete_missing": true,
+      "title_case": "title",
+      "size": 1.25,
+      "stroke_width": 0.0,
+      "file": "Helvetica-Bold-Font.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card with bold Helvetica Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T23:56:45"
+}
