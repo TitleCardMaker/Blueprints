@@ -1,0 +1,73 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard"
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Future Man",
+      "color": "#d2e7f8",
+      "size": 0.75,
+      "delete_missing": true,
+      "file": "DEPLETED URANIUM.ttf",
+      "replacements_in": [
+        "<",
+        "}",
+        ":",
+        "~",
+        "]",
+        "\\",
+        "[",
+        ",",
+        "|",
+        "+",
+        "{",
+        "?",
+        ".",
+        "@",
+        "_",
+        ";",
+        "'",
+        "`",
+        "-",
+        "^",
+        "*",
+        ">"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "A Retro style card with show's Font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-02T22:15:01"
+}
