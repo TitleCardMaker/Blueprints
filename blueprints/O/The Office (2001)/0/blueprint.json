@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "font_size": 2.0,
+    "font_stroke_width": 0.0,
+    "font_vertical_shift": -150
+  },
+  "fonts": [
+    {
+      "name": "The Office",
+      "title_case": "lower",
+      "delete_missing": true,
+      "file": "Helvetica-Bold-Font.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard title card with series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T23:55:21"
+}
