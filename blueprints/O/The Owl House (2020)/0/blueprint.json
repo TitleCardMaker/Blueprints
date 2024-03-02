@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "2"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Owl House",
+      "color": "#f1e0a6",
+      "delete_missing": true,
+      "stroke_width": 0.25,
+      "file": "Tyro Sans.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted frame style card with a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T23:51:14"
+}
