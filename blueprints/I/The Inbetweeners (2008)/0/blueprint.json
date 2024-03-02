@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Inbetweeners",
+      "delete_missing": true,
+      "file": "D-DIN-Bold.otf",
+      "interword_spacing": -25,
+      "title_case": "lower"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Standard style card with custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-02T17:00:04"
+}

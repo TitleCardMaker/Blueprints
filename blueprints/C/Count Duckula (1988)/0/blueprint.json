@@ -1,0 +1,58 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "extra_keys": [
+      "omit_gradient",
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "true",
+      "white",
+      "2.0",
+      "75"
+    ],
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e42": {
+      "template_ids": [],
+      "title": "The Mysteries of the\\nWax Museum",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s1e43": {
+      "template_ids": [],
+      "title": "The Return of the Curse\\nof the Secret of the Mummy's\\nTomb Meets Frankenduckula's\\nMonster and the Wolf-Man\\nand the Intergalactic Cabbage...",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Danger Mouse",
+      "color": "#e52731",
+      "size": 0.85,
+      "stroke_width": 5.0,
+      "vertical_shift": 450,
+      "delete_missing": true,
+      "file": "DANGER MOUSE.otf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card designed to be used with an Art Episode style. Uses the official Danger Mouse Font for the episode titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T17:06:12"
+}

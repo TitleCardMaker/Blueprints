@@ -1,0 +1,90 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "title": "The Legend of\\nthe Gobblewonker",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Gravity Falls",
+      "color": "rgb(147, 163, 100)",
+      "delete_missing": true,
+      "file": "gravity_falls.ttf",
+      "interline_spacing": 35,
+      "replacements_in": [
+        "(1)",
+        "(2)",
+        "]",
+        "(",
+        "\"",
+        "?",
+        "&",
+        "/",
+        ")",
+        ">",
+        "{",
+        "<",
+        "+",
+        "[",
+        "-",
+        "#",
+        "$",
+        "}",
+        "~",
+        "*",
+        "@",
+        "|",
+        "=",
+        "%",
+        "_",
+        "\\"
+      ],
+      "replacements_out": [
+        "Part I",
+        "Part II",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.9,
+      "title_case": "upper",
+      "vertical_shift": 10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using the Series Font, with some titles slightly modified title text because this Font does not have numbers."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T17:36:28"
+}
