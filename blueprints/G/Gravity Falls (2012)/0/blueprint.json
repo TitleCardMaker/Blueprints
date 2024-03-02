@@ -1,0 +1,83 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_width",
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "logo_vertical_shift",
+      "blur_edges",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "15",
+      "logo",
+      "title",
+      "3",
+      "25",
+      "false",
+      "#f85d1d"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s1e19": {
+      "template_ids": [],
+      "title": "Dreamscaperers",
+      "match_title": false
+    },
+    "s1e20": {
+      "template_ids": [],
+      "title": "Gideon Rises",
+      "match_title": false
+    },
+    "s2e13": {
+      "template_ids": [],
+      "title": "Dungeons, Dungeons,\\nand More Dungeons",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e18": {
+      "template_ids": [],
+      "title": "Weirdmageddon, Part I:",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e19": {
+      "template_ids": [],
+      "title": "Weirdmageddon, Part II:\\nEscape from Reality",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s2e20": {
+      "template_ids": [],
+      "title": "Weirdmageddon, Part III:\\n Take Back the Falls",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Gravity Falls",
+      "color": "rgb(201,209,166)",
+      "delete_missing": true,
+      "file": "gravitation_falls.ttf",
+      "interline_spacing": 30,
+      "size": 1.5,
+      "title_case": "title",
+      "vertical_shift": -25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with colour matching and the series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T17:07:26"
+}
