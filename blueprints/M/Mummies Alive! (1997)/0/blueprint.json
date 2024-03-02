@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color",
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "rgb(147,46,38)",
+      "rgb(31,160,194)",
+      "150"
+    ],
+    "font_vertical_shift": -150,
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Egypt",
+      "color": "#f0de2f",
+      "delete_missing": true,
+      "stroke_width": 2.0,
+      "file": "vtcgoblinhand.bold.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card using art watched and unwatched styling to mimic the logo card type, as the backdrop already contains the logo. Custom Font and colors to match the pharaoh in the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-02T17:02:07"
+}
