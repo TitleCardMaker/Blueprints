@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_vertical_shift",
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "rgb(4, 163, 148)",
+      "-10",
+      "white",
+      "20",
+      "title",
+      "index"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Thicker Trial",
+      "color": "rgb(252, 204, 4)",
+      "size": 1.5,
+      "delete_missing": true,
+      "file": "Thicker-Black-trial.ttf",
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with a custom (trial) Font and series-matching colors."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-03T00:11:45"
+}
