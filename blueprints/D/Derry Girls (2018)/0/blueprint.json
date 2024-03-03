@@ -1,0 +1,67 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "extra_keys": [
+      "season_text_color",
+      "shape",
+      "shape_color",
+      "shape_size",
+      "shape_width"
+    ],
+    "extra_values": [
+      "#169b62",
+      "circle",
+      "#ff883e",
+      "0.75",
+      "15"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e2": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e3": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e4": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e5": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e6": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s2e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Derry Girls",
+      "delete_missing": true,
+      "stroke_width": 0.5,
+      "size": 1.25,
+      "file": "Rockwell MT Condensed.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Shape style card with the show's Font and the colors of the Irish flag. Episode text hidden for season 1 as the episodes didn't have names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-03T22:44:34"
+}
