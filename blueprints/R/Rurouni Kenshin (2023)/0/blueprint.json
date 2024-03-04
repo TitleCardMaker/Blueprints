@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#be1022",
+      "white",
+      "#be1022",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Rurouni Kenshin 2023",
+      "color": "#be1022",
+      "size": 1.3,
+      "stroke_width": 4.0,
+      "delete_missing": true,
+      "file": "Ragingredlotusbb-RJ3W.otf"
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Ruriuni Kenshin 2023 in the anime style with custom Font/color to match the original 1996 logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-03T23:36:09"
+}

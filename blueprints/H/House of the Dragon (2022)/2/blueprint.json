@@ -1,0 +1,100 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "line_position"
+    ],
+    "extra_values": [
+      "bottom"
+    ],
+    "template_ids": [],
+    "font_color": "#d2af83",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Game of Thrones",
+      "delete_missing": true,
+      "file": "Game of Thrones.ttf",
+      "replacements_in": [
+        "]",
+        "/",
+        "+",
+        "}",
+        "%",
+        "?",
+        ";",
+        ".",
+        "*",
+        "!",
+        "'",
+        "`",
+        ">",
+        "$",
+        ")",
+        "\"",
+        "<",
+        "(",
+        ":",
+        "&",
+        "[",
+        "\\",
+        "_",
+        "-",
+        "@",
+        ",",
+        "~",
+        "=",
+        "{",
+        "^",
+        "|"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 0.85,
+      "stroke_width": 0.5
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Overline style card with series font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-03T23:29:28"
+}

@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "true"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Nichijou",
+      "delete_missing": true,
+      "file": "HelveticaNeueMedium.ttf",
+      "color": "black",
+      "size": 2.0,
+      "vertical_shift": -150,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card using series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-03T22:45:22"
+}

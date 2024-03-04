@@ -1,0 +1,33 @@
+{
+  "series": {
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "skyblue",
+      "skyblue"
+    ],
+    "template_ids": [],
+    "font_stroke_width": 2.0,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime style card with default font using a skyblue stroke to mimic the skyblueish glow around the lettering of the logo."
+  ],
+  "creator": "anonfawkes",
+  "created": "2024-03-03T23:35:01"
+}
