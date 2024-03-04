@@ -1,0 +1,50 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": false,
+    "hide_episode_text": true,
+    "template_ids": [],
+    "font_color": "red",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Ninja Kamui - Anime",
+      "delete_missing": true,
+      "file": "BlackAsylum-xypj.ttf",
+      "replacements_in": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "replacements_out": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Anime style card with a custom Font that closely matches the logo text font in red."
+  ],
+  "creator": "anonfawkes",
+  "created": "2024-03-04T07:48:25"
+}
