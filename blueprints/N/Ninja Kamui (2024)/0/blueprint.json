@@ -1,0 +1,52 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "inset",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [],
+    "extra_values": [],
+    "template_ids": [],
+    "font_color": "red",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Ninja Kamui - Inset",
+      "delete_missing": true,
+      "file": "BlackAsylum-xypj.ttf",
+      "replacements_in": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "replacements_out": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ]
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Inset card style with a custom font that closely matches the log text font in a red color. The Season text has been hidden to get a clean look on the episode title since the titles are \"Episode #\"."
+  ],
+  "creator": "anonfawkes",
+  "created": "2024-03-04T07:47:06"
+}
