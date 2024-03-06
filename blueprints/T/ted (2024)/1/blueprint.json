@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "font_stroke_width": 0.0,
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "ted",
+      "color": "rgb(75,144,71)",
+      "delete_missing": true,
+      "file": "Gotham Bold.otf",
+      "size": 1.2,
+      "title_case": "lower",
+      "vertical_shift": -15
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Modification on Collinheist's blueprint to remove stroke and season text."
+  ],
+  "creator": "Reicha7, CollinHeist",
+  "created": "2024-03-06T04:21:45"
+}
