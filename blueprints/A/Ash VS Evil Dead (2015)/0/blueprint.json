@@ -1,0 +1,22 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider"
+  },
+  "fonts": [
+    {
+      "name": "Evil Dead",
+      "color": "#EE0000",
+      "delete_missing": true,
+      "file": "Evil Dead.ttf"
+    }
+  ],
+  "creator": "thedinz",
+  "description": [
+    "This template used the Divider style with a copy-cat font. I prefer to pair this with a blurred watched Episode style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-06T04:34:34"
+}
