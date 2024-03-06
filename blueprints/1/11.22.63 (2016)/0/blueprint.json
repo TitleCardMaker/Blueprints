@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "name": "Blurred Greyscale Unique",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "11.22.63",
+      "delete_missing": true,
+      "file": "STAMPWRITER-KIT.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "This uses the default style, i think it looks better when you make the cards black and white and it is paired with an official font."
+  ],
+  "creator": "thedinz",
+  "created": "2024-03-06T04:26:13"
+}
