@@ -1,0 +1,20 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(232, 194, 107)"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the frame recolored gold to match the Series logo, and the season text hidden."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-12T01:30:23"
+}
