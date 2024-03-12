@@ -1,0 +1,22 @@
+{
+  "series": {
+    "card_type": "olivier",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(232, 194, 107)"
+    ],
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Olivier card with the episode text recolored gold. Includes a backdrop, and is intended to be used with an unwatched art style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-12T01:33:30"
+}
