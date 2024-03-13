@@ -1,0 +1,50 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "logo_size"
+    ],
+    "extra_values": [
+      "1"
+    ],
+    "template_ids": [
+      0
+    ],
+    "font_color": "rgb(242, 181, 112)",
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "top_element",
+        "logo_size",
+        "bottom_element"
+      ],
+      "extra_values": [
+        "logo",
+        "2.5",
+        "title"
+      ],
+      "name": "Tinted Frame Logo",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Andromeda",
+      "delete_missing": true,
+      "file": "AndromedaLogo.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Tinted frame with series logo and episode title font, matching logo colour."
+  ],
+  "creator": "bugmancx",
+  "created": "2024-03-13T18:36:59"
+}
