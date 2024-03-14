@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "fade",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "All Of Us Are Dead",
+      "delete_missing": true,
+      "file": "Hyunso-Bold.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Using the fade card type and a decent font that is not the official. I personally like to pair this with \"Burred Unique\" for watched episodes."
+  ],
+  "creator": "thedinz",
+  "created": "2024-03-14T16:04:37"
+}

@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Bates Motel",
+      "color": "#00BFFF",
+      "delete_missing": true,
+      "file": "Beon-Regular.otf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Star wars card type with a Font intended to look like the neon lights of the logo. I prefer personally to pair this with \"blurred artwork\" style."
+  ],
+  "creator": "thedinz",
+  "created": "2024-03-14T16:07:55"
+}
