@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "extra_keys": [
+      "episode_text_color",
+      "index_text_position",
+      "text_box_fill_color",
+      "text_box_edge_color",
+      "index_text_rotation_angle",
+      "hide_title_banner",
+      "hide_index_banner"
+    ],
+    "extra_values": [
+      "#f7f91a",
+      "right",
+      "black",
+      "black",
+      "0.0000001",
+      "true",
+      "true"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Extraordinary",
+      "color": "#f7f91a",
+      "delete_missing": true,
+      "file": "distortion-of-the-brain-and-mind.regular.ttf",
+      "size": 2.0,
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Comic style card designed to mimic the poster with a similar custom font."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-15T01:27:26"
+}
