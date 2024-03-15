@@ -1,5 +1,6 @@
 from datetime import datetime
 from json import dumps
+from typing import Any
 
 from sqlalchemy import (
     Column, DateTime, Integer, String, ForeignKey, create_engine, func, or_
@@ -64,7 +65,7 @@ def create_new_blueprint(
         fallback_path_name: str,
         database_ids: dict,
         creator: str,
-        blueprint_json: str,
+        blueprint_json: dict[str, Any],
     ) -> tuple[Series, Blueprint]:
     """
     Create a Blueprint (and optionally a Series) for the given data.
@@ -105,9 +106,8 @@ def create_new_blueprint(
         blueprint_number = 0
     else:
         blueprint_number +=1 
-    
-    # Series exists
-    if (created := blueprint_json.get('created')):
+
+    if (created := blueprint_json.pop('created', None)):
         created = datetime.strptime(created, '%Y-%m-%dT%H:%M:%S')
 
     # Create Blueprint, add to Database
