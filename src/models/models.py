@@ -99,7 +99,6 @@ class Blueprint(BaseModel):
     creator: constr(min_length=1, max_length=40)
     previews: conlist(constr(min_length=3), min_items=1, max_items=5)
     description: conlist(constr(min_length=1, max_length=250), min_items=1, max_items=5)
-    created: datetime
 
     @root_validator(skip_on_failure=True)
     def validate_template_specifications(cls, values):
