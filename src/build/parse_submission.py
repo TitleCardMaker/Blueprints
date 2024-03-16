@@ -343,7 +343,7 @@ def _parse_set_submission(
 
     # Parse issue from environment variable
     try:
-        content = environment.get('ISSUE_BODY')
+        content = loads(environment.get('ISSUE_BODY'))
         print(f'Parsed issue JSON as:\n{content}')
     except JSONDecodeError as exc:
         print(f'Unable to parse Context as JSON')
