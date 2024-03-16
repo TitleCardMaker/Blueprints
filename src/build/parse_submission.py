@@ -354,7 +354,7 @@ def _parse_set_submission(
     issue_regex = re_compile(
         r'^'
         r'### Set Name\s+(?P<set_name>.+)\s+'
-        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s+$'
+        r'### Blueprints\s+(?P<blueprints>[\s\S]*)$'
     )
 
     # If data cannot be extracted, exit
@@ -376,7 +376,7 @@ def _parse_set_submission(
         'name': data['set_name'].strip(),
         'blueprint_paths': list(map(
             _parse_path,
-            data['blueprints'].splitlines()
+            data['blueprints'].strip().splitlines()
         ))
     }
 
