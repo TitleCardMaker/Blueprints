@@ -9,7 +9,7 @@ on:
 jobs:
   test_issue_blueprint:
     # Run on issue creation and if /test-blueprint is commented
-    if: ${{ github.event_name == 'issues' || (startsWith(github.event.issue.title, '[Blueprint]') && contains(github.event.comment.body, '/test-blueprint')) }}
+    if: ${{ startsWith(github.event.issue.title, '[Blueprint]') || ( github.event_name == 'issues' || contains(github.event.comment.body, '/test-blueprint')) }}
     runs-on: ubuntu-latest
 
     steps:

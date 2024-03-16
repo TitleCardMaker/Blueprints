@@ -9,7 +9,7 @@ on:
 jobs:
   test_issue_set:
     # Run on issue creation and if /test-set is commented
-    if: ${{ github.event_name == 'issues' || (startsWith(github.event.issue.title, '[Set]') && contains(github.event.comment.body, '/test-set')) }}
+    if: ${{ startsWith(github.event.issue.title, '[Set]') || ( github.event_name == 'issues' || contains(github.event.comment.body, '/test-set')) }}
     runs-on: ubuntu-latest
 
     steps:
