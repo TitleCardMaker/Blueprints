@@ -391,5 +391,6 @@ def parse_blueprint_set():
     print(f'{"-"*25}\n{submission=}\n{"-"*25}')
 
     bp_set = create_new_set(**submission)
-    print(f'Created Set[{bp_set.id}] {bp_set.name} with {len(bp_set.blueprints)} Blueprints')
+    bp_ids = [blueprint.id for blueprint in bp_set.blueprints]
+    print(f'Created Set "{bp_set.name}" with {len(bp_set.blueprints)} Blueprints{bp_ids}')
 
