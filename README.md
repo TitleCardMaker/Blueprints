@@ -5,6 +5,8 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ---
 
+## Blueprints
+
 There are currently `496` Blueprints available for `403` Series, submitted by `23` Creators.
 
 Series with the most Blueprints:
@@ -42,3 +44,14 @@ Creators with the most Blueprint Submissions:
 | legacy3 | 1 |
 | Cloudburst | 1 |
 | bugmancx | 1 |
+
+
+## Sets
+
+There are currently `2` Blueprint Sets available:
+
+| Set ID | Name  | Linked Blueprints |
+| :----: | :---: | :--- |
+| `1` | Scooby-Doo | LEGO Scooby-Doo Shorts [0]<br>Scooby's All-Star Laff-A-Lympics [0]<br>The 13 Ghosts of Scooby-Doo [0]<br>A Pup Named Scooby-Doo [0]<br>+10 more |
+| `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+4 more |
+
