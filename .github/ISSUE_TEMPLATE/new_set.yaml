@@ -1,6 +1,7 @@
 name: New Set
 description: Create a Blueprint Set
 title: '[Set] '
+labels: ['set']
 assignees: 'CollinHeist'
 
 body:
