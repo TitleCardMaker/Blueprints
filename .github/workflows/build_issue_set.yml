@@ -1,13 +1,13 @@
-name: Create Blueprint from Issue
+name: Create Set from Issue
 
 on:
   issue_comment:
     types: [ created ]
 
 jobs:
-  create_blueprint_from_issue:
-    # Only run on Blueprint issues when I comment /create-blueprint
-    if: ${{ (!github.event.issue.pull_request) && (startsWith(github.event.issue.title, '[Blueprint]')) && (contains(github.event.comment.body, '/create-blueprint')) && (github.event.comment.user.login == 'CollinHeist') && !contains(github.event.issue.labels.*.name, 'created') }}
+  create_set_from_issue:
+    # Only run on Set issues when I comment /create-set
+    if: ${{ (!github.event.issue.pull_request) && (startsWith(github.event.issue.title, '[Set]')) && (contains(github.event.comment.body, '/create-set')) && (github.event.comment.user.login == 'CollinHeist') && !contains(github.event.issue.labels.*.name, 'created') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -30,24 +30,23 @@ jobs:
         run: |
           python -m pip install -r requirements.txt
 
-      - name: Parse Issue into Blueprint
+      - name: Parse Issue into Set
         env:
           ISSUE_BODY: ${{ toJson(github.event.issue.body) }}
-          ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
         run: |
-          python entrypoint.py --parse-submission
+          python entrypoint.py --parse-set-submission
 
       - name: Run pytest
         run: |
           pytest ./src/tests/
 
       # Commit changes
-      - name: Commit New Blueprint
+      - name: Commit New Set
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "TitleCardMakerBot"
           git add *
-          git diff-index --quiet HEAD || git commit -a -m "Create ${{ github.event.issue.user.login }}'s Blueprint #${{ github.event.issue.number }}"
+          git diff-index --quiet HEAD || git commit -a -m "Create ${{ github.event.issue.user.login }}'s Set #${{ github.event.issue.number }}"
           git pull
 
       - name: Push changes
@@ -56,7 +55,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: refs/heads/staging
 
-      # Add label that Blueprint has been built
+      # Add label that Set has been built
       - name: Add Label
         if: ${{ success() }}
         uses: actions/github-script@v7

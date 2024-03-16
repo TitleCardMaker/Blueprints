@@ -342,25 +342,25 @@ def _parse_set_submission(
     """
 
     # Parse issue from environment variable
-    # try:
-    #     content = 
-    #     print(f'Parsed issue JSON as:\n{content}')
-    # except JSONDecodeError as exc:
-    #     print(f'Unable to parse Context as JSON')
-    #     print(exc)
-    #     sys_exit(1)
+    try:
+        content = loads(environment.get('ISSUE_BODY'))
+        print(f'Parsed issue JSON as:\n{content}')
+    except JSONDecodeError as exc:
+        print(f'Unable to parse issue as JSON')
+        print(exc)
+        sys_exit(1)
 
     # Extract the data from the issue text
     issue_regex = re_compile(
         r'^'
         r'### Set Name\s+(?P<set_name>.+)\s+'
-        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s*$'
+        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s+$'
     )
 
     # If data cannot be extracted, exit
-    if not (data := issue_regex.match(environment.get('ISSUE_BODY'))):
-        print(f'Unable to parse Set from Issue')
-        print(f'{environment.get("ISSUE_BODY")=!r}')
+    if not (data := issue_regex.match(content)):
+        print(f'Unable to parse Set from JSON')
+        print(f'{content=!r}')
         sys_exit(1)
 
     data = data.groupdict()
@@ -391,5 +391,6 @@ def parse_blueprint_set():
     print(f'{"-"*25}\n{submission=}\n{"-"*25}')
 
     bp_set = create_new_set(**submission)
-    print(f'Created Set[{bp_set.id}] {bp_set.name} with {len(bp_set.blueprints)} Blueprints')
+    bp_ids = [blueprint.id for blueprint in bp_set.blueprints]
+    print(f'Created Set "{bp_set.name}" with {len(bp_set.blueprints)} Blueprints{bp_ids}')
 
