@@ -20,7 +20,7 @@ body:
       description: >
         List of paths corresponding to Blueprints to add to this Set. Each path
         must be on a newline.
-      placeholder: >
+      placeholder: >+
         blueprints/M/Marvel's Agent Carter (2015)/0
         blueprints/M/Marvel's Agents of S.H.I.E.L.D. (2013)/0
         blueprints/M/Marvel's Hit-Monkey (2021)/0
