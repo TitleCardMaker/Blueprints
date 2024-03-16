@@ -12,6 +12,7 @@ ap.add_argument('--build-readme', action='store_true')
 ap.add_argument('--lint-blueprints', action='store_true')
 ap.add_argument('--notify-discord', action='store_true')
 ap.add_argument('--parse-submission', action='store_true')
+ap.add_argument('--parse-set-submission', action='store_true')
 ap.add_argument('--resize-images', action='store_true')
 ap.add_argument('--update-database', action='store_true')
 
@@ -20,6 +21,10 @@ args = ap.parse_args()
 if args.parse_submission:
     from src.build.parse_submission import parse_and_create_blueprint
     parse_and_create_blueprint()
+
+if args.parse_set_submission:
+    from src.build.parse_submission import parse_blueprint_set
+    parse_blueprint_set()
 
 if args.lint_blueprints:
     from src.build.lint_blueprints import lint_blueprints

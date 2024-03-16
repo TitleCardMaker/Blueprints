@@ -13,8 +13,10 @@ discord-webhook = "==1.3.0"
 sqlalchemy = "==2.0.23"
 urllib3 = ">=2.0.7"
 requests = "==2.31.0"
+alembic = "==1.13.1"
 
 [dev-packages]
+alembic = "==1.13.1"
 
 [requires]
 python_version = "3.11"

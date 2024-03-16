@@ -14,11 +14,11 @@ from re import compile as re_compile
 from shutil import copy as file_copy, unpack_archive, ReadError
 from sys import exit as sys_exit
 from tempfile import NamedTemporaryFile, TemporaryDirectory
-from typing import Optional
+from typing import Any, Mapping, Optional, TypedDict
 
 from requests import get
 
-from src.database.db import create_new_blueprint
+from src.database.db import create_new_blueprint, create_new_set
 from src.build.helper import get_blueprint_folders
 
 
@@ -28,6 +28,11 @@ TEMP_PREVIEW_FILE = ROOT / 'preview.jpg'
 TEMP_FILE = ROOT / 'tmp'
 TEMP_DIRECTORY = ROOT / 'unzipped'
 URL_REGEX = re_compile(r'\!?\[.*?\]\(([^\s]+)\)')
+
+
+class SetSubmission(TypedDict):
+    name: str
+    blueprint_paths: list[str]
 
 
 def parse_database_ids(ids: str) -> dict:
@@ -81,10 +86,10 @@ def parse_urls(raw: Optional[str]) -> list[str]:
     return [] if raw is None else URL_REGEX.findall(raw)
 
 
-def parse_submission(
+def parse_bp_submission(
         data: Optional[dict] = None,
         *,
-        environment: dict = environ,
+        environment: Mapping[str, Any] = environ,
     ) -> dict:
     """
     Parse the submission from the `ISSUE_BODY` and `ISSUE_CREATOR`
@@ -93,6 +98,7 @@ def parse_submission(
     Args:
         data: Data set to use instead of the environment variable. For
             manual importing.
+        environment: Environment map to query data from.
 
     Returns:
         Data (as a dictionary) of the given submission.
@@ -262,7 +268,7 @@ def parse_and_create_blueprint():
     """
 
     # Parse submission, get associated Series and Blueprint SQL objects
-    submission = parse_submission()
+    submission = parse_bp_submission()
     print(f'{"-"*25}\n{submission=}\n{"-"*25}')
     fallback_path_name = get_blueprint_folders(
         f'{submission["series_name"]} ({submission["series_year"]})'
@@ -320,6 +326,70 @@ def parse_and_create_blueprint():
     print(f'{"-" * 25}\n{submission["blueprint"]}\n{"-" * 25}')
 
 
-# File is entrypoint
-if __name__ == '__main__':
-    parse_and_create_blueprint()
+def _parse_set_submission(
+        *,
+        environment: Mapping[str, Any] = environ
+    ) -> SetSubmission:
+    """
+    Parse a Blueprint Set submission from the given environment, and
+    return the "sanitized" submission data.
+
+    Args:
+        environment: Environment map to query data from.
+
+    Returns:
+        Dictionary of the submission data.
+    """
+
+    # Parse issue from environment variable
+    # try:
+    #     content = 
+    #     print(f'Parsed issue JSON as:\n{content}')
+    # except JSONDecodeError as exc:
+    #     print(f'Unable to parse Context as JSON')
+    #     print(exc)
+    #     sys_exit(1)
+
+    # Extract the data from the issue text
+    issue_regex = re_compile(
+        r'^'
+        r'### Set Name\s+(?P<set_name>.+)\s+'
+        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s*$'
+    )
+
+    # If data cannot be extracted, exit
+    if not (data := issue_regex.match(environment.get('ISSUE_BODY'))):
+        print(f'Unable to parse Set from Issue')
+        print(f'{environment.get("ISSUE_BODY")=!r}')
+        sys_exit(1)
+
+    data = data.groupdict()
+    print(f'Raw Data: {data=}')
+
+    def _parse_path(path: str, /) -> str:
+        """Turn GitHub URLs into paths"""
+        return path.strip().removeprefix(
+            'https://github.com/TitleCardMaker/Blueprints/tree/master/'
+        )
+
+    return {
+        'name': data['set_name'].strip(),
+        'blueprint_paths': list(map(
+            _parse_path,
+            data['blueprints'].splitlines()
+        ))
+    }
+
+
+def parse_blueprint_set():
+    """
+    Parse the Set submission from the environment variables and add the
+    the resulting Set to the database.
+    """
+
+    submission = _parse_set_submission()
+    print(f'{"-"*25}\n{submission=}\n{"-"*25}')
+
+    bp_set = create_new_set(**submission)
+    print(f'Created Set[{bp_set.id}] {bp_set.name} with {len(bp_set.blueprints)} Blueprints')
+

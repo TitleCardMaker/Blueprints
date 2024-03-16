@@ -1,4 +1,4 @@
-# Ash VS Evil Dead (2015)
+# Ash vs Evil Dead (2015)
 
 There are `1` Blueprint(s) available for this Series.
 

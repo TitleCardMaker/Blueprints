@@ -1,0 +1,29 @@
+@ -0,0 +1,24 @@
+name: New Set
+description: Create a Blueprint Set
+title: '[Set] '
+assignees: 'CollinHeist'
+
+body:
+  - type: input
+    id: set_name
+    attributes:
+      label: Set Name
+      description: What would you like to call this Set?
+      placeholder: ex. Marvel Cinematic Universe
+    validations:
+      required: true
+
+  - type: textarea
+    id: blueprints
+    attributes:
+      label: Blueprints
+      description: >
+        List of paths corresponding to Blueprints to add to this Set. Each path
+        must be on a newline.
+      placeholder: >
+        blueprints/M/Marvel's Agent Carter (2015)/0
+        blueprints/M/Marvel's Agents of S.H.I.E.L.D. (2013)/0
+        blueprints/M/Marvel's Hit-Monkey (2021)/0
+    validations:
+      required: true
