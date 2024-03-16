@@ -342,13 +342,13 @@ def _parse_set_submission(
     """
 
     # Parse issue from environment variable
-    # try:
-    #     content = 
-    #     print(f'Parsed issue JSON as:\n{content}')
-    # except JSONDecodeError as exc:
-    #     print(f'Unable to parse Context as JSON')
-    #     print(exc)
-    #     sys_exit(1)
+    try:
+        content = environment.get('ISSUE_BODY')
+        print(f'Parsed issue JSON as:\n{content}')
+    except JSONDecodeError as exc:
+        print(f'Unable to parse Context as JSON')
+        print(exc)
+        sys_exit(1)
 
     # Extract the data from the issue text
     issue_regex = re_compile(
@@ -358,7 +358,7 @@ def _parse_set_submission(
     )
 
     # If data cannot be extracted, exit
-    if not (data := issue_regex.match(environment.get('ISSUE_BODY'))):
+    if not (data := issue_regex.match(content)):
         print(f'Unable to parse Set from Issue')
         print(f'{environment.get("ISSUE_BODY")=!r}')
         sys_exit(1)

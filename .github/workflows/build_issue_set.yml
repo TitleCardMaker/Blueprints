@@ -1,11 +1,11 @@
-name: Create Blueprint from Issue
+name: Create Set from Issue
 
 on:
   issue_comment:
     types: [ created ]
 
 jobs:
-  create_blueprint_from_issue:
+  create_set_from_issue:
     # Only run on Set issues when I comment /create-set
     if: ${{ (!github.event.issue.pull_request) && (startsWith(github.event.issue.title, '[Set]')) && (contains(github.event.comment.body, '/create-set')) && (github.event.comment.user.login == 'CollinHeist') && !contains(github.event.issue.labels.*.name, 'created') }}
     runs-on: ubuntu-latest
