@@ -200,4 +200,6 @@ def create_new_set(name: str, blueprint_paths: Iterable[str]) -> Set:
     )
 
     db.add(bp_set)
+    db.commit()
+
     return bp_set
