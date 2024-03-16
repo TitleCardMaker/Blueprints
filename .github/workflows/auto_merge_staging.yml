@@ -79,7 +79,7 @@ jobs:
         id: get_issues
         uses: octokit/request-action@v2.x
         with:
-          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
+          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests,blueprint&state=open
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
