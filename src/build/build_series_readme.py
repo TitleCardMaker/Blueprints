@@ -29,6 +29,9 @@ def format_count(count: int) -> str:
 def build_series_readme():
     # Parse all Blueprints for all Series
     for series_subfolder in BLUEPRINT_FOLDER.glob('*/*'):
+        if not series_subfolder.is_dir():
+            continue
+
         # Read all Blueprints for this Series
         blueprints: dict[int, dict] = {}
         for blueprint_file in series_subfolder.glob('*/blueprint.json'):

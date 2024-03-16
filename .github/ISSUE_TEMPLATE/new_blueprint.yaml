@@ -30,7 +30,7 @@ body:
       description: Comma separated database IDs for matching this Series.
       placeholder: "ex. imdb:tt0306414,tmdb:1438,tvdb:79126"
     validations:
-      required: false
+      required: true
 
   - type: input
     id: creator

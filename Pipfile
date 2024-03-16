@@ -15,6 +15,7 @@ urllib3 = ">=2.0.7"
 requests = "==2.31.0"
 
 [dev-packages]
+alembic = "==1.13.1"
 
 [requires]
 python_version = "3.11"

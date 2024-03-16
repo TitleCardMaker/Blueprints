@@ -1,11 +1,18 @@
 from datetime import datetime
 from json import dumps
-from typing import Any
+from pathlib import Path
+from sys import exit as sys_exit
+from typing import Any, Iterable, Optional
 
-from sqlalchemy import (
-    Column, DateTime, Integer, String, ForeignKey, create_engine, func, or_
+from sqlalchemy import Column, ForeignKey, Table, create_engine, func, or_
+from sqlalchemy.orm import (
+    DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
 )
-from sqlalchemy.orm import declarative_base, relationship, sessionmaker
+
+__all__ = (
+    'DATABASE_URL', 'db', 'Base', 'Series', 'Blueprint', 'Set',
+    'create_new_blueprint', 'create_new_set',
+)
 
 
 DATABASE_URL = 'sqlite:///./blueprints.db'
@@ -21,39 +28,60 @@ SessionLocal = sessionmaker(
 db = SessionLocal()
 
 # Create a base class for declarative table definitions
-Base = declarative_base()
+class Base(DeclarativeBase):
+    ...
 
+# Association tables
+association_table = Table(
+    'association_table',
+    Base.metadata,
+    Column('blueprint_id', ForeignKey('blueprints.id'), primary_key=True),
+    Column('set_id', ForeignKey('sets.id'), primary_key=True),
+)
 
 # SQL Tables
 class Series(Base):
     __tablename__ = 'series'
 
-    id = Column(Integer, primary_key=True)
-    name = Column(String, nullable=False)
-    year = Column(Integer, nullable=False)
-    path_name = Column(String, nullable=False)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str]
+    year: Mapped[int]
+    path_name: Mapped[str]
 
     # Database arguments
-    imdb_id = Column(String, default=None)
-    tmdb_id = Column(Integer, default=None)
-    tvdb_id = Column(Integer, default=None)
+    imdb_id: Mapped[Optional[str]]
+    tmdb_id: Mapped[Optional[int]]
+    tvdb_id: Mapped[Optional[int]]
 
-    blueprints = relationship('Blueprint', back_populates='series')
+    blueprints: Mapped[list['Blueprint']] = relationship(back_populates='series')
 
 
 class Blueprint(Base):
     __tablename__ = 'blueprints'
 
-    id = Column(Integer, primary_key=True)
-    series_id = Column(Integer, ForeignKey('series.id'))
-    blueprint_number = Column(Integer, nullable=False)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    series_id: Mapped[int] = mapped_column(ForeignKey('series.id'))
+    blueprint_number: Mapped[int]
 
-    creator = Column(String, nullable=False)
-    created = Column(DateTime, nullable=False, default=func.now())
-    json = Column(String, nullable=False)
+    creator: Mapped[str]
+    created: Mapped[datetime] = mapped_column(default=func.now())
+    json: Mapped[str]
 
-    series = relationship('Series', back_populates='blueprints')
+    series: Mapped['Series'] = relationship(back_populates='blueprints')
+    sets: Mapped[list['Set']] = relationship(
+        secondary=association_table, back_populates='blueprints'
+    )
 
+
+class Set(Base):
+    __tablename__ = 'sets'
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str]
+
+    blueprints: Mapped[list[Blueprint]] = relationship(
+        secondary=association_table, back_populates='sets',
+    )
 
 # Create the tables in the database only if they do not exist
 Base.metadata.create_all(engine, checkfirst=True)
@@ -120,3 +148,56 @@ def create_new_blueprint(
     print(f'Created Blueprint[{blueprint.id}]')
 
     return series, blueprint
+
+
+def _find_blueprint(path: str | Path, /) -> Blueprint:
+    """
+    Get the Blueprint object associated with the given blueprint
+    subfolder.
+
+    Args:
+        path: Path to the Blueprint being queried.
+
+    Returns:
+        Blueprint object from the database.
+
+    Raises:
+        SystemExit (1): The associated Series or Blueprint cannot be
+            found.
+    """
+
+    # Find associated Series
+    path = Path(path)
+    series = db.query(Series)\
+        .filter_by(path_name=path.parent.name)\
+        .first()
+    if not series:
+        print(f'Cannot find Series associated with "{path}"')
+        sys_exit(1)
+
+    # Find Blueprint
+    blueprint = db.query(Blueprint)\
+        .filter_by(series_id=series.id,
+                   blueprint_number=int(path.name))\
+        .first()
+    if not blueprint:
+        print(f'Cannot find Blueprint #{path.name} for Series[{series.id}] {series.name}')
+        sys_exit(1)
+
+    return blueprint
+
+
+def create_new_set(name: str, blueprint_paths: Iterable[str]) -> Set:
+    """
+    Create a new Set of the given data. This parses all provided paths
+    and finds the associated Blueprint objects for adding to the
+    association table.
+    """
+
+    bp_set = Set(
+        name=name,
+        blueprints=[_find_blueprint(path) for path in blueprint_paths],
+    )
+
+    db.add(bp_set)
+    return bp_set

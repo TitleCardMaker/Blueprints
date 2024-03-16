@@ -13,7 +13,7 @@ from sys import exit as sys_exit
 
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-from src.build.parse_submission import download_zip, parse_submission
+from src.build.parse_submission import download_zip, parse_bp_submission
 
 
 DEFAULT_AVATAR_URL = (
@@ -50,7 +50,7 @@ def notify_discord() -> None:
                 'ISSUE_CREATOR': issue['user']['login'],
                 'ISSUE_CREATOR_ICON_URL': issue['user']['avatar_url'],
             }
-            data = parse_submission(environment=environment)
+            data = parse_bp_submission(environment=environment)
 
             # Shorten the description if longer than 200 characters
             description = '\n'.join(data['blueprint']['description'])
