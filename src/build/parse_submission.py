@@ -346,7 +346,7 @@ def _parse_set_submission(
         content = loads(environment.get('ISSUE_BODY'))
         print(f'Parsed issue JSON as:\n{content}')
     except JSONDecodeError as exc:
-        print(f'Unable to parse Context as JSON')
+        print(f'Unable to parse issue as JSON')
         print(exc)
         sys_exit(1)
 
@@ -359,7 +359,7 @@ def _parse_set_submission(
 
     # If data cannot be extracted, exit
     if not (data := issue_regex.match(content)):
-        print(f'Unable to parse Set from Issue')
+        print(f'Unable to parse Set from JSON')
         print(f'{content=!r}')
         sys_exit(1)
 
