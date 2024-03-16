@@ -354,13 +354,13 @@ def _parse_set_submission(
     issue_regex = re_compile(
         r'^'
         r'### Set Name\s+(?P<set_name>.+)\s+'
-        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s*$'
+        r'### Blueprints\s+(?P<blueprints>[\s\S]*?)\s+$'
     )
 
     # If data cannot be extracted, exit
     if not (data := issue_regex.match(content)):
         print(f'Unable to parse Set from Issue')
-        print(f'{environment.get("ISSUE_BODY")=!r}')
+        print(f'{content=!r}')
         sys_exit(1)
 
     data = data.groupdict()

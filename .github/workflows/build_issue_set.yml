@@ -33,7 +33,6 @@ jobs:
       - name: Parse Issue into Set
         env:
           ISSUE_BODY: ${{ toJson(github.event.issue.body) }}
-          ISSUE_CREATOR: '${{ github.event.issue.user.login }}'
         run: |
           python entrypoint.py --parse-set-submission
 
