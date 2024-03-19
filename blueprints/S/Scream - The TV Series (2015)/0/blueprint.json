@@ -1,0 +1,52 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "cutout",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "red"
+    ],
+    "template_ids": [],
+    "font_stroke_width": 0.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s0e4": {
+      "card_type": "standard",
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e5": {
+      "card_type": "standard",
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s2e1": {
+      "template_ids": [],
+      "font_vertical_shift": -50,
+      "title": "I Know What\\nYou Did Last Summer",
+      "auto_split_title": false
+    }
+  },
+  "templates": [],
+  "fonts": [
+    {
+      "name": "Scream TV Series",
+      "file": "Scream.ttf",
+      "replacements_in": [],
+      "replacements_out": [],
+      "title_case": "upper"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "description": [
+    "Cutout card with the series Font, and uses the Standard card type for the specials."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-19T02:05:24"
+}
