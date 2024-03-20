@@ -192,6 +192,19 @@ def create_new_set(name: str, blueprint_paths: Iterable[str]) -> Set:
     Create a new Set of the given data. This parses all provided paths
     and finds the associated Blueprint objects for adding to the
     association table.
+
+    >>> create_new_set('Test', ['blueprints/T/Test (2000)/0'])
+    
+    Args:
+        name: Name of the Set being created.
+        blueprint_paths: Paths of blueprints to add to the Set.
+
+    Returns:
+        Created Set.
+
+    Raises:
+        SystemExit (1): The associated Series or Blueprint cannot be
+            found.
     """
 
     bp_set = Set(
@@ -200,6 +213,31 @@ def create_new_set(name: str, blueprint_paths: Iterable[str]) -> Set:
     )
 
     db.add(bp_set)
+    db.commit()
+
+    return bp_set
+
+
+def add_to_set(set_id: int, blueprint: Blueprint) -> Set:
+    """
+    Add the given blueprint to the Set with the given ID.
+
+    Args:
+        set_id: ID of the Set to add to.
+        blueprint: Blueprint to add to the Set.
+
+    Returns:
+        Modified Set.
+
+    Raises:
+        SystemExit (1): The associated Set does not exist.
+    """
+
+    if (bp_set := db.query(Set).filter_by(id=set_id).first()) is None:
+        print(f'No Set with ID {set_id}')
+        sys_exit(1)
+
+    bp_set.blueprints = bp_set.blueprints + [blueprint]
     db.commit()
 
     return bp_set

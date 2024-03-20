@@ -84,3 +84,10 @@ body:
         Upload a `.zip` of any _required_ Source Files for this Blueprint. These
         will be downloaded into the Series' source folder when the Blueprint is
         imported.
+
+  - type: input
+    id: set_ids
+    attributes:
+      label: Set IDs
+      description: Comma separated IDs of any Sets to add this Blueprint to
+      placeholder: ex. 2,4
