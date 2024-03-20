@@ -2,6 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
     "translations": [
       {
         "language_code": "ja",
@@ -22,7 +23,7 @@
   ],
   "creator": "CollinHeist",
   "description": [
-    "Anime card with kanji and a custom Font to match the official Series artwork."
+    "Anime card with absolute numbering, kanji, and a custom Font to match the official Series artwork."
   ],
   "previews": [
     "preview0.jpg"
