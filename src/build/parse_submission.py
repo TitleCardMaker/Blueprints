@@ -14,11 +14,11 @@ from re import compile as re_compile
 from shutil import copy as file_copy, unpack_archive, ReadError
 from sys import exit as sys_exit
 from tempfile import NamedTemporaryFile, TemporaryDirectory
-from typing import Any, Mapping, Optional, TypedDict
+from typing import Any, Iterable, Mapping, Optional, TypedDict
 
 from requests import get
 
-from src.database.db import create_new_blueprint, create_new_set
+from src.database.db import add_to_set, create_new_blueprint, create_new_set
 from src.build.helper import get_blueprint_folders
 
 
@@ -30,6 +30,16 @@ TEMP_DIRECTORY = ROOT / 'unzipped'
 URL_REGEX = re_compile(r'\!?\[.*?\]\(([^\s]+)\)')
 
 
+class BlueprintSubmission(TypedDict):
+    series_name: str
+    series_year: int
+    database_ids: dict
+    creator: str
+    preview_urls: list[str]
+    font_zip_url: Optional[str]
+    source_file_zip_url: Optional[str]
+    set_ids: Iterable[int]
+    blueprint: dict
 class SetSubmission(TypedDict):
     name: str
     blueprint_paths: list[str]
@@ -90,7 +100,7 @@ def parse_bp_submission(
         data: Optional[dict] = None,
         *,
         environment: Mapping[str, Any] = environ,
-    ) -> dict:
+    ) -> BlueprintSubmission:
     """
     Parse the submission from the `ISSUE_BODY` and `ISSUE_CREATOR`
     environment variables into a dictionary of submission data.
@@ -119,7 +129,8 @@ def parse_bp_submission(
 
         # Extract the data from the issue text
         issue_regex = re_compile(
-            r'^### Series Name\s+(?P<series_name>.+)\s+'
+            r'^'
+            r'### Series Name\s+(?P<series_name>.+)\s+'
             r'### Series Year\s+(?P<series_year>\d+)\s+'
             r'### Series Database IDs\s+(?P<database_ids>.+)\s+'
             r'### Creator Username\s+(?P<creator>.+)\s+'
@@ -127,7 +138,8 @@ def parse_bp_submission(
             r'### Blueprint\s+```json\s+(?P<blueprint>[\s\S]*?)```\s+'
             r'### Preview Title Cards\s+.*?(?P<preview_urls>[\s\S]*?)\s+'
             r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s+'
-            r'### Zip of Source Files\s+(_No response_|\[.+?\]\((?P<source_files>http[^\s\)]+)\))\s*$'
+            r'### Zip of Source Files\s+(_No response_|\[.+?\]\((?P<source_files>http[^\s\)]+)\))\s+'
+            r'### Set IDs\s+(_No response_|(?P<set_ids>[\d,]+))\s*$'
         )
 
         # If data cannot be extracted, exit
@@ -139,7 +151,11 @@ def parse_bp_submission(
 
     # Get each variable from the issue
     print(f'Raw Data: {data=}')
-    data = {'font_zip': '_No response_', 'source_files': '_No response_'} | data
+    data = {
+        'font_zip': '_No response_',
+        'source_files': '_No response_',
+        'set_ids': '_No response_',
+    } | data
 
     creator = (creator if '_No response_' in data['creator'] else data['creator']).strip()
     if data.get('font_zip') is None or '_No response_' in data['font_zip']:
@@ -150,6 +166,10 @@ def parse_bp_submission(
         source_files = None
     else:
         source_files = data['source_files']
+    if data.get('set_ids') is None or '_No response_' in data['set_ids']:
+        set_ids = []
+    else:
+        set_ids: list[int] = list(map(int, data['set_ids'].split(',')))
 
     # Parse blueprint as JSON
     try:
@@ -174,6 +194,7 @@ def parse_bp_submission(
         'preview_urls': parse_urls(data['preview_urls']),
         'font_zip_url': font_zip_url,
         'source_file_zip_url': source_files,
+        'set_ids': set_ids,
         'blueprint': blueprint | {
             'creator': creator,
             'description': description,
@@ -278,6 +299,10 @@ def parse_and_create_blueprint():
         fallback_path_name, submission['database_ids'], submission['creator'],
         submission['blueprint'],
     )
+
+    # Add to any associated Sets
+    for set_id in submission['set_ids']:
+        add_to_set(set_id, blueprint)
 
     # Get the associated folder for this Series
     letter, folder_name = get_blueprint_folders(f'{series.name} ({series.year})')
