@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "Boardwalk Empire",
+      "color": "#EEE8AA",
+      "delete_missing": true,
+      "file": "building-state-empire.ttf",
+      "interword_spacing": 30,
+      "size": 1.5
+    }
+  ],
+  "creator": "thedinz",
+  "description": [
+    "Using the built in \"Tinted Frame\" type, with a very similar Font and gold color that accents the vibe of the show. I prefer to use blurred unique style for watched episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-20T19:55:42"
+}
