@@ -8,9 +8,8 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "template_ids": [
-      0
-    ],
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "template_ids": [],
     "season_title_ranges": [
       "s1e1-s1e82",
       "s2e1-s2e36",
@@ -100,19 +99,7 @@
       "season_text": "Unaired"
     }
   },
-  "templates": [
-    {
-      "episode_text_format": "Episode {absolute_number}",
-      "name": "Absolute Episode Numbering",
-      "filters": [
-        {
-          "argument": "Absolute Number",
-          "operation": "is not null",
-          "reference": ""
-        }
-      ]
-    }
-  ],
+  "templates": [],
   "fonts": [
     {
       "name": "Pok\u00e9mon",

@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Kaikou",
+      "Seiran",
+      "Collision",
+      "Sakubou"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Legend of the Galactic Heroes",
+      "color": "white",
+      "file": "CloisterBlack.ttf",
+      "kerning": 0.3,
+      "interword_spacing": 35,
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with absolute numbering, kanji, and a custom Font to match the official Series artwork. Includes custom season titles for all four seasons."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-20T06:43:44"
+}

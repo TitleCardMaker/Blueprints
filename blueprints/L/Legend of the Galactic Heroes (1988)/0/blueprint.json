@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Legend of the Galactic Heroes",
+      "color": "white",
+      "file": "CloisterBlack.ttf",
+      "kerning": 0.3,
+      "interword_spacing": 35,
+      "size": 1.1,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with absolute numbering, kanji, and a custom Font to match the official Series artwork."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-20T06:42:55"
+}
