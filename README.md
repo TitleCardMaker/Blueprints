@@ -48,7 +48,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `5` Blueprint Sets available:
+There are currently `6` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -57,4 +57,5 @@ There are currently `5` Blueprint Sets available:
 | `3` | Legend of the Galactic Heroes | Legend of the Galactic Heroes: Die Neue These [0]<br>Legend of the Galactic Heroes [0] |
 | `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
+| `6` | The Defenders | Marvel's Daredevil [0]<br>Marvel's The Defenders [0]<br>Marvel's Luke Cage [0]<br>Marvel's Jessica Jones [0]<br>+1 more |
 
