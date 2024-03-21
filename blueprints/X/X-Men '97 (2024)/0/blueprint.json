@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_font_size",
+      "frame_width",
+      "middle_element",
+      "logo_size",
+      "logo_vertical_shift",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "1.25",
+      "12",
+      "logo",
+      "1.25",
+      "475",
+      "#d32327"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "X-Men",
+      "color": "#fef200",
+      "file": "sui generis rg.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame card with a custom Font and colors to match the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-21T01:39:21"
+}
