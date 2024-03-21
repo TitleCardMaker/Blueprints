@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "Merlin",
+      "file": "CAELDERA.TTF",
+      "kerning": 20.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple Olivier card with custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-21T01:37:41"
+}
