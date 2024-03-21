@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "episode_text_color",
+      "box_adjustments",
+      "edge_color"
+    ],
+    "extra_values": [
+      "rgb(196, 52, 52)",
+      "10 0 0 0",
+      "#fdb94a"
+    ]
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "30 Rock",
+      "file": "Blair ITC Light Regular.otf",
+      "interline_spacing": 10,
+      "interword_spacing": 20,
+      "line_split_modifier": -4,
+      "replacements_in": [
+        "\u00d1",
+        "\u00c9"
+      ],
+      "replacements_out": [
+        "N",
+        "E"
+      ],
+      "size": 0.9,
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card using the Series Font with the episode text recolored red to match the primary Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-21T03:07:43"
+}
