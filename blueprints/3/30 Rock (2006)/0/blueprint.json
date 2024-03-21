@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "notification",
+    "extra_keys": [
+      "glass_color",
+      "edge_color"
+    ],
+    "extra_values": [
+      "rgba(0,0,0,0.75)",
+      "#fdb94a"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {},
+  "templates": [],
+  "fonts": [
+    {
+      "name": "30 Rock",
+      "file": "HWYGEXPD.TTF"
+    }
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "description": [
+    "Notification style card with custom font and colour-matching highlight."
+  ],
+  "creator": "Reicha7",
+  "created": "2024-03-21T01:41:25"
+}
