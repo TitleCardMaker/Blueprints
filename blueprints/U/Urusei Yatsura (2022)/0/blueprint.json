@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "white",
+      "-30",
+      "rgb(235, 12, 42)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Urusei Yatsura",
+      "color": "rgb(235, 12, 42)",
+      "file": "Ani Dimitrova.otf",
+      "kerning": 1.4,
+      "interline_spacing": -25,
+      "interword_spacing": 60,
+      "size": 1.1,
+      "stroke_width": 4.0,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with kanji and a custom Font to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-22T18:59:51"
+}
