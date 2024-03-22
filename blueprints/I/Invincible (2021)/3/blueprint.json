@@ -2,20 +2,21 @@
   "series": {
     "card_type": "textless",
     "source_files": [
-      "s2e5.jpg",
-      "s1e7.jpg",
-      "s1e8.jpg",
-      "s1e3.jpg",
-      "s2e4.jpg",
-      "s2e3.jpg",
-      "s2e2.jpg",
-      "s1e2.jpg",
-      "s1e6.jpg",
+      "s0e1.jpg",
       "s1e1.jpg",
+      "s1e2.jpg",
+      "s1e3.jpg",
       "s1e4.jpg",
       "s1e5.jpg",
+      "s1e6.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
       "s2e1.jpg",
-      "s0e1.jpg"
+      "s2e2.jpg",
+      "s2e3.jpg",
+      "s2e4.jpg",
+      "s2e5.jpg",
+      "s2e6.jpg"
     ]
   },
   "creator": "CollinHeist",
