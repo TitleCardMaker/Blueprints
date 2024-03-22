@@ -1,0 +1,22 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame"
+  },
+  "fonts": [
+    {
+      "name": "The Rookie",
+      "file": "ArtegraSansExSCEBoldIt.ttf",
+      "size": 1.05,
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a free variation of the Series Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-22T19:00:39"
+}
