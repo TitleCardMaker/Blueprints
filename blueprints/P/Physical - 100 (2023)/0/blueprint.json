@@ -2,6 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
+    "season_title_ranges": [
+      "2"
+    ],
+    "season_title_values": [
+      "Underground"
+    ],
     "extra_keys": [
       "omit_gradient",
       "episode_text_font_size"
