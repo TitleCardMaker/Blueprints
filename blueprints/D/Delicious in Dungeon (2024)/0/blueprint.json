@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "auto_split_title": false,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "kanji_stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}'.join(title_text.split(\"/\" ))}",
+      "black",
+      "white",
+      "black",
+      "white",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Delicious in Dungeon",
+      "color": "black",
+      "file": "Magical World.otf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom Font and custom line breaks for each part of each Episode."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-23T18:47:23"
+}
