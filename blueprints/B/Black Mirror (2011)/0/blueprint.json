@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "extra_keys": [
+      "override_style"
+    ],
+    "extra_values": [
+      "rewind"
+    ]
+  },
+  "episodes": {
+    "s0e2": {
+      "title": "Bandersnatch",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Black Mirror",
+      "file": "BeVietnam-Bold.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Retro card type with a Font similar to the Series'."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-24T17:23:02"
+}
