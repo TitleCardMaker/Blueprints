@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "extra_keys": [
+      "title_text_rotation_angle",
+      "index_text_rotation_angle",
+      "text_box_fill_color",
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "random[-4, 4]",
+      "random[-4, -3]",
+      "rgba(220,20,60,1)",
+      "rgba(0,0,128,0.6)"
+    ]
+  },
+  "creator": "MrSaiclops",
+  "description": [
+    "Comic book card with thematic colors and randomized banner angles."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-03-26T19:10:31"
+}
