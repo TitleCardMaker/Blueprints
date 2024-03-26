@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "episodes": {
+    "s3e21": {
+      "template_ids": [],
+      "title": "Forsaken",
+      "match_title": false
+    },
+    "s3e22": {
+      "template_ids": [],
+      "title": "Covenant",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Smallville",
+      "color": "#FF0000",
+      "delete_missing": true,
+      "file": "smallville.ttf",
+      "size": 2.0
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Standard card with branded Font. (1) and (2) are removed from Episodes that contain unique names to fit the standard naming convention."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-26T19:05:58"
+}
