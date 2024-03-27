@@ -1,16 +1,18 @@
 {
   "series": {
     "font_id": 0,
-    "card_type": "standard",
+    "card_type": "tinted frame",
     "extra_keys": [
-      "override_style"
+      "frame_color",
+      "top_element",
+      "bottom_element"
     ],
     "extra_values": [
-      "rewind"
+      "#DAC960",
+      "omit",
+      "title"
     ],
-    "template_ids": [
-      0
-    ],
+    "template_ids": [],
     "font_vertical_shift": -20,
     "source_files": [
       "s1e3-mask.webp",
@@ -68,23 +70,7 @@
     ]
   },
   "episodes": {},
-  "templates": [
-    {
-      "card_type": "tinted frame",
-      "extra_keys": [
-        "frame_color",
-        "top_element",
-        "bottom_element"
-      ],
-      "extra_values": [
-        "#DAC960",
-        "omit",
-        "title"
-      ],
-      "name": "Twilight Zone",
-      "filters": []
-    }
-  ],
+  "templates": [],
   "fonts": [
     {
       "name": "Black Mirror",
@@ -98,8 +84,8 @@
     "preview2.jpg"
   ],
   "description": [
-    "Masks created using a photoshop automation I put together. Font curated by @Reicha7's."
+    "Masks created using a photoshop automation I put together."
   ],
-  "creator": "MrSaiclops",
+  "creator": "MrSaiclops, Reicha7",
   "created": "2024-03-27T20:04:56"
 }
