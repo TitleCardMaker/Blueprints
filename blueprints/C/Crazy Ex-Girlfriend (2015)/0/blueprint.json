@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "music",
+    "extra_keys": [
+      "player_style",
+      "percentage",
+      "timeline_color",
+      "truncate_long_titles"
+    ],
+    "extra_values": [
+      "artwork",
+      "{episode_number / season_episode_max}",
+      "pink",
+      "False"
+    ],
+    "font_size": 0.9,
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "creator": "MrSaiclops",
+  "description": [
+    "Music card type with full-length titles allowed, a smaller font size, and an included backdrop."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-27T04:44:32"
+}
