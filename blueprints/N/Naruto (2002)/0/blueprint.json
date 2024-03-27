@@ -2,7 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "episode_text_format": "Episode {absolute_number}",
+    "episode_text_format": "Episode {absolute_episode_number}",
     "season_title_ranges": [
       "1-19",
       "20-67",
