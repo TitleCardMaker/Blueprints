@@ -537,7 +537,7 @@
   "creator": "CollinHeist",
   "description": [
     "Tinted Frame card with the book names (Water/Earth/Fire) as the season titles, and the chapter numbers for episode text.",
-    "The main Series Font is used for the title text, and the secondary Font is used for the season and episode text (which will need to be manually downloaded and specified in the Episode Text Font extra).",
+    "The main Series Font is used for the title text, and the secondary Font is used for the season and episode text.",
     "The frame color is adjusted to Blue, Green, or Red to match each season."
   ],
   "created": "2023-08-24T04:39:18",
