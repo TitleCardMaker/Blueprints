@@ -1,0 +1,105 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "override_style"
+    ],
+    "extra_values": [
+      "rewind"
+    ],
+    "template_ids": [
+      0
+    ],
+    "font_vertical_shift": -20,
+    "source_files": [
+      "s1e3-mask.webp",
+      "s6e1-mask.webp",
+      "s6e3-mask.webp",
+      "s4e6.jpg",
+      "s4e4-mask.webp",
+      "s6e2.jpg",
+      "s1e2-mask.webp",
+      "s1e3.jpg",
+      "s5e1-mask.webp",
+      "s6e5.jpg",
+      "s5e3-mask.webp",
+      "s3e6.jpg",
+      "s5e3.jpg",
+      "s2e3.jpg",
+      "s6e4.jpg",
+      "s6e4-mask.webp",
+      "s3e3.jpg",
+      "s2e2-mask.webp",
+      "s3e5.jpg",
+      "s4e3-mask.webp",
+      "s4e5-mask.webp",
+      "s2e3-mask.webp",
+      "s5e2-mask.webp",
+      "s3e4-mask.webp",
+      "s3e6-mask.webp",
+      "s6e3.jpg",
+      "s2e1-mask.webp",
+      "s3e2.jpg",
+      "s2e2.jpg",
+      "s4e5.jpg",
+      "s1e2.jpg",
+      "s1e1-mask.webp",
+      "s4e2.jpg",
+      "s3e1-mask.webp",
+      "s6e1.jpg",
+      "s4e4.jpg",
+      "s6e2-mask.webp",
+      "s4e3.jpg",
+      "s5e2.jpg",
+      "s1e1.jpg",
+      "s3e5-mask.webp",
+      "s4e2-mask.webp",
+      "s4e1-mask.webp",
+      "s3e3-mask.webp",
+      "s4e6-mask.webp",
+      "s6e5-mask.webp",
+      "s3e1.jpg",
+      "s3e2-mask.webp",
+      "s5e1.jpg",
+      "s2e1.jpg",
+      "s3e4.jpg",
+      "s4e1.jpg"
+    ]
+  },
+  "episodes": {},
+  "templates": [
+    {
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "frame_color",
+        "top_element",
+        "bottom_element"
+      ],
+      "extra_values": [
+        "#DAC960",
+        "omit",
+        "title"
+      ],
+      "name": "Twilight Zone",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Black Mirror",
+      "delete_missing": true,
+      "file": "BeVietnam-Bold.ttf"
+    }
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "description": [
+    "Masks created using a photoshop automation I put together. Font curated by @Reicha7's."
+  ],
+  "creator": "MrSaiclops",
+  "created": "2024-03-27T20:04:56"
+}
