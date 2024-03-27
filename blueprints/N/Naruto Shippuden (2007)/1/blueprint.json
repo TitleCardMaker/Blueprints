@@ -1,14 +1,5 @@
 {
   "series": {
-    "font_id": 0,
-    "card_type": "anime",
-    "episode_text_format": "Episode {absolute_episode_number}",
-    "translations": [
-      {
-        "language_code": "ja",
-        "data_key": "kanji"
-      }
-    ],
     "season_title_ranges": [
       "1-32",
       "33-53",
@@ -104,14 +95,6 @@
       "Sasuke Shinden: Book Of Sunrise",
       "Shikamaru Hiden: A Cloud Drifting In Silent Darkness",
       "Konoha Hiden: The Perfect Day For A Wedding"
-    ],
-    "extra_keys": [
-      "kanji_vertical_shift",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "40",
-      "rgb(235,142,52)"
     ]
   },
   "fonts": [
@@ -143,6 +126,28 @@
         "E"
       ],
       "stroke_width": 5.0
+    }
+  ],
+  "templates": [
+    {
+      "name": "Naruto",
+      "card_type": "anime",
+      "font_id": 0,
+      "episode_text_format": "Episode {absolute_episode_number}",
+      "translations": [
+        {
+          "language_code": "ja",
+          "data_key": "kanji"
+        }
+      ],
+      "extra_keys": [
+        "kanji_vertical_shift",
+        "kanji_color"
+      ],
+      "extra_values": [
+        "40",
+        "rgb(235,142,52)"
+      ]
     }
   ],
   "creator": "CollinHeist",
