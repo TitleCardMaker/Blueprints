@@ -1,5 +1,8 @@
 {
   "series": {
+    "template_ids": [
+      0
+    ],
     "season_title_ranges": [
       "1-19",
       "20-67",
