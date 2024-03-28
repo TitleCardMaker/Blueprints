@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "hide_season_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with no season or episode text."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-28T14:30:14"
+}
