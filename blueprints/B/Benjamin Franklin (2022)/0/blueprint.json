@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Join or Die",
+      "season_text": "(1706-1774)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "An American",
+      "season_text": "(1775-1790)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-28T18:34:15"
+}
