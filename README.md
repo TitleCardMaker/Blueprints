@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `527` Blueprints available for `429` Series, submitted by `24` Creators.
+There are currently `533` Blueprints available for `435` Series, submitted by `24` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -25,7 +25,7 @@ Creators with the most Blueprint Submissions:
 | Reicha7 | 136 |
 | flowcool | 33 |
 | anonfawkes | 29 |
-| MrSaiclops | 15 |
+| MrSaiclops | 21 |
 | rtgurley | 14 |
 | DeepDaddyTTV | 12 |
 | BenevolentNPC | 11 |
@@ -49,7 +49,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `6` Blueprint Sets available:
+There are currently `7` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -59,4 +59,5 @@ There are currently `6` Blueprint Sets available:
 | `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
 | `6` | The Defenders | Marvel's Daredevil [0]<br>Marvel's The Defenders [0]<br>Marvel's Luke Cage [0]<br>Marvel's Jessica Jones [0]<br>+1 more |
+| `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0] |
 

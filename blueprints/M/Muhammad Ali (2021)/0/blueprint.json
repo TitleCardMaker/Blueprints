@@ -1,0 +1,53 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Greatest",
+      "season_text": "(1942-1964)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "What's My Name?",
+      "season_text": "(1964-1970)"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Rivalry",
+      "season_text": "(1970-1974)"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Spell Remains",
+      "season_text": "(1974-2016)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-28T18:36:29"
+}
