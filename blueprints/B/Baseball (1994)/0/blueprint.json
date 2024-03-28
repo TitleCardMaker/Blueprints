@@ -1,0 +1,77 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Our Game",
+      "season_text": "Inning One"
+    },
+    "s1e2": {
+      "title": "Something Like a War",
+      "season_text": "Inning Two"
+    },
+    "s1e3": {
+      "title": "The Faith of Fifty Million People",
+      "season_text": "Inning Three"
+    },
+    "s1e4": {
+      "title": "A National Heirloom",
+      "season_text": "Inning Four"
+    },
+    "s1e5": {
+      "title": "Shadow Ball",
+      "season_text": "Inning Five"
+    },
+    "s1e6": {
+      "title": "The National Pastime",
+      "season_text": "Inning Six"
+    },
+    "s1e7": {
+      "title": "The Capitol of Baseball",
+      "season_text": "Inning Seven"
+    },
+    "s1e8": {
+      "title": "A Whole New Ball Game",
+      "season_text": "Inning Eight"
+    },
+    "s1e9": {
+      "title": "Home",
+      "season_text": "Inning Nine"
+    },
+    "s2e1": {
+      "hide_season_text": true
+    },
+    "s2e2": {
+      "hide_season_text": true
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with innings in place of episode/season index. Complete omission for the final two episodes where the title contains the inning."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-28T14:23:10"
+}

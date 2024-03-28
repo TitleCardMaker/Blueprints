@@ -1,0 +1,80 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Cause",
+      "season_text": "1861"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "A Very Bloody Affair",
+      "season_text": "1862"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Forever Free",
+      "season_text": "1862"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Simply Murder",
+      "season_text": "1863"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "The Universe of Battle",
+      "season_text": "1863"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Valley of the Shadow of Death",
+      "season_text": "1864"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Most Hallowed Ground",
+      "season_text": "1864"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "War is All Hell",
+      "season_text": "1865"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "The Better Angels of Our Nature",
+      "season_text": "1865"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-03-28T14:20:11"
+}
