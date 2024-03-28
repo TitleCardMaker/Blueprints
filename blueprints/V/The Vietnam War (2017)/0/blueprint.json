@@ -1,0 +1,85 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "D\u00e9j\u00e0 Vu",
+      "season_text": "(1858-1961)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Riding the Tiger",
+      "season_text": "(1961-1963)"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The River Styx",
+      "season_text": "(January 1964-December 1965)"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Resolve",
+      "season_text": "(January 1966-June 1967)"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "This Is What We Do",
+      "season_text": "(July 1967-December 1967)"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Things Fall Apart",
+      "season_text": "(January 1968-July 1968)"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "The Veneer of Civilization",
+      "season_text": "(June 1968-May 1969)"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "The History of the World",
+      "season_text": "(April 1969-May 1970)"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "A Disrespectful Loyalty",
+      "season_text": "(May 1970-March 1973)"
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "The Weight of Memory",
+      "season_text": "(March 1973-Onward)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-03-28T18:29:43"
+}
