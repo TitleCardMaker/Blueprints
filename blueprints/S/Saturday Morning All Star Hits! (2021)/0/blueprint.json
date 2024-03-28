@@ -1,0 +1,74 @@
+{
+  "series": {
+    "card_type": "Yozora/RetroTitleCard",
+    "extra_keys": [
+      "override_bw",
+      "override_style"
+    ],
+    "extra_values": [
+      "color",
+      "play"
+    ],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 1:\\nSCHOOL",
+      "match_title": false
+    },
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 2:\\nLOST",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 3:\\nZOO",
+      "match_title": false
+    },
+    "s1e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 4:\\nSMASH!",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 5:\\nNEWS",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 6:\\nMOVIE",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 7:\\nDANGER",
+      "match_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Tape 8:\\nLIVE!",
+      "match_title": false
+    }
+  },
+  "templates": [],
+  "creator": "MrSaiclops",
+  "description": [
+    "Retro card with the titles split after the \"Tape X\" text."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-27T23:14:53"
+}

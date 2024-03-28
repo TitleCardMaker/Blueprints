@@ -1,0 +1,140 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "season_title_ranges": [
+      "1-19",
+      "20-67",
+      "68-80",
+      "81-100",
+      "101-106",
+      "107-135",
+      "136-141",
+      "142-147",
+      "148-151",
+      "152-158",
+      "159-161",
+      "162-168",
+      "169-174",
+      "175-177",
+      "178-186",
+      "187-194",
+      "195-196",
+      "197-202",
+      "203-208",
+      "209-212",
+      "213-215",
+      "216-220"
+    ],
+    "season_title_values": [
+      "Land of Waves",
+      "Ch\u016bnin Exams",
+      "Konoha Crash",
+      "Search For Tsunade",
+      "Land of Tea Escort Mission",
+      "Sasuke Recovery Mission",
+      "Land of Rice Fields Investigation Mission",
+      "Mizuki Tracking Mission",
+      "Bikochu Search Mission",
+      "Kurosuki Family Removal Mission",
+      "Gosunkugi Capture Mission",
+      "Cursed Warrior Extermination Mission",
+      "Kaima Capture Mission",
+      "Buried Gold Excavation Mission",
+      "Star Guard Mission",
+      "Peddlers Escort Mission",
+      "Third Great Beast",
+      "Konoha Plans Recapture Mission",
+      "Yakumo Kurama Rescue Mission",
+      "Gantetsu Escort Mission",
+      "Menma Memory Search Mission",
+      "Sunagakure Support Mission"
+    ]
+  },
+  "episodes": {
+    "s0e4": {
+      "hide_season_text": true,
+      "template_ids": [],
+      "title": "Ninja Clash in the Land of Snow",
+      "match_title": false,
+      "episode_text": "Movie 1"
+    },
+    "s0e5": {
+      "hide_season_text": true,
+      "template_ids": [],
+      "title": "Legend of the Stone of Gelel",
+      "match_title": false,
+      "episode_text": "Movie 2"
+    },
+    "s0e7": {
+      "hide_season_text": true,
+      "template_ids": [],
+      "title": "Guardians of the Crescent Moon Kingdom",
+      "match_title": false,
+      "episode_text": "Movie 3"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Naruto (Anime)",
+      "color": "rgb(235,142,52)",
+      "file": "naruto.ttf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        "\u016b",
+        "\u016a",
+        "\u2026",
+        "\u014d",
+        "\u014c",
+        "\u2019",
+        "\u2013",
+        "\u00e9",
+        "\u00c9"
+      ],
+      "replacements_out": [
+        "u",
+        "U",
+        "...",
+        "o",
+        "O",
+        "'",
+        "-",
+        "e",
+        "E"
+      ],
+      "stroke_width": 5.0
+    }
+  ],
+  "templates": [
+    {
+      "name": "Naruto",
+      "card_type": "anime",
+      "font_id": 0,
+      "episode_text_format": "Episode {absolute_episode_number}",
+      "translations": [
+        {
+          "language_code": "ja",
+          "data_key": "kanji"
+        }
+      ],
+      "extra_keys": [
+        "kanji_vertical_shift",
+        "kanji_color"
+      ],
+      "extra_values": [
+        "40",
+        "rgb(235,142,52)"
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "A modification of my other Blueprint which features a black stroke on the title and kanji to match the logo for Shippuden. Includes the arc season titles, absolute episode numbering, and titles for the movies."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-27T23:13:06"
+}

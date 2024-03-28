@@ -1,0 +1,165 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "season_title_ranges": [
+      "1-32",
+      "33-53",
+      "54-71",
+      "72-88",
+      "89-112",
+      "113-118",
+      "119-120",
+      "121-126",
+      "127-133",
+      "134-143",
+      "144-151",
+      "152-169",
+      "170-171",
+      "172-175",
+      "176-196",
+      "197-214",
+      "215-222",
+      "223-242",
+      "243-256",
+      "257-260",
+      "261-270",
+      "271-271",
+      "272-289",
+      "290-295",
+      "296-310",
+      "311-311",
+      "312-321",
+      "322-348",
+      "349-361",
+      "362-375",
+      "376-377",
+      "378-388",
+      "389-390",
+      "391-393",
+      "394-413",
+      "414-427",
+      "428-431",
+      "432-450",
+      "451-458",
+      "458-468",
+      "469-469",
+      "470-479",
+      "480-483",
+      "484-488",
+      "489-493",
+      "494-500"
+    ],
+    "season_title_values": [
+      "Kazekage Rescue Mission",
+      "Tenchi Bridge Reconnaissance Mission",
+      "Twelve Guardian Ninja",
+      "Akatsuki Suppression Mission",
+      "Three-Tails\u2019 Appearance",
+      "Itachi Pursuit Mission",
+      "Chronicals: A Boy\u2019s life on the Battlefield",
+      "Itachi Pursuit Mission",
+      "Tale of Jiraiya the Gallant",
+      "Fated Battle Between Brothers",
+      "Six-Tails Unleashed",
+      "Pain\u2019s Assault",
+      "Big Adventure!",
+      "Pain\u2019s Assault",
+      "Past Arc: The Locus Of Konoha",
+      "Five Kage Summit",
+      "Fourth Shinobi World War: Countdown",
+      "Paradise Life On A Boat",
+      "Fourth Shinobi World War: Countdown",
+      "Sasuke/Naruto Flashbacks",
+      "Fourth Shinobi World War: Confrontation",
+      "Road to Sakura",
+      "Fourth Shinobi World War: Confrontation",
+      "Power",
+      "Fourth Shinobi World War: Confrontation",
+      "Prologue of Road to Ninja",
+      "Fourth Shinobi World War: Confrontation",
+      "Fourth Shinobi World War: Climax",
+      "Kakashi's Anbu Arc",
+      "Fourth Shinobi World War: Climax",
+      "Mecha Naruto",
+      "Birth of the Ten-Tails' Jinch\u016briki",
+      "Hanabi",
+      "Birth of the Ten-Tails' Jinch\u016briki",
+      "In Naruto's Footsteps",
+      "Birth of the Ten-Tails' Jinch\u016briki",
+      "Kaguya Otsutsuki Strikes",
+      "Jiraiya Shinobi Handbook: The Tale Of Naruto The Hero",
+      "Itachi Shinden Book: Light And Darkness",
+      "Kaguya Otsutsuki Strikes",
+      "A Special Mission",
+      "Kaguya Otsutsuki Strikes",
+      "Childhood",
+      "Sasuke Shinden: Book Of Sunrise",
+      "Shikamaru Hiden: A Cloud Drifting In Silent Darkness",
+      "Konoha Hiden: The Perfect Day For A Wedding"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Naruto (Anime)",
+      "color": "rgb(235,142,52)",
+      "file": "naruto.ttf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        "\u016b",
+        "\u016a",
+        "\u2026",
+        "\u014d",
+        "\u014c",
+        "\u2019",
+        "\u2013",
+        "\u00e9",
+        "\u00c9"
+      ],
+      "replacements_out": [
+        "u",
+        "U",
+        "...",
+        "o",
+        "O",
+        "'",
+        "-",
+        "e",
+        "E"
+      ],
+      "stroke_width": 5.0
+    }
+  ],
+  "templates": [
+    {
+      "name": "Naruto",
+      "card_type": "anime",
+      "font_id": 0,
+      "episode_text_format": "Episode {absolute_episode_number}",
+      "translations": [
+        {
+          "language_code": "ja",
+          "data_key": "kanji"
+        }
+      ],
+      "extra_keys": [
+        "kanji_vertical_shift",
+        "kanji_color"
+      ],
+      "extra_values": [
+        "40",
+        "rgb(235,142,52)"
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "A modification of my other Blueprint which features a black stroke on the title and kanji to match the logo for Shippuden. Includes the arc season titles, and absolute episode numbering."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-27T23:11:03"
+}
