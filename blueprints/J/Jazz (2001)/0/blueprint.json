@@ -1,0 +1,74 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Gumbo",
+      "season_text": "Beginnings to 1917"
+    },
+    "s1e2": {
+      "title": "The Gift",
+      "season_text": "1917-1924"
+    },
+    "s1e3": {
+      "title": "Our Language",
+      "season_text": "1924 -1929"
+    },
+    "s1e4": {
+      "title": "The True Welcome",
+      "season_text": "1929-1934"
+    },
+    "s1e5": {
+      "title": "Swing: Pure Pleasure",
+      "season_text": "1935-1937"
+    },
+    "s1e6": {
+      "title": "Swing: The Velocity of Celebration",
+      "season_text": "1937-1939"
+    },
+    "s1e7": {
+      "title": "Dedicated to Chaos",
+      "season_text": "1940-1945"
+    },
+    "s1e8": {
+      "title": "Risk",
+      "season_text": "1945-1955"
+    },
+    "s1e9": {
+      "title": "The Adventure",
+      "season_text": "1956-1960"
+    },
+    "s1e10": {
+      "title": "A Masterpiece by Midnight",
+      "season_text": "1960 to the Present"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-28T14:24:54"
+}
