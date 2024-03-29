@@ -1,0 +1,69 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Get Action",
+      "season_text": "(1858-1901)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "In the Arena",
+      "season_text": "(1901-1910)"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Fire of Life",
+      "season_text": "(1910-1919)"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "The Storm",
+      "season_text": "(1920-1933)"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "The Rising Road",
+      "season_text": "(1933-1939)"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "The Common Cause",
+      "season_text": "(1939-1944)"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "A Strong and Active Faith",
+      "season_text": "(1944-1962)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-03-29T00:22:53"
+}
