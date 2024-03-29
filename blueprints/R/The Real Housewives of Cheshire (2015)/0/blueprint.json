@@ -1,0 +1,73 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "#be424a"
+    ],
+    "auto_split_title": true,
+    "font_id": 0,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Housewives",
+      "file": "housewives.otf",
+      "replacements_in": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(Part One)",
+        "(Part Two)",
+        "(Part Three)",
+        "(Part Four)",
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "Part 4",
+        "(Part 1)",
+        "(Part 2)",
+        "(Part 3)",
+        "(Part 4)"
+      ],
+      "replacements_out": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "stroke_width": 1.3
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Standard card type with a thematic Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-29T04:05:19"
+}
