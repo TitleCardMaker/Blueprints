@@ -1,38 +1,32 @@
 {
   "series": {
     "font_id": 0,
-    "card_type": "anime",
-    "hide_season_text": true,
-    "translations": [
-      {
-        "language_code": "ja",
-        "data_key": "kanji"
-      }
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "#c6161b",
-      "#c6161b"
-    ]
+    "card_type": "Yozora/SlimTitleCard"
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Episode 1"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Episode 2"
+    }
   },
   "fonts": [
     {
-      "name": "Sh\u014dgunJack",
-      "color": "#d4ad4e",
-      "title_case": "title",
+      "name": "Shogun",
+      "color": "#FF0000",
       "delete_missing": true,
-      "file": "MADEC___.TTF"
+      "file": "The Darkest Night Personal Use.ttf"
     }
   ],
-  "creator": "Reicha7",
+  "creator": "thedinz",
   "description": [
-    "Anime style card with custom Font and coloring to match the Series poster."
+    "Using a red Gothic Font that has a similar feel to the Font used for the show. Pairing this with Yozora/SlimTitleCard to get close to the look we want."
   ],
   "previews": [
     "preview0.jpg"
   ],
-  "created": "2024-03-01T06:53:20"
+  "created": "2024-02-29T00:09:09"
 }

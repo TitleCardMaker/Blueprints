@@ -1,0 +1,87 @@
+{
+  "series": {
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Turks and Caicos",
+      "Ex-Wives Club",
+      "Thailand",
+      "Ex-Wives Club II"
+    ],
+    "extra_keys": [
+      "stroke_color"
+    ],
+    "extra_values": [
+      "#f48148"
+    ],
+    "auto_split_title": true,
+    "source_files": [],
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "Housewives",
+      "file": "housewives.otf",
+      "replacements_in": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(Part One)",
+        "(Part Two)",
+        "(Part Three)",
+        "(Part Four)",
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "Part 4",
+        "(Part 1)",
+        "(Part 2)",
+        "(Part 3)",
+        "(Part 4)"
+      ],
+      "replacements_out": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "stroke_width": 1.3
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Standard card type with a thematic Font. Custom season titles since this one is anthological, in a sense."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-03-29T03:54:53"
+}
