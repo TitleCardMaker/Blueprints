@@ -1,0 +1,48 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "line_color",
+      "line_position"
+    ],
+    "extra_values": [
+      "red",
+      "bottom"
+    ],
+    "match_titles": false,
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Golden Door",
+      "season_text": "(Beginnings - 1938)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Yearning to Breathe Free",
+      "season_text": "(1938 - 1942)"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Homeless, Tempest-Tossed",
+      "season_text": "(1942 - )"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Burns",
+      "file": "burns.ttf"
+    }
+  ],
+  "creator": "MrSaiclops",
+  "description": [
+    "Overline card with dates in place of episode/season index."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-29T00:20:03"
+}
