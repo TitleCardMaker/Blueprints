@@ -3,22 +3,12 @@
     "font_id": 0,
     "card_type": "Yozora/SlimTitleCard"
   },
-  "episodes": {
-    "s1e1": {
-      "template_ids": [],
-      "title": "Episode 1"
-    },
-    "s1e2": {
-      "template_ids": [],
-      "title": "Episode 2"
-    }
-  },
   "fonts": [
     {
       "name": "Shogun",
-      "color": "#FF0000",
+      "color": "red",
       "delete_missing": true,
-      "file": "The Darkest Night Personal Use.ttf"
+      "file": "The Darkest Night.ttf"
     }
   ],
   "creator": "thedinz",

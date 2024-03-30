@@ -5,14 +5,15 @@
       "stroke_color"
     ],
     "extra_values": [
-      "#1496b8"
+      "#F48148"
     ],
-    "font_id": 0
+    "auto_split_title": true,
+    "font_id": 0,
+    "source_files": []
   },
   "fonts": [
     {
       "name": "Housewives",
-      "delete_missing": true,
       "file": "housewives.otf",
       "replacements_in": [
         "(1)",
@@ -63,11 +64,11 @@
   ],
   "creator": "MrSaiclops",
   "description": [
-    "Standard card with a thematic Font."
+    "Standard card type with a thematic Font."
   ],
   "previews": [
     "preview0.jpg",
     "preview1.jpg"
   ],
-  "created": "2024-03-26T23:36:06"
+  "created": "2024-03-30T03:49:05"
 }

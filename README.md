@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `539` Blueprints available for `445` Series, submitted by `24` Creators.
+There are currently `543` Blueprints available for `448` Series, submitted by `24` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -23,8 +23,8 @@ Creators with the most Blueprint Submissions:
 | :---: | :--- |
 | CollinHeist | 244 |
 | Reicha7 | 135 |
+| MrSaiclops | 35 |
 | flowcool | 33 |
-| MrSaiclops | 31 |
 | anonfawkes | 29 |
 | rtgurley | 14 |
 | DeepDaddyTTV | 12 |
@@ -59,6 +59,6 @@ There are currently `8` Blueprint Sets available:
 | `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
 | `6` | The Defenders | Marvel's Daredevil [0]<br>Marvel's The Defenders [0]<br>Marvel's Luke Cage [0]<br>Marvel's Jessica Jones [0]<br>+1 more |
-| `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+6 more |
+| `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+9 more |
 | `8` | Naruto | Naruto Shippuden [1]<br>Naruto [1] |
 

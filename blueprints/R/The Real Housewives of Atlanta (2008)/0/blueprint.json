@@ -27,14 +27,14 @@
         "Part Two",
         "Part Three",
         "Part Four",
-        "Part 1",
-        "Part 2",
-        "Part 3",
-        "Part 4",
         "(Part 1)",
         "(Part 2)",
         "(Part 3)",
-        "(Part 4)"
+        "(Part 4)",
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "Part 4"
       ],
       "replacements_out": [
         "I",
