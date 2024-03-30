@@ -1,7 +1,7 @@
 from json import load as json_load, JSONDecodeError
 from pathlib import Path
 
-from re import compile as re_compile, sub as re_sub, IGNORECASE
+from re import compile as re_compile
 from typing import Iterator
 
 from models.models import Blueprint
