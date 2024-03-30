@@ -1,0 +1,135 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nThe Breaking of the World",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e2": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nThe Fall of Manetheren",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e3": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nThe Greatest Warder",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e4": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nSaidin, Saidar, Stone",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e5": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nThe White Tower",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e6": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Origins:\\nAn Ogier's Longing",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e7": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e8": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Explaining the\\nDragon Reborn",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e9": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 1",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e10": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 2",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e11": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 3",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e12": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 4",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e13": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 5",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e14": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 6",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e15": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 7",
+      "match_title": false,
+      "auto_split_title": false
+    },
+    "s0e16": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Look Inside:\\nEpisode 8",
+      "match_title": false,
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Wheel of Time",
+      "delete_missing": true,
+      "file": "EBGaramond-VariableFont_wght.ttf",
+      "size": 1.25,
+      "color": "#908370"
+    }
+  ],
+  "creator": "inapptom",
+  "description": [
+    "Standard card type with custom font and colour to match show and logo. Season name hidden. Specials reformatted to hide episode number and break lines after colons."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-03-30T17:33:42"
+}
