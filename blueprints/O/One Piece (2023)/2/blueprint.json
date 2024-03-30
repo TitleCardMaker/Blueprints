@@ -1,0 +1,26 @@
+{
+  "series": {
+    "card_type": "textless",
+    "template_ids": [],
+    "source_files": [
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e3.jpg",
+      "s1e2.jpg",
+      "s1e6.jpg",
+      "s1e1.jpg",
+      "s1e4.jpg",
+      "s1e5.jpg"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Textless cards using the custom \"One Piece\" title card from each episode. Doesn't display any episode names but the art is great."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-03-30T17:35:29"
+}
