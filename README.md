@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `547` Blueprints available for `448` Series, submitted by `24` Creators.
+There are currently `549` Blueprints available for `449` Series, submitted by `24` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -22,15 +22,15 @@ Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
 | CollinHeist | 246 |
-| Reicha7 | 136 |
+| Reicha7 | 137 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
 | anonfawkes | 29 |
 | rtgurley | 14 |
 | DeepDaddyTTV | 12 |
 | BenevolentNPC | 11 |
+| inapptom | 11 |
 | azuravian | 10 |
-| inapptom | 10 |
 | Departed | 7 |
 | thedinz | 7 |
 | GrazedNutsack | 5 |
@@ -49,7 +49,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `8` Blueprint Sets available:
+There are currently `9` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -61,4 +61,5 @@ There are currently `8` Blueprint Sets available:
 | `6` | The Defenders | Marvel's Daredevil [0]<br>Marvel's The Defenders [0]<br>Marvel's Luke Cage [0]<br>Marvel's Jessica Jones [0]<br>+1 more |
 | `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+9 more |
 | `8` | Naruto | Naruto Shippuden [1]<br>Naruto [1] |
+| `9` | Ken Burns | The U.S. and the Holocaust [0]<br>The Dust Bowl [0]<br>The American Buffalo [0]<br>The Vietnam War [0]<br>+9 more |
 
