@@ -1,4 +1,4 @@
-# Shōgun (2024)
+# Shogun (2024)
 
 There are `4` Blueprint(s) available for this Series.
 
