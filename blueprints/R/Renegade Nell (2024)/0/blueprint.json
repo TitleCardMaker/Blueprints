@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_width"
+    ],
+    "extra_values": [
+      "8"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Renegade Nell",
+      "color": "#fcefd1",
+      "file": "LibreBPlassery-Regular.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame style card with a matching color and Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T17:04:38"
+}

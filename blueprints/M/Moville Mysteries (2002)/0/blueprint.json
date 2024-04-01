@@ -1,0 +1,43 @@
+{
+  "series": {
+    "card_type": "textless",
+    "template_ids": [],
+    "source_files": [
+      "s2e5.jpg",
+      "s1e7.jpg",
+      "s2e8.jpg",
+      "s1e13.jpg",
+      "s1e8.jpg",
+      "s1e3.jpg",
+      "s2e7.jpg",
+      "s2e4.jpg",
+      "s2e12.jpg",
+      "s2e3.jpg",
+      "s1e11.jpg",
+      "logo.png",
+      "s1e9.jpg",
+      "s2e6.jpg",
+      "s2e2.jpg",
+      "s1e2.jpg",
+      "s1e12.jpg",
+      "s2e11.jpg",
+      "s1e6.jpg",
+      "s1e1.jpg",
+      "s1e4.jpg",
+      "s1e5.jpg",
+      "s1e10.jpg",
+      "s2e13.jpg",
+      "s2e10.jpg",
+      "s2e9.jpg",
+      "s2e1.jpg"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Textless card type using the in-episode title cards (adjusted to fit nicely into 16:9). Also included the show's logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T17:01:59"
+}

@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "The Rise and Fall of Boris Johnson",
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple standard card for TV shows without episode names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T17:03:27"
+}
