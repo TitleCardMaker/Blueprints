@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(212, 4, 12)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Tokyo Vice",
+      "file": "MSung PRC Xbold.ttf",
+      "interline_spacing": -35,
+      "size": 1.1,
+      "title_case": "upper",
+      "vertical_shift": -15
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a custom, matching Font and the frame recolored red."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T21:03:55"
+}

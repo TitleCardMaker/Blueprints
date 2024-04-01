@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "episode_text_format": "Episode {episode_number}",
+    "extra_keys": [
+      "episode_text_color",
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "rgb(196, 196, 180)",
+      "10 0 10 0"
+    ]
+  },
+  "episodes": {
+    "s1e6": {
+      "auto_split_title": false,
+      "title": "Couples Therapy\\n(Naked & Afraid)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Mr. & Mrs. Smith",
+      "color": "rgb(233,188,66)",
+      "file": "stolzl_regular.otf",
+      "title_case": "lower",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card using a free variation of the Series' Font in yellow, with the Series name and season number omitted from the episode text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T21:35:27"
+}
