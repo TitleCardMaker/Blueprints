@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "landscape",
+    "extra_keys": [
+      "box_color"
+    ],
+    "extra_values": [
+      "rgb(214, 4, 4)"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Landscape card with the box recolored red."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-01T22:58:42"
+}
