@@ -49,7 +49,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `9` Blueprint Sets available:
+There are currently `10` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -62,4 +62,5 @@ There are currently `9` Blueprint Sets available:
 | `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+9 more |
 | `8` | Naruto | Naruto Shippuden [1]<br>Naruto [1] |
 | `9` | Ken Burns | The U.S. and the Holocaust [0]<br>The Dust Bowl [0]<br>The American Buffalo [0]<br>The Vietnam War [0]<br>+9 more |
+| `10` | David Attenborough Documentaries | Planet Earth II [1]<br>Blue Planet II [1]<br>Planet Earth III [0]<br>Mammals [0]<br>+2 more |
 
