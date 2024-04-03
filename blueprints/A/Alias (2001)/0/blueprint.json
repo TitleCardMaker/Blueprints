@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Alias",
+      "color": "white",
+      "file": "Alias.ttf",
+      "size": 1.25,
+      "vertical_shift": 25
+    }
+  ],
+  "creator": "Starpc",
+  "description": [
+    "Standard card type with a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-03T03:51:47"
+}
