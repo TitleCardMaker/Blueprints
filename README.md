@@ -50,7 +50,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `10` Blueprint Sets available:
+There are currently `12` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -64,4 +64,6 @@ There are currently `10` Blueprint Sets available:
 | `8` | Naruto | Naruto Shippuden [1]<br>Naruto [1] |
 | `9` | Ken Burns | The U.S. and the Holocaust [0]<br>The Dust Bowl [0]<br>The American Buffalo [0]<br>The Vietnam War [0]<br>+9 more |
 | `10` | David Attenborough Documentaries | Planet Earth II [1]<br>Blue Planet II [1]<br>Planet Earth III [0]<br>Mammals [0]<br>+2 more |
+| `11` | Castlevania | Castlevania: Nocturne [0]<br>Castlevania [0] |
+| `12` | Pokémon Collection | Pokémon Concierge [0]<br>Pokémon Evolutions [0]<br>Pokémon: Twilight Wings [0]<br>Pokémon [2]<br>+6 more |
 
