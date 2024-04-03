@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "extra_keys": [
+      "override_bw"
+    ],
+    "extra_values": [
+      "bw"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Godzilla",
+      "color": "red",
+      "file": "OPTICompit-Regular.otf",
+      "size": 1.5,
+      "stroke_width": 0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Retro Style card with Godzilla 2014 font all coloured to look like a classified photo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-03T03:30:27"
+}
