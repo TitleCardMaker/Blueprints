@@ -1,0 +1,49 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "rgb(28, 184, 200)",
+      "index",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s2e8.jpg",
+      "s1e4-mask.webp",
+      "s1e6-mask.webp",
+      "s1e8.jpg",
+      "s2e8-mask.webp",
+      "s2e3.jpg",
+      "s2e2-mask.webp",
+      "s2e3-mask.webp",
+      "s2e2.jpg",
+      "s1e6.jpg",
+      "s1e4.jpg",
+      "s1e8-mask.webp"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Pantheon",
+      "file": "Bartkey.otf",
+      "interline_spacing": -30,
+      "interword_spacing": 40,
+      "size": 1.2
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card using a custom Font that closely matches the Series logo. The frame is recolored blue, and custom mask images are includes for a few select Episodes."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-03T03:52:51"
+}
