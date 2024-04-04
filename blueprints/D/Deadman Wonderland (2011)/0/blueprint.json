@@ -1,0 +1,49 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "kanji_font_size",
+      "kanji_stroke_color",
+      "kanji_stroke_width",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "rgba(125,57,48,255)",
+      "10",
+      "white",
+      "1.5",
+      "rgba(125,57,48,255)",
+      "3.5",
+      "rgba(125,57,48,255)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Deadman Wonderland",
+      "color": "white",
+      "title_case": "upper",
+      "size": 1.5,
+      "stroke_width": 4.0,
+      "vertical_shift": -30,
+      "file": "File.otf"
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Anime style card with a custom Font that closely matches the text logo. Also colored using the colors of the main character's body Shiro."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-04T17:33:06"
+}
