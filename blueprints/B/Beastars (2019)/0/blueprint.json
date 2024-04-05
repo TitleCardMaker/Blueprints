@@ -1,0 +1,106 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "rgb(236, 4, 68)",
+      "30"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Beastars",
+      "file": "Fonstars.otf",
+      "interline_spacing": 30,
+      "replacements_in": [
+        "'",
+        ",",
+        "<",
+        "@",
+        "/",
+        ".",
+        "*",
+        "+",
+        "{",
+        "[",
+        ";",
+        "%",
+        "_",
+        ")",
+        "}",
+        "$",
+        "]",
+        "!",
+        "#",
+        ":",
+        "=",
+        "^",
+        "(",
+        "\\",
+        "?",
+        ">",
+        "`",
+        "|",
+        "\"",
+        "&",
+        "-",
+        "\u2019"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "'"
+      ],
+      "stroke_width": 2.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with kanji, absolute numbering, and a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-05T05:07:39"
+}

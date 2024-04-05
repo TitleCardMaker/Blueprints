@@ -1,0 +1,40 @@
+{
+  "series": {
+    "card_type": "banner",
+    "font_color": "rgb(172,228,249)"
+  },
+  "episodes": {
+    "s2e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Smolder\\nto Life",
+      "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "A Single\\nTrade",
+      "match_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Eternal\\nEngineer",
+      "match_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Tortoise\\nand the Hare",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Banner card with the banner and font recolored to match some of the promotional artwork. Some custom title splits are included for some Episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-05T05:05:34"
+}
