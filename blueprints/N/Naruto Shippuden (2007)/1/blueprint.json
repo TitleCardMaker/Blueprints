@@ -145,10 +145,12 @@
       ],
       "extra_keys": [
         "kanji_vertical_shift",
+        "kanji_stroke_width",
         "kanji_color"
       ],
       "extra_values": [
         "40",
+        "3.0",
         "rgb(235,142,52)"
       ]
     }
