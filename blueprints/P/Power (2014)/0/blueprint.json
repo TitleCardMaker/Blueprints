@@ -1,0 +1,44 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "standard",
+      "episode_text_format": "Episode {to_roman_numeral(episode_number)}",
+      "extra_keys": [
+        "season_text_format"
+      ],
+      "extra_values": [
+        "Book {to_roman_numeral(season_number)}"
+      ],
+      "name": "Power Universe",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Power",
+      "file": "LubalinGraphIT.otf",
+      "kerning": 4.0,
+      "interline_spacing": -40,
+      "interword_spacing": -5,
+      "size": 1.1,
+      "stroke_width": 1.5,
+      "title_case": "upper",
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using a free variation of the Series Font. The episode number and season numbers are written in roman numerals to match the naming convention of the other Series in the Power Universe."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-05T00:22:53"
+}
