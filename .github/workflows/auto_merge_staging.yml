@@ -106,6 +106,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: refs/heads/staging
 
+      # Get list of open issues that are labeled as "created"
+      - name: Get Open Issues
+        id: get_issues
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests,blueprint&state=open
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: (Python) Send Discord Message
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
