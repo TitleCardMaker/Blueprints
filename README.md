@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `567` Blueprints available for `464` Series, submitted by `25` Creators.
+There are currently `571` Blueprints available for `468` Series, submitted by `25` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,7 +21,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 252 |
+| CollinHeist | 256 |
 | Reicha7 | 147 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
@@ -50,7 +50,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `13` Blueprint Sets available:
+There are currently `14` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -67,4 +67,5 @@ There are currently `13` Blueprint Sets available:
 | `11` | Castlevania | Castlevania: Nocturne [0]<br>Castlevania [0] |
 | `12` | Pokémon Collection | Pokémon Concierge [0]<br>Pokémon Evolutions [0]<br>Pokémon: Twilight Wings [0]<br>Pokémon [2]<br>+6 more |
 | `13` | Digimon Collection | Digimon Adventure 20th Memorial Story [0]<br>Digimon Adventure: 2020 [0]<br>Digimon Tamers [0]<br>Digimon Frontier [0]<br>+1 more |
+| `14` | Power Universe | Power [0]<br>Power Book IV: Force [0]<br>Power Book III: Raising Kanan [0]<br>Power Book II: Ghost [0] |
 
