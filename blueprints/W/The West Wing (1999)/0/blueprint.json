@@ -1,0 +1,59 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "line_color"
+    ],
+    "extra_values": [
+      "rgb(202, 156, 4)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "West Wing",
+      "file": "Trajan Bold.ttf",
+      "replacements_in": [
+        "~",
+        "^",
+        ">",
+        "+",
+        "\\",
+        "|",
+        "'",
+        "\"",
+        "<",
+        "@",
+        "#",
+        "="
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "stroke_width": 0.5,
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Overline card with a custom Font matching the Series logo, and the line recolored gold."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-05T05:14:30"
+}
