@@ -169,7 +169,7 @@ jobs:
 
   merge-pull-request:
     # needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow, notify-discord]
-    needs: [create-pull-request, update-artifacts]
+    needs: [create-pull-request, update-artifacts-and-notify-discord]
     if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     runs-on: ubuntu-latest
     steps:
