@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(145, 4, 4)"
+    ],
+    "font_color": "rgb(167, 13, 4)",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Calligraphy card with the text recolored to match the Series logo (included)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-07T03:50:28"
+}
