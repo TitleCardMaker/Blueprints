@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "kanji_stroke_color",
+      "kanji_stroke_width",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#123f9e",
+      "white",
+      "#123f9e",
+      "white",
+      "0.75",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Handwriting",
+      "color": "#123f9e",
+      "stroke_width": 1.5,
+      "file": "Original Handwriting.ttf",
+      "size": 0.75
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom Font to match the sketchy aspects of the logo and a shade of blue taken from the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-08T03:11:05"
+}

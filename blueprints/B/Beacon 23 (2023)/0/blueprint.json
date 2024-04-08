@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "extra_keys": [
+      "divider_color"
+    ],
+    "extra_values": [
+      "Red"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Neo Sans Regular",
+      "file": "Neo Sans Regular.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Departed69",
+  "description": [
+    "Uses the \"Divider\" card type with a Font to match the series title font, and a red divider to match the color in the title font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-08T03:13:23"
+}
