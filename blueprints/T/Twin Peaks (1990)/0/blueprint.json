@@ -1,0 +1,136 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "episode_text_format": "Part {episode_number}",
+    "season_title_ranges": [
+      "3"
+    ],
+    "season_title_values": [
+      "The Return"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color"
+    ],
+    "extra_values": [
+      "red",
+      "#39a11e"
+    ]
+  },
+  "episodes": {
+    "s0e2": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": [],
+      "title": "Fire Walk with Me",
+      "match_title": false
+    },
+    "s3e1": {
+      "template_ids": [],
+      "title": "My log has a message for you",
+      "match_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "The stars turn and a time presents itself",
+      "match_title": false
+    },
+    "s3e3": {
+      "template_ids": [],
+      "title": "Call for help",
+      "match_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "...brings back some memories",
+      "match_title": false
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "Case files",
+      "match_title": false
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "Don't die",
+      "match_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "There's a body all right",
+      "match_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "Gotta light?",
+      "match_title": false
+    },
+    "s3e9": {
+      "template_ids": [],
+      "title": "This is the chair",
+      "match_title": false
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "Laura is the one",
+      "match_title": false
+    },
+    "s3e11": {
+      "template_ids": [],
+      "title": "There's fire where you are going",
+      "match_title": false
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "Let's rock",
+      "match_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "What story is that, Charlie?",
+      "match_title": false
+    },
+    "s3e14": {
+      "template_ids": [],
+      "title": "We are like the dreamer",
+      "match_title": false
+    },
+    "s3e15": {
+      "template_ids": [],
+      "title": "There's some fear in letting go",
+      "match_title": false
+    },
+    "s3e16": {
+      "template_ids": [],
+      "title": "No knock, no doorbell",
+      "match_title": false
+    },
+    "s3e17": {
+      "template_ids": [],
+      "title": "The past dictates the future",
+      "match_title": false
+    },
+    "s3e18": {
+      "template_ids": [],
+      "title": "What is your name?",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Twin Peaks",
+      "color": "#793f00",
+      "file": "Objectivity-Bold.otf",
+      "stroke_width": 1.5
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard card type with a custom Font designed to match series text. Episode title overrides are included to use the taglines for season 3 as the episode names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-09T17:35:55"
+}
