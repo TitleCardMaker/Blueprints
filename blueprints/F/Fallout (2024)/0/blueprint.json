@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "inset",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "hide_line"
+    ],
+    "extra_values": [
+      "True"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Fallout",
+      "file": "Overseer Italic.otf",
+      "color": "rgb(252, 212, 60)"
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Inset card type with the season and episode text hidden. Uses the Fallout Font with the lightening bolt \"O\" and yellow color to match the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-11T13:34:17"
+}
