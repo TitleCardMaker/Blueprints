@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color"
+    ],
+    "extra_values": [
+      "#f2ebce",
+      "#f2ebce"
+    ],
+    "template_ids": [],
+    "font_color": "#9d9d51",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Big Lez",
+      "file": "DreamyBubbleDEMO-DEMO.ttf",
+      "kerning": -15.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card with custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-10T23:51:32"
+}

@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "font_color": "#c37848",
+    "source_files": [
+      "s1e5.jpg",
+      "s1e3.jpg",
+      "s1e4.jpg",
+      "s0e1.jpg",
+      "s1e6.jpg",
+      "s1e1.jpg",
+      "s1e2.jpg"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "WATER YOU\\nTALKINABEET",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Big Lez",
+      "file": "DreamyBubbleDEMO-DEMO.ttf",
+      "kerning": -15.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card (with a textless for the special) using custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-10T23:41:25"
+}
