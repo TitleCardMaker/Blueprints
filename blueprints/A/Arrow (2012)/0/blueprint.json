@@ -1,25 +1,37 @@
 {
   "series": {
-    "card_type": "comic book",
     "extra_keys": [
-      "title_text_rotation_angle",
-      "index_text_rotation_angle",
       "banner_fill_color"
     ],
     "extra_values": [
-      "random[-4, 4]",
-      "random[-4, -3]",
       "rgba(122,249,121,0.6)"
     ],
-    "template_ids": []
+    "template_ids": [
+      0
+    ]
   },
   "episodes": {},
-  "templates": [],
+  "templates": [
+    {
+      "card_type": "comic book",
+      "extra_keys": [
+        "title_text_rotation_angle",
+        "index_text_rotation_angle"
+      ],
+      "extra_values": [
+        "random[-4, 4]",
+        "random[-4, -3]"
+      ],
+      "name": "Comic Book",
+      "filters": []
+    }
+  ],
   "fonts": [],
   "creator": "CollinHeist",
   "description": [
     "Comic Book card with randomized banner angles for the title and index text.",
-    "The banners are colored to match the \"Arrow\" green used in the original comics."
+    "The banners are colored to match the \"Arrow\" green used in the original comics.",
+    "Includes a Template for the other DC comic book series in the Set."
   ],
   "created": "2023-08-07T20:41:56",
   "previews": [
