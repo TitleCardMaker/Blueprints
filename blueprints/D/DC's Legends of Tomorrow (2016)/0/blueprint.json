@@ -4,13 +4,13 @@
       "banner_fill_color"
     ],
     "extra_values": [
-      "rgba(122,249,121,0.6)"
+      "rgba(1, 107, 104,0.6)"
     ],
     "template_ids": [
       0
-    ]
+    ],
+    "source_files": []
   },
-  "episodes": {},
   "templates": [
     {
       "card_type": "comic book",
@@ -26,15 +26,13 @@
       "filters": []
     }
   ],
-  "fonts": [],
-  "creator": "CollinHeist",
+  "creator": "CollinHeist, archigos",
   "description": [
     "Comic Book card with randomized banner angles for the title and index text.",
-    "The banners are colored to match the \"Arrow\" green used in the original comics.",
     "Includes a Template for the other DC comic book series in the Set."
   ],
-  "created": "2023-08-07T20:41:56",
   "previews": [
-    "preview.jpg"
-  ]
+    "preview0.jpg"
+  ],
+  "created": "2024-04-11T13:36:10"
 }

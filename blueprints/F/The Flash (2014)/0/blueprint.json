@@ -1,23 +1,34 @@
 {
   "series": {
     "font_id": 0,
-    "card_type": "comic book",
     "extra_keys": [
-      "title_text_rotation_angle",
-      "index_text_rotation_angle",
       "banner_fill_color",
       "text_box_edge_color"
     ],
     "extra_values": [
-      "random[-4, 4]",
-      "random[-4, -3]",
       "rgba(235,74,44,0.6)",
       "rgb(223,175,74)"
     ],
-    "template_ids": []
+    "template_ids": [
+      0
+    ]
   },
   "episodes": {},
-  "templates": [],
+  "templates": [
+    {
+      "card_type": "comic book",
+      "extra_keys": [
+        "title_text_rotation_angle",
+        "index_text_rotation_angle"
+      ],
+      "extra_values": [
+        "random[-4, 4]",
+        "random[-4, -3]"
+      ],
+      "name": "Comic Book",
+      "filters": []
+    }
+  ],
   "fonts": [
     {
       "name": "The Flash",
@@ -28,7 +39,8 @@
   "creator": "CollinHeist",
   "description": [
     "Comic Book card with randomized banner angles for the title and index text.",
-    "The text uses the Series font, the banners are colored red, and the box edges are golden."
+    "The text uses the Series font, the banners are colored red, and the box edges are golden.",
+    "Includes a Template for the other DC comic book series in the Set."
   ],
   "created": "2023-08-06T00:00:00",
   "previews": [
