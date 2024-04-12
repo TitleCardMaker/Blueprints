@@ -1,0 +1,38 @@
+{
+  "series": {
+    "hide_season_text": true,
+    "extra_keys": [
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "rgba(242, 138, 43, 0.6)"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "card_type": "comic book",
+      "extra_keys": [
+        "title_text_rotation_angle",
+        "index_text_rotation_angle"
+      ],
+      "extra_values": [
+        "random[-4, 4]",
+        "random[-4, -3]"
+      ],
+      "name": "Comic Book"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Comic Book card with randomized banner angles for the title and index text. Season text is hidden (as there is only one season).",
+    "Includes a Template for the other DC comic book series in the Set."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-12T06:57:16"
+}
