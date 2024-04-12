@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(149,31,22)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Lucifer",
+      "file": "Supernatural Knight.ttf",
+      "interline_spacing": 10,
+      "size": 0.8,
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a custom Font that closely matches the Series logo and the frame recolored red."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-12T06:50:36"
+}
