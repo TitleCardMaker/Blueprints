@@ -1,0 +1,67 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Progressive",
+      "Alternative",
+      "Grunge",
+      "Shoegaze"
+    ],
+    "source_files": [
+      "s3e6.jpg",
+      "s3e4.jpg",
+      "s3e5.jpg",
+      "s3e1.jpg",
+      "s3e3.jpg",
+      "s3e2.jpg"
+    ]
+  },
+  "episodes": {
+    "s3e1": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s3e2": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s3e3": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s3e4": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s3e5": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s3e6": {
+      "card_type": "textless",
+      "template_ids": []
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Identical to my other Blueprint, but includes the official Title Cards for season 3 (with those Episodes set as textless)."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-12T15:47:53"
+}

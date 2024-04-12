@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `588` Blueprints available for `484` Series, submitted by `27` Creators.
+There are currently `591` Blueprints available for `485` Series, submitted by `27` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,7 +21,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 263 |
+| CollinHeist | 266 |
 | Reicha7 | 154 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
@@ -70,6 +70,6 @@ There are currently `16` Blueprint Sets available:
 | `12` | Pokémon Collection | Pokémon Concierge [0]<br>Pokémon Evolutions [0]<br>Pokémon: Twilight Wings [0]<br>Pokémon [2]<br>+6 more |
 | `13` | Digimon Collection | Digimon Adventure 20th Memorial Story [0]<br>Digimon Adventure: 2020 [0]<br>Digimon Tamers [0]<br>Digimon Frontier [0]<br>+1 more |
 | `14` | Power Universe | Power [0]<br>Power Book IV: Force [0]<br>Power Book III: Raising Kanan [0]<br>Power Book II: Ghost [0] |
-| `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+2 more |
-| `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0] |
+| `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+1 more |
+| `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
 
