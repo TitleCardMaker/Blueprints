@@ -1,0 +1,35 @@
+{
+  "series": {
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "skip_localized_images": true,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "season_title_values": [
+      "Progressive",
+      "Alternative",
+      "Grunge",
+      "Shoegaze"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card with absolute numbering, kanji, and custom season titles for seasons 2-5."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-04-12T15:41:54"
+}
