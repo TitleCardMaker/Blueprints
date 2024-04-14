@@ -1,0 +1,32 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "banner",
+      "name": "Law & Order",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Law & Order (Banner)",
+      "file": "Friz Quadrata Std Medium.otf",
+      "interline_spacing": 80,
+      "vertical_shift": -7
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Banner card using a free variation of the Series Font. Includes a Template for all other Law & Order Series in the Set."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-14T17:24:53"
+}
