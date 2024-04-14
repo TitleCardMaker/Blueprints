@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `591` Blueprints available for `485` Series, submitted by `27` Creators.
+There are currently `596` Blueprints available for `489` Series, submitted by `27` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,7 +21,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 266 |
+| CollinHeist | 271 |
 | Reicha7 | 154 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
@@ -52,7 +52,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `16` Blueprint Sets available:
+There are currently `17` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -72,4 +72,5 @@ There are currently `16` Blueprint Sets available:
 | `14` | Power Universe | Power [0]<br>Power Book IV: Force [0]<br>Power Book III: Raising Kanan [0]<br>Power Book II: Ghost [0] |
 | `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+1 more |
 | `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
+| `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
 
