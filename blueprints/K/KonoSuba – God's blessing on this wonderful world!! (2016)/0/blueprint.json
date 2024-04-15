@@ -2,7 +2,6 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "hide_season_text": true,
     "episode_text_format": "Episode {absolute_episode_number}",
     "translations": [
       {
@@ -22,11 +21,9 @@
       "#e3853b",
       "white",
       "white",
-      "130"
+      "50"
     ],
     "template_ids": [],
-    "font_stroke_width": 5.0,
-    "font_interline_spacing": 40,
     "source_files": []
   },
   "episodes": {
@@ -34,13 +31,17 @@
       "template_ids": [],
       "title": "God's Blessings on\\nThis Wonderful\\nChoker!",
       "match_title": false,
-      "auto_split_title": false
+      "auto_split_title": false,
+      "season_text": "Season 1",
+      "episode_text": "Episode 11"
     },
     "s0e4": {
       "template_ids": [],
       "title": "God's Blessing on\\nThese Wonderful\\nWorks of Art!",
       "match_title": false,
-      "auto_split_title": false
+      "auto_split_title": false,
+      "season_text": "Season 2",
+      "episode_text": "Episode 11"
     },
     "s1e2": {
       "template_ids": [],
@@ -158,7 +159,8 @@
       "color": "#eb056b",
       "delete_missing": true,
       "file": "GROBOLD.ttf",
-      "interline_spacing": 30
+      "interline_spacing": 40,
+      "stroke_width": 5.0
     }
   ],
   "previews": [

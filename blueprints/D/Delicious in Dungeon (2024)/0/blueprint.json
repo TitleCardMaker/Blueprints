@@ -19,9 +19,9 @@
     ],
     "extra_values": [
       "{f'{NEWLINE}'.join(title_text.split(\"/\" ))}",
-      "black",
       "white",
-      "black",
+      "white",
+      "white",
       "white",
       "white"
     ]
@@ -30,7 +30,8 @@
     {
       "name": "Delicious in Dungeon",
       "color": "black",
-      "file": "Magical World.otf"
+      "file": "Magical World.otf",
+      "stroke_width": 1.5
     }
   ],
   "creator": "Reicha7",
