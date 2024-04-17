@@ -91,15 +91,15 @@
       "Prologue of Road to Ninja",
       "Fourth Shinobi World War: Confrontation",
       "Fourth Shinobi World War: Climax",
-      "Kakashi’s Anbu Arc",
+      "Kakashi\u2019s Anbu Arc",
       "Fourth Shinobi World War: Climax",
       "Mecha Arc",
       "Birth of 10 Tails",
       "Hanabi",
       "Birth of 10 Tails",
-      "The Friends’ Paths Arc",
+      "The Friends\u2019 Paths Arc",
       "Birth of 10 Tails",
-      "Naruto’s return to leaf after training",
+      "Naruto\u2019s return to leaf after training",
       "Birth of 10 Tails",
       "Kaguya Otsutsuki Strikes",
       "Jiraiya Shinobi Handbook",
@@ -185,7 +185,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ・クロニクルズ - パート1"
+        "\u30ab\u30ab\u30b7\u30fb\u30af\u30ed\u30cb\u30af\u30eb\u30ba - \u30d1\u30fc\u30c81"
       ],
       "template_ids": [],
       "title": "Kakashi Chronicles - Part 1",
@@ -196,7 +196,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ・クロニクルズ - パート2"
+        "\u30ab\u30ab\u30b7\u30fb\u30af\u30ed\u30cb\u30af\u30eb\u30ba - \u30d1\u30fc\u30c82"
       ],
       "template_ids": [],
       "title": "Kakashi Chronicles - Part 2",
@@ -207,10 +207,10 @@
         "kanji"
       ],
       "extra_values": [
-        "自来也忍者絵巻 - 前編"
+        "\u81ea\u6765\u4e5f\u5fcd\u8005\u7d75\u5dfb - \u524d\u7de8"
       ],
       "template_ids": [],
-      "title": "Jiraiya Ninja Scrolls – Part 1",
+      "title": "Jiraiya Ninja Scrolls \u2013 Part 1",
       "match_title": false
     },
     "s6e16": {
@@ -218,10 +218,10 @@
         "kanji"
       ],
       "extra_values": [
-        "ジライヤ忍者絵巻 第2巻"
+        "\u30b8\u30e9\u30a4\u30e4\u5fcd\u8005\u7d75\u5dfb \u7b2c2\u5dfb"
       ],
       "template_ids": [],
-      "title": "Jiraiya Ninja Scrolls – Part 2",
+      "title": "Jiraiya Ninja Scrolls \u2013 Part 2",
       "match_title": false
     },
     "s16e1": {
@@ -229,7 +229,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：心を隠す仮面"
+        "\u30ab\u30ab\u30b7\uff1a\u5fc3\u3092\u96a0\u3059\u4eee\u9762"
       ],
       "template_ids": [],
       "title": "Kakashi: A Mask That Hides the Heart",
@@ -240,7 +240,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：ミナトの死"
+        "\u30ab\u30ab\u30b7\uff1a\u30df\u30ca\u30c8\u306e\u6b7b"
       ],
       "template_ids": [],
       "title": "Kakashi: Minato's Death",
@@ -251,7 +251,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：柱間の細胞"
+        "\u30ab\u30ab\u30b7\uff1a\u67f1\u9593\u306e\u7d30\u80de"
       ],
       "template_ids": [],
       "title": "Kakashi: Hashirama's Cells",
@@ -262,7 +262,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：悪党忍者オロチマル"
+        "\u30ab\u30ab\u30b7\uff1a\u60aa\u515a\u5fcd\u8005\u30aa\u30ed\u30c1\u30de\u30eb"
       ],
       "template_ids": [],
       "title": "Kakashi: The Rogue Ninja Orochimaru",
@@ -273,7 +273,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：オロチマルの実験台"
+        "\u30ab\u30ab\u30b7\uff1a\u30aa\u30ed\u30c1\u30de\u30eb\u306e\u5b9f\u9a13\u53f0"
       ],
       "template_ids": [],
       "title": "Kakashi: Orochimaru's Test Subjects",
@@ -284,7 +284,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：それぞれの道"
+        "\u30ab\u30ab\u30b7\uff1a\u305d\u308c\u305e\u308c\u306e\u9053"
       ],
       "template_ids": [],
       "title": "Kakashi: Their Own Paths",
@@ -295,7 +295,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：狙われた写輪眼"
+        "\u30ab\u30ab\u30b7\uff1a\u72d9\u308f\u308c\u305f\u5199\u8f2a\u773c"
       ],
       "template_ids": [],
       "title": "Kakashi: The Targeted Sharingan",
@@ -306,7 +306,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ-葉の忍び"
+        "\u30ab\u30ab\u30b7-\u8449\u306e\u5fcd\u3073"
       ],
       "template_ids": [],
       "title": "Kakashi: A Shinobi of the Leaf",
@@ -317,7 +317,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：ウチハANBU"
+        "\u30ab\u30ab\u30b7\uff1a\u30a6\u30c1\u30cfANBU"
       ],
       "template_ids": [],
       "title": "Kakashi:  An Uchiha ANBU",
@@ -328,10 +328,10 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：クーデター"
+        "\u30ab\u30ab\u30b7\uff1a\u30af\u30fc\u30c7\u30bf\u30fc"
       ],
       "template_ids": [],
-      "title": "Kakashi: Coup d'État",
+      "title": "Kakashi: Coup d'\u00c9tat",
       "match_title": false
     },
     "s16e11": {
@@ -339,7 +339,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ 悲劇の夜"
+        "\u30ab\u30ab\u30b7 \u60b2\u5287\u306e\u591c"
       ],
       "template_ids": [],
       "title": "Kakashi: The Night of the Tragedy",
@@ -350,7 +350,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：上忍リーダー"
+        "\u30ab\u30ab\u30b7\uff1a\u4e0a\u5fcd\u30ea\u30fc\u30c0\u30fc"
       ],
       "template_ids": [],
       "title": "Kakashi: Jonin Leader",
@@ -361,7 +361,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシ：7番隊"
+        "\u30ab\u30ab\u30b7\uff1a7\u756a\u968a"
       ],
       "template_ids": [],
       "title": "Kakashi: Squad 7",
@@ -372,7 +372,7 @@
         "kanji"
       ],
       "extra_values": [
-        "カカシの決意"
+        "\u30ab\u30ab\u30b7\u306e\u6c7a\u610f"
       ],
       "template_ids": []
     },
@@ -381,7 +381,7 @@
         "kanji"
       ],
       "extra_values": [
-        "ルールと同志"
+        "\u30eb\u30fc\u30eb\u3068\u540c\u5fd7"
       ],
       "template_ids": []
     },
@@ -408,7 +408,7 @@
         "kanji"
       ],
       "extra_values": [
-        "負け犬忍者"
+        "\u8ca0\u3051\u72ac\u5fcd\u8005"
       ],
       "template_ids": [],
       "title": "The Loser Ninja",
@@ -419,7 +419,7 @@
         "kanji"
       ],
       "extra_values": [
-        "サーチ・ミッション"
+        "\u30b5\u30fc\u30c1\u30fb\u30df\u30c3\u30b7\u30e7\u30f3"
       ],
       "template_ids": [],
       "title": "The Search Mission",
@@ -430,7 +430,7 @@
         "kanji"
       ],
       "extra_values": [
-        "チーム自来也"
+        "\u30c1\u30fc\u30e0\u81ea\u6765\u4e5f"
       ],
       "template_ids": [],
       "title": "Team Jiraiya",
@@ -441,7 +441,7 @@
         "kanji"
       ],
       "extra_values": [
-        "優先順位"
+        "\u512a\u5148\u9806\u4f4d"
       ],
       "template_ids": [],
       "title": "Order of Priority",
@@ -452,7 +452,7 @@
         "kanji"
       ],
       "extra_values": [
-        "マスクマン"
+        "\u30de\u30b9\u30af\u30de\u30f3"
       ],
       "template_ids": [],
       "title": "The Masked Man",
@@ -463,7 +463,7 @@
         "kanji"
       ],
       "extra_values": [
-        "封印された力"
+        "\u5c01\u5370\u3055\u308c\u305f\u529b"
       ],
       "template_ids": [],
       "title": "The Sealed Power",
@@ -474,7 +474,7 @@
         "kanji"
       ],
       "extra_values": [
-        "ルールと同志"
+        "\u30eb\u30fc\u30eb\u3068\u540c\u5fd7"
       ],
       "template_ids": [],
       "title": "The Rules or a Comrade",
@@ -485,7 +485,7 @@
         "kanji"
       ],
       "extra_values": [
-        "予言の子"
+        "\u4e88\u8a00\u306e\u5b50"
       ],
       "template_ids": [],
       "title": "The Child of Prophecy",
@@ -496,7 +496,7 @@
         "kanji"
       ],
       "extra_values": [
-        "籠の鳥"
+        "\u7c60\u306e\u9ce5"
       ],
       "template_ids": [],
       "title": "The Caged Bird",
@@ -507,7 +507,7 @@
         "kanji"
       ],
       "extra_values": [
-        "帰国"
+        "\u5e30\u56fd"
       ],
       "template_ids": [],
       "title": "Returning Home",
@@ -518,7 +518,7 @@
         "kanji"
       ],
       "extra_values": [
-        "相互の道"
+        "\u76f8\u4e92\u306e\u9053"
       ],
       "template_ids": [],
       "title": "The Mutual Path",
@@ -529,7 +529,7 @@
         "kanji"
       ],
       "extra_values": [
-        "力の差"
+        "\u529b\u306e\u5dee"
       ],
       "template_ids": [],
       "title": "The Difference in Power",
@@ -540,7 +540,7 @@
         "kanji"
       ],
       "extra_values": [
-        "村を離れる"
+        "\u6751\u3092\u96e2\u308c\u308b"
       ],
       "template_ids": [],
       "title": "Leaving the Village",
@@ -551,7 +551,7 @@
         "kanji"
       ],
       "extra_values": [
-        "追跡者"
+        "\u8ffd\u8de1\u8005"
       ],
       "template_ids": [],
       "title": "Pursuers",
@@ -562,7 +562,7 @@
         "kanji"
       ],
       "extra_values": [
-        "衝突"
+        "\u885d\u7a81"
       ],
       "template_ids": [],
       "title": "Collision",
@@ -573,7 +573,7 @@
         "kanji"
       ],
       "extra_values": [
-        "もうひとつの月"
+        "\u3082\u3046\u3072\u3068\u3064\u306e\u6708"
       ],
       "template_ids": [],
       "title": "Another Moon",
@@ -584,7 +584,7 @@
         "kanji"
       ],
       "extra_values": [
-        "同志"
+        "\u540c\u5fd7"
       ],
       "template_ids": [],
       "title": "Comrade",
@@ -595,7 +595,7 @@
         "kanji"
       ],
       "extra_values": [
-        "忍は団結する"
+        "\u5fcd\u306f\u56e3\u7d50\u3059\u308b"
       ],
       "template_ids": [],
       "title": "The Shinobi Unite",
@@ -606,7 +606,7 @@
         "kanji"
       ],
       "extra_values": [
-        "ライバル"
+        "\u30e9\u30a4\u30d0\u30eb"
       ],
       "template_ids": [],
       "title": "Rivals",
@@ -617,7 +617,7 @@
         "kanji"
       ],
       "extra_values": [
-        "誕生と死"
+        "\u8a95\u751f\u3068\u6b7b"
       ],
       "template_ids": [],
       "title": "Birth and Death",
@@ -628,7 +628,7 @@
         "kanji"
       ],
       "extra_values": [
-        "天才"
+        "\u5929\u624d"
       ],
       "template_ids": [],
       "title": "The Genius",
@@ -639,7 +639,7 @@
         "kanji"
       ],
       "extra_values": [
-        "生きることの痛み"
+        "\u751f\u304d\u308b\u3053\u3068\u306e\u75db\u307f"
       ],
       "template_ids": [],
       "title": "The Pain of Living",
@@ -650,7 +650,7 @@
         "kanji"
       ],
       "extra_values": [
-        "酒々井のリクエスト"
+        "\u9152\u3005\u4e95\u306e\u30ea\u30af\u30a8\u30b9\u30c8"
       ],
       "template_ids": [],
       "title": "Shisui's Request",
@@ -661,7 +661,7 @@
         "kanji"
       ],
       "extra_values": [
-        "月夜"
+        "\u6708\u591c"
       ],
       "template_ids": [],
       "title": "Moonlit Night",
@@ -672,7 +672,7 @@
         "kanji"
       ],
       "extra_values": [
-        "アカツキの闇"
+        "\u30a2\u30ab\u30c4\u30ad\u306e\u95c7"
       ],
       "template_ids": [],
       "title": "The Darkness of the Akatsuki",
@@ -683,7 +683,7 @@
         "kanji"
       ],
       "extra_values": [
-        "パートナー"
+        "\u30d1\u30fc\u30c8\u30ca\u30fc"
       ],
       "template_ids": [],
       "title": "Partner",
@@ -694,7 +694,7 @@
         "kanji"
       ],
       "extra_values": [
-        "真実"
+        "\u771f\u5b9f"
       ],
       "template_ids": [],
       "title": "Truth",
@@ -705,10 +705,10 @@
         "kanji"
       ],
       "extra_values": [
-        "サスケ物語 第1部 爆発する人間"
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u7b2c1\u90e8 \u7206\u767a\u3059\u308b\u4eba\u9593"
       ],
       "template_ids": [],
-      "title": "Sasuke’s Story: Part 1: The Exploding Human",
+      "title": "Sasuke\u2019s Story: Part 1: The Exploding Human",
       "match_title": false
     },
     "s22e27": {
@@ -716,10 +716,10 @@
         "kanji"
       ],
       "extra_values": [
-        "サスケ物語 第2部 コロシアム"
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u7b2c2\u90e8 \u30b3\u30ed\u30b7\u30a2\u30e0"
       ],
       "template_ids": [],
-      "title": "Sasuke’s Story: Part 2: Coliseum",
+      "title": "Sasuke\u2019s Story: Part 2: Coliseum",
       "match_title": false
     },
     "s22e28": {
@@ -727,10 +727,10 @@
         "kanji"
       ],
       "extra_values": [
-        "サスケ物語 パート3：風神"
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u30d1\u30fc\u30c83\uff1a\u98a8\u795e"
       ],
       "template_ids": [],
-      "title": "Sasuke’s Story: Part 3: Fuushin",
+      "title": "Sasuke\u2019s Story: Part 3: Fuushin",
       "match_title": false
     },
     "s22e29": {
@@ -738,10 +738,10 @@
         "kanji"
       ],
       "extra_values": [
-        "サスケ物語 パート4：決戦"
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u30d1\u30fc\u30c84\uff1a\u6c7a\u6226"
       ],
       "template_ids": [],
-      "title": "Sasuke’s Story: Part 4: The Ketsuryugan",
+      "title": "Sasuke\u2019s Story: Part 4: The Ketsuryugan",
       "match_title": false
     },
     "s22e30": {
@@ -749,10 +749,10 @@
         "kanji"
       ],
       "extra_values": [
-        "サスケ物語：第5部：最後"
+        "\u30b5\u30b9\u30b1\u7269\u8a9e\uff1a\u7b2c5\u90e8\uff1a\u6700\u5f8c"
       ],
       "template_ids": [],
-      "title": "Sasuke’s Story: Part 5: The Last One",
+      "title": "Sasuke\u2019s Story: Part 5: The Last One",
       "match_title": false
     },
     "s22e31": {
@@ -760,7 +760,7 @@
         "kanji"
       ],
       "extra_values": [
-        "現状"
+        "\u73fe\u72b6"
       ],
       "template_ids": [],
       "title": "The State of Affairs",
@@ -771,7 +771,7 @@
         "kanji"
       ],
       "extra_values": [
-        "暗雲"
+        "\u6697\u96f2"
       ],
       "template_ids": [],
       "title": "Dark Clouds",
@@ -782,7 +782,7 @@
         "kanji"
       ],
       "extra_values": [
-        "無謀さ"
+        "\u7121\u8b00\u3055"
       ],
       "template_ids": [],
       "title": "Recklessness",
@@ -793,7 +793,7 @@
         "kanji"
       ],
       "extra_values": [
-        "疑惑のクラウド"
+        "\u7591\u60d1\u306e\u30af\u30e9\u30a6\u30c9"
       ],
       "template_ids": [],
       "title": "Cloud of Suspicion",
@@ -804,7 +804,7 @@
         "kanji"
       ],
       "extra_values": [
-        "夜明け"
+        "\u591c\u660e\u3051"
       ],
       "template_ids": [],
       "title": "Dawn",
@@ -815,10 +815,10 @@
         "kanji"
       ],
       "extra_values": [
-        "ナルトの結婚式"
+        "\u30ca\u30eb\u30c8\u306e\u7d50\u5a5a\u5f0f"
       ],
       "template_ids": [],
-      "title": "Naruto’s Wedding",
+      "title": "Naruto\u2019s Wedding",
       "match_title": false
     },
     "s22e37": {
@@ -826,7 +826,7 @@
         "kanji"
       ],
       "extra_values": [
-        "全力の結婚祝い"
+        "\u5168\u529b\u306e\u7d50\u5a5a\u795d\u3044"
       ],
       "template_ids": [],
       "title": "A Full-Powered Wedding Gift",
@@ -837,7 +837,7 @@
         "kanji"
       ],
       "extra_values": [
-        "蒸気薬と食品の丸薬"
+        "\u84b8\u6c17\u85ac\u3068\u98df\u54c1\u306e\u4e38\u85ac"
       ],
       "template_ids": [],
       "title": "Steam and Food Pills",
@@ -848,10 +848,10 @@
         "kanji"
       ],
       "extra_values": [
-        "風影の結婚祝い"
+        "\u98a8\u5f71\u306e\u7d50\u5a5a\u795d\u3044"
       ],
       "template_ids": [],
-      "title": "The Kazekage’s Wedding Gift",
+      "title": "The Kazekage\u2019s Wedding Gift",
       "match_title": false
     },
     "s22e40": {
@@ -859,7 +859,7 @@
         "kanji"
       ],
       "extra_values": [
-        "ラストミッション"
+        "\u30e9\u30b9\u30c8\u30df\u30c3\u30b7\u30e7\u30f3"
       ],
       "template_ids": [],
       "title": "The Last Mission",
@@ -870,7 +870,7 @@
         "kanji"
       ],
       "extra_values": [
-        "極秘任務の結末"
+        "\u6975\u79d8\u4efb\u52d9\u306e\u7d50\u672b"
       ],
       "template_ids": [],
       "title": "The Outcome of the Secret Mission",
@@ -881,7 +881,7 @@
         "kanji"
       ],
       "extra_values": [
-        "メッセージ"
+        "\u30e1\u30c3\u30bb\u30fc\u30b8"
       ],
       "template_ids": [],
       "title": "The Message",
@@ -894,15 +894,15 @@
       "color": "rgb(244, 122, 27)",
       "file": "naruto.ttf",
       "replacements_in": [
-        "ū",
-        "Ū",
-        "…",
-        "ō",
-        "Ō",
-        "’",
-        "é",
-        "–",
-        "É"
+        "\u016b",
+        "\u016a",
+        "\u2026",
+        "\u014d",
+        "\u014c",
+        "\u2019",
+        "\u00e9",
+        "\u2013",
+        "\u00c9"
       ],
       "replacements_out": [
         "u",
@@ -919,7 +919,7 @@
   ],
   "creator": "anonfawkes",
   "description": [
-    "Copy of Collin's Naruto Blueprint for Naruto Shippūden with custom font, arc season titles, edited episode titles to fit the card and edited kanji to match"
+    "Copy of Collin's Naruto Blueprint for Naruto Shipp\u016bden with custom font, arc season titles, edited episode titles to fit the card and edited kanji to match"
   ],
   "previews": [
     "preview0.jpg"
