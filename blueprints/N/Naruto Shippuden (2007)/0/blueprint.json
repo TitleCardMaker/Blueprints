@@ -2,7 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "episode_text_format": "Episode {absolute_episode_number}",
+    "episode_text_format": "EPISODE {absolute_episode_number}",
     "translations": [
       {
         "language_code": "ja",
@@ -116,190 +116,810 @@
       "Konoha Hiden"
     ],
     "extra_keys": [
-      "stroke_color"
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "kanji_font_size",
+      "kanji_stroke_width"
     ],
     "extra_values": [
-      "rgb(22,55,138)"
-    ]
+      "rgb(22,55,138)",
+      "45",
+      "rgb(244, 122, 27)",
+      "1.5",
+      "5"
+    ],
+    "template_ids": [],
+    "match_titles": false,
+    "font_color": "rgb(244, 122, 27)",
+    "font_size": 1,
+    "font_kerning": 1,
+    "font_stroke_width": 5,
+    "font_interline_spacing": 50,
+    "font_vertical_shift": 15,
+    "source_files": []
   },
   "episodes": {
     "s0e1": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 4"
     },
     "s0e2": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 5"
     },
     "s0e3": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 6"
     },
     "s0e4": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 7"
     },
     "s0e7": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 8"
     },
     "s0e10": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 9"
     },
     "s0e12": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 10"
     },
     "s0e13": {
       "hide_season_text": true,
+      "template_ids": [],
       "episode_text": "Movie 11"
     },
+    "s6e7": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\u30fb\u30af\u30ed\u30cb\u30af\u30eb\u30ba - \u30d1\u30fc\u30c81"
+      ],
+      "template_ids": [],
+      "title": "Kakashi Chronicles - Part 1",
+      "match_title": false
+    },
+    "s6e8": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\u30fb\u30af\u30ed\u30cb\u30af\u30eb\u30ba - \u30d1\u30fc\u30c82"
+      ],
+      "template_ids": [],
+      "title": "Kakashi Chronicles - Part 2",
+      "match_title": false
+    },
+    "s6e15": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u81ea\u6765\u4e5f\u5fcd\u8005\u7d75\u5dfb - \u524d\u7de8"
+      ],
+      "template_ids": [],
+      "title": "Jiraiya Ninja Scrolls \u2013 Part 1",
+      "match_title": false
+    },
+    "s6e16": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b8\u30e9\u30a4\u30e4\u5fcd\u8005\u7d75\u5dfb \u7b2c2\u5dfb"
+      ],
+      "template_ids": [],
+      "title": "Jiraiya Ninja Scrolls \u2013 Part 2",
+      "match_title": false
+    },
+    "s16e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u5fc3\u3092\u96a0\u3059\u4eee\u9762"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: A Mask That Hides the Heart",
+      "match_title": false
+    },
+    "s16e2": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u30df\u30ca\u30c8\u306e\u6b7b"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Minato's Death",
+      "match_title": false
+    },
+    "s16e3": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u67f1\u9593\u306e\u7d30\u80de"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Hashirama's Cells",
+      "match_title": false
+    },
+    "s16e4": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u60aa\u515a\u5fcd\u8005\u30aa\u30ed\u30c1\u30de\u30eb"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: The Rogue Ninja Orochimaru",
+      "match_title": false
+    },
+    "s16e5": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u30aa\u30ed\u30c1\u30de\u30eb\u306e\u5b9f\u9a13\u53f0"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Orochimaru's Test Subjects",
+      "match_title": false
+    },
+    "s16e6": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u305d\u308c\u305e\u308c\u306e\u9053"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Their Own Paths",
+      "match_title": false
+    },
+    "s16e7": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u72d9\u308f\u308c\u305f\u5199\u8f2a\u773c"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: The Targeted Sharingan",
+      "match_title": false
+    },
+    "s16e8": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7-\u8449\u306e\u5fcd\u3073"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: A Shinobi of the Leaf",
+      "match_title": false
+    },
+    "s16e9": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u30a6\u30c1\u30cfANBU"
+      ],
+      "template_ids": [],
+      "title": "Kakashi:  An Uchiha ANBU",
+      "match_title": false
+    },
+    "s16e10": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u30af\u30fc\u30c7\u30bf\u30fc"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Coup d'\u00c9tat",
+      "match_title": false
+    },
+    "s16e11": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7 \u60b2\u5287\u306e\u591c"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: The Night of the Tragedy",
+      "match_title": false
+    },
+    "s16e12": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a\u4e0a\u5fcd\u30ea\u30fc\u30c0\u30fc"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Jonin Leader",
+      "match_title": false
+    },
+    "s16e13": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\uff1a7\u756a\u968a"
+      ],
+      "template_ids": [],
+      "title": "Kakashi: Squad 7",
+      "match_title": false
+    },
+    "s17e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ab\u30ab\u30b7\u306e\u6c7a\u610f"
+      ],
+      "template_ids": []
+    },
+    "s17e28": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30eb\u30fc\u30eb\u3068\u540c\u5fd7"
+      ],
+      "template_ids": []
+    },
+    "s19e9": {
+      "extra_keys": [
+        "kanji_font_size"
+      ],
+      "extra_values": [
+        "1.3"
+      ],
+      "template_ids": []
+    },
+    "s19e10": {
+      "extra_keys": [
+        "kanji_font_size"
+      ],
+      "extra_values": [
+        "1.3"
+      ],
+      "template_ids": []
+    },
     "s20e1": {
-      "title": "The Tale of Naruto the Hero - The Loser Ninja"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u8ca0\u3051\u72ac\u5fcd\u8005"
+      ],
+      "template_ids": [],
+      "title": "The Loser Ninja",
+      "match_title": false
     },
     "s20e2": {
-      "title": "The Tale of Naruto the Hero - The Search Mission"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30fc\u30c1\u30fb\u30df\u30c3\u30b7\u30e7\u30f3"
+      ],
+      "template_ids": [],
+      "title": "The Search Mission",
+      "match_title": false
     },
     "s20e3": {
-      "title": "The Tale of Naruto the Hero - Team Jiraiya"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30c1\u30fc\u30e0\u81ea\u6765\u4e5f"
+      ],
+      "template_ids": [],
+      "title": "Team Jiraiya",
+      "match_title": false
     },
     "s20e4": {
-      "title": "The Tale of Naruto the Hero - Order of Priority"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u512a\u5148\u9806\u4f4d"
+      ],
+      "template_ids": [],
+      "title": "Order of Priority",
+      "match_title": false
     },
     "s20e5": {
-      "title": "The Tale of Naruto the Hero - The Masked Man"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30de\u30b9\u30af\u30de\u30f3"
+      ],
+      "template_ids": [],
+      "title": "The Masked Man",
+      "match_title": false
     },
     "s20e6": {
-      "title": "The Tale of Naruto the Hero - The Sealed Power"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5c01\u5370\u3055\u308c\u305f\u529b"
+      ],
+      "template_ids": [],
+      "title": "The Sealed Power",
+      "match_title": false
     },
     "s20e7": {
-      "title": "The Tale of Naruto the Hero - The Rules or a Comrade"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30eb\u30fc\u30eb\u3068\u540c\u5fd7"
+      ],
+      "template_ids": [],
+      "title": "The Rules or a Comrade",
+      "match_title": false
     },
     "s20e8": {
-      "title": "The Tale of Naruto the Hero - The Child of Prophecy"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u4e88\u8a00\u306e\u5b50"
+      ],
+      "template_ids": [],
+      "title": "The Child of Prophecy",
+      "match_title": false
     },
     "s20e9": {
-      "title": "The Tale of Naruto the Hero - The Caged Bird"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u7c60\u306e\u9ce5"
+      ],
+      "template_ids": [],
+      "title": "The Caged Bird",
+      "match_title": false
     },
     "s20e10": {
-      "title": "The Tale of Naruto the Hero - Returning Home"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5e30\u56fd"
+      ],
+      "template_ids": [],
+      "title": "Returning Home",
+      "match_title": false
     },
     "s20e11": {
-      "title": "The Tale of Naruto the Hero - The Mutual Path"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u76f8\u4e92\u306e\u9053"
+      ],
+      "template_ids": [],
+      "title": "The Mutual Path",
+      "match_title": false
     },
     "s20e12": {
-      "title": "The Tale of Naruto the Hero - The Difference in Power"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u529b\u306e\u5dee"
+      ],
+      "template_ids": [],
+      "title": "The Difference in Power",
+      "match_title": false
     },
     "s20e13": {
-      "title": "The Tale of Naruto the Hero - Leaving the Village"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6751\u3092\u96e2\u308c\u308b"
+      ],
+      "template_ids": [],
+      "title": "Leaving the Village",
+      "match_title": false
     },
     "s20e14": {
-      "title": "The Tale of Naruto the Hero - Pursuers"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u8ffd\u8de1\u8005"
+      ],
+      "template_ids": [],
+      "title": "Pursuers",
+      "match_title": false
     },
     "s20e15": {
-      "title": "The Tale of Naruto the Hero - Collision"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u885d\u7a81"
+      ],
+      "template_ids": [],
+      "title": "Collision",
+      "match_title": false
     },
     "s20e16": {
-      "title": "The Tale of Naruto the Hero - Another Moon"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3082\u3046\u3072\u3068\u3064\u306e\u6708"
+      ],
+      "template_ids": [],
+      "title": "Another Moon",
+      "match_title": false
     },
     "s20e17": {
-      "title": "The Tale of Naruto the Hero - Comrade"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u540c\u5fd7"
+      ],
+      "template_ids": [],
+      "title": "Comrade",
+      "match_title": false
     },
     "s20e18": {
-      "title": "The Tale of Naruto the Hero - The Shinobi Unite"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5fcd\u306f\u56e3\u7d50\u3059\u308b"
+      ],
+      "template_ids": [],
+      "title": "The Shinobi Unite",
+      "match_title": false
     },
     "s20e19": {
-      "title": "The Tale of Naruto the Hero - Rivals"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30e9\u30a4\u30d0\u30eb"
+      ],
+      "template_ids": [],
+      "title": "Rivals",
+      "match_title": false
     },
     "s21e1": {
-      "title": "Light and Darkness: Birth and Death"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u8a95\u751f\u3068\u6b7b"
+      ],
+      "template_ids": [],
+      "title": "Birth and Death",
+      "match_title": false
     },
     "s21e2": {
-      "title": "Light and Darkness: The Genius"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5929\u624d"
+      ],
+      "template_ids": [],
+      "title": "The Genius",
+      "match_title": false
     },
     "s21e3": {
-      "title": "Light and Darkness: The Pain of Living"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u751f\u304d\u308b\u3053\u3068\u306e\u75db\u307f"
+      ],
+      "template_ids": [],
+      "title": "The Pain of Living",
+      "match_title": false
     },
     "s21e4": {
-      "title": "Light and Darkness: Shisui's Request"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u9152\u3005\u4e95\u306e\u30ea\u30af\u30a8\u30b9\u30c8"
+      ],
+      "template_ids": [],
+      "title": "Shisui's Request",
+      "match_title": false
     },
     "s21e5": {
-      "title": "Light and Darkness: Moonlit Night"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6708\u591c"
+      ],
+      "template_ids": [],
+      "title": "Moonlit Night",
+      "match_title": false
     },
     "s21e6": {
-      "title": "Light and Darkness: The Darkness of the Akatsuki"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30a2\u30ab\u30c4\u30ad\u306e\u95c7"
+      ],
+      "template_ids": [],
+      "title": "The Darkness of the Akatsuki",
+      "match_title": false
     },
     "s21e7": {
-      "title": "Light and Darkness: Partner"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30d1\u30fc\u30c8\u30ca\u30fc"
+      ],
+      "template_ids": [],
+      "title": "Partner",
+      "match_title": false
     },
     "s21e8": {
-      "title": "Light and Darkness: Truth"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u771f\u5b9f"
+      ],
+      "template_ids": [],
+      "title": "Truth",
+      "match_title": false
+    },
+    "s22e26": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u7b2c1\u90e8 \u7206\u767a\u3059\u308b\u4eba\u9593"
+      ],
+      "template_ids": [],
+      "title": "Sasuke\u2019s Story: Part 1: The Exploding Human",
+      "match_title": false
+    },
+    "s22e27": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u7b2c2\u90e8 \u30b3\u30ed\u30b7\u30a2\u30e0"
+      ],
+      "template_ids": [],
+      "title": "Sasuke\u2019s Story: Part 2: Coliseum",
+      "match_title": false
+    },
+    "s22e28": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u30d1\u30fc\u30c83\uff1a\u98a8\u795e"
+      ],
+      "template_ids": [],
+      "title": "Sasuke\u2019s Story: Part 3: Fuushin",
+      "match_title": false
+    },
+    "s22e29": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30b9\u30b1\u7269\u8a9e \u30d1\u30fc\u30c84\uff1a\u6c7a\u6226"
+      ],
+      "template_ids": [],
+      "title": "Sasuke\u2019s Story: Part 4: The Ketsuryugan",
+      "match_title": false
+    },
+    "s22e30": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30b5\u30b9\u30b1\u7269\u8a9e\uff1a\u7b2c5\u90e8\uff1a\u6700\u5f8c"
+      ],
+      "template_ids": [],
+      "title": "Sasuke\u2019s Story: Part 5: The Last One",
+      "match_title": false
     },
     "s22e31": {
-      "title": "Part 1: The State of Affairs"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u73fe\u72b6"
+      ],
+      "template_ids": [],
+      "title": "The State of Affairs",
+      "match_title": false
     },
     "s22e32": {
-      "title": "Part 2: Dark Clouds"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6697\u96f2"
+      ],
+      "template_ids": [],
+      "title": "Dark Clouds",
+      "match_title": false
     },
     "s22e33": {
-      "title": "Part 3: Recklessness"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u7121\u8b00\u3055"
+      ],
+      "template_ids": [],
+      "title": "Recklessness",
+      "match_title": false
     },
     "s22e34": {
-      "title": "Part 4: Cloud of Suspicion"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u7591\u60d1\u306e\u30af\u30e9\u30a6\u30c9"
+      ],
+      "template_ids": [],
+      "title": "Cloud of Suspicion",
+      "match_title": false
     },
     "s22e35": {
-      "title": "Part 5: Dawn"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u591c\u660e\u3051"
+      ],
+      "template_ids": [],
+      "title": "Dawn",
+      "match_title": false
     },
     "s22e36": {
-      "title": "Part 1: Naruto\u2019s Wedding"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30ca\u30eb\u30c8\u306e\u7d50\u5a5a\u5f0f"
+      ],
+      "template_ids": [],
+      "title": "Naruto\u2019s Wedding",
+      "match_title": false
     },
     "s22e37": {
-      "title": "Part 2: A Full-Powered Wedding Gift"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u5168\u529b\u306e\u7d50\u5a5a\u795d\u3044"
+      ],
+      "template_ids": [],
+      "title": "A Full-Powered Wedding Gift",
+      "match_title": false
     },
     "s22e38": {
-      "title": "Part 3: Steam and Food Pills"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u84b8\u6c17\u85ac\u3068\u98df\u54c1\u306e\u4e38\u85ac"
+      ],
+      "template_ids": [],
+      "title": "Steam and Food Pills",
+      "match_title": false
     },
     "s22e39": {
-      "title": "Part 4: The Kazekage\u2019s Wedding Gift"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u98a8\u5f71\u306e\u7d50\u5a5a\u795d\u3044"
+      ],
+      "template_ids": [],
+      "title": "The Kazekage\u2019s Wedding Gift",
+      "match_title": false
     },
     "s22e40": {
-      "title": "Part 5: The Last Mission"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30e9\u30b9\u30c8\u30df\u30c3\u30b7\u30e7\u30f3"
+      ],
+      "template_ids": [],
+      "title": "The Last Mission",
+      "match_title": false
     },
     "s22e41": {
-      "title": "Part 6: The Outcome of the Secret Mission"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u6975\u79d8\u4efb\u52d9\u306e\u7d50\u672b"
+      ],
+      "template_ids": [],
+      "title": "The Outcome of the Secret Mission",
+      "match_title": false
     },
     "s22e42": {
-      "title": "Part 7: The Message"
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30e1\u30c3\u30bb\u30fc\u30b8"
+      ],
+      "template_ids": [],
+      "title": "The Message",
+      "match_title": false
     }
   },
   "fonts": [
     {
       "name": "Naruto (Anime)",
-      "color": "rgb(235,142,52)",
-      "delete_missing": true,
+      "color": "rgb(244, 122, 27)",
       "file": "naruto.ttf",
-      "interline_spacing": 30,
       "replacements_in": [
         "\u016b",
         "\u016a",
         "\u2026",
         "\u014d",
-        "\u014c"
+        "\u014c",
+        "\u2019",
+        "\u00e9",
+        "\u2013",
+        "\u00c9"
       ],
       "replacements_out": [
         "u",
         "U",
         "...",
         "o",
-        "O"
-      ],
-      "stroke_width": 5.0
+        "O",
+        "'",
+        "e",
+        "-",
+        "E"
+      ]
     }
   ],
   "creator": "anonfawkes",
   "description": [
-    "Copy of Collin's Naruto Blueprint for Naruto Shipp\u016bden with custom Font and arc season titles."
+    "Copy of Collin's Naruto Blueprint for Naruto Shipp\u016bden with custom font, arc season titles, edited episode titles to fit the card and edited kanji to match"
   ],
   "previews": [
     "preview0.jpg"
