@@ -1,0 +1,26 @@
+{
+  "series": {
+    "card_type": "notification",
+    "hide_season_text": true,
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "\"\"",
+      "6"
+    ],
+    "source_files": [
+      "backdrop - Copy.jpg"
+    ]
+  },
+  "creator": "BattleChambers",
+  "description": [
+    "Notification card type that hides the show's title to prevent spoilers. Should be used with Art styles so the included backdrop is used.",
+    "To ensure this works, you must have Sonarr set as your Episode Data Source."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-18T00:03:22"
+}
