@@ -1,0 +1,66 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "font_stroke_width": 0.0,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "font_color": "rgb(130, 253, 131)"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "font_color": "rgb(161, 226, 252)"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "font_color": "rgb(252, 253, 100)"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "font_color": "rgb(255, 180, 249)"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "font_color": "rgb(253, 105, 105)"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "font_color": "rgb(130, 253, 131)"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "font_color": " rgb(161, 226, 252)"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "font_color": "rgb(255, 180, 249)"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "font_color": "rgb(253, 105, 105)"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "font_color": "rgb(130, 253, 131)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Smiling Friends",
+      "file": "COMICSANSBOLD.TTF",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card with hideous Comic Sans font and alternating episode colours for all currently released episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-21T18:26:17"
+}
