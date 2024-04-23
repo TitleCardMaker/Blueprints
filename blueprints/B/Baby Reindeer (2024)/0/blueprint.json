@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "Baby Reindeer",
+      "file": "impact.ttf",
+      "color": "#df4741",
+      "size": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Basic style card with series title colour matching."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-23T01:38:31"
+}
