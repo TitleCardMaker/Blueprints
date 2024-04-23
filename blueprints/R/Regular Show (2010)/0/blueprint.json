@@ -1,0 +1,100 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "episode_text_format": "Episode {to_cardinal(episode_number)}",
+    "season_title_ranges": [
+      "s1e1-s8e29"
+    ],
+    "season_title_values": [
+      "Season {to_cardinal(season_number)}"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s0e14.jpg",
+      "s0e1.jpg"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "card_type": "textless",
+      "template_ids": []
+    },
+    "s0e2": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e13": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e14": {
+      "card_type": "textless",
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e15": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e16": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e17": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e18": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e19": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e20": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e21": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e25": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    },
+    "s0e26": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "season_text": "Shorts"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Regular Show",
+      "file": "RegularShowTitleCard-Regular.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style cards with cardinal episode and season numbering using a fan-made custom font that matches the show's own Title Card font. Also includes textless overrides and source cards for the Pilot and Movie."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-23T01:34:28"
+}
