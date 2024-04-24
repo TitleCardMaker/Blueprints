@@ -1,0 +1,57 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "EPISODE{title.split(' Ep.')[1].split(': ')[0]}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "title_text_format",
+      "season_text_format",
+      "episode_text_color",
+      "stroke_color",
+      "episode_text_vertical_shift",
+      "kanji_color",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "{title_text.rsplit(':')[-1].strip()}",
+      "{title.split(' Ep.')[0].strip(',')}",
+      "rgb(4, 187, 251)",
+      "black",
+      "5",
+      "rgb(4, 187, 251)",
+      "white",
+      ".1"
+    ],
+    "match_titles": false
+  },
+  "fonts": [
+    {
+      "name": "SANDLAND",
+      "color": "rgb(4, 187, 251)",
+      "file": "Futura Condensed Extra Bold.ttf",
+      "kerning": 0.4,
+      "interline_spacing": -35,
+      "size": 0.8,
+      "title_case": "upper",
+      "stroke_width": 2.5,
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Anime style card which uses a custom Font that resembles the logo.",
+    "Uses the relevant parts of the titles as the season and episode text."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-24T03:06:44"
+}
