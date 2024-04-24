@@ -14,7 +14,8 @@
   "templates": [],
   "fonts": [
     {
-      "name": "Ninja Kamui",
+      "name": "Ninja Kamui - inset",
+      "delete_missing": true,
       "file": "BlackAsylum-xypj.ttf",
       "replacements_in": [
         "10",
