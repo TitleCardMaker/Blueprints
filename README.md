@@ -7,25 +7,25 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `601` Blueprints available for `493` Series, submitted by `28` Creators.
+There are currently `605` Blueprints available for `495` Series, submitted by `28` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
 | :--- | :--- |
+| Shogun (2024) | 5 |
 | Mr. Robot (2015) | 4 |
 | Invincible (2021) | 4 |
 | The Dragon Prince (2018) | 4 |
-| Shogun (2024) | 4 |
 | Game of Thrones (2011) | 3 |
 
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 272 |
-| Reicha7 | 157 |
+| CollinHeist | 274 |
+| Reicha7 | 158 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
-| anonfawkes | 32 |
+| anonfawkes | 33 |
 | rtgurley | 14 |
 | DeepDaddyTTV | 12 |
 | BenevolentNPC | 11 |
@@ -53,7 +53,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `17` Blueprint Sets available:
+There are currently `18` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -74,4 +74,5 @@ There are currently `17` Blueprint Sets available:
 | `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+1 more |
 | `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
+| `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1] |
 
