@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "yellow"
+    ],
+    "template_ids": [],
+    "auto_split_title": true,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Person of Interest",
+      "file": "Acens.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Tinted frame in yellow as a homage to people who know of The Machine.  A custom font to is also utilized."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-25T02:28:13"
+}
