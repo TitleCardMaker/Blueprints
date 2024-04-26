@@ -1,1 +1,39 @@
-
+{
+  "series": {
+    "card_type": "standard",
+    "template_ids": [
+      0
+    ],
+    "auto_split_title": true,
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "overline",
+      "extra_keys": [
+        "separator",
+        "episode_text_color",
+        "line_position",
+        "line_width"
+      ],
+      "extra_values": [
+        "\u2022",
+        "#ffffff",
+        "bottom",
+        "9"
+      ],
+      "name": "Clarkson's Farm",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "AZ Hello",
+      "color": "#fed814",
+      "file": "AZ Hello.OTF",
+      "size": 1.4,
+      "title_case": "upper"
+    }
+  ]
+}
