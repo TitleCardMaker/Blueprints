@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "logo",
+    "extra_keys": [
+      "logo_size",
+      "logo_vertical_shift",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "0.9",
+      "350",
+      "True"
+    ],
+    "template_ids": [],
+    "font_title_case": "upper",
+    "font_size": 0.9,
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "creator": "BattleChambers",
+  "description": [
+    "An art style title card to give a standard look for the show After Midnight. Data source must be set to Sonarr for cards to work."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-26T02:15:51"
+}
