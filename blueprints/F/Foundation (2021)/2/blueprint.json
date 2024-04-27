@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/SciFiTitleCard",
+    "extra_keys": [
+      "add_trailing_underscore",
+      "overlay_bottom_color",
+      "overlay_top_color",
+      "overlay_middle_color",
+      "overlay_rectangles_color",
+      "overlay_top_alpha"
+    ],
+    "extra_values": [
+      "false",
+      "#a99480",
+      "#a99480",
+      "#705b2d",
+      "white",
+      "0.00001"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Foundation",
+      "file": "FoundationTitlesHand-SemiBold-v0.85.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Sci-Fi style card with shows font and colours designed to match some of the logo colours."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-27T02:31:14"
+}

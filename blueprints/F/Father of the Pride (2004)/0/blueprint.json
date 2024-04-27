@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}"
+  },
+  "fonts": [
+    {
+      "name": "Father of the Pride",
+      "color": "#f5b925",
+      "file": "impact.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card with a custom font and absolute episode numbering."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-27T02:32:21"
+}

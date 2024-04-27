@@ -1,0 +1,35 @@
+{
+  "series": {
+    "card_type": "overline",
+    "extra_keys": [
+      "separator",
+      "episode_text_color",
+      "line_position",
+      "line_width"
+    ],
+    "extra_values": [
+      "\u2022",
+      "#ffffff",
+      "bottom",
+      "9"
+    ],
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "AZ Hello",
+      "color": "#fed814",
+      "file": "AZ Hello.OTF",
+      "size": 1.4,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "TheChrisK",
+  "description": [
+    "Overline card using a matching font called AZ Hello."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-27T02:30:23"
+}
