@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `607` Blueprints available for `497` Series, submitted by `29` Creators.
+There are currently `611` Blueprints available for `500` Series, submitted by `30` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,8 +21,8 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 274 |
-| Reicha7 | 158 |
+| CollinHeist | 275 |
+| Reicha7 | 160 |
 | MrSaiclops | 35 |
 | flowcool | 33 |
 | anonfawkes | 33 |
@@ -50,6 +50,7 @@ Creators with the most Blueprint Submissions:
 | Departed69 | 1 |
 | archigos | 1 |
 | starpc | 1 |
+| TheChrisK | 1 |
 
 
 ## Sets
@@ -75,5 +76,5 @@ There are currently `18` Blueprint Sets available:
 | `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+1 more |
 | `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
-| `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1] |
+| `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
 
