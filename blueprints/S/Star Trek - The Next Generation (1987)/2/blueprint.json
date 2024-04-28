@@ -1,0 +1,67 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#b6cbc6"
+    ],
+    "template_ids": [
+      0
+    ],
+    "auto_split_title": true,
+    "font_color": "#b6cbc6",
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Encounter at Farpoint (1)"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "Deja Q"
+    },
+    "s3e24": {
+      "template_ids": [],
+      "title": "Menage a Troi"
+    },
+    "s7e25": {
+      "template_ids": [],
+      "title": "All Good Things... (1)"
+    }
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "extra_keys": [
+        "episode_text_color",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "#fde698",
+        "1.2"
+      ],
+      "name": "Star Trek Episodes",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Star Trek",
+      "color": "#ffffff",
+      "file": "EdgeOfTheGalaxyRegular-OVEa6.otf",
+      "size": 1.25
+    }
+  ],
+  "creator": "TheChrisK",
+  "description": [
+    "Standard card using Edge of the Galaxy font. Certain episodes renamed to omit unsupported characters.",
+    "Color scheme matches this poster (https://theposterdb.com/api/assets/21379)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-28T18:10:50"
+}
