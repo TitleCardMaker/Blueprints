@@ -1,0 +1,63 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#fde59f"
+    ],
+    "template_ids": [
+      0
+    ],
+    "auto_split_title": true,
+    "font_color": "#fde59f",
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "Caretaker (1)"
+    },
+    "s4e20": {
+      "template_ids": [],
+      "title": "Vis a Vis"
+    },
+    "s7e25": {
+      "template_ids": [],
+      "title": "Endgame (1)"
+    }
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "extra_keys": [
+        "episode_text_color",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "#fde698",
+        "1.2"
+      ],
+      "name": "Star Trek Episodes",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Star Trek",
+      "color": "#ffffff",
+      "file": "EdgeOfTheGalaxyRegular-OVEa6.otf",
+      "size": 1.25
+    }
+  ],
+  "creator": "TheChrisK",
+  "description": [
+    "Standard card using Edge of the Galaxy font. Episodes with unsupported characters have been edited.",
+    "Color scheme matches this poster (https://theposterdb.com/api/assets/21377)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-28T18:22:41"
+}
