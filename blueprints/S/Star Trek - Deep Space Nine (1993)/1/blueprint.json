@@ -1,0 +1,49 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#b2d3f4"
+    ],
+    "template_ids": [
+      0
+    ],
+    "auto_split_title": true,
+    "font_color": "#b2d3f4",
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "extra_keys": [
+        "episode_text_color",
+        "episode_text_font_size"
+      ],
+      "extra_values": [
+        "#fde698",
+        "1.2"
+      ],
+      "name": "Star Trek Episodes",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Star Trek",
+      "color": "#ffffff",
+      "file": "EdgeOfTheGalaxyRegular-OVEa6.otf",
+      "size": 1.25
+    }
+  ],
+  "creator": "TheChrisK",
+  "description": [
+    "Standard card using Edge of the Galaxy font.",
+    "Color scheme matches this poster https://theposterdb.com/api/assets/21381)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-28T18:26:00"
+}
