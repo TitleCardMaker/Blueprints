@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "extra_keys": [
+      "shape_color"
+    ],
+    "extra_values": [
+      "yellow"
+    ],
+    "template_ids": [],
+    "auto_split_title": true,
+    "font_color": "orange",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "DuckTales (1987)",
+      "file": "DuckburgDucktales1987-Regular.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Shape card style with a custom font and color scheme to better match the series."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-04-28T18:32:31"
+}
