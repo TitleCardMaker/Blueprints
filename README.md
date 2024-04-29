@@ -55,7 +55,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `18` Blueprint Sets available:
+There are currently `19` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -77,4 +77,5 @@ There are currently `18` Blueprint Sets available:
 | `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
 | `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
+| `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+1 more |
 
