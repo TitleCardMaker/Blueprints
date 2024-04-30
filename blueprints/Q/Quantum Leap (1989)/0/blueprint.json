@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "extra_keys": [
+      "override_style",
+      "overlay_top_color",
+      "overlay_rectangles_color"
+    ],
+    "extra_values": [
+      "rewind",
+      "rgb(48, 90, 141)",
+      "rgb(244, 248, 254)"
+    ],
+    "template_ids": [],
+    "auto_split_title": true,
+    "font_size": 0.85,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Quantum Leap",
+      "file": "QuantumLeap.TTF",
+      "replacements_in": [
+        "("
+      ],
+      "replacements_out": [
+        "Part "
+      ]
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Retro Title Card in rewind style with a custom font to match the show's title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-30T02:10:45"
+}
