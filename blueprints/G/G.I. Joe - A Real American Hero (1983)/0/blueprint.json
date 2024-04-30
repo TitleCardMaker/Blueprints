@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "template_ids": [],
+    "auto_split_title": true,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "G. I. Joe",
+      "file": "Action_Force.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Comic Book title card in red with a custom font to match the show title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-04-30T01:53:32"
+}
