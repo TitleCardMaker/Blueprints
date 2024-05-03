@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "font_color": "#C1CDC1",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Final Space",
+      "file": "prowler.ttf"
+    }
+  ],
+  "creator": "mayberts",
+  "description": [
+    "Standard card with season text hidden. I use a blurred watched Style. The Font is a close match, but not exact."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-03T18:53:01"
+}
