@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "template_ids": [],
+    "font_color": "#ecd961",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Helvetica Bold",
+      "file": "Helvetica-Bold-Font.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style card with a font designed to match the in-show text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-03T18:54:30"
+}

@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `621` Blueprints available for `507` Series, submitted by `30` Creators.
+There are currently `625` Blueprints available for `510` Series, submitted by `31` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -22,7 +22,7 @@ Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
 | CollinHeist | 275 |
-| Reicha7 | 160 |
+| Reicha7 | 161 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
 | anonfawkes | 33 |
@@ -31,9 +31,9 @@ Creators with the most Blueprint Submissions:
 | BenevolentNPC | 11 |
 | inapptom | 11 |
 | azuravian | 10 |
+| TheChrisK | 8 |
 | Departed | 7 |
 | thedinz | 7 |
-| TheChrisK | 6 |
 | GrazedNutsack | 5 |
 | foux | 5 |
 | starpc | 5 |
@@ -51,6 +51,7 @@ Creators with the most Blueprint Submissions:
 | Starpc | 1 |
 | Departed69 | 1 |
 | archigos | 1 |
+| mayberts | 1 |
 
 
 ## Sets
@@ -77,5 +78,5 @@ There are currently `19` Blueprint Sets available:
 | `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
 | `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
-| `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+1 more |
+| `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+3 more |
 
