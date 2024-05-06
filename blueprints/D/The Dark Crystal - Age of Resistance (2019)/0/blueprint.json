@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font",
+      "episode_text_font_size",
+      "episode_text_vertical_shift",
+      "frame_color",
+      "frame_width",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "#de28a1",
+      "{title_font}",
+      "1.5",
+      "-15",
+      "#c7c7c7",
+      "14",
+      "#34035c"
+    ]
+  },
+  "episodes": {
+    "s1e8": {
+      "title": "Prophets Do Not Know Everything",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Dark Crystal",
+      "color": "#de28a1",
+      "size": 1.2,
+      "file": "dc_s.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame card with a custom Font and series color matching. 1 Episode name is adjusted to account for missing font glyph."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-06T01:25:52"
+}
