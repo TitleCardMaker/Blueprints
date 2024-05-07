@@ -1,0 +1,21 @@
+{
+  "series": {
+    "card_type": "star wars",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false
+    }
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Star Wars card type with an episode override to look better."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-07T18:20:56"
+}
