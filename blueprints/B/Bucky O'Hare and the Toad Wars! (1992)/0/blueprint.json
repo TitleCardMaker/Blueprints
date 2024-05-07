@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "rgb(245, 221, 8)",
+      "rgb(150, 20, 154)",
+      "true"
+    ],
+    "source_files": [
+      "logo.png",
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Bucky O'Hare",
+      "color": "rgb(245, 221, 8)",
+      "stroke_width": 2.5,
+      "file": "round-pop.regular.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Logo Style card with custom font and supplied logo and backdrop. Use with an art style to use the backdrop."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-07T18:22:46"
+}
