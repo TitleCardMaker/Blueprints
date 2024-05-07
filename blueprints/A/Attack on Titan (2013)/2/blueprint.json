@@ -1,0 +1,274 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s0e2-s0e6",
+      "s0e8-s0e11",
+      "s0e24-s0e30",
+      "s1e1-s1e2",
+      "s1e3-s1e4",
+      "s1e5-s1e13",
+      "s1e14-s1e16",
+      "s1e17-s1e22",
+      "s1e23-s1e25",
+      "2",
+      "s3e1-s3e12",
+      "s3e13-s3e22",
+      "s4e1-s4e9",
+      "s4e10-s4e22",
+      "s4e22-s4e30",
+      "0"
+    ],
+    "season_title_values": [
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "Chibi Theatre",
+      "The Fall of Shiganshina",
+      "Humanity's Comeback",
+      "The Struggle for Trost",
+      "Eve of the Counterattack",
+      "The 57th Exterior Scouting Mission",
+      "Assault on Stohess",
+      "Clash of the Titans",
+      "Royal Government",
+      "Return to Shiganshina",
+      "Marley",
+      "War for Paradis",
+      "The Rumbling",
+      "OVAs"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "To You, in 2000 Years",
+      "match_title": false
+    },
+    "s1e2": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "That Day",
+      "match_title": false
+    },
+    "s1e3": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "A Dim Light Amid Despair",
+      "match_title": false
+    },
+    "s1e4": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "The Night of the Closing Ceremony",
+      "match_title": false
+    },
+    "s1e5": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "First Battle",
+      "match_title": false
+    },
+    "s1e6": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "The World the Girl Saw",
+      "match_title": false
+    },
+    "s1e7": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Small Blade",
+      "match_title": false
+    },
+    "s1e8": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "I Can Hear His Heartbeat",
+      "match_title": false
+    },
+    "s1e9": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Whereabouts of His Left Arm",
+      "match_title": false
+    },
+    "s1e10": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Response",
+      "match_title": false
+    },
+    "s1e11": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Idol",
+      "match_title": false
+    },
+    "s1e12": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Wound",
+      "match_title": false
+    },
+    "s1e13": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Primal Desire",
+      "match_title": false
+    },
+    "s1e14": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Can't Look into His Eyes Yet",
+      "match_title": false
+    },
+    "s1e15": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Special Operations Squad",
+      "match_title": false
+    },
+    "s1e16": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "What Needs to be Done Now",
+      "match_title": false
+    },
+    "s1e17": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Female Titan",
+      "match_title": false
+    },
+    "s1e18": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Forest of Giant Trees",
+      "match_title": false
+    },
+    "s1e19": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Bite",
+      "match_title": false
+    },
+    "s1e20": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Erwin Smith",
+      "match_title": false
+    },
+    "s1e21": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Crushing Blow",
+      "match_title": false
+    },
+    "s1e22": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "The Defeated",
+      "match_title": false
+    },
+    "s1e23": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Smile",
+      "match_title": false
+    },
+    "s1e24": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Mercy",
+      "match_title": false
+    },
+    "s1e25": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": [],
+      "title": "Wall",
+      "match_title": false
+    },
+    "s0e7": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e12": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e13": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e15": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e17": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e20": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e22": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s0e23": {
+      "hide_episode_text": true,
+      "template_ids": []
+    }
+  },
+  "fonts": [
+    {
+      "name": "Attack on Titan",
+      "file": "lintxt.ttf"
+    }
+  ],
+  "creator": "Reicha7, CollinHeist, BenevolentNPC",
+  "description": [
+    "Anime style card with custom font and arc splits for seasons (including fan-suggested arc for season 4). Borrows elements from CollinHeist's card."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-07T18:25:11"
+}
