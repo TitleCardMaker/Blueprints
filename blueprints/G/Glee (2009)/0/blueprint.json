@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "episode_text_format": "E{episode_number}",
+    "season_title_ranges": [
+      "s1e1-s6e13"
+    ],
+    "season_title_values": [
+      "S{season_number}"
+    ],
+    "extra_keys": [
+      "separator",
+      "line_position"
+    ],
+    "extra_values": [
+      ":",
+      "bottom"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Glee",
+      "color": "rgb(250, 240, 4)",
+      "file": "KAMAR.TTF",
+      "kerning": 5.0,
+      "size": 1.46,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Overline style card with a custom Font designed to mimic the show's."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-13T01:46:57"
+}
