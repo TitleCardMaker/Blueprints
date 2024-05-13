@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "add_controls",
+      "subtitle",
+      "player_style",
+      "control_colors",
+      "percentage"
+    ],
+    "extra_values": [
+      "True",
+      "{series_name + (\", Robbin' Season\" if season_number == 2 else \"\")}",
+      "artwork",
+      "rgb(29,185,84) white white white rgb(29,185,84)",
+      "{episode_number / season_episode_max}"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s4e10-mask.webp",
+      "backdrop.jpg",
+      "s3e6-mask.webp"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Atlanta",
+      "color": "rgb(252,239,210)",
+      "file": "Cabernet JF Pro.otf",
+      "interline_spacing": 10
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Music card with artwork, a custom Font, and \"Robbin' Season\" added to the subtitle for the second season.",
+    "The artwork is included along with two mask images."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-05-13T02:17:04"
+}
