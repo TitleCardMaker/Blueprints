@@ -1,0 +1,31 @@
+{
+  "series": {
+    "card_type": "graph",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "\u00a0"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s0e1.jpg"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "card_type": "textless"
+    }
+  },
+  "creator": "Archigos",
+  "description": [
+    "Graph with all text hidden. and textless for the special \"Making of\" Episode."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-05-14T17:12:15"
+}
