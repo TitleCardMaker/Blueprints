@@ -1,0 +1,151 @@
+{
+  "series": {
+    "card_type": "divider",
+    "hide_season_text": true,
+    "episode_text_format": "Chapter\\n{absolute_episode_number}",
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "{title_text.split(':', maxsplit=1)[1] if ':' in title_text else title_text}"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Four: The Last\\nPicture Show",
+      "match_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Thirteen: The Sweet\\nHereafter",
+      "match_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Fourteen: A Kiss\\nBefore Dying",
+      "match_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Eighteen: When a\\nStranger Calls",
+      "match_title": false
+    },
+    "s2e7": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Twenty: Tales from\\nthe Darkside",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Twenty-Three: The Blackboard\\nJungle",
+      "match_title": false
+    },
+    "s2e14": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Twenty-Seven: The Hills\\nHave Eyes",
+      "match_title": false
+    },
+    "s2e15": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Twenty-Eight: There Will\\nBe Blood",
+      "match_title": false
+    },
+    "s2e18": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Thirty-One: A Night\\nto Remember",
+      "match_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Thirty-Seven: Fortune and\\nMen's Eyes",
+      "match_title": false
+    },
+    "s3e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Thirty-Eight: As Above,\\nSo Below",
+      "match_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Forty-Eight: Requiem for\\na Welterweight",
+      "match_title": false
+    },
+    "s4e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Fifty-Nine: Fast Times at\\nRiverdale High",
+      "match_title": false
+    },
+    "s6e19": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred and Fourteen: The Witches\\nof Riverdale",
+      "match_title": false
+    },
+    "s7e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Nineteen: Skip, Hop\\nand Thump!",
+      "match_title": false
+    },
+    "s7e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Twenty-Two: Tales in a\\nJugular Vein",
+      "match_title": false
+    },
+    "s7e9": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Twenty-Six: Betty & Veronica\\nDouble Digest",
+      "match_title": false
+    },
+    "s7e15": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Thirty-Two: Miss Teen\\nRiverdale",
+      "match_title": false
+    },
+    "s7e17": {
+      "template_ids": [],
+      "title": "Chapter One Hundred Thirty-Four: A Different Kind of Cat",
+      "match_title": false
+    },
+    "s7e18": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Thirty-Five: For a\\n Better Tomorrow",
+      "match_title": false
+    },
+    "s7e19": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter One Hundred Thirty-Six: The Golden Age\\nof Television",
+      "match_title": false
+    }
+  },
+  "creator": "Archigos",
+  "description": [
+    "Using \"Divider\", with the Season hidden and \"Chapter XX:\" removed from the Episode Title and moved to the \"Episode Text\". I also tweaked some of the Auto-Split on a some episodes to make them look better."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-05-15T03:38:28"
+}
