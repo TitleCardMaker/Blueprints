@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_font_size",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "2.0",
+      "logo",
+      "index",
+      "2.0"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Batman 60's",
+      "color": "yellow",
+      "file": "adlib.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "Tinted Frame Plus with Ad Lib(Batman 60's) font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-15T03:36:16"
+}

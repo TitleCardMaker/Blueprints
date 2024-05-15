@@ -1,0 +1,36 @@
+{
+  "series": {
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Identity",
+      "Invasion",
+      "Outsiders",
+      "Phantoms"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "DC and Marvel",
+      "filters": []
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Basic Marvel/DC style card with custom season names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-15T03:39:55"
+}
