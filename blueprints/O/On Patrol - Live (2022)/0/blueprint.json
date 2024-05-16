@@ -1,0 +1,35 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_font_size",
+      "top_element",
+      "middle_element",
+      "bottom_element",
+      "logo_size",
+      "blur_only_image"
+    ],
+    "extra_values": [
+      "2.0",
+      "index",
+      "logo",
+      "title",
+      "2.0",
+      "true"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(244, 180, 4)",
+    "source_files": [
+      "backdrop.jpg",
+      "logo.png"
+    ]
+  },
+  "creator": "TechJedi51",
+  "description": [
+    "Tinted Frame card using a blurred background with and logo. Use with a blurred art style to use the included backdrop."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-16T21:29:26"
+}
