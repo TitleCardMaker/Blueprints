@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_font_size",
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "blur_edges"
+    ],
+    "extra_values": [
+      "2.0",
+      "logo",
+      "index",
+      "2.0",
+      "false"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Godfather",
+      "color": "white",
+      "title_case": "source",
+      "file": "Corleone.ttf"
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "Tinted Frame Plus card type using the Corleone (The Godfather) Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-16T21:30:49"
+}
