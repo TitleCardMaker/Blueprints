@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_font_size",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "2.0",
+      "logo",
+      "index",
+      "2.0"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Munsters",
+      "color": "red",
+      "title_case": "source",
+      "file": "Liquidism.otf"
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "Tinted Frame Plus card with the Munsters font (Liquidism). Red logo and text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-16T21:31:58"
+}
