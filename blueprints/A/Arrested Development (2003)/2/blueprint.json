@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "white"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Arrested Development",
+      "color": "#FA5601",
+      "file": "BlurWeb-Medium W03 Regular.ttf"
+    }
+  ],
+  "creator": "Reicha7, rtgurley",
+  "description": [
+    "Tinted frame blueprint using rtgurley's font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-19T17:19:52"
+}
