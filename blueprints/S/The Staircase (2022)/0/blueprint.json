@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "America's Sweetheart or:\\nTime Over Time",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Staircase",
+      "color": "#e6e453",
+      "file": "SourceSansPro-Regular.ttf",
+      "kerning": -20.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard card with custom font with similar letter spacing."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-19T17:18:20"
+}
