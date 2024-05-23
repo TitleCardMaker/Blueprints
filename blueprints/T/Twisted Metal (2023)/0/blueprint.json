@@ -1,0 +1,26 @@
+{
+  "series": {
+    "card_type": "textless",
+    "template_ids": [],
+    "source_files": [
+      "s1e6.jpg",
+      "s1e3.jpg",
+      "s1e4.jpg",
+      "s1e9.jpg",
+      "s1e1.jpg",
+      "s1e5.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e10.jpg",
+      "s1e2.jpg"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Textless card using the in-show cards (which don't show the episode name)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-23T18:41:28"
+}
