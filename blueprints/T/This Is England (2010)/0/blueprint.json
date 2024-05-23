@@ -1,0 +1,91 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "hide_season_text": false,
+    "hide_episode_text": true,
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "This is England '86",
+      "This is England '88",
+      "This is England '90"
+    ],
+    "match_titles": false
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "font_color": "#dd1e1c",
+      "title": "Episode 1"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "font_color": "#dd1e1c",
+      "title": "Episode 2"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "font_color": "#dd1e1c",
+      "title": "Episode 3"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "font_color": "#dd1e1c",
+      "title": "Episode 4"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "font_color": "#1e2c71",
+      "title": "Episode 1"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "font_color": "#1e2c71",
+      "title": "Episode 2"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "font_color": "#1e2c71",
+      "title": "Episode 3"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "font_color": "#efdd22",
+      "title": "Spring"
+    },
+    "s3e2": {
+      "template_ids": [],
+      "font_color": "#efdd22",
+      "title": "Summer"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "font_color": "#efdd22",
+      "title": "Autumn"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "font_color": "#efdd22",
+      "title": "Winter"
+    }
+  },
+  "fonts": [
+    {
+      "name": "This is England",
+      "file": "impact.ttf",
+      "size": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard card with custom Font and colours to match the season posters. Episodes have had their names adjusted to put the year in the season."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-23T18:42:27"
+}
