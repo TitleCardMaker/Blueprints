@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "extra_keys": [
+      "title_text_format",
+      "text_position",
+      "title_text_position"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}'.join(title_text.split(\"; \" ))}",
+      "lower left",
+      "right"
+    ],
+    "auto_split_title": false
+  },
+  "fonts": [
+    {
+      "name": "How It's Made",
+      "color": "white",
+      "file": "Helvetica-Bold-Font.ttf",
+      "stroke_width": 0.0,
+      "interline_spacing": 12
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Divider card with Helvetica font and custom code for splitting the title into a new line for each segment of the episode."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-23T18:43:34"
+}
