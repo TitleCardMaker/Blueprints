@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "hide_episode_text": true,
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u30d5\u30eb\u30fc\u30c4\u30d0\u30b9\u30b1\u30c3\u30c8 -prelude-"
+      ]
+    }
+  },
+  "fonts": [
+    {
+      "name": "Fruits Basket 2019",
+      "file": "Attentica 4F UltraLight.ttf",
+      "size": 1.5,
+      "title_case": "lower",
+      "vertical_shift": -50
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime card with a custom Font and a manual Kanji translation for the special."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-29T20:56:26"
+}
