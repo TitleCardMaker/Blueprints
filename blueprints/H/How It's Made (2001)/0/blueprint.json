@@ -8,7 +8,7 @@
       "title_text_position"
     ],
     "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.split(\"; \" ))}",
+      "{f'{NEWLINE}'.join(title_text.replace(\",\", \";\").split(\"; \"))}",
       "lower left",
       "right"
     ],
