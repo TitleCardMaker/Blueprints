@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Fruits Basket 2001",
+      "color": "#fef8e9",
+      "file": "Dkabeille-AdZL.otf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime card with a custom Font and no season text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-29T20:54:32"
+}
