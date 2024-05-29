@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_vertical_shift",
+      "logo_size",
+      "logo_vertical_shift",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "#f1a719",
+      "100",
+      "0.75",
+      "-250",
+      "true"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Jurassic Park",
+      "file": "Jurassic_Park.ttf",
+      "size": 1.5,
+      "color": "#ec6402",
+      "vertical_shift": -100
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Logo card which includes the art and the Jurassic Park font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-29T21:01:37"
+}

@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "shape",
+    "extra_keys": [
+      "shape",
+      "shape_color"
+    ],
+    "extra_values": [
+      "random[up triangle, down triangle]",
+      "rgb(66,148,210)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Shape card with the shape colored blue (to match some of the series' artwork), and the shape set to randomly choose between the two triangle variations."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-05-29T21:06:48"
+}
