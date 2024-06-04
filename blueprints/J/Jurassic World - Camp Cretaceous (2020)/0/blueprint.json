@@ -1,0 +1,55 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_vertical_shift",
+      "logo_size",
+      "logo_vertical_shift",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "#f1a719",
+      "100",
+      "0.75",
+      "-250",
+      "true"
+    ],
+    "template_ids": [],
+    "font_color": "#ec6402",
+    "font_vertical_shift": -100,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Jurassic Park",
+      "file": "Jurassic_Park.ttf",
+      "replacements_in": [
+        "-",
+        ",",
+        ".",
+        "'",
+        "?",
+        "!"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.5
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Logo card which includes the art and the Jurassic Park font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-04T20:42:48"
+}

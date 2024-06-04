@@ -1,0 +1,63 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "kanji_stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#a9a8ac",
+      "#bd2124",
+      "#bd2124",
+      "#bd2124",
+      "#a9a8ac"
+    ]
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Kaiju Who\\nDefeats Kaiju",
+      "match_title": false
+    },
+    "s1e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Welcome to the\\nDefense Force",
+      "match_title": false
+    },
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Man Who\\nBecame a Kaiju",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Kaiju",
+      "color": "black",
+      "file": "gomarice_kaiju_monster.ttf",
+      "interline_spacing": 15
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with custom font and colours to match the series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-04T20:47:49"
+}

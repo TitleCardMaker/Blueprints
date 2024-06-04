@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "notification",
+    "extra_keys": [
+      "glass_color",
+      "edge_color"
+    ],
+    "extra_values": [
+      "rgba(250, 11, 14, 0.5)",
+      "#fa0b0e"
+    ],
+    "auto_split_title": false,
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Hell's Kitchen",
+      "color": "white",
+      "file": "Trajan Bold.ttf",
+      "kerning": 0.4
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Notification card designed to be used with a backdrop for all episodes. Recommend to use an art style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-04T20:44:28"
+}
