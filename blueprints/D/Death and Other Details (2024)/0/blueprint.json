@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "hide_season_text": true,
+    "extra_keys": [
+      "player_style",
+      "percentage",
+      "timeline_color",
+      "draw_heart",
+      "heart_color",
+      "heart_stroke_color"
+    ],
+    "extra_values": [
+      "basic",
+      "{episode_number / season_episode_max}",
+      "rgb(230, 81, 23)",
+      "true",
+      "rgb(230, 81, 23)",
+      "rgb(230, 81, 23)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Death and Other Details",
+      "color": "#ebefd7",
+      "file": "EmblemaOne-Regular.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Music style card with custom font and series' logo colours for the player."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-04T20:18:10"
+}
