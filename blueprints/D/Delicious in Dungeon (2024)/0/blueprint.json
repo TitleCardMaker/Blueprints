@@ -18,7 +18,7 @@
       "episode_stroke_color"
     ],
     "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.split(\"/\" ))}",
+      "{f'{NEWLINE}'.join(title_text.replace(\"/ \", \"/\").split(\"/\" ))}",
       "white",
       "white",
       "white",
