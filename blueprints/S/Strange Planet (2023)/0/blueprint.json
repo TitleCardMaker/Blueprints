@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "episode_text_format": "Strange Planet | E{episode_number}",
+    "extra_keys": [
+      "episode_text_color",
+      "box_adjustments",
+      "glass_color"
+    ],
+    "extra_values": [
+      "rgb(122, 203, 251)",
+      "40 0 -20 0",
+      "rgba(248, 90, 188, 0.85)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Strange Planet",
+      "file": "BryanTalbotLower.ttf",
+      "kerning": -3.0,
+      "size": 0.9,
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card with a custom \"hand-drawn\" looking Font to match the original comic aesthetic. The glass and episode text are recolored pink and blue."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-10T19:21:04"
+}
