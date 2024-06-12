@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "#fff",
+      "{title_font}",
+      "title",
+      "logo",
+      "1.5"
+    ],
+    "font_title_case": "title",
+    "source_files": [
+      "Inter-Regular.otf",
+      "DaftBrush.ttf"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Atypical - Daft Brush",
+      "file": "DaftBrush.ttf"
+    }
+  ],
+  "creator": "cspowell82",
+  "description": [
+    "Blueprint for Netflix's Atypical."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-12T02:16:44"
+}
