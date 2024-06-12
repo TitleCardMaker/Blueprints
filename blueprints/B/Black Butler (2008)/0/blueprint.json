@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "kanji_font_size",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      "white",
+      "25",
+      "black",
+      "1.7",
+      "white"
+    ],
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Black Butler",
+      "color": "black",
+      "file": "Plain Black Wide.ttf",
+      "stroke_width": 5.0,
+      "vertical_shift": 25
+    }
+  ],
+  "creator": "Nibbles",
+  "description": [
+    "Anime style card with a backdrop and a custom font to match the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-12T02:24:23"
+}
