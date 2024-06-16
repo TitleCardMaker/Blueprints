@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "notification",
+    "episode_text_format": "Week {episode_number}",
+    "match_titles": false,
+    "auto_split_title": false,
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Apprentice",
+      "color": "#ebebeb",
+      "file": "impact.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Notification card designed to be used with backdrop art."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-16T19:26:07"
+}
