@@ -1,0 +1,26 @@
+{
+  "series": {
+    "card_type": "textless",
+    "template_ids": [],
+    "source_files": [
+      "s1e6.jpg",
+      "s1e3.jpg",
+      "s1e4.jpg",
+      "s1e9.jpg",
+      "s1e1.jpg",
+      "s1e5.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e10.jpg",
+      "s1e2.jpg"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Textless cards using the official title cards from the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-16T19:22:48"
+}
