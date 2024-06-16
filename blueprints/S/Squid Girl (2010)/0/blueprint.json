@@ -1,0 +1,52 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "0",
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "Specials",
+      "Season One",
+      "Season Two"
+    ],
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_color",
+      "kanji_color",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}'.join(title_text.split(\"/ \" ))}",
+      "rgb(236, 204, 34)",
+      "rgb(15, 101, 163)",
+      "white",
+      "0.75"
+    ],
+    "auto_split_title": false
+  },
+  "fonts": [
+    {
+      "name": "Squid Girl",
+      "file": "Bubble Mint.ttf",
+      "size": 0.75
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime card with custom font, custom line breaks, and colours to match the show's logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-16T19:24:47"
+}
