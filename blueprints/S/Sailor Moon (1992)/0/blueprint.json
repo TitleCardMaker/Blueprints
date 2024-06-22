@@ -41,6 +41,7 @@
     "template_ids": [],
     "auto_split_title": false,
     "font_color": "#fee775",
+    "font_size": 1.5,
     "source_files": []
   },
   "episodes": {
@@ -187,7 +188,6 @@
         "'",
         "-"
       ],
-      "size": 1.5,
       "stroke_width": 2.0
     }
   ],
