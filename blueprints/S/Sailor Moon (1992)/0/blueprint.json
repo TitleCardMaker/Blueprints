@@ -25,37 +25,170 @@
       "Sailor Moon Sailor Stars"
     ],
     "extra_keys": [
+      "title_text_format",
       "stroke_color",
       "episode_text_color",
       "kanji_color",
       "episode_stroke_color"
     ],
     "extra_values": [
+      "{f':{NEWLINE}'.join(title_text.split(\": \" ))}",
       "#e87087",
       "#fee775",
       "#fee775",
       "#e87087"
     ],
     "template_ids": [],
+    "auto_split_title": false,
     "font_color": "#fee775",
     "font_size": 1.5,
-    "font_stroke_width": 2.0,
-    "font_interword_spacing": 30,
     "source_files": []
   },
-  "episodes": {},
+  "episodes": {
+    "s1e38": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Snow, the Mountains,\\nFriendship and Monsters",
+      "match_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "For Whom is the White Rose?\\nThe Moonlight Knight Appears",
+      "match_title": false
+    },
+    "s2e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The School Festival is for Me?!\\nQueen Rei's Song",
+      "match_title": false
+    },
+    "s2e9": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Is Seijuro the Moonlight Knight?\\nMako on Fire",
+      "match_title": false
+    },
+    "s2e10": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Steal a Kiss from Mamoru!\\nAn's Project Snow White",
+      "match_title": false
+    },
+    "s2e14": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Angel or Devil?\\nThe Mysterious Girl from the Sky",
+      "match_title": false
+    },
+    "s2e24": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Battle of the Flames of Love!\\nMars vs. Koan",
+      "match_title": false
+    },
+    "s2e35": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Dark Gate is Completed?\\nThe Targeted Elementary School",
+      "match_title": false
+    },
+    "s2e41": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u611b\u3068\u672a\u6765\u3092\u4fe1\u3058\u3066\uff01\u3046\u3055\u304e\u306e\u6c7a\u5fc3"
+      ],
+      "template_ids": []
+    },
+    "s3e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "A Handsome Boy?\\nHaruka Tenoh's Secret",
+      "match_title": false
+    },
+    "s3e23": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Who is the True Messiah?\\nChaos of Light and Darkness",
+      "match_title": false
+    },
+    "s3e30": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Messiah of Silence Awakens?\\nStars of Destiny",
+      "match_title": false
+    },
+    "s4e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Artemis is Cheating?\\nEnter the Mysterious Kitten",
+      "match_title": false
+    },
+    "s4e7": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Makoto\u2019s Friendship!\\nThe Girl Who Admired Pegasus",
+      "match_title": false
+    },
+    "s4e20": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Destined Partners?\\nMakoto's Innocence",
+      "match_title": false
+    },
+    "s4e26": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Dentist of Horrors?\\nPallaPalla's House",
+      "match_title": false
+    },
+    "s5e13": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Friend or Foe?\\nStar Lights and the Sailor Guardians",
+      "match_title": false
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "A Beautiful Transformation?\\nThe Journey and Growth of the Crybaby Usagi",
+      "match_title": false,
+      "season_text": "Sailor Moon SuperS Special ",
+      "episode_text": "#1"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "Haruka and Michiru Return: The Ghost Puppet Play",
+      "match_title": false,
+      "season_text": "Sailor Moon SuperS Special ",
+      "episode_text": "#2"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "title": "Chibi-Usa's Adventure: The Vampire Mansion of Terror",
+      "match_title": false,
+      "season_text": "Sailor Moon SuperS Special ",
+      "episode_text": "#3"
+    }
+  },
   "templates": [],
   "fonts": [
     {
       "name": "Sailor moon",
       "delete_missing": true,
       "file": "Shardee.ttf",
+      "interword_spacing": 30,
+      "line_split_modifier": 20,
       "replacements_in": [
-        "\u2019"
+        "\u2019",
+        "~"
       ],
       "replacements_out": [
-        "'"
-      ]
+        "'",
+        "-"
+      ],
+      "stroke_width": 2.0
     }
   ],
   "previews": [
