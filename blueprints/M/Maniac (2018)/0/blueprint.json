@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "hide_season_text": true,
+    "extra_keys": [
+      "override_bw",
+      "override_style"
+    ],
+    "extra_values": [
+      "color",
+      "play"
+    ],
+    "template_ids": [],
+    "font_kerning": 0.05,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e7": {
+      "template_ids": [],
+      "match_title": true
+    }
+  },
+  "fonts": [
+    {
+      "name": "Maniac",
+      "file": "BLUELINES.TTF",
+      "size": 0.75,
+      "stroke_width": 0.01
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Retro style card with custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-29T20:46:32"
+}
