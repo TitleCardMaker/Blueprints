@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "episode_text_color",
+      "line_color",
+      "line_position",
+      "line_width"
+    ],
+    "extra_values": [
+      "#f0f0f0",
+      "#fdde13",
+      "bottom",
+      "15"
+    ]
+  },
+  "episodes": {
+    "s3e2": {
+      "template_ids": [],
+      "title": "Portugal's Rugged Coast"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Gordon Ramsay Uncharted",
+      "color": "#f0f0f0",
+      "file": "Topline-regular.ttf",
+      "stroke_width": 0.0,
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ],
+      "size": 1.15
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Overline style card with a custom font designed to match series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-29T20:50:01"
+}

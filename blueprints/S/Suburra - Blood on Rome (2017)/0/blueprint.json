@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "striped",
+    "extra_keys": [
+      "episode_text_color",
+      "overlay_color",
+      "text_position"
+    ],
+    "extra_values": [
+      "#fffbe2",
+      "#64878f",
+      "upper left"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Suburra",
+      "color": "#fffbe2",
+      "size": 1.75,
+      "file": "Singo Sans Regular.ttf",
+      "interword_spacing": -25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Stripe style card with colours and font designed to match the series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-06-29T20:52:57"
+}
