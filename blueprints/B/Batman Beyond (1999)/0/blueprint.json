@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "Batman Beyond",
+      "color": "#FFFFFF",
+      "file": "batmanbeyond.ttf",
+      "title_case": "source",
+      "size": 1.5
+    }
+  ],
+  "creator": "Visnes",
+  "description": [
+    "Standard card type with white episode titles in the middle on a dark blurred background in grayscale. Use with blurred grayscale style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-01T15:30:39"
+}

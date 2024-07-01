@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "rgb(243,186,48)",
+      "logo",
+      "title",
+      "2.5",
+      "white"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Rainbow Bright",
+      "color": "rgb(201,53,65)",
+      "file": "RollingNoOne-ExtraBold.ttf",
+      "stroke_width": 2.5,
+      "title_case": "title"
+    }
+  ],
+  "creator": "Natejt",
+  "description": [
+    "Tinted Frame style card with logo, font, and colors matching the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-01T15:37:29"
+}

@@ -1,0 +1,398 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Castlevania II:\\nSimon's Quest",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Teenage Mutant\\nNinja Turtles",
+      "match_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Master Chu and\\nthe Drunkard Hu",
+      "match_title": false
+    },
+    "s1e15": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chronologically Confused\\nAbout Sequel Titles",
+      "match_title": false
+    },
+    "s2e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Teenage Mutant\\nNinja Turtles III",
+      "match_title": false
+    },
+    "s2e13": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Bugs Bunny's\\nBirthday Blowout",
+      "match_title": false
+    },
+    "s2e20": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "An Angry Nerd\\nChristmas Carol: Part 1",
+      "match_title": false
+    },
+    "s2e21": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "An Angry Nerd\\nChristmas Carol: Part 2",
+      "match_title": false
+    },
+    "s3e22": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Michael Jackson's\\nMoonwalker",
+      "match_title": false
+    },
+    "s5e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Back to the Future\\nRe-Revisited",
+      "match_title": false
+    },
+    "s5e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Dr. Jekyll and Mr. Hyde\\nRe-Revisited",
+      "match_title": false
+    },
+    "s5e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "How the Nerd\\nStole Christmas",
+      "match_title": false
+    },
+    "s6e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Making of an\\nAngry Video Game Nerd\\nEpisode",
+      "match_title": false
+    },
+    "s6e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Nintendo World\\nChampionships",
+      "match_title": false
+    },
+    "s7e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Bill & Ted's\\nExcellent Adventure",
+      "match_title": false
+    },
+    "s8e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Big Rigs:\\nOver the Road Racing",
+      "match_title": false
+    },
+    "s8e3": {
+      "template_ids": [],
+      "title": "E.T.",
+      "match_title": false
+    },
+    "s8e10": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Mary-Kate and Ashley:\\nGet a Clue",
+      "match_title": false
+    },
+    "s8e15": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Universal Studios\\nTheme Parks Adventure",
+      "match_title": false
+    },
+    "s9e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Mortal Kombat Mythologies:\\nSub-Zero",
+      "match_title": false
+    },
+    "s10e1": {
+      "template_ids": [],
+      "title": "MEGA MAN Games",
+      "match_title": false
+    },
+    "s10e2": {
+      "template_ids": [],
+      "title": "Paperboy",
+      "match_title": false
+    },
+    "s11e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Mighty Morphin\\nPower Rangers",
+      "match_title": false
+    },
+    "s11e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Sonic the Hedgehog 2006",
+      "match_title": false
+    },
+    "s11e3": {
+      "template_ids": [],
+      "title": "Planet of the Apes",
+      "match_title": false
+    },
+    "s11e5": {
+      "template_ids": [],
+      "title": "Treasure Master",
+      "match_title": false
+    },
+    "s11e10": {
+      "template_ids": [],
+      "title": "Charlie's Angels",
+      "match_title": false
+    },
+    "s11e11": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Star Wars:\\nMasters of Teras Kasi",
+      "match_title": false
+    },
+    "s11e12": {
+      "template_ids": [],
+      "title": "Lightspan Adventures",
+      "match_title": false
+    },
+    "s12e8": {
+      "template_ids": [],
+      "title": "The Town With No Name",
+      "match_title": false
+    },
+    "s12e9": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Home Alone Games\\nwith Macaulay Culkin",
+      "match_title": false
+    },
+    "s13e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Aladdin Deck Enhancer",
+      "match_title": false
+    },
+    "s13e4": {
+      "template_ids": [],
+      "title": "Pepsiman",
+      "match_title": false
+    },
+    "s13e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Superman 64 Returns!!",
+      "match_title": false
+    },
+    "s13e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Life of Black Tiger\\nwith Gilbert Gottfried",
+      "match_title": false
+    },
+    "s13e7": {
+      "template_ids": [],
+      "title": "Chex Quest",
+      "match_title": false
+    },
+    "s13e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Jurassic Park: Trespasser",
+      "match_title": false
+    },
+    "s13e9": {
+      "template_ids": [],
+      "title": "The Immortal",
+      "match_title": false
+    },
+    "s13e11": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Legend of Zelda:\\nMajora's Mask",
+      "match_title": false
+    },
+    "s14e4": {
+      "template_ids": [],
+      "title": "Dennis the Menace",
+      "match_title": false
+    },
+    "s14e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Incredible\\nCrash Dummies",
+      "match_title": false
+    },
+    "s14e7": {
+      "template_ids": [],
+      "title": "Mission: Impossible",
+      "match_title": false
+    },
+    "s14e8": {
+      "template_ids": [],
+      "title": "Ecco the Dolphin",
+      "match_title": false
+    },
+    "s14e9": {
+      "template_ids": [],
+      "title": "Countdown Vampires",
+      "match_title": false
+    },
+    "s14e10": {
+      "template_ids": [],
+      "title": "The Legend of Kage",
+      "match_title": false
+    },
+    "s14e11": {
+      "template_ids": [],
+      "title": "Taito Legends",
+      "match_title": false
+    },
+    "s14e12": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Simpsons:\\nBartman Meets\\nRadioactive Man",
+      "match_title": false
+    },
+    "s15e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Shrek:\\nFairy Tale Freakdown",
+      "match_title": false
+    },
+    "s15e2": {
+      "template_ids": [],
+      "title": "Darkman",
+      "match_title": false
+    },
+    "s15e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Fear and Loathing\\nin Vegas Stakes",
+      "match_title": false
+    },
+    "s15e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "3DO Interactive\\nMultiplayer",
+      "match_title": false
+    },
+    "s15e5": {
+      "template_ids": [],
+      "title": "Corpse Killer",
+      "match_title": false
+    },
+    "s15e8": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Pac-Man 2:\\nThe New Adventures",
+      "match_title": false
+    },
+    "s15e9": {
+      "template_ids": [],
+      "title": "The Rocketeer",
+      "match_title": false
+    },
+    "s15e10": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Greendog:\\nThe Beached Surfer Dude!",
+      "match_title": false
+    },
+    "s15e12": {
+      "template_ids": [],
+      "title": "Freddy & Jason",
+      "match_title": false
+    },
+    "s15e13": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "LJN\\nHistory & Movie Games",
+      "match_title": false
+    },
+    "s15e14": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "LJN\\nSports and Marvel Games",
+      "match_title": false
+    },
+    "s15e15": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "LJN\\nWrestling and Other Games",
+      "match_title": false
+    },
+    "s16e1": {
+      "template_ids": [],
+      "title": "The Last Ninja",
+      "match_title": false
+    },
+    "s16e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Contra\\nHow I Remember It",
+      "match_title": false
+    },
+    "s16e3": {
+      "template_ids": [],
+      "title": "Purr Pals",
+      "match_title": false
+    },
+    "s16e4": {
+      "template_ids": [],
+      "title": "Hudson Hawk",
+      "match_title": false
+    },
+    "s17e6": {
+      "template_ids": [],
+      "title": "Final Fantasy 6",
+      "match_title": false
+    },
+    "s18e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "What Is the Best Castlevania\\n20th Anniversary of\\nAngry Video Game Nerd",
+      "match_title": false
+    },
+    "s18e4": {
+      "template_ids": [],
+      "title": "SimCity",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "AVGN",
+      "file": "PixeloidSansBold-PKnYd.ttf",
+      "color": "#fef200"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Logo style card with retro font and a bunch of episode overrides to make for nicer lines."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-01T15:41:37"
+}
