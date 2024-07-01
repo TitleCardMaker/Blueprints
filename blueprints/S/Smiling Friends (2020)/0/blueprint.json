@@ -46,6 +46,42 @@
     "s2e1": {
       "template_ids": [],
       "font_color": "rgb(130, 253, 131)"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "font_color": "rgb(161, 226, 252)"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "font_color": "rgb(255, 180, 249)"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "font_color": "rgb(252, 253, 100)"
+    },
+    "s2e5": {
+        "template_ids": [],
+      "font_color": "rgb(130, 253, 131)"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "font_color": "rgb(161, 226, 252)"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "font_color": "rgb(130, 253, 131)"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "font_color": "rgb(253, 105, 105)"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "font_color": "rgb(255, 180, 249)"
+    },
+    "s2e10": {
+      "template_ids": [],
+      "font_color": "rgb(252, 253, 100)"
     }
   },
   "fonts": [
