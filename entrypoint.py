@@ -6,6 +6,7 @@ This serves as the entrypoint to all Blueprint actions.
 
 from argparse import ArgumentParser
 from sys import exit as sys_exit
+from typing import Callable
 
 
 ap = ArgumentParser()
