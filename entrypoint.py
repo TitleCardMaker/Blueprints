@@ -5,6 +5,7 @@ This serves as the entrypoint to all Blueprint actions.
 """
 
 from argparse import ArgumentParser
+from sys import exit as sys_exit
 
 
 ap = ArgumentParser()
@@ -18,32 +19,43 @@ ap.add_argument('--update-database', action='store_true')
 
 args = ap.parse_args()
 
+# Functions to run
+sequence: list[Callable] = []
+
 if args.parse_submission:
     from src.build.parse_submission import parse_and_create_blueprint
-    parse_and_create_blueprint()
+    sequence.append(parse_and_create_blueprint)
 
 if args.parse_set_submission:
     from src.build.parse_submission import parse_blueprint_set
-    parse_blueprint_set()
+    sequence.append(parse_blueprint_set)
 
 if args.lint_blueprints:
     from src.build.lint_blueprints import lint_blueprints
-    lint_blueprints()
+    sequence.append(lint_blueprints)
 
 if args.update_database:
     from src.build.update_database import update_database
-    update_database()
+    sequence.append(update_database)
 
 if args.resize_images:
     from src.build.resize_images import resize_images
-    resize_images()
+    sequence.append(resize_images)
 
 if args.build_readme:
     from src.build.build_series_readme import build_series_readme
     from src.build.build_master_readme import build_master_readme
-    build_series_readme()
-    build_master_readme()
+    sequence.append(build_series_readme)
+    sequence.append(build_master_readme)
 
 if args.notify_discord:
     from src.build.notify_discord import notify_discord
-    notify_discord()
+    sequence.append(notify_discord)
+
+for function in sequence:
+    try:
+        function()
+    except Exception as exc:
+        print(f'Some error occured: {exc}')
+        print(f'Exiting')
+        sys_exit(1)
