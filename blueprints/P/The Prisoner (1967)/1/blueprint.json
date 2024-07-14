@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "The Prisoner",
+      "file": "VILLAGE.TTF",
+      "interline_spacing": -60,
+      "size": 1.3,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card using a Font inspired by the in-Series titling."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-14T04:33:42"
+}
