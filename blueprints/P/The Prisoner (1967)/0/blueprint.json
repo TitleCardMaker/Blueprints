@@ -1,0 +1,34 @@
+{
+  "series": {
+    "card_type": "textless",
+    "template_ids": [],
+    "source_files": [
+      "s1e13.jpg",
+      "s1e3.jpg",
+      "s1e6.jpg",
+      "s1e10.jpg",
+      "s1e17.jpg",
+      "s1e11.jpg",
+      "s1e8.jpg",
+      "s1e2.jpg",
+      "s1e5.jpg",
+      "s1e7.jpg",
+      "s1e9.jpg",
+      "s1e15.jpg",
+      "s1e12.jpg",
+      "s1e4.jpg",
+      "s1e1.jpg",
+      "s1e16.jpg",
+      "s1e14.jpg"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Official Title Cards."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-07-14T04:32:29"
+}
