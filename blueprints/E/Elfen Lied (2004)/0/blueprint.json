@@ -1,0 +1,53 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "extra_keys": [
+      "stroke_color",
+      "kanji_vertical_shift",
+      "kanji_font_size",
+      "kanji_stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#7a181c",
+      "70",
+      "1.5",
+      "#7a181c",
+      "#7a181c"
+    ]
+  },
+  "episodes": {
+    "s1e11": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u901a\u308a\u96e8\u306b\u3066 \u6216\u3044"
+      ]
+    }
+  },
+  "fonts": [
+    {
+      "name": "Elfen Lied",
+      "file": "YakuzaDemoRegular.ttf",
+      "vertical_shift": -100,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom Font, episode override for OVA. Designed for Absolute ordering."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-23T04:07:44"
+}
