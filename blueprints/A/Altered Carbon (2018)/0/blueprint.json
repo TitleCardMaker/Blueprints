@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "Altered Carbon",
+      "color": "rgb(252, 4, 5)",
+      "file": "Altered_Carbon_V1.ttf",
+      "kerning": 2.0
+    }
+  ],
+  "creator": "DBKrishnan",
+  "description": [
+    "Standard Card with Altered Carbon font (by Difficultylevel) in red. Season and episode text are hidden. Preview Cards are using a blurred style."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-07-25T19:31:48"
+}
