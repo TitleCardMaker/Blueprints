@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Phineas and Ferb",
+      "file": "SansPerry.ttf"
+    }
+  ],
+  "creator": "DBKrishnan",
+  "description": [
+    "Standard Card with SansPerry font (by creeonaskateboard). Preview Cards are using a blurred style."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-07-25T19:26:42"
+}
