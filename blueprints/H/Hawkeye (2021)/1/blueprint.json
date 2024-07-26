@@ -1,0 +1,85 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "DC and Marvel",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Hawkeye",
+      "color": "rgb(252, 236, 60)",
+      "file": "howbai-font.ttf",
+      "interword_spacing": 25,
+      "replacements_in": [
+        "+",
+        "#",
+        "\"",
+        "_",
+        "|",
+        "{",
+        "'",
+        "`",
+        "~",
+        "@",
+        ">",
+        "%",
+        "$",
+        "-",
+        "[",
+        "/",
+        "\\",
+        "*",
+        "^",
+        "=",
+        "]",
+        "}",
+        "<"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": 1.3,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Marvel card type to match the RedHeadJedi's Marvel Cinematic Universe poster set(s) with the Series' custom Font. Uses a \"DC and Marvel\" Template for other Blueprints in the Set."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-07-26T17:22:48"
+}
