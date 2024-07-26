@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `679` Blueprints available for `559` Series, submitted by `39` Creators.
+There are currently `680` Blueprints available for `559` Series, submitted by `39` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,7 +21,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 284 |
+| CollinHeist | 285 |
 | Reicha7 | 191 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
@@ -69,7 +69,7 @@ There are currently `19` Blueprint Sets available:
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
 | `1` | Scooby-Doo | LEGO Scooby-Doo Shorts [0]<br>Scooby's All-Star Laff-A-Lympics [0]<br>The 13 Ghosts of Scooby-Doo [0]<br>A Pup Named Scooby-Doo [0]<br>+10 more |
-| `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+5 more |
+| `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+6 more |
 | `3` | Legend of the Galactic Heroes | Legend of the Galactic Heroes: Die Neue These [0]<br>Legend of the Galactic Heroes [0] |
 | `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
