@@ -1,0 +1,118 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "episode_text_font_size",
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "1.5",
+      "110"
+    ]
+  },
+  "episodes": {
+    "s4e1": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s4e2": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s4e3": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s4e4": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s4e5": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s4e6": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e1": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e2": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e3": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e4": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e5": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s5e6": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s6e1": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s6e2": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s6e3": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s6e4": {
+      "hide_episode_text": false,
+      "template_ids": []
+    },
+    "s6e5": {
+      "hide_episode_text": false,
+      "template_ids": []
+    }
+  },
+  "fonts": [
+    {
+      "name": "Peaky Blinders",
+      "file": "Alycidon-Condensed.otf",
+      "vertical_shift": -150,
+      "size": 2.0,
+      "replacements_in": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "replacements_out": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ]
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard style title card with a template for the title-less episodes and some custom work for the titled ones. Uses a custom font with cardinal character replacements."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-08-05T18:54:31"
+}

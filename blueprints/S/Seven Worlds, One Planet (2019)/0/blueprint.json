@@ -1,0 +1,29 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ]
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "landscape",
+      "name": "Documentary"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Helvetica_Documentary",
+      "file": "Helvetica.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "inapptom, Reicha7, CollinHeist",
+  "description": [
+    "Landscape card following CollinHeist and Reicha7's template."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-05T18:57:47"
+}
