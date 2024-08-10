@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_font",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "/config/assets/fonts/22/SpecialElite-Regular.ttf",
+      "1.5"
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e10",
+      "s1e11-s1e18"
+    ],
+    "season_title_values": [
+      "Part 1",
+      "Part 2"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Special Elite - Inside Job",
+      "file": "SpecialElite-Regular.ttf",
+      "size": 1.5,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Cwavs",
+  "description": [
+    "Tinted Frame Plus with a similar font to the logo, and the part number instead of the season text.",
+    "You will need to manually set the \"Episode Text Font\" extra to the included Font file."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-10T17:04:25"
+}
