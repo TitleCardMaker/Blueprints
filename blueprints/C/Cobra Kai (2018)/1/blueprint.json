@@ -1,0 +1,75 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "episode_text_color",
+      "player_style",
+      "album_size",
+      "percentage",
+      "timeline_color"
+    ],
+    "extra_values": [
+      "#f0ce73",
+      "basic",
+      "1",
+      "{episode_number / season_episode_max}",
+      "#fc0100"
+    ],
+    "template_ids": [],
+    "auto_split_title": false,
+    "source_files": []
+  },
+  "episodes": {
+    "s3e3": {
+      "template_ids": [],
+      "title": "Now You Are Gonna Pay",
+      "match_title": false
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "Miyagi Do",
+      "match_title": false
+    },
+    "s3e8": {
+      "template_ids": [],
+      "title": "The Good, The Bad,\\nand The Badass",
+      "match_title": false
+    },
+    "s5e1": {
+      "template_ids": [],
+      "title": "Long, Long Way\\nFrom Home",
+      "match_title": false
+    },
+    "s5e2": {
+      "template_ids": [],
+      "title": "Mole",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Cobra Kai",
+      "color": "#FF0000",
+      "file": "Dead_Stock_Demo.ttf",
+      "replacements_in": [
+        "\u00e1",
+        "(",
+        ")"
+      ],
+      "replacements_out": [
+        "a",
+        "Part ",
+        ""
+      ]
+    }
+  ],
+  "creator": "Reicha7, rtgurley, CollinHeist",
+  "description": [
+    "Music style card with custom colours and font supplied from existing blueprint."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-20T22:07:43"
+}
