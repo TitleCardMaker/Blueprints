@@ -1,0 +1,88 @@
+{
+  "series": {
+    "card_type": "music",
+    "extra_keys": [
+      "percentage"
+    ],
+    "extra_values": [
+      "{episode_number / season_episode_max}"
+    ],
+    "template_ids": [],
+    "match_titles": false,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Crash"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The New World"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "The Stabbing"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "A Conflict of Interests"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "The Footie"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "The Deadline"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Wrongful Death"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "The Good Father"
+    },
+    "s2e1": {
+      "template_ids": [],
+      "title": "Helpless"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "title": "The Safe-Cracker"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "title": "The Bombing"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "Suburban Swingers"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "The Kidnapping"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "title": "A Deadly Drug"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "The Shooting"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Undercover"
+    }
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Music style title card with the Series logo and unofficial Episode titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-26T15:32:23"
+}
