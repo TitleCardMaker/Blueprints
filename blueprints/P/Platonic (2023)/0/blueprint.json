@@ -1,0 +1,22 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0
+  },
+  "fonts": [
+    {
+      "name": "Platonic",
+      "file": "Mangueira-Heavy.ttf",
+      "size": 1.25,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Standard card type with a matching Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-26T15:25:17"
+}
