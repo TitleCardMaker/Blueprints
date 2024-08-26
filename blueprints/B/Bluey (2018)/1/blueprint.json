@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "#88c0e8",
+      "#88c0e8",
+      "logo",
+      "title",
+      "2.0"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Bluey",
+      "color": "rgb(148,197,245)",
+      "file": "Hello Headline Regular.ttf",
+      "size": 1.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "iloveteaandcoffee, CollinHeist",
+  "description": [
+    "Tinted Frame card type with the Bluey logo. Font used is from CollinHeist's Bluey Blueprint."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-26T15:36:29"
+}

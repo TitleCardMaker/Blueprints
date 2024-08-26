@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "music",
+    "extra_keys": [
+      "percentage"
+    ],
+    "extra_values": [
+      "{episode_number / season_episode_max}"
+    ]
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Music style title card with series logo and unofficial and official episode titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-26T15:35:01"
+}
