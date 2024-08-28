@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `690` Blueprints available for `567` Series, submitted by `41` Creators.
+There are currently `691` Blueprints available for `568` Series, submitted by `41` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -37,9 +37,9 @@ Creators with the most Blueprint Submissions:
 | GrazedNutsack | 5 |
 | foux | 5 |
 | starpc | 5 |
+| PJ | 4 |
 | TechJedi51 | 4 |
 | Cwavs | 4 |
-| PJ | 3 |
 | Dragonsys | 3 |
 | BattleChambers | 3 |
 | Ziggy73701 | 2 |
@@ -66,7 +66,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `19` Blueprint Sets available:
+There are currently `20` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -89,4 +89,5 @@ There are currently `19` Blueprint Sets available:
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
 | `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
 | `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+3 more |
+| `20` | Life on Mars (a.k.a. Gene Hunt's World) | Ashes to Ashes [0]<br>Life on Mars [0] |
 
