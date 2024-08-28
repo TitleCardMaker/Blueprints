@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "rgb(254, 229, 48)",
+      "logo",
+      "title",
+      "1.5",
+      "rgb(242, 68, 80)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Based on a True Story",
+      "file": "Geomatrix.ttf",
+      "color": "rgb(254, 229, 48)",
+      "size": 1.4
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Tinted Frame card with a matching color and font, and a logo as the top element. Inspired by ilovetea on MediUX."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-08-28T18:03:42"
+}
