@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "episode_text_format": "Chapter {episode_number}",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Volume 1"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(255, 255, 0)",
+      "1.5",
+      "rgb(0, 0, 0)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "RWBY Font",
+      "color": "rgb(255, 255, 255)",
+      "title_case": "title",
+      "file": "RWBY-Z.ttf"
+    }
+  ],
+  "creator": "Cwavs",
+  "description": [
+    "Tinted Frame Plus with red series logo, and other colors adjusted to match the other character's accent colors. Logo font is used for text and Season and Episode have been substituted for Volume and Chapter respectively.",
+    "You will need to manually set the \"Episode Text Font\" extra to the included Font file."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-03T17:12:56"
+}
