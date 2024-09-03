@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `691` Blueprints available for `568` Series, submitted by `41` Creators.
+There are currently `693` Blueprints available for `570` Series, submitted by `40` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -31,15 +31,15 @@ Creators with the most Blueprint Submissions:
 | DeepDaddyTTV | 12 |
 | inapptom | 12 |
 | azuravian | 10 |
+| Departed | 8 |
 | TheChrisK | 8 |
-| Departed | 7 |
 | thedinz | 7 |
+| Cwavs | 6 |
 | GrazedNutsack | 5 |
 | foux | 5 |
 | starpc | 5 |
 | PJ | 4 |
 | TechJedi51 | 4 |
-| Cwavs | 4 |
 | Dragonsys | 3 |
 | BattleChambers | 3 |
 | Ziggy73701 | 2 |
@@ -55,7 +55,6 @@ Creators with the most Blueprint Submissions:
 | Cloudburst | 1 |
 | bugmancx | 1 |
 | Starpc | 1 |
-| Departed69 | 1 |
 | archigos | 1 |
 | mayberts | 1 |
 | cspowell82 | 1 |
@@ -66,7 +65,7 @@ Creators with the most Blueprint Submissions:
 
 ## Sets
 
-There are currently `20` Blueprint Sets available:
+There are currently `21` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -90,4 +89,5 @@ There are currently `20` Blueprint Sets available:
 | `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
 | `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+3 more |
 | `20` | Life on Mars (a.k.a. Gene Hunt's World) | Ashes to Ashes [0]<br>Life on Mars [0] |
+| `21` | RWBY Universe | RWBY: Ice Queendom [0]<br>RWBY [0] |
 
