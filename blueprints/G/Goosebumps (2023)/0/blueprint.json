@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_vertical_shift",
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "20",
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Goosebumps",
+      "color": "rgb(86, 189, 194)",
+      "size": 1.25,
+      "vertical_shift": -20,
+      "file": "Gortem.woff",
+      "title_case": "title"
+    }
+  ],
+  "creator": "Azuravian",
+  "description": [
+    "Uses the Standard card type with a free font based off of the Goosebumps logo.  The logo itself is not a font and is hand-made.",
+    "Episode title text uses a blue color similar to the poster for the series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-19T13:46:14"
+}
