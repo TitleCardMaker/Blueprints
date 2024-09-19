@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "player_style",
+      "player_width",
+      "subtitle"
+    ],
+    "extra_values": [
+      "logo",
+      "1050",
+      "{\"\"}"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Bad Sisters",
+      "file": "Kiona-Regular.ttf"
+    }
+  ],
+  "creator": "iloveteaandcoffee",
+  "description": [
+    "Music card type series with a matching Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-19T13:43:24"
+}
