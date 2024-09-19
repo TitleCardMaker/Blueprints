@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "frame_color",
+      "frame_width",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "#DFA46D",
+      "2.0",
+      "#55053B",
+      "8",
+      "logo",
+      "index",
+      "2.0"
+    ],
+    "font_color": "#DFA46D"
+  },
+  "creator": "TechJedi51",
+  "description": [
+    "Tinted Frame Plus card type, with the font color adjusted to match the gold in the logo. Easier to read with a black text shadow."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-19T18:17:50"
+}
