@@ -1,0 +1,25 @@
+{
+  "series": {
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Genesis",
+      "Generations",
+      "Villains / Fugitives",
+      "Redemption"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Official season titles for seasons 1-4. Uses your default card type."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-09-20T16:13:38"
+}
