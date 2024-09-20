@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "rgb(219, 65, 128)",
+      "1.25"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "I Think You Should Leave",
+      "file": "Cooper Black Italic.ttf"
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Standard card type with a matching title font and colors."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-20T16:12:44"
+}
