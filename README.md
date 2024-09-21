@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `699` Blueprints available for `576` Series, submitted by `40` Creators.
+There are currently `703` Blueprints available for `580` Series, submitted by `40` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,8 +21,8 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 289 |
-| Reicha7 | 195 |
+| CollinHeist | 290 |
+| Reicha7 | 197 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
 | anonfawkes | 33 |
@@ -34,11 +34,11 @@ Creators with the most Blueprint Submissions:
 | Departed | 8 |
 | TheChrisK | 8 |
 | thedinz | 7 |
+| PJ | 6 |
 | TechJedi51 | 6 |
 | Cwavs | 6 |
 | GrazedNutsack | 5 |
 | foux | 5 |
-| PJ | 5 |
 | starpc | 5 |
 | Dragonsys | 3 |
 | BattleChambers | 3 |
@@ -70,7 +70,7 @@ There are currently `21` Blueprint Sets available:
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
 | `1` | Scooby-Doo | LEGO Scooby-Doo Shorts [0]<br>Scooby's All-Star Laff-A-Lympics [0]<br>The 13 Ghosts of Scooby-Doo [0]<br>A Pup Named Scooby-Doo [0]<br>+10 more |
-| `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+6 more |
+| `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+7 more |
 | `3` | Legend of the Galactic Heroes | Legend of the Galactic Heroes: Die Neue These [0]<br>Legend of the Galactic Heroes [0] |
 | `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
@@ -84,7 +84,7 @@ There are currently `21` Blueprint Sets available:
 | `13` | Digimon Collection | Digimon Adventure 20th Memorial Story [0]<br>Digimon Adventure: 2020 [0]<br>Digimon Tamers [0]<br>Digimon Frontier [0]<br>+1 more |
 | `14` | Power Universe | Power [0]<br>Power Book IV: Force [0]<br>Power Book III: Raising Kanan [0]<br>Power Book II: Ghost [0] |
 | `15` | The Big Lez | Mike Nolan's Long Weekend [0]<br>The Big Lez Show [0]<br>The Donny & Clarence Show [0]<br>The Mike Nolan Show [0]<br>+1 more |
-| `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+1 more |
+| `16` | DC Comics | DC's Legends of Tomorrow [0]<br>Arrow [0]<br>The Flash [0]<br>Naomi [0]<br>+2 more |
 | `17` | Law & Order | Law & Order: UK [0]<br>Law & Order: Special Victims Unit [0]<br>Law & Order: LA [0]<br>Law & Order [1] |
 | `18` | Taskmaster | Taskmaster (NZ) [0]<br>Taskmaster [1]<br>Taskmaster (AU) [0] |
 | `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+3 more |
