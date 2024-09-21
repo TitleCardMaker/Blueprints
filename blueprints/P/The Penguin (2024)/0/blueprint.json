@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Miniseries"
+    ],
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "card_type": "marvel",
+      "name": "DC and Marvel",
+      "filters": []
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Marvel Style Templated Card with Miniseries override for season."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-21T19:43:13"
+}
