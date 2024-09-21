@@ -1,0 +1,62 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "omit_gradient",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "false",
+      "1.2"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "title": "The Ballad of Chicken Man",
+      "match_title": true,
+      "episode_text": "Round One"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Fight Night",
+      "match_title": true,
+      "episode_text": "Round Two"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Black Vegas",
+      "match_title": true,
+      "episode_text": "Round Three"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Real Policework",
+      "match_title": true,
+      "episode_text": "Round Four"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Ambition Ain't Free",
+      "match_title": true,
+      "episode_text": "Round Five"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Fight Night",
+      "color": "rgb(230, 192, 0)",
+      "file": "ITC Tiffany Std Heavy.otf",
+      "stroke_width": 0.9
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Olivier card resembling WillTong93's cards (not as nice obviously), but close enough for auto generating: https://mediux.pro/sets/24818."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-21T19:44:15"
+}
