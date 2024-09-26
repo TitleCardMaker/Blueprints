@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "episode_text_color",
+      "player_width",
+      "subtitle",
+      "timeline_color"
+    ],
+    "extra_values": [
+      "rgba(252,252,251,255)",
+      "1050",
+      "\"\"",
+      "rgba(252,252,251,255)"
+    ],
+    "match_titles": false
+  },
+  "fonts": [
+    {
+      "name": "IT Crowd",
+      "file": "LettersLaughingattheirExecution.ttf",
+      "color": "rgba(252,252,251,255)",
+      "kerning": 1.5
+    }
+  ],
+  "creator": "iloveteaandcoffee",
+  "description": [
+    "IT Crowd cards using the music title card with custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-26T15:15:33"
+}
