@@ -3,7 +3,7 @@ name: Merge Staging to Master
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */4 * * *"
 
 jobs:
   create-pull-request:
@@ -51,14 +51,9 @@ jobs:
               }
             }
 
-  # call-resize-images-workflow:
-  #   needs: create-pull-request
-  #   if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
-  #   uses: TitleCardMaker/Blueprints/.github/workflows/resize_images.yml@master
-  #   secrets: inherit
-
   update-artifacts-and-notify-discord:
     needs: create-pull-request
+    if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -122,59 +117,6 @@ jobs:
           ISSUES: ${{ steps.get_issues.outputs.data }}
         run: |
           python entrypoint.py --notify-discord
-
-  # call-update-database-workflow:
-  #   needs: [call-resize-images-workflow]
-  #   if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
-  #   uses: TitleCardMaker/Blueprints/.github/workflows/update_database.yml@master
-  #   secrets: inherit
-
-  # call-pytest-workflow:
-  #   needs: [call-update-database-workflow]
-  #   if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
-  #   uses: TitleCardMaker/Blueprints/.github/workflows/pytest.yml@master
-
-  # notify-discord:
-  #   # needs: [call-pytest-workflow]
-  #   if: ${{ needs.create-pull-request.outputs.pr_number != 'NA' }}
-  #   runs-on: ubuntu-latest
-
-  #   steps:
-  #     # Get list of open issues that are labeled as "created"
-  #     - name: Get Open Issues
-  #       id: get_issues
-  #       uses: octokit/request-action@v2.x
-  #       with:
-  #         route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests,blueprint&state=open
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  #     # Check out repository
-  #     - name: Checkout Repository
-  #       uses: actions/checkout@v3
-  #       with:
-  #         ref: refs/heads/staging
-  #         persist-credentials: false
-  #         fetch-depth: 0
-
-  #     # Run script to parse issue
-  #     - name: Set up Python
-  #       uses: actions/setup-python@v5
-  #       with:
-  #         python-version: '3.11'
-  #         cache: 'pip'
-
-  #     - name: Install dependencies
-  #       run: |
-  #         python -m pip install -r requirements.txt
-
-  #     - name: Send Discord Message
-  #       env:
-  #         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  #         DISCORD_AVATAR: https://raw.githubusercontent.com/CollinHeist/static/main/logo.png
-  #         ISSUES: ${{ steps.get_issues.outputs.data }}
-  #       run: |
-  #         python entrypoint.py --notify-discord
 
   merge-pull-request:
     # needs: [create-pull-request, call-resize-images-workflow, call-update-database-workflow, call-pytest-workflow, notify-discord]
