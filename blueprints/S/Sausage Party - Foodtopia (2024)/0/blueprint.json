@@ -1,0 +1,34 @@
+{
+  "series": {
+    "card_type": "standard",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "font_id": 0,
+    "extra_keys": [
+      "stroke_color",
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "yellow",
+      "true"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Sausage Party",
+      "file": "impact.ttf",
+      "size": 2.0,
+      "color": "red",
+      "stroke_width": 1.0,
+      "vertical_shift": -200
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Basic name-only style card with font colours to match show's logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-26T15:16:19"
+}
