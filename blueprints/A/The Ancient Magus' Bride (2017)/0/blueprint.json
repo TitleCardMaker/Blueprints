@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_stroke_color",
+      "kanji",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      "white",
+      "white",
+      "1.5",
+      "#c90911",
+      " ",
+      "#c90911"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Ancient Magus Bride",
+      "file": "KochAntiquaZierbuchstaben.ttf",
+      "kerning": -5.0,
+      "color": "#c90911",
+      "size": 1.25,
+      "stroke_width": 1.5,
+      "vertical_shift": 15
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom font and series colors, using absolute ordering."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-09-26T15:17:29"
+}
