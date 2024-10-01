@@ -1,0 +1,49 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "hide_season_text": true,
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_stroke_color",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}('.join(title_text.split(\"(\" ))}",
+      "white",
+      "1.5",
+      "white",
+      "white",
+      "0.25"
+    ],
+    "auto_split_title": false
+  },
+  "fonts": [
+    {
+      "name": "Dragon Maid",
+      "file": "Dragon Fire.ttf",
+      "color": "#4fa935",
+      "stroke_width": 0.0,
+      "vertical_shift": 20,
+      "title_case": "title"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom Font and some colors to match the logo color. Uses absolute ordering and custom formatting to place bracketed section of title on newline."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-01T14:47:40"
+}
