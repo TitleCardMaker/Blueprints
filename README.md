@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `708` Blueprints available for `585` Series, submitted by `40` Creators.
+There are currently `713` Blueprints available for `589` Series, submitted by `40` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -22,34 +22,35 @@ Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
 | CollinHeist | 290 |
-| Reicha7 | 200 |
+| Reicha7 | 201 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
 | anonfawkes | 33 |
 | rtgurley | 16 |
+| azuravian | 12 |
 | BenevolentNPC | 12 |
 | DeepDaddyTTV | 12 |
 | inapptom | 12 |
-| azuravian | 11 |
 | Departed | 8 |
 | TheChrisK | 8 |
+| PJ | 7 |
 | thedinz | 7 |
-| PJ | 6 |
 | TechJedi51 | 6 |
 | Cwavs | 6 |
 | GrazedNutsack | 5 |
 | foux | 5 |
 | starpc | 5 |
+| iloveteaandcoffee | 4 |
 | Dragonsys | 3 |
 | Archigos | 3 |
 | BattleChambers | 3 |
-| iloveteaandcoffee | 3 |
 | Ziggy73701 | 2 |
 | chriszinkula | 2 |
 | TyroFlakkripper | 2 |
 | Tech Jedi | 2 |
 | Natejt | 2 |
 | DBKrishnan | 2 |
+| Azuravian | 2 |
 | Dante2202 | 1 |
 | lyonza | 1 |
 | legacy3 | 1 |
@@ -60,7 +61,6 @@ Creators with the most Blueprint Submissions:
 | cspowell82 | 1 |
 | Nibbles | 1 |
 | Visnes | 1 |
-| Azuravian | 1 |
 
 
 ## Sets

@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "bottom_element",
+      "player_width",
+      "subtitle"
+    ],
+    "extra_values": [
+      "logo",
+      "1050",
+      "\"\""
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Brassic",
+      "file": "SpecifyPERSONAL-NormBlackItalic.ttf"
+    }
+  ],
+  "creator": "iloveteaandcoffee",
+  "description": [
+    "Music style card with a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-10-01T14:46:04"
+}
