@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "marvel",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_color"
+    ],
+    "extra_values": [
+      "white",
+      "rgb(35, 33, 85)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "Azuravian",
+  "description": [
+    "Marvel card with all white text on a purple background (selected from the series poster).",
+    "This is one of a series of Blueprints for Marvel series with each using the Marvel card with a colored bottom text box to match the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-02T14:50:36"
+}
