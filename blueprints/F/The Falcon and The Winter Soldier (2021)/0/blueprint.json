@@ -1,0 +1,25 @@
+{
+  "series": {
+    "card_type": "marvel",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_color"
+    ],
+    "extra_values": [
+      "white",
+      "rgb(10, 49, 97)"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(179, 25, 66)",
+    "source_files": []
+  },
+  "creator": "Azuravian",
+  "description": [
+    "Marvel card with an American flag color-scheme, using the official blue for the background, official red for episode title and white for the season/episode text.",
+    "This is one of a series of Blueprints for Marvel series with each using the Marvel card with a colored bottom text box to match the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-02T16:32:52"
+}
