@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "marvel",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_color"
+    ],
+    "extra_values": [
+      "white",
+      "rgb(41, 46, 79)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "Azuravian",
+  "description": [
+    "Marvel card with all white text on a gray/blue background (color obtained using Analyze Palette on the official logo, then went a shade darker for contrast purposes).",
+    "This is one of a series of Blueprints for Marvel series with each using the Marvel card with a colored bottom text box to match the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-02T19:07:23"
+}
