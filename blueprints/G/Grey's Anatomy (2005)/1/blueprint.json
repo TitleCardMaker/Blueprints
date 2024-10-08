@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "player_width",
+      "subtitle"
+    ],
+    "extra_values": [
+      "1050",
+      "\"\""
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Grey's Anatomy",
+      "color": "white",
+      "size": 1.25,
+      "file": "Ynsect Moksha.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "iloveteaandcoffee",
+  "description": [
+    "Greys Anatomy TV Series in Music style with a supporting Font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-10-08T15:36:02"
+}
