@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "player_width",
+      "subtitle"
+    ],
+    "extra_values": [
+      "1050",
+      "\"\""
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Trying TV Show 2",
+      "color": "rgba(255,178,30,255)",
+      "file": "Ynsect Moksha.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "iloveteaandcoffee",
+  "description": [
+    "Trying TV Series using the Music card and custom font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-10-08T15:18:59"
+}

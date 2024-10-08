@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "extra_keys": [
+      "shape",
+      "shape_color",
+      "shape_width"
+    ],
+    "extra_values": [
+      "up triangle",
+      "#ffe65b",
+      "50"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Zelda",
+      "color": "#c71a29",
+      "file": "Triforce.ttf",
+      "size": 1.4,
+      "stroke_width": 0.25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "A terrible blueprint for a terrible show. Uses the colours from The Legend of Zelda Logo and the Triforce with a custom TLoZ font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-08T15:37:27"
+}
