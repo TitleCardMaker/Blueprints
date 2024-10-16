@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "episode_text_vertical_shift",
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "30",
+      "false"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Sweetpea",
+      "color": "rgb(253, 152, 213)",
+      "file": "mondia-light.otf",
+      "size": 1.8,
+      "stroke_width": 0.5,
+      "title_case": "lower",
+      "interline_spacing": -80
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Simple Font matched with the Olivier card type."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-16T16:07:29"
+}

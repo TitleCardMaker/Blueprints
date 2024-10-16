@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "omit_gradient",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "false",
+      "0.9"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Shrinking",
+      "file": "BostonSemiBold.otf",
+      "size": 1.2,
+      "stroke_width": 1.1,
+      "replacements_in": [
+        "i",
+        "I"
+      ],
+      "replacements_out": [
+        "\u00a1",
+        "\u00a1"
+      ],
+      "title_case": "upper"
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Olivier card type with a matching Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-16T16:08:47"
+}
