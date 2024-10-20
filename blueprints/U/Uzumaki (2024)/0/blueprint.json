@@ -1,0 +1,76 @@
+{
+  "series": {
+    "card_type": "negative space",
+    "extra_keys": [
+      "text_side"
+    ],
+    "extra_values": [
+      "right"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s1e4.jpg",
+      "s1e1.jpg",
+      "s1e3.jpg",
+      "s1e2.jpg"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "title_text_horizontal_offset"
+      ],
+      "extra_values": [
+        "250"
+      ],
+      "template_ids": [],
+      "title": "Episode ",
+      "match_title": false
+    },
+    "s1e2": {
+      "extra_keys": [
+        "title_text_horizontal_offset"
+      ],
+      "extra_values": [
+        "300"
+      ],
+      "template_ids": [],
+      "font_color": "black",
+      "title": "Episode ",
+      "match_title": false
+    },
+    "s1e3": {
+      "extra_keys": [
+        "title_text_horizontal_offset"
+      ],
+      "extra_values": [
+        "285"
+      ],
+      "template_ids": [],
+      "font_vertical_shift": -10,
+      "title": "Episode   ",
+      "match_title": false
+    },
+    "s1e4": {
+      "extra_keys": [
+        "title_text_horizontal_offset"
+      ],
+      "extra_values": [
+        "225"
+      ],
+      "template_ids": [],
+      "font_vertical_shift": 430,
+      "title": "Episode ",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Negative Space card with custom text placement for all episodes. Source Images are included for the optimal card positions."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-10-20T17:25:30"
+}
