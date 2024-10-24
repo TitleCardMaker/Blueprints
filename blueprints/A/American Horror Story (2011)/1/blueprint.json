@@ -1,0 +1,125 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_episode_text": true,
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "season_title_values": [
+      "Murder House",
+      "Asylum",
+      "Coven",
+      "Freak Show",
+      "Hotel",
+      "Roanoke",
+      "Cult",
+      "Apocalypse",
+      "1984",
+      "Double Feature",
+      "NYC",
+      "Delicate"
+    ],
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "index",
+      "title"
+    ]
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "title": "\u00a0     Home Invasion"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "title": "I Am Anne Frank (1)       \u00a0"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "title": "\u00a0   I Am Anne Frank (2)"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "title": "Unholy Night   \u00a0"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "title": "\u00a0     The Coat Hanger"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "title": "\u00a0                              The Axeman Cometh"
+    },
+    "s4e3": {
+      "template_ids": [],
+      "title": "\u00a0   Edward Mordrake (1)"
+    },
+    "s4e7": {
+      "template_ids": [],
+      "title": "\u00a0    Test of Strength"
+    },
+    "s4e12": {
+      "template_ids": [],
+      "title": "\u00a0       Show Stoppers"
+    },
+    "s5e2": {
+      "template_ids": [],
+      "title": "Chutes and Ladders                     \u00a0"
+    },
+    "s5e3": {
+      "template_ids": [],
+      "title": "\u00a0        Mommy"
+    },
+    "s5e8": {
+      "template_ids": [],
+      "title": "The Ten Commandments Killer                  \u00a0"
+    },
+    "s10e10": {
+      "template_ids": [],
+      "title": "\u00a0                                    The Future Perfect"
+    },
+    "s12e6": {
+      "template_ids": [],
+      "title": "\u00a0                                 Opening Night"
+    },
+    "s12e9": {
+      "template_ids": [],
+      "title": "\u00a0                                            The Auteur"
+    }
+  },
+  "fonts": [
+    {
+      "name": "American Horror Story",
+      "file": "AmericanHorrorStory.otf",
+      "line_split_modifier": 30,
+      "title_case": "title",
+      "size": 1.5,
+      "interline_spacing": 50
+    }
+  ],
+  "creator": "Azuravian",
+  "description": [
+    "Blueprint for American Horror Story using the Tinted Frame card with masks.  Season numbers replaced with season names.  Episode numbers hidden."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-10-24T03:13:36"
+}
