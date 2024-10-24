@@ -8,7 +8,9 @@
       "omit"
     ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [
+      "mask.png"
+    ]
   },
   "creator": "Azuravian",
   "description": [
