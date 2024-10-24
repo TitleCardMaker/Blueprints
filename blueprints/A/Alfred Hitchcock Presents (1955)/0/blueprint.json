@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "middle_element"
+    ],
+    "extra_values": [
+      "omit"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "Azuravian",
+  "description": [
+    "Blueprint for Alfred Hitchcock Presents (the original 1955 series) using the Tinted Frame card type.  Screencaps for each episode have been uploaded to TMDb. A mask file that adds the Hitchcock overlay on the left side of the cards is included."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-10-24T03:19:34"
+}
