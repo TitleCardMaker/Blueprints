@@ -1,0 +1,52 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "tinted frame",
+      "extra_keys": [
+        "episode_text_font_size",
+        "frame_width",
+        "top_element",
+        "middle_element",
+        "bottom_element",
+        "logo_size"
+      ],
+      "extra_values": [
+        "2",
+        "3",
+        "logo",
+        "omit",
+        "title",
+        "1.3"
+      ],
+      "name": "Drag Race",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Drag Race",
+      "file": "Drag Race.ttf",
+      "kerning": 0.7,
+      "interword_spacing": 40,
+      "size": 1.35,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "stripedew",
+  "description": [
+    "Tinted Frame with the closest-matching font. Can be easily applied to all the other franchises (All Stars, UK, Germany, France, etc.) with just a logo change. Includes the logo file."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-29T15:35:03"
+}

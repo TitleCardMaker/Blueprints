@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "notification",
+    "extra_keys": [
+      "glass_color"
+    ],
+    "extra_values": [
+      "rgb(248, 1, 56)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Brassic",
+      "color": "rgb(248, 245, 223)",
+      "file": "Helvetica Neue LT Std 83 Heavy Extended.otf",
+      "interword_spacing": 40,
+      "size": 1.1,
+      "stroke_width": 0.8,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Notification style with font/color match."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-10-29T15:58:59"
+}
