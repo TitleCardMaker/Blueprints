@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "logo",
+    "font_color": "rgb(243, 190, 118)",
+    "episode_text_format": "\u00c9pisode {episode_number}",
+    "season_title_ranges": [
+      "s1e1-s30e89"
+    ],
+    "season_title_values": [
+      "Saison {season_number}"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "foux",
+  "description": [
+    "Logo card with text in the color of the logo. Season and episode text are translated into French, as it is a French series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-12T16:24:45"
+}

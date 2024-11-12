@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "What We Do in the Shadows",
+      "color": "#6EEC47",
+      "file": "Halja Illuminated.ttf",
+      "replacements_in": [
+        "\u00c2",
+        "\u00ca"
+      ],
+      "replacements_out": [
+        "A",
+        "E"
+      ],
+      "size": 1.35,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "foux",
+  "description": [
+    "Tinted frame with logo on top and title on the bottom with the series font and the same color as the logo."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-11-12T16:22:55"
+}
