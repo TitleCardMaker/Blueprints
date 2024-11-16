@@ -1,0 +1,53 @@
+{
+  "series": {
+    "card_type": "negative space",
+    "extra_keys": [
+      "text_side"
+    ],
+    "extra_values": [
+      "random"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s1e4.jpg",
+      "s1e4-mask.webp",
+      "s1e10.jpg",
+      "s1e10-mask.webp"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Freedom\\nDay",
+      "match_title": false
+    },
+    "s1e6": {
+      "extra_keys": [
+        "text_side"
+      ],
+      "extra_values": [
+        "left"
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "text_side"
+      ],
+      "extra_values": [
+        "left"
+      ],
+      "template_ids": []
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Negative Space card with the side set to random. Includes source images, mask files, and side overrides for a few specific Episodes."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-11-15T22:38:39"
+}

@@ -1,0 +1,31 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "#F7A9AC",
+      "1.2"
+    ],
+    "font_id": 0,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Star Trek",
+      "color": "#F7A9AC",
+      "file": "EdgeOfTheGalaxyRegular-OVEa6.otf",
+      "size": 1.25
+    }
+  ],
+  "creator": "TheChrisK",
+  "description": [
+    "Standard card type using the \"Edge of the Galaxy\" font. The color scheme matches this poster by RedHeadJedi https://theposterdb.com/poster/21375."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-15T22:39:58"
+}
