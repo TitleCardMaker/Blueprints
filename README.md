@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `751` Blueprints available for `606` Series, submitted by `39` Creators.
+There are currently `759` Blueprints available for `614` Series, submitted by `40` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,8 +21,8 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 292 |
-| Reicha7 | 202 |
+| CollinHeist | 293 |
+| Reicha7 | 208 |
 | Azuravian | 40 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
@@ -60,6 +60,7 @@ Creators with the most Blueprint Submissions:
 | Nibbles | 1 |
 | Visnes | 1 |
 | stripedew | 1 |
+| Sproglet | 1 |
 
 
 ## Sets
@@ -77,7 +78,7 @@ There are currently `21` Blueprint Sets available:
 | `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+9 more |
 | `8` | Naruto | Naruto Shippuden [1]<br>Naruto [1] |
 | `9` | Ken Burns | The U.S. and the Holocaust [0]<br>The Dust Bowl [0]<br>The American Buffalo [0]<br>The Vietnam War [0]<br>+9 more |
-| `10` | David Attenborough Documentaries | Planet Earth II [1]<br>Blue Planet II [1]<br>Planet Earth III [0]<br>Mammals [0]<br>+3 more |
+| `10` | David Attenborough Documentaries | Planet Earth II [1]<br>Blue Planet II [1]<br>Planet Earth III [0]<br>Mammals [0]<br>+9 more |
 | `11` | Castlevania | Castlevania: Nocturne [0]<br>Castlevania [0] |
 | `12` | Pokémon Collection | Pokémon Concierge [0]<br>Pokémon Evolutions [0]<br>Pokémon: Twilight Wings [0]<br>Pokémon [2]<br>+6 more |
 | `13` | Digimon Collection | Digimon Adventure 20th Memorial Story [0]<br>Digimon Adventure: 2020 [0]<br>Digimon Tamers [0]<br>Digimon Frontier [0]<br>+1 more |

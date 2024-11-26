@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "score",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "white rgb(191,46,35)"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Score card with the episode numbers recolored red to match the Series' logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-26T05:01:29"
+}

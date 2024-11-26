@@ -1,0 +1,30 @@
+{
+  "series": {
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "landscape",
+      "name": "Documentary"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Helvetica_Documentary",
+      "file": "Helvetica.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Landscape documentary-style template."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-26T05:09:21"
+}
