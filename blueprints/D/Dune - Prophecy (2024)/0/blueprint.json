@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "negative space",
+    "extra_keys": [
+      "episode_text_color",
+      "text_side"
+    ],
+    "extra_values": [
+      "white",
+      "random"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Dune Rise",
+      "file": "Dune_Rise.otf",
+      "title_case": "upper",
+      "size": 1.1,
+      "kerning": 2.0,
+      "interline_spacing": 32
+    }
+  ],
+  "creator": "Sproglet",
+  "description": [
+    "A Negative Space based Blueprint with the Dune Rise Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-26T05:02:36"
+}
