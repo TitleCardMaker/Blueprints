@@ -2,6 +2,7 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
+    "hide_season_text": true,
     "extra_keys": [
       "frame_color"
     ],
