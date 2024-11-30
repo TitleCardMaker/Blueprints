@@ -1,0 +1,38 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color"
+    ],
+    "extra_values": [
+      "rgb(139, 135, 121)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Dune",
+      "file": "Dune_Rise.ttf",
+      "replacements_in": [
+        "%",
+        "`",
+        "~"
+      ],
+      "replacements_out": [
+        "",
+        "'",
+        ""
+      ]
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with the frame recolored a gray/gold, using the Series' font for the title text and the season text hidden."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-11-30T00:14:50"
+}
