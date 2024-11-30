@@ -2,11 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
+    "hide_season_text": true,
     "extra_keys": [
-      "frame_color"
+      "frame_color",
+      "top_element",
+      "bottom_element"
     ],
     "extra_values": [
-      "rgb(139, 135, 121)"
+      "rgb(139, 135, 121)",
+      "index",
+      "title"
     ],
     "template_ids": [],
     "source_files": []
