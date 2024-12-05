@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_color",
+      "logo_size"
+    ],
+    "extra_values": [
+      "Gold",
+      "1.2"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Rescue Hi-Surf",
+      "file": "airborne.ttf",
+      "color": "red",
+      "stroke_width": 0.0
+    }
+  ],
+  "creator": "Archigos",
+  "description": [
+    "Using Tinted Frame Plus card type with a Font called 'Airbourne' (from fontzillion) and colors tweaked to roughly match the logo/color theme."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-05T15:00:48"
+}
