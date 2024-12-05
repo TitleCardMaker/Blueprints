@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch"
+  },
+  "fonts": [
+    {
+      "name": "Stargate",
+      "file": "stargate.ttf",
+      "kerning": 0.9,
+      "interline_spacing": 25,
+      "replacements_in": [
+        "(1)",
+        "(2)",
+        "(3)"
+      ],
+      "replacements_out": [
+        ": Part 1",
+        ": Part 2",
+        ": Part 3"
+      ],
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Sproglet",
+  "description": [
+    "Stargate Atlantis blueprint with the Stargate font and some title changes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-05T14:58:25"
+}
