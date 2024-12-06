@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "extra_keys": [
+      "text_box_edge_color",
+      "title_text_rotation_angle"
+    ],
+    "extra_values": [
+      "White",
+      "random[-4, 4] "
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Chuck",
+      "file": "Embossed.otf",
+      "color": "red",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Sproglet",
+  "description": [
+    "Chuck series based on the Comic Book using a custom font similar to the series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-06T05:30:05"
+}
