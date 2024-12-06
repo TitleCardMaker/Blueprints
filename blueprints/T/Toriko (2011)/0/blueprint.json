@@ -1,0 +1,246 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "season_title_ranges": [
+      "1-1",
+      "51-51",
+      "99-99",
+      "2-2",
+      "3-3",
+      "4-6",
+      "7-17",
+      "18-22",
+      "23-41",
+      "42-43",
+      "44-48",
+      "49-50",
+      "52-57",
+      "58-68",
+      "69-74",
+      "75-79",
+      "80-82",
+      "83-97",
+      "98-98",
+      "100-111",
+      "112-113",
+      "114-123",
+      "124-147"
+    ],
+    "season_title_values": [
+      "One Piece x Toriko Crossover",
+      "One Piece x Toriko Crossover",
+      "One Piece x Toriko Crossover",
+      "Galala Gator Arc",
+      "Rainbow Fruit Arc",
+      "Puffer Whale Arc",
+      "Regal Mammoth Arc",
+      "BB Corn Arc",
+      "Century Soup Arc",
+      "Gourmet King Deciding Battle Arc",
+      "Ozone Herb Arc",
+      "The Reality of Gourmet World Arc",
+      "Melk Stardust Arc",
+      "Mellow Cola Arc",
+      "Toriko's Break Arc",
+      "Shining Gourami Arc",
+      "Autumn Break Arc",
+      "Meteor Garlic Arc",
+      "Bubble Fruit Arc",
+      "Bubble Fruit Arc",
+      "Golden Wheat Arc ",
+      "Four Beast Arc",
+      "Cooking Festival Arc"
+    ],
+    "extra_keys": [
+      "title_text_format",
+      "stroke_color",
+      "episode_text_color",
+      "kanji_color",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      "{f'!{NEWLINE}'.join(title_text.split(\"! \"))}",
+      "rgb(209, 212, 210)",
+      "rgb(179, 181, 182)",
+      "rgb(247, 147, 28)",
+      "rgb(87, 34, 31)"
+    ],
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "auto_split_title": false
+  },
+  "episodes": {
+    "s1e32": {
+      "template_ids": [],
+      "auto_split_title": true
+    },
+    "s2e7": {
+      "template_ids": [],
+      "title": "Debut! Succeeding as the Second Generation\\nand the Melk Stardust!",
+      "match_title": false
+    },
+    "s2e15": {
+      "template_ids": [],
+      "title": "Bizarre! The Mysterious Ancient Document\\nand the Creature in the Coffin!",
+      "match_title": false
+    },
+    "s2e19": {
+      "template_ids": [],
+      "title": "The Truth Comes to Light! Komatsu's Will and the Identity\\nof the Mysterious Creatures!",
+      "match_title": false
+    },
+    "s2e23": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u3042\u3075\u308c\u308b\u98df\u904b\uff01 \u5de1\u793c\u30b0\u30eb\u30e1\u795e\u793e"
+      ],
+      "template_ids": []
+    },
+    "s2e36": {
+      "template_ids": [],
+      "title": "Dramatic Transformation! The Beauty Parlor, Barber Gourmet!",
+      "match_title": false
+    },
+    "s2e40": {
+      "template_ids": [],
+      "title": "Appearance! The Boss of the Underground Cooking World,\\nLivebearer!",
+      "match_title": false
+    },
+    "s3e1": {
+      "extra_keys": [
+        "kanji"
+      ],
+      "extra_values": [
+        "\u8d70\u308c\u6700\u5f37\u8ecd\u56e3\uff01\u30c8\u30ea\u30b3\u3068\u30eb\u30d5\u30a3\u3068\u609f\u7a7a\uff01"
+      ],
+      "template_ids": [],
+      "title": "Run, Strongest Army! Toriko, Luffy, Goku!",
+      "match_title": false
+    },
+    "s3e2": {
+      "template_ids": [],
+      "title": "Commemorating the Hundredth Episode,\\nAll Four Heavenly Kings Assemble!",
+      "match_title": false
+    },
+    "s3e4": {
+      "template_ids": [],
+      "title": "Too Huge! With Pro Wrestling Moves,\\nthe Completion of the Ehou Maki!!",
+      "match_title": false
+    },
+    "s3e5": {
+      "template_ids": [],
+      "title": "Hands Together and Bow! Gourmet Human National Treasure\\nChin Chinchin Appears!",
+      "match_title": false
+    },
+    "s3e7": {
+      "template_ids": [],
+      "title": "Toriko, Completely Defeated?! The Delicate and Uninhibited\\nPower of Food Honor!!",
+      "match_title": false
+    },
+    "s3e10": {
+      "template_ids": [],
+      "title": "Tragedy!! The Demise of Shokurin Temple...\\nFarewell, Komatsu!!",
+      "match_title": false
+    },
+    "s3e12": {
+      "template_ids": [],
+      "title": "'National Treasure Class'\\nOne-Swing 100 Million Yen Techniques! Toriko VS Granny Chiyo",
+      "match_title": false
+    },
+    "s3e13": {
+      "template_ids": [],
+      "title": "The Phantasmal Ingredient 'Center' Ichiryuu\\nand the Mighty 0th Biotope",
+      "match_title": false
+    },
+    "s3e14": {
+      "template_ids": [],
+      "title": "The Legendary Bee, the 'infini Bee'\\nToriko VS the New Model GT Robo",
+      "match_title": false
+    },
+    "s3e16": {
+      "template_ids": [],
+      "title": "The Four Heavenly Kings Gather! The Gourmet World Beasts\\nthe 'Four Beasts' Awaken!",
+      "match_title": false
+    },
+    "s3e18": {
+      "template_ids": [],
+      "title": "Toriko, Coco, Sani, Zebra\\nThe Four Heavenly Kings' Storm of Attacks!!",
+      "match_title": false
+    },
+    "s3e19": {
+      "template_ids": [],
+      "title": "Toriko's New Crisis\\nThe Creeping Four Beast's Main Body!",
+      "match_title": false
+    },
+    "s3e20": {
+      "template_ids": [],
+      "title": "The Four Beast's Shocking Union\\nand the Green Rain!!",
+      "match_title": false
+    },
+    "s3e25": {
+      "template_ids": [],
+      "title": "The Forthcoming Festival\\nThe Wriggling 'Dangerous Guys'",
+      "match_title": false
+    },
+    "s3e26": {
+      "template_ids": [],
+      "title": "Toriko VS the Gourmet World Monster\\n'Mon Planc'",
+      "match_title": false
+    },
+    "s3e28": {
+      "template_ids": [],
+      "title": "Great Imminent Troubles!?\\nCooking Fest Opens!!",
+      "match_title": false
+    },
+    "s3e30": {
+      "template_ids": [],
+      "title": "The Legendary Chef\\nTengu Branchi Appears!!",
+      "match_title": false
+    },
+    "s3e32": {
+      "template_ids": [],
+      "title": "Live or Die?\\nDeath in the Balance Cooking!!",
+      "match_title": false
+    },
+    "s3e33": {
+      "template_ids": [],
+      "title": "Who are the Strongest Partners?\\nWhole Island Cooking!",
+      "match_title": false
+    },
+    "s3e47": {
+      "template_ids": [],
+      "title": "An Attack to Come Back from Hopelessness!\\nThe Four Heavenly Kings, the Ultimate Technique!!",
+      "match_title": false
+    },
+    "s3e49": {
+      "template_ids": [],
+      "title": "Toriko and Komatsu\\nDeparture for a New Journey!!",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Symphogear",
+      "color": "rgb(237, 27, 36)",
+      "file": "Whitestone Italic.otf",
+      "stroke_width": 2.0
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with custom (from another show but actually works quite well) font and logo-matching colors. Uses absolute episode ordering and matches all the seasons to the anime arcs.",
+    "Numerous Episode overrides along with a general formatting to handle title splitting."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-06T05:29:04"
+}

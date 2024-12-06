@@ -1,0 +1,224 @@
+{
+  "series": {
+    "card_type": "score",
+    "episode_text_format": "Case {episode_number}",
+    "template_ids": [
+      0,
+      1
+    ],
+    "source_files": []
+  },
+  "episodes": {
+    "s0e1": {
+      "template_ids": [],
+      "title": "Busted",
+      "match_title": false,
+      "episode_text": "Recruits 1"
+    },
+    "s0e2": {
+      "template_ids": [],
+      "title": "Quote for Quote",
+      "match_title": false,
+      "episode_text": "Recruits 2"
+    },
+    "s0e3": {
+      "template_ids": [],
+      "title": "Getting Litt",
+      "match_title": false,
+      "episode_text": "Recruits 3"
+    },
+    "s0e4": {
+      "template_ids": [],
+      "title": "The Spot",
+      "match_title": false,
+      "episode_text": "Recruits 4"
+    },
+    "s0e5": {
+      "template_ids": [],
+      "title": "Research",
+      "match_title": false,
+      "episode_text": "Recruits 5"
+    },
+    "s0e6": {
+      "template_ids": [],
+      "title": "Firing Norma",
+      "match_title": false,
+      "episode_text": "Recruits 6"
+    },
+    "s0e7": {
+      "template_ids": [],
+      "title": "El Mensaje",
+      "match_title": false,
+      "episode_text": "Recruits 7"
+    },
+    "s0e8": {
+      "template_ids": [],
+      "title": "Can Opener",
+      "match_title": false,
+      "episode_text": "Recruits 8"
+    },
+    "s0e9": {
+      "template_ids": [],
+      "title": "Waiting for MJ",
+      "match_title": false,
+      "episode_text": "Class\\nAction 1"
+    },
+    "s0e10": {
+      "template_ids": [],
+      "title": "Kicking the Bucket",
+      "match_title": false,
+      "episode_text": "Class\\nAction 2"
+    },
+    "s0e11": {
+      "template_ids": [],
+      "title": "Donna and the Case of the Missing Button",
+      "match_title": false,
+      "episode_text": "Class\\nAction 3"
+    },
+    "s0e12": {
+      "template_ids": [],
+      "title": "Quote Unquote",
+      "match_title": false,
+      "episode_text": "Class\\nAction 4"
+    },
+    "s0e13": {
+      "template_ids": [],
+      "title": "Rules of Football",
+      "match_title": false,
+      "episode_text": "Class\\nAction 5"
+    },
+    "s0e14": {
+      "template_ids": [],
+      "title": "As If",
+      "match_title": false,
+      "episode_text": "Class\\nAction 6"
+    },
+    "s0e15": {
+      "template_ids": [],
+      "title": "Office Politics",
+      "match_title": false,
+      "episode_text": "Class\\nAction 7"
+    },
+    "s0e16": {
+      "template_ids": [],
+      "title": "The Better Man",
+      "match_title": false,
+      "episode_text": "Class\\nAction 8"
+    },
+    "s0e17": {
+      "template_ids": [],
+      "title": "El Matador de Amor",
+      "match_title": false,
+      "episode_text": "Class\\nAction 9"
+    },
+    "s0e18": {
+      "template_ids": [],
+      "title": "Please Hold for Mr. Litt",
+      "match_title": false,
+      "episode_text": "Class\\nAction 10"
+    },
+    "s0e19": {
+      "template_ids": [],
+      "title": "Vanderbilts",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 1"
+    },
+    "s0e20": {
+      "template_ids": [],
+      "title": "Patti!",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 2"
+    },
+    "s0e21": {
+      "template_ids": [],
+      "title": "Last Call",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 3"
+    },
+    "s0e22": {
+      "template_ids": [],
+      "title": "The Maltese Thumb Drive",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 4"
+    },
+    "s0e23": {
+      "template_ids": [],
+      "title": "Emergency Spanish",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 5"
+    },
+    "s0e24": {
+      "template_ids": [],
+      "title": "Anytime Minutes",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 6"
+    },
+    "s0e25": {
+      "template_ids": [],
+      "title": "Shine On",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 7"
+    },
+    "s0e26": {
+      "template_ids": [],
+      "title": "Puppet Therapy",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 8"
+    },
+    "s0e27": {
+      "template_ids": [],
+      "title": "Angels",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 9"
+    },
+    "s0e28": {
+      "template_ids": [],
+      "title": "Time Capsule",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 10"
+    },
+    "s0e29": {
+      "template_ids": [],
+      "title": "Lunch Psychology",
+      "match_title": false,
+      "episode_text": "Paper\\nTrail 11"
+    }
+  },
+  "templates": [
+    {
+      "extra_keys": [
+        "episode_text_color"
+      ],
+      "extra_values": [
+        "white rgb(92,172,204)"
+      ],
+      "name": "Suits (Unwatched)",
+      "filters": [
+        {
+          "argument": "Episode Watched Status",
+          "operation": "is false",
+          "reference": ""
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "episode_text_color"
+      ],
+      "extra_values": [
+        "white rgb(201,36,44)"
+      ],
+      "name": "Suits (Watched)",
+      "filters": []
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Score card with Templates to change the color of the season and episode text when an Episode is watched. Changes the episode text to \"Case __\". Also includes custom episode titles for all the web specials."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-12-06T05:24:34"
+}
