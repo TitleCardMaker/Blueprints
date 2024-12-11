@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "striped",
+    "extra_keys": [
+      "episode_text_color",
+      "overlay_color",
+      "polygons"
+    ],
+    "extra_values": [
+      "rgb(255, 10, 149)",
+      "black",
+      "random[m]"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Our Flag Means Death",
+      "color": "#FF0C95",
+      "file": "Seagram tfb.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "Reicha7, rtgurley",
+  "description": [
+    "Shape style card with semi-uniform bars (to represent planks of wood) using rtgurley's font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-11T23:56:30"
+}
