@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "standard",
+    "font_id": 0,
+    "extra_keys": [
+      "title_text_format"
+    ],
+    "extra_values": [
+      "EPISODE  {to_cardinal(episode_number)}"
+    ],
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "file": "impact.ttf",
+      "color": "rgb(223, 215, 202)",
+      "size": 2.0,
+      "title_case": "upper",
+      "vertical_shift": -200
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard card with some custom title override to use cardinal numbering to match the show title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-12T00:03:01"
+}
