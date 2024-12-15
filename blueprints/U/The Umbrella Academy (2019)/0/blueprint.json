@@ -1,0 +1,90 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/DawnTitleCard",
+    "episode_text_format": "EPISODE {episode_number}",
+    "extra_keys": [
+      "season_text_format",
+      "episode_text_vertical_shift",
+      "episode_text_font",
+      "episode_text_kerning",
+      "h_align",
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "SEASON {season_number}",
+      "10",
+      "{title_font}",
+      "10",
+      "center",
+      "False"
+    ]
+  },
+  "episodes": {
+    "s3e2": {
+      "auto_split_title": false
+    },
+    "s3e8": {
+      "auto_split_title": false
+    },
+    "s4e5": {
+      "auto_split_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "The Umbrella Academy",
+      "file": "TheUmbrellaAcademy.otf",
+      "interline_spacing": -10,
+      "replacements_in": [
+        "a",
+        "f",
+        "h",
+        "j",
+        "l",
+        "LL",
+        "m",
+        "n",
+        "NN",
+        "p",
+        "r",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y"
+      ],
+      "replacements_out": [
+        "A",
+        "F",
+        "H",
+        "J",
+        "L",
+        "Ll",
+        "M",
+        "N",
+        "Nn",
+        "P",
+        "R",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "size": 1.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "Supremicus",
+  "description": [
+    "Dawn title card with custom font I made to match the show. Uses season and episode format overrides to display numeral instead.",
+    "Character replacements to replace double characters with their upper and lower counter-part (like the logo)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-15T00:14:19"
+}

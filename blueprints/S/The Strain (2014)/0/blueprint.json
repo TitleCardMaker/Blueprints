@@ -1,0 +1,234 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/HorizonTitleCard",
+    "extra_keys": [
+      "season_text_format",
+      "episode_text_vertical_shift",
+      "episode_text_font",
+      "episode_text_color",
+      "episode_text_kerning"
+    ],
+    "extra_values": [
+      "SEASON {to_cardinal(season_number)}",
+      "0",
+      "{title_font}",
+      "white",
+      "4"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e2": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e11": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e12": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e13": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e1": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": []
+    },
+    "s2e2": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e3": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e5": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e13": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s3e2": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s3e4": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s3e5": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s3e6": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s3e8": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s4e1": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s4e3": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s4e4": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s4e6": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s4e10": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    }
+  },
+  "fonts": [
+    {
+      "name": "The Strain",
+      "color": "rgb(172, 44, 28)",
+      "interline_spacing": 20,
+      "file": "wolfsbane2iiexpand.ttf",
+      "vertical_shift": 18,
+      "size": 1.6
+    }
+  ],
+  "creator": "Supremicus",
+  "description": [
+    "Horizon title card with matching custom font, colored to match show logo. Uses season override to display cardinal and per episode horizontal alignment of text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-15T00:17:56"
+}

@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch",
+    "hide_season_text": true
+  },
+  "fonts": [
+    {
+      "name": "Cyberpunk Edgerunners",
+      "color": "yellow",
+      "file": "CyberwayRiders-lg97d.ttf",
+      "interline_spacing": 9,
+      "interword_spacing": 4,
+      "title_case": "lower",
+      "vertical_shift": 8
+    }
+  ],
+  "creator": "l33xu",
+  "description": [
+    "Azuravian's TitleColorMatch card using a cyberpunk-looking font, with the logo in top left corner."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-15T00:24:58"
+}
