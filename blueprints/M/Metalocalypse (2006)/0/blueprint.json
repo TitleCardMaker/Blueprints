@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "cutout",
+    "hide_season_text": true,
+    "episode_text_format": "{series_name}",
+    "match_titles": false,
+    "extra_keys": [
+      "overlay_transparency"
+    ],
+    "extra_values": [
+      "0.1"
+    ]
+  },
+  "episodes": {
+    "s1e3": {
+      "title": "Happy Dethday (a.k.a. Birthdayface)"
+    },
+    "s1e8": {
+      "title": "Snakes N' Barrels"
+    },
+    "s1e10": {
+      "title": "Fat Kid at the Detharmonic (a.k.a. FatKlok)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Metalocalypse",
+      "file": "BlackCastleMF.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Chris",
+  "description": [
+    "A modification of the Cutout card to use the show title and have episode title in show font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-12-15T00:12:58"
+}
