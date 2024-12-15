@@ -1,0 +1,63 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/DawnTitleCard",
+    "episode_text_format": "CHAPTER {to_cardinal(episode_number)}",
+    "extra_keys": [
+      "title_text_format",
+      "season_text_format",
+      "stroke_color",
+      "episode_text_vertical_shift",
+      "episode_text_font",
+      "episode_text_font_size",
+      "episode_text_kerning",
+      "h_align",
+      "crt_overlay",
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "{title_text.split(':', 1)[-1].lstrip()}",
+      "SEASON {to_cardinal(season_number)}",
+      "#8e1519",
+      "20",
+      "{title_font}",
+      "1.2",
+      "10",
+      "center",
+      "bezel",
+      "False"
+    ]
+  },
+  "episodes": {
+    "s3e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Three: The Case of the\\nMissing Lifeguard",
+      "match_title": false
+    },
+    "s4e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Chapter Three: The Monster\\nand the Superhero",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Stranger Things",
+      "file": "BenguiatStd-BookCondensed.ttf",
+      "size": 1.8,
+      "color": "#f91f23",
+      "interline_spacing": -10,
+      "vertical_shift": 40
+    }
+  ],
+  "creator": "Supremicus",
+  "description": [
+    "Dawn title card using CRT overlay, font is BenguiatStd-BookCondensed by Edward Benguiat colored to match show logo. Uses season and episode variable overrides for cardinal season and chapter, title text override to remove chapter from title text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-15T00:28:46"
+}
