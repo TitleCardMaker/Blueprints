@@ -1,0 +1,19 @@
+{
+  "series": {
+    "card_type": "notification",
+    "extra_keys": [
+      "edge_color"
+    ],
+    "extra_values": [
+      "rgb(235, 51, 36)"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Notification card type with the edge recolored red to match the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-16T21:23:48"
+}
