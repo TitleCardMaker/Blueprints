@@ -1,0 +1,41 @@
+{
+  "series": {
+    "hide_season_text": true,
+    "template_ids": [
+      0
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "overline",
+      "extra_keys": [
+        "line_color",
+        "line_width"
+      ],
+      "extra_values": [
+        "rgb(210,45,31)",
+        "10"
+      ],
+      "name": "Dexter",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Dexter",
+      "file": "dexter.ttf",
+      "interline_spacing": -30,
+      "interword_spacing": -15
+    }
+  ],
+  "creator": "CollinHeist, Cwavs",
+  "description": [
+    "Collin's Dexter and Dexter: New Blood blueprints but for Original Sin. Overline card type using the Series Font and a \"blood\" red coloring for the line - re-uses the Template and Font from the original Dexter Blueprint."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-16T21:17:15"
+}

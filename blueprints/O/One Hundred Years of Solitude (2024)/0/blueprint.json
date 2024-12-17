@@ -1,0 +1,18 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "font_color": "rgb(220, 220, 204)",
+    "hide_season_text": true,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Calligraphy card with the text colored to match the aesthetic and logo of the Series. The logo file is included. I recommend using with a blurred styling (as shown in the preview)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-16T21:09:17"
+}
