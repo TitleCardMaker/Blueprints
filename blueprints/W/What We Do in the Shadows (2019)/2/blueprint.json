@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "episode_text_vertical_shift",
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "-20",
+      "logo",
+      "title"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "What We Do in the Shadows",
+      "color": "#6EEC47",
+      "size": 1.25,
+      "kerning": 10.0,
+      "stroke_width": 0.5,
+      "file": "Halja Illuminated.ttf",
+      "replacements_in": [
+        "\u00c2",
+        "\u00ca"
+      ],
+      "replacements_out": [
+        "A",
+        "E"
+      ],
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Chris",
+  "description": [
+    "Minor modification of the Olivier Card type with the Series font in a thematic green color."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2024-12-19T21:26:08"
+}
