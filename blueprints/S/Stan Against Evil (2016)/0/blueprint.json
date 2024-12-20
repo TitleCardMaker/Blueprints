@@ -1,0 +1,64 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/DawnTitleCard",
+    "extra_keys": [
+      "season_text_format",
+      "episode_text_vertical_shift",
+      "episode_text_font",
+      "episode_text_font_size",
+      "episode_text_kerning",
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "SEASON {to_cardinal(season_number)}",
+      "60",
+      "{title_font}",
+      "0.9",
+      "1",
+      "False"
+    ]
+  },
+  "episodes": {
+    "s3e4": {
+      "extra_keys": [
+        "episode_text_vertical_shift"
+      ],
+      "extra_values": [
+        "90"
+      ],
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Demon Who\\nCame in From the Heat",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Stan Against Evil",
+      "color": "rgb(196, 212, 124)",
+      "interline_spacing": 30,
+      "file": "StanAgainstEvil.otf",
+      "replacements_in": [
+        "(1)",
+        "(2)",
+        "\u2019"
+      ],
+      "replacements_out": [
+        ": Part 1",
+        ": Part 2",
+        "'"
+      ],
+      "size": 1.3
+    }
+  ],
+  "creator": "Supremicus",
+  "description": [
+    "Dawn title card with custom font I made to match the show. Text colored to match show poster. Uses season format override to display cardinal. Has a title override to fit more evenly."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2024-12-19T21:25:17"
+}
