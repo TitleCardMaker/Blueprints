@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Reba (Textile)",
+      "color": "#3E96F7",
+      "file": "Textile Regular.ttf",
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Sproglet",
+  "description": [
+    "Reba template using the overfine card, the TV show font and the font in the logo colour."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2024-12-25T04:49:52"
+}
