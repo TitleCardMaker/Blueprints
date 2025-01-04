@@ -1,0 +1,27 @@
+{
+  "series": {
+    "card_type": "cascade",
+    "hide_season_text": true,
+    "extra_keys": [
+      "cascade_outline_color"
+    ],
+    "extra_values": [
+      "rgb(232,210,74)"
+    ]
+  },
+  "episodes": {
+    "s1e8": {
+      "auto_split_title": false,
+      "title": "You Had Me At\\nMotherfucker",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Cascade card type with the cascade recolored yellow to match the crime scene tape from the posters, and the season text hidden."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-04T20:27:39"
+}
