@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "timeline_color",
+      "player_style",
+      "percentage"
+    ],
+    "extra_values": [
+      "rgb(252, 210, 187)",
+      "artwork",
+      "{episode_number / season_episode_max}"
+    ],
+    "source_files": [
+      "backdrop.jpg"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "DAVE",
+      "color": "rgb(252, 210, 187)",
+      "file": "GeorgiaPro-Bold.ttf"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Music card type with the player style set to artwork, and a close-match for the Series Font included. The backdrop is included, and the timeline is set to fill with the episode number."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-08T17:17:55"
+}
