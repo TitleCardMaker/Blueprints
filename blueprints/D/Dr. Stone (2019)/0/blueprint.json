@@ -3,11 +3,13 @@
     "card_type": "anime",
     "season_title_ranges": [
       "2",
-      "3"
+      "3",
+      "4"
     ],
     "season_title_values": [
       "Stone Wars",
-      "New World"
+      "New World",
+      "Science Future"
     ],
     "extra_keys": [],
     "extra_values": [],
@@ -17,7 +19,7 @@
   "templates": [],
   "fonts": [],
   "description": [
-    "Anime card type with 'Stone Wars' and 'New World' season titles for seasons 2 and 3."
+    "Anime card type with 'Stone Wars', 'New World', and 'Science Future' season titles for seasons 2-4."
   ],
   "creator": "CollinHeist",
   "created": "2023-08-06T00:00:00",
