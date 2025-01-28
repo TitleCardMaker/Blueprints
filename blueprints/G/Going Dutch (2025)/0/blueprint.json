@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "omit_gradient"
+    ],
+    "extra_values": [
+      "False"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Going Dutch",
+      "color": "rgb(246, 244, 221)",
+      "file": "octin-stencil-heavy.ttf",
+      "size": 1.8
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Font color matched in the Olivier card type."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-28T16:23:04"
+}

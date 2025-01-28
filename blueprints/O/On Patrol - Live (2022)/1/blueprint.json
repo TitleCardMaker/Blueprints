@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "score",
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_font_size",
+      "episode_text_color",
+      "season_text_color",
+      "variation"
+    ],
+    "extra_values": [
+      "{title.split(\" - \", 1)[1]}",
+      "2.0",
+      "rgb(244,180,4) silver",
+      "rgb(244,180,4) silver",
+      "left"
+    ]
+  },
+  "episodes": {
+    "s2e83": {
+      "template_ids": [],
+      "title": "Episode 83"
+    },
+    "s2e84": {
+      "template_ids": [],
+      "title": "Episode 84"
+    }
+  },
+  "fonts": [
+    {
+      "name": "The Expanse",
+      "color": "rgb(244, 180, 4)",
+      "interline_spacing": 30,
+      "file": "Protomolecule.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "New cards with a better Font and using the Score card type. Removes the redundant episode number from the title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-28T16:40:58"
+}

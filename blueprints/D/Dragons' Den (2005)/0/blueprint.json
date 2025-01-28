@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_episode_text": true,
+    "hide_season_text": true,
+    "season_title_ranges": [
+      "0"
+    ],
+    "season_title_values": [
+      "Specials"
+    ],
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_color",
+      "logo_size",
+      "logo_vertical_shift",
+      "use_background_image",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "Season {season_number} {NEWLINE} Episode {episode_number}",
+      "rgb(240,197,26)",
+      "0.7",
+      "-200",
+      "true",
+      "2.0"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Dragon's Den",
+      "color": "rgb(240, 197, 26)",
+      "file": "mason-serif-bold.otf",
+      "title_case": "source",
+      "size": 2.0
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "Updated logo and added the Dragon's Den font. Removed the episode name as it is usually just the episode Number."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-28T17:13:00"
+}

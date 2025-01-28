@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "frame_width",
+      "top_element",
+      "middle_element",
+      "bottom_element",
+      "logo_size",
+      "logo_vertical_shift"
+    ],
+    "extra_values": [
+      "Gold",
+      "3",
+      "title",
+      "logo",
+      "index",
+      ".5",
+      "-550"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Rescue Hi-Surf",
+      "color": "red",
+      "stroke_width": 0.0,
+      "file": "airborne.ttf"
+    }
+  ],
+  "creator": "Archigos",
+  "description": [
+    "Using the built-in 'Tinted Frame' card instead of the custom one. Same Font as the other Blueprint, but it seems better in this version."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-01-28T16:24:29"
+}
