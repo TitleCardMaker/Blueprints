@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Key & Peele",
+      "file": "benzin-extrabold.ttf",
+      "interline_spacing": 10,
+      "line_split_modifier": -8,
+      "size": 0.9,
+      "vertical_shift": -20
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Standard card with the Font from the Series' poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-02T19:48:45"
+}
