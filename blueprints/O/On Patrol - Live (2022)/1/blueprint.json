@@ -10,7 +10,7 @@
       "variation"
     ],
     "extra_values": [
-      "{title.split(\" - \", 1)[1]}",
+      "{title.split(\" - \", 1)[-1]}",
       "2.0",
       "rgb(244,180,4) silver",
       "rgb(244,180,4) silver",
