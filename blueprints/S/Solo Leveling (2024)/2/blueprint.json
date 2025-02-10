@@ -1,0 +1,55 @@
+{
+  "series": {
+    "card_type": "cascade",
+    "hide_season_text": true,
+    "episode_text_format": "S{season_number} // Level {absolute_episode_number}",
+    "extra_keys": [
+      "alt_text"
+    ],
+    "extra_values": [
+      "{series_name.upper() if title_text.__len__() > 8 else ''}"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "If I Had One\\nMore Chance",
+      "match_title": false
+    },
+    "s1e7": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Let's See How\\nFar I Can Go",
+      "match_title": false
+    },
+    "s2e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "I Suppose You\\nAren't Aware",
+      "match_title": false
+    },
+    "s2e3": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Still a Long\\nWay to Go",
+      "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "I Need to\\nStop Faking",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Cascade card with the episode text modified to include \"level,\" and some custom title splitting on a few Episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-10T04:58:44"
+}
