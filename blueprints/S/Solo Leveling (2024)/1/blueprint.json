@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "anime",
+    "season_title_ranges": [
+      "2",
+      "1"
+    ],
+    "season_title_values": [
+      "-Arise from the Shadows-",
+      "-Reawakening-"
+    ],
+    "episode_text_format": "Level {absolute_episode_number}"
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Based on CollinHeist's blueprints, anime Card with no kanji, and \"Level\" in place of \"Episode\" in the episode text, and with the season replaced with the season subtitle. Season 1 subtitle taken from the recap special."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-02-10T04:43:17"
+}
