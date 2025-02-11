@@ -19,7 +19,7 @@ jobs:
       # Get list of open issues that are labeled as "created"
       - name: Get Open Issues
         id: get_issues
-        uses: octokit/request-action@v2.1.9
+        uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d
         with:
           route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests&state=open
         env:
@@ -104,7 +104,7 @@ jobs:
       # Get list of open issues that are labeled as "created"
       - name: Get Open Issues
         id: get_issues
-        uses: octokit/request-action@v2.x
+        uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d
         with:
           route: GET /repos/${{ github.repository }}/issues?labels=created,passed-tests,blueprint&state=open
         env:
