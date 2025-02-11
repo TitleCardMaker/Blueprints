@@ -125,7 +125,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Merge Pull Request
-        uses: octokit/request-action@v2.x
+        uses: octokit/request-action@dad4362715b7fb2ddedf9772c8670824af564f0d
         with:
           route: PUT /repos/${{ github.repository }}/pulls/${{ needs.create-pull-request.outputs.pr_number }}/merge
           token: ${{ secrets.GITHUB_TOKEN }}
