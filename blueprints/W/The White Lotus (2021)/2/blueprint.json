@@ -1,0 +1,62 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Hawaii",
+      "Sicily",
+      "Thailand"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "The White Lotus",
+      "file": "Trajan Bold.ttf",
+      "kerning": 0.4,
+      "replacements_in": [
+        "|",
+        "#",
+        "\\",
+        "\"",
+        "~",
+        ">",
+        "<",
+        "=",
+        "@",
+        "^",
+        "'",
+        "+"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "vertical_shift": -8
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Frame card with a custom Font (Trajan Bold), and season titles for each season."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-21T15:51:10"
+}
