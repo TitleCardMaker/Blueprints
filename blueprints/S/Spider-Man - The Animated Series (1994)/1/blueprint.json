@@ -1,0 +1,394 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "season_title_ranges": [
+      "2",
+      "3",
+      "4",
+      "s5e2-s5e5",
+      "s1e2-s1e3",
+      "s1e8-s1e10",
+      "s5e6-s5e7",
+      "s5e9-s5e11",
+      "s5e12-s5e13"
+    ],
+    "season_title_values": [
+      "Neogenic Nightmare",
+      "The Sins of the Fathers",
+      "Partners in Danger",
+      "Six Forgotten Warriors",
+      "Attack of the Slayers",
+      "The Alien Costume",
+      "The Return of Hydro Man",
+      "Secret Wars",
+      "Spider Wars"
+    ],
+    "extra_keys": [
+      "banner_fill_color",
+      "text_box_edge_color",
+      "title_text_rotation_angle"
+    ],
+    "extra_values": [
+      "rgba(217, 53, 55, 1)",
+      "#000168",
+      "4"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s4e1": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter I"
+    },
+    "s4e2": {
+      "template_ids": [],
+      "episode_text": "Chapter II"
+    },
+    "s4e3": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter III"
+    },
+    "s4e4": {
+      "template_ids": [],
+      "episode_text": "Chapter IV"
+    },
+    "s4e5": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter V"
+    },
+    "s4e6": {
+      "template_ids": [],
+      "episode_text": "Chapter VI"
+    },
+    "s4e7": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter VII"
+    },
+    "s4e8": {
+      "template_ids": [],
+      "episode_text": "Chapter VIII"
+    },
+    "s4e9": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter IX"
+    },
+    "s4e10": {
+      "template_ids": [],
+      "episode_text": "Chapter X"
+    },
+    "s4e11": {
+      "extra_keys": [
+        "title_text_rotation_angle"
+      ],
+      "extra_values": [
+        "-4"
+      ],
+      "template_ids": [],
+      "episode_text": "Chapter XI"
+    },
+    "s1e1": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "The Spider Slayer",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Return of the Spider Slayers",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s1e4": {
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e5": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e6": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e7": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "The Black Costume",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Symbiote Symbiotic",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "We are Venom",
+      "match_title": false,
+      "episode_text": "Chapter III"
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "The Hobgoblin Awakens",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "The Hostile Takeover",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s1e13": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s2e1": {
+      "template_ids": [],
+      "episode_text": "Chapter I"
+    },
+    "s2e2": {
+      "template_ids": [],
+      "episode_text": "Chapter II"
+    },
+    "s2e3": {
+      "template_ids": [],
+      "episode_text": "Chapter III"
+    },
+    "s2e4": {
+      "template_ids": [],
+      "episode_text": "Chapter IV"
+    },
+    "s2e5": {
+      "template_ids": [],
+      "episode_text": "Chapter V"
+    },
+    "s2e6": {
+      "template_ids": [],
+      "episode_text": "Chapter VI"
+    },
+    "s2e7": {
+      "template_ids": [],
+      "episode_text": "Chapter VII"
+    },
+    "s2e8": {
+      "template_ids": [],
+      "episode_text": "Chapter VIII"
+    },
+    "s2e9": {
+      "template_ids": [],
+      "episode_text": "Chapter IX"
+    },
+    "s2e10": {
+      "template_ids": [],
+      "episode_text": "Chapter X"
+    },
+    "s2e11": {
+      "template_ids": [],
+      "episode_text": "Chapter XI"
+    },
+    "s2e12": {
+      "template_ids": [],
+      "episode_text": "Chapter XII"
+    },
+    "s2e13": {
+      "template_ids": [],
+      "episode_text": "Chapter XIII"
+    },
+    "s2e14": {
+      "template_ids": [],
+      "episode_text": "Chapter XIV"
+    },
+    "s3e1": {
+      "template_ids": [],
+      "episode_text": "Chapter I"
+    },
+    "s3e2": {
+      "template_ids": [],
+      "episode_text": "Chapter II"
+    },
+    "s3e3": {
+      "template_ids": [],
+      "episode_text": "Chapter III"
+    },
+    "s3e4": {
+      "template_ids": [],
+      "episode_text": "Chapter IV"
+    },
+    "s3e5": {
+      "template_ids": [],
+      "episode_text": "Chapter V"
+    },
+    "s3e6": {
+      "template_ids": [],
+      "episode_text": "Chapter VI"
+    },
+    "s3e7": {
+      "template_ids": [],
+      "episode_text": "Chapter VII"
+    },
+    "s3e8": {
+      "template_ids": [],
+      "episode_text": "Chapter VIII"
+    },
+    "s3e9": {
+      "template_ids": [],
+      "episode_text": "Chapter IX"
+    },
+    "s3e10": {
+      "template_ids": [],
+      "episode_text": "Chapter X"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "episode_text": "Chapter XI"
+    },
+    "s3e12": {
+      "template_ids": [],
+      "episode_text": "Chapter XII"
+    },
+    "s3e13": {
+      "template_ids": [],
+      "episode_text": "Chapter XIII"
+    },
+    "s3e14": {
+      "template_ids": [],
+      "episode_text": "Chapter XIV"
+    },
+    "s5e1": {
+      "hide_season_text": true,
+      "hide_episode_text": true,
+      "template_ids": []
+    },
+    "s5e2": {
+      "template_ids": [],
+      "title": "The Forgotten Warriors",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s5e3": {
+      "template_ids": [],
+      "title": "Unclaimed Legacy",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s5e4": {
+      "template_ids": [],
+      "title": "Secrets of the Six",
+      "match_title": false,
+      "episode_text": "Chapter III"
+    },
+    "s5e5": {
+      "template_ids": [],
+      "title": "The Six Fight Again",
+      "match_title": false,
+      "episode_text": "Chapter IV"
+    },
+    "s5e6": {
+      "template_ids": [],
+      "title": "The Price of Heroism",
+      "match_title": false,
+      "episode_text": "Chapter V"
+    },
+    "s5e7": {
+      "template_ids": [],
+      "title": "Honeymoon Crasher",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s5e8": {
+      "template_ids": [],
+      "title": "The End of Hydro-Man",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s5e9": {
+      "template_ids": [],
+      "title": "Arrival",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s5e10": {
+      "template_ids": [],
+      "title": "The Gauntlet of the Red Skull",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    },
+    "s5e11": {
+      "template_ids": [],
+      "title": "Doom",
+      "match_title": false,
+      "episode_text": "Chapter III"
+    },
+    "s5e12": {
+      "template_ids": [],
+      "title": "I Really, Really Hate Clones",
+      "match_title": false,
+      "episode_text": "Chapter I"
+    },
+    "s5e13": {
+      "template_ids": [],
+      "title": "Farewell, Spider-Man",
+      "match_title": false,
+      "episode_text": "Chapter II"
+    }
+  },
+  "creator": "Cwavs, Reicha7",
+  "description": [
+    "A modified version of Reicha7's Blueprint that hides season title and episode text for episodic episodes (e.g. most of Season 1), and replaces season title with arc title where relevant (including multi-part Season 1 episodes).",
+    "This also replaces the episode text with the corresponding Chapter in roman numerals for multi-part episodes/arcs. And uses some custom episode titles for the mono titular multi-part episodes in Season 1, and the return of Hydro-Man arc in Season 5."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg",
+    "preview4.jpg"
+  ],
+  "created": "2025-02-10T04:52:15"
+}
