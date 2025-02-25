@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Yellowjackets",
+      "color": "#F0D94B",
+      "file": "CornerStoreJF.ttf",
+      "size": 1.25,
+      "title_case": "lower",
+      "vertical_shift": -25
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Variation of CollinHeist's Yellowjackets theme with a font that works for numbers."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-25T16:52:32"
+}
