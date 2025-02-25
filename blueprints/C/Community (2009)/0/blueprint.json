@@ -1,0 +1,127 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "stroke_color",
+      "episode_text_font_size",
+      "episode_text_color",
+      "shadow_color",
+      "use_background_image"
+    ],
+    "extra_values": [
+      "white",
+      "1.5",
+      "white",
+      "white",
+      "True"
+    ]
+  },
+  "episodes": {
+    "s2e9": {
+      "title": "Conspiracy Theories                   and Interior Design"
+    },
+    "s2e11": {
+      "title": "Abed's                                         Uncontrollable Christmas"
+    },
+    "s2e14": {
+      "title": "Advanced                             Dungeons & Dragons"
+    },
+    "s2e15": {
+      "title": "Early 21st Century                                             Romanticism"
+    },
+    "s2e18": {
+      "title": "Custody Law and Eastern                  European Diplomacy"
+    },
+    "s2e21": {
+      "title": "Paradigms of                            Human Memory"
+    },
+    "s2e22": {
+      "title": "Applied Anthropology                           and Culinary Arts"
+    },
+    "s2e24": {
+      "title": "For a Few                     Paintballs More (2)"
+    },
+    "s3e2": {
+      "title": "Geography of                   Global Conflict"
+    },
+    "s3e5": {
+      "title": "Horror Fiction              in Seven Spooky Steps"
+    },
+    "s3e7": {
+      "title": "Studies in                  Modern Movement"
+    },
+    "s3e8": {
+      "title": "Documentary Filmmaking:                      Redux"
+    },
+    "s3e9": {
+      "title": "Foosball and                       Nocturnal Vigilantism"
+    },
+    "s3e12": {
+      "title": "Contemporary       Impressionists"
+    },
+    "s3e15": {
+      "title": "Origins of                 Vampire Mythology"
+    },
+    "s3e18": {
+      "title": "Course Listing                           Unavailable"
+    },
+    "s4e3": {
+      "title": "Conventions of                  Space and Time"
+    },
+    "s4e4": {
+      "title": "Alternative History            of the German Invasion"
+    },
+    "s4e5": {
+      "title": "Cooperative Escapism             in Familial Relations"
+    },
+    "s4e6": {
+      "title": "Advanced                          Documentary Filmmaking"
+    },
+    "s4e7": {
+      "title": "Economics of                  Marine Biology"
+    },
+    "s5e3": {
+      "title": "Basic Intergluteal          Numismatics"
+    },
+    "s5e7": {
+      "title": "Bondage and                   Beta Male Sexuality"
+    },
+    "s5e8": {
+      "title": "App Development                      and Condiments"
+    },
+    "s5e9": {
+      "title": "VCR Maintenance and                     Educational Publishing"
+    },
+    "s5e10": {
+      "title": "Advanced Advanced            Dungeons & Dragons"
+    },
+    "s6e2": {
+      "title": "Lawnmower Maintenance                  and Postnatal Care"
+    },
+    "s6e4": {
+      "title": "Queer Studies              & Advanced Waxing"
+    },
+    "s6e10": {
+      "title": "Basic RV Repair                 and Palmistry"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Community",
+      "color": "#2F4A7F",
+      "file": "Community.ttf",
+      "size": 1.4,
+      "stroke_width": 1.25,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Standard Card Style with a font based on the Community Logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-25T16:53:44"
+}
