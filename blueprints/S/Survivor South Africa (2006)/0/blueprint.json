@@ -1,0 +1,1426 @@
+{
+  "series": {
+    "font_id": 0,
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "season_title_values": [
+      "Panama",
+      "Malaysia",
+      "Santa Carolina",
+      "Maldives",
+      "Champions",
+      "Philipines",
+      "Island of Secrets",
+      "Immunity Island",
+      "Return of the Outcasts"
+    ],
+    "extra_keys": [
+      "logo_file"
+    ],
+    "extra_values": [
+      "logo_season{season_number}.png"
+    ],
+    "template_ids": [
+      0
+    ],
+    "match_titles": false,
+    "font_color": "#FFFFFF",
+    "font_stroke_width": 2.5,
+    "source_files": [
+      "season4.jpg",
+      "season7.jpg",
+      "backdrop.jpg",
+      "logo_season1.png",
+      "logo_season3.png",
+      "logo_season5.png",
+      "season8.jpg",
+      "logo_season0.png",
+      "season1.jpg",
+      "season3.jpg",
+      "logo_season7.png",
+      "logo_season6.png",
+      "logo.png",
+      "season5.jpg",
+      "season6.jpg",
+      "season9.jpg",
+      "logo_season9.png",
+      "logo_season2.png",
+      "logo_season4.png",
+      "season2.jpg",
+      "logo_season8.png",
+      "data.yml"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s1e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3066"
+      ],
+      "template_ids": []
+    },
+    "s2e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s2e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#eb4a4f"
+      ],
+      "template_ids": []
+    },
+    "s3e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s3e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#373330"
+      ],
+      "template_ids": []
+    },
+    "s4e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e2": {
+      "extra_keys": [],
+      "extra_values": [],
+      "template_ids": []
+    },
+    "s4e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s4e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3c33"
+      ],
+      "template_ids": []
+    },
+    "s5e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e16": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e17": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s5e18": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3334"
+      ],
+      "template_ids": []
+    },
+    "s6e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e16": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s6e17": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ff3084"
+      ],
+      "template_ids": []
+    },
+    "s7e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e16": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e17": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s7e18": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#fc6530"
+      ],
+      "template_ids": []
+    },
+    "s8e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s8e16": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#1e4ab5"
+      ],
+      "template_ids": []
+    },
+    "s9e1": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e2": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e3": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e4": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e5": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e6": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e7": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e8": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e9": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e10": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e11": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e12": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e13": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e14": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e15": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e16": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e17": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e18": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e19": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e20": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e21": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e22": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e23": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    },
+    "s9e24": {
+      "extra_keys": [
+        "stroke_color"
+      ],
+      "extra_values": [
+        "#ffe33d"
+      ],
+      "template_ids": []
+    }
+  },
+  "templates": [
+    {
+      "card_type": "logo",
+      "name": "Reality TV",
+      "filters": []
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Survivor",
+      "file": "survivor.ttf",
+      "replacements_in": [
+        "\u2019",
+        "\u2018",
+        "\u014c",
+        "\u014d"
+      ],
+      "replacements_out": [
+        "'",
+        "'",
+        "O",
+        "o"
+      ]
+    }
+  ],
+  "creator": "jmvbrown",
+  "description": [
+    "Logo card with season logos and merge tribe color text stroke."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-28T17:27:22"
+}

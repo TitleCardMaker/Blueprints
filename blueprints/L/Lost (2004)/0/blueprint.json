@@ -1,0 +1,241 @@
+{
+  "series": {
+    "card_type": "standard",
+    "extra_keys": [
+      "box_color"
+    ],
+    "extra_values": [
+      "#88B6C5"
+    ],
+    "template_ids": [
+      4,
+      3,
+      1,
+      0,
+      5,
+      2
+    ],
+    "source_files": []
+  },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#73D7DE",
+        "1.2",
+        "#73D7DE",
+        "#73D7DE",
+        "1.4",
+        "#73D7DE",
+        "1.2",
+        "10",
+        "#73D7DE"
+      ],
+      "name": "Lost S6",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "6"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#B9E6E6",
+        "1.2",
+        "#B9E6E6",
+        "#B9E6E6",
+        "1.4",
+        "#B9E6E6",
+        "1.2",
+        "10",
+        "#B9E6E6"
+      ],
+      "name": "Lost S5",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "5"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#8EC8B2",
+        "1.2",
+        "#92CDB6",
+        "#8EC8B2",
+        "1.4",
+        "#8EC8B2",
+        "1.2",
+        "10",
+        "#8EC8B2"
+      ],
+      "name": "Lost S4",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "4"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#7FC8D3",
+        "1.2",
+        "#7FC8D3",
+        "#7FC8D3",
+        "1.4",
+        "#7FC8D3",
+        "1.2",
+        "10",
+        "#7FC8D3"
+      ],
+      "name": "Lost S3",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "3"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#DDEB6C",
+        "1.2",
+        "#DDEB6C",
+        "#DDEB6C",
+        "1.4",
+        "#DDEB6C",
+        "1.2",
+        "10",
+        "#DDEB6C"
+      ],
+      "name": "Lost S2",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "2"
+        }
+      ]
+    },
+    {
+      "font_id": 0,
+      "card_type": "shape",
+      "extra_keys": [
+        "stroke_color",
+        "episode_text_font_size",
+        "episode_text_color",
+        "season_text_color",
+        "season_text_font_size",
+        "shape_color",
+        "shape_size",
+        "shape_stroke_width",
+        "shape_stroke_color"
+      ],
+      "extra_values": [
+        "#78B88D",
+        "1.2",
+        "#73D7DE",
+        "#78B88D",
+        "1.4",
+        "#78B88D",
+        "1.2",
+        "10",
+        "#78B88D"
+      ],
+      "name": "Lost S1",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "1"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Lost",
+      "file": "Lost.TTF",
+      "size": 1.5
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Shape template with a font matching the Lost logo, and colors changing each season inline with this poster set: https://theposterdb.com/set/159930."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-02-28T17:31:24"
+}

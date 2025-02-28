@@ -1,0 +1,605 @@
+data:
+  Season 0:
+    1:
+      title: Episode 1
+  Season 1:
+    1:
+      title: Episode 1
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    2:
+      title: Episode 2
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    3:
+      title: Episode 3
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    4:
+      title: Episode 4
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    5:
+      title: Episode 5
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    6:
+      title: Episode 6
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    7:
+      title: Episode 7
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    8:
+      title: Episode 8
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    9:
+      title: Episode 9
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    10:
+      title: Episode 10
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    11:
+      title: Episode 11
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    12:
+      title: Episode 12
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+    13:
+      title: Episode 13
+      font_color: rgb(204,51,51)
+      stroke_color: rgb(51,51,153)
+  Season 2:
+    1:
+      title: Episode 1
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    2:
+      title: Episode 2
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    3:
+      title: Episode 3
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    4:
+      title: Episode 4
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    5:
+      title: Episode 5
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    6:
+      title: Episode 6
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    7:
+      title: Episode 7
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    8:
+      title: Episode 8
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    9:
+      title: Episode 9
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    10:
+      title: Episode 10
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    11:
+      title: Episode 11
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    12:
+      title: Episode 12
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    13:
+      title: Episode 13
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+    14:
+      title: Episode 14
+      font_color: rgb(51,102,204)
+      stroke_color: rgb(255,255,51)
+  Season 3:
+    1:
+      title: Episode 1
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    2:
+      title: Episode 2
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    3:
+      title: Episode 3
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    4:
+      title: Episode 4
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    5:
+      title: Episode 5
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    6:
+      title: Episode 6
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    7:
+      title: Episode 7
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    8:
+      title: Episode 8
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    9:
+      title: Episode 9
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    10:
+      title: Episode 10
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    11:
+      title: Episode 11
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    12:
+      title: Episode 12
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    13:
+      title: Episode 13
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+    14:
+      title: Episode 14
+      font_color: rgb(0,102,153)
+      stroke_color: rgb(204,51,0)
+  Season 4:
+    1:
+      title: Episode 1
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    2:
+      title: Episode 2
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    3:
+      title: Episode 3
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    4:
+      title: Episode 4
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    5:
+      title: Episode 5
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    6:
+      title: Episode 6
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    7:
+      title: Episode 7
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    8:
+      title: Episode 8
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    9:
+      title: Episode 9
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    10:
+      title: Episode 10
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    11:
+      title: Episode 11
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    12:
+      title: Episode 12
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    13:
+      title: Episode 13
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+    14:
+      title: Episode 14
+      font_color: rgb(0,204,204)
+      stroke_color: rgb(255,255,51)
+  Season 5:
+    1:
+      title: Episode 1
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    2:
+      title: Episode 2
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    3:
+      title: Episode 3
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    4:
+      title: Episode 4
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    5:
+      title: Episode 5
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    6:
+      title: Episode 6
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    7:
+      title: Episode 7
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    8:
+      title: Episode 8
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    9:
+      title: Episode 9
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    10:
+      title: Episode 10
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    11:
+      title: Episode 11
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    12:
+      title: Episode 12
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    13:
+      title: Episode 13
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    14:
+      title: Episode 14
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    15:
+      title: Episode 15
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    16:
+      title: Episode 16
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    17:
+      title: Episode 17
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+    18:
+      title: Episode 18
+      font_color: rgb(0,0,0)
+      stroke_color: rgb(255,255,255)
+  Season 6:
+    1:
+      title: Episode 1
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    2:
+      title: Episode 2
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    3:
+      title: Episode 3
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    4:
+      title: Episode 4
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    5:
+      title: Episode 5
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    6:
+      title: Episode 6
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    7:
+      title: Episode 7
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    8:
+      title: Episode 8
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    9:
+      title: Episode 9
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    10:
+      title: Episode 10
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    11:
+      title: Episode 11
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    12:
+      title: Episode 12
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    13:
+      title: Episode 13
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    14:
+      title: Episode 14
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    15:
+      title: Episode 15
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    16:
+      title: Episode 16
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+    17:
+      title: Episode 17
+      font_color: rgb(0,51,204)
+      stroke_color: rgb(204,0,0)
+  Season 7:
+    1:
+      title: Episode 1
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    2:
+      title: Episode 2
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    3:
+      title: Episode 3
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    4:
+      title: Episode 4
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    5:
+      title: Episode 5
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    6:
+      title: Episode 6
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    7:
+      title: Episode 7
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    8:
+      title: Episode 8
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    9:
+      title: Episode 9
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    10:
+      title: Episode 10
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    11:
+      title: Episode 11
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    12:
+      title: Episode 12
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    13:
+      title: Episode 13
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    14:
+      title: Episode 14
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    15:
+      title: Episode 15
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    16:
+      title: Episode 16
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    17:
+      title: Episode 17
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+    18:
+      title: Episode 18
+      font_color: rgb(153,51,255)
+      stroke_color: rgb(51,204,255)
+  Season 8:
+    1:
+      title: Nothing Unites Like a Common Enemy
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    2:
+      title: I Can Go 'Bos'... No Pun!
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    3:
+      title: Always Be Closing
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    4:
+      title: Gloat or Vote
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    5:
+      title: Collatoral Damage
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    6:
+      title: Control the Flow
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    7:
+      title: Look Behind You
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    8:
+      title: Here For A Good Time
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    9:
+      title: A Deal with the Devil
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    10:
+      title: Tied Destinies
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    11:
+      title: Brownie Points Are Everything
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    12:
+      title: All in a Day's Work
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    13:
+      title: A Very Weird Vibe
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    14:
+      title: A Sour Taste in the Mouth
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    15:
+      title: The Fruits of Your Labour
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+    16:
+      title: The Final Decision & Immunity Island Reunion
+      font_color: rgb(0,153,0)
+      stroke_color: rgb(255,102,0)
+  Season 9:
+    1:
+      title: Twice the Game
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    2:
+      title: Survivor 101
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    3:
+      title: The Ghost of Your Past Game
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    4:
+      title: Walking on Eggshells
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    5:
+      title: Rope Dealer
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    6:
+      title: Sharp Tools
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    7:
+      title: Expect the Unexpected
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    8:
+      title: This is Gonna Be a Life Long Torture
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    9:
+      title: Flat Out No
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    10:
+      title: The Don
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    11:
+      title: Spanners in the Works
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    12:
+      title: Guess What, You Are a Number!
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    13:
+      title: Work For It
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    14:
+      title: A Steady Ship
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    15:
+      title: High Risk, High Reward
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    16:
+      title: Dipping into the Dark Side
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    17:
+      title: Balance of Power
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    18:
+      title: Goat Mode
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    19:
+      title: A Whole Lot of B.S.
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    20:
+      title: Our Little Alliance
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    21:
+      title: A Game Of Fluidity
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    22:
+      title: No Tools In My Toolkit
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    23:
+      title: Peace. Calm. Confidence.
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
+    24:
+      title: Head vs Heart
+      font_color: rgb(153,0,0)
+      stroke_color: rgb(0,51,153)
