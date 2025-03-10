@@ -1,0 +1,32 @@
+{
+  "series": {
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "season_title_values": [
+      "Book One: Outlander",
+      "Book Two: Dragonfly in Amber",
+      "Book Three: Voyager",
+      "Book Four: Drums of Autumn",
+      "Book Five:  The Fiery Cross",
+      "Book Six: A Breath of Snow and Ashes",
+      "Book Seven: An Echo in the Bone"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Custom book titles (Outlander, Dragonfly in Amber, Voyager, etc.) for all seasons (1-7). Uses your default card type."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2025-03-10T20:09:47"
+}
