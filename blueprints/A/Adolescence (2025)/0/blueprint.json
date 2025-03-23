@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "TV_Large",
+      "file": "impact.ttf",
+      "size": 2.0,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Simple TV episode card type."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-03-23T21:29:59"
+}
