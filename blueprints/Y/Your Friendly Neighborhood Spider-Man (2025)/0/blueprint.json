@@ -1,0 +1,29 @@
+{
+  "series": {
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "episode_text_format": "Issue {episode_number}",
+    "extra_keys": [
+      "index_text_position",
+      "title_text_rotation_angle",
+      "banner_fill_color",
+      "title_banner_shift",
+      "hide_index_banner"
+    ],
+    "extra_values": [
+      "right",
+      "0",
+      "rgb(160, 47, 29)",
+      "25",
+      "true"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Comic style replacing the \"Episode\" with \"Issue\" to better mirror actual comic books."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-03-23T21:26:57"
+}
