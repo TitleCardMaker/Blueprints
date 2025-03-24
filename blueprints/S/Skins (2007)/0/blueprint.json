@@ -1,0 +1,219 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "font_id": 0,
+    "template_ids": [
+      2,
+      0,
+      5,
+      4,
+      1,
+      3,
+      6
+    ],
+    "extra_keys": [
+      "frame_width",
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "15",
+      "logo",
+      "title"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s7e1": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(246, 154, 131)"
+      ],
+      "template_ids": []
+    },
+    "s7e2": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(246, 154, 131)"
+      ],
+      "template_ids": []
+    },
+    "s7e3": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(73, 155, 136)"
+      ],
+      "template_ids": []
+    },
+    "s7e4": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(73, 155, 136)"
+      ],
+      "template_ids": []
+    },
+    "s7e5": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(215, 197, 179)"
+      ],
+      "template_ids": []
+    },
+    "s7e6": {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(215, 197, 179)"
+      ],
+      "template_ids": []
+    }
+  },
+  "templates": [
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(203, 27, 27)"
+      ],
+      "name": "Skins S2",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "2"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(47, 68, 219)"
+      ],
+      "name": "Skins S5",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "5"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(70, 59, 90)"
+      ],
+      "name": "Skins S1",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "1"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(191, 170, 51)"
+      ],
+      "name": "Skins S6",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "6"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(241, 118, 3)"
+      ],
+      "name": "Skins S4",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "4"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "rgb(53, 176, 62)"
+      ],
+      "name": "Skins S3",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "3"
+        }
+      ]
+    },
+    {
+      "extra_keys": [
+        "frame_color"
+      ],
+      "extra_values": [
+        "white"
+      ],
+      "name": "Skins S7",
+      "filters": [
+        {
+          "argument": "Season Number",
+          "operation": "equals",
+          "reference": "7"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Skins",
+      "color": "rgb(253, 186, 62)",
+      "file": "Exo-Bold.ttf",
+      "size": 2.0,
+      "title_case": "lower",
+      "vertical_shift": -25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted Frame with custom Templates for each season to color match. Includes bespoke overrides for the 3 specials of season 7."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2025-03-23T21:28:59"
+}

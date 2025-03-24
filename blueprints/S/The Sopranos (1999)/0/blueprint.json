@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Sopranos",
+      "color": "rgb(236, 4, 28)",
+      "title_case": "title",
+      "size": 1.5,
+      "file": "Mobsters.ttf"
+    }
+  ],
+  "creator": "DBKrishnan",
+  "description": [
+    "Standard Card with Mobsters font (by Sharkshock), in Sopranos Red."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-03-23T21:19:30"
+}
