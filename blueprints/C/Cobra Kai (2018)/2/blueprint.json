@@ -1,0 +1,55 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "cascade",
+    "extra_keys": [
+      "box_adjustments",
+      "cascade_outline_color",
+      "cascade_width"
+    ],
+    "extra_values": [
+      "25 0 0 0",
+      "rgb(176,48,50)",
+      "8"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Cobra Kai",
+      "color": "white",
+      "file": "Dead Stock.ttf",
+      "interword_spacing": 30,
+      "replacements_in": [
+        "\u00e1",
+        "(",
+        ")",
+        "\u00c1",
+        "~",
+        "\u2019",
+        "\u00e9",
+        "\u00c9",
+        "-"
+      ],
+      "replacements_out": [
+        "a",
+        "Part ",
+        "",
+        "A",
+        "",
+        "'",
+        "e",
+        "E",
+        " "
+      ],
+      "size": 0.85
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Cascade card type using a custom Font stylized to match the Series' poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-04-06T01:53:02"
+}
