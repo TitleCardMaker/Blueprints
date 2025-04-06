@@ -1,0 +1,101 @@
+{
+  "series": {
+    "card_type": "Supremicus/HorizonTitleCard",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_text_vertical_shift",
+      "h_align",
+      "symbol",
+      "crt_overlay"
+    ],
+    "extra_values": [
+      "white",
+      "1.3",
+      "410",
+      "left",
+      "logo",
+      "bezel"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(4, 156, 220)",
+    "font_vertical_shift": 452,
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "episodes": {
+    "s1e2": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e5": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s1e8": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e1": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "left"
+      ],
+      "template_ids": []
+    },
+    "s2e2": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e4": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    },
+    "s2e10": {
+      "extra_keys": [
+        "h_align"
+      ],
+      "extra_values": [
+        "right"
+      ],
+      "template_ids": []
+    }
+  },
+  "creator": "atabbott, IdiotTryingToFindWay",
+  "description": [
+    "Copied from IdiotTryingToFindWay's Blueprint with a corrected logo. Horizon card type using the Lumon logo."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-04-06T01:02:04"
+}
