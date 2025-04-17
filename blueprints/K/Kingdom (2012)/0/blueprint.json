@@ -1,0 +1,22 @@
+{
+  "series": {
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "font_color": "rgb(228, 179, 75)",
+    "font_stroke_width": 3.0,
+    "source_files": []
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Anime card type with the font colored to match the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-04-17T14:11:07"
+}
