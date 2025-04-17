@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "hide_season_text": false,
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Frog and Toad",
+      "color": "rgb(27, 50, 50)",
+      "file": "BookmanJFPro-Italic.ttf",
+      "replacements_in": [
+        "/"
+      ],
+      "replacements_out": [
+        "&"
+      ],
+      "title_case": "title"
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Frame card withe a Font colored to match the Series aesthetic. Replaces \"/\" in the titles with an ampersand."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-04-17T14:25:02"
+}
