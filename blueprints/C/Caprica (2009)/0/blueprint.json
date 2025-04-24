@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Caprica",
+      "color": "#830214",
+      "file": "Caprica.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "DaddyDarkan",
+  "description": [
+    "Uses the Star Wars card type.  Text uses the series font and colors from the series cover image."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-04-23T23:50:54"
+}
