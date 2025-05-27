@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "The Studio open source (Crimson Pro (Bold Italic)",
+      "file": "CrimsonPro-ExtraBoldItalic.ttf",
+      "size": 1.5,
+      "color": "rgb(206, 47, 34)",
+      "title_case": "source"
+    }
+  ],
+  "creator": "barberc-byte",
+  "description": [
+    "The Studio Blueprint with an open source Font and color similar to the official poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-05-27T15:01:31"
+}
