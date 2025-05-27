@@ -1,0 +1,51 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "omit_gradient",
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_text_vertical_shift",
+      "top_element",
+      "bottom_element",
+      "stroke_color"
+    ],
+    "extra_values": [
+      "False",
+      "#DA3ECD",
+      "1.5",
+      "-50",
+      "logo",
+      "title",
+      "#162a79"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "What We Do in the Shadows",
+      "color": "#6EEC47",
+      "file": "Halja Illuminated.ttf",
+      "kerning": 10.0,
+      "replacements_in": [
+        "\u00c2",
+        "\u00ca"
+      ],
+      "replacements_out": [
+        "A",
+        "E"
+      ],
+      "size": 2.5,
+      "stroke_width": 1.2,
+      "title_case": "lower"
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "A modification of Chris's blueprint, with some formatting changes, including adjusting font size and colour."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-05-27T14:43:26"
+}
