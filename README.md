@@ -7,16 +7,16 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `816` Blueprints available for `649` Series, submitted by `48` Creators.
+There are currently `821` Blueprints available for `653` Series, submitted by `50` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
 | :--- | :--- |
 | Shogun (2024) | 5 |
 | Mr. Robot (2015) | 4 |
+| What We Do in the Shadows (2019) | 4 |
 | Invincible (2021) | 4 |
 | The Dragon Prince (2018) | 4 |
-| Loki (2021) | 4 |
 
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
@@ -30,9 +30,9 @@ Creators with the most Blueprint Submissions:
 | rtgurley | 17 |
 | BenevolentNPC | 12 |
 | DeepDaddyTTV | 12 |
+| PJ | 12 |
 | inapptom | 12 |
 | Cwavs | 12 |
-| PJ | 11 |
 | TechJedi51 | 10 |
 | TheChrisK | 9 |
 | Departed | 8 |
@@ -45,9 +45,9 @@ Creators with the most Blueprint Submissions:
 | Sproglet | 5 |
 | Supremicus | 5 |
 | DBKrishnan | 4 |
+| annie-s-05 | 4 |
 | Dragonsys | 3 |
 | BattleChambers | 3 |
-| annie-s-05 | 3 |
 | jmvbrown | 3 |
 | Ziggy73701 | 2 |
 | chriszinkula | 2 |
@@ -55,6 +55,7 @@ Creators with the most Blueprint Submissions:
 | Natejt | 2 |
 | Chris | 2 |
 | IdiotTryingToFindWay | 2 |
+| barbeq | 2 |
 | Dante2202 | 1 |
 | lyonza | 1 |
 | legacy3 | 1 |
@@ -69,6 +70,7 @@ Creators with the most Blueprint Submissions:
 | l33xu | 1 |
 | atabbott | 1 |
 | DaddyDarkan | 1 |
+| barberc-byte | 1 |
 
 
 ## Sets

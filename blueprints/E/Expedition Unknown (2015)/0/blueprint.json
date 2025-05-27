@@ -1,0 +1,21 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard"
+  },
+  "fonts": [
+    {
+      "name": "Adventure",
+      "color": "gold",
+      "file": "Adventure.otf"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Adventure Font with gold color to match the theme/title of the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-05-27T14:44:55"
+}
