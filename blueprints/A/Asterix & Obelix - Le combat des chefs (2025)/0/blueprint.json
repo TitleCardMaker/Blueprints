@@ -1,0 +1,56 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "hide_season_text": true,
+    "episode_text_format": "Staffel {season_number} - Folge {episode_number}",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_edge_color",
+      "title_text_rotation_angle",
+      "index_text_rotation_angle",
+      "title_banner_shift"
+    ],
+    "extra_values": [
+      "rgb(235,73,69)",
+      "black",
+      "-6.5",
+      "-2.5",
+      "-10"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(235,73,69)",
+    "font_size": 1.1,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Obelix",
+      "file": "ObelixProB-cyr.ttf",
+      "replacements_in": [
+        "\u00d6",
+        "\u00c4",
+        "\u00dc",
+        "\u00f6",
+        "\u00e4",
+        "\u00fc"
+      ],
+      "replacements_out": [
+        "Oe",
+        "Ae",
+        "Ue",
+        "oe",
+        "ae",
+        "ue"
+      ]
+    }
+  ],
+  "creator": "00Scooby",
+  "description": [
+    "Simple Title Card in the Comic format with a custom Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-05T16:16:44"
+}
