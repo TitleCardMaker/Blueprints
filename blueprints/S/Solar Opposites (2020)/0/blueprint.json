@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "comic book",
+    "extra_keys": [
+      "episode_text_color",
+      "text_box_fill_color",
+      "text_box_edge_color",
+      "banner_fill_color"
+    ],
+    "extra_values": [
+      "#7CC58A",
+      "#98FEAA",
+      "#97AEC6",
+      "#B2F0F9"
+    ],
+    "template_ids": [],
+    "font_color": "#7CC58A",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Comic Sans",
+      "file": "comic.ttf"
+    }
+  ],
+  "creator": "00Scooby",
+  "description": [
+    "Comic Book Style with colors of the Slurpians and Comic Sans Font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-05T16:44:54"
+}

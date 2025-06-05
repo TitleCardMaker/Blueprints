@@ -1,0 +1,88 @@
+{
+  "series": {
+    "card_type": "roman numeral",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "The\\n Revelation"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "title": "Top Secret I",
+      "match_title": false
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Top Secret II",
+      "match_title": false
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Kinuko I",
+      "match_title": false
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Kinuko II",
+      "match_title": false
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "*",
+      "match_title": false
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "Client I",
+      "match_title": false
+    },
+    "s1e13": {
+      "template_ids": [],
+      "title": "Client II",
+      "match_title": false
+    },
+    "s1e18": {
+      "template_ids": [],
+      "title": "No One Is Watching I",
+      "match_title": false
+    },
+    "s1e19": {
+      "template_ids": [],
+      "title": "No One Is Watching II",
+      "match_title": false
+    },
+    "s1e20": {
+      "template_ids": [],
+      "title": "No One Is Watching III",
+      "match_title": false
+    },
+    "s1e21": {
+      "template_ids": [],
+      "title": "Infringement",
+      "match_title": false
+    },
+    "s1e23": {
+      "template_ids": [],
+      "title": "Search. My Body I",
+      "match_title": false
+    },
+    "s1e24": {
+      "template_ids": [],
+      "title": "Search. My Body II",
+      "match_title": false
+    }
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Roman Numerals style card with the season title replaced with the series subtitle and cleaned up episode titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-05T16:21:41"
+}

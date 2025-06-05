@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "template_ids": [],
+    "font_color": "#FFC640",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "poker face",
+      "color": "#FFC640",
+      "file": "Grotesque MT Std Bold Extended.otf"
+    }
+  ],
+  "creator": "DangerProned",
+  "description": [
+    "Frame card with poker face font and color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-05T16:46:21"
+}
