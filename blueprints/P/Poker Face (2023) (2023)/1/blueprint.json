@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "white",
+      "2.0",
+      "logo",
+      "index",
+      "1.8"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Poker Face",
+      "color": "rgb(251, 189, 11)",
+      "file": "Futura Condensed Extra Bold.ttf",
+      "kerning": 0.4,
+      "interline_spacing": -35,
+      "size": 1.2,
+      "title_case": "upper",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "TechJedi51",
+  "description": [
+    "Using the textured logo and the Columbo font \"Futura Condensed Extra Bold\"."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-11T14:52:39"
+}

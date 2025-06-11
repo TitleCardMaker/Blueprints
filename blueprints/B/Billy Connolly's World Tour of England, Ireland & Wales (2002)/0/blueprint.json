@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "striped",
+    "extra_keys": [
+      "overlay_color",
+      "episode_text_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "#218DC3",
+      "white",
+      "2.0"
+    ],
+    "font_color": "Yellow"
+  },
+  "creator": "TechJedi51",
+  "description": [
+    "Striped card using the colors for key art."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-11T14:54:00"
+}
