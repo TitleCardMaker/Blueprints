@@ -1,0 +1,34 @@
+{
+  "series": {
+    "card_type": "shape",
+    "hide_season_text": true,
+    "font_id": 0,
+    "extra_keys": [
+      "shape",
+      "shape_color",
+      "shape_stroke_width"
+    ],
+    "extra_values": [
+      "down triangle",
+      "gray",
+      "5"
+    ],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Futura LT Medium, Bold",
+      "title_case": "upper",
+      "file": "LTe50188.ttf"
+    }
+  ],
+  "creator": "SturmB",
+  "description": [
+    "This is my first attempt at a blueprint, and it's a pretty decent match for the show's style."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-06-29T23:40:21"
+}

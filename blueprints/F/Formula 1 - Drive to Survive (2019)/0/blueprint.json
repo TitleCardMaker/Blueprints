@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "formula 1",
+    "extra_keys": [
+      "season_text_format",
+      "race"
+    ],
+    "extra_values": [
+      "Race {episode_number}",
+      "Drive To Survive"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "TechJedi51",
+  "description": [
+    "Using the F1 card, with Race as the episode number."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-06-29T23:39:19"
+}
