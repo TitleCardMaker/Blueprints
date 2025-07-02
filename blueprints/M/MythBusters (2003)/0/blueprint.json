@@ -1,0 +1,31 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "striped",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(108, 60, 27)"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Mythbusters",
+      "file": "MythBusters.ttf",
+      "size": 1.09
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Striped-style episode card featuring a free, fan-made font for the title. Season and episode text is styled using brown colour inspired by the series logo."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2025-07-02T19:00:30"
+}
