@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "calligraphy",
+    "extra_keys": [
+      "logo_size"
+    ],
+    "extra_values": [
+      ".5"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "TIRES",
+      "color": "#f6c421",
+      "file": "Camy W01 Fat.ttf"
+    }
+  ],
+  "creator": "DangerProned",
+  "description": [
+    "Blueprint for Shane Gillis' Netflix show Tires in the closest matching font and the correct color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-07-03T16:40:33"
+}
