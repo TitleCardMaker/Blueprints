@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "shape"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "circle"
+    ],
+    "template_ids": [],
+    "font_title_case": "upper",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Sherlock",
+      "file": "London-Tube.ttf"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Tinted frame style card with logo at top and title text at bottom (in custom personal use license font that matches logo)."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-08-01T22:59:52"
+}
