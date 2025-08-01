@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "title_text_position"
+    ],
+    "extra_values": [
+      "right"
+    ],
+    "template_ids": [],
+    "font_size": 1.2,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Succession",
+      "file": "Media-Gothic.ttf"
+    }
+  ],
+  "creator": "barberq",
+  "description": [
+    "Tinted Frame card with custom Font which is similar to font used in show."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-08-01T23:00:55"
+}
