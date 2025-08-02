@@ -1,0 +1,39 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "music",
+    "extra_keys": [
+      "percentage",
+      "subtitle",
+      "timeline_color"
+    ],
+    "extra_values": [
+      "{episode_number / season_episode_max}",
+      "\"\"",
+      "white"
+    ],
+    "template_ids": [],
+    "font_title_case": "upper",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "NCIS",
+      "file": "NEWACADEMY.ttf",
+      "stroke_width": 0.5
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Music style card with logo, title, and season progress bar. The font is a free for personal use font that matches the logo font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2025-08-01T22:58:52"
+}

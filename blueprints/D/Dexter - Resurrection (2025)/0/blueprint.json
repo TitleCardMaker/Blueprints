@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extra_keys": [
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "1.5"
+    ],
+    "template_ids": [],
+    "font_size": 3.0,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Dexter",
+      "color": "#b11016",
+      "file": "Soda Script Bold Extras Regular.ttf",
+      "interline_spacing": -100,
+      "size": 1.6,
+      "stroke_width": 0.6,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Based off of Flowcools template for other Dexter shows: \"Olivier Card with Soda script bold font in official red color.\"."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-08-01T23:03:41"
+}

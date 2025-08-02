@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "star wars",
+    "template_ids": [],
+    "font_size": 1.5,
+    "source_files": [
+      "icbmss20.ttf"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Andor",
+      "file": "icbmss20.ttf"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Star Wars card style using free font similar to the poster for the show."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-08-01T23:02:09"
+}
