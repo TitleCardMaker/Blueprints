@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "extra_keys": [
+      "box_adjustments"
+    ],
+    "extra_values": [
+      "50 20 -10 10"
+    ],
+    "template_ids": [],
+    "font_color": "rgb(196, 240, 249)",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Stillwater",
+      "color": "rgb(196, 240, 249)",
+      "file": "invictus.ttf",
+      "kerning": -1.2,
+      "title_case": "source",
+      "vertical_shift": -30
+    }
+  ],
+  "creator": "CollinHeist",
+  "description": [
+    "Tinted Glass card with a free version of a matching Font in light blue."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-08T03:25:29"
+}
