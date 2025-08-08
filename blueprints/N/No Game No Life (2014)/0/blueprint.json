@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": false,
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Kingdom of Games"
+    ],
+    "extra_keys": [
+      "episode_text_font_size",
+      "stroke_color",
+      "kanji",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      "1",
+      "#00e5ff",
+      "\u30ce\u30fc\u30b2\u30fc\u30e0\u30fb\u30ce\u30fc\u30e9\u30a4\u30d5",
+      "#00e5ff",
+      "top right",
+      "#d134eb"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "No Game No Life",
+      "color": "rgb(209, 52, 235)",
+      "file": "no_game_no_life_logo_font__free_dl__by_japanyoshi-d7o4t6u.ttf"
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-08T03:29:08"
+}

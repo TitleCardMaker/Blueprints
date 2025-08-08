@@ -1,0 +1,50 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Awakening of the Beast Kings"
+    ],
+    "extra_keys": [
+      "omit_gradient",
+      "episode_text_color",
+      "logo_size",
+      "stroke_color",
+      "kanji",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "False",
+      "#8b0000",
+      "1.5",
+      "#8b0000",
+      "\u30af\u30ec\u30d0\u30c6\u30b9",
+      "#b8860b",
+      "top right",
+      "#8b0000",
+      "1"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Clevatess",
+      "color": "#b8860b",
+      "vertical_shift": 30,
+      "file": "UnZialish.ttf"
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-08T03:27:47"
+}
