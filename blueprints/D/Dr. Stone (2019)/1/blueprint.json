@@ -1,0 +1,66 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "Stone Formula",
+      "Stone Wars",
+      "New World",
+      "Science Future"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "logo_size",
+      "stroke_color",
+      "season_text_color",
+      "episode_stroke_color",
+      "kanji",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "#2C2C2C",
+      "1.4",
+      "#2C2C2C",
+      "#558B2F",
+      "#FF6F00",
+      "\u30c9\u30af\u30bf\u30fc\u30b9\u30c8\u30fc\u30f3",
+      "#FF6F00",
+      "top right",
+      "#2C2C2C",
+      "2.7"
+    ]
+  },
+  "episodes": {
+    "s1e6": {
+      "template_ids": [],
+      "auto_split_title": true,
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Dr. Stone",
+      "color": "#FF6F00",
+      "kerning": -0.5,
+      "stroke_width": 5.0,
+      "file": "Ethnocentric Rg It.otf"
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime. Includes custom season titles for seasons 1-4."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-11T14:50:08"
+}
