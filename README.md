@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `841` Blueprints available for `670` Series, submitted by `56` Creators.
+There are currently `844` Blueprints available for `671` Series, submitted by `56` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,7 +21,7 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 313 |
+| CollinHeist | 314 |
 | Reicha7 | 216 |
 | Azuravian | 40 |
 | MrSaiclops | 36 |
@@ -47,6 +47,7 @@ Creators with the most Blueprint Submissions:
 | Supremicus | 5 |
 | DBKrishnan | 4 |
 | annie-s-05 | 4 |
+| TekFinder | 4 |
 | Dragonsys | 3 |
 | BattleChambers | 3 |
 | Chris | 3 |
@@ -58,7 +59,6 @@ Creators with the most Blueprint Submissions:
 | IdiotTryingToFindWay | 2 |
 | 00Scooby | 2 |
 | DangerProned | 2 |
-| TekFinder | 2 |
 | Dante2202 | 1 |
 | lyonza | 1 |
 | legacy3 | 1 |
@@ -88,7 +88,7 @@ There are currently `21` Blueprint Sets available:
 | `1` | Scooby-Doo | LEGO Scooby-Doo Shorts [0]<br>Scooby's All-Star Laff-A-Lympics [0]<br>The 13 Ghosts of Scooby-Doo [0]<br>A Pup Named Scooby-Doo [0]<br>+10 more |
 | `2` | Marvel Cinematic Universe | Loki [1]<br>Marvel's Inhumans [0]<br>Echo [0]<br>Marvel's Agents of S.H.I.E.L.D. [0]<br>+7 more |
 | `3` | Legend of the Galactic Heroes | Legend of the Galactic Heroes: Die Neue These [0]<br>Legend of the Galactic Heroes [0] |
-| `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1] |
+| `4` | Dexter | Dexter [0]<br>Dexter: New Blood [1]<br>Dexter: Resurrection [1] |
 | `5` | Dragon Ball Universe | Dragon Ball Super [0]<br>Dragon Ball Z [0]<br>Dragon Ball [0]<br>Dragon Ball GT [0]<br>+1 more |
 | `6` | The Defenders | Marvel's Daredevil [0]<br>Marvel's The Defenders [0]<br>Marvel's Luke Cage [0]<br>Marvel's Jessica Jones [0]<br>+1 more |
 | `7` | The Real Housewives | The Real Housewives of Atlanta [0]<br>The Real Housewives of Beverly Hills [0]<br>The Real Housewives of Miami [0]<br>The Real Housewives Ultimate Girls Trip [0]<br>+9 more |
