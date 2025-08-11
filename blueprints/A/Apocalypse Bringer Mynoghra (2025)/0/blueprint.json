@@ -1,0 +1,72 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "s1e1-s1e12"
+    ],
+    "season_title_values": [
+      "The Messenger of the End"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "logo_size",
+      "stroke_color",
+      "season_text_color",
+      "kanji",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "#8A2BE2",
+      "2.4",
+      "#8A2BE2",
+      "#800080",
+      "\u30de\u30a4\u30ce\u30b0\u30e9",
+      "10",
+      "black",
+      "top right",
+      "#800080",
+      "2.7"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Apocalypse Bringer Mynoghra",
+      "color": "black",
+      "stroke_width": 2.5,
+      "vertical_shift": 21,
+      "file": "Phantom Fingers.otf",
+      "replacements_in": [
+        "\u00fc",
+        "^",
+        "\u00dc",
+        "\u00e4",
+        "\u00c4",
+        "\u00f6",
+        "\u00d6"
+      ],
+      "replacements_out": [
+        "ue",
+        "",
+        "Ue",
+        "ae",
+        "Ae",
+        "oe",
+        "oe"
+      ],
+      "size": 0.75
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-11T14:48:22"
+}
