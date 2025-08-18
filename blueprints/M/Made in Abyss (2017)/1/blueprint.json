@@ -1,0 +1,89 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "s1e1-s1e3",
+      "s1e4-s1e7",
+      "s1e8-s1e9",
+      "s1e10-s1e11",
+      "s1e12-s1e13",
+      "s2e1-s2e3",
+      "s2e4-s2e6",
+      "s2e7-s2e9",
+      "s2e10-s2e10",
+      "s2e11-s2e12"
+    ],
+    "season_title_values": [
+      "The Adventure Begins",
+      "The Seeker Camp",
+      "The Curse of the Abyss",
+      "The Depths of the Abyss",
+      "The Fifth Layer",
+      "The Golden City",
+      "The Secrets of The Village Iruburu",
+      "The Dark Secrets of the Past",
+      "Nanachi\u2019s Memories",
+      "Faputa\u2019s Vengeance"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "logo_size",
+      "stroke_color",
+      "season_text_color",
+      "episode_stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "#7A9E7E",
+      "1.5",
+      "#5C3A21",
+      "#F3E5AB",
+      "#5C3A21",
+      "25",
+      "#7A9E7E",
+      "top right",
+      "#5C3A21",
+      "1"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Made in Abyss",
+      "color": "#D98936",
+      "file": "Playhouse Medium.ttf",
+      "stroke_width": 5.0,
+      "vertical_shift": 10,
+      "replacements_in": [
+        "\u00c4",
+        "\u00e4",
+        "\u00dc",
+        "\u00fc",
+        "\u00d6",
+        "\u00f6",
+        "\u00df"
+      ],
+      "replacements_out": [
+        "Ae",
+        "ae",
+        "Ue",
+        "ue",
+        "Oe",
+        "oe",
+        "ss"
+      ]
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-18T15:26:34"
+}
