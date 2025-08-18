@@ -1,0 +1,81 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "season_title_ranges": [
+      "s1e1-s1e3",
+      "s1e4-s1e9",
+      "s1e10-s1e13",
+      "s2e1-s2e13",
+      "s2e14-s2e26"
+    ],
+    "season_title_values": [
+      "Initial Test Arc",
+      "Position Test",
+      "Submerged Fish/Last Examination",
+      "Return of the Prince",
+      "Workshop Battle"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "logo_size",
+      "episode_stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "logo_position",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "#FFD700",
+      "2.5",
+      "black",
+      "25",
+      "#FFD700",
+      "top right",
+      "black",
+      "2"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Tower of God",
+      "color": "#A71B1A",
+      "file": "htf1bkup.TTF",
+      "stroke_width": 3.0,
+      "vertical_shift": 20,
+      "replacements_in": [
+        "}",
+        "{",
+        "\u00dc",
+        "\u00e4",
+        "\u00c4",
+        "\u00f6",
+        "\u00df",
+        "\u00fc",
+        "_",
+        "\u00d6"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "Ue",
+        "ae",
+        "Ae",
+        "oe",
+        "ss",
+        "ue",
+        "",
+        "Oe"
+      ]
+    }
+  ],
+  "creator": "TekFinder",
+  "description": [
+    "A Blueprint in the font and color style of the anime."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-18T15:41:19"
+}

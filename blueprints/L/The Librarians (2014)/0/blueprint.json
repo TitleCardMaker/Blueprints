@@ -1,0 +1,42 @@
+{
+  "series": {
+    "extra_keys": [
+      "episode_text_color",
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "title_text_format"
+    ],
+    "extra_values": [
+      "rgb(197, 174, 92)",
+      "rgb(197, 174, 92)",
+      "logo",
+      "title",
+      "{(title_text[0].lower() + title_text[1:]).replace(' (1)', '').replace(' (2)', '')}"
+    ],
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "match_titles": false
+  },
+  "fonts": [
+    {
+      "name": "Librarians Episode",
+      "color": "rgb(197, 174, 92)",
+      "file": "Alexa Std Regular.otf",
+      "size": 1.5,
+      "title_case": "source"
+    }
+  ],
+  "creator": "SturmB",
+  "description": [
+    "Tinted Frame card with the logo at the top and episode titles at the bottom, slightly modified to match the episodes' title cards."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2025-08-18T15:55:36"
+}
