@@ -1,0 +1,33 @@
+{
+  "series": {
+    "card_type": "banner"
+  },
+  "episodes": {
+    "s1e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Visits, Conjugal\\nand Otherwise",
+      "match_title": false
+    },
+    "s3e6": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "Cruel and Unusual\\nPunishments",
+      "match_title": false
+    },
+    "s6e2": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "See No Evil, Hear No Evil,\\nSmell No Evil",
+      "match_title": false
+    }
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Banner card with some titles manually adjusted to improve layout."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-22T17:13:40"
+}
