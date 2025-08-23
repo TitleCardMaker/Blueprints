@@ -1,0 +1,194 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "extra_keys": [
+      "season_text_font_size",
+      "shape_color",
+      "banner_height"
+    ],
+    "extra_values": [
+      "1",
+      "#FFF56C",
+      "185"
+    ]
+  },
+  "episodes": {
+    "s16e1": {
+      "template_ids": [],
+      "title": "Episode 1"
+    },
+    "s1e1": {
+      "template_ids": [],
+      "title": "Episode 1"
+    },
+    "s1e2": {
+      "template_ids": [],
+      "title": "Episode 2"
+    },
+    "s1e3": {
+      "template_ids": [],
+      "title": "Episode 3"
+    },
+    "s1e4": {
+      "template_ids": [],
+      "title": "Episode 4"
+    },
+    "s1e5": {
+      "template_ids": [],
+      "title": "Episode 5"
+    },
+    "s1e6": {
+      "template_ids": [],
+      "title": "Episode 6"
+    },
+    "s1e7": {
+      "template_ids": [],
+      "title": "Episode 7"
+    },
+    "s1e8": {
+      "template_ids": [],
+      "title": "Episode 8"
+    },
+    "s1e9": {
+      "template_ids": [],
+      "title": "Episode 9"
+    },
+    "s1e10": {
+      "template_ids": [],
+      "title": "Episode 10"
+    },
+    "s1e11": {
+      "template_ids": [],
+      "title": "Episode 11"
+    },
+    "s1e12": {
+      "template_ids": [],
+      "title": "Episode 12"
+    },
+    "s1e13": {
+      "template_ids": [],
+      "title": "Episode 13"
+    },
+    "s1e14": {
+      "template_ids": [],
+      "title": "Episode 14"
+    },
+    "s1e15": {
+      "template_ids": [],
+      "title": "Episode 15"
+    },
+    "s1e16": {
+      "template_ids": [],
+      "title": "Episode 16"
+    },
+    "s1e17": {
+      "template_ids": [],
+      "title": "Episode 17"
+    },
+    "s1e18": {
+      "template_ids": [],
+      "title": "Episode 18"
+    },
+    "s1e19": {
+      "template_ids": [],
+      "title": "Episode 19"
+    },
+    "s1e20": {
+      "template_ids": [],
+      "title": "Episode 20"
+    },
+    "s1e21": {
+      "template_ids": [],
+      "title": "Episode 21"
+    },
+    "s1e22": {
+      "template_ids": [],
+      "title": "Episode 22"
+    },
+    "s1e23": {
+      "template_ids": [],
+      "title": "Episode 23"
+    },
+    "s1e24": {
+      "template_ids": [],
+      "title": "Episode 24"
+    },
+    "s1e25": {
+      "template_ids": [],
+      "title": "Episode 25"
+    },
+    "s1e27": {
+      "template_ids": [],
+      "title": "Episode 27"
+    },
+    "s1e29": {
+      "template_ids": [],
+      "title": "Episode 29"
+    },
+    "s1e30": {
+      "template_ids": [],
+      "title": "Episode 30"
+    },
+    "s1e31": {
+      "template_ids": [],
+      "title": "Episode 31"
+    },
+    "s1e32": {
+      "template_ids": [],
+      "title": "Episode 32"
+    },
+    "s1e33": {
+      "template_ids": [],
+      "title": "Episode 33"
+    },
+    "s1e34": {
+      "template_ids": [],
+      "title": "Episode 34"
+    },
+    "s1e35": {
+      "template_ids": [],
+      "title": "Episode 35"
+    },
+    "s1e36": {
+      "template_ids": [],
+      "title": "Episode 36"
+    },
+    "s1e37": {
+      "template_ids": [],
+      "title": "Episode 37"
+    },
+    "s1e38": {
+      "template_ids": [],
+      "title": "Episode 38"
+    },
+    "s1e39": {
+      "template_ids": [],
+      "title": "Episode 39"
+    },
+    "s1e40": {
+      "template_ids": [],
+      "title": "Episode 40"
+    },
+    "s1e41": {
+      "template_ids": [],
+      "title": "Episode 41"
+    }
+  },
+  "fonts": [
+    {
+      "name": "SpongeBob",
+      "color": "#FFF56C",
+      "file": "SpongeboyRegular-gx2n6.otf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "ignore1616",
+  "description": [
+    "SpongeBob SquarePants with the official type font and color scheme."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-23T17:02:36"
+}
