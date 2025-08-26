@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "extras": {
+      "episode_text_color": "#89e8f6",
+      "episode_text_font_size": "1.2",
+      "episode_text_vertical_shift": "50"
+    }
+  },
+  "fonts": [
+    {
+      "name": "St. Denis (Gill Sans Nova Heavy)",
+      "file": "421-font(1).ttf",
+      "interline_spacing": -75,
+      "size": 1.4,
+      "stroke_width": 1.25,
+      "title_case": "source"
+    }
+  ],
+  "creator": "PJ",
+  "description": [
+    "Font matched Olivier style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-08-26T14:34:52"
+}
