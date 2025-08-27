@@ -83,7 +83,7 @@ class BlueprintFont(BlueprintBase):
     def validate_both_not_provided(cls, values: dict) -> dict:
         if (values.get('file', None) is not None
             and values.get('file_download_url', None) is not None):
-            raise ValueError(f'Cannot provide both a Font file and download URL')
+            raise ValueError('Cannot provide both a Font file and download URL')
 
         return values
 
