@@ -1,5 +1,5 @@
 # pyright: reportInvalidTypeForm=false
-from typing import Literal, Optional
+from typing import Literal
 
 from pydantic import (
     BaseModel, HttpUrl, PositiveFloat, conlist, constr, root_validator
@@ -11,7 +11,7 @@ TitleCase = Literal['blank', 'lower', 'source', 'title', 'upper']
 class Condition(BaseModel):
     argument: constr(min_length=1)
     operation: constr(min_length=1)
-    reference: Optional[str] = None
+    reference: str | None = None
 
 class Translation(BaseModel):
     language_code: constr(min_length=1)
@@ -21,62 +21,47 @@ class BlueprintBase(BaseModel):
     ...
 
 class SeriesBase(BlueprintBase):
-    font_id: Optional[int] = None
-    card_type: Optional[constr(min_length=1)] = None
-    hide_season_text: Optional[bool] = None
-    hide_episode_text: Optional[bool] = None
-    episode_text_format: Optional[str] = None
-    translations: Optional[list[Translation]] = None
-    season_title_ranges: list[SeasonTitleRange] = []
-    season_title_values: list[str] = []
-    extra_keys: conlist(constr(min_length=1), unique_items=True) = []
-    extra_values: list[str] = []
-    skip_localized_images: Optional[bool] = None
-
-    @root_validator(skip_on_failure=True)
-    def validate_paired_lists(cls, values: dict) -> dict:
-        # Season title ranges
-        st_ranges = values.get('season_title_ranges', [])
-        st_values = values.get('season_title_values', [])
-        assert len(st_ranges) == len(st_values), 'Season title ranges and values must be equal length'
-        # Extras
-        ex_ranges = values.get('extra_keys', [])
-        ex_values = values.get('extra_values', [])
-        assert len(ex_ranges) == len(ex_values), 'Extra keys and values must be equal length'
-
-        return values
+    font_id: int | None = None
+    card_type: constr(min_length=1) | None = None
+    hide_season_text: bool | None = None
+    hide_episode_text: bool | None = None
+    episode_text_format: str | None = None
+    translations: list[Translation] | None = None
+    season_titles: dict[SeasonTitleRange, str] | None = None
+    extras: dict[constr(min_length=1), str] | None = None
+    skip_localized_images: bool | None = None
 
 class BlueprintSeries(SeriesBase):
     template_ids: conlist(int, unique_items=True) = []
-    match_titles: Optional[bool] = None
-    font_color: Optional[constr(min_length=1)] = None
-    font_title_case: Optional[TitleCase] = None
-    font_size: Optional[PositiveFloat] = None
-    font_kerning: Optional[float] = None
-    font_stroke_width: Optional[float] = None
-    font_interline_spacing: Optional[int] = None
-    font_vertical_shift: Optional[int] = None
+    match_titles: bool | None = None
+    font_color: constr(min_length=1) | None = None
+    font_title_case: TitleCase | None = None
+    font_size: PositiveFloat | None = None
+    font_kerning: float | None = None
+    font_stroke_width: float | None = None
+    font_interline_spacing: int | None = None
+    font_vertical_shift: int | None = None
     source_files: conlist(constr(min_length=3), unique_items=True) = []
     
 class BlueprintEpisode(BlueprintSeries):
-    title: Optional[str] = None
-    match_title: Optional[bool] = None
-    season_text: Optional[str] = None
-    episode_text: Optional[str] = None
+    title: str | None = None
+    match_title: bool | None = None
+    season_text: str | None = None
+    episode_text: str | None = None
 
 class BlueprintFont(BlueprintBase):
     name: constr(min_length=1)
-    color: Optional[constr(min_length=1)] = None
+    color: constr(min_length=1) | None = None
     delete_missing: bool = None
-    file: Optional[constr(min_length=3)] = None
-    file_download_url: Optional[HttpUrl] = None
+    file: constr(min_length=3) | None = None
+    file_download_url: HttpUrl | None = None
     kerning: float = None
     interline_spacing: int = None
     replacements_in: conlist(constr(min_length=1), unique_items=True) = None
     replacements_out: list[str] = None
     size: PositiveFloat = None
     stroke_width: float = None
-    title_case: Optional[TitleCase] = None
+    title_case: TitleCase | None = None
     vertical_shift: int = None
 
     @root_validator(skip_on_failure=True)
