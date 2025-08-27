@@ -5,8 +5,8 @@ This serves as the entrypoint to all Blueprint actions.
 """
 
 from argparse import ArgumentParser
+from collections.abc import Callable
 from sys import exit as sys_exit
-from typing import Callable
 
 
 ap = ArgumentParser()
@@ -21,7 +21,7 @@ ap.add_argument('--update-database', action='store_true')
 args = ap.parse_args()
 
 # Functions to run
-sequence: list[Callable] = []
+sequence: list[Callable[[], None]] = []
 
 if args.parse_submission:
     from src.build.parse_submission import parse_and_create_blueprint
@@ -58,5 +58,5 @@ for function in sequence:
         function()
     except Exception as exc:
         print(f'Some error occured: {exc}')
-        print(f'Exiting')
+        print('Exiting')
         sys_exit(1)
