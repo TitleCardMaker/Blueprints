@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "title_text_format",
-      "top_element",
-      "bottom_element",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "{NEWLINE.join([' '.join(['.'.join(words).replace(\".'.\", \"'\").replace('(.', '(').replace('.)', ')').replace('...', '.') for words in line.split(' ')]) for line in title_text.splitlines()])}",
-      "index",
-      "title",
-      "random[rgb(201,47,38), rgb(239,164,58), rgb(32,74,149)]",
-      "5"
-    ]
+    "extras": {
+      "title_text_format": "{NEWLINE.join([' '.join(['.'.join(words).replace(\".'.\", \"'\").replace('(.', '(').replace('.)', ')').replace('...', '.') for words in line.split(' ')]) for line in title_text.splitlines()])}",
+      "top_element": "index",
+      "bottom_element": "title",
+      "frame_color": "random[rgb(201,47,38), rgb(239,164,58), rgb(32,74,149)]",
+      "frame_width": "5"
+    }
   },
   "episodes": {
     "s1e1": {

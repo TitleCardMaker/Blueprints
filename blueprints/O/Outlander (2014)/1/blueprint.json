@@ -1,23 +1,14 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "season_title_values": [
-      "Book One: Outlander",
-      "Book Two: Dragonfly in Amber",
-      "Book Three: Voyager",
-      "Book Four: Drums of Autumn",
-      "Book Five:  The Fiery Cross",
-      "Book Six: A Breath of Snow and Ashes",
-      "Book Seven: An Echo in the Bone"
-    ]
+    "season_titles": {
+      "1": "Book One: Outlander",
+      "2": "Book Two: Dragonfly in Amber",
+      "3": "Book Three: Voyager",
+      "4": "Book Four: Drums of Autumn",
+      "5": "Book Five:  The Fiery Cross",
+      "6": "Book Six: A Breath of Snow and Ashes",
+      "7": "Book Seven: An Echo in the Bone"
+    }
   },
   "creator": "CollinHeist",
   "description": [

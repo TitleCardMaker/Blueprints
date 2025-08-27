@@ -6,60 +6,38 @@
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "title_text_position",
-        "text_position"
-      ],
-      "extra_values": [
-        "right",
-        "left"
-      ]
+      "extras": {
+        "title_text_position": "right",
+        "text_position": "left"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "title_text_position",
-        "text_position"
-      ],
-      "extra_values": [
-        "right",
-        "left"
-      ]
+      "extras": {
+        "title_text_position": "right",
+        "text_position": "left"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "text_position",
-        "title_text_position"
-      ],
-      "extra_values": [
-        "lower left",
-        "right"
-      ]
+      "extras": {
+        "text_position": "lower left",
+        "title_text_position": "right"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "text_position"
-      ],
-      "extra_values": [
-        "right"
-      ]
+      "extras": {
+        "text_position": "right"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "text_position",
-        "title_text_position"
-      ],
-      "extra_values": [
-        "left",
-        "right"
-      ]
+      "extras": {
+        "text_position": "left",
+        "title_text_position": "right"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "text_position"
-      ],
-      "extra_values": [
-        "right"
-      ]
+      "extras": {
+        "text_position": "right"
+      }
     }
   },
   "templates": [],

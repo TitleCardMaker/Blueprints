@@ -2,37 +2,27 @@
   "series": {
     "font_id": 0,
     "card_type": "comic book",
-    "extra_keys": [
-      "banner_fill_color",
-      "text_box_edge_color",
-      "text_box_fill_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgba(83, 166, 210, 0.9)",
-      "black",
-      "black",
-      "#FFF520"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "banner_fill_color": "rgba(83, 166, 210, 0.9)",
+      "text_box_edge_color": "black",
+      "text_box_fill_color": "black",
+      "episode_text_color": "#FFF520"
+    }
   },
   "episodes": {
     "s0e1": {
       "hide_episode_text": true,
-      "extra_keys": [
-        "banner_fill_color",
-        "episode_text_color"
-      ],
-      "extra_values": [
-        "rgba(232, 2, 142, 0.75)",
-        "#f6ced7"
-      ],
       "template_ids": [],
       "font_color": "#f6ced7",
       "title": "ATOM EVE SPECIAL EPISODE",
       "match_title": false,
-      "season_text": "Presenting"
+      "season_text": "Presenting",
+      "extras": {
+        "banner_fill_color": "rgba(232, 2, 142, 0.75)",
+        "episode_text_color": "#f6ced7"
+      }
     }
   },
   "templates": [],

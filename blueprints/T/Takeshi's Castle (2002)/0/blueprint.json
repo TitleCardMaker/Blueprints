@@ -4,15 +4,12 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "white"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "stroke_color": "white"
+    }
   },
   "episodes": {
     "s1e8": {

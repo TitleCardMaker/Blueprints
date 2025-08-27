@@ -3,18 +3,12 @@
     "font_id": 0,
     "card_type": "comic book",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "text_box_fill_color",
-      "text_box_edge_color",
-      "banner_fill_color"
-    ],
-    "extra_values": [
-      "#fad688",
-      "#02132d",
-      "#fa654f",
-      "rgba(2, 19, 45, 1)"
-    ]
+    "extras": {
+      "episode_text_color": "#fad688",
+      "text_box_fill_color": "#02132d",
+      "text_box_edge_color": "#fa654f",
+      "banner_fill_color": "rgba(2, 19, 45, 1)"
+    }
   },
   "fonts": [
     {

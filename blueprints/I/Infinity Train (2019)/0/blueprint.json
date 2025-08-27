@@ -1,28 +1,18 @@
 {
   "series": {
     "card_type": "overline",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "The Perennial Child",
-      "Cracked Reflection",
-      "Cult of the Conductor",
-      "Duet"
-    ],
-    "extra_keys": [
-      "line_color",
-      "line_position"
-    ],
-    "extra_values": [
-      "green1",
-      "bottom"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "The Perennial Child",
+      "2": "Cracked Reflection",
+      "3": "Cult of the Conductor",
+      "4": "Duet"
+    },
+    "extras": {
+      "line_color": "green1",
+      "line_position": "bottom"
+    }
   },
   "episodes": {},
   "templates": [],

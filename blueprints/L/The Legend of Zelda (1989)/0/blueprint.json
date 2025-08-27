@@ -4,16 +4,11 @@
     "card_type": "shape",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "shape",
-      "shape_color",
-      "shape_width"
-    ],
-    "extra_values": [
-      "up triangle",
-      "#ffe65b",
-      "50"
-    ]
+    "extras": {
+      "shape": "up triangle",
+      "shape_color": "#ffe65b",
+      "shape_width": "50"
+    }
   },
   "fonts": [
     {

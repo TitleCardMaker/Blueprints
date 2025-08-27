@@ -2,27 +2,18 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_width",
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "logo_vertical_shift",
-      "blur_edges",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "15",
-      "logo",
-      "title",
-      "3",
-      "25",
-      "false",
-      "#f85d1d"
-    ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "frame_width": "15",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "3",
+      "logo_vertical_shift": "25",
+      "blur_edges": "false",
+      "shadow_color": "#f85d1d"
+    }
   },
   "episodes": {
     "s1e19": {

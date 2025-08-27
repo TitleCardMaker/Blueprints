@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "episode_text_color",
-      "box_adjustments",
-      "edge_color"
-    ],
-    "extra_values": [
-      "rgb(196, 52, 52)",
-      "10 0 0 0",
-      "#fdb94a"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(196, 52, 52)",
+      "box_adjustments": "10 0 0 0",
+      "edge_color": "#fdb94a"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -23,8 +18,8 @@
       "interword_spacing": 20,
       "line_split_modifier": -4,
       "replacements_in": [
-        "\u00d1",
-        "\u00c9"
+        "Ñ",
+        "É"
       ],
       "replacements_out": [
         "N",

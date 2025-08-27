@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "Yozora/RetroTitleCard",
-    "extra_keys": [
-      "override_bw"
-    ],
-    "extra_values": [
-      "bw"
-    ]
+    "extras": {
+      "override_bw": "bw"
+    }
   },
   "fonts": [
     {

@@ -2,165 +2,109 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_color",
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "kanji_font_size",
-      "kanji_stroke_color",
-      "kanji_stroke_width",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "{title_text.replace('/', \" \")}",
-      "white",
-      "White",
-      "10",
-      "white",
-      "1.4",
-      "black",
-      "2",
-      "black"
-    ],
-    "auto_split_title": false
+    "auto_split_title": false,
+    "extras": {
+      "title_text_format": "{title_text.replace('/', \" \")}",
+      "episode_text_color": "white",
+      "stroke_color": "White",
+      "kanji_vertical_shift": "10",
+      "kanji_color": "white",
+      "kanji_font_size": "1.4",
+      "kanji_stroke_color": "black",
+      "kanji_stroke_width": "2",
+      "episode_stroke_color": "black"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6c34\u708a\u304d \u30bf\u30eb\u30c8"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "水炊き タルト"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30ed\u30fc\u30b9\u30c8\u30d0\u30b8\u30ea\u30b9\u30af \u30aa\u30e0\u30ec\u30c4 \u304b\u304d\u63da\u3052"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "ローストバジリスク オムレツ かき揚げ"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u52d5\u304f\u93a7"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "動く鎧"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30ad\u30e3\u30d9\u30c4\u716e \u30aa\u30fc\u30af"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "キャベツ煮 オーク"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u304a\u3084\u3064 \u30bd\u30eb\u30d9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "おやつ ソルベ"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u5bae\u5ef7\u6599\u7406 \u5869\u8339\u3067"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "宮廷料理 塩茹で"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6c34\u68f2\u99ac \u96d1\u708a \u84b2\u713c\u304d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "水棲馬 雑炊 蒲焼き"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6728\u82fa \u713c\u304d\u8089"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "木苺 焼き肉"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30c6\u30f3\u30bf\u30af\u30eb\u30b9 \u30b7\u30c1\u30e5\u30fc"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "テンタクルス シチュー"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u5927\u30ac\u30a8\u30eb \u5730\u4e0a\u306b\u3066"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "大ガエル 地上にて"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u708e\u7adc\uff11"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "炎竜１"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u708e\u7adc\uff12"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "炎竜２"
+      }
     },
     "s1e14": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30b7\u30fc\u30b5\u30fc\u30da\u30f3\u30c8"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "シーサーペント"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u708e\u7adc3 \u826f\u85ac"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "炎竜3 良薬"
+      }
     },
     "s1e15": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30c9\u30e9\u30a4\u30a2\u30c9 \u30b3\u30ab\u30c8\u30ea\u30b9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "ドライアド コカトリス"
+      }
     }
   },
   "fonts": [

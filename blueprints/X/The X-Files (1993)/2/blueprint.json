@@ -2,16 +2,11 @@
   "series": {
     "card_type": "shape",
     "episode_text_format": "{\"X.\" if episode_number % 10 == 0 else f\"{episode_number}.\"}",
-    "extra_keys": [
-      "shape",
-      "shape_color",
-      "shape_width"
-    ],
-    "extra_values": [
-      "circle",
-      "rgb(167,43,35)",
-      "18"
-    ]
+    "extras": {
+      "shape": "circle",
+      "shape_color": "rgb(167,43,35)",
+      "shape_width": "18"
+    }
   },
   "creator": "CollinHeist",
   "description": [

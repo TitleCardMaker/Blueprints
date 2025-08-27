@@ -2,12 +2,6 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "-70 -15 -50 -15"
-    ],
     "source_files": [
       "s1e1.jpg",
       "s1e1-mask.png",
@@ -33,7 +27,10 @@
       "s1e11-mask.png",
       "s1e12.jpg",
       "s1e12-mask.png"
-    ]
+    ],
+    "extras": {
+      "box_adjustments": "-70 -15 -50 -15"
+    }
   },
   "fonts": [
     {

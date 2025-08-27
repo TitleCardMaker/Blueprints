@@ -8,18 +8,12 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "kanji_color",
-      "stroke_color",
-      "episode_text_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "black",
-      "white",
-      "#bb1319",
-      "white"
-    ]
+    "extras": {
+      "kanji_color": "black",
+      "stroke_color": "white",
+      "episode_text_color": "#bb1319",
+      "episode_stroke_color": "white"
+    }
   },
   "fonts": [
     {

@@ -2,16 +2,12 @@
   "series": {
     "card_type": "tinted glass",
     "episode_text_format": "{season_text}",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "A Spacetime Odyssey",
-      "Possible Worlds"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "A Spacetime Odyssey",
+      "2": "Possible Worlds"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -7,44 +7,26 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "s0e3-s0e6",
-      "s3e14-s3e17",
-      "s0e10-s0e14",
-      "s0e15-s0e18",
-      "4",
-      "s0e21-s0e32",
-      "s0e33-s0e38",
-      "s0e19-s0e20",
-      "s0e2-s0e2",
-      "5",
-      "s3e1-s3e5",
-      "s3e6-s3e9",
-      "s3e10-s3e13",
-      "s3e18-s3e23"
-    ],
-    "season_title_values": [
-      "Bakemonogatari",
-      "Nisemonogatari",
-      "Nekomonogatari (Black)",
-      "Onimonogatari",
-      "Hanamonogatari",
-      "Tsukimonogatari",
-      "Owarimonogatari I",
-      "Koyomimonogatari",
-      "Zoku Owarimonogatari",
-      "Kizumonogatari",
-      "Kizumonogatari",
-      "Owarimonogatari II",
-      "Nekomonogatari (Black)",
-      "Kabukimonogatari",
-      "Otorimonogatari",
-      "Koimonogatari"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Bakemonogatari",
+      "2": "Nisemonogatari",
+      "s0e3-s0e6": "Nekomonogatari (Black)",
+      "s3e14-s3e17": "Onimonogatari",
+      "s0e10-s0e14": "Hanamonogatari",
+      "s0e15-s0e18": "Tsukimonogatari",
+      "4": "Owarimonogatari I",
+      "s0e21-s0e32": "Koyomimonogatari",
+      "s0e33-s0e38": "Zoku Owarimonogatari",
+      "s0e19-s0e20": "Kizumonogatari",
+      "s0e2-s0e2": "Kizumonogatari",
+      "5": "Owarimonogatari II",
+      "s3e1-s3e5": "Nekomonogatari (Black)",
+      "s3e6-s3e9": "Kabukimonogatari",
+      "s3e10-s3e13": "Otorimonogatari",
+      "s3e18-s3e23": "Koimonogatari"
+    }
   },
   "episodes": {
     "s3e1": {

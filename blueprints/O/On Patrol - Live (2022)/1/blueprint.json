@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "score",
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_font_size",
-      "episode_text_color",
-      "season_text_color",
-      "variation"
-    ],
-    "extra_values": [
-      "{title.split(\" - \", 1)[-1]}",
-      "2.0",
-      "rgb(244,180,4) silver",
-      "rgb(244,180,4) silver",
-      "left"
-    ]
+    "extras": {
+      "title_text_format": "{title.split(\" - \", 1)[-1]}",
+      "episode_text_font_size": "2.0",
+      "episode_text_color": "rgb(244,180,4) silver",
+      "season_text_color": "rgb(244,180,4) silver",
+      "variation": "left"
+    }
   },
   "episodes": {
     "s2e83": {

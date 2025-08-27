@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "season_title_ranges": [
-      "4"
-    ],
-    "season_title_values": [
-      "Night Country"
-    ],
     "font_color": "#ffffff",
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "4": "Night Country"
+    }
   },
   "fonts": [
     {

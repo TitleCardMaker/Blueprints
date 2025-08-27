@@ -8,31 +8,19 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "0",
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Specials",
-      "Season One",
-      "Season Two"
-    ],
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_color",
-      "kanji_color",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.split(\"/ \" ))}",
-      "rgb(236, 204, 34)",
-      "rgb(15, 101, 163)",
-      "white",
-      "0.75"
-    ],
-    "auto_split_title": false
+    "auto_split_title": false,
+    "season_titles": {
+      "0": "Specials",
+      "1": "Season One",
+      "2": "Season Two"
+    },
+    "extras": {
+      "title_text_format": "{f'{NEWLINE}'.join(title_text.split(\"/ \" ))}",
+      "episode_text_color": "rgb(236, 204, 34)",
+      "kanji_color": "rgb(15, 101, 163)",
+      "kanji_stroke_color": "white",
+      "kanji_stroke_width": "0.75"
+    }
   },
   "fonts": [
     {

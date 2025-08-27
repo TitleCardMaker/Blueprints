@@ -2,33 +2,23 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Unwavering Resolve",
-      "Mugen Train",
-      "Entertainment District",
-      "Swordsmith Village",
-      "Hashira Training Arc"
-    ],
-    "extra_keys": [
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "-40"
-    ],
     "template_ids": [],
     "translations": [
       {
         "language_code": "ja",
         "data_key": "kanji"
       }
-    ]
+    ],
+    "season_titles": {
+      "1": "Unwavering Resolve",
+      "2": "Mugen Train",
+      "3": "Entertainment District",
+      "4": "Swordsmith Village",
+      "5": "Hashira Training Arc"
+    },
+    "extras": {
+      "kanji_vertical_shift": "-40"
+    }
   },
   "episodes": {},
   "templates": [],

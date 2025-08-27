@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "line_color"
-    ],
-    "extra_values": [
-      "rgb(202, 156, 4)"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "line_color": "rgb(202, 156, 4)"
+    }
   },
   "fonts": [
     {

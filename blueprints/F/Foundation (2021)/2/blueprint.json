@@ -2,24 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "azuravian/SciFiTitleCard",
-    "extra_keys": [
-      "add_trailing_underscore",
-      "overlay_bottom_color",
-      "overlay_top_color",
-      "overlay_middle_color",
-      "overlay_rectangles_color",
-      "overlay_top_alpha"
-    ],
-    "extra_values": [
-      "false",
-      "#a99480",
-      "#a99480",
-      "#705b2d",
-      "white",
-      "0.00001"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "add_trailing_underscore": "false",
+      "overlay_bottom_color": "#a99480",
+      "overlay_top_color": "#a99480",
+      "overlay_middle_color": "#705b2d",
+      "overlay_rectangles_color": "white",
+      "overlay_top_alpha": "0.00001"
+    }
   },
   "fonts": [
     {

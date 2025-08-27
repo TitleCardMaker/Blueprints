@@ -2,14 +2,11 @@
   "series": {
     "card_type": "standard",
     "font_id": 0,
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "EPISODE  {to_cardinal(episode_number)}"
-    ],
     "hide_season_text": true,
-    "hide_episode_text": true
+    "hide_episode_text": true,
+    "extras": {
+      "title_text_format": "EPISODE  {to_cardinal(episode_number)}"
+    }
   },
   "fonts": [
     {

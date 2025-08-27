@@ -1,92 +1,63 @@
 {
   "series": {
     "card_type": "Supremicus/HorizonTitleCard",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font_size",
-      "episode_text_vertical_shift",
-      "h_align",
-      "symbol",
-      "crt_overlay"
-    ],
-    "extra_values": [
-      "white",
-      "1.3",
-      "410",
-      "left",
-      "logo",
-      "bezel"
-    ],
     "template_ids": [],
     "font_color": "rgb(4, 156, 220)",
     "font_vertical_shift": 452,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "white",
+      "episode_text_font_size": "1.3",
+      "episode_text_vertical_shift": "410",
+      "h_align": "left",
+      "symbol": "logo",
+      "crt_overlay": "bezel"
+    }
   },
   "episodes": {
     "s1e2": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "left"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "left"
+      }
     },
     "s2e2": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e4": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e10": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     }
   },
   "creator": "atabbott, IdiotTryingToFindWay",

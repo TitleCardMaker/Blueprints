@@ -3,14 +3,11 @@
     "card_type": "divider",
     "hide_season_text": true,
     "episode_text_format": "Chapter\\n{absolute_episode_number}",
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{title_text.split(':', maxsplit=1)[1] if ':' in title_text else title_text}"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "title_text_format": "{title_text.split(':', maxsplit=1)[1] if ':' in title_text else title_text}"
+    }
   },
   "episodes": {
     "s1e4": {

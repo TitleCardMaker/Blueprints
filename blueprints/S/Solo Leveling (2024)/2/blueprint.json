@@ -3,14 +3,11 @@
     "card_type": "cascade",
     "hide_season_text": true,
     "episode_text_format": "S{season_number} // Level {absolute_episode_number}",
-    "extra_keys": [
-      "alt_text"
-    ],
-    "extra_values": [
-      "{series_name.upper() if title_text.__len__() > 8 else ''}"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "alt_text": "{series_name.upper() if title_text.__len__() > 8 else ''}"
+    }
   },
   "episodes": {
     "s1e2": {

@@ -3,359 +3,250 @@
     "font_id": 0,
     "card_type": "anime",
     "hide_season_text": true,
-    "extra_keys": [
-      "kanji_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#918d8f",
-      "#918d8f"
-    ],
     "template_ids": [],
     "font_color": "#dfdee2",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "kanji_color": "#918d8f",
+      "episode_text_color": "#918d8f"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u706b\u306e\u51fa\u4f1a\u3044"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "戦火の出会い"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30b3\u30ca\u30e6\u30ad\u30bd\u30a6\u306e\u7948\u308a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "コナユキソウの祈り"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u7b2c7\u5c0f\u968a\u8a95\u751f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "第7小隊誕生"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u675f\u306e\u9593\u306e\u4f11\u65e5"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "束の間の休日"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30af\u30ed\u30fc\u30c7\u30f3\u5947\u8972\u6226"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "クローデン奇襲戦"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u5f93\u8ecd\u8a18\u8005\u3001\u596e\u95d8\u3059\uff01"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "従軍記者、奮闘す！"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30c0\u30eb\u30af\u30b9\u306e\u707d\u5384"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "ダルクスの災厄"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u7d10\u89e3\u304b\u308c\u308b\u6b74\u53f2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "紐解かれる歴史"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u84bc\u304d\u9b54\u5973"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "蒼き魔女"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u5439\u96ea\u306e\u591c"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "吹雪の夜"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u62db\u304b\u308c\u3056\u308b\u5ba2\u9054"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "招かれざる客達"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u3055\u3089\u308f\u308c\u305f\u59eb\u541b"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "さらわれた姫君"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u6144\u306e\u79fb\u52d5\u8981\u585e"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "戦慄の移動要塞"
+      }
     },
     "s1e14": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30d5\u30a1\u30a6\u30bc\u30f3\u306e\u9078\u629e"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "ファウゼンの選択"
+      }
     },
     "s1e15": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6b4c\u59eb\u306e\u904e\u53bb"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "歌姫の過去"
+      }
     },
     "s1e16": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u8a9e\u3089\u308c\u306a\u304b\u3063\u305f\u60f3\u3044"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "語られなかった想い"
+      }
     },
     "s1e17": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u7cbe\u970a\u7bc0\u306e\u8d08\u308a\u7269"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "精霊節の贈り物"
+      }
     },
     "s1e18": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u516b\u6708\u306e\u96e8"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "八月の雨"
+      }
     },
     "s1e19": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6d99"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "涙"
+      }
     },
     "s1e20": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u611b\u3057\u304d\u4eba"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "愛しき人"
+      }
     },
     "s1e21": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u306f\u304b\u306a\u304d\u7d46"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "はかなき絆"
+      }
     },
     "s1e22": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u3068\u307e\u3069\u3044"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "とまどい"
+      }
     },
     "s1e23": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u611b\u306e\u304b\u305f\u3061"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "愛のかたち"
+      }
     },
     "s1e24": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6c7a\u610f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "決意"
+      }
     },
     "s1e25": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u8b77\u308b\u3079\u304d\u3082\u306e"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "護るべきもの"
+      }
     },
     "s1e26": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6c7a\u6226"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "決戦"
+      }
     },
     "s0e1": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c1\u56de\u300c\u6d77\u8fba\u306e\u4e00\u65e5\u300d"
-      ],
       "template_ids": [],
       "title": " A Day at the Beach",
-      "episode_text": "Gallian Chronicles 1"
+      "episode_text": "Gallian Chronicles 1",
+      "extras": {
+        "kanji": "戦ヴァル劇場第1回「海辺の一日」"
+      }
     },
     "s0e2": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c2\u56de\u300c\u30ac\u30ea\u30a2\u306e\u590f\u796d\u308a\u300d"
-      ],
       "template_ids": [],
       "title": "Gallia's Summer Festival",
-      "episode_text": "Gallian Chronicles 2"
+      "episode_text": "Gallian Chronicles 2",
+      "extras": {
+        "kanji": "戦ヴァル劇場第2回「ガリアの夏祭り」"
+      }
     },
     "s0e3": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c3\u56de\u300c\u885d\u6483!! \u304a\u5b9d\u5199\u771f\u300d"
-      ],
       "template_ids": [],
       "title": " Shock! Prized Photos!",
-      "episode_text": "Gallian Chronicles 3"
+      "episode_text": "Gallian Chronicles 3",
+      "extras": {
+        "kanji": "戦ヴァル劇場第3回「衝撃!! お宝写真」"
+      }
     },
     "s0e4": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c4\u56de\u300c\u30bb\u30eb\u30d9\u30ea\u30a2\u306e\u83ef\u9e97\u306a\u308b\u4f11\u65e5\u300d"
-      ],
       "template_ids": [],
       "title": "Selveria's Wonderful Day Off!",
-      "episode_text": "Gallian Chronicles 4"
+      "episode_text": "Gallian Chronicles 4",
+      "extras": {
+        "kanji": "戦ヴァル劇場第4回「セルベリアの華麗なる休日」"
+      }
     },
     "s0e5": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c5\u56de\u300c\u6226\u6144\u306e\u30b8\u30e7\u30fc\u30ab\u30fc\u300d"
-      ],
       "template_ids": [],
       "title": "The Fearsome Joker!",
-      "episode_text": "Gallian Chronicles 5"
+      "episode_text": "Gallian Chronicles 5",
+      "extras": {
+        "kanji": "戦ヴァル劇場第5回「戦慄のジョーカー」"
+      }
     },
     "s0e6": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c6\u56de\u300c\u5973\u5b50\u98a8\u5442\u306f\u3054\u7528\u5fc3!?\u300d"
-      ],
       "template_ids": [],
       "title": "Be on Guard in the Girls' Bath",
-      "episode_text": "Gallian Chronicles 6"
+      "episode_text": "Gallian Chronicles 6",
+      "extras": {
+        "kanji": "戦ヴァル劇場第6回「女子風呂はご用心!?」"
+      }
     },
     "s0e7": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c7\u56de\u300c\u65b0\u751f\uff01\u7b2c7\u5c0f\u968a\u300d"
-      ],
       "template_ids": [],
       "title": "Rebirth! Squad 7",
-      "episode_text": "Gallian Chronicles 7"
+      "episode_text": "Gallian Chronicles 7",
+      "extras": {
+        "kanji": "戦ヴァル劇場第7回「新生！第7小隊」"
+      }
     },
     "s0e8": {
       "hide_season_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c8\u56de\u300c\u30b3\u30fc\u30c7\u30ea\u30a2\u306e\u79d8\u5bc6\u300d"
-      ],
       "template_ids": [],
       "title": "Cordelia's Secret!",
-      "episode_text": "Gallian Chronicles 8"
+      "episode_text": "Gallian Chronicles 8",
+      "extras": {
+        "kanji": "戦ヴァル劇場第8回「コーデリアの秘密」"
+      }
     },
     "s0e9": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6226\u30f4\u30a1\u30eb\u5287\u5834\u7b2c9\u56de\u300c\u6c38\u9060\u3092\u8a93\u3063\u3066\u300d"
-      ],
       "template_ids": [],
       "title": "Vowing Eternity",
-      "episode_text": "Gallian Chronicles 9"
+      "episode_text": "Gallian Chronicles 9",
+      "extras": {
+        "kanji": "戦ヴァル劇場第9回「永遠を誓って」"
+      }
     },
     "s0e10": {
       "hide_episode_text": true,

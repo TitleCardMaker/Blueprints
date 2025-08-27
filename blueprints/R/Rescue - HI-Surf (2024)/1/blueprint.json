@@ -2,24 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_color",
-      "frame_width",
-      "top_element",
-      "middle_element",
-      "bottom_element",
-      "logo_size",
-      "logo_vertical_shift"
-    ],
-    "extra_values": [
-      "Gold",
-      "3",
-      "title",
-      "logo",
-      "index",
-      ".5",
-      "-550"
-    ]
+    "extras": {
+      "episode_text_color": "Gold",
+      "frame_width": "3",
+      "top_element": "title",
+      "middle_element": "logo",
+      "bottom_element": "index",
+      "logo_size": ".5",
+      "logo_vertical_shift": "-550"
+    }
   },
   "fonts": [
     {

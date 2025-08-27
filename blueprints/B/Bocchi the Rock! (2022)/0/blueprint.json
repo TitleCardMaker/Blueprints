@@ -3,17 +3,13 @@
     "font_id": 0,
     "card_type": "anime",
     "hide_season_text": true,
-    "extra_keys": [
-      "stroke_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "black",
-      "#fff006"
-    ],
     "template_ids": [],
     "font_color": "#fff006",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "stroke_color": "black",
+      "kanji_color": "#fff006"
+    }
   },
   "episodes": {},
   "templates": [],

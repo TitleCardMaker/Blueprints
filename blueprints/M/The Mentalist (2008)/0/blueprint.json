@@ -1,37 +1,18 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_width"
-    ],
-    "extra_values": [
-      "6"
-    ],
     "template_ids": [
       0
     ],
     "source_files": [
       "red_john.png"
-    ]
+    ],
+    "extras": {
+      "frame_width": "6"
+    }
   },
   "templates": [
     {
-      "extra_keys": [
-        "frame_color",
-        "logo_file",
-        "logo_size",
-        "top_element",
-        "bottom_element",
-        "grayscale"
-      ],
-      "extra_values": [
-        "rgb(174,39,29)",
-        "red_john.png",
-        "2.0",
-        "title",
-        "logo",
-        "True"
-      ],
       "name": "The Mentalist (Red John)",
       "filters": [
         {
@@ -39,7 +20,15 @@
           "operation": "matches",
           "reference": "(S01E01|S01E02|S01E11|S01E23|S02E08|S02E23|S04E11|S04E13|S04E24|S06E01|S06E02|S06E03|S06E05|S06E06|S06E08)"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(174,39,29)",
+        "logo_file": "red_john.png",
+        "logo_size": "2.0",
+        "top_element": "title",
+        "bottom_element": "logo",
+        "grayscale": "True"
+      }
     }
   ],
   "creator": "CollinHeist",

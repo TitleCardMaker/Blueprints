@@ -3,77 +3,45 @@
     "font_id": 0,
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_episode_number}",
-    "season_title_ranges": [
-      "1-1",
-      "51-51",
-      "99-99",
-      "2-2",
-      "3-3",
-      "4-6",
-      "7-17",
-      "18-22",
-      "23-41",
-      "42-43",
-      "44-48",
-      "49-50",
-      "52-57",
-      "58-68",
-      "69-74",
-      "75-79",
-      "80-82",
-      "83-97",
-      "98-98",
-      "100-111",
-      "112-113",
-      "114-123",
-      "124-147"
-    ],
-    "season_title_values": [
-      "One Piece x Toriko Crossover",
-      "One Piece x Toriko Crossover",
-      "One Piece x Toriko Crossover",
-      "Galala Gator Arc",
-      "Rainbow Fruit Arc",
-      "Puffer Whale Arc",
-      "Regal Mammoth Arc",
-      "BB Corn Arc",
-      "Century Soup Arc",
-      "Gourmet King Deciding Battle Arc",
-      "Ozone Herb Arc",
-      "The Reality of Gourmet World Arc",
-      "Melk Stardust Arc",
-      "Mellow Cola Arc",
-      "Toriko's Break Arc",
-      "Shining Gourami Arc",
-      "Autumn Break Arc",
-      "Meteor Garlic Arc",
-      "Bubble Fruit Arc",
-      "Bubble Fruit Arc",
-      "Golden Wheat Arc ",
-      "Four Beast Arc",
-      "Cooking Festival Arc"
-    ],
-    "extra_keys": [
-      "title_text_format",
-      "stroke_color",
-      "episode_text_color",
-      "kanji_color",
-      "kanji_stroke_color"
-    ],
-    "extra_values": [
-      "{f'!{NEWLINE}'.join(title_text.split(\"! \"))}",
-      "rgb(209, 212, 210)",
-      "rgb(179, 181, 182)",
-      "rgb(247, 147, 28)",
-      "rgb(87, 34, 31)"
-    ],
     "translations": [
       {
         "language_code": "ja",
         "data_key": "kanji"
       }
     ],
-    "auto_split_title": false
+    "auto_split_title": false,
+    "season_titles": {
+      "1-1": "One Piece x Toriko Crossover",
+      "51-51": "One Piece x Toriko Crossover",
+      "99-99": "One Piece x Toriko Crossover",
+      "2-2": "Galala Gator Arc",
+      "3-3": "Rainbow Fruit Arc",
+      "4-6": "Puffer Whale Arc",
+      "7-17": "Regal Mammoth Arc",
+      "18-22": "BB Corn Arc",
+      "23-41": "Century Soup Arc",
+      "42-43": "Gourmet King Deciding Battle Arc",
+      "44-48": "Ozone Herb Arc",
+      "49-50": "The Reality of Gourmet World Arc",
+      "52-57": "Melk Stardust Arc",
+      "58-68": "Mellow Cola Arc",
+      "69-74": "Toriko's Break Arc",
+      "75-79": "Shining Gourami Arc",
+      "80-82": "Autumn Break Arc",
+      "83-97": "Meteor Garlic Arc",
+      "98-98": "Bubble Fruit Arc",
+      "100-111": "Bubble Fruit Arc",
+      "112-113": "Golden Wheat Arc ",
+      "114-123": "Four Beast Arc",
+      "124-147": "Cooking Festival Arc"
+    },
+    "extras": {
+      "title_text_format": "{f'!{NEWLINE}'.join(title_text.split(\"! \"))}",
+      "stroke_color": "rgb(209, 212, 210)",
+      "episode_text_color": "rgb(179, 181, 182)",
+      "kanji_color": "rgb(247, 147, 28)",
+      "kanji_stroke_color": "rgb(87, 34, 31)"
+    }
   },
   "episodes": {
     "s1e32": {
@@ -96,13 +64,10 @@
       "match_title": false
     },
     "s2e23": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u3042\u3075\u308c\u308b\u98df\u904b\uff01 \u5de1\u793c\u30b0\u30eb\u30e1\u795e\u793e"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "あふれる食運！ 巡礼グルメ神社"
+      }
     },
     "s2e36": {
       "template_ids": [],
@@ -115,15 +80,12 @@
       "match_title": false
     },
     "s3e1": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u8d70\u308c\u6700\u5f37\u8ecd\u56e3\uff01\u30c8\u30ea\u30b3\u3068\u30eb\u30d5\u30a3\u3068\u609f\u7a7a\uff01"
-      ],
       "template_ids": [],
       "title": "Run, Strongest Army! Toriko, Luffy, Goku!",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "kanji": "走れ最強軍団！トリコとルフィと悟空！"
+      }
     },
     "s3e2": {
       "template_ids": [],

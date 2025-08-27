@@ -1,19 +1,14 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "title_text_format",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "SEASON {to_cardinal(season_number).upper()} - EPISODE {to_cardinal(episode_number).upper()}",
-      "logo",
-      "title"
-    ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "title_text_format": "SEASON {to_cardinal(season_number).upper()} - EPISODE {to_cardinal(episode_number).upper()}",
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "creator": "CollinHeist",
   "description": [

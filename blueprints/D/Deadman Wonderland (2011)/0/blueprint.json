@@ -8,24 +8,15 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "kanji_font_size",
-      "kanji_stroke_color",
-      "kanji_stroke_width",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "rgba(125,57,48,255)",
-      "10",
-      "white",
-      "1.5",
-      "rgba(125,57,48,255)",
-      "3.5",
-      "rgba(125,57,48,255)"
-    ]
+    "extras": {
+      "stroke_color": "rgba(125,57,48,255)",
+      "kanji_vertical_shift": "10",
+      "kanji_color": "white",
+      "kanji_font_size": "1.5",
+      "kanji_stroke_color": "rgba(125,57,48,255)",
+      "kanji_stroke_width": "3.5",
+      "episode_stroke_color": "rgba(125,57,48,255)"
+    }
   },
   "fonts": [
     {

@@ -1,23 +1,18 @@
 {
   "series": {
     "card_type": "logo",
-    "extra_keys": [
-      "logo_size",
-      "logo_vertical_shift",
-      "use_background_image"
-    ],
-    "extra_values": [
-      "0.9",
-      "350",
-      "True"
-    ],
     "template_ids": [],
     "font_title_case": "upper",
     "font_size": 0.9,
     "source_files": [
       "logo.png",
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "logo_size": "0.9",
+      "logo_vertical_shift": "350",
+      "use_background_image": "True"
+    }
   },
   "creator": "BattleChambers",
   "description": [

@@ -2,28 +2,19 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font_size",
-      "frame_color",
-      "middle_element",
-      "logo_size",
-      "logo_vertical_shift",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "#cea981",
-      "1.25",
-      "#e3caa2",
-      "logo",
-      "1.5",
-      "450",
-      "#030101"
-    ],
     "font_color": "#cea981",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "#cea981",
+      "episode_text_font_size": "1.25",
+      "frame_color": "#e3caa2",
+      "middle_element": "logo",
+      "logo_size": "1.5",
+      "logo_vertical_shift": "450",
+      "shadow_color": "#030101"
+    }
   },
   "fonts": [
     {

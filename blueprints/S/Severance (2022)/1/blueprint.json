@@ -1,30 +1,21 @@
 {
   "series": {
     "card_type": "Supremicus/HorizonTitleCard",
-    "extra_keys": [
-      "episode_text_vertical_shift",
-      "episode_text_font",
-      "episode_text_font_size",
-      "episode_text_color",
-      "h_align",
-      "symbol",
-      "crt_overlay"
-    ],
-    "extra_values": [
-      "410",
-      "{title_font}",
-      "1.3",
-      "white",
-      "right",
-      "logo",
-      "bezel"
-    ],
     "template_ids": [],
     "font_color": "rgb(4, 156, 220)",
     "font_vertical_shift": 452,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "episode_text_vertical_shift": "410",
+      "episode_text_font": "{title_font}",
+      "episode_text_font_size": "1.3",
+      "episode_text_color": "white",
+      "h_align": "right",
+      "symbol": "logo",
+      "crt_overlay": "bezel"
+    }
   },
   "creator": "IdiotTryingToFindWay",
   "description": [

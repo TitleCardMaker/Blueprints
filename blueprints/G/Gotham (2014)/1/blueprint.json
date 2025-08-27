@@ -1,31 +1,21 @@
 {
   "series": {
     "font_id": 0,
-    "season_title_ranges": [
-      "s2e1-s2e11",
-      "s2e12-s2e22",
-      "s3e1-s3e14",
-      "s3e15-s3e22",
-      "4",
-      "5",
-      "s0e3-s0e7",
-      "s0e8-s0e12"
-    ],
-    "season_title_values": [
-      "Rise of\\nthe Villains",
-      "Wrath of\\nthe Villains",
-      "Mad City",
-      "Heroes Rise",
-      "A Dark Knight",
-      "Legend of\\nthe Dark Knight",
-      "Aftermath",
-      "Gotham\\nStories"
-    ],
     "template_ids": [
       0
     ],
     "match_titles": false,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s2e1-s2e11": "Rise of\\nthe Villains",
+      "s2e12-s2e22": "Wrath of\\nthe Villains",
+      "s3e1-s3e14": "Mad City",
+      "s3e15-s3e22": "Heroes Rise",
+      "4": "A Dark Knight",
+      "5": "Legend of\\nthe Dark Knight",
+      "s0e3-s0e7": "Aftermath",
+      "s0e8-s0e12": "Gotham\\nStories"
+    }
   },
   "episodes": {
     "s1e22": {

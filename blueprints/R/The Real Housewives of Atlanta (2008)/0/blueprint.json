@@ -1,13 +1,10 @@
 {
   "series": {
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#5aa44b"
-    ],
-    "font_id": 0
+    "font_id": 0,
+    "extras": {
+      "stroke_color": "#5aa44b"
+    }
   },
   "fonts": [
     {

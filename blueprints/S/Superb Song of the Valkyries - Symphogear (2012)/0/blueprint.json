@@ -9,34 +9,20 @@
       }
     ],
     "episode_text_format": "Episode {absolute_episode_number}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Symphogear",
-      "Symphogear G",
-      "Symphogear GX",
-      "Symphogear AXZ",
-      "Symphogear XV"
-    ],
-    "extra_keys": [
-      "kanji_color",
-      "episode_text_color",
-      "kanji_vertical_shift",
-      "stroke_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#a92c64",
-      "#f7832c",
-      "-20",
-      "white",
-      "white"
-    ]
+    "season_titles": {
+      "1": "Symphogear",
+      "2": "Symphogear G",
+      "3": "Symphogear GX",
+      "4": "Symphogear AXZ",
+      "5": "Symphogear XV"
+    },
+    "extras": {
+      "kanji_color": "#a92c64",
+      "episode_text_color": "#f7832c",
+      "kanji_vertical_shift": "-20",
+      "stroke_color": "white",
+      "episode_stroke_color": "white"
+    }
   },
   "fonts": [
     {

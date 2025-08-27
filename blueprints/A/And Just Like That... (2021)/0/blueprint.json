@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "title"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "episodes": {
     "s2e10": {
@@ -21,7 +17,7 @@
     },
     "s2e11": {
       "template_ids": [],
-      "title": "The Last Supper: Entr\u00e9e",
+      "title": "The Last Supper: Entrée",
       "match_title": false
     }
   },

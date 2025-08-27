@@ -8,95 +8,82 @@
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "WEIRD",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e2": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "GIRLS",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e3": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "PSYCHE",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e4": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "RELIGION",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e5": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "DISTORTION",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e6": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "KIDS",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e7": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "SOCIETY",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e8": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "RUMORS",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e9": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "PROTOCOL",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e10": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "LOVE",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e11": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "INFORNOGRAPHY",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e12": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "LANDSCAPE",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     },
     "s1e13": {
-      "extra_keys": [],
-      "extra_values": [],
       "template_ids": [],
       "title": "EGO",
-      "match_title": false
+      "match_title": false,
+      "extras": {}
     }
   },
   "creator": "Cwavs",

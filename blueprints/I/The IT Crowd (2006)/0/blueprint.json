@@ -2,19 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "episode_text_color",
-      "player_width",
-      "subtitle",
-      "timeline_color"
-    ],
-    "extra_values": [
-      "rgba(252,252,251,255)",
-      "1050",
-      "\"\"",
-      "rgba(252,252,251,255)"
-    ],
-    "match_titles": false
+    "match_titles": false,
+    "extras": {
+      "episode_text_color": "rgba(252,252,251,255)",
+      "player_width": "1050",
+      "subtitle": "\"\"",
+      "timeline_color": "rgba(252,252,251,255)"
+    }
   },
   "fonts": [
     {

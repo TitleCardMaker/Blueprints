@@ -3,28 +3,17 @@
     "font_id": 0,
     "card_type": "anime",
     "hide_season_text": false,
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Kingdom of Games"
-    ],
-    "extra_keys": [
-      "episode_text_font_size",
-      "stroke_color",
-      "kanji",
-      "kanji_color",
-      "logo_position",
-      "kanji_stroke_color"
-    ],
-    "extra_values": [
-      "1",
-      "#00e5ff",
-      "\u30ce\u30fc\u30b2\u30fc\u30e0\u30fb\u30ce\u30fc\u30e9\u30a4\u30d5",
-      "#00e5ff",
-      "top right",
-      "#d134eb"
-    ]
+    "season_titles": {
+      "1": "Kingdom of Games"
+    },
+    "extras": {
+      "episode_text_font_size": "1",
+      "stroke_color": "#00e5ff",
+      "kanji": "ノーゲーム・ノーライフ",
+      "kanji_color": "#00e5ff",
+      "logo_position": "top right",
+      "kanji_stroke_color": "#d134eb"
+    }
   },
   "fonts": [
     {

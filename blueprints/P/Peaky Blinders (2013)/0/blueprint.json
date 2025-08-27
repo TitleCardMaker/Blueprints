@@ -3,14 +3,10 @@
     "font_id": 0,
     "card_type": "standard",
     "hide_episode_text": true,
-    "extra_keys": [
-      "episode_text_font_size",
-      "episode_text_vertical_shift"
-    ],
-    "extra_values": [
-      "1.5",
-      "110"
-    ]
+    "extras": {
+      "episode_text_font_size": "1.5",
+      "episode_text_vertical_shift": "110"
+    }
   },
   "episodes": {
     "s4e1": {

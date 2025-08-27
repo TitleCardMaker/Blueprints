@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "shape",
-    "extra_keys": [
-      "season_text_color",
-      "shape",
-      "shape_color",
-      "shape_size",
-      "shape_width"
-    ],
-    "extra_values": [
-      "#169b62",
-      "circle",
-      "#ff883e",
-      "0.75",
-      "15"
-    ]
+    "extras": {
+      "season_text_color": "#169b62",
+      "shape": "circle",
+      "shape_color": "#ff883e",
+      "shape_size": "0.75",
+      "shape_width": "15"
+    }
   },
   "episodes": {
     "s1e1": {

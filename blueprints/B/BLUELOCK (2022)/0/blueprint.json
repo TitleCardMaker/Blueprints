@@ -8,16 +8,11 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e2",
-      "s1e3-s1e11",
-      "s1e12-s1e24"
-    ],
-    "season_title_values": [
-      "Introduction",
-      "First Selection",
-      "Second Selection"
-    ]
+    "season_titles": {
+      "s1e1-s1e2": "Introduction",
+      "s1e3-s1e11": "First Selection",
+      "s1e12-s1e24": "Second Selection"
+    }
   },
   "creator": "BenevolentNPC",
   "description": [

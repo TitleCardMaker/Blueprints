@@ -4,12 +4,6 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#a3a1a4"
-    ],
     "template_ids": [],
     "font_color": "#b9eb09",
     "source_files": [
@@ -18,7 +12,10 @@
       "s1e4.jpg",
       "s1e1.jpg",
       "s1e2.jpg"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "#a3a1a4"
+    }
   },
   "episodes": {
     "s1e3": {

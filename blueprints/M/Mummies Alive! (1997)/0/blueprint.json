@@ -3,21 +3,16 @@
     "font_id": 0,
     "card_type": "standard",
     "hide_season_text": true,
-    "extra_keys": [
-      "stroke_color",
-      "episode_text_color",
-      "episode_text_vertical_shift"
-    ],
-    "extra_values": [
-      "rgb(147,46,38)",
-      "rgb(31,160,194)",
-      "150"
-    ],
     "font_vertical_shift": -150,
     "source_files": [
       "logo.png",
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "stroke_color": "rgb(147,46,38)",
+      "episode_text_color": "rgb(31,160,194)",
+      "episode_text_vertical_shift": "150"
+    }
   },
   "fonts": [
     {

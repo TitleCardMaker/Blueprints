@@ -1,21 +1,15 @@
 {
   "series": {
     "card_type": "calligraphy",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "The Maze",
-      "The Door",
-      "The New World",
-      "The Choice"
-    ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "season_titles": {
+      "1": "The Maze",
+      "2": "The Door",
+      "3": "The New World",
+      "4": "The Choice"
+    }
   },
   "creator": "CollinHeist",
   "description": [

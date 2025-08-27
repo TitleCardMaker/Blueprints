@@ -7,12 +7,9 @@
     "card_type": "olivier",
     "episode_text_format": "EP_{to_cardinal(episode_number)}",
     "template_ids": [],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(202,34,34)"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(202,34,34)"
+    }
   },
   "episodes": {},
   "templates": [],

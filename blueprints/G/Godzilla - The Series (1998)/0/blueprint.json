@@ -2,22 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width",
-      "top_element",
-      "bottom_element",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "black",
-      "20",
-      "logo",
-      "title",
-      "#5bb623"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "black",
+      "frame_width": "20",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "shadow_color": "#5bb623"
+    }
   },
   "episodes": {},
   "templates": [],

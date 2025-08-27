@@ -1,15 +1,12 @@
 {
   "series": {
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#473283"
-    ],
     "auto_split_title": true,
     "font_id": 0,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "stroke_color": "#473283"
+    }
   },
   "fonts": [
     {

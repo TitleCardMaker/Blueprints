@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "line_color",
-      "line_position",
-      "line_width"
-    ],
-    "extra_values": [
-      "rgb(145,41,32)",
-      "bottom",
-      "17"
-    ]
+    "extras": {
+      "line_color": "rgb(145,41,32)",
+      "line_position": "bottom",
+      "line_width": "17"
+    }
   },
   "fonts": [
     {
@@ -21,7 +16,7 @@
       "interline_spacing": 25,
       "interword_spacing": -10,
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "striped",
-    "extra_keys": [
-      "episode_text_color",
-      "overlay_color",
-      "text_position"
-    ],
-    "extra_values": [
-      "#fffbe2",
-      "#64878f",
-      "upper left"
-    ]
+    "extras": {
+      "episode_text_color": "#fffbe2",
+      "overlay_color": "#64878f",
+      "text_position": "upper left"
+    }
   },
   "fonts": [
     {

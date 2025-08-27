@@ -2,23 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "season_title_ranges": [
-      "2"
-    ],
-    "season_title_values": [
-      "Underground"
-    ],
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "true",
-      "1.4"
-    ],
     "template_ids": [],
     "font_stroke_width": 0.25,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "Underground"
+    },
+    "extras": {
+      "omit_gradient": "true",
+      "episode_text_font_size": "1.4"
+    }
   },
   "episodes": {},
   "templates": [],

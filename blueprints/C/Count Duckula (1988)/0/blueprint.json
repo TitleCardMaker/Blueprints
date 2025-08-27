@@ -3,22 +3,16 @@
     "font_id": 0,
     "card_type": "standard",
     "hide_season_text": true,
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_color",
-      "episode_text_font_size",
-      "episode_text_vertical_shift"
-    ],
-    "extra_values": [
-      "true",
-      "white",
-      "2.0",
-      "75"
-    ],
     "source_files": [
       "logo.png",
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "omit_gradient": "true",
+      "episode_text_color": "white",
+      "episode_text_font_size": "2.0",
+      "episode_text_vertical_shift": "75"
+    }
   },
   "episodes": {
     "s1e42": {

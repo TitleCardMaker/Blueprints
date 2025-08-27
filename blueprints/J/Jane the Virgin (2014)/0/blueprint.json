@@ -4,16 +4,13 @@
     "card_type": "calligraphy",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "subtitle"
-    ],
-    "extra_values": [
-      "\"\""
-    ],
     "auto_split_title": false,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "subtitle": "\"\""
+    }
   },
   "fonts": [
     {

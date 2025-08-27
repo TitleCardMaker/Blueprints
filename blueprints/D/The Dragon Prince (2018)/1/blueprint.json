@@ -2,32 +2,21 @@
   "series": {
     "card_type": "tinted frame",
     "episode_text_format": "{title_text}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Moon",
-      "Sky",
-      "Sun",
-      "Earth",
-      "Ocean"
-    ],
-    "extra_keys": [
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "index"
-    ],
     "template_ids": [],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "season_titles": {
+      "1": "Moon",
+      "2": "Sky",
+      "3": "Sun",
+      "4": "Earth",
+      "5": "Ocean"
+    },
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "index"
+    }
   },
   "episodes": {},
   "templates": [],

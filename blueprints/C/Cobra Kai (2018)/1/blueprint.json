@@ -2,23 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "episode_text_color",
-      "player_style",
-      "album_size",
-      "percentage",
-      "timeline_color"
-    ],
-    "extra_values": [
-      "#f0ce73",
-      "basic",
-      "1",
-      "{episode_number / season_episode_max}",
-      "#fc0100"
-    ],
     "template_ids": [],
     "auto_split_title": false,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "#f0ce73",
+      "player_style": "basic",
+      "album_size": "1",
+      "percentage": "{episode_number / season_episode_max}",
+      "timeline_color": "#fc0100"
+    }
   },
   "episodes": {
     "s3e3": {
@@ -53,7 +46,7 @@
       "color": "#FF0000",
       "file": "Dead_Stock_Demo.ttf",
       "replacements_in": [
-        "\u00e1",
+        "á",
         "(",
         ")"
       ],

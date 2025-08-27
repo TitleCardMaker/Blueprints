@@ -1,17 +1,12 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Killing Floor",
-      "Bad Luck and Trouble",
-      "Persuader"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Killing Floor",
+      "2": "Bad Luck and Trouble",
+      "3": "Persuader"
+    }
   },
   "creator": "CollinHeist",
   "description": [

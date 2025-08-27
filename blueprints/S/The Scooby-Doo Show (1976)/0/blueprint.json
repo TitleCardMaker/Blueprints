@@ -3,16 +3,11 @@
     "template_ids": [
       0
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "The Scooby-Doo/Dynomutt Hour",
-      "Scooby's All Star Laff-a-Lympics",
-      "Scooby's All-Stars"
-    ]
+    "season_titles": {
+      "1": "The Scooby-Doo/Dynomutt Hour",
+      "2": "Scooby's All Star Laff-a-Lympics",
+      "3": "Scooby's All-Stars"
+    }
   },
   "episodes": {},
   "templates": [

@@ -1,31 +1,24 @@
 {
   "series": {
     "card_type": "comic book",
-    "extra_keys": [
-      "banner_fill_color"
-    ],
-    "extra_values": [
-      "rgba(101,189,108, 0.6)"
-    ],
     "template_ids": [
       0
     ],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "banner_fill_color": "rgba(101,189,108, 0.6)"
+    }
   },
   "episodes": {},
   "templates": [
     {
       "card_type": "comic book",
-      "extra_keys": [
-        "title_text_rotation_angle",
-        "index_text_rotation_angle"
-      ],
-      "extra_values": [
-        "random[-4, 4]",
-        "random[-4, -3]"
-      ],
       "name": "Comic Book",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "title_text_rotation_angle": "random[-4, 4]",
+        "index_text_rotation_angle": "random[-4, -3]"
+      }
     }
   ],
   "fonts": [],

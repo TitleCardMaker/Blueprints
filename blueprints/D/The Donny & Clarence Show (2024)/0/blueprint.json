@@ -3,17 +3,13 @@
     "font_id": 0,
     "card_type": "standard",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#f2ebce",
-      "#f2ebce"
-    ],
     "template_ids": [],
     "font_color": "#9d9d51",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "#f2ebce",
+      "stroke_color": "#f2ebce"
+    }
   },
   "fonts": [
     {

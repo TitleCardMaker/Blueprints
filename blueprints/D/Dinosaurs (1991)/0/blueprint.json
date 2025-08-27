@@ -3,29 +3,20 @@
     "font_id": 0,
     "card_type": "logo",
     "episode_text_format": "Episode {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Season One",
-      "Season Two",
-      "Season Three",
-      "Season Four"
-    ],
-    "extra_keys": [
-      "use_background_image"
-    ],
-    "extra_values": [
-      "true"
-    ],
     "template_ids": [],
     "source_files": [
       "backdrop.jpg",
       "logo.png"
-    ]
+    ],
+    "season_titles": {
+      "1": "Season One",
+      "2": "Season Two",
+      "3": "Season Three",
+      "4": "Season Four"
+    },
+    "extras": {
+      "use_background_image": "true"
+    }
   },
   "episodes": {
     "s2e13": {

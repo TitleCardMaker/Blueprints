@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "divider",
-    "extra_keys": [
-      "divider_color"
-    ],
-    "extra_values": [
-      "Red"
-    ]
+    "extras": {
+      "divider_color": "Red"
+    }
   },
   "fonts": [
     {

@@ -1,17 +1,13 @@
 {
   "series": {
     "card_type": "tinted glass",
-    "extra_keys": [
-      "glass_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(219,228,231)",
-      "rgb(76,152,124)"
-    ],
     "template_ids": [],
     "font_color": "rgb(201,76,61)",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "glass_color": "rgb(219,228,231)",
+      "episode_text_color": "rgb(76,152,124)"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -5,12 +5,9 @@
     "hide_season_text": true,
     "episode_text_format": "{series_name}",
     "match_titles": false,
-    "extra_keys": [
-      "overlay_transparency"
-    ],
-    "extra_values": [
-      "0.1"
-    ]
+    "extras": {
+      "overlay_transparency": "0.1"
+    }
   },
   "episodes": {
     "s1e3": {

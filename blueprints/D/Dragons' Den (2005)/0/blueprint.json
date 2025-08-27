@@ -4,28 +4,17 @@
     "card_type": "logo",
     "hide_episode_text": true,
     "hide_season_text": true,
-    "season_title_ranges": [
-      "0"
-    ],
-    "season_title_values": [
-      "Specials"
-    ],
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_color",
-      "logo_size",
-      "logo_vertical_shift",
-      "use_background_image",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "Season {season_number} {NEWLINE} Episode {episode_number}",
-      "rgb(240,197,26)",
-      "0.7",
-      "-200",
-      "true",
-      "2.0"
-    ]
+    "season_titles": {
+      "0": "Specials"
+    },
+    "extras": {
+      "title_text_format": "Season {season_number} {NEWLINE} Episode {episode_number}",
+      "episode_text_color": "rgb(240,197,26)",
+      "logo_size": "0.7",
+      "logo_vertical_shift": "-200",
+      "use_background_image": "true",
+      "episode_text_font_size": "2.0"
+    }
   },
   "fonts": [
     {

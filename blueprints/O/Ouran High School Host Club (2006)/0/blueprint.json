@@ -9,20 +9,13 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_stroke_color",
-      "episode_text_color",
-      "stroke_color",
-      "kanji_color",
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "#ef5a9e",
-      "black",
-      "black",
-      "#ef5a9e",
-      "30"
-    ]
+    "extras": {
+      "episode_stroke_color": "#ef5a9e",
+      "episode_text_color": "black",
+      "stroke_color": "black",
+      "kanji_color": "#ef5a9e",
+      "kanji_vertical_shift": "30"
+    }
   },
   "episodes": {
     "s1e16": {

@@ -2,26 +2,19 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "add_controls",
-      "subtitle",
-      "player_style",
-      "control_colors",
-      "percentage"
-    ],
-    "extra_values": [
-      "True",
-      "{series_name + (\", Robbin' Season\" if season_number == 2 else \"\")}",
-      "artwork",
-      "rgb(29,185,84) white white white rgb(29,185,84)",
-      "{episode_number / season_episode_max}"
-    ],
     "template_ids": [],
     "source_files": [
       "s4e10-mask.webp",
       "backdrop.jpg",
       "s3e6-mask.webp"
-    ]
+    ],
+    "extras": {
+      "add_controls": "True",
+      "subtitle": "{series_name + (\", Robbin' Season\" if season_number == 2 else \"\")}",
+      "player_style": "artwork",
+      "control_colors": "rgb(29,185,84) white white white rgb(29,185,84)",
+      "percentage": "{episode_number / season_episode_max}"
+    }
   },
   "fonts": [
     {

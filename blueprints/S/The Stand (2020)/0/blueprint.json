@@ -1,16 +1,6 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "rgb(170,42,33)",
-      "index",
-      "title"
-    ],
     "hide_season_text": true,
     "source_files": [
       "s1e5-mask.png",
@@ -20,7 +10,12 @@
       "s1e1-mask.png",
       "s1e3-mask.png",
       "s1e9-mask.png"
-    ]
+    ],
+    "extras": {
+      "frame_color": "rgb(170,42,33)",
+      "top_element": "index",
+      "bottom_element": "title"
+    }
   },
   "creator": "CollinHeist",
   "description": [

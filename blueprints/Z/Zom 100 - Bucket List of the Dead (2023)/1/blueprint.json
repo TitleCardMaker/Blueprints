@@ -3,15 +3,12 @@
     "font_id": 0,
     "card_type": "Yozora/SlimTitleCard",
     "episode_text_format": "EPISODE {to_cardinal(episode_number).upper()}",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "SEASON {to_cardinal(season_number).upper()}"
-    ],
     "template_ids": [],
     "font_color": "yellow",
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "SEASON {to_cardinal(season_number).upper()}"
+    }
   },
   "episodes": {
     "s1e1": {

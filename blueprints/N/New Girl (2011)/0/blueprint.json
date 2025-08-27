@@ -2,13 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "rgb(64,93,168)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "stroke_color": "rgb(64,93,168)"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -8,20 +8,13 @@
     "card_type": "standard",
     "episode_text_format": "episode_{episode_number}.0",
     "template_ids": [],
-    "season_title_ranges": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "specials_0.0",
-      "season_1.0",
-      "season_2.0",
-      "season_3.0",
-      "season_4.0"
-    ]
+    "season_titles": {
+      "0": "specials_0.0",
+      "1": "season_1.0",
+      "2": "season_2.0",
+      "3": "season_3.0",
+      "4": "season_4.0"
+    }
   },
   "episodes": {},
   "templates": [],

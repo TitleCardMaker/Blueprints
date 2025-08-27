@@ -3,16 +3,12 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Episode {to_cardinal(episode_number)}",
-    "extra_keys": [
-      "season_text_format",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "Season {to_cardinal(season_number)}",
-      "white"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "season_text_format": "Season {to_cardinal(season_number)}",
+      "stroke_color": "white"
+    }
   },
   "episodes": {},
   "templates": [],

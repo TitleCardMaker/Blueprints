@@ -2,81 +2,52 @@
   "series": {
     "card_type": "comic book",
     "hide_season_text": true,
-    "extra_keys": [
-      "banner_fill_color",
-      "title_text_rotation_angle",
-      "index_text_rotation_angle"
-    ],
-    "extra_values": [
-      "rgba(248,224,108,0.6)",
-      "random[-4, 4]",
-      "random[-4, -3]"
-    ]
+    "extras": {
+      "banner_fill_color": "rgba(248,224,108,0.6)",
+      "title_text_rotation_angle": "random[-4, 4]",
+      "index_text_rotation_angle": "random[-4, -3]"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(250, 59, 19, 0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(250, 59, 19, 0.6)"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(61,23,167,0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(61,23,167,0.6)"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(248,224,108,0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(248,224,108,0.6)"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(80, 155, 74, 0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(80, 155, 74, 0.6)"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(250, 59, 19, 0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(250, 59, 19, 0.6)"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(61,23,167,0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(61,23,167,0.6)"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(248,224,108,0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(248,224,108,0.6)"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "banner_fill_color"
-      ],
-      "extra_values": [
-        "rgba(80, 155, 74, 0.6)"
-      ]
+      "extras": {
+        "banner_fill_color": "rgba(80, 155, 74, 0.6)"
+      }
     }
   },
   "creator": "CollinHeist",

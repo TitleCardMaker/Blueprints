@@ -8,12 +8,9 @@
     "font_id": 0,
     "card_type": "frame",
     "template_ids": [],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(156,40,36)"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(156,40,36)"
+    }
   },
   "episodes": {},
   "templates": [],

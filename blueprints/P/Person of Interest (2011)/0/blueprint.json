@@ -2,15 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "yellow"
-    ],
     "template_ids": [],
     "auto_split_title": true,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "yellow"
+    }
   },
   "fonts": [
     {

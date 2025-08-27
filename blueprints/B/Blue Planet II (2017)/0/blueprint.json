@@ -1,26 +1,17 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Blue Planet II"
-    ],
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "index",
-      "title",
-      "rgb(181,234,252)",
-      "5"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Blue Planet II"
+    },
+    "extras": {
+      "top_element": "index",
+      "bottom_element": "title",
+      "frame_color": "rgb(181,234,252)",
+      "frame_width": "5"
+    }
   },
   "episodes": {},
   "templates": [],

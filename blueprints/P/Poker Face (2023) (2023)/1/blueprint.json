@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "KHthe8th/TintedFramePlus",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font_size",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "white",
-      "2.0",
-      "logo",
-      "index",
-      "1.8"
-    ]
+    "extras": {
+      "episode_text_color": "white",
+      "episode_text_font_size": "2.0",
+      "top_element": "logo",
+      "bottom_element": "index",
+      "logo_size": "1.8"
+    }
   },
   "fonts": [
     {

@@ -1,16 +1,11 @@
 {
   "series": {
     "card_type": "comic book",
-    "extra_keys": [
-      "banner_fill_color",
-      "title_text_rotation_angle",
-      "index_text_rotation_angle"
-    ],
-    "extra_values": [
-      "rgba(80, 155, 74, 0.6)",
-      "random[-4, 4]",
-      "random[-4, -3]"
-    ]
+    "extras": {
+      "banner_fill_color": "rgba(80, 155, 74, 0.6)",
+      "title_text_rotation_angle": "random[-4, 4]",
+      "index_text_rotation_angle": "random[-4, -3]"
+    }
   },
   "creator": "CollinHeist",
   "description": [

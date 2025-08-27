@@ -2,21 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "comic book",
-    "extra_keys": [
-      "episode_text_color",
-      "text_box_fill_color",
-      "banner_fill_color",
-      "text_box_edge_color"
-    ],
-    "extra_values": [
-      "black",
-      "rgb(250, 249, 195)",
-      "rgba(251, 216, 220, 0.75)",
-      "black"
-    ],
     "template_ids": [],
     "font_color": "black",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "black",
+      "text_box_fill_color": "rgb(250, 249, 195)",
+      "banner_fill_color": "rgba(251, 216, 220, 0.75)",
+      "text_box_edge_color": "black"
+    }
   },
   "episodes": {},
   "templates": [],

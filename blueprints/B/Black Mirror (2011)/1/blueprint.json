@@ -2,16 +2,6 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "#DAC960",
-      "omit",
-      "title"
-    ],
     "template_ids": [],
     "font_vertical_shift": -20,
     "source_files": [
@@ -67,7 +57,12 @@
       "s2e1.jpg",
       "s3e4.jpg",
       "s4e1.jpg"
-    ]
+    ],
+    "extras": {
+      "frame_color": "#DAC960",
+      "top_element": "omit",
+      "bottom_element": "title"
+    }
   },
   "episodes": {},
   "templates": [],

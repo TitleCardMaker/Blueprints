@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(212, 4, 12)"
-    ]
+    "extras": {
+      "frame_color": "rgb(212, 4, 12)"
+    }
   },
   "fonts": [
     {

@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(149,31,22)"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "rgb(149,31,22)"
+    }
   },
   "fonts": [
     {

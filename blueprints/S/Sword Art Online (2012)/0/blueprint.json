@@ -2,38 +2,25 @@
   "series": {
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_episode_number}",
-    "season_title_ranges": [
-      "s1e1-s1e14",
-      "s1e15-s1e25",
-      "s2e1-s2e14",
-      "s2e15-s2e17",
-      "s2e18-s2e24",
-      "s0e22-s0e22",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Aincrad",
-      "Fairy Dance",
-      "Phantom Bullet",
-      "Calibur",
-      "Mother's Rosario",
-      "Mother's Rosario",
-      "Alicization",
-      "War of Underworld"
-    ],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(109,188,218)"
-    ],
     "translations": [
       {
         "language_code": "ja",
         "data_key": "kanji"
       }
-    ]
+    ],
+    "season_titles": {
+      "s1e1-s1e14": "Aincrad",
+      "s1e15-s1e25": "Fairy Dance",
+      "s2e1-s2e14": "Phantom Bullet",
+      "s2e15-s2e17": "Calibur",
+      "s2e18-s2e24": "Mother's Rosario",
+      "s0e22-s0e22": "Mother's Rosario",
+      "3": "Alicization",
+      "4": "War of Underworld"
+    },
+    "extras": {
+      "episode_text_color": "rgb(109,188,218)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

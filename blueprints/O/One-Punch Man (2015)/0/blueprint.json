@@ -19,7 +19,7 @@
       "delete_missing": true,
       "file": "eastwest.otf",
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

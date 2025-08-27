@@ -2,18 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "player_style",
-      "player_width",
-      "subtitle"
-    ],
-    "extra_values": [
-      "logo",
-      "1050",
-      "{\"\"}"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "player_style": "logo",
+      "player_width": "1050",
+      "subtitle": "{\"\"}"
+    }
   },
   "fonts": [
     {

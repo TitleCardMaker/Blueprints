@@ -9,20 +9,13 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s5e13"
-    ],
-    "season_title_values": [
-      "The {to_ordinal(season_number)} Plate"
-    ],
-    "extra_keys": [
-      "stroke_color",
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "#ed040a",
-      "0"
-    ]
+    "season_titles": {
+      "s1e1-s5e13": "The {to_ordinal(season_number)} Plate"
+    },
+    "extras": {
+      "stroke_color": "#ed040a",
+      "kanji_vertical_shift": "0"
+    }
   },
   "fonts": [
     {

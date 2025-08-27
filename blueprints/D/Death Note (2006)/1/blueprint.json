@@ -9,14 +9,10 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e26",
-      "s1e27-s1e37"
-    ],
-    "season_title_values": [
-      "Part I",
-      "Part II"
-    ]
+    "season_titles": {
+      "s1e1-s1e26": "Part I",
+      "s1e27-s1e37": "Part II"
+    }
   },
   "episodes": {
     "s0e1": {

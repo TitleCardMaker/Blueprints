@@ -8,18 +8,12 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e24",
-      "s1e25-s1e26",
-      "s2e1-s2e8",
-      "s2e9-s2e12"
-    ],
-    "season_title_values": [
-      "Most Evil Death Row Convicts",
-      "Great Chinese Challenge",
-      "Great Chinese Challenge",
-      "Godlike Clash of the Kids"
-    ]
+    "season_titles": {
+      "s1e1-s1e24": "Most Evil Death Row Convicts",
+      "s1e25-s1e26": "Great Chinese Challenge",
+      "s2e1-s2e8": "Great Chinese Challenge",
+      "s2e9-s2e12": "Godlike Clash of the Kids"
+    }
   },
   "episodes": {
     "s2e13": {

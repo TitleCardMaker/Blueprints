@@ -10,14 +10,11 @@
       "font_id": 0,
       "card_type": "standard",
       "episode_text_format": "Episode {to_roman_numeral(episode_number)}",
-      "extra_keys": [
-        "season_text_format"
-      ],
-      "extra_values": [
-        "Book {to_roman_numeral(season_number)}"
-      ],
       "name": "Power Universe",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "season_text_format": "Book {to_roman_numeral(season_number)}"
+      }
     }
   ],
   "fonts": [

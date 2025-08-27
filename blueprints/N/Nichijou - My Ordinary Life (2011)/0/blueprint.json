@@ -4,12 +4,9 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "omit_gradient"
-    ],
-    "extra_values": [
-      "true"
-    ]
+    "extras": {
+      "omit_gradient": "true"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "calligraphy",
-    "extra_keys": [
-      "logo_size"
-    ],
-    "extra_values": [
-      ".5"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "logo_size": ".5"
+    }
   },
   "fonts": [
     {

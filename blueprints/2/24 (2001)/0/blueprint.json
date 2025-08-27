@@ -3,15 +3,11 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Hour {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "s1e1-s8e99",
-      "9"
-    ],
-    "season_title_values": [
-      "Day {to_cardinal(season_number)}",
-      "Live Another Day"
-    ],
-    "match_titles": false
+    "match_titles": false,
+    "season_titles": {
+      "s1e1-s8e99": "Day {to_cardinal(season_number)}",
+      "9": "Live Another Day"
+    }
   },
   "episodes": {
     "s2e1": {

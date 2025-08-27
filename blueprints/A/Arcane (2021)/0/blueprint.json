@@ -2,16 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "calligraphy",
-    "extra_keys": [
-      "logo_size"
-    ],
-    "extra_values": [
-      ".9"
-    ],
     "font_color": "White",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "logo_size": ".9"
+    }
   },
   "fonts": [
     {

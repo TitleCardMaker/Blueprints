@@ -1,15 +1,12 @@
 {
   "series": {
     "card_type": "olivier",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(232, 194, 107)"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "rgb(232, 194, 107)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

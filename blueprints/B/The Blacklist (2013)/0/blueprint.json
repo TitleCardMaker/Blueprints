@@ -15,7 +15,7 @@
       "file": "Blacklisted.ttf",
       "interline_spacing": 40,
       "replacements_in": [
-        "\u00c8",
+        "È",
         "(1)",
         "(2)",
         "`",
@@ -34,7 +34,7 @@
         "|",
         ")",
         "]",
-        "\u00e8",
+        "è",
         ";",
         "$",
         "^",

@@ -4,15 +4,12 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{f'\"{title_text}\"'}"
-    ],
     "template_ids": [],
     "font_size": 1.25,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "title_text_format": "{f'\"{title_text}\"'}"
+    }
   },
   "episodes": {
     "s1e4": {

@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "negative space",
-    "extra_keys": [
-      "episode_text_color",
-      "text_side"
-    ],
-    "extra_values": [
-      "white",
-      "random"
-    ]
+    "extras": {
+      "episode_text_color": "white",
+      "text_side": "random"
+    }
   },
   "fonts": [
     {

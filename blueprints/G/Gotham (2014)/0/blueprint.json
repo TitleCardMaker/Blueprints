@@ -2,29 +2,19 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "s2e1-s2e11",
-      "s2e12-s2e22",
-      "s3e1-s3e14",
-      "s3e15-s3e22",
-      "4",
-      "5",
-      "s0e3-s0e7",
-      "s0e8-s0e12"
-    ],
-    "season_title_values": [
-      "Rise of the Villains",
-      "Wrath of the Villains",
-      "Mad City",
-      "Heroes Rise",
-      "A Dark Knight",
-      "Legend of the Dark Knight",
-      "Aftermath",
-      "Gotham Stories"
-    ],
     "template_ids": [],
     "match_titles": false,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s2e1-s2e11": "Rise of the Villains",
+      "s2e12-s2e22": "Wrath of the Villains",
+      "s3e1-s3e14": "Mad City",
+      "s3e15-s3e22": "Heroes Rise",
+      "4": "A Dark Knight",
+      "5": "Legend of the Dark Knight",
+      "s0e3-s0e7": "Aftermath",
+      "s0e8-s0e12": "Gotham Stories"
+    }
   },
   "episodes": {
     "s1e22": {

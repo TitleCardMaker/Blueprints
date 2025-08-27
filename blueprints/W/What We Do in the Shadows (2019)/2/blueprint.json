@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "episode_text_vertical_shift",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "-20",
-      "logo",
-      "title"
-    ]
+    "extras": {
+      "episode_text_vertical_shift": "-20",
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "fonts": [
     {
@@ -22,8 +17,8 @@
       "stroke_width": 0.5,
       "file": "Halja Illuminated.ttf",
       "replacements_in": [
-        "\u00c2",
-        "\u00ca"
+        "Â",
+        "Ê"
       ],
       "replacements_out": [
         "A",

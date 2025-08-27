@@ -2,22 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "title",
-      "logo",
-      "2",
-      "white",
-      "12"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "title",
+      "bottom_element": "logo",
+      "logo_size": "2",
+      "frame_color": "white",
+      "frame_width": "12"
+    }
   },
   "episodes": {
     "s1e7": {

@@ -11,84 +11,55 @@
       3,
       6
     ],
-    "extra_keys": [
-      "frame_width",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "15",
-      "logo",
-      "title"
-    ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "frame_width": "15",
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "episodes": {
     "s7e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(246, 154, 131)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(246, 154, 131)"
+      }
     },
     "s7e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(246, 154, 131)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(246, 154, 131)"
+      }
     },
     "s7e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(73, 155, 136)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(73, 155, 136)"
+      }
     },
     "s7e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(73, 155, 136)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(73, 155, 136)"
+      }
     },
     "s7e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(215, 197, 179)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(215, 197, 179)"
+      }
     },
     "s7e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(215, 197, 179)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(215, 197, 179)"
+      }
     }
   },
   "templates": [
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(203, 27, 27)"
-      ],
       "name": "Skins S2",
       "filters": [
         {
@@ -96,15 +67,12 @@
           "operation": "equals",
           "reference": "2"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(203, 27, 27)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(47, 68, 219)"
-      ],
       "name": "Skins S5",
       "filters": [
         {
@@ -112,15 +80,12 @@
           "operation": "equals",
           "reference": "5"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(47, 68, 219)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(70, 59, 90)"
-      ],
       "name": "Skins S1",
       "filters": [
         {
@@ -128,15 +93,12 @@
           "operation": "equals",
           "reference": "1"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(70, 59, 90)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(191, 170, 51)"
-      ],
       "name": "Skins S6",
       "filters": [
         {
@@ -144,15 +106,12 @@
           "operation": "equals",
           "reference": "6"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(191, 170, 51)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(241, 118, 3)"
-      ],
       "name": "Skins S4",
       "filters": [
         {
@@ -160,15 +119,12 @@
           "operation": "equals",
           "reference": "4"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(241, 118, 3)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(53, 176, 62)"
-      ],
       "name": "Skins S3",
       "filters": [
         {
@@ -176,15 +132,12 @@
           "operation": "equals",
           "reference": "3"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "rgb(53, 176, 62)"
+      }
     },
     {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "white"
-      ],
       "name": "Skins S7",
       "filters": [
         {
@@ -192,7 +145,10 @@
           "operation": "equals",
           "reference": "7"
         }
-      ]
+      ],
+      "extras": {
+        "frame_color": "white"
+      }
     }
   ],
   "fonts": [

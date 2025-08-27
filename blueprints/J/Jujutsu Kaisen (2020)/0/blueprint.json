@@ -9,30 +9,18 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s0e2-s0e2",
-      "s1e1-s1e8",
-      "s1e9-s1e13",
-      "s1e14-s1e21",
-      "s1e22-s1e24",
-      "s2e1-s2e5",
-      "s2e6-s2e23"
-    ],
-    "season_title_values": [
-      "Cursed Child",
-      "Fearsome Womb",
-      "Vs. Mahito",
-      "Kyoto Goodwill Event",
-      "Death Painting",
-      "Gojo's Past",
-      "Shibuya Incident"
-    ],
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#dec175"
-    ]
+    "season_titles": {
+      "s0e2-s0e2": "Cursed Child",
+      "s1e1-s1e8": "Fearsome Womb",
+      "s1e9-s1e13": "Vs. Mahito",
+      "s1e14-s1e21": "Kyoto Goodwill Event",
+      "s1e22-s1e24": "Death Painting",
+      "s2e1-s2e5": "Gojo's Past",
+      "s2e6-s2e23": "Shibuya Incident"
+    },
+    "extras": {
+      "stroke_color": "#dec175"
+    }
   },
   "episodes": {
     "s0e2": {

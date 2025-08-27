@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "shape",
-    "extra_keys": [
-      "season_text_font_size",
-      "shape_color",
-      "banner_height"
-    ],
-    "extra_values": [
-      "1",
-      "#FFF56C",
-      "185"
-    ]
+    "extras": {
+      "season_text_font_size": "1",
+      "shape_color": "#FFF56C",
+      "banner_height": "185"
+    }
   },
   "episodes": {
     "s16e1": {

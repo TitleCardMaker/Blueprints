@@ -4,8 +4,7 @@
     "card_type": "standard",
     "template_ids": [],
     "translations": [],
-    "season_title_ranges": [],
-    "season_title_values": []
+    "season_titles": {}
   },
   "episodes": {},
   "templates": [],

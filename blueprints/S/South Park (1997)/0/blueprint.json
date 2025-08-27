@@ -13,8 +13,8 @@
       "file": "south-park.ttf",
       "interline_spacing": 92,
       "replacements_in": [
-        "\u00c8",
-        "\u00ce"
+        "È",
+        "Î"
       ],
       "replacements_out": [
         "E",

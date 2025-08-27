@@ -8,23 +8,16 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "kanji_font_size",
-      "kanji_stroke_color"
-    ],
-    "extra_values": [
-      "white",
-      "25",
-      "black",
-      "1.7",
-      "white"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "stroke_color": "white",
+      "kanji_vertical_shift": "25",
+      "kanji_color": "black",
+      "kanji_font_size": "1.7",
+      "kanji_stroke_color": "white"
+    }
   },
   "fonts": [
     {

@@ -2,25 +2,18 @@
   "series": {
     "card_type": "tinted frame",
     "episode_text_format": "{title_text} - Episode {episode_number}",
-    "season_title_ranges": [
-      "s0e1-s0e17"
-    ],
-    "season_title_values": [
-      "Kage-Jitsu!"
-    ],
-    "extra_keys": [
-      "top_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "logo",
-      "2"
-    ],
     "template_ids": [],
     "match_titles": false,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "season_titles": {
+      "s0e1-s0e17": "Kage-Jitsu!"
+    },
+    "extras": {
+      "top_element": "logo",
+      "logo_size": "2"
+    }
   },
   "episodes": {
     "s0e1": {

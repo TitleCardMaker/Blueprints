@@ -2,22 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "frame_color",
-      "frame_width",
-      "separator"
-    ],
-    "extra_values": [
-      "index",
-      "title",
-      "#f9d041",
-      "8",
-      "\u00b7"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "index",
+      "bottom_element": "title",
+      "frame_color": "#f9d041",
+      "frame_width": "8",
+      "separator": "·"
+    }
   },
   "episodes": {
     "s6e5": {

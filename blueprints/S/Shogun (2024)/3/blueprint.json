@@ -9,18 +9,14 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "episode_text_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "#c6161b",
-      "#c6161b"
-    ]
+    "extras": {
+      "episode_text_color": "#c6161b",
+      "kanji_color": "#c6161b"
+    }
   },
   "fonts": [
     {
-      "name": "Sh\u014dgunJack",
+      "name": "ShōgunJack",
       "color": "#d4ad4e",
       "title_case": "title",
       "delete_missing": true,

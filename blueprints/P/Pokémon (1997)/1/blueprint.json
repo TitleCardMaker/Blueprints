@@ -11,71 +11,39 @@
     "template_ids": [
       0
     ],
-    "season_title_ranges": [
-      "s1e1-s1e82",
-      "s2e1-s2e36",
-      "s3e1-s3e41",
-      "s4e1-s4e52",
-      "s5e1-s5e65",
-      "s6e1-s6e40",
-      "s7e1-s7e52",
-      "s8e1-s8e52",
-      "s9e1-s9e47",
-      "s10e1-s10e51",
-      "s11e1-s11e52",
-      "s12e1-s12e52",
-      "s13e1-s13e34",
-      "s14e1-s14e48",
-      "s14e49-s14e84",
-      "s15e1-s15e13",
-      "s15e14-s15e58",
-      "s16e1-s16e48",
-      "s16e49-s16e93",
-      "s17e1-s17e47",
-      "s18e1-s18e43",
-      "s18e44-s18e92",
-      "s18e93-s18e146",
-      "s19e1-s19e48",
-      "s19e49-s19e90",
-      "s19e91-s19e136",
-      "s20e1-s20e50"
-    ],
-    "season_title_values": [
-      "Indigo League",
-      "Orange Islands",
-      "The Johto Journeys",
-      "Johto League Champions",
-      "Master Quest",
-      "Advanced",
-      "Advanced Challenge",
-      "Advanced Battle",
-      "Battle Frontier",
-      "Diamond and Pearl",
-      "Diamond and Pearl: Battle Dimension",
-      "Diamond and Pearl: Galactic Battles",
-      "Diamond and Pearl: Sinnoh League Victors",
-      "Black & White",
-      "Black & White: Rival Destinies",
-      "Black & White: Rival Destinies",
-      "Black & White: Adventures in Unova",
-      "XY",
-      "XY: Kalos Quest",
-      "XYZ",
-      "Sun & Moon",
-      "Sun & Moon: Ultra Adventures",
-      "Sun & Moon: Ultra Legends",
-      "Journeys",
-      "Master Journeys",
-      "Ultimate Journeys",
-      "Horizons"
-    ],
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "rgb(64,107,175)"
-    ],
-    "font_title_case": "source"
+    "font_title_case": "source",
+    "season_titles": {
+      "s1e1-s1e82": "Indigo League",
+      "s2e1-s2e36": "Orange Islands",
+      "s3e1-s3e41": "The Johto Journeys",
+      "s4e1-s4e52": "Johto League Champions",
+      "s5e1-s5e65": "Master Quest",
+      "s6e1-s6e40": "Advanced",
+      "s7e1-s7e52": "Advanced Challenge",
+      "s8e1-s8e52": "Advanced Battle",
+      "s9e1-s9e47": "Battle Frontier",
+      "s10e1-s10e51": "Diamond and Pearl",
+      "s11e1-s11e52": "Diamond and Pearl: Battle Dimension",
+      "s12e1-s12e52": "Diamond and Pearl: Galactic Battles",
+      "s13e1-s13e34": "Diamond and Pearl: Sinnoh League Victors",
+      "s14e1-s14e48": "Black & White",
+      "s14e49-s14e84": "Black & White: Rival Destinies",
+      "s15e1-s15e13": "Black & White: Rival Destinies",
+      "s15e14-s15e58": "Black & White: Adventures in Unova",
+      "s16e1-s16e48": "XY",
+      "s16e49-s16e93": "XY: Kalos Quest",
+      "s17e1-s17e47": "XYZ",
+      "s18e1-s18e43": "Sun & Moon",
+      "s18e44-s18e92": "Sun & Moon: Ultra Adventures",
+      "s18e93-s18e146": "Sun & Moon: Ultra Legends",
+      "s19e1-s19e48": "Journeys",
+      "s19e49-s19e90": "Master Journeys",
+      "s19e91-s19e136": "Ultimate Journeys",
+      "s20e1-s20e50": "Horizons"
+    },
+    "extras": {
+      "stroke_color": "rgb(64,107,175)"
+    }
   },
   "episodes": {
     "s5e41": {
@@ -115,7 +83,7 @@
   ],
   "fonts": [
     {
-      "name": "Pok\u00e9mon",
+      "name": "Pokémon",
       "color": "rgb(247,205,70)",
       "file": "Pokemon Solid.ttf",
       "title_case": "source",

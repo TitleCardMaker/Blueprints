@@ -1,41 +1,25 @@
 {
   "series": {
     "card_type": "anime",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(234,51,35)"
-    ],
     "episode_text_format": "Episode {absolute_number}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "s3e1-s3e17",
-      "s3e18-s3e29",
-      "s3e30-s3e39",
-      "s3e40-s3e40",
-      "s4e1-s4e15",
-      "s4e16-s4e33",
-      "s5e1-s5e21",
-      "s5e22-s5e31",
-      "6"
-    ],
-    "season_title_values": [
-      "Emperor Pilaf Saga",
-      "Tournament Saga",
-      "Red Ribbon Army Saga",
-      "General Blue Saga",
-      "Commander Red Saga",
-      "Fortuneteller Baba Saga",
-      "Fortuneteller Baba Saga",
-      "Tien Shinhan",
-      "King Piccolo",
-      "Piccolo Jr.",
-      "Piccolo Jr."
-    ],
     "font_id": 0,
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Emperor Pilaf Saga",
+      "2": "Tournament Saga",
+      "s3e1-s3e17": "Red Ribbon Army Saga",
+      "s3e18-s3e29": "General Blue Saga",
+      "s3e30-s3e39": "Commander Red Saga",
+      "s3e40-s3e40": "Fortuneteller Baba Saga",
+      "s4e1-s4e15": "Fortuneteller Baba Saga",
+      "s4e16-s4e33": "Tien Shinhan",
+      "s5e1-s5e21": "King Piccolo",
+      "s5e22-s5e31": "Piccolo Jr.",
+      "6": "Piccolo Jr."
+    },
+    "extras": {
+      "episode_text_color": "rgb(234,51,35)"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -68,21 +52,21 @@
         "\"",
         "&",
         "%",
-        "\u00e0",
-        "\u00c9",
+        "à",
+        "É",
         "/",
         "\\",
         "+",
-        "\u2019",
-        "\u00e9",
+        "’",
+        "é",
         "@",
         "^",
         "{",
-        "\u2013",
+        "–",
         "|",
         "=",
         ">",
-        "\u00c0",
+        "À",
         "~",
         "$",
         "6th",

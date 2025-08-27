@@ -1,16 +1,12 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "rgb(57,104,59)",
-      "6"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "rgb(57,104,59)",
+      "frame_width": "6"
+    }
   },
   "episodes": {},
   "templates": [],

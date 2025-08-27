@@ -9,22 +9,14 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_color",
-      "stroke_color",
-      "kanji_color",
-      "kanji_stroke_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.replace(\"/ \", \"/\").split(\"/\" ))}",
-      "white",
-      "white",
-      "white",
-      "white",
-      "white"
-    ]
+    "extras": {
+      "title_text_format": "{f'{NEWLINE}'.join(title_text.replace(\"/ \", \"/\").split(\"/\" ))}",
+      "episode_text_color": "white",
+      "stroke_color": "white",
+      "kanji_color": "white",
+      "kanji_stroke_color": "white",
+      "episode_stroke_color": "white"
+    }
   },
   "fonts": [
     {

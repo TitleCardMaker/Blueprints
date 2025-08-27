@@ -8,20 +8,13 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e2",
-      "s1e3-s1e12",
-      "s2e1-s2e13",
-      "s2e14-s2e20",
-      "s2e21-s2e27"
-    ],
-    "season_title_values": [
-      "Combat Shadow Fighting",
-      "Great Prison Battle Saga",
-      "Pickle Wars",
-      "Warrior's Struggle",
-      "Strongest Father and Child Quarrel"
-    ]
+    "season_titles": {
+      "s1e1-s1e2": "Combat Shadow Fighting",
+      "s1e3-s1e12": "Great Prison Battle Saga",
+      "s2e1-s2e13": "Pickle Wars",
+      "s2e14-s2e20": "Warrior's Struggle",
+      "s2e21-s2e27": "Strongest Father and Child Quarrel"
+    }
   },
   "creator": "BenevolentNPC",
   "description": [

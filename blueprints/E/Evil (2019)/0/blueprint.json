@@ -1,14 +1,10 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "rgb(224,209,140)",
-      "5"
-    ]
+    "extras": {
+      "frame_color": "rgb(224,209,140)",
+      "frame_width": "5"
+    }
   },
   "creator": "CollinHeist",
   "description": [

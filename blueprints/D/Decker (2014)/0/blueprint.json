@@ -1,21 +1,13 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "season_title_values": [
-      "Classified",
-      "Port of Call: Hawaii",
-      "Gregg Turkington's Decker vs. Dracula",
-      "Unclassified",
-      "Unsealed",
-      "Mindwipe"
-    ]
+    "season_titles": {
+      "1": "Classified",
+      "2": "Port of Call: Hawaii",
+      "3": "Gregg Turkington's Decker vs. Dracula",
+      "4": "Unclassified",
+      "5": "Unsealed",
+      "6": "Mindwipe"
+    }
   },
   "episodes": {
     "s2e1": {

@@ -3,20 +3,13 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "hide_season_text": true,
-    "extra_keys": [
-      "bottom_element",
-      "top_element",
-      "logo_size",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "title",
-      "logo",
-      "1.5",
-      "red",
-      "6"
-    ]
+    "extras": {
+      "bottom_element": "title",
+      "top_element": "logo",
+      "logo_size": "1.5",
+      "frame_color": "red",
+      "frame_width": "6"
+    }
   },
   "fonts": [
     {

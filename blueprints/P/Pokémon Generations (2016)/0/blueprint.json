@@ -1,19 +1,15 @@
 {
   "series": {
-    "extra_keys": [
-      "logo_size",
-      "logo_vertical_shift"
-    ],
-    "extra_values": [
-      "2",
-      "350"
-    ],
     "template_ids": [
       0
     ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "logo_size": "2",
+      "logo_vertical_shift": "350"
+    }
   },
   "episodes": {},
   "templates": [
@@ -21,53 +17,42 @@
       "font_id": 0,
       "card_type": "tinted frame",
       "episode_text_format": "Episode {episode_number}",
-      "extra_keys": [
-        "middle_element",
-        "episode_text_color",
-        "frame_color",
-        "shadow_color",
-        "episode_text_font",
-        "logo_vertical_shift",
-        "frame_width",
-        "logo_size",
-        "episode_text_font_size"
-      ],
-      "extra_values": [
-        "logo",
-        "rgba(255,203,5,1)",
-        "rgba(255,203,5,1)",
-        "rgba(60,90,166,1)",
-        "/config/fonts/Pokemon.ttf",
-        "350",
-        "15",
-        "1.5",
-        "2"
-      ],
-      "name": "Pok\u00e9mon",
+      "name": "Pokémon",
       "filters": [
         {
           "argument": "Series Name",
           "operation": "contains",
-          "reference": "Pok\u00e9mon"
+          "reference": "Pokémon"
         }
-      ]
+      ],
+      "extras": {
+        "middle_element": "logo",
+        "episode_text_color": "rgba(255,203,5,1)",
+        "frame_color": "rgba(255,203,5,1)",
+        "shadow_color": "rgba(60,90,166,1)",
+        "episode_text_font": "/config/fonts/Pokemon.ttf",
+        "logo_vertical_shift": "350",
+        "frame_width": "15",
+        "logo_size": "1.5",
+        "episode_text_font_size": "2"
+      }
     }
   ],
   "fonts": [
     {
-      "name": "Pok\u00e9mon",
+      "name": "Pokémon",
       "color": "rgba(255,203,5,1)",
       "delete_missing": true,
       "file": "Pokemon.ttf",
       "replacements_in": [
         "`",
-        "\u00e9",
+        "é",
         "{",
-        "\u2026",
+        "…",
         "@",
         "}",
         "^",
-        "\u00c9"
+        "É"
       ],
       "replacements_out": [
         "'",
@@ -88,8 +73,8 @@
     "preview0.jpg"
   ],
   "description": [
-    "This is a continuation of my Pok\u00e9mon Complete Series Collection. It will match the sets I've released for the main series. It uses episode ordering by TVDB as the spinoff series are correctly ordered there.",
-    "It uses standard episode ordering as the spinoff's don't have pre-defined arcs. It uses the Pok\u00e9mon font and includes a colored drop shadow to match the series color scheme.",
+    "This is a continuation of my Pokémon Complete Series Collection. It will match the sets I've released for the main series. It uses episode ordering by TVDB as the spinoff series are correctly ordered there.",
+    "It uses standard episode ordering as the spinoff's don't have pre-defined arcs. It uses the Pokémon font and includes a colored drop shadow to match the series color scheme.",
     "The Series' episode text Font should be changed to match your specific folder structure (defaults to /config/fonts/Pokemon.ttf)."
   ],
   "creator": "DeepDaddyTTV",

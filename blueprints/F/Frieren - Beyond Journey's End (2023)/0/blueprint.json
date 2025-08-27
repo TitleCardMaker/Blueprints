@@ -7,17 +7,13 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "stroke_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "skyblue",
-      "skyblue"
-    ],
     "template_ids": [],
     "font_stroke_width": 2.0,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "stroke_color": "skyblue",
+      "episode_stroke_color": "skyblue"
+    }
   },
   "episodes": {},
   "templates": [],

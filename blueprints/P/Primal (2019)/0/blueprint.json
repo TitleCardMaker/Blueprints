@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "cutout",
-    "extra_keys": [
-      "blur_edges"
-    ],
-    "extra_values": [
-      "True"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "blur_edges": "True"
+    }
   },
   "episodes": {},
   "templates": [],

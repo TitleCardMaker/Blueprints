@@ -3,20 +3,13 @@
     "font_id": 0,
     "card_type": "logo",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_vertical_shift",
-      "logo_size",
-      "logo_vertical_shift",
-      "use_background_image"
-    ],
-    "extra_values": [
-      "#f1a719",
-      "100",
-      "0.75",
-      "-250",
-      "true"
-    ]
+    "extras": {
+      "episode_text_color": "#f1a719",
+      "episode_text_vertical_shift": "100",
+      "logo_size": "0.75",
+      "logo_vertical_shift": "-250",
+      "use_background_image": "true"
+    }
   },
   "fonts": [
     {

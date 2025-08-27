@@ -1,18 +1,6 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Spirit Detective Saga",
-      "Dark Tournament Saga",
-      "Chapter Black Saga",
-      "Three Kings Saga"
-    ],
     "template_ids": [],
     "source_files": [],
     "translations": [
@@ -20,7 +8,13 @@
         "language_code": "ja",
         "data_key": "kanji"
       }
-    ]
+    ],
+    "season_titles": {
+      "1": "Spirit Detective Saga",
+      "2": "Dark Tournament Saga",
+      "3": "Chapter Black Saga",
+      "4": "Three Kings Saga"
+    }
   },
   "episodes": {},
   "templates": [],

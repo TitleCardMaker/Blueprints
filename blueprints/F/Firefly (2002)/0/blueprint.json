@@ -1,16 +1,6 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "logo_size",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "2.5",
-      "title"
-    ],
     "template_ids": [],
     "match_titles": false,
     "source_files": [
@@ -29,7 +19,12 @@
       "s1e12.jpg",
       "s1e13.jpg",
       "s1e14.jpg"
-    ]
+    ],
+    "extras": {
+      "top_element": "logo",
+      "logo_size": "2.5",
+      "bottom_element": "title"
+    }
   },
   "episodes": {},
   "templates": [],

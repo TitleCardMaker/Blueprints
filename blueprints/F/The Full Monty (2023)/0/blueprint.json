@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "#fbb601",
-      "15",
-      "logo",
-      "title",
-      "2"
-    ]
+    "extras": {
+      "frame_color": "#fbb601",
+      "frame_width": "15",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2"
+    }
   },
   "episodes": {
     "s1e1": {

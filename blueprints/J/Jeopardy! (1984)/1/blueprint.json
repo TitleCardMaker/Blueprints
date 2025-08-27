@@ -16,62 +16,27 @@
       "card_type": "tinted frame",
       "hide_season_text": true,
       "episode_text_format": "{format_date(airdate, '%b   %d   %Y')}",
-      "extra_keys": [
-        "logo_file",
-        "episode_text_color",
-        "episode_text_font_size",
-        "episode_text_vertical_shift",
-        "frame_color",
-        "frame_width",
-        "top_element",
-        "middle_element",
-        "bottom_element",
-        "logo_size",
-        "blur_edges"
-      ],
-      "extra_values": [
-        "/logotoc.png",
-        "white",
-        "3",
-        "20",
-        "orange",
-        "10",
-        "index",
-        "logo",
-        "title",
-        "3",
-        "False"
-      ],
       "name": "Jeopardy: Series",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "logo_file": "/logotoc.png",
+        "episode_text_color": "white",
+        "episode_text_font_size": "3",
+        "episode_text_vertical_shift": "20",
+        "frame_color": "orange",
+        "frame_width": "10",
+        "top_element": "index",
+        "middle_element": "logo",
+        "bottom_element": "title",
+        "logo_size": "3",
+        "blur_edges": "False"
+      }
     },
     {
       "font_id": 0,
       "card_type": "tinted frame",
       "hide_season_text": true,
       "episode_text_format": "{format_date(airdate, '%b   %d   %Y')}",
-      "extra_keys": [
-        "episode_text_color",
-        "episode_text_font_size",
-        "frame_color",
-        "frame_width",
-        "top_element",
-        "middle_element",
-        "bottom_element",
-        "logo_size",
-        "blur_edges"
-      ],
-      "extra_values": [
-        "white",
-        "3",
-        "blue",
-        "10",
-        "omit",
-        "logo",
-        "index",
-        "2",
-        "False"
-      ],
       "name": "Jeopardy: Daily",
       "filters": [
         {
@@ -79,7 +44,18 @@
           "operation": "does not contain",
           "reference": "Game"
         }
-      ]
+      ],
+      "extras": {
+        "episode_text_color": "white",
+        "episode_text_font_size": "3",
+        "frame_color": "blue",
+        "frame_width": "10",
+        "top_element": "omit",
+        "middle_element": "logo",
+        "bottom_element": "index",
+        "logo_size": "2",
+        "blur_edges": "False"
+      }
     }
   ],
   "fonts": [

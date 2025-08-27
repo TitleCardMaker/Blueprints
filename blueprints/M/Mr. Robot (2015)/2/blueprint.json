@@ -8,14 +8,10 @@
     "card_type": "olivier",
     "episode_text_format": "MR. ROBOT | S{season_number}.0_E{episode_number}.0",
     "template_ids": [],
-    "extra_keys": [
-      "episode_text_color",
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "rgb(202,34,34)",
-      "40 -10 0 0"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(202,34,34)",
+      "box_adjustments": "40 -10 0 0"
+    }
   },
   "episodes": {},
   "templates": [],

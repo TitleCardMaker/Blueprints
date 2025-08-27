@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Digimon Adventure",
-      "Digimon Adventure 02"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Digimon Adventure",
+      "2": "Digimon Adventure 02"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -9,22 +9,14 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "kanji_color",
-      "kanji_stroke_color",
-      "kanji_stroke_width",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#123f9e",
-      "white",
-      "#123f9e",
-      "white",
-      "0.75",
-      "white"
-    ]
+    "extras": {
+      "episode_text_color": "#123f9e",
+      "stroke_color": "white",
+      "kanji_color": "#123f9e",
+      "kanji_stroke_color": "white",
+      "kanji_stroke_width": "0.75",
+      "episode_stroke_color": "white"
+    }
   },
   "fonts": [
     {

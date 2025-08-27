@@ -1,20 +1,14 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "frame_width"
-    ],
-    "extra_values": [
-      "logo",
-      "title",
-      "1.5",
-      "5"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "1.5",
+      "frame_width": "5"
+    }
   },
   "episodes": {},
   "templates": [],

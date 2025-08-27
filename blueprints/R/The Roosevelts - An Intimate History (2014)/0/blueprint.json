@@ -3,16 +3,12 @@
     "font_id": 0,
     "card_type": "overline",
     "hide_episode_text": true,
-    "extra_keys": [
-      "line_color",
-      "line_position"
-    ],
-    "extra_values": [
-      "red",
-      "bottom"
-    ],
     "match_titles": false,
-    "auto_split_title": false
+    "auto_split_title": false,
+    "extras": {
+      "line_color": "red",
+      "line_position": "bottom"
+    }
   },
   "episodes": {
     "s1e1": {

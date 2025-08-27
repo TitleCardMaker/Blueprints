@@ -2,17 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "-3 0 -30 0"
-    ],
     "template_ids": [],
     "font_color": "#d9e2e4",
     "font_size": 1.25,
     "font_vertical_shift": 500,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "box_adjustments": "-3 0 -30 0"
+    }
   },
   "episodes": {},
   "templates": [],

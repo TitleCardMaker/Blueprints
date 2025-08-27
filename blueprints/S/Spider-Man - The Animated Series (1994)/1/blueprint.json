@@ -1,121 +1,87 @@
 {
   "series": {
     "card_type": "comic book",
-    "season_title_ranges": [
-      "2",
-      "3",
-      "4",
-      "s5e2-s5e5",
-      "s1e2-s1e3",
-      "s1e8-s1e10",
-      "s5e6-s5e7",
-      "s5e9-s5e11",
-      "s5e12-s5e13"
-    ],
-    "season_title_values": [
-      "Neogenic Nightmare",
-      "The Sins of the Fathers",
-      "Partners in Danger",
-      "Six Forgotten Warriors",
-      "Attack of the Slayers",
-      "The Alien Costume",
-      "The Return of Hydro Man",
-      "Secret Wars",
-      "Spider Wars"
-    ],
-    "extra_keys": [
-      "banner_fill_color",
-      "text_box_edge_color",
-      "title_text_rotation_angle"
-    ],
-    "extra_values": [
-      "rgba(217, 53, 55, 1)",
-      "#000168",
-      "4"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "Neogenic Nightmare",
+      "3": "The Sins of the Fathers",
+      "4": "Partners in Danger",
+      "s5e2-s5e5": "Six Forgotten Warriors",
+      "s1e2-s1e3": "Attack of the Slayers",
+      "s1e8-s1e10": "The Alien Costume",
+      "s5e6-s5e7": "The Return of Hydro Man",
+      "s5e9-s5e11": "Secret Wars",
+      "s5e12-s5e13": "Spider Wars"
+    },
+    "extras": {
+      "banner_fill_color": "rgba(217, 53, 55, 1)",
+      "text_box_edge_color": "#000168",
+      "title_text_rotation_angle": "4"
+    }
   },
   "episodes": {
     "s4e1": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter I"
+      "episode_text": "Chapter I",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e2": {
       "template_ids": [],
       "episode_text": "Chapter II"
     },
     "s4e3": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter III"
+      "episode_text": "Chapter III",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e4": {
       "template_ids": [],
       "episode_text": "Chapter IV"
     },
     "s4e5": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter V"
+      "episode_text": "Chapter V",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e6": {
       "template_ids": [],
       "episode_text": "Chapter VI"
     },
     "s4e7": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter VII"
+      "episode_text": "Chapter VII",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e8": {
       "template_ids": [],
       "episode_text": "Chapter VIII"
     },
     "s4e9": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter IX"
+      "episode_text": "Chapter IX",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e10": {
       "template_ids": [],
       "episode_text": "Chapter X"
     },
     "s4e11": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
       "template_ids": [],
-      "episode_text": "Chapter XI"
+      "episode_text": "Chapter XI",
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e1": {
       "hide_season_text": true,

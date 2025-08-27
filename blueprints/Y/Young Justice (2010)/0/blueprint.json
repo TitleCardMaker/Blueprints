@@ -1,22 +1,16 @@
 {
   "series": {
     "card_type": "standard",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Identity",
-      "Invasion",
-      "Outsiders",
-      "Phantoms"
-    ],
     "template_ids": [
       0
     ],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Identity",
+      "2": "Invasion",
+      "3": "Outsiders",
+      "4": "Phantoms"
+    }
   },
   "templates": [
     {

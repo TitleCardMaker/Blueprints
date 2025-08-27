@@ -4,18 +4,15 @@
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_episode_number}",
     "hide_season_text": true,
-    "extra_keys": [
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "-40"
-    ],
     "translations": [
       {
         "language_code": "ja",
         "data_key": "kanji"
       }
-    ]
+    ],
+    "extras": {
+      "kanji_vertical_shift": "-40"
+    }
   },
   "episodes": {
     "s1e8": {

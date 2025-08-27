@@ -1,316 +1,212 @@
 {
   "series": {
     "card_type": "comic book",
-    "extra_keys": [
-      "banner_fill_color",
-      "text_box_edge_color",
-      "title_text_rotation_angle"
-    ],
-    "extra_values": [
-      "rgba(217, 53, 55, 1)",
-      "#000168",
-      "4"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "banner_fill_color": "rgba(217, 53, 55, 1)",
+      "text_box_edge_color": "#000168",
+      "title_text_rotation_angle": "4"
+    }
   },
   "episodes": {
     "s1e2": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e7": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e9": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e11": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s2e13": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e1": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e3": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e7": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e9": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e11": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s3e13": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e1": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e3": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e5": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e7": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e9": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s4e11": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e1": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e2": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e4": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e6": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e8": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e10": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     },
     "s5e13": {
-      "extra_keys": [
-        "title_text_rotation_angle"
-      ],
-      "extra_values": [
-        "-4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "title_text_rotation_angle": "-4"
+      }
     }
   },
   "templates": [],

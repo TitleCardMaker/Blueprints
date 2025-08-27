@@ -2,18 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "notification",
-    "extra_keys": [
-      "glass_color",
-      "edge_color"
-    ],
-    "extra_values": [
-      "rgba(250, 11, 14, 0.5)",
-      "#fa0b0e"
-    ],
     "auto_split_title": false,
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "glass_color": "rgba(250, 11, 14, 0.5)",
+      "edge_color": "#fa0b0e"
+    }
   },
   "fonts": [
     {

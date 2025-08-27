@@ -8,30 +8,18 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Wandering Samurai",
-      "Legend of Kyoto",
-      "Tales of the Meiji"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#e61c23",
-      "white",
-      "20",
-      "#e61c23",
-      "white"
-    ]
+    "season_titles": {
+      "1": "Wandering Samurai",
+      "2": "Legend of Kyoto",
+      "3": "Tales of the Meiji"
+    },
+    "extras": {
+      "episode_text_color": "#e61c23",
+      "stroke_color": "white",
+      "kanji_vertical_shift": "20",
+      "kanji_color": "#e61c23",
+      "episode_stroke_color": "white"
+    }
   },
   "episodes": {
     "s0e2": {

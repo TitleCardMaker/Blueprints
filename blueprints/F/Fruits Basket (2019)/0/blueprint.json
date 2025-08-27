@@ -12,12 +12,9 @@
   "episodes": {
     "s0e1": {
       "hide_episode_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30d5\u30eb\u30fc\u30c4\u30d0\u30b9\u30b1\u30c3\u30c8 -prelude-"
-      ]
+      "extras": {
+        "kanji": "フルーツバスケット -prelude-"
+      }
     }
   },
   "fonts": [

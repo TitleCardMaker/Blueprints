@@ -1,19 +1,13 @@
 {
   "series": {
     "card_type": "overline",
-    "extra_keys": [
-      "separator",
-      "episode_text_color",
-      "line_position",
-      "line_width"
-    ],
-    "extra_values": [
-      "\u2022",
-      "#ffffff",
-      "bottom",
-      "9"
-    ],
-    "font_id": 0
+    "font_id": 0,
+    "extras": {
+      "separator": "•",
+      "episode_text_color": "#ffffff",
+      "line_position": "bottom",
+      "line_width": "9"
+    }
   },
   "fonts": [
     {

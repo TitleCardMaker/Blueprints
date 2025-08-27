@@ -3,28 +3,19 @@
     "font_id": 0,
     "card_type": "comic book",
     "hide_season_text": true,
-    "extra_keys": [
-      "text_box_fill_color",
-      "episode_text_color",
-      "banner_fill_color",
-      "index_text_position",
-      "index_text_rotation_angle",
-      "title_text_rotation_angle",
-      "index_banner_shift"
-    ],
-    "extra_values": [
-      "black",
-      "#fae200",
-      "rgba(5, 18, 68, 0.9)",
-      "right",
-      "4",
-      "-3",
-      "20"
-    ],
     "template_ids": [],
     "font_color": "#fae200",
     "font_size": 1.5,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "text_box_fill_color": "black",
+      "episode_text_color": "#fae200",
+      "banner_fill_color": "rgba(5, 18, 68, 0.9)",
+      "index_text_position": "right",
+      "index_text_rotation_angle": "4",
+      "title_text_rotation_angle": "-3",
+      "index_banner_shift": "20"
+    }
   },
   "episodes": {},
   "templates": [],

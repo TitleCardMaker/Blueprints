@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "title"
-    ],
     "font_color": "rgb(242, 181, 112)",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -1,16 +1,13 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "middle_element"
-    ],
-    "extra_values": [
-      "omit"
-    ],
     "template_ids": [],
     "source_files": [
       "mask.png"
-    ]
+    ],
+    "extras": {
+      "middle_element": "omit"
+    }
   },
   "creator": "Azuravian",
   "description": [

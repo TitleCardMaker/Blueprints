@@ -3,20 +3,13 @@
     "font_id": 0,
     "card_type": "overline",
     "episode_text_format": "E{episode_number}",
-    "season_title_ranges": [
-      "s1e1-s6e13"
-    ],
-    "season_title_values": [
-      "S{season_number}"
-    ],
-    "extra_keys": [
-      "separator",
-      "line_position"
-    ],
-    "extra_values": [
-      ":",
-      "bottom"
-    ]
+    "season_titles": {
+      "s1e1-s6e13": "S{season_number}"
+    },
+    "extras": {
+      "separator": ":",
+      "line_position": "bottom"
+    }
   },
   "fonts": [
     {

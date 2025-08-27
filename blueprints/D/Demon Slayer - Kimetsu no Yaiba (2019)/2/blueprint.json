@@ -8,34 +8,22 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Tanjiro Kamado, Unwavering Resolve Arc",
-      "Mugen Train Arc",
-      "Entertainment District Arc",
-      "Swordsmith Village Arc",
-      "Hashira Training Arc"
-    ],
-    "extra_keys": [
-      "kanji_vertical_shift",
-      "stroke_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "-40",
-      "white",
-      "Crimson"
-    ],
     "template_ids": [],
     "font_color": "black",
     "font_stroke_width": 2.0,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Tanjiro Kamado, Unwavering Resolve Arc",
+      "2": "Mugen Train Arc",
+      "3": "Entertainment District Arc",
+      "4": "Swordsmith Village Arc",
+      "5": "Hashira Training Arc"
+    },
+    "extras": {
+      "kanji_vertical_shift": "-40",
+      "stroke_color": "white",
+      "kanji_color": "Crimson"
+    }
   },
   "episodes": {
     "s0e1": {

@@ -8,16 +8,11 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "white",
-      "-30",
-      "rgb(235, 12, 42)"
-    ]
+    "extras": {
+      "stroke_color": "white",
+      "kanji_vertical_shift": "-30",
+      "kanji_color": "rgb(235, 12, 42)"
+    }
   },
   "fonts": [
     {

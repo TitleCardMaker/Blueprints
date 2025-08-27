@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color",
-      "omit_gradient",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(48, 52, 180)",
-      "false",
-      "rgb(197, 28, 231)"
-    ]
+    "extras": {
+      "stroke_color": "rgb(48, 52, 180)",
+      "omit_gradient": "false",
+      "episode_text_color": "rgb(197, 28, 231)"
+    }
   },
   "fonts": [
     {

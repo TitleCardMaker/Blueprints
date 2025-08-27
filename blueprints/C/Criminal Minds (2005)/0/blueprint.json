@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "16"
-    ],
-    "season_title_values": [
-      "Evolution"
-    ],
-    "extra_keys": [
-      "frame_width",
-      "frame_color"
-    ],
-    "extra_values": [
-      "5",
-      "rgb(176,51,45)"
-    ]
+    "season_titles": {
+      "16": "Evolution"
+    },
+    "extras": {
+      "frame_width": "5",
+      "frame_color": "rgb(176,51,45)"
+    }
   },
   "fonts": [
     {

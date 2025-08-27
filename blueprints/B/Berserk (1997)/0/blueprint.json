@@ -9,14 +9,10 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "kanji_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#c30000",
-      "#c30000"
-    ]
+    "extras": {
+      "kanji_color": "#c30000",
+      "episode_text_color": "#c30000"
+    }
   },
   "fonts": [
     {

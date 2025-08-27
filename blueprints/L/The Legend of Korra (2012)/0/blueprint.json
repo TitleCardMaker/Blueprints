@@ -2,504 +2,336 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Book One: Air",
-      "Book Two: Spirits",
-      "Book Three: Change",
-      "Book Four: Balance"
-    ],
-    "extra_keys": [
-      "episode_text_font_size",
-      "episode_text_font",
-      "episode_text_vertical_shift",
-      "frame_width"
-    ],
-    "extra_values": [
-      "1.2",
-      "Herculanum-Regular.ttf",
-      "-8",
-      "5"
-    ],
     "skip_localized_images": true,
     "template_ids": [],
     "source_files": [
       "Herculanum-Regular.ttf"
-    ]
+    ],
+    "season_titles": {
+      "1": "Book One: Air",
+      "2": "Book Two: Spirits",
+      "3": "Book Three: Change",
+      "4": "Book Four: Balance"
+    },
+    "extras": {
+      "episode_text_font_size": "1.2",
+      "episode_text_font": "Herculanum-Regular.ttf",
+      "episode_text_vertical_shift": "-8",
+      "frame_width": "5"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(76,160,177)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(76,160,177)"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s2e14": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(144,109,62)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(144,109,62)"
+      }
     },
     "s3e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s3e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(80,74,102)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(80,74,102)"
+      }
     },
     "s4e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     },
     "s4e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(98,117,83)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "frame_color": "rgb(98,117,83)"
+      }
     }
   },
   "templates": [],

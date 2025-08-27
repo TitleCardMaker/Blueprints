@@ -1,26 +1,6 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Dynasties",
-      "Dynasties II"
-    ],
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "index",
-      "title",
-      "rgb(220,195,162)",
-      "5"
-    ],
     "template_ids": [],
     "source_files": [
       "s1e4.jpg",
@@ -34,7 +14,17 @@
       "s0e6.jpg",
       "s1e5.jpg",
       "s2e4.jpg"
-    ]
+    ],
+    "season_titles": {
+      "1": "Dynasties",
+      "2": "Dynasties II"
+    },
+    "extras": {
+      "top_element": "index",
+      "bottom_element": "title",
+      "frame_color": "rgb(220,195,162)",
+      "frame_width": "5"
+    }
   },
   "episodes": {},
   "templates": [],

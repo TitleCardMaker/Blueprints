@@ -2,12 +2,9 @@
   "series": {
     "card_type": "cascade",
     "hide_season_text": true,
-    "extra_keys": [
-      "cascade_outline_color"
-    ],
-    "extra_values": [
-      "rgb(232,210,74)"
-    ]
+    "extras": {
+      "cascade_outline_color": "rgb(232,210,74)"
+    }
   },
   "episodes": {
     "s1e8": {

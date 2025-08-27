@@ -3,20 +3,16 @@
     "font_id": 0,
     "card_type": "logo",
     "hide_season_text": true,
-    "extra_keys": [
-      "logo_vertical_shift",
-      "use_background_image"
-    ],
-    "extra_values": [
-      "-300",
-      "true"
-    ],
     "template_ids": [],
     "font_size": 1.5,
     "source_files": [
       "logo.png",
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "logo_vertical_shift": "-300",
+      "use_background_image": "true"
+    }
   },
   "episodes": {
     "s1e1": {

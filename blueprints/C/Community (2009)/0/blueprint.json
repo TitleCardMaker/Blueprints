@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color",
-      "episode_text_font_size",
-      "episode_text_color",
-      "shadow_color",
-      "use_background_image"
-    ],
-    "extra_values": [
-      "white",
-      "1.5",
-      "white",
-      "white",
-      "True"
-    ]
+    "extras": {
+      "stroke_color": "white",
+      "episode_text_font_size": "1.5",
+      "episode_text_color": "white",
+      "shadow_color": "white",
+      "use_background_image": "True"
+    }
   },
   "episodes": {
     "s2e9": {

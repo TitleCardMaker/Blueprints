@@ -3,22 +3,14 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_font_size",
-      "frame_width",
-      "middle_element",
-      "logo_size",
-      "logo_vertical_shift",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "1.25",
-      "12",
-      "logo",
-      "1.25",
-      "475",
-      "#d32327"
-    ]
+    "extras": {
+      "episode_text_font_size": "1.25",
+      "frame_width": "12",
+      "middle_element": "logo",
+      "logo_size": "1.25",
+      "logo_vertical_shift": "475",
+      "shadow_color": "#d32327"
+    }
   },
   "fonts": [
     {

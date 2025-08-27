@@ -4,14 +4,11 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "white"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "stroke_color": "white"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -2,23 +2,17 @@
   "series": {
     "font_id": 0,
     "card_type": "marvel",
-    "extra_keys": [
-      "border_color",
-      "text_box_height",
-      "episode_text_location",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "black",
-      "260",
-      "compact",
-      "white"
-    ],
     "template_ids": [],
     "font_color": "#FFF7C8",
     "font_size": 2.0,
     "font_vertical_shift": -50,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "border_color": "black",
+      "text_box_height": "260",
+      "episode_text_location": "compact",
+      "episode_text_color": "white"
+    }
   },
   "episodes": {},
   "templates": [],

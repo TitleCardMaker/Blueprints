@@ -4,36 +4,6 @@
     "card_type": "logo",
     "hide_season_text": false,
     "hide_episode_text": false,
-    "season_title_ranges": [
-      "2",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "season_title_values": [
-      "Celebrity Survivor: Vanuatu",
-      "Champions vs. Contenders ",
-      "Champions vs. Contenders II",
-      "All Stars",
-      "Brain v. Brawn",
-      "Blood v. Water",
-      "Heroes v. Villians",
-      "Titans v. Rebels",
-      "Brain v. Brawn II"
-    ],
-    "extra_keys": [
-      "logo_file",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "logo_season{season_number}.png",
-      "#fa4204"
-    ],
     "skip_localized_images": false,
     "template_ids": [],
     "font_color": "#FFFFFF",
@@ -54,2294 +24,1547 @@
       "logo_season4.png",
       "logo_season12.png",
       "logo_season8.png"
-    ]
+    ],
+    "season_titles": {
+      "2": "Celebrity Survivor: Vanuatu",
+      "5": "Champions vs. Contenders ",
+      "6": "Champions vs. Contenders II",
+      "7": "All Stars",
+      "8": "Brain v. Brawn",
+      "9": "Blood v. Water",
+      "10": "Heroes v. Villians",
+      "11": "Titans v. Rebels",
+      "12": "Brain v. Brawn II"
+    },
+    "extras": {
+      "logo_file": "logo_season{season_number}.png",
+      "stroke_color": "#fa4204"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#eacb70"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#eacb70"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s2e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#d14536"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#d14536"
+      }
     },
     "s3e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e25": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s3e26": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#863345"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#863345"
+      }
     },
     "s4e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e25": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e26": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s4e27": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#62806d"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#62806d"
+      }
     },
     "s5e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s5e25": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#7e68b3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#7e68b3"
+      }
     },
     "s6e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s6e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#0097b2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#0097b2"
+      }
     },
     "s7e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s7e25": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#cec8a4"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#cec8a4"
+      }
     },
     "s8e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s8e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#ce73da"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#ce73da"
+      }
     },
     "s9e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s9e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#316fbd"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#316fbd"
+      }
     },
     "s10e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s10e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#923d3a"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#923d3a"
+      }
     },
     "s11e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e7": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e8": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e9": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e10": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e11": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e12": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e13": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e14": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e15": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e16": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e17": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e18": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e19": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e20": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e21": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e22": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e23": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s11e24": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#163fa9"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#163fa9"
+      }
     },
     "s12e1": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     },
     "s12e2": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     },
     "s12e3": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     },
     "s12e4": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     },
     "s12e5": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     },
     "s12e6": {
-      "extra_keys": [
-        "stroke_color"
-      ],
-      "extra_values": [
-        "#f0794f"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "stroke_color": "#f0794f"
+      }
     }
   },
   "fonts": [
@@ -2349,10 +1572,10 @@
       "name": "Survivor",
       "file": "survivor.ttf",
       "replacements_in": [
-        "\u2019",
-        "\u2018",
-        "\u014c",
-        "\u014d"
+        "’",
+        "‘",
+        "Ō",
+        "ō"
       ],
       "replacements_out": [
         "'",

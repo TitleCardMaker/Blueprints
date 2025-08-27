@@ -3,54 +3,30 @@
     "template_ids": [
       0
     ],
-    "season_title_ranges": [
-      "1-19",
-      "20-67",
-      "68-80",
-      "81-100",
-      "101-106",
-      "107-135",
-      "136-141",
-      "142-147",
-      "148-151",
-      "152-158",
-      "159-161",
-      "162-168",
-      "169-174",
-      "175-177",
-      "178-186",
-      "187-194",
-      "195-196",
-      "197-202",
-      "203-208",
-      "209-212",
-      "213-215",
-      "216-220"
-    ],
-    "season_title_values": [
-      "Land of Waves",
-      "Ch\u016bnin Exams",
-      "Konoha Crash",
-      "Search For Tsunade",
-      "Land of Tea Escort Mission",
-      "Sasuke Recovery Mission",
-      "Land of Rice Fields Investigation Mission",
-      "Mizuki Tracking Mission",
-      "Bikochu Search Mission",
-      "Kurosuki Family Removal Mission",
-      "Gosunkugi Capture Mission",
-      "Cursed Warrior Extermination Mission",
-      "Kaima Capture Mission",
-      "Buried Gold Excavation Mission",
-      "Star Guard Mission",
-      "Peddlers Escort Mission",
-      "Third Great Beast",
-      "Konoha Plans Recapture Mission",
-      "Yakumo Kurama Rescue Mission",
-      "Gantetsu Escort Mission",
-      "Menma Memory Search Mission",
-      "Sunagakure Support Mission"
-    ]
+    "season_titles": {
+      "1-19": "Land of Waves",
+      "20-67": "Chūnin Exams",
+      "68-80": "Konoha Crash",
+      "81-100": "Search For Tsunade",
+      "101-106": "Land of Tea Escort Mission",
+      "107-135": "Sasuke Recovery Mission",
+      "136-141": "Land of Rice Fields Investigation Mission",
+      "142-147": "Mizuki Tracking Mission",
+      "148-151": "Bikochu Search Mission",
+      "152-158": "Kurosuki Family Removal Mission",
+      "159-161": "Gosunkugi Capture Mission",
+      "162-168": "Cursed Warrior Extermination Mission",
+      "169-174": "Kaima Capture Mission",
+      "175-177": "Buried Gold Excavation Mission",
+      "178-186": "Star Guard Mission",
+      "187-194": "Peddlers Escort Mission",
+      "195-196": "Third Great Beast",
+      "197-202": "Konoha Plans Recapture Mission",
+      "203-208": "Yakumo Kurama Rescue Mission",
+      "209-212": "Gantetsu Escort Mission",
+      "213-215": "Menma Memory Search Mission",
+      "216-220": "Sunagakure Support Mission"
+    }
   },
   "episodes": {
     "s0e4": {
@@ -82,15 +58,15 @@
       "file": "naruto.ttf",
       "interline_spacing": 30,
       "replacements_in": [
-        "\u016b",
-        "\u016a",
-        "\u2026",
-        "\u014d",
-        "\u014c",
-        "\u2019",
-        "\u2013",
-        "\u00e9",
-        "\u00c9"
+        "ū",
+        "Ū",
+        "…",
+        "ō",
+        "Ō",
+        "’",
+        "–",
+        "é",
+        "É"
       ],
       "replacements_out": [
         "u",
@@ -118,16 +94,11 @@
           "data_key": "kanji"
         }
       ],
-      "extra_keys": [
-        "kanji_vertical_shift",
-        "kanji_stroke_width",
-        "kanji_color"
-      ],
-      "extra_values": [
-        "40",
-        "3.0",
-        "rgb(235,142,52)"
-      ]
+      "extras": {
+        "kanji_vertical_shift": "40",
+        "kanji_stroke_width": "3.0",
+        "kanji_color": "rgb(235,142,52)"
+      }
     }
   ],
   "creator": "CollinHeist",

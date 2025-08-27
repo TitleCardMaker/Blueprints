@@ -1,21 +1,14 @@
 {
   "series": {
     "card_type": "cutout",
-    "season_title_ranges": [
-      "4"
-    ],
-    "season_title_values": [
-      "Night Country"
-    ],
-    "extra_keys": [
-      "overlay_color",
-      "overlay_transparency"
-    ],
-    "extra_values": [
-      "rgb(221,213,202)",
-      "0.05"
-    ],
-    "font_color": "white"
+    "font_color": "white",
+    "season_titles": {
+      "4": "Night Country"
+    },
+    "extras": {
+      "overlay_color": "rgb(221,213,202)",
+      "overlay_transparency": "0.05"
+    }
   },
   "creator": "CollinHeist",
   "description": [

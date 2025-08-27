@@ -2,19 +2,13 @@
   "series": {
     "card_type": "tinted frame",
     "hide_episode_text": true,
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Cora",
-      "Julian",
-      "Jamie",
-      "Percy"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Cora",
+      "2": "Julian",
+      "3": "Jamie",
+      "4": "Percy"
+    }
   },
   "episodes": {},
   "templates": [],

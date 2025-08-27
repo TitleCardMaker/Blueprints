@@ -2,215 +2,144 @@
   "series": {
     "font_id": 0,
     "card_type": "Supremicus/HorizonTitleCard",
-    "extra_keys": [
-      "season_text_format",
-      "episode_text_vertical_shift",
-      "episode_text_font",
-      "episode_text_color",
-      "episode_text_kerning"
-    ],
-    "extra_values": [
-      "SEASON {to_cardinal(season_number)}",
-      "0",
-      "{title_font}",
-      "white",
-      "4"
-    ]
+    "extras": {
+      "season_text_format": "SEASON {to_cardinal(season_number)}",
+      "episode_text_vertical_shift": "0",
+      "episode_text_font": "{title_font}",
+      "episode_text_color": "white",
+      "episode_text_kerning": "4"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e1": {
-      "extra_keys": [],
-      "extra_values": [],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {}
     },
     "s2e2": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s2e13": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s3e2": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s3e4": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s3e6": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s3e8": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s4e1": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s4e3": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s4e4": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s4e6": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     },
     "s4e10": {
-      "extra_keys": [
-        "h_align"
-      ],
-      "extra_values": [
-        "right"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "h_align": "right"
+      }
     }
   },
   "fonts": [

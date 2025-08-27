@@ -2,24 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_color",
-      "episode_text_font_size",
-      "episode_text_vertical_shift",
-      "top_element",
-      "bottom_element",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "False",
-      "#DA3ECD",
-      "1.5",
-      "-50",
-      "logo",
-      "title",
-      "#162a79"
-    ]
+    "extras": {
+      "omit_gradient": "False",
+      "episode_text_color": "#DA3ECD",
+      "episode_text_font_size": "1.5",
+      "episode_text_vertical_shift": "-50",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "stroke_color": "#162a79"
+    }
   },
   "fonts": [
     {
@@ -28,8 +19,8 @@
       "file": "Halja Illuminated.ttf",
       "kerning": 10.0,
       "replacements_in": [
-        "\u00c2",
-        "\u00ca"
+        "Â",
+        "Ê"
       ],
       "replacements_out": [
         "A",

@@ -1,15 +1,11 @@
 {
   "series": {
     "card_type": "Yozora/RetroTitleCard",
-    "extra_keys": [
-      "override_bw",
-      "override_style"
-    ],
-    "extra_values": [
-      "color",
-      "play"
-    ],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "override_bw": "color",
+      "override_style": "play"
+    }
   },
   "episodes": {
     "s1e1": {

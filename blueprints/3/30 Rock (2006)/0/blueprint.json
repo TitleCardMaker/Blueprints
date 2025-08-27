@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "notification",
-    "extra_keys": [
-      "glass_color",
-      "edge_color"
-    ],
-    "extra_values": [
-      "rgba(0,0,0,0.75)",
-      "#fdb94a"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "glass_color": "rgba(0,0,0,0.75)",
+      "edge_color": "#fdb94a"
+    }
   },
   "episodes": {},
   "templates": [],

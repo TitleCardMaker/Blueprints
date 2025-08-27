@@ -3,17 +3,13 @@
     "font_id": 0,
     "card_type": "Yozora/RetroTitleCard",
     "hide_season_text": true,
-    "extra_keys": [
-      "override_bw",
-      "override_style"
-    ],
-    "extra_values": [
-      "color",
-      "play"
-    ],
     "template_ids": [],
     "font_kerning": 0.05,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "override_bw": "color",
+      "override_style": "play"
+    }
   },
   "episodes": {
     "s1e7": {

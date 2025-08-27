@@ -10,16 +10,12 @@
     {
       "font_id": 0,
       "card_type": "overline",
-      "extra_keys": [
-        "line_color",
-        "line_width"
-      ],
-      "extra_values": [
-        "rgb(210,45,31)",
-        "10"
-      ],
       "name": "Dexter",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "line_color": "rgb(210,45,31)",
+        "line_width": "10"
+      }
     }
   ],
   "fonts": [

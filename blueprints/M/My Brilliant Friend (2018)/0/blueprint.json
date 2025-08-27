@@ -1,26 +1,17 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "My Brilliant Friend",
-      "The Story of a New Name",
-      "Those Who Leave and Those Who Stay",
-      "The Story of the Lost Child"
-    ],
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(243, 236, 4)"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "My Brilliant Friend",
+      "2": "The Story of a New Name",
+      "3": "Those Who Leave and Those Who Stay",
+      "4": "The Story of the Lost Child"
+    },
+    "extras": {
+      "frame_color": "rgb(243, 236, 4)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

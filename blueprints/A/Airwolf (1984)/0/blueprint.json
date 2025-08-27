@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "white"
-    ]
+    "extras": {
+      "stroke_color": "white"
+    }
   },
   "fonts": [
     {

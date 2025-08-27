@@ -1,12 +1,9 @@
 {
   "series": {
     "card_type": "landscape",
-    "extra_keys": [
-      "box_color"
-    ],
-    "extra_values": [
-      "rgb(214, 4, 4)"
-    ]
+    "extras": {
+      "box_color": "rgb(214, 4, 4)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

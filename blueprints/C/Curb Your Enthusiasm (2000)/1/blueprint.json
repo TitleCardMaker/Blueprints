@@ -2,10 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [],
-    "extra_values": [],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {}
   },
   "episodes": {},
   "templates": [],

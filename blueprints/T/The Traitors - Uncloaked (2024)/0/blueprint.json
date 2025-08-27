@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "bottom_element",
-      "top_element"
-    ],
-    "extra_values": [
-      "title",
-      "omit"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "bottom_element": "title",
+      "top_element": "omit"
+    }
   },
   "episodes": {},
   "templates": [],

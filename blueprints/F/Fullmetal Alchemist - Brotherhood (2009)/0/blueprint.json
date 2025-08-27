@@ -3,12 +3,9 @@
     "card_type": "shape",
     "episode_text_format": "{episode_number}.",
     "hide_season_text": true,
-    "extra_keys": [
-      "shape_color"
-    ],
-    "extra_values": [
-      "rgb(198,55,50)"
-    ]
+    "extras": {
+      "shape_color": "rgb(198,55,50)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

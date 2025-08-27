@@ -4,14 +4,10 @@
     "hide_season_text": true,
     "hide_episode_text": true,
     "font_id": 0,
-    "extra_keys": [
-      "stroke_color",
-      "omit_gradient"
-    ],
-    "extra_values": [
-      "yellow",
-      "true"
-    ]
+    "extras": {
+      "stroke_color": "yellow",
+      "omit_gradient": "true"
+    }
   },
   "fonts": [
     {

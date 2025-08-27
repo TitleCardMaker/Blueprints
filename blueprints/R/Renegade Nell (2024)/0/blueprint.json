@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_width"
-    ],
-    "extra_values": [
-      "8"
-    ]
+    "extras": {
+      "frame_width": "8"
+    }
   },
   "fonts": [
     {

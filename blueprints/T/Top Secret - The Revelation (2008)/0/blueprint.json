@@ -1,14 +1,11 @@
 {
   "series": {
     "card_type": "roman numeral",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "The\\n Revelation"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "The\\n Revelation"
+    }
   },
   "episodes": {
     "s1e2": {

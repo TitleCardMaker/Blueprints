@@ -1,14 +1,6 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "War Arc",
-      "Slave Arc"
-    ],
     "translations": [
       {
         "language_code": "ja",
@@ -16,7 +8,11 @@
       }
     ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "War Arc",
+      "2": "Slave Arc"
+    }
   },
   "episodes": {},
   "templates": [],

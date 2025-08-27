@@ -3,15 +3,11 @@
     "font_id": 0,
     "card_type": "standard",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#fed3e1",
-      "#b64c90"
-    ],
-    "font_color": "#25bffd"
+    "font_color": "#25bffd",
+    "extras": {
+      "episode_text_color": "#fed3e1",
+      "stroke_color": "#b64c90"
+    }
   },
   "fonts": [
     {

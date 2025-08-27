@@ -3,18 +3,13 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "hide_season_text": true,
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "rgb(139, 135, 121)",
-      "index",
-      "title"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "rgb(139, 135, 121)",
+      "top_element": "index",
+      "bottom_element": "title"
+    }
   },
   "fonts": [
     {

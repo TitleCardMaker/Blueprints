@@ -3,22 +3,14 @@
     "font_id": 0,
     "card_type": "KHthe8th/TintedFramePlus",
     "episode_text_format": "Chapter {episode_number}",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Volume 1"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font_size",
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(255, 255, 0)",
-      "1.5",
-      "rgb(0, 0, 0)"
-    ]
+    "season_titles": {
+      "1": "Volume 1"
+    },
+    "extras": {
+      "episode_text_color": "rgb(255, 255, 0)",
+      "episode_text_font_size": "1.5",
+      "frame_color": "rgb(0, 0, 0)"
+    }
   },
   "fonts": [
     {

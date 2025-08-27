@@ -2,15 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Raven's Banquet",
-      "Titans' Rift"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Raven's Banquet",
+      "2": "Titans' Rift"
+    }
   },
   "episodes": {},
   "templates": [],

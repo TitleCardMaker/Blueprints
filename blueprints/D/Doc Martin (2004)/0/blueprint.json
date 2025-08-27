@@ -3,14 +3,10 @@
     "font_id": 0,
     "card_type": "shape",
     "hide_season_text": true,
-    "extra_keys": [
-      "season_text_color",
-      "shape_color"
-    ],
-    "extra_values": [
-      "white",
-      "red"
-    ]
+    "extras": {
+      "season_text_color": "white",
+      "shape_color": "red"
+    }
   },
   "episodes": {
     "s0e10": {

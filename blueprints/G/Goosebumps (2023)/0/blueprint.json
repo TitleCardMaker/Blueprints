@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "episode_text_vertical_shift",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "20",
-      "white"
-    ]
+    "extras": {
+      "episode_text_vertical_shift": "20",
+      "episode_text_color": "white"
+    }
   },
   "fonts": [
     {

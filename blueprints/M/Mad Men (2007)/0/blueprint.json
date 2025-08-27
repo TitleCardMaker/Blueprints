@@ -1,12 +1,9 @@
 {
   "series": {
     "card_type": "notification",
-    "extra_keys": [
-      "edge_color"
-    ],
-    "extra_values": [
-      "rgb(235, 51, 36)"
-    ]
+    "extras": {
+      "edge_color": "rgb(235, 51, 36)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

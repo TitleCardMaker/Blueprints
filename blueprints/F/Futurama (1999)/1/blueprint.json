@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "stroke_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#f1f1a1",
-      "#b3f1f8"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "stroke_color": "#f1f1a1",
+      "episode_text_color": "#b3f1f8"
+    }
   },
   "episodes": {
     "s0e2": {

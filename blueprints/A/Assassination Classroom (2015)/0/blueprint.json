@@ -8,14 +8,10 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "First Semester",
-      "Second Semester"
-    ]
+    "season_titles": {
+      "1": "First Semester",
+      "2": "Second Semester"
+    }
   },
   "creator": "CollinHeist",
   "description": [

@@ -1,32 +1,20 @@
 {
   "series": {
     "card_type": "divider",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Moon",
-      "Sky",
-      "Sun",
-      "Earth",
-      "Ocean"
-    ],
-    "extra_keys": [
-      "text_position",
-      "title_text_position",
-      "text_gravity"
-    ],
-    "extra_values": [
-      "lower left",
-      "right",
-      "west"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Moon",
+      "2": "Sky",
+      "3": "Sun",
+      "4": "Earth",
+      "5": "Ocean"
+    },
+    "extras": {
+      "text_position": "lower left",
+      "title_text_position": "right",
+      "text_gravity": "west"
+    }
   },
   "episodes": {},
   "templates": [],

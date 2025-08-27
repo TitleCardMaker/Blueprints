@@ -1,18 +1,14 @@
 {
   "series": {
     "episode_text_format": "Chapter {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Summer School",
-      "Frenemies"
-    ],
     "template_ids": [
       0
     ],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "Summer School",
+      "3": "Frenemies"
+    }
   },
   "episodes": {
     "s2e1": {

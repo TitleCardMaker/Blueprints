@@ -1,27 +1,18 @@
 {
   "series": {
     "card_type": "standard",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Turks and Caicos",
-      "Ex-Wives Club",
-      "Thailand",
-      "Ex-Wives Club II"
-    ],
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#f48148"
-    ],
     "auto_split_title": true,
     "source_files": [],
-    "font_id": 0
+    "font_id": 0,
+    "season_titles": {
+      "1": "Turks and Caicos",
+      "2": "Ex-Wives Club",
+      "3": "Thailand",
+      "4": "Ex-Wives Club II"
+    },
+    "extras": {
+      "stroke_color": "#f48148"
+    }
   },
   "fonts": [
     {

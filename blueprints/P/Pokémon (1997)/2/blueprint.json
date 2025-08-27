@@ -1,69 +1,5 @@
 {
   "series": {
-    "season_title_ranges": [
-      "s1e1-s1e82",
-      "s2e1-s2e36",
-      "s3e1-s3e41",
-      "s4e1-s4e52",
-      "s5e1-s5e65",
-      "s6e1-s6e40",
-      "s7e1-s7e52",
-      "s8e1-s8e53",
-      "s9e1-s9e45",
-      "s10e1-s10e52",
-      "s11e1-s11e52",
-      "s12e1-s12e53",
-      "s13e1-s13e34",
-      "s14e1-s14e48",
-      "s15e1-s15e49",
-      "s16e1-s16e45",
-      "s17e1-s17e48",
-      "s18e1-s18e45",
-      "s19e1-s19e49",
-      "s20e1-s20e43",
-      "s21e1-s21e49",
-      "s22e1-s22e54",
-      "s23e1-s23e48",
-      "s24e1-s24e42",
-      "s25e1-s25e57",
-      "s26e1-s26e39"
-    ],
-    "season_title_values": [
-      "Indigo League",
-      "Orange Islands",
-      "The Johto Journeys",
-      "Johto League Champions",
-      "Master Quest",
-      "Advanced",
-      "Advanced Challenge",
-      "Advanced Battle",
-      "Battle Frontier",
-      "Diamond and Pearl",
-      "Diamond and Pearl: Battle Dimension",
-      "Diamond and Pearl: Galactic Battles",
-      "Diamond and Pearl: Sinnoh League Victors",
-      "Black & White",
-      "Black & White: Rival Destinies",
-      "Black & White: Adventures in Unova",
-      "XY",
-      "XY: Kalos Quest",
-      "XYZ",
-      "Sun & Moon",
-      "Sun & Moon: Ultra Adventures",
-      "Sun & Moon: Ultra Legends",
-      "Journeys",
-      "Master Journeys",
-      "Ultimate Journeys",
-      "Horizons"
-    ],
-    "extra_keys": [
-      "logo_size",
-      "logo_vertical_shift"
-    ],
-    "extra_values": [
-      "4",
-      "700"
-    ],
     "template_ids": [
       0
     ],
@@ -79,60 +15,81 @@
       "s1e1.jpg",
       "logo.png",
       "s1e8.jpg"
-    ]
+    ],
+    "season_titles": {
+      "s1e1-s1e82": "Indigo League",
+      "s2e1-s2e36": "Orange Islands",
+      "s3e1-s3e41": "The Johto Journeys",
+      "s4e1-s4e52": "Johto League Champions",
+      "s5e1-s5e65": "Master Quest",
+      "s6e1-s6e40": "Advanced",
+      "s7e1-s7e52": "Advanced Challenge",
+      "s8e1-s8e53": "Advanced Battle",
+      "s9e1-s9e45": "Battle Frontier",
+      "s10e1-s10e52": "Diamond and Pearl",
+      "s11e1-s11e52": "Diamond and Pearl: Battle Dimension",
+      "s12e1-s12e53": "Diamond and Pearl: Galactic Battles",
+      "s13e1-s13e34": "Diamond and Pearl: Sinnoh League Victors",
+      "s14e1-s14e48": "Black & White",
+      "s15e1-s15e49": "Black & White: Rival Destinies",
+      "s16e1-s16e45": "Black & White: Adventures in Unova",
+      "s17e1-s17e48": "XY",
+      "s18e1-s18e45": "XY: Kalos Quest",
+      "s19e1-s19e49": "XYZ",
+      "s20e1-s20e43": "Sun & Moon",
+      "s21e1-s21e49": "Sun & Moon: Ultra Adventures",
+      "s22e1-s22e54": "Sun & Moon: Ultra Legends",
+      "s23e1-s23e48": "Journeys",
+      "s24e1-s24e42": "Master Journeys",
+      "s25e1-s25e57": "Ultimate Journeys",
+      "s26e1-s26e39": "Horizons"
+    },
+    "extras": {
+      "logo_size": "4",
+      "logo_vertical_shift": "700"
+    }
   },
   "templates": [
     {
       "font_id": 0,
       "card_type": "tinted frame",
       "episode_text_format": "Episode {episode_number}",
-      "extra_keys": [
-        "middle_element",
-        "episode_text_color",
-        "frame_color",
-        "shadow_color",
-        "episode_text_font",
-        "logo_vertical_shift",
-        "frame_width",
-        "logo_size",
-        "episode_text_font_size"
-      ],
-      "extra_values": [
-        "logo",
-        "rgba(255,203,5,1)",
-        "rgba(255,203,5,1)",
-        "rgba(60,90,166,1)",
-        "/config/fonts/Pokemon.ttf",
-        "350",
-        "15",
-        "1.5",
-        "2"
-      ],
-      "name": "Pok\u00e9mon",
+      "name": "Pokémon",
       "filters": [
         {
           "argument": "Series Name",
           "operation": "contains",
-          "reference": "Pok\u00e9mon"
+          "reference": "Pokémon"
         }
-      ]
+      ],
+      "extras": {
+        "middle_element": "logo",
+        "episode_text_color": "rgba(255,203,5,1)",
+        "frame_color": "rgba(255,203,5,1)",
+        "shadow_color": "rgba(60,90,166,1)",
+        "episode_text_font": "/config/fonts/Pokemon.ttf",
+        "logo_vertical_shift": "350",
+        "frame_width": "15",
+        "logo_size": "1.5",
+        "episode_text_font_size": "2"
+      }
     }
   ],
   "fonts": [
     {
-      "name": "Pok\u00e9mon",
+      "name": "Pokémon",
       "color": "rgba(255,203,5,1)",
       "delete_missing": true,
       "file": "Pokemon.ttf",
       "replacements_in": [
         "`",
-        "\u00e9",
+        "é",
         "{",
-        "\u2026",
+        "…",
         "@",
         "}",
         "^",
-        "\u00c9"
+        "É"
       ],
       "replacements_out": [
         "'",
@@ -152,7 +109,7 @@
   "creator": "DeepDaddyTTV",
   "description": [
     "Tinted Frame card which uses the TMDb episode ordering featuring all 1285 Episodes over 26 Seasons (and Specials). Each portion of the Series includes the name of the arc as the title with pre-defined seasons.",
-    "Uses the Pok\u00e9mon Font and includes a colored drop shadow to match the Series color scheme. The Series' episode text Font should be changed to match your specific folder structure (defaults to /config/fonts/Pokemon.ttf).",
+    "Uses the Pokémon Font and includes a colored drop shadow to match the Series color scheme. The Series' episode text Font should be changed to match your specific folder structure (defaults to /config/fonts/Pokemon.ttf).",
     "I also replaced the first 10 source cards as they didn't look right with the Episode title from the show.",
     "This will match the Blueprints for the spinoff Series' as well."
   ],

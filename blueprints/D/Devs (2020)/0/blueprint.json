@@ -2,22 +2,16 @@
   "series": {
     "card_type": "tinted frame",
     "hide_season_text": false,
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "rgb(209, 164, 71)",
-      "logo",
-      "title",
-      "0.9"
-    ],
     "template_ids": [],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "frame_color": "rgb(209, 164, 71)",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "0.9"
+    }
   },
   "creator": "CollinHeist",
   "description": [

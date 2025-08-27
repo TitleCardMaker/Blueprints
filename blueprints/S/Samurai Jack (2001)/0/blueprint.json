@@ -4,22 +4,16 @@
     "card_type": "comic book",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "text_box_fill_color",
-      "title_text_rotation_angle",
-      "hide_title_banner",
-      "hide_index_banner"
-    ],
-    "extra_values": [
-      "black",
-      "0",
-      "true",
-      "true"
-    ],
     "template_ids": [],
     "font_color": "white",
     "font_size": 2.0,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "text_box_fill_color": "black",
+      "title_text_rotation_angle": "0",
+      "hide_title_banner": "true",
+      "hide_index_banner": "true"
+    }
   },
   "episodes": {
     "s1e2": {

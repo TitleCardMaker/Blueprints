@@ -3,525 +3,331 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "episode_text_format": "Chapter {episode_number}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Book One: Water",
-      "Book Two: Earth",
-      "Book Three: Fire"
-    ],
-    "extra_keys": [
-      "episode_text_font",
-      "episode_text_vertical_shift",
-      "episode_text_font_size",
-      "frame_width"
-    ],
-    "extra_values": [
-      "./fonts/Herculanum-Regular.ttf",
-      "-8",
-      "1.2",
-      "5"
-    ],
     "template_ids": [],
     "source_files": [
       "Herculanum-Regular.ttf"
-    ]
+    ],
+    "season_titles": {
+      "1": "Book One: Water",
+      "2": "Book Two: Earth",
+      "3": "Book Three: Fire"
+    },
+    "extras": {
+      "episode_text_font": "./fonts/Herculanum-Regular.ttf",
+      "episode_text_vertical_shift": "-8",
+      "episode_text_font_size": "1.2",
+      "frame_width": "5"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "auto_split_title": false
+      "auto_split_title": false,
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "auto_split_title": false
+      "auto_split_title": false,
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e14": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e15": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e16": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e17": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e18": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e19": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s1e20": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "frame_color": "rgb(67,150,205)"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e14": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e15": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e16": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e17": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e18": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e19": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s2e20": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(60,118,74)"
-      ]
+      "extras": {
+        "frame_color": "rgb(60,118,74)"
+      }
     },
     "s3e1": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e2": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e3": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e4": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e6": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e7": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e8": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e9": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e10": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ],
-      "auto_split_title": false
+      "auto_split_title": false,
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e11": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ],
-      "auto_split_title": false
+      "auto_split_title": false,
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e12": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e13": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e14": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e15": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e16": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e17": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e18": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e19": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e20": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     },
     "s3e21": {
-      "extra_keys": [
-        "frame_color"
-      ],
-      "extra_values": [
-        "rgb(178,77,43)"
-      ]
+      "extras": {
+        "frame_color": "rgb(178,77,43)"
+      }
     }
   },
   "templates": [],

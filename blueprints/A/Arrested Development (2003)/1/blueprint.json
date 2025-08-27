@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "season_title_ranges": [
-      "s0e8-s0e29"
-    ],
-    "season_title_values": [
-      "Season 4 Remix"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s0e8-s0e29": "Season 4 Remix"
+    }
   },
   "episodes": {
     "s0e8": {

@@ -9,22 +9,15 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "kanji_color",
-      "episode_text_color",
-      "stroke_color",
-      "episode_stroke_color",
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "#e3853b",
-      "#e3853b",
-      "white",
-      "white",
-      "50"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "kanji_color": "#e3853b",
+      "episode_text_color": "#e3853b",
+      "stroke_color": "white",
+      "episode_stroke_color": "white",
+      "kanji_vertical_shift": "50"
+    }
   },
   "episodes": {
     "s0e3": {

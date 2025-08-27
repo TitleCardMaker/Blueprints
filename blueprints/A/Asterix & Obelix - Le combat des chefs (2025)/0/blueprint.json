@@ -4,36 +4,29 @@
     "card_type": "comic book",
     "hide_season_text": true,
     "episode_text_format": "Staffel {season_number} - Folge {episode_number}",
-    "extra_keys": [
-      "episode_text_color",
-      "text_box_edge_color",
-      "title_text_rotation_angle",
-      "index_text_rotation_angle",
-      "title_banner_shift"
-    ],
-    "extra_values": [
-      "rgb(235,73,69)",
-      "black",
-      "-6.5",
-      "-2.5",
-      "-10"
-    ],
     "template_ids": [],
     "font_color": "rgb(235,73,69)",
     "font_size": 1.1,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "rgb(235,73,69)",
+      "text_box_edge_color": "black",
+      "title_text_rotation_angle": "-6.5",
+      "index_text_rotation_angle": "-2.5",
+      "title_banner_shift": "-10"
+    }
   },
   "fonts": [
     {
       "name": "Obelix",
       "file": "ObelixProB-cyr.ttf",
       "replacements_in": [
-        "\u00d6",
-        "\u00c4",
-        "\u00dc",
-        "\u00f6",
-        "\u00e4",
-        "\u00fc"
+        "Ö",
+        "Ä",
+        "Ü",
+        "ö",
+        "ä",
+        "ü"
       ],
       "replacements_out": [
         "Oe",

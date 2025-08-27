@@ -2,19 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "rgb(246,239,134)",
-      "8",
-      "logo",
-      "title"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "frame_color": "rgb(246,239,134)",
+      "frame_width": "8",
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "episodes": {
     "s0e2": {

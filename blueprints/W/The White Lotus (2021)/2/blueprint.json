@@ -2,18 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Hawaii",
-      "Sicily",
-      "Thailand"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Hawaii",
+      "2": "Sicily",
+      "3": "Thailand"
+    }
   },
   "fonts": [
     {

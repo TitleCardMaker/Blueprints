@@ -2,22 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_vertical_shift",
-      "frame_color",
-      "frame_width",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "rgb(4, 163, 148)",
-      "-10",
-      "white",
-      "20",
-      "title",
-      "index"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(4, 163, 148)",
+      "episode_text_vertical_shift": "-10",
+      "frame_color": "white",
+      "frame_width": "20",
+      "top_element": "title",
+      "bottom_element": "index"
+    }
   },
   "fonts": [
     {

@@ -8,29 +8,20 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "0"
-    ],
-    "season_title_values": [
-      "War Arc",
-      "Slave Arc",
-      "OVAs"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "#a0222e",
-      "#a0222e"
-    ],
     "template_ids": [],
     "match_titles": false,
     "font_color": "#a0222e",
     "font_interline_spacing": 35,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "War Arc",
+      "2": "Slave Arc",
+      "0": "OVAs"
+    },
+    "extras": {
+      "episode_text_color": "#a0222e",
+      "kanji_color": "#a0222e"
+    }
   },
   "episodes": {
     "s0e2": {

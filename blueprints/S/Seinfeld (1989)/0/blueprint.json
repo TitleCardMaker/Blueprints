@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "episode_text_color",
-      "box_adjustments",
-      "glass_color"
-    ],
-    "extra_values": [
-      "rgb(227,50,34)",
-      "40 0 -40 0",
-      "rgb(248,213,82)"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(227,50,34)",
+      "box_adjustments": "40 0 -40 0",
+      "glass_color": "rgb(248,213,82)"
+    }
   },
   "fonts": [
     {

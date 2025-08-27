@@ -2,15 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "cutout",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "red"
-    ],
     "template_ids": [],
     "font_stroke_width": 0.0,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "red"
+    }
   },
   "episodes": {
     "s0e4": {

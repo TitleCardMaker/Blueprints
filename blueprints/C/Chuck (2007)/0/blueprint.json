@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "comic book",
-    "extra_keys": [
-      "text_box_edge_color",
-      "title_text_rotation_angle"
-    ],
-    "extra_values": [
-      "White",
-      "random[-4, 4] "
-    ]
+    "extras": {
+      "text_box_edge_color": "White",
+      "title_text_rotation_angle": "random[-4, 4] "
+    }
   },
   "fonts": [
     {

@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "omit_gradient",
-      "gradient_type"
-    ],
-    "extra_values": [
-      "false",
-      "original"
-    ]
+    "extras": {
+      "omit_gradient": "false",
+      "gradient_type": "original"
+    }
   },
   "fonts": [
     {

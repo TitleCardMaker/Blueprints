@@ -2,19 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "timeline_color",
-      "player_style",
-      "percentage"
-    ],
-    "extra_values": [
-      "rgb(252, 210, 187)",
-      "artwork",
-      "{episode_number / season_episode_max}"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "timeline_color": "rgb(252, 210, 187)",
+      "player_style": "artwork",
+      "percentage": "{episode_number / season_episode_max}"
+    }
   },
   "fonts": [
     {

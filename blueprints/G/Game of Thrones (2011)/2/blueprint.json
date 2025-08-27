@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "line_position"
-    ],
-    "extra_values": [
-      "bottom"
-    ]
+    "extras": {
+      "line_position": "bottom"
+    }
   },
   "fonts": [
     {

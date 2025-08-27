@@ -8,14 +8,10 @@
   "series": {
     "card_type": "comic book",
     "template_ids": [],
-    "extra_keys": [
-      "title_text_rotation_angle",
-      "index_text_rotation_angle"
-    ],
-    "extra_values": [
-      "random[-4, 4]",
-      "random[-4, -3]"
-    ]
+    "extras": {
+      "title_text_rotation_angle": "random[-4, 4]",
+      "index_text_rotation_angle": "random[-4, -3]"
+    }
   },
   "episodes": {},
   "templates": [],

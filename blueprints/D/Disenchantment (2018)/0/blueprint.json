@@ -2,13 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "season_title_ranges": [
-      "3"
-    ],
-    "season_title_values": [
-      "The Final Season"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "3": "The Final Season"
+    }
   },
   "episodes": {
     "s2e15": {
@@ -38,7 +35,7 @@
       "delete_missing": true,
       "file": "Tuers Cardboard.ttf",
       "replacements_in": [
-        "\u00f8",
+        "ø",
         ".",
         "!"
       ],

@@ -3,17 +3,12 @@
     "card_type": "shape",
     "hide_season_text": true,
     "font_id": 0,
-    "extra_keys": [
-      "shape",
-      "shape_color",
-      "shape_stroke_width"
-    ],
-    "extra_values": [
-      "down triangle",
-      "gray",
-      "5"
-    ],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "shape": "down triangle",
+      "shape_color": "gray",
+      "shape_stroke_width": "5"
+    }
   },
   "fonts": [
     {

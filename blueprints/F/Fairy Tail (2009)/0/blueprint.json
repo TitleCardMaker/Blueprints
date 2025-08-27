@@ -8,54 +8,31 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "266-275",
-      "1-2",
-      "3-4",
-      "5-10",
-      "11-20",
-      "21-29",
-      "30-32",
-      "33-40",
-      "41-51",
-      "52-68",
-      "69-75",
-      "76-95",
-      "96-122",
-      "123-124",
-      "125-150",
-      "151-203",
-      "204-226",
-      "227-233",
-      "234-265",
-      "276-284",
-      "285-328"
-    ],
-    "season_title_values": [
-      "Zer\u00f8 arc",
-      "Macao arc",
-      "Daybreak arc",
-      "Eisenwald arc",
-      "Sub-Zero Emperor Lyon arc",
-      "Phantom Lord arc",
-      "Loke arc",
-      "Tower of Heaven arc",
-      "The Battle of Fairy Tail arc",
-      "Oraci\u00f3n Seis arc",
-      "Daphne arc",
-      "Edolas arc",
-      "Tenrou Island arc",
-      "X791 arc",
-      "Key of the Starry Sky arc",
-      "Grand Magic Games arc",
-      "Eclipse Celestial Spirits arc",
-      "Sun Village arc",
-      "Tartaros arc",
-      "Avatar arc",
-      "Alvarez arc"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "266-275": "Zerø arc",
+      "1-2": "Macao arc",
+      "3-4": "Daybreak arc",
+      "5-10": "Eisenwald arc",
+      "11-20": "Sub-Zero Emperor Lyon arc",
+      "21-29": "Phantom Lord arc",
+      "30-32": "Loke arc",
+      "33-40": "Tower of Heaven arc",
+      "41-51": "The Battle of Fairy Tail arc",
+      "52-68": "Oración Seis arc",
+      "69-75": "Daphne arc",
+      "76-95": "Edolas arc",
+      "96-122": "Tenrou Island arc",
+      "123-124": "X791 arc",
+      "125-150": "Key of the Starry Sky arc",
+      "151-203": "Grand Magic Games arc",
+      "204-226": "Eclipse Celestial Spirits arc",
+      "227-233": "Sun Village arc",
+      "234-265": "Tartaros arc",
+      "276-284": "Avatar arc",
+      "285-328": "Alvarez arc"
+    }
   },
   "episodes": {
     "s6e8": {
@@ -85,7 +62,7 @@
     },
     "s6e13": {
       "template_ids": [],
-      "title": "Jellal vs. Oraci\u00f3n Seis",
+      "title": "Jellal vs. Oración Seis",
       "match_title": false
     },
     "s6e14": {

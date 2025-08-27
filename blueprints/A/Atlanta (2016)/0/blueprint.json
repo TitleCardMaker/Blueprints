@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "2"
-    ],
-    "season_title_values": [
-      "Robbin' Season"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "Robbin' Season"
+    }
   },
   "episodes": {},
   "templates": [],

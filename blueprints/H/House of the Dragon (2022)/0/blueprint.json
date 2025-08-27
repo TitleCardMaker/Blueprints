@@ -2,17 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "title"
-    ],
     "template_ids": [],
     "font_color": "rgb(241, 178, 103)",
-    "font_title_case": "title"
+    "font_title_case": "title",
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "episodes": {},
   "templates": [],

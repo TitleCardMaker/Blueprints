@@ -1,16 +1,12 @@
 {
   "series": {
     "card_type": "shape",
-    "extra_keys": [
-      "shape",
-      "shape_color"
-    ],
-    "extra_values": [
-      "random[up triangle, down triangle]",
-      "rgb(66,148,210)"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "shape": "random[up triangle, down triangle]",
+      "shape_color": "rgb(66,148,210)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

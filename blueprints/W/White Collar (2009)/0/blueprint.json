@@ -6,13 +6,10 @@
   "series": {
     "card_type": "tinted glass",
     "template_ids": [],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#53B6E2"
-    ],
-    "font_color": "white"
+    "font_color": "white",
+    "extras": {
+      "episode_text_color": "#53B6E2"
+    }
   },
   "episodes": {},
   "templates": [],

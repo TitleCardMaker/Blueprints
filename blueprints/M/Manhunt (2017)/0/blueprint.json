@@ -1,13 +1,9 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Unabomber",
-      "Deadly Games"
-    ]
+    "season_titles": {
+      "1": "Unabomber",
+      "2": "Deadly Games"
+    }
   },
   "creator": "CollinHeist",
   "description": [

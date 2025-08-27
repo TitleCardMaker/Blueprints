@@ -8,18 +8,6 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Progressive",
-      "Alternative",
-      "Grunge",
-      "Shoegaze"
-    ],
     "source_files": [
       "s3e6.jpg",
       "s3e4.jpg",
@@ -27,7 +15,13 @@
       "s3e1.jpg",
       "s3e3.jpg",
       "s3e2.jpg"
-    ]
+    ],
+    "season_titles": {
+      "2": "Progressive",
+      "3": "Alternative",
+      "4": "Grunge",
+      "5": "Shoegaze"
+    }
   },
   "episodes": {
     "s3e1": {

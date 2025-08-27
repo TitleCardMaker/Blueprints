@@ -1,14 +1,10 @@
 {
   "series": {
     "card_type": "overline",
-    "extra_keys": [
-      "line_width",
-      "season_text_format"
-    ],
-    "extra_values": [
-      "9",
-      "Take {to_cardinal(season_number)}"
-    ]
+    "extras": {
+      "line_width": "9",
+      "season_text_format": "Take {to_cardinal(season_number)}"
+    }
   },
   "creator": "CollinHeist",
   "description": [

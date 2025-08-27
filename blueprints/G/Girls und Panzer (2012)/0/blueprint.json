@@ -9,45 +9,30 @@
       }
     ],
     "hide_season_text": true,
-    "season_title_ranges": [
-      "0"
-    ],
-    "season_title_values": [
-      "OVAs"
-    ],
-    "extra_keys": [
-      "kanji_color",
-      "stroke_color",
-      "episode_text_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#e55a9b",
-      "#e55a9b",
-      "#66b28d",
-      "#66b28d"
-    ]
+    "season_titles": {
+      "0": "OVAs"
+    },
+    "extras": {
+      "kanji_color": "#e55a9b",
+      "stroke_color": "#e55a9b",
+      "episode_text_color": "#66b28d",
+      "episode_stroke_color": "#66b28d"
+    }
   },
   "episodes": {
     "s0e46": {
       "hide_season_text": false,
       "hide_episode_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30bf\u30a4\u30e4\u30ad\u30fb\u30a6\u30a9\u30fc\uff01"
-      ]
+      "extras": {
+        "kanji": "タイヤキ・ウォー！"
+      }
     },
     "s0e52": {
       "hide_season_text": false,
       "hide_episode_text": true,
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u30c0\u30a4\u30b3\u30f3\u30fb\u30a6\u30a9\u30fc\uff01"
-      ]
+      "extras": {
+        "kanji": "ダイコン・ウォー！"
+      }
     }
   },
   "fonts": [

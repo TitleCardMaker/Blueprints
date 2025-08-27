@@ -1,19 +1,14 @@
 {
   "series": {
-    "season_title_ranges": [
-      "s0e1-s0e19",
-      "s0e20-s0e22",
-      "s0e24-s0e29"
-    ],
-    "season_title_values": [
-      "Early Cuts",
-      "The Dark Defender",
-      "Early Cuts"
-    ],
     "template_ids": [
       0
     ],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s0e1-s0e19": "Early Cuts",
+      "s0e20-s0e22": "The Dark Defender",
+      "s0e24-s0e29": "Early Cuts"
+    }
   },
   "episodes": {
     "s0e1": {
@@ -183,16 +178,12 @@
     {
       "font_id": 0,
       "card_type": "overline",
-      "extra_keys": [
-        "line_color",
-        "line_width"
-      ],
-      "extra_values": [
-        "rgb(210,45,31)",
-        "10"
-      ],
       "name": "Dexter",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "line_color": "rgb(210,45,31)",
+        "line_width": "10"
+      }
     }
   ],
   "fonts": [

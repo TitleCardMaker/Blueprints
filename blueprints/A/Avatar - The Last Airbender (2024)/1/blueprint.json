@@ -1,84 +1,57 @@
 {
   "series": {
     "card_type": "shape",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Book One: Water"
-    ]
+    "season_titles": {
+      "1": "Book One: Water"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "rgb(67,150,205)"
-      ]
+      "extras": {
+        "shape_color": "rgb(67,150,205)"
+      }
     }
   },
   "creator": "CollinHeist",

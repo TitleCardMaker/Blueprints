@@ -2,17 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "add_bounding_box",
-      "darken",
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "True",
-      "box",
-      "-29 0 0 0"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "add_bounding_box": "True",
+      "darken": "box",
+      "box_adjustments": "-29 0 0 0"
+    }
   },
   "episodes": {},
   "templates": [],

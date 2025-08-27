@@ -2,18 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "episode_text_color",
-      "line_color",
-      "line_position",
-      "line_width"
-    ],
-    "extra_values": [
-      "#f0f0f0",
-      "#fdde13",
-      "bottom",
-      "15"
-    ]
+    "extras": {
+      "episode_text_color": "#f0f0f0",
+      "line_color": "#fdde13",
+      "line_position": "bottom",
+      "line_width": "15"
+    }
   },
   "episodes": {
     "s3e2": {
@@ -28,7 +22,7 @@
       "file": "Topline-regular.ttf",
       "stroke_width": 0.0,
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

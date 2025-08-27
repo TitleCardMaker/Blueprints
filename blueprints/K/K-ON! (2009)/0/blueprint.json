@@ -9,28 +9,19 @@
       }
     ],
     "episode_text_format": "#{episode_number}",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "K-ON!",
-      "K-ON!!"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "separator"
-    ],
-    "extra_values": [
-      "rgb(255,255,255)",
-      "Black",
-      "\"\""
-    ],
     "template_ids": [],
     "font_color": "rgb(255,255,255)",
     "font_size": 1.5,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "K-ON!",
+      "2": "K-ON!!"
+    },
+    "extras": {
+      "episode_text_color": "rgb(255,255,255)",
+      "stroke_color": "Black",
+      "separator": "\"\""
+    }
   },
   "episodes": {
     "s0e1": {

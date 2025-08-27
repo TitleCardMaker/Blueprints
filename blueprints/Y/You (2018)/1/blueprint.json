@@ -2,19 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Beck",
-      "Love",
-      "Marienne",
-      "Rhys"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Beck",
+      "2": "Love",
+      "3": "Marienne",
+      "4": "Rhys"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -2,15 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "roman numeral",
-    "extra_keys": [
-      "roman_numeral_color",
-      "season_text_color"
-    ],
-    "extra_values": [
-      "rgb(112,19,11)",
-      "rgb(244,234,205)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "roman_numeral_color": "rgb(112,19,11)",
+      "season_text_color": "rgb(244,234,205)"
+    }
   },
   "episodes": {},
   "templates": [],

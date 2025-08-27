@@ -1,15 +1,12 @@
 {
   "series": {
     "card_type": "star wars",
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.split(\" / \"))}"
-    ],
     "template_ids": [],
     "auto_split_title": false,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "title_text_format": "{f'{NEWLINE}'.join(title_text.split(\" / \"))}"
+    }
   },
   "creator": "Reicha7",
   "description": [

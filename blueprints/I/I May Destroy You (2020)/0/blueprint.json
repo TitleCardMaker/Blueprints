@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(232,47,222)"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(232,47,222)"
+    }
   },
   "fonts": [
     {
@@ -18,7 +15,7 @@
       "interline_spacing": 10,
       "interword_spacing": -5,
       "replacements_in": [
-        "\u2026"
+        "…"
       ],
       "replacements_out": [
         "..."

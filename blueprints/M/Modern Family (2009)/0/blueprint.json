@@ -2,19 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_font",
-      "frame_color",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "OPTITimes-Roman.otf",
-      "#ef481b",
-      "1.5"
-    ],
     "source_files": [
       "OPTITimes-Roman.otf"
-    ]
+    ],
+    "extras": {
+      "episode_text_font": "OPTITimes-Roman.otf",
+      "frame_color": "#ef481b",
+      "episode_text_font_size": "1.5"
+    }
   },
   "episodes": {},
   "templates": [],

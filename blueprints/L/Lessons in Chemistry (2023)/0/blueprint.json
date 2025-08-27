@@ -2,18 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "add_bounding_box",
-      "darken",
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "True",
-      "box",
-      "-80 -30 -45 -30"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "add_bounding_box": "True",
+      "darken": "box",
+      "box_adjustments": "-80 -30 -45 -30"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -25,7 +20,7 @@
       "kerning": 0.3,
       "interword_spacing": -20,
       "replacements_in": [
-        "\u2083"
+        "₃"
       ],
       "replacements_out": [
         "3"

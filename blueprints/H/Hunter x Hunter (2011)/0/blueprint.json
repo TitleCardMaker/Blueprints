@@ -3,26 +3,6 @@
     "font_id": 0,
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_episode_number}",
-    "season_title_ranges": [
-      "s1e1-s1e21",
-      "s1e22-s1e26",
-      "s1e27-s1e36",
-      "s1e37-s1e58",
-      "s2e1-s2e17",
-      "s2e18-s2e78",
-      "3",
-      "0"
-    ],
-    "season_title_values": [
-      "Hunter Exam",
-      "Zoldyck Family",
-      "Heavens Arena",
-      "Yorknew City",
-      "Greed Island",
-      "Chimera Ant",
-      "Hunter Chairman Election",
-      "OVAs"
-    ],
     "template_ids": [],
     "translations": [
       {
@@ -30,7 +10,17 @@
         "data_key": "kanji"
       }
     ],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s1e1-s1e21": "Hunter Exam",
+      "s1e22-s1e26": "Zoldyck Family",
+      "s1e27-s1e36": "Heavens Arena",
+      "s1e37-s1e58": "Yorknew City",
+      "s2e1-s2e17": "Greed Island",
+      "s2e18-s2e78": "Chimera Ant",
+      "3": "Hunter Chairman Election",
+      "0": "OVAs"
+    }
   },
   "episodes": {
     "s0e1": {
@@ -53,7 +43,7 @@
         " x "
       ],
       "replacements_out": [
-        " \u00d7 "
+        " × "
       ]
     }
   ],
@@ -64,7 +54,7 @@
     "preview3.jpg"
   ],
   "description": [
-    "Anime card type with kanji, absolute numbering, arc season titles, and the \"\u00d7\" used in place of \"x\"."
+    "Anime card type with kanji, absolute numbering, arc season titles, and the \"×\" used in place of \"x\"."
   ],
   "creator": "CollinHeist",
   "created": "2023-11-27T06:51:53"

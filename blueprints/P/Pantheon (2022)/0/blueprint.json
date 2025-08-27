@@ -2,16 +2,6 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "rgb(28, 184, 200)",
-      "index",
-      "title"
-    ],
     "template_ids": [],
     "source_files": [
       "s2e8.jpg",
@@ -26,7 +16,12 @@
       "s1e6.jpg",
       "s1e4.jpg",
       "s1e8-mask.webp"
-    ]
+    ],
+    "extras": {
+      "frame_color": "rgb(28, 184, 200)",
+      "top_element": "index",
+      "bottom_element": "title"
+    }
   },
   "fonts": [
     {

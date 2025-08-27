@@ -1,21 +1,16 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "middle_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "omit",
-      "index"
-    ],
     "template_ids": [],
     "font_color": "#dec07b",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "top_element": "logo",
+      "middle_element": "omit",
+      "bottom_element": "index"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -4,18 +4,13 @@
     "card_type": "comic book",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "hide_title_banner",
-      "hide_index_banner",
-      "title_text_rotation_angle"
-    ],
-    "extra_values": [
-      "true",
-      "true",
-      "4"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "hide_title_banner": "true",
+      "hide_index_banner": "true",
+      "title_text_rotation_angle": "4"
+    }
   },
   "episodes": {},
   "templates": [],

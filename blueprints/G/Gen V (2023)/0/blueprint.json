@@ -2,23 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "logo",
-      "title",
-      "2",
-      "white",
-      "12"
-    ],
     "template_ids": [],
     "font_color": "#dcf216",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2",
+      "frame_color": "white",
+      "frame_width": "12"
+    }
   },
   "episodes": {
     "s1e5": {

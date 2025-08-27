@@ -1,17 +1,11 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Genesis",
-      "Generations",
-      "Villains / Fugitives",
-      "Redemption"
-    ]
+    "season_titles": {
+      "1": "Genesis",
+      "2": "Generations",
+      "3": "Villains / Fugitives",
+      "4": "Redemption"
+    }
   },
   "creator": "CollinHeist",
   "description": [

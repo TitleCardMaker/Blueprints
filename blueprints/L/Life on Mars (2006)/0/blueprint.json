@@ -1,15 +1,12 @@
 {
   "series": {
     "card_type": "music",
-    "extra_keys": [
-      "percentage"
-    ],
-    "extra_values": [
-      "{episode_number / season_episode_max}"
-    ],
     "template_ids": [],
     "match_titles": false,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "percentage": "{episode_number / season_episode_max}"
+    }
   },
   "episodes": {
     "s1e1": {

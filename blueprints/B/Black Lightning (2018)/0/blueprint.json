@@ -1,42 +1,26 @@
 {
   "series": {
     "card_type": "standard",
-    "season_title_ranges": [
-      "s2e1-s2e4",
-      "s2e5-s2e7",
-      "s2e8-s2e10",
-      "s2e11-s2e14",
-      "s2e15-s2e16",
-      "s3e1-s3e5",
-      "s3e6-s3e9",
-      "s3e10-s3e13",
-      "s3e14-s3e16",
-      "s4e1-s4e4",
-      "s4e5-s4e6",
-      "s4e8-s4e9",
-      "s4e10-s4e13",
-      "1"
-    ],
-    "season_title_values": [
-      "The Book of Consequences",
-      "The Book of Blood",
-      "The Book of Rebellion",
-      "The Book of Secrets",
-      "The Book of the Apocalypse",
-      "The Book of Occupation",
-      "The Book of Resistance",
-      "The Book of Markovia",
-      "The Book of War",
-      "The Book of Reconstruction",
-      "The Book of Ruin",
-      "The Book of Ruin",
-      "The Book of Reunification",
-      "Season One"
-    ],
     "template_ids": [],
     "match_titles": false,
     "font_color": "#F7CE46",
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s2e1-s2e4": "The Book of Consequences",
+      "s2e5-s2e7": "The Book of Blood",
+      "s2e8-s2e10": "The Book of Rebellion",
+      "s2e11-s2e14": "The Book of Secrets",
+      "s2e15-s2e16": "The Book of the Apocalypse",
+      "s3e1-s3e5": "The Book of Occupation",
+      "s3e6-s3e9": "The Book of Resistance",
+      "s3e10-s3e13": "The Book of Markovia",
+      "s3e14-s3e16": "The Book of War",
+      "s4e1-s4e4": "The Book of Reconstruction",
+      "s4e5-s4e6": "The Book of Ruin",
+      "s4e8-s4e9": "The Book of Ruin",
+      "s4e10-s4e13": "The Book of Reunification",
+      "1": "Season One"
+    }
   },
   "episodes": {
     "s2e1": {

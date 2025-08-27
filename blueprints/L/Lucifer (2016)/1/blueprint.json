@@ -1,28 +1,21 @@
 {
   "series": {
-    "extra_keys": [
-      "banner_fill_color"
-    ],
-    "extra_values": [
-      "rgba(149,31,22, 0.6)"
-    ],
     "template_ids": [
       0
-    ]
+    ],
+    "extras": {
+      "banner_fill_color": "rgba(149,31,22, 0.6)"
+    }
   },
   "templates": [
     {
       "card_type": "comic book",
-      "extra_keys": [
-        "title_text_rotation_angle",
-        "index_text_rotation_angle"
-      ],
-      "extra_values": [
-        "random[-4, 4]",
-        "random[-4, -3]"
-      ],
       "name": "Comic Book",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "title_text_rotation_angle": "random[-4, 4]",
+        "index_text_rotation_angle": "random[-4, -3]"
+      }
     }
   ],
   "creator": "CollinHeist",

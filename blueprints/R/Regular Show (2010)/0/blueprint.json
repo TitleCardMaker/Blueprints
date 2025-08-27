@@ -3,17 +3,14 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Episode {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "s1e1-s8e29"
-    ],
-    "season_title_values": [
-      "Season {to_cardinal(season_number)}"
-    ],
     "template_ids": [],
     "source_files": [
       "s0e14.jpg",
       "s0e1.jpg"
-    ]
+    ],
+    "season_titles": {
+      "s1e1-s8e29": "Season {to_cardinal(season_number)}"
+    }
   },
   "episodes": {
     "s0e1": {

@@ -9,27 +9,17 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "title_text_format",
-      "season_text_format",
-      "episode_text_color",
-      "stroke_color",
-      "episode_text_vertical_shift",
-      "kanji_color",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "{title_text.rsplit(':')[-1].strip()}",
-      "{title.split(' Ep.')[0].strip(',')}",
-      "rgb(4, 187, 251)",
-      "black",
-      "5",
-      "rgb(4, 187, 251)",
-      "white",
-      ".1"
-    ],
-    "match_titles": false
+    "match_titles": false,
+    "extras": {
+      "title_text_format": "{title_text.rsplit(':')[-1].strip()}",
+      "season_text_format": "{title.split(' Ep.')[0].strip(',')}",
+      "episode_text_color": "rgb(4, 187, 251)",
+      "stroke_color": "black",
+      "episode_text_vertical_shift": "5",
+      "kanji_color": "rgb(4, 187, 251)",
+      "kanji_stroke_color": "white",
+      "kanji_stroke_width": ".1"
+    }
   },
   "fonts": [
     {

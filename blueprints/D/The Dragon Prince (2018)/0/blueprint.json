@@ -2,24 +2,16 @@
   "series": {
     "card_type": "standard",
     "episode_text_format": "Chapter {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "season_title_values": [
-      "Book One: Moon",
-      "Book Two: Sky",
-      "Book Three: Sun",
-      "Book Four: Earth",
-      "Book Five: Ocean",
-      "Book Six: Stars"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Book One: Moon",
+      "2": "Book Two: Sky",
+      "3": "Book Three: Sun",
+      "4": "Book Four: Earth",
+      "5": "Book Five: Ocean",
+      "6": "Book Six: Stars"
+    }
   },
   "episodes": {},
   "templates": [],

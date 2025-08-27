@@ -2,40 +2,23 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "season_title_ranges": [
-      "s1e1-s1e3",
-      "s1e4-s1e9",
-      "s1e10-s1e13",
-      "s2e1-s2e13",
-      "s2e14-s2e26"
-    ],
-    "season_title_values": [
-      "Initial Test Arc",
-      "Position Test",
-      "Submerged Fish/Last Examination",
-      "Return of the Prince",
-      "Workshop Battle"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "logo_size",
-      "episode_stroke_color",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "logo_position",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "#FFD700",
-      "2.5",
-      "black",
-      "25",
-      "#FFD700",
-      "top right",
-      "black",
-      "2"
-    ]
+    "season_titles": {
+      "s1e1-s1e3": "Initial Test Arc",
+      "s1e4-s1e9": "Position Test",
+      "s1e10-s1e13": "Submerged Fish/Last Examination",
+      "s2e1-s2e13": "Return of the Prince",
+      "s2e14-s2e26": "Workshop Battle"
+    },
+    "extras": {
+      "episode_text_color": "#FFD700",
+      "logo_size": "2.5",
+      "episode_stroke_color": "black",
+      "kanji_vertical_shift": "25",
+      "kanji_color": "#FFD700",
+      "logo_position": "top right",
+      "kanji_stroke_color": "black",
+      "kanji_stroke_width": "2"
+    }
   },
   "fonts": [
     {
@@ -47,14 +30,14 @@
       "replacements_in": [
         "}",
         "{",
-        "\u00dc",
-        "\u00e4",
-        "\u00c4",
-        "\u00f6",
-        "\u00df",
-        "\u00fc",
+        "Ü",
+        "ä",
+        "Ä",
+        "ö",
+        "ß",
+        "ü",
         "_",
-        "\u00d6"
+        "Ö"
       ],
       "replacements_out": [
         "",

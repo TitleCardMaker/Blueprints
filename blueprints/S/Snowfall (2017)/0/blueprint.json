@@ -2,23 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "episode_text_color",
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "rgb(239,156,56",
-      "30 0 30 0"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(239,156,56",
+      "box_adjustments": "30 0 30 0"
+    }
   },
   "episodes": {
     "s3e4": {
-      "extra_keys": [
-        "box_adjustments"
-      ],
-      "extra_values": [
-        "60 0 30 0"
-      ]
+      "extras": {
+        "box_adjustments": "60 0 30 0"
+      }
     }
   },
   "templates": [],

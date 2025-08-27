@@ -1,16 +1,12 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "\u221aA",
-      ":re"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "√A",
+      "3": ":re"
+    }
   },
   "episodes": {},
   "templates": [],

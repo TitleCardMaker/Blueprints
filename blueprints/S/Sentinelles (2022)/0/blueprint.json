@@ -2,16 +2,13 @@
   "series": {
     "card_type": "logo",
     "font_color": "rgb(243, 190, 118)",
-    "episode_text_format": "\u00c9pisode {episode_number}",
-    "season_title_ranges": [
-      "s1e1-s30e89"
-    ],
-    "season_title_values": [
-      "Saison {season_number}"
-    ],
+    "episode_text_format": "Épisode {episode_number}",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "season_titles": {
+      "s1e1-s30e89": "Saison {season_number}"
+    }
   },
   "creator": "foux",
   "description": [

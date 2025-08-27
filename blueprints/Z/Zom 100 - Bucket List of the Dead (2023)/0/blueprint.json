@@ -9,25 +9,17 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "SEASON {to_cardinal(season_number).upper()}"
-    ],
-    "extra_keys": [
-      "text_position",
-      "text_gravity",
-      "title_text_position"
-    ],
-    "extra_values": [
-      "lower left",
-      "west",
-      "right"
-    ],
     "template_ids": [],
     "font_color": "yellow",
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "SEASON {to_cardinal(season_number).upper()}"
+    },
+    "extras": {
+      "text_position": "lower left",
+      "text_gravity": "west",
+      "title_text_position": "right"
+    }
   },
   "episodes": {
     "s1e1": {

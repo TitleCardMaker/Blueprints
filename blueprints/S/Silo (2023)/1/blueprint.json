@@ -1,19 +1,16 @@
 {
   "series": {
     "card_type": "negative space",
-    "extra_keys": [
-      "text_side"
-    ],
-    "extra_values": [
-      "random"
-    ],
     "template_ids": [],
     "source_files": [
       "s1e4.jpg",
       "s1e4-mask.webp",
       "s1e10.jpg",
       "s1e10-mask.webp"
-    ]
+    ],
+    "extras": {
+      "text_side": "random"
+    }
   },
   "episodes": {
     "s1e1": {
@@ -23,22 +20,16 @@
       "match_title": false
     },
     "s1e6": {
-      "extra_keys": [
-        "text_side"
-      ],
-      "extra_values": [
-        "left"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "text_side": "left"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "text_side"
-      ],
-      "extra_values": [
-        "left"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "text_side": "left"
+      }
     }
   },
   "creator": "CollinHeist",

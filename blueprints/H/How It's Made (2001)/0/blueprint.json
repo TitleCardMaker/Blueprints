@@ -2,17 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "divider",
-    "extra_keys": [
-      "title_text_format",
-      "text_position",
-      "title_text_position"
-    ],
-    "extra_values": [
-      "{f'{NEWLINE}'.join(title_text.replace(\",\", \";\").split(\"; \"))}",
-      "lower left",
-      "right"
-    ],
-    "auto_split_title": false
+    "auto_split_title": false,
+    "extras": {
+      "title_text_format": "{f'{NEWLINE}'.join(title_text.replace(\",\", \";\").split(\"; \"))}",
+      "text_position": "lower left",
+      "title_text_position": "right"
+    }
   },
   "fonts": [
     {

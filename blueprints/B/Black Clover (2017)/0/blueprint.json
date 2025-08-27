@@ -8,30 +8,18 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e13",
-      "s1e14-s1e19",
-      "s1e20-s1e27",
-      "s1e28-s1e39",
-      "s1e40-s1e50",
-      "s1e51-s1e65",
-      "s1e66-s1e93",
-      "s1e94-s1e157",
-      "s1e158-s1e167",
-      "s1e168-s1e170"
-    ],
-    "season_title_values": [
-      "Magic Knights Entrance",
-      "Dungeon Exploration",
-      "Royal Capital Assault",
-      "Eye of the Midnight Sun Encounter",
-      "Seabed Temple",
-      "Witches' Forest",
-      "Royal Knights",
-      "Elf Reincarnation",
-      "Heart Kingdom Joint Struggle",
-      "Spade Kingdom Raid"
-    ]
+    "season_titles": {
+      "s1e1-s1e13": "Magic Knights Entrance",
+      "s1e14-s1e19": "Dungeon Exploration",
+      "s1e20-s1e27": "Royal Capital Assault",
+      "s1e28-s1e39": "Eye of the Midnight Sun Encounter",
+      "s1e40-s1e50": "Seabed Temple",
+      "s1e51-s1e65": "Witches' Forest",
+      "s1e66-s1e93": "Royal Knights",
+      "s1e94-s1e157": "Elf Reincarnation",
+      "s1e158-s1e167": "Heart Kingdom Joint Struggle",
+      "s1e168-s1e170": "Spade Kingdom Raid"
+    }
   },
   "creator": "CollinHeist",
   "description": [

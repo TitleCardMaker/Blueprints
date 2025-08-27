@@ -4,17 +4,12 @@
     "font_id": 0,
     "hide_season_text": false,
     "hide_episode_text": true,
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "This is England '86",
-      "This is England '88",
-      "This is England '90"
-    ],
-    "match_titles": false
+    "match_titles": false,
+    "season_titles": {
+      "1": "This is England '86",
+      "2": "This is England '88",
+      "3": "This is England '90"
+    }
   },
   "episodes": {
     "s1e1": {

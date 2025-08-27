@@ -3,28 +3,18 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Episode {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Year One",
-      "Year Two",
-      "Year Three",
-      "Year Four",
-      "Year Five"
-    ],
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{title_text}["
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Year One",
+      "2": "Year Two",
+      "3": "Year Three",
+      "4": "Year Four",
+      "5": "Year Five"
+    },
+    "extras": {
+      "title_text_format": "{title_text}["
+    }
   },
   "episodes": {},
   "templates": [],

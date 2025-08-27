@@ -2,15 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "line_position"
-    ],
-    "extra_values": [
-      "bottom"
-    ],
     "template_ids": [],
     "font_color": "#d2af83",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "line_position": "bottom"
+    }
   },
   "episodes": {},
   "templates": [],

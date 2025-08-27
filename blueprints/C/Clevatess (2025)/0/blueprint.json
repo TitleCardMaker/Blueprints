@@ -2,34 +2,20 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Awakening of the Beast Kings"
-    ],
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_color",
-      "logo_size",
-      "stroke_color",
-      "kanji",
-      "kanji_color",
-      "logo_position",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "False",
-      "#8b0000",
-      "1.5",
-      "#8b0000",
-      "\u30af\u30ec\u30d0\u30c6\u30b9",
-      "#b8860b",
-      "top right",
-      "#8b0000",
-      "1"
-    ]
+    "season_titles": {
+      "1": "Awakening of the Beast Kings"
+    },
+    "extras": {
+      "omit_gradient": "False",
+      "episode_text_color": "#8b0000",
+      "logo_size": "1.5",
+      "stroke_color": "#8b0000",
+      "kanji": "クレバテス",
+      "kanji_color": "#b8860b",
+      "logo_position": "top right",
+      "kanji_stroke_color": "#8b0000",
+      "kanji_stroke_width": "1"
+    }
   },
   "fonts": [
     {

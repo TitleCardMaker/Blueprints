@@ -10,23 +10,15 @@
     ],
     "hide_season_text": true,
     "episode_text_format": "Episode {absolute_episode_number}",
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_color",
-      "episode_text_font_size",
-      "episode_stroke_color",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "{f'{NEWLINE}('.join(title_text.split(\"(\" ))}",
-      "white",
-      "1.5",
-      "white",
-      "white",
-      "0.25"
-    ],
-    "auto_split_title": false
+    "auto_split_title": false,
+    "extras": {
+      "title_text_format": "{f'{NEWLINE}('.join(title_text.split(\"(\" ))}",
+      "episode_text_color": "white",
+      "episode_text_font_size": "1.5",
+      "episode_stroke_color": "white",
+      "kanji_stroke_color": "white",
+      "kanji_stroke_width": "0.25"
+    }
   },
   "fonts": [
     {

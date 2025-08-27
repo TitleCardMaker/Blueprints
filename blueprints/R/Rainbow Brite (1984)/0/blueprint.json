@@ -2,23 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "rgb(243,186,48)",
-      "logo",
-      "title",
-      "2.5",
-      "white"
-    ],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "frame_color": "rgb(243,186,48)",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2.5",
+      "shadow_color": "white"
+    }
   },
   "fonts": [
     {

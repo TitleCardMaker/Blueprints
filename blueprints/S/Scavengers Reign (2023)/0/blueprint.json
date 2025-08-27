@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "-70 -15 -50 -15"
-    ]
+    "extras": {
+      "box_adjustments": "-70 -15 -50 -15"
+    }
   },
   "fonts": [
     {

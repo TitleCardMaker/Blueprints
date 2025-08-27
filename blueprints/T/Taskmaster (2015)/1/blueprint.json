@@ -11,17 +11,13 @@
       "card_type": "inset",
       "hide_season_text": true,
       "hide_episode_text": true,
-      "extra_keys": [
-        "omit_gradient",
-        "title_text_format"
-      ],
-      "extra_values": [
-        "True",
-        "{title_text}."
-      ],
       "skip_localized_images": true,
       "name": "Taskmaster",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "omit_gradient": "True",
+        "title_text_format": "{title_text}."
+      }
     }
   ],
   "fonts": [
@@ -31,7 +27,7 @@
       "file": "veteran-typewriter.ttf",
       "interline_spacing": 10,
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

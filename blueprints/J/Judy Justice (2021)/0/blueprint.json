@@ -1,25 +1,16 @@
 {
   "series": {
     "card_type": "KHthe8th/TintedFramePlus",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font_size",
-      "frame_color",
-      "frame_width",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "#DFA46D",
-      "2.0",
-      "#55053B",
-      "8",
-      "logo",
-      "index",
-      "2.0"
-    ],
-    "font_color": "#DFA46D"
+    "font_color": "#DFA46D",
+    "extras": {
+      "episode_text_color": "#DFA46D",
+      "episode_text_font_size": "2.0",
+      "frame_color": "#55053B",
+      "frame_width": "8",
+      "top_element": "logo",
+      "bottom_element": "index",
+      "logo_size": "2.0"
+    }
   },
   "creator": "TechJedi51",
   "description": [

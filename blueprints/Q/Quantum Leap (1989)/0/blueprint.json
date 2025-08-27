@@ -2,20 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "Yozora/RetroTitleCard",
-    "extra_keys": [
-      "override_style",
-      "overlay_top_color",
-      "overlay_rectangles_color"
-    ],
-    "extra_values": [
-      "rewind",
-      "rgb(48, 90, 141)",
-      "rgb(244, 248, 254)"
-    ],
     "template_ids": [],
     "auto_split_title": true,
     "font_size": 0.85,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "override_style": "rewind",
+      "overlay_top_color": "rgb(48, 90, 141)",
+      "overlay_rectangles_color": "rgb(244, 248, 254)"
+    }
   },
   "fonts": [
     {

@@ -2,32 +2,20 @@
   "series": {
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_number}",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(234,51,35)"
-    ],
-    "season_title_ranges": [
-      "1",
-      "s2e1-s2e1",
-      "s2e2-s2e13",
-      "s3e1-s3e14",
-      "s3e15-s3e19",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "God of Destruction Beerus",
-      "God of Destruction Beerus",
-      "Golden Frieza",
-      "Universe 6",
-      "Copy-Vegeta",
-      "Future Trunks Saga",
-      "Universe Survival Saga"
-    ],
     "font_id": 0,
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "God of Destruction Beerus",
+      "s2e1-s2e1": "God of Destruction Beerus",
+      "s2e2-s2e13": "Golden Frieza",
+      "s3e1-s3e14": "Universe 6",
+      "s3e15-s3e19": "Copy-Vegeta",
+      "4": "Future Trunks Saga",
+      "5": "Universe Survival Saga"
+    },
+    "extras": {
+      "episode_text_color": "rgb(234,51,35)"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -60,21 +48,21 @@
         "\"",
         "&",
         "%",
-        "\u00e0",
-        "\u00c9",
+        "à",
+        "É",
         "/",
         "\\",
         "+",
-        "\u2019",
-        "\u00e9",
+        "’",
+        "é",
         "@",
         "^",
         "{",
-        "\u2013",
+        "–",
         "|",
         "=",
         ">",
-        "\u00c0",
+        "À",
         "~",
         "$",
         "6th",

@@ -4,12 +4,9 @@
     "card_type": "inset",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "hide_line"
-    ],
-    "extra_values": [
-      "True"
-    ]
+    "extras": {
+      "hide_line": "True"
+    }
   },
   "fonts": [
     {

@@ -4,22 +4,14 @@
     "card_type": "anime",
     "hide_season_text": true,
     "episode_text_format": "Episode {absolute_episode_number}",
-    "extra_keys": [
-      "stroke_color",
-      "episode_text_color",
-      "episode_text_font_size",
-      "episode_stroke_color",
-      "kanji",
-      "kanji_stroke_color"
-    ],
-    "extra_values": [
-      "white",
-      "white",
-      "1.5",
-      "#c90911",
-      " ",
-      "#c90911"
-    ]
+    "extras": {
+      "stroke_color": "white",
+      "episode_text_color": "white",
+      "episode_text_font_size": "1.5",
+      "episode_stroke_color": "#c90911",
+      "kanji": " ",
+      "kanji_stroke_color": "#c90911"
+    }
   },
   "fonts": [
     {

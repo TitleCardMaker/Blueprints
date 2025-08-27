@@ -9,21 +9,15 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "kanji_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#cf9e7e",
-      "white",
-      "#cf9e7e",
-      "white"
-    ],
     "template_ids": [],
     "font_color": "#f1707e",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "#cf9e7e",
+      "stroke_color": "white",
+      "kanji_color": "#cf9e7e",
+      "episode_stroke_color": "white"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -3,16 +3,11 @@
     "card_type": "standard",
     "episode_text_format": "Chapter {episode_number}",
     "template_ids": [],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Book One: Water",
-      "Book Two: Earth",
-      "Book Three: Fire"
-    ]
+    "season_titles": {
+      "1": "Book One: Water",
+      "2": "Book Two: Earth",
+      "3": "Book Three: Fire"
+    }
   },
   "episodes": {},
   "templates": [],

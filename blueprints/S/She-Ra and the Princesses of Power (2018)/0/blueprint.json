@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "extra_keys": [
-      "stroke_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#d015ab",
-      "#e9d422"
-    ]
+    "extras": {
+      "stroke_color": "#d015ab",
+      "episode_text_color": "#e9d422"
+    }
   },
   "episodes": {
     "s1e1": {

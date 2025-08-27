@@ -3,20 +3,15 @@
     "font_id": 0,
     "card_type": "logo",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "use_background_image"
-    ],
-    "extra_values": [
-      "rgb(245, 221, 8)",
-      "rgb(150, 20, 154)",
-      "true"
-    ],
     "source_files": [
       "logo.png",
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "rgb(245, 221, 8)",
+      "stroke_color": "rgb(150, 20, 154)",
+      "use_background_image": "true"
+    }
   },
   "fonts": [
     {

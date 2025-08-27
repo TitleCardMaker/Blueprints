@@ -2,21 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "percentage",
-      "subtitle",
-      "timeline_color"
-    ],
-    "extra_values": [
-      "{episode_number / season_episode_max}",
-      "\"\"",
-      "white"
-    ],
     "template_ids": [],
     "font_title_case": "upper",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "percentage": "{episode_number / season_episode_max}",
+      "subtitle": "\"\"",
+      "timeline_color": "white"
+    }
   },
   "fonts": [
     {

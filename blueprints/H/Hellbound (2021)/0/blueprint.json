@@ -2,17 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{\"   \".join(title_text)}"
-    ],
     "template_ids": [
       0
     ],
     "font_size": 1.5,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "title_text_format": "{\"   \".join(title_text)}"
+    }
   },
   "episodes": {
     "s1e1": {

@@ -1,18 +1,13 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Mr. Mercedes",
-      "Finders Keepers",
-      "End of Watch"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Mr. Mercedes",
+      "2": "Finders Keepers",
+      "3": "End of Watch"
+    }
   },
   "episodes": {},
   "templates": [],

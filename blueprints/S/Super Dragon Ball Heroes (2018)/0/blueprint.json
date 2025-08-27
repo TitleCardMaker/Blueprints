@@ -2,28 +2,18 @@
   "series": {
     "card_type": "anime",
     "episode_text_format": "Episode {absolute_number}",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(234,51,35)"
-    ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Prison Planet Arc",
-      "Universal Conflict Arc",
-      "Universe Creation Arc",
-      "New Space-Time War Arc",
-      "Supreme Kai of Time Arc"
-    ],
     "font_id": 0,
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Prison Planet Arc",
+      "2": "Universal Conflict Arc",
+      "3": "Universe Creation Arc",
+      "4": "New Space-Time War Arc",
+      "5": "Supreme Kai of Time Arc"
+    },
+    "extras": {
+      "episode_text_color": "rgb(234,51,35)"
+    }
   },
   "episodes": {},
   "templates": [],

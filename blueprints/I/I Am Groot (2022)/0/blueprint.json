@@ -2,14 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(115, 207, 62)"
-    ],
     "skip_localized_images": true,
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "episode_text_color": "rgb(115, 207, 62)"
+    }
   },
   "episodes": {
     "s1e1": {

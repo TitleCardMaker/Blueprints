@@ -8,42 +8,24 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e1",
-      "s1e2-s1e2",
-      "s1e3-s1e4",
-      "s1e5-s1e6",
-      "s1e7-s1e8",
-      "s1e9-s1e12",
-      "s1e13-s1e20",
-      "s1e21-s1e21",
-      "s1e22-s1e25",
-      "s2e1-s2e6",
-      "s2e7-s2e13",
-      "s3e1-s3e3",
-      "s3e4-s3e6",
-      "s3e7-s3e9",
-      "s3e10-s3e11",
-      "s3e12-s3e12"
-    ],
-    "season_title_values": [
-      "Summoning",
-      "Slave",
-      "Second Wave",
-      "Filo Rial",
-      "Peddling",
-      "Third Wave",
-      "Devil of the Shield",
-      "Punishment",
-      "Cal Mira Island",
-      "Spirit Turtle",
-      "New World",
-      "Rebuilding",
-      "Fallen Heroes",
-      "Wrath Dragon",
-      "JUSTICE",
-      "Siltvelt Succession"
-    ]
+    "season_titles": {
+      "s1e1-s1e1": "Summoning",
+      "s1e2-s1e2": "Slave",
+      "s1e3-s1e4": "Second Wave",
+      "s1e5-s1e6": "Filo Rial",
+      "s1e7-s1e8": "Peddling",
+      "s1e9-s1e12": "Third Wave",
+      "s1e13-s1e20": "Devil of the Shield",
+      "s1e21-s1e21": "Punishment",
+      "s1e22-s1e25": "Cal Mira Island",
+      "s2e1-s2e6": "Spirit Turtle",
+      "s2e7-s2e13": "New World",
+      "s3e1-s3e3": "Rebuilding",
+      "s3e4-s3e6": "Fallen Heroes",
+      "s3e7-s3e9": "Wrath Dragon",
+      "s3e10-s3e11": "JUSTICE",
+      "s3e12-s3e12": "Siltvelt Succession"
+    }
   },
   "episodes": {
     "s0e5": {

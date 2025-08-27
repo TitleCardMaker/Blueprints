@@ -4,18 +4,12 @@
     "card_type": "roman numeral",
     "hide_season_text": true,
     "hide_episode_text": false,
-    "extra_keys": [
-      "title_text_format",
-      "season_text_color",
-      "background",
-      "roman_numeral_color"
-    ],
-    "extra_values": [
-      "\\\"{title_text}\\\"",
-      "white",
-      "black",
-      "black"
-    ]
+    "extras": {
+      "title_text_format": "\\\"{title_text}\\\"",
+      "season_text_color": "white",
+      "background": "black",
+      "roman_numeral_color": "black"
+    }
   },
   "fonts": [
     {

@@ -9,124 +9,84 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "kanji_color"
-    ],
-    "extra_values": [
-      "#c1c2c7",
-      "#c1c2c7"
-    ],
-    "font_color": "#ebebed"
+    "font_color": "#ebebed",
+    "extras": {
+      "episode_text_color": "#c1c2c7",
+      "kanji_color": "#c1c2c7"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u771f\u7406\u5b50"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "真理子"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u96ea\u7dd2"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "雪緒"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6854\u6897 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "桔梗 "
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6975\u8d64"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "極赤"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u6d45\u91ce"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "浅野"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u5c11\u5973 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "少女 "
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u50cf "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "像 "
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u9ec4 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "黄 "
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u7344\u9053 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "獄道 "
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u4fe1\u7384 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "信玄 "
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u9ed2\u8429 "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "黒萩 "
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u72fc\u773c "
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "狼眼 "
+      }
     }
   },
   "fonts": [

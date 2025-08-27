@@ -2,16 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "shape",
-    "extra_keys": [
-      "shape_color"
-    ],
-    "extra_values": [
-      "yellow"
-    ],
     "template_ids": [],
     "auto_split_title": true,
     "font_color": "orange",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "shape_color": "yellow"
+    }
   },
   "fonts": [
     {

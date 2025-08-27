@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "false",
-      "1.2"
-    ]
+    "extras": {
+      "omit_gradient": "false",
+      "episode_text_font_size": "1.2"
+    }
   },
   "episodes": {
     "s1e1": {

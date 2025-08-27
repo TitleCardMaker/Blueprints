@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "marvel",
-    "extra_keys": [
-      "hide_border"
-    ],
-    "extra_values": [
-      "True"
-    ]
+    "extras": {
+      "hide_border": "True"
+    }
   },
   "fonts": [
     {

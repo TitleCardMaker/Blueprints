@@ -1,22 +1,15 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Love is War?",
-      "Ultra Romantic"
-    ],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(219,55,47)"
-    ],
     "template_ids": [],
-    "font_size": 0.65
+    "font_size": 0.65,
+    "season_titles": {
+      "2": "Love is War?",
+      "3": "Ultra Romantic"
+    },
+    "extras": {
+      "episode_text_color": "rgb(219,55,47)"
+    }
   },
   "episodes": {
     "s1e1": {
@@ -120,7 +113,7 @@
       "auto_split_title": false
     },
     "s3e1": {
-      "title": "Miko Iino Wants to Be Soothed\\nKaguya Doesn\u2019t Realize\\nChika Fujiwara Wants to Battle",
+      "title": "Miko Iino Wants to Be Soothed\\nKaguya Doesn’t Realize\\nChika Fujiwara Wants to Battle",
       "auto_split_title": false
     },
     "s3e2": {

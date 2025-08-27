@@ -3,19 +3,13 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Chapter {absolute_number}",
-    "season_title_ranges": [
-      "s1e1-s1e11",
-      "s1e12-s1e20",
-      "s2e1-s2e8",
-      "s2e9-s2e16"
-    ],
-    "season_title_values": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 4"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "s1e1-s1e11": "Part 1",
+      "s1e12-s1e20": "Part 2",
+      "s2e1-s2e8": "Part 3",
+      "s2e9-s2e16": "Part 4"
+    }
   },
   "episodes": {
     "s1e1": {

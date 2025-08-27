@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extra_keys": [
-      "omit_gradient",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "false",
-      "0.9"
-    ]
+    "extras": {
+      "omit_gradient": "false",
+      "episode_text_font_size": "0.9"
+    }
   },
   "fonts": [
     {
@@ -22,8 +18,8 @@
         "I"
       ],
       "replacements_out": [
-        "\u00a1",
-        "\u00a1"
+        "¡",
+        "¡"
       ],
       "title_case": "upper"
     }

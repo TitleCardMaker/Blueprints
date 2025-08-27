@@ -1,12 +1,6 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "2"
-    ],
-    "season_title_values": [
-      "The Golden City of the Scorching Sun"
-    ],
     "translations": [
       {
         "language_code": "ja",
@@ -14,7 +8,10 @@
       }
     ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "2": "The Golden City of the Scorching Sun"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -1,15 +1,11 @@
 {
   "series": {
     "card_type": "anime",
-    "season_title_ranges": [
-      "2",
-      "1"
-    ],
-    "season_title_values": [
-      "-Arise from the Shadows-",
-      "-Reawakening-"
-    ],
-    "episode_text_format": "Level {absolute_episode_number}"
+    "episode_text_format": "Level {absolute_episode_number}",
+    "season_titles": {
+      "2": "-Arise from the Shadows-",
+      "1": "-Reawakening-"
+    }
   },
   "creator": "Cwavs",
   "description": [

@@ -3,20 +3,14 @@
     "font_id": 0,
     "card_type": "comic book",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "banner_fill_color",
-      "text_box_fill_color",
-      "text_box_edge_color"
-    ],
-    "extra_values": [
-      "rgb(29, 170, 249)",
-      "rgba(220, 67, 151, 0.75)",
-      "black",
-      "rgb(239, 219, 0)"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "rgb(29, 170, 249)",
+      "banner_fill_color": "rgba(220, 67, 151, 0.75)",
+      "text_box_fill_color": "black",
+      "text_box_edge_color": "rgb(239, 219, 0)"
+    }
   },
   "episodes": {},
   "templates": [],

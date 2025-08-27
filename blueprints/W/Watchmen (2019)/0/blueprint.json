@@ -1,17 +1,12 @@
 {
   "series": {
     "card_type": "comic book",
-    "extra_keys": [
-      "title_text_rotation_angle",
-      "index_text_rotation_angle",
-      "banner_fill_color"
-    ],
-    "extra_values": [
-      "random[-4, 4]",
-      "random[-4, -3]",
-      "rgba(251,223,0,0.6)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "title_text_rotation_angle": "random[-4, 4]",
+      "index_text_rotation_angle": "random[-4, -3]",
+      "banner_fill_color": "rgba(251,223,0,0.6)"
+    }
   },
   "episodes": {},
   "templates": [],

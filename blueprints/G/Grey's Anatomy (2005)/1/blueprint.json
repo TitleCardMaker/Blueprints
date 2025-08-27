@@ -2,14 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "music",
-    "extra_keys": [
-      "player_width",
-      "subtitle"
-    ],
-    "extra_values": [
-      "1050",
-      "\"\""
-    ]
+    "extras": {
+      "player_width": "1050",
+      "subtitle": "\"\""
+    }
   },
   "fonts": [
     {

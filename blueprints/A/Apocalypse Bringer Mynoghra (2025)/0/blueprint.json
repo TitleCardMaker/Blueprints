@@ -2,36 +2,21 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "season_title_ranges": [
-      "s1e1-s1e12"
-    ],
-    "season_title_values": [
-      "The Messenger of the End"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "logo_size",
-      "stroke_color",
-      "season_text_color",
-      "kanji",
-      "kanji_vertical_shift",
-      "kanji_color",
-      "logo_position",
-      "kanji_stroke_color",
-      "kanji_stroke_width"
-    ],
-    "extra_values": [
-      "#8A2BE2",
-      "2.4",
-      "#8A2BE2",
-      "#800080",
-      "\u30de\u30a4\u30ce\u30b0\u30e9",
-      "10",
-      "black",
-      "top right",
-      "#800080",
-      "2.7"
-    ]
+    "season_titles": {
+      "s1e1-s1e12": "The Messenger of the End"
+    },
+    "extras": {
+      "episode_text_color": "#8A2BE2",
+      "logo_size": "2.4",
+      "stroke_color": "#8A2BE2",
+      "season_text_color": "#800080",
+      "kanji": "マイノグラ",
+      "kanji_vertical_shift": "10",
+      "kanji_color": "black",
+      "logo_position": "top right",
+      "kanji_stroke_color": "#800080",
+      "kanji_stroke_width": "2.7"
+    }
   },
   "fonts": [
     {
@@ -41,13 +26,13 @@
       "vertical_shift": 21,
       "file": "Phantom Fingers.otf",
       "replacements_in": [
-        "\u00fc",
+        "ü",
         "^",
-        "\u00dc",
-        "\u00e4",
-        "\u00c4",
-        "\u00f6",
-        "\u00d6"
+        "Ü",
+        "ä",
+        "Ä",
+        "ö",
+        "Ö"
       ],
       "replacements_out": [
         "ue",

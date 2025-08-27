@@ -3,11 +3,9 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "translations": [],
-    "season_title_ranges": [],
-    "season_title_values": [],
-    "extra_keys": [],
-    "extra_values": [],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {},
+    "extras": {}
   },
   "episodes": {},
   "templates": [],

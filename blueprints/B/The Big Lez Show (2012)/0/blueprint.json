@@ -4,12 +4,6 @@
     "card_type": "standard",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "#9792b2"
-    ],
     "font_color": "#fecfe1",
     "source_files": [
       "s4e3.jpg",
@@ -50,7 +44,10 @@
       "s2e6.jpg",
       "s3e2.jpg",
       "s4e2.jpg"
-    ]
+    ],
+    "extras": {
+      "stroke_color": "#9792b2"
+    }
   },
   "episodes": {
     "s0e16": {

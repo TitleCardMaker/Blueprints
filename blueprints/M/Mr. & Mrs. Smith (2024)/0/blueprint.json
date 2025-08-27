@@ -3,14 +3,10 @@
     "font_id": 0,
     "card_type": "tinted glass",
     "episode_text_format": "Episode {episode_number}",
-    "extra_keys": [
-      "episode_text_color",
-      "box_adjustments"
-    ],
-    "extra_values": [
-      "rgb(196, 196, 180)",
-      "10 0 10 0"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(196, 196, 180)",
+      "box_adjustments": "10 0 10 0"
+    }
   },
   "episodes": {
     "s1e6": {

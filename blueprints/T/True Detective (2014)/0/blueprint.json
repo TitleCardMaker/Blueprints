@@ -1,11 +1,8 @@
 {
   "series": {
-    "season_title_ranges": [
-      "4"
-    ],
-    "season_title_values": [
-      "Night Country"
-    ]
+    "season_titles": {
+      "4": "Night Country"
+    }
   },
   "creator": "CollinHeist",
   "description": [

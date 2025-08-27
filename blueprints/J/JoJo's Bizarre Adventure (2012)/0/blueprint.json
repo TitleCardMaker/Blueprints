@@ -7,22 +7,14 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e9",
-      "s1e10-s1e26",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Phantom Blood",
-      "Battle Tendency",
-      "Stardust Crusaders",
-      "Diamond is Unbreakable",
-      "Golden Wind",
-      "Stone Ocean"
-    ]
+    "season_titles": {
+      "s1e1-s1e9": "Phantom Blood",
+      "s1e10-s1e26": "Battle Tendency",
+      "2": "Stardust Crusaders",
+      "3": "Diamond is Unbreakable",
+      "4": "Golden Wind",
+      "5": "Stone Ocean"
+    }
   },
   "creator": "CollinHeist",
   "description": [

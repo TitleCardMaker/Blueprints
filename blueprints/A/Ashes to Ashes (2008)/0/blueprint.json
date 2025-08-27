@@ -1,12 +1,9 @@
 {
   "series": {
     "card_type": "music",
-    "extra_keys": [
-      "percentage"
-    ],
-    "extra_values": [
-      "{episode_number / season_episode_max}"
-    ]
+    "extras": {
+      "percentage": "{episode_number / season_episode_max}"
+    }
   },
   "creator": "Cwavs",
   "description": [

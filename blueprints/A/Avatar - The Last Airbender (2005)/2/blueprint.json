@@ -1,505 +1,317 @@
 {
   "series": {
     "card_type": "shape",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3"
-    ],
-    "season_title_values": [
-      "Book One: Water",
-      "Book Two: Earth",
-      "Book Three: Fire"
-    ]
+    "season_titles": {
+      "1": "Book One: Water",
+      "2": "Book Two: Earth",
+      "3": "Book Three: Fire"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e5": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e6": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e7": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e8": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e9": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e10": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e11": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e12": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e13": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e14": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e15": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e16": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e17": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e18": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e19": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s1e20": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "DeepSkyBlue"
-      ]
+      "extras": {
+        "shape_color": "DeepSkyBlue"
+      }
     },
     "s2e1": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e2": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e3": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e4": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e5": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e6": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e7": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e8": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e9": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e10": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e11": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e12": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e13": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e14": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e15": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e16": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e17": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e18": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e19": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s2e20": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "SpringGreen1"
-      ]
+      "extras": {
+        "shape_color": "SpringGreen1"
+      }
     },
     "s3e1": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e2": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e3": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e4": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e5": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e6": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e7": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e8": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e9": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e10": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e11": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e12": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e13": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e14": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e15": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e16": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e17": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e18": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e19": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e20": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     },
     "s3e21": {
-      "extra_keys": [
-        "shape_color"
-      ],
-      "extra_values": [
-        "tomato1"
-      ]
+      "extras": {
+        "shape_color": "tomato1"
+      }
     }
   },
   "creator": "CollinHeist",

@@ -1,21 +1,14 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "The Dicks",
-      "The Brownout"
-    ],
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(219,55,47)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "The Dicks",
+      "2": "The Brownout"
+    },
+    "extras": {
+      "frame_color": "rgb(219,55,47)"
+    }
   },
   "episodes": {},
   "templates": [],

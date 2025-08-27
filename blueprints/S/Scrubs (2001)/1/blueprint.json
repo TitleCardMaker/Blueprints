@@ -2,13 +2,10 @@
   "series": {
     "font_id": 0,
     "card_type": "standard",
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "[{title_text}]"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "title_text_format": "[{title_text}]"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -18,8 +15,8 @@
       "delete_missing": true,
       "file": "tsslogo.ttf",
       "replacements_in": [
-        "\u00e9",
-        "\u00e0"
+        "é",
+        "à"
       ],
       "replacements_out": [
         "e",

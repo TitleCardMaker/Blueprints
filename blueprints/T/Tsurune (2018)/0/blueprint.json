@@ -9,28 +9,17 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "0"
-    ],
-    "season_title_values": [
-      "Tsurune",
-      "The Linking Shot",
-      "Tsurune"
-    ],
-    "extra_keys": [
-      "stroke_color",
-      "kanji_color",
-      "episode_text_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "white",
-      "#86c22b",
-      "#86c22b",
-      "white"
-    ]
+    "season_titles": {
+      "1": "Tsurune",
+      "2": "The Linking Shot",
+      "0": "Tsurune"
+    },
+    "extras": {
+      "stroke_color": "white",
+      "kanji_color": "#86c22b",
+      "episode_text_color": "#86c22b",
+      "episode_stroke_color": "white"
+    }
   },
   "fonts": [
     {

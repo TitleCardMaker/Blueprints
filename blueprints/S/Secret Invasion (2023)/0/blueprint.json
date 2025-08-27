@@ -2,13 +2,10 @@
   "series": {
     "card_type": "olivier",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(109,189,107)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "episode_text_color": "rgb(109,189,107)"
+    }
   },
   "episodes": {},
   "templates": [],

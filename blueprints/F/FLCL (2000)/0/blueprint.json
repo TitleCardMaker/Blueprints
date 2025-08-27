@@ -9,18 +9,12 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "Progressive",
-      "Alternative",
-      "Grunge",
-      "Shoegaze"
-    ]
+    "season_titles": {
+      "2": "Progressive",
+      "3": "Alternative",
+      "4": "Grunge",
+      "5": "Shoegaze"
+    }
   },
   "creator": "CollinHeist",
   "description": [

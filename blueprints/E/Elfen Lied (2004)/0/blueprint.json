@@ -9,29 +9,19 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "stroke_color",
-      "kanji_vertical_shift",
-      "kanji_font_size",
-      "kanji_stroke_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#7a181c",
-      "70",
-      "1.5",
-      "#7a181c",
-      "#7a181c"
-    ]
+    "extras": {
+      "stroke_color": "#7a181c",
+      "kanji_vertical_shift": "70",
+      "kanji_font_size": "1.5",
+      "kanji_stroke_color": "#7a181c",
+      "episode_stroke_color": "#7a181c"
+    }
   },
   "episodes": {
     "s1e11": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u901a\u308a\u96e8\u306b\u3066 \u6216\u3044"
-      ]
+      "extras": {
+        "kanji": "通り雨にて 或い"
+      }
     }
   },
   "fonts": [

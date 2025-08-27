@@ -9,14 +9,10 @@
         "data_key": "kanji"
       }
     ],
-    "extra_keys": [
-      "episode_text_color",
-      "kanji_vertical_shift"
-    ],
-    "extra_values": [
-      "rgb(236, 4, 68)",
-      "30"
-    ]
+    "extras": {
+      "episode_text_color": "rgb(236, 4, 68)",
+      "kanji_vertical_shift": "30"
+    }
   },
   "fonts": [
     {
@@ -55,7 +51,7 @@
         "\"",
         "&",
         "-",
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "",

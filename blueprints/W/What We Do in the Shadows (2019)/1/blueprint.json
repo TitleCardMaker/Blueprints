@@ -2,18 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element"
-    ],
-    "extra_values": [
-      "logo",
-      "title"
-    ],
     "template_ids": [],
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title"
+    }
   },
   "fonts": [
     {
@@ -21,8 +17,8 @@
       "color": "#6EEC47",
       "file": "Halja Illuminated.ttf",
       "replacements_in": [
-        "\u00c2",
-        "\u00ca"
+        "Â",
+        "Ê"
       ],
       "replacements_out": [
         "A",

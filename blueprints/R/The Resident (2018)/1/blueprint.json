@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "landscape",
-    "extra_keys": [
-      "box_color",
-      "box_adjustments",
-      "box_width"
-    ],
-    "extra_values": [
-      "rgb(172,38,28)",
-      "-120 -75 -80 -75",
-      "18"
-    ]
+    "extras": {
+      "box_color": "rgb(172,38,28)",
+      "box_adjustments": "-120 -75 -80 -75",
+      "box_width": "18"
+    }
   },
   "fonts": [
     {

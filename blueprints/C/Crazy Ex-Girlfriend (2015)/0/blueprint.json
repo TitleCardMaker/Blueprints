@@ -1,22 +1,16 @@
 {
   "series": {
     "card_type": "music",
-    "extra_keys": [
-      "player_style",
-      "percentage",
-      "timeline_color",
-      "truncate_long_titles"
-    ],
-    "extra_values": [
-      "artwork",
-      "{episode_number / season_episode_max}",
-      "pink",
-      "False"
-    ],
     "font_size": 0.9,
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "player_style": "artwork",
+      "percentage": "{episode_number / season_episode_max}",
+      "timeline_color": "pink",
+      "truncate_long_titles": "False"
+    }
   },
   "creator": "MrSaiclops",
   "description": [

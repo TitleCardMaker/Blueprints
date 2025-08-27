@@ -2,12 +2,9 @@
   "series": {
     "card_type": "tinted frame",
     "hide_season_text": true,
-    "extra_keys": [
-      "frame_color"
-    ],
-    "extra_values": [
-      "rgb(232, 194, 107)"
-    ]
+    "extras": {
+      "frame_color": "rgb(232, 194, 107)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

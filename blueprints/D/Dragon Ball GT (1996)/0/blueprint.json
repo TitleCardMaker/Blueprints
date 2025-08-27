@@ -1,27 +1,18 @@
 {
   "series": {
     "card_type": "anime",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(234,51,35)"
-    ],
     "episode_text_format": "Episode {absolute_number}",
-    "season_title_ranges": [
-      "1",
-      "2",
-      "s3e1-s3e7",
-      "s3e8-s3e24"
-    ],
-    "season_title_values": [
-      "Black Star Dragon Ball Saga",
-      "Baby Saga",
-      "Super Android 17",
-      "The Shadow Dragons Saga"
-    ],
     "template_ids": [],
-    "font_id": 0
+    "font_id": 0,
+    "season_titles": {
+      "1": "Black Star Dragon Ball Saga",
+      "2": "Baby Saga",
+      "s3e1-s3e7": "Super Android 17",
+      "s3e8-s3e24": "The Shadow Dragons Saga"
+    },
+    "extras": {
+      "episode_text_color": "rgb(234,51,35)"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -54,21 +45,21 @@
         "\"",
         "&",
         "%",
-        "\u00e0",
-        "\u00c9",
+        "à",
+        "É",
         "/",
         "\\",
         "+",
-        "\u2019",
-        "\u00e9",
+        "’",
+        "é",
         "@",
         "^",
         "{",
-        "\u2013",
+        "–",
         "|",
         "=",
         ">",
-        "\u00c0",
+        "À",
         "~",
         "$",
         "6th",

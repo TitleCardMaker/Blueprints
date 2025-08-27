@@ -1,13 +1,10 @@
 {
   "series": {
     "card_type": "overline",
-    "extra_keys": [
-      "line_color"
-    ],
-    "extra_values": [
-      "rgb(250,227,76)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "extras": {
+      "line_color": "rgb(250,227,76)"
+    }
   },
   "episodes": {},
   "templates": [],

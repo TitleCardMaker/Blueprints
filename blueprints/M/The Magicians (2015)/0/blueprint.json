@@ -2,16 +2,12 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "frame_color",
-      "frame_width"
-    ],
-    "extra_values": [
-      "rgb(208,190,124)",
-      "5"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "frame_color": "rgb(208,190,124)",
+      "frame_width": "5"
+    }
   },
   "episodes": {
     "s1e3": {

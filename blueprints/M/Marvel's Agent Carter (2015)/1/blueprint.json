@@ -1,17 +1,13 @@
 {
   "series": {
     "card_type": "marvel",
-    "extra_keys": [
-      "episode_text_color",
-      "text_box_color"
-    ],
-    "extra_values": [
-      "rgb(162, 32, 25)",
-      "rgb(13, 12, 19)"
-    ],
     "template_ids": [],
     "font_color": "rgb(162, 32, 25)",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "rgb(162, 32, 25)",
+      "text_box_color": "rgb(13, 12, 19)"
+    }
   },
   "creator": "Azuravian",
   "description": [

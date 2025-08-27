@@ -3,30 +3,18 @@
     "font_id": 0,
     "card_type": "Supremicus/DawnTitleCard",
     "episode_text_format": "CHAPTER {to_cardinal(episode_number)}",
-    "extra_keys": [
-      "title_text_format",
-      "season_text_format",
-      "stroke_color",
-      "episode_text_vertical_shift",
-      "episode_text_font",
-      "episode_text_font_size",
-      "episode_text_kerning",
-      "h_align",
-      "crt_overlay",
-      "omit_gradient"
-    ],
-    "extra_values": [
-      "{title_text.split(':', 1)[-1].lstrip()}",
-      "SEASON {to_cardinal(season_number)}",
-      "#8e1519",
-      "20",
-      "{title_font}",
-      "1.2",
-      "10",
-      "center",
-      "bezel",
-      "False"
-    ]
+    "extras": {
+      "title_text_format": "{title_text.split(':', 1)[-1].lstrip()}",
+      "season_text_format": "SEASON {to_cardinal(season_number)}",
+      "stroke_color": "#8e1519",
+      "episode_text_vertical_shift": "20",
+      "episode_text_font": "{title_font}",
+      "episode_text_font_size": "1.2",
+      "episode_text_kerning": "10",
+      "h_align": "center",
+      "crt_overlay": "bezel",
+      "omit_gradient": "False"
+    }
   },
   "episodes": {
     "s3e3": {

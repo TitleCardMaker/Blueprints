@@ -1,21 +1,15 @@
 {
   "series": {
     "card_type": "music",
-    "extra_keys": [
-      "player_style",
-      "subtitle",
-      "timeline_color",
-      "percentage"
-    ],
-    "extra_values": [
-      "artwork",
-      "Quiet on Set",
-      "rgb(217, 196, 6)",
-      "{episode_number / season_episode_max}"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "player_style": "artwork",
+      "subtitle": "Quiet on Set",
+      "timeline_color": "rgb(217, 196, 6)",
+      "percentage": "{episode_number / season_episode_max}"
+    }
   },
   "creator": "CollinHeist",
   "description": [

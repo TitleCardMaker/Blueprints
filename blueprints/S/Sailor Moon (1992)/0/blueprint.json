@@ -8,41 +8,26 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "season_title_values": [
-      "OVAs",
-      "Sailor Moon",
-      "Sailor Moon R",
-      "Sailor Moon S",
-      "Sailor Moon SuperS",
-      "Sailor Moon Sailor Stars"
-    ],
-    "extra_keys": [
-      "title_text_format",
-      "stroke_color",
-      "episode_text_color",
-      "kanji_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "{f':{NEWLINE}'.join(title_text.split(\": \" ))}",
-      "#e87087",
-      "#fee775",
-      "#fee775",
-      "#e87087"
-    ],
     "template_ids": [],
     "auto_split_title": false,
     "font_color": "#fee775",
     "font_size": 1.5,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "0": "OVAs",
+      "1": "Sailor Moon",
+      "2": "Sailor Moon R",
+      "3": "Sailor Moon S",
+      "4": "Sailor Moon SuperS",
+      "5": "Sailor Moon Sailor Stars"
+    },
+    "extras": {
+      "title_text_format": "{f':{NEWLINE}'.join(title_text.split(\": \" ))}",
+      "stroke_color": "#e87087",
+      "episode_text_color": "#fee775",
+      "kanji_color": "#fee775",
+      "episode_stroke_color": "#e87087"
+    }
   },
   "episodes": {
     "s1e38": {
@@ -94,13 +79,10 @@
       "match_title": false
     },
     "s2e41": {
-      "extra_keys": [
-        "kanji"
-      ],
-      "extra_values": [
-        "\u611b\u3068\u672a\u6765\u3092\u4fe1\u3058\u3066\uff01\u3046\u3055\u304e\u306e\u6c7a\u5fc3"
-      ],
-      "template_ids": []
+      "template_ids": [],
+      "extras": {
+        "kanji": "愛と未来を信じて！うさぎの決心"
+      }
     },
     "s3e3": {
       "template_ids": [],
@@ -129,7 +111,7 @@
     "s4e7": {
       "template_ids": [],
       "auto_split_title": false,
-      "title": "Makoto\u2019s Friendship!\\nThe Girl Who Admired Pegasus",
+      "title": "Makoto’s Friendship!\\nThe Girl Who Admired Pegasus",
       "match_title": false
     },
     "s4e20": {
@@ -181,7 +163,7 @@
       "interword_spacing": 30,
       "line_split_modifier": 20,
       "replacements_in": [
-        "\u2019",
+        "’",
         "~"
       ],
       "replacements_out": [

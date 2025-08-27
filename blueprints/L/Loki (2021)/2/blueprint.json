@@ -1,12 +1,9 @@
 {
   "series": {
     "card_type": "shape",
-    "extra_keys": [
-      "shape_color"
-    ],
-    "extra_values": [
-      "rgb(101,189,108)"
-    ]
+    "extras": {
+      "shape_color": "rgb(101,189,108)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

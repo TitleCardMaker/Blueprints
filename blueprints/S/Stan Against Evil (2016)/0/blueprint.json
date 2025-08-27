@@ -2,35 +2,24 @@
   "series": {
     "font_id": 0,
     "card_type": "Supremicus/DawnTitleCard",
-    "extra_keys": [
-      "season_text_format",
-      "episode_text_vertical_shift",
-      "episode_text_font",
-      "episode_text_font_size",
-      "episode_text_kerning",
-      "omit_gradient"
-    ],
-    "extra_values": [
-      "SEASON {to_cardinal(season_number)}",
-      "60",
-      "{title_font}",
-      "0.9",
-      "1",
-      "False"
-    ]
+    "extras": {
+      "season_text_format": "SEASON {to_cardinal(season_number)}",
+      "episode_text_vertical_shift": "60",
+      "episode_text_font": "{title_font}",
+      "episode_text_font_size": "0.9",
+      "episode_text_kerning": "1",
+      "omit_gradient": "False"
+    }
   },
   "episodes": {
     "s3e4": {
-      "extra_keys": [
-        "episode_text_vertical_shift"
-      ],
-      "extra_values": [
-        "90"
-      ],
       "template_ids": [],
       "auto_split_title": false,
       "title": "The Demon Who\\nCame in From the Heat",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "episode_text_vertical_shift": "90"
+      }
     }
   },
   "fonts": [
@@ -42,7 +31,7 @@
       "replacements_in": [
         "(1)",
         "(2)",
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         ": Part 1",

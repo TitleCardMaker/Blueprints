@@ -2,17 +2,13 @@
   "series": {
     "card_type": "notification",
     "hide_season_text": true,
-    "extra_keys": [
-      "title_text_format",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "\"\"",
-      "6"
-    ],
     "source_files": [
       "backdrop.jpg"
-    ]
+    ],
+    "extras": {
+      "title_text_format": "\"\"",
+      "episode_text_font_size": "6"
+    }
   },
   "creator": "BattleChambers",
   "description": [

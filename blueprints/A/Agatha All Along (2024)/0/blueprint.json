@@ -1,15 +1,12 @@
 {
   "series": {
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Miniseries"
-    ],
     "template_ids": [
       0
     ],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "Miniseries"
+    }
   },
   "episodes": {
     "s1e2": {

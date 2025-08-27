@@ -3,16 +3,13 @@
     "card_type": "logo",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "use_background_image"
-    ],
-    "extra_values": [
-      "true"
-    ],
     "font_id": 0,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "use_background_image": "true"
+    }
   },
   "fonts": [
     {

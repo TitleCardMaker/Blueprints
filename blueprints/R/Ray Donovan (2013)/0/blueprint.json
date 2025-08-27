@@ -1,12 +1,9 @@
 {
   "series": {
     "card_type": "score",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "white rgb(191,46,35)"
-    ]
+    "extras": {
+      "episode_text_color": "white rgb(191,46,35)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

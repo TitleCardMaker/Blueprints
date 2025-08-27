@@ -2,20 +2,14 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "top_element",
-      "bottom_element",
-      "logo_size",
-      "frame_width"
-    ],
-    "extra_values": [
-      "logo",
-      "title",
-      "2",
-      "6"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2",
+      "frame_width": "6"
+    }
   },
   "episodes": {},
   "templates": [],
@@ -25,8 +19,8 @@
       "delete_missing": true,
       "file": "Ness.ttf",
       "replacements_in": [
-        "\u00cb",
-        "\u00eb"
+        "Ë",
+        "ë"
       ],
       "replacements_out": [
         "E",

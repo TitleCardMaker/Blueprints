@@ -1,24 +1,17 @@
 {
   "series": {
-    "extra_keys": [
-      "episode_text_color",
-      "frame_color",
-      "top_element",
-      "bottom_element",
-      "title_text_format"
-    ],
-    "extra_values": [
-      "rgb(197, 174, 92)",
-      "rgb(197, 174, 92)",
-      "logo",
-      "title",
-      "{(title_text[0].lower() + title_text[1:]).replace(' (1)', '').replace(' (2)', '')}"
-    ],
     "font_id": 0,
     "card_type": "tinted frame",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "match_titles": false
+    "match_titles": false,
+    "extras": {
+      "episode_text_color": "rgb(197, 174, 92)",
+      "frame_color": "rgb(197, 174, 92)",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "title_text_format": "{(title_text[0].lower() + title_text[1:]).replace(' (1)', '').replace(' (2)', '')}"
+    }
   },
   "fonts": [
     {

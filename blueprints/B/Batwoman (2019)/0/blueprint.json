@@ -1,18 +1,12 @@
 {
   "series": {
     "card_type": "comic book",
-    "extra_keys": [
-      "title_text_rotation_angle",
-      "index_text_rotation_angle",
-      "text_box_fill_color",
-      "banner_fill_color"
-    ],
-    "extra_values": [
-      "random[-4, 4]",
-      "random[-4, -3]",
-      "rgba(220,20,60,1)",
-      "rgba(0,0,128,0.6)"
-    ]
+    "extras": {
+      "title_text_rotation_angle": "random[-4, 4]",
+      "index_text_rotation_angle": "random[-4, -3]",
+      "text_box_fill_color": "rgba(220,20,60,1)",
+      "banner_fill_color": "rgba(0,0,128,0.6)"
+    }
   },
   "creator": "MrSaiclops",
   "description": [

@@ -4,16 +4,13 @@
     "card_type": "logo",
     "hide_season_text": true,
     "hide_episode_text": true,
-    "extra_keys": [
-      "title_text_format"
-    ],
-    "extra_values": [
-      "{f':{NEWLINE}'.join(title_text.split(\": \"))}"
-    ],
     "skip_localized_images": true,
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "title_text_format": "{f':{NEWLINE}'.join(title_text.split(\": \"))}"
+    }
   },
   "episodes": {
     "s0e2": {

@@ -11,7 +11,7 @@
       "delete_missing": true,
       "file": "Weidemann-Medium.otf",
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

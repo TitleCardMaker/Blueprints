@@ -9,18 +9,12 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "2"
-    ],
-    "season_title_values": [
-      "The Divine Visionary Candidate Exam Arc"
-    ],
-    "extra_keys": [
-      "stroke_color"
-    ],
-    "extra_values": [
-      "white"
-    ]
+    "season_titles": {
+      "2": "The Divine Visionary Candidate Exam Arc"
+    },
+    "extras": {
+      "stroke_color": "white"
+    }
   },
   "fonts": [
     {

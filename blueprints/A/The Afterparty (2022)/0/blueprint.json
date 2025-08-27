@@ -2,21 +2,14 @@
   "series": {
     "card_type": "tinted glass",
     "episode_text_format": "{season_text} | {to_cardinal(episode_number)}",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "Xavier",
-      "Edgar"
-    ],
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(247,203,77)"
-    ],
-    "template_ids": []
+    "template_ids": [],
+    "season_titles": {
+      "1": "Xavier",
+      "2": "Edgar"
+    },
+    "extras": {
+      "episode_text_color": "rgb(247,203,77)"
+    }
   },
   "episodes": {},
   "templates": [],

@@ -3,12 +3,9 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "episode_text_format": "Case {to_cardinal(episode_number)}",
-    "extra_keys": [
-      "season_text_format"
-    ],
-    "extra_values": [
-      "Season {to_cardinal(season_number)}"
-    ]
+    "extras": {
+      "season_text_format": "Season {to_cardinal(season_number)}"
+    }
   },
   "fonts": [
     {

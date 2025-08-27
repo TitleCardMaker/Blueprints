@@ -1,13 +1,10 @@
 {
   "series": {
     "card_type": "overline",
-    "extra_keys": [
-      "line_color"
-    ],
-    "extra_values": [
-      "rgb(245,249,115)"
-    ],
-    "font_color": "rgb(245,249,115)"
+    "font_color": "rgb(245,249,115)",
+    "extras": {
+      "line_color": "rgb(245,249,115)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

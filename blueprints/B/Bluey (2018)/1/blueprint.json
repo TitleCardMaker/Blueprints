@@ -2,20 +2,13 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_color",
-      "frame_color",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "#88c0e8",
-      "#88c0e8",
-      "logo",
-      "title",
-      "2.0"
-    ]
+    "extras": {
+      "episode_text_color": "#88c0e8",
+      "frame_color": "#88c0e8",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2.0"
+    }
   },
   "fonts": [
     {

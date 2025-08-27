@@ -2,19 +2,15 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "glass_color",
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgba(238, 2, 66, 0.7)",
-      "#ffffe5"
-    ],
     "template_ids": [],
     "font_size": 1.2,
     "font_stroke_width": 0.0,
     "font_vertical_shift": -51,
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "glass_color": "rgba(238, 2, 66, 0.7)",
+      "episode_text_color": "#ffffe5"
+    }
   },
   "episodes": {
     "s0e1": {

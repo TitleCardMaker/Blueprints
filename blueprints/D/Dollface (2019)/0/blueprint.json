@@ -13,7 +13,7 @@
       "delete_missing": true,
       "file": "Candice.ttf",
       "replacements_in": [
-        "\u2019"
+        "’"
       ],
       "replacements_out": [
         "'"

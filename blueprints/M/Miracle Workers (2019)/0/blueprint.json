@@ -1,15 +1,10 @@
 {
   "series": {
-    "season_title_ranges": [
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Dark Ages",
-      "Oregon Trail",
-      "End Times"
-    ]
+    "season_titles": {
+      "2": "Dark Ages",
+      "3": "Oregon Trail",
+      "4": "End Times"
+    }
   },
   "creator": "CollinHeist",
   "description": [

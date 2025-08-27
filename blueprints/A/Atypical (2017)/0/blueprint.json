@@ -2,24 +2,17 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted frame",
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font",
-      "top_element",
-      "bottom_element",
-      "logo_size"
-    ],
-    "extra_values": [
-      "#fff",
-      "{title_font}",
-      "title",
-      "logo",
-      "1.5"
-    ],
     "font_title_case": "title",
     "source_files": [
       "DaftBrush.ttf"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "#fff",
+      "episode_text_font": "{title_font}",
+      "top_element": "title",
+      "bottom_element": "logo",
+      "logo_size": "1.5"
+    }
   },
   "fonts": [
     {

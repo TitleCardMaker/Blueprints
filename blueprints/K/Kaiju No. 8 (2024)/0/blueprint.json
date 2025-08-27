@@ -9,20 +9,13 @@
       }
     ],
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color",
-      "kanji_color",
-      "kanji_stroke_color",
-      "episode_stroke_color"
-    ],
-    "extra_values": [
-      "#a9a8ac",
-      "#bd2124",
-      "#bd2124",
-      "#bd2124",
-      "#a9a8ac"
-    ]
+    "extras": {
+      "episode_text_color": "#a9a8ac",
+      "stroke_color": "#bd2124",
+      "kanji_color": "#bd2124",
+      "kanji_stroke_color": "#bd2124",
+      "episode_stroke_color": "#a9a8ac"
+    }
   },
   "episodes": {
     "s1e2": {

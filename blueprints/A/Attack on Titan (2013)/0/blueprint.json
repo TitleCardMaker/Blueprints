@@ -9,38 +9,22 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s0e2-s0e6",
-      "s0e8-s0e11",
-      "s0e24-s0e30",
-      "s1e1-s1e2",
-      "s1e3-s1e4",
-      "s1e5-s1e13",
-      "s1e14-s1e16",
-      "s1e17-s1e22",
-      "s1e23-s1e25",
-      "2",
-      "s3e1-s3e12",
-      "s3e13-s3e22",
-      "s4e1-s4e9",
-      "s4e10-s4e35"
-    ],
-    "season_title_values": [
-      "Chibi Theatre",
-      "Chibi Theatre",
-      "Chibi Theatre",
-      "The Fall of Shiganshina",
-      "Humanity's Comeback",
-      "The Struggle for Trost",
-      "Eve of the Counterattack",
-      "The 57th Exterior Scouting Mission",
-      "Assault on Stohess",
-      "Clash of the Titans",
-      "Royal Government",
-      "Return to Shiganshina",
-      "Marley",
-      "War for Paradis"
-    ]
+    "season_titles": {
+      "s0e2-s0e6": "Chibi Theatre",
+      "s0e8-s0e11": "Chibi Theatre",
+      "s0e24-s0e30": "Chibi Theatre",
+      "s1e1-s1e2": "The Fall of Shiganshina",
+      "s1e3-s1e4": "Humanity's Comeback",
+      "s1e5-s1e13": "The Struggle for Trost",
+      "s1e14-s1e16": "Eve of the Counterattack",
+      "s1e17-s1e22": "The 57th Exterior Scouting Mission",
+      "s1e23-s1e25": "Assault on Stohess",
+      "2": "Clash of the Titans",
+      "s3e1-s3e12": "Royal Government",
+      "s3e13-s3e22": "Return to Shiganshina",
+      "s4e1-s4e9": "Marley",
+      "s4e10-s4e35": "War for Paradis"
+    }
   },
   "episodes": {
     "s1e1": {

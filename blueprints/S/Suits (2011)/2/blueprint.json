@@ -186,12 +186,6 @@
   },
   "templates": [
     {
-      "extra_keys": [
-        "episode_text_color"
-      ],
-      "extra_values": [
-        "white rgb(92,172,204)"
-      ],
       "name": "Suits (Unwatched)",
       "filters": [
         {
@@ -199,17 +193,17 @@
           "operation": "is false",
           "reference": ""
         }
-      ]
+      ],
+      "extras": {
+        "episode_text_color": "white rgb(92,172,204)"
+      }
     },
     {
-      "extra_keys": [
-        "episode_text_color"
-      ],
-      "extra_values": [
-        "white rgb(201,36,44)"
-      ],
       "name": "Suits (Watched)",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "episode_text_color": "white rgb(201,36,44)"
+      }
     }
   ],
   "creator": "CollinHeist",

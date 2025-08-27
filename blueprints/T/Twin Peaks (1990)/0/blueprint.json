@@ -3,20 +3,13 @@
     "font_id": 0,
     "card_type": "standard",
     "episode_text_format": "Part {episode_number}",
-    "season_title_ranges": [
-      "3"
-    ],
-    "season_title_values": [
-      "The Return"
-    ],
-    "extra_keys": [
-      "episode_text_color",
-      "stroke_color"
-    ],
-    "extra_values": [
-      "red",
-      "#39a11e"
-    ]
+    "season_titles": {
+      "3": "The Return"
+    },
+    "extras": {
+      "episode_text_color": "red",
+      "stroke_color": "#39a11e"
+    }
   },
   "episodes": {
     "s0e2": {

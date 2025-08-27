@@ -1,16 +1,12 @@
 {
   "series": {
     "card_type": "tinted frame",
-    "season_title_ranges": [
-      "1",
-      "2"
-    ],
-    "season_title_values": [
-      "The Brass Verdict",
-      "The Fifth Witness"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "1": "The Brass Verdict",
+      "2": "The Fifth Witness"
+    }
   },
   "episodes": {},
   "templates": [],

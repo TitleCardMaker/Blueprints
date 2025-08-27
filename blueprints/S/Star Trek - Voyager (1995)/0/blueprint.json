@@ -1,18 +1,15 @@
 {
   "series": {
     "card_type": "standard",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "#fde59f"
-    ],
     "template_ids": [
       0
     ],
     "auto_split_title": true,
     "font_color": "#fde59f",
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "episode_text_color": "#fde59f"
+    }
   },
   "episodes": {
     "s1e1": {
@@ -31,16 +28,12 @@
   "templates": [
     {
       "font_id": 0,
-      "extra_keys": [
-        "episode_text_color",
-        "episode_text_font_size"
-      ],
-      "extra_values": [
-        "#fde698",
-        "1.2"
-      ],
       "name": "Star Trek Episodes",
-      "filters": []
+      "filters": [],
+      "extras": {
+        "episode_text_color": "#fde698",
+        "episode_text_font_size": "1.2"
+      }
     }
   ],
   "fonts": [

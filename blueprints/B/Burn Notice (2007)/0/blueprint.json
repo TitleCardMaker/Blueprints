@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "tinted glass",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "white"
-    ]
+    "extras": {
+      "episode_text_color": "white"
+    }
   },
   "fonts": [
     {

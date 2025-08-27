@@ -9,18 +9,12 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "season_title_values": [
-      "Kaikou",
-      "Seiran",
-      "Collision",
-      "Sakubou"
-    ]
+    "season_titles": {
+      "1": "Kaikou",
+      "2": "Seiran",
+      "3": "Collision",
+      "4": "Sakubou"
+    }
   },
   "fonts": [
     {

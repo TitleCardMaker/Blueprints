@@ -1,16 +1,13 @@
 {
   "series": {
     "card_type": "calligraphy",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(145, 4, 4)"
-    ],
     "font_color": "rgb(167, 13, 4)",
     "source_files": [
       "logo.png"
-    ]
+    ],
+    "extras": {
+      "episode_text_color": "rgb(145, 4, 4)"
+    }
   },
   "creator": "CollinHeist",
   "description": [

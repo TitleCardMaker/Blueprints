@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "cascade",
-    "extra_keys": [
-      "box_adjustments",
-      "cascade_outline_color",
-      "cascade_width"
-    ],
-    "extra_values": [
-      "25 0 0 0",
-      "rgb(176,48,50)",
-      "8"
-    ]
+    "extras": {
+      "box_adjustments": "25 0 0 0",
+      "cascade_outline_color": "rgb(176,48,50)",
+      "cascade_width": "8"
+    }
   },
   "fonts": [
     {
@@ -20,14 +15,14 @@
       "file": "Dead Stock.ttf",
       "interword_spacing": 30,
       "replacements_in": [
-        "\u00e1",
+        "á",
         "(",
         ")",
-        "\u00c1",
+        "Á",
         "~",
-        "\u2019",
-        "\u00e9",
-        "\u00c9",
+        "’",
+        "é",
+        "É",
         "-"
       ],
       "replacements_out": [

@@ -4,14 +4,10 @@
     "card_type": "tinted frame",
     "hide_season_text": true,
     "episode_text_format": "Episode {absolute_episode_number}",
-    "extra_keys": [
-      "episode_text_font_size",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "2",
-      "#e8dd97"
-    ]
+    "extras": {
+      "episode_text_font_size": "2",
+      "shadow_color": "#e8dd97"
+    }
   },
   "fonts": [
     {

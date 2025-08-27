@@ -2,19 +2,13 @@
   "series": {
     "card_type": "shape",
     "hide_episode_text": true,
-    "season_title_ranges": [
-      "1"
-    ],
-    "season_title_values": [
-      "Part {titlecase(to_cardinal(episode_number))}"
-    ],
-    "extra_keys": [
-      "shape_color"
-    ],
-    "extra_values": [
-      "rgb(228,213,70)"
-    ],
-    "match_titles": false
+    "match_titles": false,
+    "season_titles": {
+      "1": "Part {titlecase(to_cardinal(episode_number))}"
+    },
+    "extras": {
+      "shape_color": "rgb(228,213,70)"
+    }
   },
   "episodes": {
     "s1e1": {

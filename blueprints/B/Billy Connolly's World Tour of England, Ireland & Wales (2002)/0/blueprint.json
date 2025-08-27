@@ -1,17 +1,12 @@
 {
   "series": {
     "card_type": "striped",
-    "extra_keys": [
-      "overlay_color",
-      "episode_text_color",
-      "episode_text_font_size"
-    ],
-    "extra_values": [
-      "#218DC3",
-      "white",
-      "2.0"
-    ],
-    "font_color": "Yellow"
+    "font_color": "Yellow",
+    "extras": {
+      "overlay_color": "#218DC3",
+      "episode_text_color": "white",
+      "episode_text_font_size": "2.0"
+    }
   },
   "creator": "TechJedi51",
   "description": [

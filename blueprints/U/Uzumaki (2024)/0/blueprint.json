@@ -1,67 +1,52 @@
 {
   "series": {
     "card_type": "negative space",
-    "extra_keys": [
-      "text_side"
-    ],
-    "extra_values": [
-      "right"
-    ],
     "template_ids": [],
     "source_files": [
       "s1e4.jpg",
       "s1e1.jpg",
       "s1e3.jpg",
       "s1e2.jpg"
-    ]
+    ],
+    "extras": {
+      "text_side": "right"
+    }
   },
   "episodes": {
     "s1e1": {
-      "extra_keys": [
-        "title_text_horizontal_offset"
-      ],
-      "extra_values": [
-        "250"
-      ],
       "template_ids": [],
       "title": "Episode ",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "title_text_horizontal_offset": "250"
+      }
     },
     "s1e2": {
-      "extra_keys": [
-        "title_text_horizontal_offset"
-      ],
-      "extra_values": [
-        "300"
-      ],
       "template_ids": [],
       "font_color": "black",
       "title": "Episode ",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "title_text_horizontal_offset": "300"
+      }
     },
     "s1e3": {
-      "extra_keys": [
-        "title_text_horizontal_offset"
-      ],
-      "extra_values": [
-        "285"
-      ],
       "template_ids": [],
       "font_vertical_shift": -10,
       "title": "Episode   ",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "title_text_horizontal_offset": "285"
+      }
     },
     "s1e4": {
-      "extra_keys": [
-        "title_text_horizontal_offset"
-      ],
-      "extra_values": [
-        "225"
-      ],
       "template_ids": [],
       "font_vertical_shift": 430,
       "title": "Episode ",
-      "match_title": false
+      "match_title": false,
+      "extras": {
+        "title_text_horizontal_offset": "225"
+      }
     }
   },
   "creator": "CollinHeist",

@@ -1,25 +1,17 @@
 {
   "series": {
     "card_type": "divider",
-    "season_title_ranges": [
-      "s0e1-s0e17"
-    ],
-    "season_title_values": [
-      "Kage-Jitsu!"
-    ],
-    "extra_keys": [
-      "title_text_position",
-      "text_gravity",
-      "text_position"
-    ],
-    "extra_values": [
-      "right",
-      "west",
-      "lower left"
-    ],
     "template_ids": [],
     "match_titles": false,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s0e1-s0e17": "Kage-Jitsu!"
+    },
+    "extras": {
+      "title_text_position": "right",
+      "text_gravity": "west",
+      "text_position": "lower left"
+    }
   },
   "episodes": {
     "s0e1": {

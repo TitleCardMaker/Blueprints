@@ -2,12 +2,6 @@
   "series": {
     "card_type": "anime",
     "episode_text_format": "Mission {absolute_episode_number}",
-    "extra_keys": [
-      "episode_text_color"
-    ],
-    "extra_values": [
-      "rgb(244,188,95)"
-    ],
     "template_ids": [],
     "translations": [
       {
@@ -15,40 +9,27 @@
         "data_key": "kanji"
       }
     ],
-    "season_title_ranges": [
-      "s1e1-s1e2",
-      "s1e3-s1e5",
-      "s1e6-s1e7",
-      "s1e8-s1e9",
-      "s1e10-s1e12",
-      "s1e13-s1e15",
-      "s1e16-s1e19",
-      "s1e20-s1e23",
-      "s1e24-s1e24",
-      "s1e25-s1e25",
-      "s2e4-s2e4",
-      "s2e5-s2e10",
-      "s2e1-s2e10",
-      "s2e11-s2e12"
-    ],
-    "season_title_values": [
-      "Introduction",
-      "Admissions Interview",
-      "Eden Beginnings",
-      "Secret Police",
-      "Stella Star",
-      "Doggy Crisis",
-      "Midterm Exams",
-      "Campbelldon Tennis",
-      "Campbelldon Tennis / Imperial Scholars Mixer",
-      "Imperial Scholars Mixer",
-      "Imperial Scholars Mixer / Cruise Adventure",
-      "Cruise Adventure",
-      "Imperial Scholars Mixer",
-      "WISE"
-    ],
     "font_size": 0.8,
-    "source_files": []
+    "source_files": [],
+    "season_titles": {
+      "s1e1-s1e2": "Introduction",
+      "s1e3-s1e5": "Admissions Interview",
+      "s1e6-s1e7": "Eden Beginnings",
+      "s1e8-s1e9": "Secret Police",
+      "s1e10-s1e12": "Stella Star",
+      "s1e13-s1e15": "Doggy Crisis",
+      "s1e16-s1e19": "Midterm Exams",
+      "s1e20-s1e23": "Campbelldon Tennis",
+      "s1e24-s1e24": "Campbelldon Tennis / Imperial Scholars Mixer",
+      "s1e25-s1e25": "Imperial Scholars Mixer",
+      "s2e4-s2e4": "Imperial Scholars Mixer / Cruise Adventure",
+      "s2e5-s2e10": "Cruise Adventure",
+      "s2e1-s2e10": "Imperial Scholars Mixer",
+      "s2e11-s2e12": "WISE"
+    },
+    "extras": {
+      "episode_text_color": "rgb(244,188,95)"
+    }
   },
   "episodes": {
     "s1e24": {
@@ -65,7 +46,7 @@
     },
     "s1e17": {
       "template_ids": [],
-      "title": "CARRY OUT THE GRIFFIN PLAN\\nFULLMETAL LADY\\nOMELET RICE\u2665",
+      "title": "CARRY OUT THE GRIFFIN PLAN\\nFULLMETAL LADY\\nOMELET RICE♥",
       "match_title": false,
       "auto_split_title": false
     },

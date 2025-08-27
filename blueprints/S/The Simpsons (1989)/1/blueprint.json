@@ -11,12 +11,6 @@
     {
       "font_id": 1,
       "episode_text_format": "Episode {to_roman_numeral(episode_number)}",
-      "extra_keys": [
-        "season_text_format"
-      ],
-      "extra_values": [
-        "Season {to_roman_numeral(season_number)}"
-      ],
       "name": "The Simpsons - Treehouse of Horror",
       "filters": [
         {
@@ -24,7 +18,10 @@
           "operation": "contains",
           "reference": "Treehouse of Horror"
         }
-      ]
+      ],
+      "extras": {
+        "season_text_format": "Season {to_roman_numeral(season_number)}"
+      }
     },
     {
       "font_id": 0,
@@ -41,7 +38,7 @@
       "replacements_in": [
         "-",
         ",",
-        "\u042f",
+        "Я",
         "&",
         "$",
         "|",
@@ -110,9 +107,9 @@
       "color": "rgb(100,196,58)",
       "file": "MeltedMonster-ARPLA.ttf",
       "replacements_in": [
-        "\u044f",
-        "\u2019",
-        "\u042f"
+        "я",
+        "’",
+        "Я"
       ],
       "replacements_out": [
         "ia",

@@ -1,16 +1,12 @@
 {
   "series": {
     "card_type": "formula 1",
-    "extra_keys": [
-      "season_text_format",
-      "race"
-    ],
-    "extra_values": [
-      "Race {episode_number}",
-      "Drive To Survive"
-    ],
     "template_ids": [],
-    "source_files": []
+    "source_files": [],
+    "extras": {
+      "season_text_format": "Race {episode_number}",
+      "race": "Drive To Survive"
+    }
   },
   "creator": "TechJedi51",
   "description": [

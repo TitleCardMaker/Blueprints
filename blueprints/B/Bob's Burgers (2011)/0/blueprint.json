@@ -3,24 +3,15 @@
     "font_id": 0,
     "card_type": "Supremicus/DawnTitleCard",
     "episode_text_format": "EPISODE {episode_number}",
-    "extra_keys": [
-      "season_text_format",
-      "episode_text_vertical_shift",
-      "episode_text_font",
-      "episode_text_font_size",
-      "episode_text_kerning",
-      "h_align",
-      "omit_gradient"
-    ],
-    "extra_values": [
-      "SEASON {season_number}",
-      "30",
-      "{title_font}",
-      "0.9",
-      "5",
-      "center",
-      "False"
-    ]
+    "extras": {
+      "season_text_format": "SEASON {season_number}",
+      "episode_text_vertical_shift": "30",
+      "episode_text_font": "{title_font}",
+      "episode_text_font_size": "0.9",
+      "episode_text_kerning": "5",
+      "h_align": "center",
+      "omit_gradient": "False"
+    }
   },
   "fonts": [
     {

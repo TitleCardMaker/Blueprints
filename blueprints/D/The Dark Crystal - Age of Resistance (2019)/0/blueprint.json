@@ -3,24 +3,15 @@
     "font_id": 0,
     "card_type": "tinted frame",
     "hide_season_text": true,
-    "extra_keys": [
-      "episode_text_color",
-      "episode_text_font",
-      "episode_text_font_size",
-      "episode_text_vertical_shift",
-      "frame_color",
-      "frame_width",
-      "shadow_color"
-    ],
-    "extra_values": [
-      "#de28a1",
-      "{title_font}",
-      "1.5",
-      "-15",
-      "#c7c7c7",
-      "14",
-      "#34035c"
-    ]
+    "extras": {
+      "episode_text_color": "#de28a1",
+      "episode_text_font": "{title_font}",
+      "episode_text_font_size": "1.5",
+      "episode_text_vertical_shift": "-15",
+      "frame_color": "#c7c7c7",
+      "frame_width": "14",
+      "shadow_color": "#34035c"
+    }
   },
   "episodes": {
     "s1e8": {

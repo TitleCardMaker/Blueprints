@@ -2,16 +2,11 @@
   "series": {
     "font_id": 0,
     "card_type": "overline",
-    "extra_keys": [
-      "separator",
-      "line_color",
-      "line_width"
-    ],
-    "extra_values": [
-      "\u00b7",
-      "#ae0001",
-      "14"
-    ]
+    "extras": {
+      "separator": "·",
+      "line_color": "#ae0001",
+      "line_width": "14"
+    }
   },
   "fonts": [
     {

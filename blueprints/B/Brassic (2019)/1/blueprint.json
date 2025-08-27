@@ -2,12 +2,9 @@
   "series": {
     "font_id": 0,
     "card_type": "notification",
-    "extra_keys": [
-      "glass_color"
-    ],
-    "extra_values": [
-      "rgb(248, 1, 56)"
-    ]
+    "extras": {
+      "glass_color": "rgb(248, 1, 56)"
+    }
   },
   "fonts": [
     {
