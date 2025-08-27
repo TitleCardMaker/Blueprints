@@ -17,6 +17,7 @@ ap.add_argument('--parse-submission', action='store_true')
 ap.add_argument('--parse-set-submission', action='store_true')
 ap.add_argument('--resize-images', action='store_true')
 ap.add_argument('--update-database', action='store_true')
+ap.add_argument('--migrate-fields', action='store_true')
 
 args = ap.parse_args()
 
@@ -34,6 +35,10 @@ if args.parse_set_submission:
 if args.lint_blueprints:
     from src.build.lint_blueprints import lint_blueprints
     sequence.append(lint_blueprints)
+
+if args.migrate_fields:
+    from src.build.update_database import migrate_season_titles_and_extras
+    sequence.append(migrate_season_titles_and_extras)
 
 if args.update_database:
     from src.build.update_database import update_database

@@ -6,8 +6,9 @@ This script updates the Blueprint database with all Blueprint data.
 
 
 from datetime import datetime
-from json import dumps, load as json_load, JSONDecodeError
+from json import dump as json_dump, dumps, load as json_load, JSONDecodeError
 from pathlib import Path
+from typing import Any
 
 from src.database.db import db, Blueprint, Series
 from src.build.helper import get_blueprint_folders
@@ -72,6 +73,64 @@ def update_database() -> None:
             print(f'Deleting "{full_name})" Blueprint[{blueprint.blueprint_number}] - not found on file system')
 
     db.commit()
+
+
+def migrate_season_titles_and_extras() -> None:
+
+    def merge_fields(
+            obj: dict,
+            key_field_name: str,
+            value_field_name: str,
+            new_field_name: str,
+        ) -> None:
+
+        key_field = obj.pop(key_field_name, None)
+        value_field = obj.pop(value_field_name, None)
+
+        if key_field is not None and value_field is not None:
+            obj[new_field_name] = {
+                k: v for k, v in zip(key_field, value_field)
+            }
+
+    def process_json(obj: dict | list | Any):
+        """Modify JSON object if it contains titles + ranges."""
+
+        if isinstance(obj, dict):
+            merge_fields(
+                obj,
+                'season_title_ranges',
+                'season_title_values',
+                'season_titles',
+            )
+            merge_fields(
+                obj,
+                'extra_keys',
+                'extra_values',
+                'extras',
+            )
+
+            # Recursively process nested objects
+            for k, v in obj.items():
+                obj[k] = process_json(v)
+
+        elif isinstance(obj, list):
+            obj = [process_json(item) for item in obj]
+
+        return obj
+
+    for json_file in BLUEPRINT_FOLDER.rglob('*.json'):
+        try:
+            with json_file.open('r', encoding='utf-8') as file_handle:
+                data = json_load(file_handle)
+
+            new_data = process_json(data)
+
+            with json_file.open('w', encoding='utf-8') as file_handle:
+                json_dump(new_data, file_handle, indent=2, ensure_ascii=False)
+
+            print(f'Processed {json_file}')
+        except Exception as e:
+            print(f'Skipping {json_file}: {e}')
 
 
 if __name__ == '__main__':
