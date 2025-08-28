@@ -4,8 +4,8 @@ from pathlib import Path
 from re import compile as re_compile
 from typing import Iterator
 
-from models.models import Blueprint
 from build.helper import get_blueprint_folders
+from models.models import Blueprint
 
 
 BLUEPRINT_FOLDER = Path(__file__).parent.parent.parent / 'blueprints'
@@ -41,20 +41,23 @@ def read_blueprints() -> Iterator[tuple[Path, str, dict]]:
 class TestFolderOrganization:
     def test_subfolder_names(self):
         for folder in BLUEPRINT_FOLDER.glob('*'):
-            if folder.name != '.DS_Store':
-                assert folder.name.upper() == folder.name, 'Folder Names Must Be Uppercase'
+            if folder.name == '.DS_Store':
+                continue
+            assert folder.name.upper() == folder.name, 'Folder Names Must Be Uppercase'
 
     def test_series_in_correct_subfolder(self):
         for series_folder in BLUEPRINT_FOLDER.glob('*/*'):
-            if series_folder.name != '.DS_Store':
-                letter, _ = get_blueprint_folders(series_folder.name)
-                assert series_folder.parent.name == letter, 'Series must be placed in the correct letter subfolder'
+            if series_folder.name == '.DS_Store':
+                continue
+            letter, _ = get_blueprint_folders(series_folder.name)
+            assert series_folder.parent.name == letter, 'Series must be placed in the correct letter subfolder'
 
     def test_series_folder_names(self):
         NAME_REGEX = re_compile(r'^.+\(\d{4}\)$')
         for series_folder in BLUEPRINT_FOLDER.glob('*/*'):
-            if series_folder.name != '.DS_Store':
-                assert NAME_REGEX.match(series_folder.name), 'Series Folder Names Must be Formatted as "Name (Year)"'
+            if series_folder.name == '.DS_Store':
+                continue
+            assert NAME_REGEX.match(series_folder.name), 'Series Folder Names Must be Formatted as "Name (Year)"'
 
     def test_series_blueprint_folder_names(self):
         for folder in BLUEPRINT_FOLDER.glob('*/*/*'):
