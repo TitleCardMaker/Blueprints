@@ -7,7 +7,7 @@ Blueprints for importing premade Series configurations into TitleCardMaker.
 
 ## Blueprints
 
-There are currently `851` Blueprints available for `677` Series, submitted by `57` Creators.
+There are currently `854` Blueprints available for `679` Series, submitted by `58` Creators.
 
 Series with the most Blueprints:
 | Series | Blueprints |
@@ -21,16 +21,16 @@ Series with the most Blueprints:
 Creators with the most Blueprint Submissions:
 | Username | Blueprints |
 | :---: | :--- |
-| CollinHeist | 315 |
+| CollinHeist | 317 |
 | Reicha7 | 216 |
 | Azuravian | 40 |
 | MrSaiclops | 36 |
 | flowcool | 33 |
 | anonfawkes | 33 |
 | rtgurley | 17 |
+| Cwavs | 14 |
 | PJ | 13 |
 | TechJedi51 | 13 |
-| Cwavs | 13 |
 | BenevolentNPC | 12 |
 | DeepDaddyTTV | 12 |
 | inapptom | 12 |
@@ -78,11 +78,12 @@ Creators with the most Blueprint Submissions:
 | hbooo | 1 |
 | barberq | 1 |
 | ignore1616 | 1 |
+| KingOfTheSeas643 | 1 |
 
 
 ## Sets
 
-There are currently `21` Blueprint Sets available:
+There are currently `22` Blueprint Sets available:
 
 | Set ID | Name  | Linked Blueprints |
 | :----: | :---: | :--- |
@@ -107,4 +108,5 @@ There are currently `21` Blueprint Sets available:
 | `19` | Star Trek | Star Trek: Lower Decks [0]<br>Star Trek: Voyager [0]<br>Star Trek: The Next Generation [2]<br>Star Trek: Deep Space Nine [1]<br>+3 more |
 | `20` | Life on Mars (a.k.a. Gene Hunt's World) | Ashes to Ashes [0]<br>Life on Mars [0] |
 | `21` | RWBY Universe | RWBY: Ice Queendom [0]<br>RWBY [0] |
+| `22` | Dexter with Series Subtitles | Dexter: New Blood [2]<br>Dexter [0]<br>Dexter: Original Sin [0]<br>Dexter: Resurrection [2] |
 
