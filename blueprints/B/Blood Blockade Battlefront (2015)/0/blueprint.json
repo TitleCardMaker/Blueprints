@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2"
+    ],
+    "season_title_values": [
+      "Blood Blockade Battlefront",
+      "Blood Blockade Battlefront & Beyond"
+    ],
+    "extra_keys": [
+      "kanji_vertical_shift"
+    ],
+    "extra_values": [
+      "1"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Blood Blockade Battlefront",
+      "file": "Futura Extra Black Condensed Regular.otf",
+      "interline_spacing": 20,
+      "title_case": "source"
+    }
+  ],
+  "creator": "KingOfTheSeas643",
+  "description": [
+    "Anime card with custom season titles and Japanese Kanji (some episodes do not have kanji for them)."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-09-08T01:36:28"
+}
