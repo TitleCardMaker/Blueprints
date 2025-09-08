@@ -1,0 +1,20 @@
+{
+  "series": {
+    "hide_season_text": true,
+    "card_type": "calligraphy",
+    "font_color": "rgb(215, 189, 129)",
+    "episode_text_format": "Episode {to_ordinal(absolute_episode_number).title()}",
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "CollinHeist",
+  "description": [
+    "Calligraphy card with no season text, and the episode/title text recolored gold to match the logo. I recommend using this with a blurred unwatched style."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-09-08T01:33:49"
+}
