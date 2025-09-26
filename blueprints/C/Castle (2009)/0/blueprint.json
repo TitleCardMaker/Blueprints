@@ -1,0 +1,23 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "extra_keys": [
+      "shadow_color"
+    ],
+    "extra_values": [
+      "black"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Calligraphy style card with white version of the series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-09-25T20:16:54"
+}
