@@ -1,0 +1,27 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extras": {
+      "frame_color": "white",
+      "top_element": "logo",
+      "bottom_element": "title",
+      "logo_size": "2"
+    }
+  },
+  "fonts": [
+    {
+      "color": "rgb(250, 131, 5)",
+      "name": "Traitors",
+      "file": "dilemma-serif-bold.otf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Inspired by inapptom's design for The Traitors but incorporating the orange from the series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-27T19:53:55"
+}
