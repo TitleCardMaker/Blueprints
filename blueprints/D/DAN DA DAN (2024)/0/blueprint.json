@@ -1,0 +1,106 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "extras": {
+      "episode_text_color": "rgb(224, 21, 26)",
+      "episode_text_font_size": "1",
+      "logo_size": "3",
+      "stroke_color": "white",
+      "episode_stroke_color": "white",
+      "kanji_vertical_shift": "0",
+      "kanji_color": "rgb(224, 21, 26)",
+      "logo_position": "top right",
+      "kanji_font_size": "1.5",
+      "kanji_stroke_color": "white",
+      "kanji_stroke_width": "1.1"
+    },
+    "season_titles": {
+      "s1e01-s1e04": "Turbo Granny Arc",
+      "s1e06-s1e07": "Acrobatic Silky Arc",
+      "s1e08-s1e10": "Serpo Arc",
+      "s1e11-s2e05": "Cursed House Arc",
+      "s2e06-s2e09": "Evil Eye Arc",
+      "s2e10-s2e12": "Kaiju Arc"
+    }
+  },
+  "episodes": {
+    "s1e1": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e2": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e3": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e4": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e5": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e8": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e9": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e10": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s1e12": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e1": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e3": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e5": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e9": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e10": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s2e12": {
+      "auto_split_title": false,
+      "extras": {}
+    }
+  },
+  "fonts": [
+    {
+      "name": "dandadan",
+      "color": "rgb(224, 21, 26)",
+      "size": 1.0,
+      "stroke_width": 1.5,
+      "file": "Samdan.ttf"
+    }
+  ],
+  "creator": "anonfawkes",
+  "description": [
+    "Anime card type using the arc season titles, a custom font, and a red logo in the top right for season 1 and a white logo for season 2."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-27T20:01:31"
+}

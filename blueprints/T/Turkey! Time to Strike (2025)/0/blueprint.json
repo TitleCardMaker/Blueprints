@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "hide_season_text": true,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "font_color": "rgb(255, 95, 165)",
+    "font_stroke_width": 0.0,
+    "episode_text_format": "Strike {episode_number}",
+    "extras": {
+      "episode_stroke_color": "rgb(255, 95, 165)",
+      "kanji_color": "rgb(255, 95, 165)",
+      "kanji_stroke_width": "0"
+    }
+  },
+  "episodes": {
+    "s1e6": {
+      "auto_split_title": false,
+      "title": "Reverse Hook,\\nClear Across",
+      "match_title": false,
+      "extras": {}
+    }
+  },
+  "fonts": [
+    {
+      "name": "Helvetica Bold",
+      "file": "Helvetica-Bold-Font.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime-style card with the Helvetica font to try and match the title with the white and pink episode color to match the pin in the logo. Also renamed \"Episode\" to \"Strike\" to match the theme of the show and tweaked auto-split on Episode 6."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-27T20:00:08"
+}
