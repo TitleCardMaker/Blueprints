@@ -1,0 +1,76 @@
+{
+  "series": {
+    "font_id": 0,
+    "translations": [
+      {
+        "language_code": "en",
+        "data_key": "kanji"
+      }
+    ],
+    "card_type": "anime",
+    "season_title_ranges": [
+      "s1e1-s1e12",
+      "s2e1-s2e12",
+      "s3e1-s3e12",
+      "s3e13-s3e24",
+      "s0e3-s0e3",
+      "s0e4-s0e4"
+    ],
+    "season_title_values": [
+      "Season 1",
+      "\u221aA",
+      "re",
+      "re - Part 2",
+      "OVA: Jack",
+      "OVA: Pinto"
+    ],
+    "extra_keys": [
+      "episode_text_font_size",
+      "separator",
+      "kanji_font_size",
+      "omit_gradient",
+      "episode_text_color",
+      "stroke_color",
+      "season_text_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      ".85",
+      "X",
+      ".9",
+      "False",
+      "#8B0000",
+      "#8B0000",
+      "#8B0000",
+      "10",
+      "#FF4040",
+      "black"
+    ]
+  },
+  "episodes": {
+    "s0e4": {
+      "template_ids": [],
+      "title": "Pinto"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Tokyo Ghoul",
+      "color": "black",
+      "file": "DOWNCOME.TTF",
+      "size": 1.3,
+      "vertical_shift": -40
+    }
+  ],
+  "creator": "KingOfTheSeas643",
+  "description": [
+    "Anime card with Tokyo Ghoul font, custom season titles, and no Kanji text."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-10-27T19:58:45"
+}
