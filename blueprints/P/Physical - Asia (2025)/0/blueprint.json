@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": [],
+    "extras": {},
+    "season_titles": {}
+  },
+  "fonts": [
+    {
+      "name": "Physical 100",
+      "file": "gravtrac compressed bd.otf",
+      "size": 1.5
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard title card with custom font to match the style I used for the original Physical: 100."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-29T15:53:22"
+}
