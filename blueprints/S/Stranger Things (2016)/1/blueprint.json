@@ -20,7 +20,7 @@
       "SEASON {to_cardinal(season_number)}",
       "#8e1519",
       "20",
-      "{title_font}",
+      "{font_file}",
       "1.2",
       "10",
       "center",
