@@ -1,0 +1,28 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "striped",
+    "extras": {
+      "episode_text_color": "rgb(255, 27, 28)",
+      "inset": "10",
+      "inter_stripe_spacing": "9",
+      "overlay_color": "black",
+      "polygons": "slmms+"
+    }
+  },
+  "fonts": [
+    {
+      "name": "9-1-1",
+      "file": "BaiJamjuree-Bold.ttf",
+      "color": "rgb(255, 27, 28)"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Striped style card with a red custom font similar to the the branding. The stripes are organised in a large-small-small pattern to try and thematically mimic the 9-1-1."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-29T15:55:19"
+}
