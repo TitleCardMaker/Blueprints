@@ -175,7 +175,7 @@ def parse_bp_submission(
 
     # Parse blueprint as JSON
     try:
-        blueprint = loads(data['blueprint'])
+        blueprint: dict = loads(data['blueprint'])
     except JSONDecodeError:
         print(f'Unable to parse blueprint as JSON')
         print(f'{data["blueprint"]=!r}')
@@ -187,6 +187,20 @@ def parse_bp_submission(
         for line in data['description'].splitlines()
         if line.strip()
     ]
+
+    # Migrate season titles and extras from new format to old format
+    # for backwards compatibility
+    if (stitles := blueprint['series'].pop('season_titles', {})):
+        blueprint['series']['season_title_ranges'] = list(stitles.keys())
+        blueprint['series']['season_title_values'] = list(stitles.values())
+    if (extras := blueprint['series'].pop('extras', {})):
+        blueprint['series']['extra_keys'] = list(extras.keys())
+        blueprint['series']['extra_values'] = list(extras.values())
+    # Migrate episode extras
+    for ep_key, epb in blueprint.get('episodes', {}).items():
+        if (extras := epb.pop('extras', {})):
+            blueprint['episodes'][ep_key]['extra_keys'] = list(extras.keys())
+            blueprint['episodes'][ep_key]['extra_values'] = list(extras.values())
 
     return {
         'series_name': data['series_name'].strip(),
@@ -349,7 +363,10 @@ def parse_and_create_blueprint():
     blueprint_file = blueprint_subfolder / 'blueprint.json'
     with blueprint_file.open('w') as file_handle:
         json_dump(submission['blueprint'], file_handle, indent=2)
-    print(f'Wrote Blueprint at blueprints/{letter}/{folder_name}/{blueprint.blueprint_number}/blueprint.json')
+    print((
+        f'Wrote Blueprint at blueprints/{letter}/{folder_name}/'
+        f'{blueprint.blueprint_number}/blueprint.json'
+    ))
     print(f'{"-" * 25}\n{submission["blueprint"]}\n{"-" * 25}')
 
 
