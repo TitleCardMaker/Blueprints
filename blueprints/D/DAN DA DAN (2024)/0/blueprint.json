@@ -2,19 +2,32 @@
   "series": {
     "font_id": 0,
     "card_type": "anime",
-    "extras": {
-      "episode_text_color": "rgb(224, 21, 26)",
-      "episode_text_font_size": "1",
-      "logo_size": "3",
-      "stroke_color": "white",
-      "episode_stroke_color": "white",
-      "kanji_vertical_shift": "0",
-      "kanji_color": "rgb(224, 21, 26)",
-      "logo_position": "top right",
-      "kanji_font_size": "1.5",
-      "kanji_stroke_color": "white",
-      "kanji_stroke_width": "1.1"
-    },
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "logo_size",
+      "stroke_color",
+      "episode_stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "logo_position",
+      "kanji_font_size",
+      "kanji_stroke_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "rgb(224, 21, 26)",
+      "1",
+      "3",
+      "white",
+      "white",
+      "0",
+      "rgb(224, 21, 26)",
+      "top right",
+      "1.5",
+      "white",
+      "1.1"
+    ],
     "season_titles": {
       "s1e01-s1e04": "Turbo Granny Arc",
       "s1e06-s1e07": "Acrobatic Silky Arc",
@@ -26,64 +39,49 @@
   },
   "episodes": {
     "s1e1": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e2": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e3": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e4": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e5": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e8": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e9": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e10": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s1e12": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e1": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e3": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e5": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e9": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e10": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     },
     "s2e12": {
-      "auto_split_title": false,
-      "extras": {}
+      "auto_split_title": false
     }
   },
   "fonts": [

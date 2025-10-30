@@ -38,9 +38,14 @@ def update_database() -> None:
                 continue
 
             # Find associated Blueprint
-            blueprint = db.query(Blueprint)\
-                .filter_by(series_id=series.id, blueprint_number=blueprint_number)\
-                .first()
+            blueprint = (
+                db.query(Blueprint)\
+                    .filter_by(
+                        series_id=series.id,
+                        blueprint_number=blueprint_number
+                    )
+                    .first()
+            )
             if blueprint is None:
                 print(f'Cannot find Blueprint[{series.name} ({series.year})][{blueprint_number}]')
                 continue
@@ -63,10 +68,12 @@ def update_database() -> None:
     for blueprint in db.query(Blueprint).all():
         full_name = f'{blueprint.series.name} ({blueprint.series.year})'
         letter, _ = get_blueprint_folders(full_name)
-        blueprint_file = BLUEPRINT_FOLDER \
-            / str(letter) \
-            / blueprint.series.path_name \
-            / str(blueprint.blueprint_number)
+        blueprint_file = (
+            BLUEPRINT_FOLDER
+                / str(letter)
+                / blueprint.series.path_name
+                / str(blueprint.blueprint_number)
+            )
         
         if not blueprint_file.exists():
             db.delete(blueprint)
@@ -92,7 +99,7 @@ def migrate_season_titles_and_extras() -> None:
                 k: v for k, v in zip(key_field, value_field)
             }
 
-    def process_json(obj: dict | list | Any):
+    def process_json(obj: dict | list | Any) -> dict | list | Any:
         """Modify JSON object if it contains titles + ranges."""
 
         if isinstance(obj, dict):
@@ -114,7 +121,7 @@ def migrate_season_titles_and_extras() -> None:
                 obj[k] = process_json(v)
 
         elif isinstance(obj, list):
-            obj = [process_json(item) for item in obj]
+            return [process_json(item) for item in obj]
 
         return obj
 
