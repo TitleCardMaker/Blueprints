@@ -111,9 +111,11 @@ def create_new_blueprint(
     series = db.query(Series).filter(or_(*id_conditions)).first()
     if not id_conditions or not series:
         # If not found, match by name + year
-        series = db.query(Series)\
-            .filter_by(name=series_name, year=series_year)\
-            .first()
+        series = (
+            db.query(Series)
+                .filter_by(name=series_name, year=series_year)
+                .first()
+        )
 
     # If not found, create new Series
     if not series:
@@ -127,9 +129,11 @@ def create_new_blueprint(
         print(f'Added {series_name} ({series_year}) to Database as Series[{series.id}]')
 
     # Get Bluprint number
-    blueprint_number = db.query(func.max(Blueprint.blueprint_number))\
-        .filter_by(series_id=series.id)\
-        .scalar()
+    blueprint_number = (
+        db.query(func.max(Blueprint.blueprint_number))
+            .filter_by(series_id=series.id)
+            .scalar()
+    )
     if blueprint_number is None:
         blueprint_number = 0
     else:
