@@ -1,0 +1,97 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "0",
+      "s1e1-s1e4",
+      "s1e5-s1e6",
+      "s1e7-s1e8",
+      "s1e9-s1e9",
+      "s1e10-s1e10",
+      "s1e11-s1e11",
+      "s1e12-s1e14",
+      "s1e15-s1e18",
+      "s1e19-s1e19",
+      "s1e20-s1e20",
+      "s1e21-s1e23",
+      "s1e24-s1e28",
+      "s1e29-s1e29",
+      "s1e30-s1e30",
+      "s1e31-s1e45",
+      "s1e46-s1e64"
+    ],
+    "season_title_values": [
+      "OVA",
+      "First Arc",
+      "Scar Arc",
+      "Laboratory 5 Arc",
+      "Laboratory 5 Arc/Post Lab 5 Arc",
+      "Post Lab 5 Arc",
+      "Rush Valley Arc",
+      "Dublith Arc",
+      "Ling Arc",
+      "Ling Arc/Revelations Arc",
+      "Revelations Arc",
+      "Scar Returns Arc",
+      "Envy Arc",
+      "Envy Arc/Ishval Arc",
+      "Ishval Arc",
+      "Briggs Arc",
+      "The Promised Day Arc"
+    ],
+    "extra_keys": [
+      "kanji_color",
+      "stroke_color",
+      "episode_text_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "black",
+      "white",
+      "#bb1319",
+      "white"
+    ]
+  },
+  "episodes": {
+    "s0e1": {
+      "episode_text": "#1"
+    },
+    "s0e2": {
+      "episode_text": "#2"
+    },
+    "s0e3": {
+      "episode_text": "#3"
+    },
+    "s0e4": {
+      "episode_text": "#4"
+    }
+  },
+  "fonts": [
+    {
+      "name": "FMA Brotherhood",
+      "color": "#b5b3ba",
+      "file": "gunmetl.ttf",
+      "replacements_in": [
+        "\u00fc"
+      ],
+      "replacements_out": [
+        "u"
+      ]
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Variation of existing anime-style card using absolute episode numbering and arcs for season text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-30T05:26:46"
+}
