@@ -1,0 +1,32 @@
+{
+  "series": {
+    "card_type": "striped",
+    "template_ids": [],
+    "font_color": "rgb(237, 205, 49)",
+    "font_title_case": "upper",
+    "source_files": [],
+    "episode_text_format": "EPISODE {to_cardinal(episode_number).upper()}",
+    "season_title_ranges": [
+      "s1e1-s99e99"
+    ],
+    "season_title_values": [
+      "SEASON {to_cardinal(season_number).upper()}"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "overlay_color"
+    ],
+    "extra_values": [
+      "rgb(237, 205, 49)",
+      "rgb(14, 60, 75)"
+    ]
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Striped style card using latest season's colour and some case changes to better match the logo style."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-30T05:21:55"
+}

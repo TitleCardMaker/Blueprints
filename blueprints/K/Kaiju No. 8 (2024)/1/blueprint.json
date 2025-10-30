@@ -1,0 +1,92 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "season_title_ranges": [
+      "s1e1-s1e5",
+      "s1e6-s1e8",
+      "s1e9-s1e10",
+      "s1e11-s1e12",
+      "s2e1-s2e5",
+      "s2e6-s2e7",
+      "s2e8-s2e8",
+      "s2e9-s2e10",
+      "s2e11-s2e11"
+    ],
+    "season_title_values": [
+      "The Man Who Became a Kaiju Arc",
+      "Sagamihara Subjugation Operation Arc",
+      "Raid on Tachikawa Base Arc",
+      "Kaiju No. 8 Captured Arc",
+      "Kaiju Weapon Arc",
+      "Compatible User Arc",
+      "Compatible User Arc/Cataclysms Arc",
+      "Cataclysms Arc",
+      "Cataclysms Arc/Second Wave Arc"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color",
+      "kanji_color",
+      "kanji_stroke_color",
+      "episode_stroke_color"
+    ],
+    "extra_values": [
+      "#a9a8ac",
+      "#bd2124",
+      "#bd2124",
+      "#bd2124",
+      "#a9a8ac"
+    ]
+  },
+  "episodes": {
+    "s1e2": {
+      "auto_split_title": false,
+      "title": "The Kaiju Who\\nDefeats Kaiju",
+      "match_title": false
+    },
+    "s1e8": {
+      "auto_split_title": false,
+      "title": "Welcome to the\\nDefense Force",
+      "match_title": false
+    },
+    "s1e1": {
+      "auto_split_title": false,
+      "title": "The Man Who\\nBecame a Kaiju",
+      "match_title": false
+    },
+    "s2e4": {
+      "auto_split_title": false,
+      "title": "The Man Called\\nIsao Shinomiya",
+      "match_title": false
+    },
+    "s2e5": {
+      "auto_split_title": false,
+      "title": "I Want to\\nBe Strong",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Kaiju",
+      "color": "black",
+      "interline_spacing": 15,
+      "file": "gomarice_kaiju_monster.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Variation of existing anime-style card using absolute episode numbering and arcs for season text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-30T05:25:12"
+}
