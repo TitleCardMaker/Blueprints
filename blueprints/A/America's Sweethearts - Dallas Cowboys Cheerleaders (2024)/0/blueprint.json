@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "frame",
+    "hide_season_text": true,
+    "hide_episode_text": true
+  },
+  "episodes": {
+    "s2e1": {
+      "title": "Promise Yourself - Part 1",
+      "match_title": false
+    },
+    "s2e2": {
+      "title": "Promise Yourself - Part 2",
+      "match_title": false
+    },
+    "s2e5": {
+      "auto_split_title": false,
+      "font_size": 1.2
+    }
+  },
+  "fonts": [
+    {
+      "name": "Community",
+      "color": "#023bb9",
+      "file": "Community.ttf",
+      "size": 1.4,
+      "stroke_width": 1.25,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Frame style card using the same font from Community to match the show's font. Done to try and mimic a yearbook style photo. One Episode has text size reduced to fit in a single line."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-30T05:28:04"
+}
