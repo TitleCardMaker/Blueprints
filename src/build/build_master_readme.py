@@ -113,7 +113,7 @@ def build_master_readme() -> None:
 
     # Write README file
     readme_file = Path(__file__).parent.parent.parent / 'README.md'
-    readme_file.write_text(readme)
+    _ = readme_file.write_text(readme)
 
 
 if __name__ == '__main__':

@@ -329,7 +329,7 @@ def parse_and_create_blueprint():
     ]
 
     # Download any font zip files if provided
-    download_zip(submission['font_zip_url'], blueprint_subfolder)
+    _ = download_zip(submission['font_zip_url'], blueprint_subfolder)
 
     # Download source files
     source_files = download_zip(
