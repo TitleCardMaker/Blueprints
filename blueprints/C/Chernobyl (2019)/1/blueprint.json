@@ -5,17 +5,13 @@
     "hide_season_text": true,
     "hide_episode_text": true,
     "template_ids": [],
-    "font_size": 2.0,
-    "source_files": [],
-    "extras": {},
-    "season_titles": {}
+    "font_size": 2.0
   },
   "episodes": {
     "s1e4": {
       "auto_split_title": false,
       "title": "The Happiness\\nof All Mankind",
-      "match_title": false,
-      "extras": {}
+      "match_title": false
     }
   },
   "fonts": [

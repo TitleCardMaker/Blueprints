@@ -12,18 +12,22 @@
     "font_color": "rgb(255, 95, 165)",
     "font_stroke_width": 0.0,
     "episode_text_format": "Strike {episode_number}",
-    "extras": {
-      "episode_stroke_color": "rgb(255, 95, 165)",
-      "kanji_color": "rgb(255, 95, 165)",
-      "kanji_stroke_width": "0"
-    }
+    "extra_keys": [
+      "episode_stroke_color",
+      "kanji_color",
+      "kanji_stroke_width"
+    ],
+    "extra_values": [
+      "rgb(255, 95, 165)",
+      "rgb(255, 95, 165)",
+      "0"
+    ]
   },
   "episodes": {
     "s1e6": {
       "auto_split_title": false,
       "title": "Reverse Hook,\\nClear Across",
-      "match_title": false,
-      "extras": {}
+      "match_title": false
     }
   },
   "fonts": [

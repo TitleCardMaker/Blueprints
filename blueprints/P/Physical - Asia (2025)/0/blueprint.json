@@ -4,9 +4,7 @@
     "card_type": "standard",
     "hide_season_text": true,
     "template_ids": [],
-    "source_files": [],
-    "extras": {},
-    "season_titles": {}
+    "source_files": []
   },
   "fonts": [
     {

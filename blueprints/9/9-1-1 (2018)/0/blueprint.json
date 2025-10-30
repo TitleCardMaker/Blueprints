@@ -2,13 +2,20 @@
   "series": {
     "font_id": 0,
     "card_type": "striped",
-    "extras": {
-      "episode_text_color": "rgb(255, 27, 28)",
-      "inset": "10",
-      "inter_stripe_spacing": "9",
-      "overlay_color": "black",
-      "polygons": "slmms+"
-    }
+    "extra_keys": [
+      "episode_text_color",
+      "inset",
+      "inter_stripe_spacing",
+      "overlay_color",
+      "polygons"
+    ],
+    "extra_values": [
+      "rgb(255, 27, 28)",
+      "10",
+      "9",
+      "black",
+      "slmms+"
+    ]
   },
   "fonts": [
     {

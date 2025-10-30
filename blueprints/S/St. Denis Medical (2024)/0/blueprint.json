@@ -2,11 +2,16 @@
   "series": {
     "font_id": 0,
     "card_type": "olivier",
-    "extras": {
-      "episode_text_color": "#89e8f6",
-      "episode_text_font_size": "1.2",
-      "episode_text_vertical_shift": "50"
-    }
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "#89e8f6",
+      "1.2",
+      "50"
+    ]
   },
   "fonts": [
     {
