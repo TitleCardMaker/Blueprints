@@ -6,6 +6,7 @@ environment variable. It parses this content and creates the necessary
 Blueprint, and all the associated files.
 """
 
+from collections.abc import Iterable, Mapping
 from datetime import datetime
 from json import dump as json_dump, loads, JSONDecodeError
 from os import environ
@@ -14,7 +15,7 @@ from re import compile as re_compile
 from shutil import copy as file_copy, unpack_archive, ReadError
 from sys import exit as sys_exit
 from tempfile import NamedTemporaryFile, TemporaryDirectory
-from typing import Any, Iterable, Mapping, Optional, TypedDict
+from typing import Any, TypedDict
 
 from requests import get
 
@@ -36,16 +37,17 @@ class BlueprintSubmission(TypedDict):
     database_ids: dict
     creator: str
     preview_urls: list[str]
-    font_zip_url: Optional[str]
-    source_file_zip_url: Optional[str]
+    font_zip_url: str | None
+    source_file_zip_url: str | None
     set_ids: Iterable[int]
     blueprint: dict
+
 class SetSubmission(TypedDict):
     name: str
     blueprint_paths: list[str]
 
 
-def parse_database_ids(ids: str) -> dict:
+def parse_database_ids(ids: str) -> dict[str, int | str]:
     """
     Parse the given database ID strings into a dictionary of database
     IDs.
@@ -61,7 +63,7 @@ def parse_database_ids(ids: str) -> dict:
         return {}
 
     # Parse each comma-separated ID
-    database_ids = {}
+    database_ids: dict[str, int | str] = {}
     for id_substr in ids.split(','):
         try:
             id_type, id_ = id_substr.strip().split(':')
@@ -76,7 +78,7 @@ def parse_database_ids(ids: str) -> dict:
     return database_ids
 
 
-def parse_urls(raw: Optional[str]) -> list[str]:
+def parse_urls(raw: str | None) -> list[str]:
     """
     Parse the raw markdown into a list of URLs.
 
@@ -97,7 +99,7 @@ def parse_urls(raw: Optional[str]) -> list[str]:
 
 
 def parse_bp_submission(
-        data: Optional[dict] = None,
+        data: dict | None = None,
         *,
         environment: Mapping[str, Any] = environ,
     ) -> BlueprintSubmission:
@@ -128,7 +130,7 @@ def parse_bp_submission(
         creator = environment.get('ISSUE_CREATOR', 'CollinHeist')
 
         # Extract the data from the issue text
-        issue_regex = re_compile(
+        issue_regex = re_compile((
             r'^'
             r'### Series Name\s+(?P<series_name>.+)\s+'
             r'### Series Year\s+(?P<series_year>\d+)\s+'
@@ -140,7 +142,7 @@ def parse_bp_submission(
             r'### Zip of Font Files\s+(_No response_|\[.+?\]\((?P<font_zip>http[^\s\)]+)\))\s+'
             r'### Zip of Source Files\s+(_No response_|\[.+?\]\((?P<source_files>http[^\s\)]+)\))\s+'
             r'### Set IDs\s+(_No response_|(?P<set_ids>[\d,]+))\s*$'
-        )
+        ))
 
         # If data cannot be extracted, exit
         if not (data := issue_regex.match(content)):
@@ -222,7 +224,7 @@ def download_preview(url: str, index: int, blueprint_subfolder: Path):
 
     # Copy preview into blueprint folder
     file = blueprint_subfolder / f'preview{index}.jpg'
-    file.write_bytes(response.content)
+    _ = file.write_bytes(response.content)
     print(f'Downloaded "{url}" into "{file.resolve()}"')
 
 
@@ -241,7 +243,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
     """
 
     if not zip_url:
-        return None
+        return []
 
     # Download from URL
     if not (response := get(zip_url, timeout=30)).ok:
@@ -254,7 +256,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
     files = []
     extension = zip_url.rsplit('.', maxsplit=1)[-1]
     with NamedTemporaryFile(suffix=f'.{extension}') as file_handle:
-        file_handle.write(response.content)
+        _ = file_handle.write(response.content)
 
         # Unpack zip into temporary folder
         with TemporaryDirectory() as directory:
@@ -274,7 +276,7 @@ def download_zip(zip_url: str, blueprint_subfolder: Path) -> list[Path]:
                     continue
 
                 destination = blueprint_subfolder / str(file.name)
-                file_copy(file, destination)
+                _ = file_copy(file, destination)
                 files.append(destination)
                 print(f'Copied [zip]/{file.name} into "{blueprint_subfolder}"')
 
@@ -302,7 +304,7 @@ def parse_and_create_blueprint():
 
     # Add to any associated Sets
     for set_id in submission['set_ids']:
-        add_to_set(set_id, blueprint)
+        _ = add_to_set(set_id, blueprint)
 
     # Get the associated folder for this Series
     letter, folder_name = get_blueprint_folders(f'{series.name} ({series.year})')
@@ -368,7 +370,7 @@ def _parse_set_submission(
 
     # Parse issue from environment variable
     try:
-        content = loads(environment.get('ISSUE_BODY'))
+        content: str = loads(environment.get('ISSUE_BODY'))
         print(f'Parsed issue JSON as:\n{content}')
     except JSONDecodeError as exc:
         print(f'Unable to parse issue as JSON')
@@ -376,11 +378,11 @@ def _parse_set_submission(
         sys_exit(1)
 
     # Extract the data from the issue text
-    issue_regex = re_compile(
+    issue_regex = re_compile((
         r'^'
         r'### Set Name\s+(?P<set_name>.+)\s+'
         r'### Blueprints\s+(?P<blueprints>[\s\S]*)$'
-    )
+    ))
 
     # If data cannot be extracted, exit
     if not (data := issue_regex.match(content)):
@@ -417,5 +419,7 @@ def parse_blueprint_set():
 
     bp_set = create_new_set(**submission)
     bp_ids = [blueprint.id for blueprint in bp_set.blueprints]
-    print(f'Created Set "{bp_set.name}" with {len(bp_set.blueprints)} Blueprints{bp_ids}')
-
+    print((
+        f'Created Set "{bp_set.name}" with {len(bp_set.blueprints)} '
+        f'Blueprints{bp_ids}'
+    ))
