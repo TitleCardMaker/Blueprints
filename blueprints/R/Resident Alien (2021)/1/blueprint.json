@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime fade",
+    "template_ids": [],
+    "font_color": "rgb(254, 254, 6)",
+    "source_files": [
+      "logo.png"
+    ],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "rgb(254, 254, 6)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Resident Alien",
+      "color": "rgb(252,237,214)",
+      "file": "Wevli Bold.ttf",
+      "size": 1.1,
+      "title_case": "lower",
+      "vertical_shift": -10
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime Fade style using series font and a yellow from a particular poster logo that I thought really popped against the card style. Really surprised Anime Fade worked so well for a random sci-fi comedy show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-10-31T16:08:07"
+}
