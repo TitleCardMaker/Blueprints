@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "hide_season_text": true,
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Halo",
+      "file": "Halo.ttf",
+      "kerning": 7.0,
+      "stroke_width": 0.8
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Standard Card type using series font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-06T21:18:57"
+}
