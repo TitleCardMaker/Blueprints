@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "calligraphy",
+    "hide_season_text": true,
+    "auto_split_title": false,
+    "extra_keys": [
+      "title_text_format",
+      "episode_text_font_size",
+      "add_texture"
+    ],
+    "extra_values": [
+      "{f'{NEWLINE}'.join(title_text.split(\"/\"))}",
+      "1.5",
+      "true"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Calligraphy",
+      "file": "ayus.regular.ttf",
+      "size": 1.25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Calligraphy style card with custom font to try and match the brushstroke of the title. Does automatic line drops for the split episode names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-06T21:15:38"
+}
