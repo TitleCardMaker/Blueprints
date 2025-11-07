@@ -1,0 +1,93 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": true,
+    "template_ids": [],
+    "font_size": 2.0,
+    "source_files": [],
+    "episode_text_format": "Layer:{absolute_episode_number:02}"
+  },
+  "episodes": {
+    "s1e1": {
+      "auto_split_title": false,
+      "title": "WEIRD",
+      "match_title": false
+    },
+    "s1e2": {
+      "auto_split_title": false,
+      "title": "GIRLS",
+      "match_title": false
+    },
+    "s1e3": {
+      "auto_split_title": false,
+      "title": "PSYCHE",
+      "match_title": false
+    },
+    "s1e4": {
+      "auto_split_title": false,
+      "title": "RELIGION",
+      "match_title": false
+    },
+    "s1e5": {
+      "auto_split_title": false,
+      "title": "DISTORTION",
+      "match_title": false
+    },
+    "s1e6": {
+      "auto_split_title": false,
+      "title": "KIDS",
+      "match_title": false
+    },
+    "s1e7": {
+      "auto_split_title": false,
+      "title": "SOCIETY",
+      "match_title": false
+    },
+    "s1e8": {
+      "auto_split_title": false,
+      "title": "RUMORS",
+      "match_title": false
+    },
+    "s1e9": {
+      "auto_split_title": false,
+      "title": "PROTOCOL",
+      "match_title": false
+    },
+    "s1e10": {
+      "auto_split_title": false,
+      "title": "LOVE",
+      "match_title": false
+    },
+    "s1e11": {
+      "auto_split_title": false,
+      "title": "INFORNOGRAPHY",
+      "match_title": false
+    },
+    "s1e12": {
+      "auto_split_title": false,
+      "title": "LANDSCAPE",
+      "match_title": false
+    },
+    "s1e13": {
+      "auto_split_title": false,
+      "title": "EGO",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Serial Experiments Lain",
+      "file": "Lovelt__.ttf",
+      "title_case": "lower"
+    }
+  ],
+  "creator": "Reicha7, Cwavs",
+  "description": [
+    "Using Cwavs' blueprint as a base but with a font similar to the logo font and lower-casing on the episode names to match."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-06T21:12:28"
+}

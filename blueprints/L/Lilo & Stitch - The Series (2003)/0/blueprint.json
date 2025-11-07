@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "frame_color",
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "rgb(32, 79, 159)",
+      "logo",
+      "title",
+      "2"
+    ]
+  },
+  "episodes": {
+    "s2e23": {
+      "title": "Mrs. Hasagawa's Cats & Ace",
+      "match_title": false
+    },
+    "s2e24": {
+      "title": "Glitch & Woops",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Lilo & Stitch",
+      "color": "rgb(237, 26, 45)",
+      "file": "Buka Bird.ttf",
+      "size": 1.5
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Tinted frame using series' font and colours to match series logo and Stitch's blue fur for the frame."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-06T21:17:20"
+}
