@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "hide_episode_text": true,
+    "template_ids": [],
+    "source_files": [],
+    "extra_keys": [
+      "shape",
+      "shape_color",
+      "shape_size",
+      "shape_width"
+    ],
+    "extra_values": [
+      "circle",
+      "rgb(24, 133, 164)",
+      "0.8",
+      "25"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Top Gear",
+      "color": "rgb(208, 208, 208)",
+      "file": "Warsaw Gothic.otf",
+      "interword_spacing": 25
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Shape Card tries to roughly match the logo colour with series font (or similar free variant)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-11T18:34:03"
+}
