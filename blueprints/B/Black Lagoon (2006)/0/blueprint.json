@@ -1,0 +1,72 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "episode_text_format": "Episode {absolute_episode_number}",
+    "season_title_ranges": [
+      "0",
+      "s1e1-s1e12",
+      "s1e13-s1e24"
+    ],
+    "season_title_values": [
+      "Roberta's Blood Trail",
+      "Black Lagoon",
+      "The Second Barrage"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_stroke_color",
+      "kanji_color",
+      "kanji_stroke_color"
+    ],
+    "extra_values": [
+      "black",
+      "1.5",
+      "rgb(226, 2, 16)",
+      "black",
+      "rgb(226, 2, 16)"
+    ]
+  },
+  "episodes": {
+    "s0e8": {
+      "title": "Collateral Massacre",
+      "match_title": false
+    },
+    "s0e9": {
+      "title": "An Office Man's Tactics",
+      "match_title": false
+    },
+    "s0e10": {
+      "title": "Angels in the Crosshairs",
+      "match_title": false
+    },
+    "s0e11": {
+      "title": "Oversaturation Kill Box",
+      "match_title": false
+    },
+    "s0e12": {
+      "auto_split_title": false,
+      "title": "Codename Paradise,\\nStatus MIA",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Black Lagoon",
+      "color": "rgb(226, 2, 16)",
+      "file": "unicode.compacta.ttf",
+      "size": 1.25,
+      "title_case": "upper",
+      "vertical_shift": 50
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card using font and colors to match series poster. Uses absolute numbering and some custom arc names for the season text."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-11T18:38:44"
+}
