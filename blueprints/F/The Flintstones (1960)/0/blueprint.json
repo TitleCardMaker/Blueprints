@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "shape",
+    "extra_keys": [
+      "season_text_color",
+      "shape",
+      "shape_color",
+      "shape_stroke_width"
+    ],
+    "extra_values": [
+      "rgb(237, 182, 50)",
+      "random",
+      "rgb(237, 182, 50)",
+      "10"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Flintstones",
+      "file": "PrehistoricCaveman-PRJ7.ttf",
+      "size": 0.75,
+      "color": "rgb(255, 222, 53)"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "The Flintstones in shape card with matching font to show poster."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-11-25T19:02:46"
+}
