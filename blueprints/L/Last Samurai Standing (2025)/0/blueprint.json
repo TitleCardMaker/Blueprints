@@ -1,0 +1,57 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "negative space",
+    "template_ids": [],
+    "source_files": []
+  },
+  "episodes": {
+    "s1e2": {
+      "extra_keys": [
+        "text_side"
+      ],
+      "extra_values": [
+        "right"
+      ]
+    },
+    "s1e3": {
+      "extra_keys": [
+        "text_side"
+      ],
+      "extra_values": [
+        "right"
+      ]
+    },
+    "s1e4": {
+      "auto_split_title": false,
+      "title": "The\\nMastermind"
+    },
+    "s1e6": {
+      "auto_split_title": false,
+      "title": "Mortal\\nCombat",
+      "extra_keys": [
+        "text_side"
+      ],
+      "extra_values": [
+        "right"
+      ]
+    }
+  },
+  "fonts": [
+    {
+      "name": "Last Samurai Standing",
+      "file": "teko-regular.otf",
+      "size": 1.5,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Negative Space card with series similar font and specific text placements based on the only available metadata source images available at the time."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-11-25T19:06:24"
+}
