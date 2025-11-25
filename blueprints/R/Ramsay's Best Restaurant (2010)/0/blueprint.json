@@ -1,0 +1,74 @@
+{
+  "series": {
+    "card_type": "notification",
+    "template_ids": [],
+    "font_color": "black",
+    "source_files": [
+      "s1e1.jpg",
+      "s1e4.jpg",
+      "s1e11.jpg",
+      "s1e6.jpg",
+      "s1e2.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e9.jpg",
+      "s1e5.jpg",
+      "s1e3.jpg",
+      "s1e10.jpg"
+    ],
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Ramsay's Best Restaurant"
+    ],
+    "extra_keys": [
+      "glass_color"
+    ],
+    "extra_values": [
+      "rgba(255, 255, 255, 1)"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "Italian",
+      "match_title": false
+    },
+    "s1e2": {
+      "title": "Indian",
+      "match_title": false
+    },
+    "s1e3": {
+      "title": "Chinese",
+      "match_title": false
+    },
+    "s1e4": {
+      "title": "British",
+      "match_title": false
+    },
+    "s1e5": {
+      "title": "Thai",
+      "match_title": false
+    },
+    "s1e6": {
+      "title": "French",
+      "match_title": false
+    },
+    "s1e7": {
+      "title": "North African",
+      "match_title": false
+    },
+    "s1e8": {
+      "title": "Spanish",
+      "match_title": false
+    }
+  },
+  "creator": "Reicha7",
+  "description": [
+    "Notification style card with some colour matching and an included set of source images to try and capture the main theme of each episode without giving anything away."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-25T19:01:30"
+}
