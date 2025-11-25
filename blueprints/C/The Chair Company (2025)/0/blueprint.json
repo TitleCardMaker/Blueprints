@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element"
+    ],
+    "extra_values": [
+      "logo",
+      "title"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "The Chair Company",
+      "file": "ChewieDEMO-Bold.otf",
+      "color": "rgb(192, 79, 7)",
+      "title_case": "title"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Tinted frame with similar font and colour to logo."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2025-11-25T19:35:24"
+}

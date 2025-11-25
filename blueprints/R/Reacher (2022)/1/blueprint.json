@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "notification",
+    "template_ids": [],
+    "auto_split_title": false,
+    "source_files": [],
+    "episode_text_format": "Chapter {episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Killing Floor",
+      "Bad Luck and Trouble",
+      "Persuader"
+    ],
+    "extra_keys": [
+      "episode_text_vertical_shift",
+      "edge_width",
+      "position"
+    ],
+    "extra_values": [
+      "40",
+      "10",
+      "left"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Reacher",
+      "color": "rgb(255, 123, 21)",
+      "file": "reacher.otf",
+      "kerning": 20.0,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Notification style card with custom series titles and a custom font adjusted and coloured to try and resemble the main series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-25T19:09:13"
+}

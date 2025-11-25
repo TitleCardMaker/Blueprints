@@ -1,0 +1,26 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "logo",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "auto_split_title": false
+  },
+  "fonts": [
+    {
+      "name": "Beast Games",
+      "file": "impact.ttf",
+      "title_case": "upper",
+      "color": "rgb(3, 188, 232)",
+      "size": 1.1
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Logo card so no one has to look at his face on the thumbnails."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-11-25T19:07:44"
+}
