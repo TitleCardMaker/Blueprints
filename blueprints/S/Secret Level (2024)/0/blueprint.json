@@ -1,0 +1,95 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": [],
+    "match_titles": false,
+    "auto_split_title": false,
+    "source_files": [],
+    "season_title_ranges": [
+      "1"
+    ],
+    "season_title_values": [
+      "Secret Level"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "title": "The Queen's Cradle",
+      "episode_text": "Dungeons & Dragons"
+    },
+    "s1e2": {
+      "title": "It Takes a Life",
+      "episode_text": "Sifu"
+    },
+    "s1e3": {
+      "title": "The Once\\nand Future King",
+      "episode_text": "New World"
+    },
+    "s1e4": {
+      "title": "Xan",
+      "episode_text": "Unreal Tournament"
+    },
+    "s1e5": {
+      "title": "And They Shall Know No Fear",
+      "episode_text": "Warhammer 40,000"
+    },
+    "s1e6": {
+      "title": "Circle",
+      "episode_text": "PAC-MAN"
+    },
+    "s1e7": {
+      "title": "Good Conflict",
+      "episode_text": "Crossfire"
+    },
+    "s1e8": {
+      "title": "Asset Management",
+      "episode_text": "Armored Core"
+    },
+    "s1e9": {
+      "title": "The Company We Keep",
+      "episode_text": "The Outer Worlds"
+    },
+    "s1e10": {
+      "title": "Start",
+      "episode_text": "Mega Man"
+    },
+    "s1e11": {
+      "title": "Odyssey",
+      "episode_text": "Exodus"
+    },
+    "s1e12": {
+      "title": "Tally",
+      "episode_text": "Spelunky"
+    },
+    "s1e13": {
+      "title": "Tale of the Implacable",
+      "episode_text": "Concord"
+    },
+    "s1e14": {
+      "title": "The Way of All Things",
+      "episode_text": "Honor of Kings"
+    },
+    "s1e15": {
+      "title": "Fulfillment",
+      "episode_text": "Playtime"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Secret Level",
+      "file": "Movement.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with a custom font to try and match series font. Moved the game name out as the episode title and the \"Secret Level\" as the season title."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2025-11-25T21:03:45"
+}

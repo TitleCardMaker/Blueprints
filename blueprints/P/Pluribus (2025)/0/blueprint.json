@@ -1,0 +1,36 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "text_side"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "random"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Pluribus",
+      "file": "itc-avant-garde-gothic-bold.otf",
+      "color": "rgb(254, 218, 17)",
+      "size": 1.5
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Tinted frame with similar font and colour as the logo. Logo at top and episode title at the bottom."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-11-25T21:21:53"
+}
