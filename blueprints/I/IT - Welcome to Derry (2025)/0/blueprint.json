@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "font_color": "rgb(189, 9, 26)",
+    "font_size": 1.5,
+    "source_files": [
+      "logo.png"
+    ],
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "1.5"
+    ]
+  },
+  "episodes": {
+    "s1e4": {
+      "font_size": 0.75,
+      "font_interline_spacing": -25,
+      "font_vertical_shift": 100,
+      "title": "The Great Swirling Apparatus of Our Planets Function"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Welcome to Derry",
+      "file": "Mollas-Regular.ttf"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Tinted frame with matching colour and font. Logo at the top and title at the bottom."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2025-11-29T19:31:02"
+}
