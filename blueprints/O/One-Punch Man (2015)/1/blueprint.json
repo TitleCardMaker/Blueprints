@@ -1,0 +1,138 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": [],
+    "font_title_case": "lower",
+    "source_files": [],
+    "episode_text_format": "{to_short_ordinal(absolute_episode_number)} Punch",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "0",
+      "s1e1-s1e1",
+      "s1e2-s1e3",
+      "s1e4-s1e4",
+      "s1e5-s1e5",
+      "s1e6-s1e6",
+      "s1e7-s1e7",
+      "s1e8-s1e9",
+      "s1e10-s1e12",
+      "s2e1-s2e1",
+      "s2e2-s2e2",
+      "s2e3-s2e3",
+      "s2e4-s2e5",
+      "s2e6-s2e6",
+      "s2e7-s2e8",
+      "s2e9-s2e9",
+      "s2e10-s3e12"
+    ],
+    "season_title_values": [
+      "OVAs",
+      "Saitama Introduction",
+      "House of Evolution",
+      "Paradise Group",
+      "National Superhero Registry",
+      "National Superhero Registry/Rumored Monster",
+      "Giant Meteor",
+      "Sea Monster",
+      "Alien Conquerors",
+      "King/Garou Introduction/Blizzard Group",
+      "Garou Introduction/Blizzard Group",
+      "Hero Hunt",
+      "Monster Raid",
+      "Monster Raid/Super Fight",
+      "Super Fight",
+      "Super Fight/Monster Association",
+      "Monster Association"
+    ]
+  },
+  "episodes": {
+    "s1e11": {
+      "auto_split_title": false,
+      "title": "The Dominator\\nof the Universe",
+      "match_title": false
+    },
+    "s2e6": {
+      "auto_split_title": false,
+      "title": "The Uprising\\nof the Monsters",
+      "match_title": false
+    },
+    "s2e8": {
+      "auto_split_title": false,
+      "title": "The Strong Ones\\nFight Back",
+      "match_title": false
+    },
+    "s2e12": {
+      "auto_split_title": false,
+      "title": "Cleaning Up\\nthe Disciple's Mess",
+      "match_title": false
+    },
+    "s0e1": {
+      "hide_season_text": true,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e2": {
+      "hide_season_text": true,
+      "auto_split_title": false,
+      "title": "The Shadow That\\nSnuck Up Too Close",
+      "match_title": false,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e3": {
+      "hide_season_text": true,
+      "auto_split_title": false,
+      "title": "The Disciple Who\\nSucks at Storytelling",
+      "match_title": false,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e4": {
+      "hide_season_text": true,
+      "auto_split_title": false,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e5": {
+      "hide_season_text": true,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e6": {
+      "hide_season_text": true,
+      "auto_split_title": false,
+      "title": "The Sisters With\\nToo Much Going On",
+      "match_title": false,
+      "episode_text": "Special Punch {episode_number}"
+    },
+    "s0e7": {
+      "hide_season_text": true,
+      "auto_split_title": false,
+      "title": "The Far Too Impossible\\nCase of Murder",
+      "match_title": false,
+      "episode_text": "Special Punch {episode_number}"
+    }
+  },
+  "fonts": [
+    {
+      "name": "One Punch Man",
+      "file": "eastwest.otf",
+      "replacements_in": [
+        "\u2019"
+      ],
+      "replacements_out": [
+        "'"
+      ]
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime style card with arcs used for season numbers, absolute episode numbering and word \"punch\" instead of episode."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2025-12-23T16:49:25"
+}
