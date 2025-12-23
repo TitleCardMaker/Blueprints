@@ -1,0 +1,43 @@
+{
+  "series": {
+    "card_type": "striped",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "text_position"
+    ],
+    "extra_values": [
+      "upper left"
+    ],
+    "template_ids": [],
+    "source_files": [
+      "s1e9-mask.png",
+      "s1e1.jpg",
+      "s1e4.jpg",
+      "s1e3-mask.png",
+      "s1e8-mask.png",
+      "s1e10-mask.png",
+      "s1e7-mask.png",
+      "s1e1-mask.png",
+      "s1e6.jpg",
+      "s1e2.jpg",
+      "s1e7.jpg",
+      "s1e8.jpg",
+      "s1e2-mask.png",
+      "s1e9.jpg",
+      "s1e5.jpg",
+      "s1e3.jpg",
+      "s1e6-mask.png",
+      "s1e4-mask.png",
+      "s1e10.jpg",
+      "s1e5-mask.png"
+    ]
+  },
+  "creator": "Cwavs",
+  "description": [
+    "Striped title card to resemble the opening sequence, with mask files for each episode."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2025-12-23T16:56:10"
+}
