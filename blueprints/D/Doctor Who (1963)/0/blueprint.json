@@ -1,0 +1,34 @@
+{
+  "series": {
+    "card_type": "shape",
+    "episode_text_format": "{season_title} | S{season_number} E{episode_number}",
+    "season_title_ranges": [
+      "s1e1-s4e8",
+      "s4e9-s6e44",
+      "s7e1-s11e26",
+      "s12e1-s18e28",
+      "s19e1-s22e20",
+      "s21e21-s23e14",
+      "s24e1-s26e14"
+    ],
+    "season_title_values": [
+      "Hartnell",
+      "Troughton",
+      "Pertwee",
+      "T Baker",
+      "Davison",
+      "C Baker",
+      "McCoy"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "Pekempy",
+  "description": [
+    "Tinted Frame Plus. Each \"Doctor\" is named in the frame by surname, along with the episode number and title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-13T20:03:25"
+}
