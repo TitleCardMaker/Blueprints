@@ -1,0 +1,30 @@
+{
+  "series": {
+    "card_type": "shape",
+    "episode_text_format": "{season_title} | S{season_number} E{episode_number}",
+    "season_title_ranges": [
+      "s1e1-s1e14",
+      "s2e1-s4e18",
+      "s5e1-s7e16",
+      "s8e1-s10e13",
+      "s11e1-s9e9"
+    ],
+    "season_title_values": [
+      "Eccleston",
+      "Tennant",
+      "Smith",
+      "Capaldi",
+      "Whittaker"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "Pekempy",
+  "description": [
+    "Tinted Frame Plus. Each \"Doctor\" is named in the frame by surname, along with the episode number and title."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-13T20:07:41"
+}
