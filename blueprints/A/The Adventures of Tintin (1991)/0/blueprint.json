@@ -1,0 +1,128 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted frame",
+    "template_ids": [],
+    "font_color": "rgb(255, 226, 134)",
+    "font_title_case": "source",
+    "font_size": 1.5,
+    "source_files": [
+      "logo.png"
+    ],
+    "extra_keys": [
+      "top_element",
+      "bottom_element",
+      "logo_size"
+    ],
+    "extra_values": [
+      "logo",
+      "title",
+      "1.3"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "font_color": "rgb(233, 183, 72)",
+      "title": "The Crab with the Golden Claws",
+      "match_title": false
+    },
+    "s1e3": {
+      "font_color": "rgb(233, 191, 105)",
+      "match_title": false
+    },
+    "s1e5": {
+      "font_color": "rgb(86, 198, 199)",
+      "match_title": false
+    },
+    "s1e6": {
+      "font_color": "rgb(111, 199, 247)",
+      "match_title": false
+    },
+    "s1e8": {
+      "font_color": "rgb(79, 158, 242)",
+      "match_title": false
+    },
+    "s1e10": {
+      "font_color": "rgb(81, 154, 187)",
+      "match_title": false
+    },
+    "s1e12": {
+      "font_color": "rgb(67, 131, 60)",
+      "match_title": false
+    },
+    "s2e1": {
+      "font_color": "rgb(229, 0, 38)",
+      "match_title": false
+    },
+    "s2e2": {
+      "font_color": "rgb(189, 210, 103)",
+      "match_title": false
+    },
+    "s2e4": {
+      "font_color": "rgb(114, 142, 95)",
+      "match_title": false
+    },
+    "s2e6": {
+      "font_color": "rgb(206, 63, 44)",
+      "match_title": false
+    },
+    "s2e8": {
+      "font_color": "rgb(252, 247, 125)",
+      "match_title": false
+    },
+    "s2e10": {
+      "font_color": "rgb(148, 211, 242)",
+      "match_title": false
+    },
+    "s2e12": {
+      "font_color": "rgb(66, 114, 116)",
+      "match_title": false
+    },
+    "s3e1": {
+      "font_color": "rgb(19, 173, 167)",
+      "match_title": false
+    },
+    "s3e3": {
+      "font_color": "rgb(113,171,133)",
+      "match_title": false
+    },
+    "s3e5": {
+      "font_color": "rgb(58, 119, 87)",
+      "match_title": false
+    },
+    "s3e7": {
+      "font_color": "rgb(4, 100, 114)",
+      "match_title": false
+    },
+    "s3e9": {
+      "font_color": "rgb(224, 89, 52)",
+      "match_title": false
+    },
+    "s3e11": {
+      "font_color": "rgb(240, 100, 8)",
+      "match_title": false
+    },
+    "s3e13": {
+      "font_color": "rgb(221, 163, 63)",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "Tintin Handwritten",
+      "file": "Polsyh.ttf",
+      "title_case": "blank"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "Tinted frame using the Tintin Handwriting font, inspired by the lettering of the original comic series. Font by adroitwhiz (dafont). Frame colours are sampled from each book\u2019s cover art."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2026-01-13T20:13:26"
+}
