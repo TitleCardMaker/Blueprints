@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "#e35e52"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Heartbreak High",
+      "file": "MicrogrammaD-BoldExte.otf",
+      "color": "#fa7b57",
+      "title_case": "lower",
+      "kerning": 3.0
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Standard card type with the Heartbreak High logo font and the colours from the series poster."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-19T22:34:23"
+}
