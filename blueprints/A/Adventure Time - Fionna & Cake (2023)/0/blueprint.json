@@ -1,0 +1,24 @@
+{
+  "series": {
+    "card_type": "calligraphy",
+    "extra_keys": [
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "1.4"
+    ],
+    "template_ids": [],
+    "font_color": "#a8e3d9",
+    "font_size": 1.2,
+    "font_stroke_width": 5.0,
+    "source_files": []
+  },
+  "creator": "annie-s-05",
+  "description": [
+    "Calligraphy card type with colours matching the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-19T22:33:13"
+}
