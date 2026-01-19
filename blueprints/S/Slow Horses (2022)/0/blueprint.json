@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Grot Rough",
+      "file": "GROTR___.TTF",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "Sproglet",
+  "description": [
+    "Slow Horses using Overline and a custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-19T22:36:18"
+}
