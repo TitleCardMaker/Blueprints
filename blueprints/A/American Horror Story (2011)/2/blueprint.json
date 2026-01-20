@@ -1,0 +1,44 @@
+{
+  "series": {
+    "card_type": "KHthe8th/TintedFramePlus",
+    "hide_season_text": true,
+    "hide_episode_text": false,
+    "episode_text_format": "{season_title} | EPISODE {episode_number}",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8 ",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "season_title_values": [
+      "Murder House",
+      "Asylum",
+      "Coven",
+      "Freak Show",
+      "Hotel",
+      "Roanoake",
+      "Cult",
+      "Apocalypse ",
+      "1984",
+      "Double Feature",
+      "NYC",
+      "Delicate"
+    ]
+  },
+  "creator": "Pekempy",
+  "description": [
+    "TintedFramePlus AHS with the season names in place of the season numbers (Hotel, Coven etc.)."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-19T22:31:04"
+}

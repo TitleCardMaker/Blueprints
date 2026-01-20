@@ -1,0 +1,33 @@
+{
+  "series": {
+    "card_type": "tinted frame",
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "frame_width",
+      "top_element",
+      "middle_element",
+      "logo_size",
+      "shadow_color"
+    ],
+    "extra_values": [
+      "#990000",
+      "1.5",
+      "4",
+      "logo",
+      "omit",
+      "1.5",
+      "white"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "creator": "annie-s-05",
+  "description": [
+    "Tinted frame card type with colors matching the show logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-19T22:52:24"
+}
