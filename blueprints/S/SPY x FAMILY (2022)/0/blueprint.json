@@ -16,20 +16,25 @@
       }
     ],
     "season_title_ranges": [
-      "s1e1-s1e2",
-      "s1e3-s1e5",
-      "s1e6-s1e7",
+      "s1e1-s1e2",  
+      "s1e3-s1e5", 
+      "s1e6-s1e7", 
       "s1e8-s1e9",
       "s1e10-s1e12",
       "s1e13-s1e15",
       "s1e16-s1e19",
       "s1e20-s1e23",
       "s1e24-s1e24",
-      "s1e25-s1e25",
+      "s1e25-s2e3",
       "s2e4-s2e4",
       "s2e5-s2e10",
-      "s2e1-s2e10",
-      "s2e11-s2e12"
+      "s2e11-s3e3",
+      "s3e4-s3e4",
+      "s3e5-s3e5",
+      "s3e6-s3e6",
+      "s3e7-s3e9",
+      "s3e10-s3e10",
+      "s3e11-s3e13"
     ],
     "season_title_values": [
       "Introduction",
@@ -40,12 +45,17 @@
       "Doggy Crisis",
       "Midterm Exams",
       "Campbelldon Tennis",
-      "Campbelldon Tennis / Imperial Scholars Mixer",
+      "Campbelldon Tennis/Imperial Scholars Mixer",
       "Imperial Scholars Mixer",
-      "Imperial Scholars Mixer / Cruise Adventure",
+      "Imperial Scholars Mixer/Cruise Adventure",
       "Cruise Adventure",
-      "Imperial Scholars Mixer",
-      "WISE"
+      "Loid's Past",
+      "Loid's Past/Friendship Schemes",
+      "Friendship Schemes",
+      "Friendship Schemes/Bus Hijacking",
+      "Bus Hijacking",
+      "Bus Hijacking/Wheeler",
+      "Wheeler"
     ],
     "font_size": 0.8,
     "source_files": []
@@ -123,6 +133,44 @@
       "title": "BERLINT IN LOVE\\nNIGHTFALL'S DAILY LIFE",
       "match_title": false,
       "auto_split_title": false
+    },
+    "s3e1": {
+      "auto_split_title": false,
+      "title": "BERLINT PANIC /THE INFORMANT AND NIGHTFALL",
+      "match_title": false,
+      "extras": {}
+    },
+    "s3e2": {
+      "auto_split_title": false,
+      "title": "AVOID GETTING TONITRUS BOLTS /\u25a0\u25a0\u25a0\u25a0'S MEMORIES I",
+      "match_title": false,
+      "extras": {}
+    },
+    "s3e4": {
+      "auto_split_title": false,
+      "title": "BEHIND THE SCANDAL /THE PATH TO AN IMPERIAL SCHOLAR",
+      "match_title": false,
+      "extras": {}
+    },
+    "s3e6": {
+      "auto_split_title": false,
+      "title": "WHITE JEALOUSY /THE EDEN COLLEGE BUSJACKING INCIDENT",
+      "match_title": false,
+      "extras": {}
+    },
+    "s3e10": {
+      "auto_split_title": false,
+      "title": "AUSTIN'S TROUBLES /A NORMAL MIXER",
+      "match_title": false,
+      "extras": {}
+    },
+    "s3e12": {
+      "auto_split_title": false,
+      "extras": {}
+    },
+    "s3e13": {
+      "auto_split_title": false,
+      "extras": {}
     }
   },
   "templates": [],

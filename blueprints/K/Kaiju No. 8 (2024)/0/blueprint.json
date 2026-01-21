@@ -42,6 +42,18 @@
       "auto_split_title": false,
       "title": "The Man Who\\nBecame a Kaiju",
       "match_title": false
+    },
+    "s2e4": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "The Man Called\\nIsao Shinomiya",
+      "match_title": false
+    },
+    "s2e5": {
+      "template_ids": [],
+      "auto_split_title": false,
+      "title": "I Want to\\nBe Strong",
+      "match_title": false
     }
   },
   "fonts": [
