@@ -1,0 +1,35 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "cutout",
+    "extra_keys": [
+      "episode_text_color",
+      "overlay_transparency",
+      "cutout_vertical_shift"
+    ],
+    "extra_values": [
+      "#04558f",
+      "0.5",
+      "200"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Manifest",
+      "file": "FSP DEMO - Organetto UltraBold.ttf",
+      "kerning": 0.05,
+      "color": "#04558f",
+      "title_case": "upper",
+      "stroke_width": 0.3,
+      "vertical_shift": 10
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Cutout card type with high opacity so the number is bleeding through the image. Font to match the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-22T18:25:19"
+}
