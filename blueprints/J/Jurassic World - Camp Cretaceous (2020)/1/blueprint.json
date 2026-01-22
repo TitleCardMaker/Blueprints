@@ -1,0 +1,46 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "extra_keys": [
+      "episode_text_vertical_shift"
+    ],
+    "extra_values": [
+      "100"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Jurassic Park",
+      "file": "Jurassic_Park.ttf",
+      "color": "#ec6402",
+      "size": 2.5,
+      "stroke_width": 1.5,
+      "interword_spacing": 40,
+      "replacements_in": [
+        "-",
+        ",",
+        ".",
+        "'",
+        "?",
+        "!"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Anime card type with font and colours matching the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-22T18:22:55"
+}
