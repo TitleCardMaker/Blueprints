@@ -1,0 +1,45 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "season_title_values": [
+      "The Blackadder",
+      "Blackadder II",
+      "Blackadder the Third",
+      "Blackadder Goes Forth"
+    ],
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Disenchantment",
+      "color": "#F5D54C",
+      "file": "Tuers Cardboard.ttf",
+      "replacements_in": [
+        "\u00f8",
+        ".",
+        "!"
+      ],
+      "replacements_out": [
+        "o",
+        ",",
+        ""
+      ]
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Standard card type with font and colours matching the show poster. Seasons renamed in accordance with the show."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-22T18:21:25"
+}

@@ -1,0 +1,142 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "template_ids": [
+      0
+    ],
+    "font_kerning": 5.0,
+    "font_stroke_width": 0.5,
+    "source_files": []
+  },
+  "episodes": {
+    "s2e10": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "episode_text": "rw"
+    },
+    "s3e5": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "episode_text": "rw"
+    },
+    "s3e9": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "episode_text": "rw"
+    },
+    "s3e11": {
+      "template_ids": [],
+      "auto_split_title": true
+    },
+    "s4e1": {
+      "hide_episode_text": true,
+      "template_ids": [],
+      "episode_text": "rw"
+    }
+  },
+  "templates": [
+    {
+      "card_type": "Yozora/RetroTitleCard",
+      "extra_keys": [
+        "override_bw",
+        "override_style"
+      ],
+      "extra_values": [
+        "color",
+        "play"
+      ],
+      "name": "W13 Rewind",
+      "filters": [
+        {
+          "argument": "Absolute Number",
+          "operation": "is null",
+          "reference": ""
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Warehouse 13",
+      "file": "W13-Normal.ttf",
+      "replacements_in": [
+        ",",
+        ":",
+        "^",
+        "&",
+        "{",
+        "#",
+        "}",
+        "?",
+        "@",
+        "%",
+        ")",
+        "]",
+        "\"",
+        "~",
+        "`",
+        "\\",
+        "+",
+        "_",
+        "|",
+        ">",
+        ";",
+        "'",
+        "(",
+        "-",
+        "$",
+        "*",
+        ".",
+        "!",
+        "[",
+        "/",
+        "=",
+        "<"
+      ],
+      "replacements_out": [
+        "",
+        "",
+        "",
+        "and",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        " ",
+        "",
+        "",
+        "",
+        "",
+        "post:\\",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        " ",
+        "-",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "creator": "annie-s-05",
+  "description": [
+    "Retro card type in colour with play. Uses black and white and rewind for episodes with time travel/set in the past.",
+    "Uses the font from the show logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-01-22T18:14:23"
+}
