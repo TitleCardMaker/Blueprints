@@ -1,0 +1,43 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "season_title_ranges": [
+      "s1e1-s1e47",
+      "s1e48-s1e51",
+      "s1e52-s1e65"
+    ],
+    "season_title_values": [
+      "AOSTH",
+      "Quest for the Chaos Emeralds",
+      "AOSTH"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "stroke_color"
+    ],
+    "extra_values": [
+      "#ff1c40",
+      "black"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Dom Casual D (AOSTH)",
+      "color": "white",
+      "file": "DomCasualD.ttf",
+      "stroke_width": 2.0
+    }
+  ],
+  "creator": "Jambopaul",
+  "description": [
+    "This Blueprint was created with the DVD Episode order in mind. The Quest for the Chaos Emeralds four-parter has a custom season title. To make this work correctly with the Aired order, set custom season titles for episodes 37-40."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2026-01-22T18:26:44"
+}
