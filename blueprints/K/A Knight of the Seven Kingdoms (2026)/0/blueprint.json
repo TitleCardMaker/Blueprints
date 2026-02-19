@@ -1,0 +1,24 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Game of Thrones",
+      "color": "#d2af83",
+      "file": "Game of Thrones.ttf",
+      "size": 0.85
+    }
+  ],
+  "creator": "JCPlex81",
+  "description": [
+    "A GoT inspired card for the new A Knight of the Seven Kingdoms series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-02-19T17:58:02"
+}
