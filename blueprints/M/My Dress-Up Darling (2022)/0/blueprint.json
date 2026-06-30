@@ -1,0 +1,173 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "hide_season_text": false,
+    "hide_episode_text": false,
+    "template_ids": [],
+    "font_vertical_shift": 29,
+    "source_files": [
+      "s1e1.jpg",
+      "logo.png",
+      "s2e11.jpg",
+      "s1e2.jpg",
+      "s1e8.jpg",
+      "s2e10.jpg",
+      "s2e7.jpg",
+      "s1e3.jpg",
+      "s2e8.jpg",
+      "s1e10.jpg",
+      "s1e7.jpg",
+      "s2e4.jpg",
+      "s1e4.jpg",
+      "s2e12.jpg",
+      "s1e5.jpg",
+      "s2e1.jpg",
+      "s2e3.jpg",
+      "s2e5.jpg",
+      "s1e9.jpg",
+      "s2e9.jpg",
+      "s1e12.jpg",
+      "s2e2.jpg",
+      "s2e6.jpg",
+      "s1e11.jpg",
+      "s1e6.jpg",
+      "backdrop.jpg"
+    ],
+    "episode_text_format": "Episode {episode_number}",
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "s1e1-s1e12",
+      "s1e2-s2e12"
+    ],
+    "season_title_values": [
+      "Season One",
+      "Season Two"
+    ],
+    "extra_keys": [
+      "episode_stroke_color",
+      "kanji_vertical_shift",
+      "kanji_color",
+      "episode_text_color",
+      "episode_text_font_size",
+      "logo_position",
+      "logo_size",
+      "separator",
+      "stroke_color",
+      "kanji_font_size",
+      "kanji_stroke_color",
+      "kanji_stroke_width",
+      "season_text_color"
+    ],
+    "extra_values": [
+      "rgb(236, 132, 180)",
+      "14",
+      "rgb(36,30,22)",
+      "rgb(36,30,22)",
+      "1.6",
+      "top right",
+      "4.5",
+      "-",
+      "black",
+      "1.5",
+      "rgb(236, 132, 180)",
+      "1.9",
+      "rgb(36,30,22)"
+    ]
+  },
+  "episodes": {
+    "s1e1": {
+      "auto_split_title": false,
+      "match_title": false
+    },
+    "s1e5": {
+      "auto_split_title": false,
+      "font_size": 1.35,
+      "match_title": false
+    },
+    "s1e7": {
+      "auto_split_title": false,
+      "match_title": false
+    },
+    "s1e9": {
+      "auto_split_title": false,
+      "match_title": false
+    },
+    "s1e11": {
+      "auto_split_title": false
+    },
+    "s2e1": {
+      "auto_split_title": false,
+      "font_size": 1.12
+    },
+    "s2e3": {
+      "auto_split_title": false
+    },
+    "s2e4": {
+      "auto_split_title": false,
+      "font_size": 1.12
+    },
+    "s2e6": {
+      "auto_split_title": false,
+      "font_size": 1.15,
+      "title": "I'll Make It Happen, No Matter What,{NEWLINE}With These Two Hands",
+      "match_title": false
+    },
+    "s2e7": {
+      "auto_split_title": false,
+      "font_size": 1.16
+    },
+    "s2e8": {
+      "auto_split_title": false,
+      "font_size": 1.08,
+      "title": "The Only Way I Can Think of to Express{NEWLINE}That Gratitude Is With Money",
+      "match_title": false
+    },
+    "s2e9": {
+      "auto_split_title": false,
+      "font_size": 1.6,
+      "title": "Because I Don't Intend{NEWLINE}to Sleep Tonight",
+      "match_title": false
+    },
+    "s2e10": {
+      "auto_split_title": false,
+      "font_size": 1.5,
+      "title": "So We're Gonna Do It All{NEWLINE}Right Now?!",
+      "match_title": false
+    },
+    "s2e11": {
+      "auto_split_title": false,
+      "font_size": 1.45,
+      "title": "I Didn't Think Anything Good{NEWLINE}Would Ever Happen to Me",
+      "match_title": false
+    }
+  },
+  "fonts": [
+    {
+      "name": "My Dress-Up Darling",
+      "color": "rgb(236, 132, 180)",
+      "file": "ITC Century Handtooled Std Bold.otf",
+      "kerning": 0.63,
+      "interline_spacing": 2,
+      "interword_spacing": 38,
+      "line_split_modifier": 4,
+      "size": 1.23,
+      "stroke_width": 2.04,
+      "title_case": "title",
+      "vertical_shift": 49
+    }
+  ],
+  "creator": "Kalel-Scott",
+  "description": [
+    "Anime card type with kanji, seasonal numbering, with season title, and a custom Font that matches the Series logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-06-30T04:33:59"
+}
