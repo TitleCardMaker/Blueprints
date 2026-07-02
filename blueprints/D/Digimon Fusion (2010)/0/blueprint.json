@@ -1,0 +1,47 @@
+{
+  "series": {
+    "font_id": 0,
+    "template_ids": [
+      0
+    ],
+    "source_files": [],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3"
+    ],
+    "season_title_values": [
+      "Xros Wars",
+      "The Evil Death Generals and the Seven Kingdoms",
+      "The Boy Hunters Who Leapt Through Time"
+    ]
+  },
+  "templates": [
+    {
+      "card_type": "anime",
+      "name": "Anime",
+      "translations": [
+        {
+          "language_code": "ja",
+          "data_key": "kanji"
+        }
+      ],
+      "extras": {},
+      "season_titles": {}
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Digimon",
+      "file": "PixelDigivolve-mOm9.ttf"
+    }
+  ],
+  "creator": "Reicha7",
+  "description": [
+    "Anime card type with kanji translation, a custom Font designed to mimic \"digital\" text, and season names."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-02T14:40:02"
+}

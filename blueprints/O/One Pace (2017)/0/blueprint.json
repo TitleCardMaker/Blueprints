@@ -1,0 +1,120 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime fade",
+    "template_ids": [],
+    "font_color": "rgb(246, 207, 39)",
+    "source_files": [
+      "one_pace_logo_by_hanmha_dkc571z-fullview.png"
+    ],
+    "translations": [
+      {
+        "language_code": "en",
+        "data_key": "kanji"
+      }
+    ],
+    "season_title_ranges": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36"
+    ],
+    "season_title_values": [
+      "Romance Dawn",
+      "Orange Town",
+      "Syrup Village",
+      "Gaimon",
+      "Baratie",
+      "Arlong Park",
+      "The Adventures of Buggy's Crew",
+      "Loguetown",
+      "Reverse Mountain",
+      "Whisky Peak",
+      "The Trials of Koby-Meppo",
+      "Little Garden",
+      "Drum Island",
+      "Arabasta",
+      "Jaya",
+      "Skypiea",
+      "Long Ring Long Land",
+      "Water Seven",
+      "Enies Lobby",
+      "Post-Enies Lobby",
+      "Thriller Bark",
+      "Sabaody Archipelago",
+      "Amazon Lily",
+      "Impel Down",
+      "The Adventures of the Straw Hats",
+      "Marineford",
+      "Post-War",
+      "Return to Sabaody",
+      "Fishman Island",
+      "Punk Hazard",
+      "Dressrosa",
+      "Zou",
+      "Whole Cake Island",
+      "Reverie",
+      "Wano",
+      "Egghead"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "season_text_color",
+      "kanji_color"
+    ],
+    "extra_values": [
+      "rgb(69, 141, 200)",
+      "rgb(212, 51, 25)",
+      "rgb(212, 51, 25)"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "One Piece",
+      "color": "rgb(98,155,211)",
+      "file": "one piece font.ttf",
+      "size": 1.15,
+      "stroke_width": 0.7
+    }
+  ],
+  "creator": "Xena Rathon",
+  "description": [
+    "Anime Faded card type with the One Pace logo. Episode title in the One Piece font and season names replaced with arc titles."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-02T14:53:24"
+}
