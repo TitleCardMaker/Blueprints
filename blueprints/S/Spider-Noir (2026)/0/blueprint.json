@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "tinted glass",
+    "template_ids": [],
+    "font_color": "white",
+    "source_files": [],
+    "extra_keys": [
+      "episode_text_color"
+    ],
+    "extra_values": [
+      "white"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Park Lane",
+      "color": "black",
+      "file": "ParkLaneNF.otf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "A title card meant to capture the vibe of the series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-02T14:39:00"
+}
