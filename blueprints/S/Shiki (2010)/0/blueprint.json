@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime fade",
+    "hide_season_text": true,
+    "hide_episode_text": true,
+    "translations": [
+      {
+        "language_code": "ja",
+        "data_key": "kanji"
+      }
+    ],
+    "extra_keys": [
+      "kanji_color",
+      "episode_text_font_size"
+    ],
+    "extra_values": [
+      "rgba(250, 0, 30)",
+      "1"
+    ],
+    "source_files": [
+      "logo.png"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Shiki",
+      "file": "rm_albion.ttf",
+      "color": "rgba(250, 0, 30)",
+      "size": 3.0
+    }
+  ],
+  "creator": "Cwavs",
+  "description": [
+    "Anime Fade style cards with similar font and text colour to the logo. Season and Episode text is hidden. Kanji on the additional episodes is slightly adjusted to match with the other episodes."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-02T14:42:35"
+}
