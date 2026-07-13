@@ -1,0 +1,25 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "azuravian/TitleColorMatch",
+    "template_ids": [],
+    "font_color": "white",
+    "font_size": 1.05,
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Cinzel Decorative (Regular)",
+      "color": "white",
+      "file": "CinzelDecorative-Regular.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Title card leveraging a font style similar to the show's title font and utilizing the Title Color Match card type."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-13T22:30:04"
+}
