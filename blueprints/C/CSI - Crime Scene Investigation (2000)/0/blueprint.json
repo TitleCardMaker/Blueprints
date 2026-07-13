@@ -1,0 +1,44 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "olivier",
+    "hide_season_text": false,
+    "template_ids": [],
+    "font_size": 1.25,
+    "font_stroke_width": 3.0,
+    "source_files": [],
+    "extra_keys": [
+      "episode_text_color",
+      "episode_text_font_size",
+      "episode_text_vertical_shift",
+      "stroke_color",
+      "omit_gradient",
+      "gradient_type"
+    ],
+    "extra_values": [
+      "white",
+      "1.5",
+      "20",
+      "black",
+      "false",
+      "improved"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "CSI",
+      "color": "#34BC26",
+      "file": "clicrg.ttf",
+      "title_case": "upper"
+    }
+  ],
+  "creator": "w7wil",
+  "description": [
+    "A simple CSI Title Card Blueprint, done out of necessity as I couldn't find anything else that fit the feel of the show."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-07-13T22:31:12"
+}
