@@ -1,0 +1,171 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "anime",
+    "template_ids": [],
+    "font_color": "rgb(162, 217, 235)",
+    "font_size": 2.0,
+    "font_stroke_width": 0.7,
+    "source_files": []
+  },
+  "episodes": {
+    "s1e1": {
+      "font_color": "rgb(229, 231, 67)"
+    },
+    "s1e2": {
+      "font_color": "rgb(195, 146, 202)"
+    },
+    "s1e3": {
+      "font_color": "rgb(131, 18, 20)"
+    },
+    "s1e4": {
+      "font_color": "rgb(43, 113, 162)"
+    },
+    "s1e5": {
+      "font_color": "rgb(195, 201, 139)"
+    },
+    "s1e6": {
+      "font_color": "rgb(89, 152, 97)"
+    },
+    "s1e7": {
+      "font_color": "rgb(167, 72, 104)"
+    },
+    "s1e8": {
+      "font_color": "rgb(43, 67, 129)"
+    },
+    "s1e9": {
+      "font_color": "rgb(142, 60, 87)"
+    },
+    "s1e10": {
+      "font_color": "rgb(143, 21, 20)"
+    },
+    "s2e1": {
+      "font_color": "rgb(158, 41, 29)"
+    },
+    "s2e2": {
+      "font_color": "rgb(160, 81, 99)"
+    },
+    "s2e3": {
+      "font_color": "rgb(199, 202, 76)"
+    },
+    "s2e4": {
+      "font_color": "rgb(163, 81, 100)"
+    },
+    "s2e5": {
+      "font_color": "rgb(65, 22, 39)"
+    },
+    "s2e6": {
+      "font_color": "rgb(94, 155, 107)"
+    },
+    "s2e7": {
+      "font_color": "rgb(24, 114, 171)"
+    },
+    "s2e8": {
+      "font_color": "rgb(161, 37, 27)"
+    },
+    "s3e1": {
+      "font_color": "rgb(227, 230, 80)"
+    },
+    "s3e2": {
+      "font_color": "rgb(166, 74, 96)"
+    },
+    "s3e3": {
+      "font_color": "rgb(33, 108, 164)"
+    },
+    "s3e4": {
+      "font_color": "rgb(150, 30, 19)"
+    },
+    "s3e5": {
+      "font_color": "rgb(191, 193, 69)"
+    },
+    "s3e6": {
+      "font_color": "rgb(88, 150, 100)"
+    },
+    "s3e7": {
+      "font_color": "rgb(165, 34, 25)"
+    },
+    "s3e8": {
+      "font_color": "rgb(92, 156, 105)"
+    },
+    "s3e9": {
+      "font_color": "rgb(39, 68, 133)"
+    },
+    "s4e1": {
+      "font_color": "rgb(214, 218, 65)"
+    },
+    "s4e2": {
+      "font_color": "rgb(157, 26, 15)"
+    },
+    "s4e3": {
+      "font_color": "rgb(85, 157, 100)"
+    },
+    "s4e4": {
+      "font_color": "rgb(212, 167, 216)"
+    },
+    "s4e5": {
+      "font_color": "rgb(154, 25, 13)"
+    },
+    "s4e6": {
+      "font_color": "rgb(221, 168, 226)"
+    },
+    "s4e7": {
+      "font_color": "rgb(157, 27, 15)"
+    },
+    "s4e8": {
+      "font_color": "rgb(88, 161, 102)"
+    },
+    "s4e9": {
+      "font_color": "rgb(231, 235, 72)"
+    },
+    "s4e10": {
+      "font_color": "rgb(58, 14, 31)"
+    },
+    "s5e1": {
+      "font_color": "rgb(57, 14, 31)"
+    },
+    "s5e2": {
+      "font_color": "rgb(11, 67, 173)"
+    },
+    "s5e3": {
+      "font_color": "rgb(151, 25, 12)"
+    },
+    "s5e4": {
+      "font_color": "rgb(153, 69, 88)"
+    },
+    "s5e5": {
+      "font_color": "rgb(91, 168, 106)"
+    },
+    "s5e6": {
+      "font_color": "rgb(19, 106, 163)"
+    },
+    "s5e7": {
+      "font_color": "rgb(155, 70, 89)"
+    },
+    "s5e8": {
+      "font_color": "rgb(223, 170, 227)"
+    },
+    "s5e9": {
+      "font_color": "rgb(162, 74, 95)"
+    },
+    "s5e10": {
+      "font_color": "rgb(20, 110, 168)"
+    }
+  },
+  "fonts": [
+    {
+      "name": "Hacks (free for personal use)",
+      "file": "Fontgrab.ttf"
+    }
+  ],
+  "creator": "barbeq",
+  "description": [
+    "All of the title cards match the colour of the title card in the actual episode. Anime style and font similar to the show font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg",
+    "preview3.jpg"
+  ],
+  "created": "2026-07-13T22:29:18"
+}
