@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/HorizonTitleCard",
+    "template_ids": [],
+    "font_color": "yellow",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Racing Sans One",
+      "file": "RacingSansOne-Regular.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Designed to match the in your face attitude of the main show title while matching the font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-27T16:25:57"
+}

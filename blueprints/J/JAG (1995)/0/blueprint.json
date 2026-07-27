@@ -1,0 +1,30 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "white border",
+    "template_ids": [],
+    "source_files": [],
+    "extra_keys": [
+      "border_color"
+    ],
+    "extra_values": [
+      "#E7CA10"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "JAG",
+      "color": "#E7CA10",
+      "file": "Action_Force.ttf",
+      "title_case": "source"
+    }
+  ],
+  "creator": "w7wil",
+  "description": [
+    "Blueprint for the TV series, JAG, the show that started the NCIS universe."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-07-27T16:27:11"
+}
