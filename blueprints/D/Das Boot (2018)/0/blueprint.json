@@ -1,0 +1,34 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "KHthe8th/TintedFramePlus",
+    "template_ids": [],
+    "font_color": "rgb(236, 236, 236)",
+    "source_files": [],
+    "extra_keys": [
+      "logo_size",
+      "frame_color",
+      "frame_width"
+    ],
+    "extra_values": [
+      "1.4",
+      "rgb(236, 236, 236)",
+      "6"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Das Boot",
+      "file": "Dirty Old Town.ttf"
+    }
+  ],
+  "creator": "Vince0511",
+  "description": [
+    "Simple Blueprint for DAS BOOT (2018).",
+    "Based on 'TintedFrame+' with slightly bigger bordeer, original logo and Episode Title in the same font and colour as the logo."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-09-03T17:50:49"
+}
