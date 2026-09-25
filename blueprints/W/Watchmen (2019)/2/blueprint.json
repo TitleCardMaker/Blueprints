@@ -1,0 +1,25 @@
+{
+  "series": {
+    "card_type": "textless",
+    "source_files": [
+      "s1e2.jpg",
+      "s1e1.jpg",
+      "s1e8.jpg",
+      "s1e5.jpg",
+      "s1e6.jpg",
+      "s1e4.jpg",
+      "s1e3.jpg",
+      "s1e7.jpg",
+      "s1e9.jpg"
+    ]
+  },
+  "creator": "abelardthebard",
+  "description": [
+    "1080p screenshots of the Title Cards as displayed in each episode."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-09-25T15:39:24"
+}
