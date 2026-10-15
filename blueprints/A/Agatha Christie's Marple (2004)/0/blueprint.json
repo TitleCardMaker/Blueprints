@@ -1,0 +1,41 @@
+{
+  "series": {
+    "font_id": 0,
+    "skip_localized_images": true,
+    "episode_text_format": "Episode {to_cardinal(episode_number)}",
+    "extra_keys": [
+      "stroke_color",
+      "title_text_position",
+      "divider_color",
+      "season_text_format",
+      "text_gravity"
+    ],
+    "extra_values": [
+      "black",
+      "right",
+      "#CDCECF",
+      "Season {to_cardinal(season_number)}",
+      "west"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Champagne & Limousines",
+      "file": "Champagne & Limousines.ttf",
+      "color": "#FF8500",
+      "title_case": "title",
+      "size": 1.6,
+      "stroke_width": 0.5
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Divider card with logo color in episode text and season/episode numbers. Champagne & Limousines free font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2026-10-15T15:18:30"
+}
