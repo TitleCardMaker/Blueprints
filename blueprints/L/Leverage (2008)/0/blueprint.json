@@ -1,0 +1,33 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "graph",
+    "extra_keys": [
+      "text_position",
+      "graph_color",
+      "graph_radius"
+    ],
+    "extra_values": [
+      "lower right",
+      "#0FA1DA",
+      "200"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Leverage",
+      "color": "#0FA1DA",
+      "file": "Arimo-MediumItalic.ttf",
+      "stroke_width": 1.2
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Graph title card with personalized font and colors."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-10-23T21:40:45"
+}
