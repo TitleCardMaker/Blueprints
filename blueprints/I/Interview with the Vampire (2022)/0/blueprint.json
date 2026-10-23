@@ -1,0 +1,58 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Supremicus/HorizonTitleCard",
+    "template_ids": [],
+    "font_kerning": 0.01,
+    "source_files": [],
+    "extra_keys": [
+      "omit_gradient",
+      "title_horizontal_shift",
+      "frame_width",
+      "top_element",
+      "middle_element",
+      "bottom_element",
+      "episode_text_kerning",
+      "crt_state_overlay",
+      "symbol",
+      "symbol_opacity",
+      "index_text_horizontal_shift",
+      "logo_vertical_shift"
+    ],
+    "extra_values": [
+      "False",
+      "-750",
+      "3",
+      "logo",
+      "omit",
+      "index",
+      "2",
+      "false",
+      "logo",
+      "33",
+      "0",
+      "0"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Vampire",
+      "color": "goldenrod4",
+      "file": "itc-anna-regular-opentype-2.otf",
+      "replacements_in": [
+        "_"
+      ],
+      "replacements_out": [
+        ""
+      ]
+    }
+  ],
+  "creator": "trininja2k",
+  "description": [
+    "Logo with transparency, custom font in golden color."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-10-23T21:14:23"
+}

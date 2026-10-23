@@ -1,0 +1,42 @@
+{
+  "series": {
+    "font_id": 0,
+    "hide_season_text": true,
+    "card_type": "divider",
+    "skip_localized_images": true,
+    "extra_keys": [
+      "title_text_position",
+      "divider_color",
+      "stroke_color",
+      "text_gravity",
+      "divider_width"
+    ],
+    "extra_values": [
+      "right",
+      "#E41B09",
+      "black",
+      "west",
+      "15"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Fringe TTF",
+      "color": "#E9E9ED",
+      "file": "Geometos.ttf",
+      "title_case": "upper",
+      "size": 1.5,
+      "stroke_width": 1.2
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Divider title card with red prominent divider, and personalized font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2026-10-23T21:28:49"
+}

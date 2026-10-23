@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "landscape",
+    "hide_episode_text": true,
+    "extra_keys": [
+      "season_text_format",
+      "shadow_color",
+      "box_color",
+      "box_adjustments",
+      "blur_box",
+      "rounding_radius"
+    ],
+    "extra_values": [
+      "SEASON {to_cardinal(season_number)}",
+      "#535353",
+      "#61309B",
+      "-10 -30 -10 -30",
+      "True",
+      "10"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Fringe TTF",
+      "color": "#DE7A72",
+      "file": "Geometos.ttf",
+      "title_case": "title"
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Landscape title card, custom colors and font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-10-23T21:22:50"
+}
