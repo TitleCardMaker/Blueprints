@@ -1,0 +1,40 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "banner",
+    "template_ids": [],
+    "font_color": "#FFD902",
+    "source_files": [
+      "pitt-s2e11.jpg",
+      "pitt-s1e2.jpg"
+    ],
+    "extra_keys": [
+      "episode_text_color",
+      "alternate_color",
+      "banner_color"
+    ],
+    "extra_values": [
+      "#45608B",
+      "#FFD902",
+      "#45608B"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Institute-LTAmberWideExtraExpandedBold",
+      "file": "LT Amber Wide Bold.otf",
+      "kerning": 2.5,
+      "interword_spacing": 100,
+      "title_case": "upper"
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Banner title card with show colors and custom font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-10-23T21:16:33"
+}
