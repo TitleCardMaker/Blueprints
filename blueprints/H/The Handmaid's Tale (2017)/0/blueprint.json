@@ -1,0 +1,37 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "overline",
+    "extra_keys": [
+      "episode_text_color",
+      "hide_line",
+      "separator"
+    ],
+    "extra_values": [
+      "#C2C2C2",
+      "True",
+      "|"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Kanit Black",
+      "file": "Kanit-Black.ttf",
+      "color": "#BE332C",
+      "title_case": "upper",
+      "size": 1.5,
+      "stroke_width": 1.2,
+      "interline_spacing": 80,
+      "vertical_shift": 20
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Overline title card with a few customizations."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-10-23T21:27:31"
+}
