@@ -1,0 +1,32 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "divider",
+    "extra_keys": [
+      "title_text_position",
+      "text_position"
+    ],
+    "extra_values": [
+      "right",
+      "lower left"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "12 Monkeys - Microgramma Bold Extended",
+      "file": "MICROGBE.TTF",
+      "color": "#AF1215",
+      "size": 1.5,
+      "stroke_width": 1.3
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Divider title card with custom free font in red and thicker stroke in black. Writing on the left of the card."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg"
+  ],
+  "created": "2026-10-23T21:21:25"
+}
