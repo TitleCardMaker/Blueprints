@@ -1,0 +1,37 @@
+{
+  "series": {
+    "card_type": "Supremicus/DawnTitleCard",
+    "font_id": 0,
+    "source_files": [],
+    "extra_keys": [
+      "title_text_format",
+      "stroke_color",
+      "episode_text_stroke_color",
+      "crt_overlay"
+    ],
+    "extra_values": [
+      "{titlecase(title)}",
+      "#2E96BD",
+      "#2E96BD",
+      "nobezel"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "Eureka",
+      "color": "#EDF8FB",
+      "stroke_width": 1.3,
+      "file": "unb_pro_black.otf"
+    }
+  ],
+  "creator": "maopequena",
+  "description": [
+    "Supremicus Dawn title card, with a no bezel CRT TV overlay, blue stroke on the lettering and custom free font."
+  ],
+  "previews": [
+    "preview0.jpg",
+    "preview1.jpg",
+    "preview2.jpg"
+  ],
+  "created": "2026-11-13T23:31:23"
+}
