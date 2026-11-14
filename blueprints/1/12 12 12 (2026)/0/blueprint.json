@@ -1,0 +1,22 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "striped",
+    "template_ids": [],
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Michroma",
+      "file": "Michroma-Regular.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Leverages the Striped card type and a custom font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-11-13T23:21:40"
+}

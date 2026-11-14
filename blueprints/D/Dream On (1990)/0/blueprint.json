@@ -1,0 +1,29 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "Yozora/RetroTitleCard",
+    "template_ids": [],
+    "font_color": "red",
+    "source_files": [],
+    "extra_keys": [
+      "override_style"
+    ],
+    "extra_values": [
+      "play"
+    ]
+  },
+  "fonts": [
+    {
+      "name": "EB Garamond - Extra Bold Italic",
+      "file": "EBGaramond-ExtraBoldItalic.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Leverages the Retro card type and a custom font to better align with the TV show within a TV show feel of the series."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-11-13T23:14:32"
+}

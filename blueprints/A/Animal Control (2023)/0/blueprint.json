@@ -1,0 +1,23 @@
+{
+  "series": {
+    "font_id": 0,
+    "card_type": "standard",
+    "template_ids": [],
+    "font_color": "rgb(235, 233, 212)",
+    "source_files": []
+  },
+  "fonts": [
+    {
+      "name": "Alfa Slab One",
+      "file": "AlfaSlabOne-Regular.ttf"
+    }
+  ],
+  "creator": "starpc",
+  "description": [
+    "Standard card theme with a custom font that closely aligns with the title font."
+  ],
+  "previews": [
+    "preview0.jpg"
+  ],
+  "created": "2026-11-13T23:15:33"
+}
